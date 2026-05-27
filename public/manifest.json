@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+  "short_name": "Clover Wiki",
+  "description": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
   "start_url": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "theme_color": "#da1e37",
+  "background_color": "#09090b",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -35,5 +35,13 @@
       "sizes": "180x180",
       "type": "image/png"
     }
-  ]
+  ],
+  "scope": "/",
+  "categories": [
+    "games",
+    "entertainment",
+    "reference"
+  ],
+  "lang": "en",
+  "dir": "ltr"
 }

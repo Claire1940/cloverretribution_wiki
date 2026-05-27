@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "description": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "keywords": "Clover Retribution, Roblox, codes, magic, races, traits, grimoires, weapons, bosses",
+      "ogTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "ogDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "twitterTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "twitterDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Black Clover Inspired Roblox RPG",
+    "title": "Clover Retribution Wiki",
+    "description": "Clover Retribution is a Roblox anime RPG focused on grimoires, magic mastery, races, traits, weapons, quests, bosses, and code rewards.",
+    "getFreeCodesCTA": "Start Here",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "64.6M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "1.8K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "92.96%",
+        "label": "Upvote Rating"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "384K+",
+        "label": "Favorites"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Clover Retribution Gameplay",
+    "description": "Watch a starter guide focused on early grinding, magic progression, races, and beginner-friendly Clover Retribution tips."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Clover Retribution",
     "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "subtitle": "Track codes, magic, races, traits, grimoires, weapons, and progression routes for Clover Retribution.",
     "cards": [
       {
         "icon": "Herunterladen",
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to Dive Into Clover Retribution?",
+    "description": "Join the official community for update logs, Trello tracking, and player discussions around Clover Retribution.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Clover Retribution Wiki",
+    "description": "Your fan-made resource hub for Clover Retribution codes, magic, races, traits, grimoires, bosses, and beginner guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Roblox Group",
+    "steamCommunity": "Official Trello",
+    "steamStore": "Play on Roblox",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Clover Retribution Wiki. Not affiliated with the Clover Retribution developers.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

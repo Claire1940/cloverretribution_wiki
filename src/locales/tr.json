@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "description": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "keywords": "Clover Retribution, Roblox, codes, magic, races, traits, grimoires, weapons, bosses",
+      "ogTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "ogDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "twitterTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "twitterDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Ana Sayfa",
     "more": "Daha Fazla",
-    "playNow": "Demo İndir",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Dil Değiştir",
     "switchTheme": "Tema Değiştir",
     "lightMode": "Açık Mod",
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Black Clover Inspired Roblox RPG",
+    "title": "Clover Retribution Wiki",
+    "description": "Clover Retribution is a Roblox anime RPG focused on grimoires, magic mastery, races, traits, weapons, quests, bosses, and code rewards.",
+    "getFreeCodesCTA": "Start Here",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "64.6M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "1.8K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "92.96%",
+        "label": "Upvote Rating"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "384K+",
+        "label": "Favorites"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Clover Retribution Gameplay",
+    "description": "Watch a starter guide focused on early grinding, magic progression, races, and beginner-friendly Clover Retribution tips."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Clover Retribution",
     "titleHighlight": "Kaynaklar",
-    "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
+    "subtitle": "Track codes, magic, races, traits, grimoires, weapons, and progression routes for Clover Retribution.",
     "cards": [
       {
         "icon": "İndir",
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready to Dive Into Clover Retribution?",
+    "description": "Join the official community for update logs, Trello tracking, and player discussions around Clover Retribution.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Clover Retribution Wiki",
+    "description": "Your fan-made resource hub for Clover Retribution codes, magic, races, traits, grimoires, bosses, and beginner guides.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
+    "twitter": "Roblox Group",
+    "steamCommunity": "Official Trello",
+    "steamStore": "Play on Roblox",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyright": "© 2026 Clover Retribution Wiki. Not affiliated with the Clover Retribution developers.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

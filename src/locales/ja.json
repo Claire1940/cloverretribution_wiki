@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "description": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "keywords": "Clover Retribution, Roblox, codes, magic, races, traits, grimoires, weapons, bosses",
+      "ogTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "ogDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "twitterTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "twitterDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Play on Roblox",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -34,38 +34,38 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Black Clover Inspired Roblox RPG",
+    "title": "Clover Retribution Wiki",
+    "description": "Clover Retribution is a Roblox anime RPG focused on grimoires, magic mastery, races, traits, weapons, quests, bosses, and code rewards.",
+    "getFreeCodesCTA": "Start Here",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "64.6M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "1.8K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "92.96%",
+        "label": "Upvote Rating"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "384K+",
+        "label": "Favorites"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Clover Retribution Gameplay",
+    "description": "Watch a starter guide focused on early grinding, magic progression, races, and beginner-friendly Clover Retribution tips."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Clover Retribution",
     "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "subtitle": "Track codes, magic, races, traits, grimoires, weapons, and progression routes for Clover Retribution.",
     "cards": [
       {
         "icon": "BookOpen",
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Dive Into Clover Retribution?",
+    "description": "Join the official community for update logs, Trello tracking, and player discussions around Clover Retribution.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Clover Retribution Wiki",
+    "description": "Your fan-made resource hub for Clover Retribution codes, magic, races, traits, grimoires, bosses, and beginner guides.",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
+    "twitter": "Roblox Group",
+    "steamCommunity": "Official Trello",
+    "steamStore": "Play on Roblox",
     "about": "このサイトについて",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Clover Retribution Wiki. Not affiliated with the Clover Retribution developers.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "description": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "keywords": "Clover Retribution, Roblox, codes, magic, races, traits, grimoires, weapons, bosses",
+      "ogTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "ogDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides.",
+      "twitterTitle": "Clover Retribution Wiki - Codes, Magic & Race Guide",
+      "twitterDescription": "Clover Retribution Wiki for codes, magic, races, traits, grimoires, weapons, bosses, quests, beginner tips, Roblox updates, and build guides."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Главная",
     "more": "Ещё",
-    "playNow": "Играть на Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Сменить язык",
     "switchTheme": "Сменить тему",
     "lightMode": "Светлая тема",
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Black Clover Inspired Roblox RPG",
+    "title": "Clover Retribution Wiki",
+    "description": "Clover Retribution is a Roblox anime RPG focused on grimoires, magic mastery, races, traits, weapons, quests, bosses, and code rewards.",
+    "getFreeCodesCTA": "Start Here",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "64.6M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "1.8K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "92.96%",
+        "label": "Upvote Rating"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "384K+",
+        "label": "Favorites"
       }
     }
   },
   "gameFeature": {
-    "title": "Геймплей Lucid Blocks",
-    "description": "Исследуйте сюрреалистичные биомы, объединяйте предметы с помощью Apotheosis и выживайте среди странных существ в этой похожей на сон воксельной песочнице на Steam."
+    "title": "Clover Retribution Gameplay",
+    "description": "Watch a starter guide focused on early grinding, magic progression, races, and beginner-friendly Clover Retribution tips."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Clover Retribution",
     "titleHighlight": "Ресурсы",
-    "subtitle": "Все, что вам нужно для исследования, крафта и выживания в Lucid Blocks",
+    "subtitle": "Track codes, magic, races, traits, grimoires, weapons, and progression routes for Clover Retribution.",
     "cards": [
       {
         "icon": "BookOpen",
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Dive Into Clover Retribution?",
+    "description": "Join the official community for update logs, Trello tracking, and player discussions around Clover Retribution.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Clover Retribution Wiki",
+    "description": "Your fan-made resource hub for Clover Retribution codes, magic, races, traits, grimoires, bosses, and beginner guides.",
     "resources": "Ресурсы",
     "community": "Сообщество",
     "legal": "Юридическая информация",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
+    "twitter": "Roblox Group",
+    "steamCommunity": "Official Trello",
+    "steamStore": "Play on Roblox",
     "about": "О проекте",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
     "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "copyright": "© 2026 Clover Retribution Wiki. Not affiliated with the Clover Retribution developers.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
