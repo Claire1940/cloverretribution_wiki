@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { ExternalLink, Play } from "lucide-react";
 
@@ -12,11 +12,30 @@ interface VideoFeatureProps {
 
 export function VideoFeature({ videoId, title, posterSrc }: VideoFeatureProps) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
   const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`;
+
+  useEffect(() => {
+    if (!wrapperRef.current || isPlaying) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry && entry.isIntersecting) {
+          setIsPlaying(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.4 },
+    );
+
+    observer.observe(wrapperRef.current);
+    return () => observer.disconnect();
+  }, [isPlaying]);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4" ref={wrapperRef}>
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-border bg-card shadow-2xl shadow-black/30">
         {isPlaying ? (
           <iframe
@@ -47,9 +66,7 @@ export function VideoFeature({ videoId, title, posterSrc }: VideoFeatureProps) {
               <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur transition group-hover:bg-[hsl(var(--nav-theme)/0.9)]">
                 <Play className="h-7 w-7 fill-current text-white" />
               </div>
-              <p className="max-w-2xl text-lg font-semibold text-white md:text-2xl">
-                {title}
-              </p>
+              <p className="max-w-2xl text-lg font-semibold text-white md:text-2xl">{title}</p>
             </div>
           </button>
         )}
