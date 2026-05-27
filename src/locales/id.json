@@ -1,10 +1,853 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Clover Retribution - Kode, Tier List, dan Progresi",
+      "description": "Wiki Clover Retribution untuk kode, tautan Trello dan Discord, langkah pemula, tier list, build stat, dan catatan pembaruan.",
+      "keywords": "Clover Retribution, kode Clover Retribution, tier list Clover Retribution, ras Clover Retribution",
+      "ogTitle": "Wiki Clover Retribution - Kode, Tier List, dan Progresi",
+      "ogDescription": "Wiki Clover Retribution untuk kode, tautan Trello dan Discord, langkah pemula, tier list, build stat, dan catatan pembaruan.",
+      "twitterTitle": "Wiki Clover Retribution - Kode, Tier List, dan Progresi",
+      "twitterDescription": "Wiki Clover Retribution untuk kode, tautan Trello dan Discord, langkah pemula, tier list, build stat, dan catatan pembaruan."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "links": "Links",
+    "codes": "Kode",
+    "links": "Tautan",
     "tier": "Tier",
-    "guide": "Guide",
-    "builds": "Builds",
-    "magic": "Magic"
+    "guide": "Panduan",
+    "builds": "Build",
+    "magic": "Sihir"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "RPG Black Clover Roblox",
+    "title": "Wiki Clover Retribution",
+    "description": "Pantau kode Clover Retribution yang aktif, build terbaik, tier ras dan trait, serta sumber daya resmi di satu tempat.",
+    "getFreeCodesCTA": "Cek Kode",
+    "playOnSteamCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "64.6M+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "1.8K+",
+        "label": "Pemain Online"
+      },
+      "stat3": {
+        "value": "92.96%",
+        "label": "Rating Upvote"
+      },
+      "stat4": {
+        "value": "384K+",
+        "label": "Favorit"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Clover Retribution",
+    "description": "Tonton rute awal Clover Retribution sebelum Anda menggunakan spin."
+  },
+  "tools": {
+    "title": "Clover Retribution",
+    "titleHighlight": "Navigasi Modul",
+    "subtitle": "Lompat ke modul Clover Retribution yang Anda butuhkan.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Kode Clover Retribution",
+        "description": "Hadiah terbaru dan syarat penukaran",
+        "sectionId": "codes"
+      },
+      {
+        "icon": "Link2",
+        "title": "Tautan Trello dan Discord Clover Retribution",
+        "description": "Sumber daya resmi dan pusat komunitas",
+        "sectionId": "trello-discord-links"
+      },
+      {
+        "icon": "Compass",
+        "title": "Panduan Pemula Clover Retribution",
+        "description": "Pengaturan sesi pertama dan alur quest",
+        "sectionId": "beginner-guide"
+      },
+      {
+        "icon": "WandSparkles",
+        "title": "Tier List Sihir dan Grimoire Clover Retribution",
+        "description": "Pilihan meta dan catatan build",
+        "sectionId": "magic-grimoire-tier-list"
+      },
+      {
+        "icon": "Users",
+        "title": "Tier List Ras Clover Retribution",
+        "description": "Ras terbaik untuk keputusan reroll",
+        "sectionId": "race-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "Tier List Trait Clover Retribution",
+        "description": "Nilai trait berdasarkan tier dan peran",
+        "sectionId": "traits-tier-list"
+      },
+      {
+        "icon": "Swords",
+        "title": "Panduan Stat, Senjata, dan Crafting Clover Retribution",
+        "description": "Perencanaan stat dan progresi perlengkapan",
+        "sectionId": "stats-weapons-crafting-guide"
+      },
+      {
+        "icon": "BellRing",
+        "title": "Log Pembaruan dan Panduan Ras Devil Clover Retribution",
+        "description": "Pembaruan terkini dan prioritas rilis",
+        "sectionId": "update-log-devil-race-guide"
+      }
+    ]
+  },
+  "modules": {
+    "cloverRetributionCodes": {
+      "title": "Kode Clover Retribution",
+      "intro": "Tukarkan kode Clover Retribution ini untuk putaran ras, putaran sihir, putaran sifat, dan bundel putar ulang penuh.",
+      "items": [
+        {
+          "code": "!devilracerelease",
+          "reward": "350 putaran dari semua jenis",
+          "requirements": "Membutuhkan level 40 dan keanggotaan grup Roblox",
+          "priority": "Tertinggi"
+        },
+        {
+          "code": "!fixingstuff",
+          "reward": "150 putaran dari semua jenis",
+          "requirements": "Membutuhkan level 40 dan keanggotaan grup Roblox",
+          "priority": "Tinggi"
+        },
+        {
+          "code": "!iwasbusy",
+          "reward": "100 putaran dari semua jenis",
+          "requirements": "Penukaran menu utama",
+          "priority": "Tinggi"
+        }
+      ]
+    },
+    "cloverRetributionTrelloDiscordLinks": {
+      "title": "Tautan Trello dan Discord Clover Retribution",
+      "intro": "Gunakan tautan resmi Clover Retribution ini untuk mekanisme, pengumuman, postingan kode, dan dukungan.",
+      "items": [
+        {
+          "label": "Papan Trello Resmi",
+          "url": "https://trello.com/b/xKxR061L/clover-retribution-official-trello",
+          "useFor": "Referensi mekanisme, ras, sifat, sihir, dan pembaruan"
+        },
+        {
+          "label": "Discord Resmi",
+          "url": "https://discord.com/invite/clover-retribution",
+          "useFor": "Pengumuman langsung, kode baru, dan acara"
+        },
+        {
+          "label": "Halaman Game Roblox",
+          "url": "https://www.roblox.com/games/10912405603/Clover-Retribution",
+          "useFor": "Luncurkan game dan periksa pembaruan halaman game saat ini"
+        },
+        {
+          "label": "Komunitas Roblox",
+          "url": "https://www.roblox.com/communities/15890651/Clover-Retribution",
+          "useFor": "Bergabunglah dengan persyaratan kode yang dibatasi grup"
+        }
+      ]
+    },
+    "cloverRetributionBeginnerGuide": {
+      "title": "Panduan Pemula Clover Retribution",
+      "intro": "Rute pemula Clover Retribution ini membantu Anda menghindari putaran yang sia-sia dan reset statistik awal.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Bergabunglah dengan pusat game resmi",
+          "body": "Bergabunglah dengan halaman game Roblox dan komunitas Roblox resmi sebelum menukarkan hadiah yang dibatasi grup."
+        },
+        {
+          "step": 2,
+          "title": "Tukarkan hadiah kode terlebih dahulu",
+          "body": "Klaim kode aktif di menu utama dan simpan sebagian putaran Anda untuk build akhir Anda."
+        },
+        {
+          "step": 3,
+          "title": "Gunakan misi untuk leveling yang stabil",
+          "body": "Misi cerita dan yang dapat diulang memberikan EXP yang stabil dan progresi awal yang lebih bersih."
+        },
+        {
+          "step": 4,
+          "title": "Sesuaikan statistik dengan rencana tempur Anda",
+          "body": "Seimbangkan Kekuatan, Ketangkasan, Kecerdasan, dan Konstitusi di sekitar sihir inti dan gaya senjata Anda."
+        }
+      ]
+    },
+    "cloverRetributionMagicGrimoireTierList": {
+      "title": "Daftar Tingkat Sihir dan Grimoire Clover Retribution",
+      "intro": "Bandingkan opsi sihir Clover Retribution berdasarkan tingkat, peran, dan batas peningkatan.",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Meta Teratas",
+          "entries": [
+            {
+              "name": "Waktu",
+              "role": "Kontrol dan ledakan"
+            },
+            {
+              "name": "Darah",
+              "role": "Pertahanan dan tekanan"
+            },
+            {
+              "name": "Cahaya",
+              "role": "Serangan cepat"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan Kuat",
+          "entries": [
+            {
+              "name": "Air",
+              "role": "Kerusakan dan utilitas seimbang"
+            },
+            {
+              "name": "Es",
+              "role": "Kontrol dan rute kombo"
+            },
+            {
+              "name": "Kekosongan",
+              "role": "Peningkatan skala tinggi dengan peningkatan"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Situasional",
+          "entries": [
+            {
+              "name": "Api",
+              "role": "Tekanan bakar"
+            },
+            {
+              "name": "Racun",
+              "role": "Kerusakan seiring waktu"
+            },
+            {
+              "name": "Spasial",
+              "role": "Utilitas mobilitas"
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionRaceTierList": {
+      "title": "Daftar Tingkat Ras Clover Retribution",
+      "intro": "Bandingkan ras Clover Retribution terkuat berdasarkan kelangkaan, bonus stat, nilai pasif, dan kesesuaian build terbaik.",
+      "items": [
+        {
+          "tier": "SS",
+          "label": "Pilihan terbaik",
+          "entries": [
+            {
+              "name": "Starborn",
+              "rarity": "Mitos",
+              "why": "+65 Intelijen, +20% Mana, dan +50% resistensi kerusakan sihir untuk penskalaan penyihir teratas."
+            },
+            {
+              "name": "Solean",
+              "rarity": "Mitos",
+              "why": "Stat hibrida, kekebalan api, dan utilitas penerbangan khusus."
+            },
+            {
+              "name": "Ryomen",
+              "rarity": "Mitos",
+              "why": "Paket regenerasi yang berfokus pada sustain untuk permainan solo yang tangguh."
+            },
+            {
+              "name": "Mahari",
+              "rarity": "Mitos",
+              "why": "Resistensi Adaptif plus +25% Mana untuk pertarungan panjang."
+            },
+            {
+              "name": "Dreadscale",
+              "rarity": "Mitos",
+              "why": "Paket HP dan resistensi besar untuk build garis depan."
+            },
+            {
+              "name": "Legendary Kynthari",
+              "rarity": "Mitos",
+              "why": "Kecepatan, HP, dan Zenith Surge untuk rute jarak dekat yang agresif."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Ras endgame yang kuat",
+          "entries": [
+            {
+              "name": "Primordial Human",
+              "rarity": "Mitos",
+              "why": "Penyebaran STR/DEX/CON tinggi dengan bonus HP dan kecepatan."
+            },
+            {
+              "name": "Siphonite",
+              "rarity": "Mitos",
+              "why": "Regenerasi mana dan keterampilan sustain untuk daya tahan penyihir."
+            },
+            {
+              "name": "High Elf",
+              "rarity": "Legendaris",
+              "why": "Kerusakan sihir yang andal dan peningkatan mana."
+            },
+            {
+              "name": "Sylvan",
+              "rarity": "Legendaris",
+              "why": "Output penyembuhan yang kuat dan utilitas dukungan."
+            },
+            {
+              "name": "Kynthari",
+              "rarity": "Legendaris",
+              "why": "Progresi fisik cepat dengan bonus HP dan Zenith Surge."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan khusus yang hebat",
+          "entries": [
+            {
+              "name": "Dark Elf",
+              "rarity": "Legendaris",
+              "why": "Sinergi kerusakan api tinggi untuk build Api."
+            },
+            {
+              "name": "High Orc",
+              "rarity": "Legendaris",
+              "why": "Penskalaan fisik yang kuat berfokus pada Kekuatan."
+            },
+            {
+              "name": "Lynthari",
+              "rarity": "Legendaris",
+              "why": "Permainan menghindar dan mobilitas yang berfokus pada Ketangkasan."
+            },
+            {
+              "name": "Gorgon",
+              "rarity": "Epik",
+              "why": "Bonus penusuk dengan kekebalan racun dan pembatuan."
+            },
+            {
+              "name": "Stonekin",
+              "rarity": "Epik",
+              "why": "Daya tahan tinggi dan pertahanan anti-pukulan."
+            },
+            {
+              "name": "Dryad",
+              "rarity": "Epik",
+              "why": "Dukungan output penyembuhan untuk penyihir utilitas."
+            },
+            {
+              "name": "Hybrid Dwarf",
+              "rarity": "Legendaris",
+              "why": "Rute penguasaan/EXP yang hebat dengan utilitas penyihir yang tahan lama."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Berguna tapi bisa diganti",
+          "entries": [
+            {
+              "name": "Hybrid Elf",
+              "rarity": "Epik",
+              "why": "Nilai hibrida awal tetapi batas akhir permainan yang lebih rendah."
+            },
+            {
+              "name": "Beast",
+              "rarity": "Langka",
+              "why": "Dukungan pukulan awal yang baik."
+            },
+            {
+              "name": "Orc",
+              "rarity": "Langka",
+              "why": "Pilihan Kekuatan awal sebelum gulungan yang lebih baik."
+            },
+            {
+              "name": "Goblin",
+              "rarity": "Langka",
+              "why": "Berguna untuk farming emas daripada bertarung."
+            },
+            {
+              "name": "Dwarf",
+              "rarity": "Tidak Umum",
+              "why": "Utilitas ekonomi kerajinan dengan dampak tempur rendah."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Hanya pemula",
+          "entries": [
+            {
+              "name": "Human",
+              "rarity": "Umum",
+              "why": "Tidak ada buff langsung, paling baik diganti saat putaran ras tersedia."
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionTraitsTierList": {
+      "title": "Daftar Tingkat Sifat Clover Retribution",
+      "intro": "Peringkat sifat Clover Retribution berdasarkan kelangkaan, dampak pasif, sinergi build, dan prioritas reroll.",
+      "items": [
+        {
+          "tier": "SS",
+          "label": "Sifat penentu build",
+          "entries": [
+            {
+              "name": "Power Of Friendship",
+              "rarity": "Mythical",
+              "why": "Pemicu cheat-death ditambah pemulihan dan i-frame singkat."
+            },
+            {
+              "name": "Mystical Eyes",
+              "rarity": "Mythical",
+              "why": "Peningkatan stat luas dengan tumpukan skala burst."
+            },
+            {
+              "name": "Monstrous Reserves",
+              "rarity": "Mythical",
+              "why": "Kolam mana besar dan regenerasi untuk rotasi panjang."
+            },
+            {
+              "name": "Divine Restriction",
+              "rarity": "Mythical",
+              "why": "Sifat fisik tanpa sihir terbaik dengan mobilitas dan kemampuan bertahan hidup."
+            },
+            {
+              "name": "Dragon's Blessing",
+              "rarity": "Mythical",
+              "why": "Utilitas berbasis keinginan yang sering dan opsi sustain."
+            },
+            {
+              "name": "Adaptive Resistance",
+              "rarity": "Mythical",
+              "why": "Pertahanan adaptif eksklusif Mahari dan utilitas ofensif."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Penyimpanan endgame",
+          "entries": [
+            {
+              "name": "High Speed Regeneration",
+              "rarity": "Mythical",
+              "why": "Sifat sustain Ryomen untuk pertarungan yang diperpanjang."
+            },
+            {
+              "name": "Prodigy",
+              "rarity": "Mythical",
+              "why": "Kecepatan progresi sangat tinggi dengan dukungan stat global."
+            },
+            {
+              "name": "Heavenly Restricted",
+              "rarity": "Legendary",
+              "why": "Rute kerusakan fisik yang sangat baik dengan penalti mana yang berat."
+            },
+            {
+              "name": "Arcane Zenith",
+              "rarity": "Legendary",
+              "why": "Pengurangan konsumsi mana yang besar untuk build caster."
+            },
+            {
+              "name": "Mana Rampage",
+              "rarity": "Legendary",
+              "why": "Peningkatan kerusakan sihir yang kuat saat sustain mana teratasi."
+            },
+            {
+              "name": "Tenacity",
+              "rarity": "Legendary",
+              "why": "Pengurangan kerusakan HP rendah yang andal untuk kemampuan bertahan hidup bos."
+            },
+            {
+              "name": "Boss Slayer",
+              "rarity": "Legendary",
+              "why": "Kerusakan bos tinggi dengan trade-off gerakan yang dapat dikelola."
+            },
+            {
+              "name": "Loved by Mana",
+              "rarity": "Legendary",
+              "why": "Peningkatan mana datar yang besar untuk pengaturan yang banyak menggunakan mantra."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Sifat build yang kuat",
+          "entries": [
+            {
+              "name": "Lyrical Surge",
+              "rarity": "Legendary",
+              "why": "Siklus dukungan ofensif/defensif seluruh party yang berguna."
+            },
+            {
+              "name": "Warrior's Might",
+              "rarity": "Legendary",
+              "why": "Menggandakan kesehatan blok pada tugas yang berfokus pada Kekuatan."
+            },
+            {
+              "name": "Arcane Insight",
+              "rarity": "Legendary",
+              "why": "EXP Clover yang kuat dan skala sihir kondisional."
+            },
+            {
+              "name": "Swift Reflexes",
+              "rarity": "Legendary",
+              "why": "Peningkatan mobilitas dan perfect-dodge untuk build DEX."
+            },
+            {
+              "name": "Unyielding Sentinel",
+              "rarity": "Legendary",
+              "why": "Pertahanan pasif yang berskala, terkuat saat HP rendah."
+            },
+            {
+              "name": "Zenith Surge",
+              "rarity": "Legendary",
+              "why": "Skala kerusakan HP rendah eksklusif Kynthari."
+            },
+            {
+              "name": "Nature's Bond",
+              "rarity": "Legendary",
+              "why": "Peningkatan stat zona hutan eksklusif Sylvan."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Sifat utilitas yang berguna",
+          "entries": [
+            {
+              "name": "Noble",
+              "rarity": "Epic",
+              "why": "Peningkatan mana awal yang baik untuk caster."
+            },
+            {
+              "name": "Superior Speed",
+              "rarity": "Epic",
+              "why": "Peningkatan mobilitas sederhana untuk kenyamanan."
+            },
+            {
+              "name": "Mystic Savant",
+              "rarity": "Epic",
+              "why": "Sifat efisiensi mana interim yang solid."
+            },
+            {
+              "name": "Gaia's Blessing",
+              "rarity": "Epic",
+              "why": "Nilai khusus untuk build Bumi dan Pasir."
+            },
+            {
+              "name": "Gold Fever",
+              "rarity": "Rare",
+              "why": "Berguna untuk farming ekonomi, bukan untuk pertarungan akhir."
+            },
+            {
+              "name": "Mana Block",
+              "rarity": "Uncommon",
+              "why": "Sifat pembuka pertahanan dengan nilai jangka panjang terbatas."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Prioritas rendah",
+          "entries": [
+            {
+              "name": "Scholar",
+              "rarity": "Rare",
+              "why": "Bonus Intelijen minor, mudah di-reroll nanti."
+            },
+            {
+              "name": "Arcane Adept",
+              "rarity": "Rare",
+              "why": "Efisiensi mana dasar dengan batas rendah."
+            },
+            {
+              "name": "Finesse Master",
+              "rarity": "Uncommon",
+              "why": "Nilai Dexterity awal yang kecil saja."
+            },
+            {
+              "name": "Fighter",
+              "rarity": "Uncommon",
+              "why": "Campuran stat fisik pemula, mudah diganti."
+            },
+            {
+              "name": "Average",
+              "rarity": "Common",
+              "why": "Tidak ada keuntungan langsung, target reroll segera."
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionStatsWeaponsCraftingGuide": {
+      "title": "Panduan Statistik, Senjata, dan Kerajinan Clover Retribution",
+      "intro": "Bangun di sekitar satu jalur kerusakan utama Clover Retribution terlebih dahulu, lalu sesuaikan ras, sifat, alokasi statistik, dan bonus perlengkapan dengan jalur yang sama.",
+      "items": [
+        {
+          "name": "Bangunan Kekuatan",
+          "stat": "Kekuatan",
+          "description": "Meningkatkan kerusakan fisik yang berfokus pada pukulan tumpul dan kekuatan memblokir.",
+          "tip": "Terbaik dengan High Orc, Dreadscale, Primordial Human, atau Stonekin."
+        },
+        {
+          "name": "Bangunan Kelincahan",
+          "stat": "Kelincahan",
+          "description": "Meningkatkan jalur tebasan dan tusukan untuk permainan senjata cepat.",
+          "tip": "Terbaik dengan Lynthari, Gorgon, Primordial Human, atau jalur Kynthari."
+        },
+        {
+          "name": "Bangunan Kecerdasan",
+          "stat": "Kecerdasan",
+          "description": "Meningkatkan kerusakan sihir dan penskalaan yang berfokus pada grimoire.",
+          "tip": "Terbaik dengan Starborn, High Elf, Solean, dan sifat yang berfokus pada Arcane."
+        },
+        {
+          "name": "Bangunan Konstitusi",
+          "stat": "Konstitusi",
+          "description": "Meningkatkan kemampuan bertahan hidup melalui HP yang lebih tinggi dan penskalaan yang tahan lama.",
+          "tip": "Terbaik dengan Ryomen, Dreadscale, Stonekin, dan sifat defensif."
+        },
+        {
+          "name": "Sifat Fokus Statistik 60%",
+          "stat": "Fokus statistik yang ditetapkan",
+          "description": "Poin yang ditetapkan secara besar-besaran dalam satu statistik dapat membuka jalur sifat yang terfokus.",
+          "tip": "Rencanakan tujuan sifat sebelum menghabiskan poin agar pengguliran ulang dan statistik cocok."
+        },
+        {
+          "name": "Jalan Pintas Penskalaan Senjata",
+          "stat": "Jenis kerusakan",
+          "description": "Pukulan tumpul mendukung Kekuatan, tebasan dan tusukan mendukung Kelincahan, dan mantra mendukung Kecerdasan.",
+          "tip": "Putuskan fisik, sihir, tank, atau hibrida sebelum pengguliran ulang yang mahal."
+        },
+        {
+          "name": "Prioritas Kerajinan dan Perlengkapan",
+          "stat": "Bonus perlengkapan",
+          "description": "Gunakan baju besi dan aksesori yang memperkuat rencana statistik inti Anda.",
+          "tip": "Hindari bonus campuran acak yang mengencerkan jalur bangunan utama Anda."
+        },
+        {
+          "name": "Kontrol Menu dan Pemuatan",
+          "stat": "R, G, M",
+          "description": "R melengkapi senjata, G melengkapi grimoire, M membuka manajemen bangunan dan pengguliran ulang.",
+          "tip": "Periksa pemuatan saat ini sebelum menggunakan pengguliran ulang langka atau sumber daya kunci."
+        }
+      ]
+    },
+    "cloverRetributionUpdateLogDevilRaceGuide": {
+      "title": "Log Pembaruan Clover Retribution dan Panduan Ras Iblis",
+      "intro": "Lacak siklus pembaruan Ras Iblis Clover Retribution saat ini, kode kunci, dan prioritas pengguliran ulang sebelum berkomitmen pada jalur bangunan akhir.",
+      "items": [
+        {
+          "date": "Mei 2026",
+          "tag": "Pembaruan Saat Ini",
+          "title": "Rilis Ras Iblis",
+          "description": "Pengalaman ini berfokus pada permintaan Ras Iblis dan nilai putaran ras; lindungi ras teratas dan sifat yang dipertahankan sebelum terlalu banyak menggulir ulang."
+        },
+        {
+          "date": "27 Mei 2026",
+          "tag": "Kode Baru",
+          "title": "Kode Putaran Rilis Ras Iblis",
+          "description": "!devilracerelease (350), !fixingstuff (150), !iwasbusy (100), dengan persyaratan grup dan level jika tercantum."
+        },
+        {
+          "date": "Progres Iblis",
+          "tag": "Pos Pemeriksaan Sifat",
+          "title": "Tuan Rumah Iblis",
+          "description": "Jalur sifat progres iblis inti untuk Persatuan Iblis dan progres kontrak iblis."
+        },
+        {
+          "date": "Progres Iblis",
+          "tag": "Jalur Hibrida",
+          "title": "Progres Iblis-Hibrida",
+          "description": "Progres menggunakan bagian iblis, jiwa, dan risiko korupsi melalui tahap transformasi yang terlihat."
+        },
+        {
+          "date": "Prioritas Bangunan",
+          "tag": "Rencana Pengguliran Ulang",
+          "title": "Apa yang Harus Digulir Ulang Pertama",
+          "description": "Gunakan putaran ras untuk target ras bernilai tinggi, putaran sifat untuk pasif yang menentukan bangunan, lalu putaran sihir setelah arah bangunan ditetapkan."
+        },
+        {
+          "date": "Pelacakan Pembaruan",
+          "tag": "Tempat Memeriksa",
+          "title": "Sumber Pembaruan Resmi",
+          "description": "Prioritaskan status halaman Roblox ditambah Discord resmi dan pembaruan Trello sebelum menghabiskan sumber daya terbatas."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Clover Retribution",
+    "titleHighlight": "FAQ",
+    "subtitle": "Pertanyaan umum Clover Retribution untuk pemain baru dan lama.",
+    "questions": [
+      {
+        "question": "Bagaimana cara menukarkan kode Clover Retribution?",
+        "answer": "Buka Clover Retribution, gunakan kotak kode menu utama, tempel kode persis, dan kirim sebelum memasuki server Anda."
+      },
+      {
+        "question": "Apa rute Clover Retribution terbaik untuk pemula?",
+        "answer": "Bergabunglah dengan grup resmi, tukarkan kode aktif, naikkan level melalui misi yang dapat diulang, dan lakukan reroll hanya setelah menguji jalur sihir pilihan Anda."
+      },
+      {
+        "question": "Di mana saya bisa menemukan pembaruan Clover Retribution resmi?",
+        "answer": "Gunakan tautan Discord dan Trello Clover Retribution di modul sumber daya untuk pemberitahuan resmi dan referensi sistem."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Mulai Bangun Clover Retribution Anda",
+    "description": "Gunakan modul di atas untuk mengunci ras, sihir, sifat, dan jalur progresi Anda.",
+    "joinCommunity": "Bergabung dengan Komunitas",
+    "joinGame": "Mainkan Clover Retribution"
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Clover Retribution",
+      "description": "Kode Clover Retribution terbaru untuk putaran dan sumber daya reroll, dengan waktu penukaran dan catatan persyaratan.",
+      "metaTitle": "Kode Clover Retribution - Putaran dan Reroll Aktif",
+      "metaDescription": "Temukan kode Clover Retribution aktif untuk putaran ras, sihir, dan sifat dengan catatan persyaratan dan waktu pembaruan.",
+      "categoryLabel": "KODE",
+      "whatIs": "Apa itu Kode Clover Retribution?",
+      "whatIsDescription": "Kode Clover Retribution adalah perintah penukaran yang dirilis oleh pengembang yang memberikan putaran, reroll, dan bonus yang ramah progresi. Biasanya terkait dengan pembaruan, perbaikan, atau acara pencapaian dan mungkin termasuk persyaratan level atau grup.",
+      "why": "Mengapa membaca halaman kode Clover Retribution ini?",
+      "whySteps": {
+        "step1Title": "Klaim hadiah sebelum kedaluwarsa",
+        "step1Description": "Anda mendapatkan daftar kode yang berfungsi saat ini di satu tempat, sehingga Anda dapat menukarkan hadiah sebelum berputar keluar.",
+        "step2Title": "Hindari kesalahan penukaran",
+        "step2Description": "Catatan persyaratan membantu Anda memenuhi kondisi level dan grup sebelum Anda menghabiskan waktu memasukkan setiap kode.",
+        "step3Title": "Rencanakan anggaran reroll Anda",
+        "step3Description": "Mengetahui pembayaran putaran saat ini memudahkan untuk memutuskan apakah akan mereroll ras, sifat, atau sihir terlebih dahulu."
+      },
+      "featured": "Kode Clover Retribution Unggulan",
+      "all": "Semua Kode Clover Retribution"
+    },
+    "links": {
+      "title": "Tautan Clover Retribution",
+      "description": "Referensi Trello, Discord, grup, dan tautan pembaruan Clover Retribution resmi untuk informasi game yang terpercaya.",
+      "metaTitle": "Tautan Clover Retribution - Trello, Discord, Grup",
+      "metaDescription": "Akses tautan Clover Retribution resmi termasuk Trello, Discord, grup Roblox, server pribadi, dan sumber daya pembaruan.",
+      "categoryLabel": "TAUTAN",
+      "whatIs": "Apa itu Kategori Tautan Clover Retribution?",
+      "whatIsDescription": "Kategori ini melacak tautan sumber daya Clover Retribution resmi, termasuk dokumentasi Trello, pengumuman Discord, akses grup, dan halaman pelacakan pembaruan yang digunakan untuk acara dan kode.",
+      "why": "Mengapa membaca halaman tautan Clover Retribution ini?",
+      "whySteps": {
+        "step1Title": "Jangkau sumber daya resmi dengan cepat",
+        "step1Description": "Anda dapat membuka saluran komunitas atau dokumentasi yang tepat tanpa mencari melalui salinan yang sudah usang.",
+        "step2Title": "Lacak pembaruan dan pengumuman",
+        "step2Description": "Tautan pembaruan dan acara membantu Anda memverifikasi catatan patch saat ini, jendela pemeliharaan, dan fitur baru yang dirilis.",
+        "step3Title": "Tetap selaras dengan persyaratan kode",
+        "step3Description": "Tautan grup dan sosial memudahkan untuk memenuhi prasyarat hadiah yang terkait dengan saluran resmi."
+      },
+      "featured": "Tautan Clover Retribution Unggulan",
+      "all": "Semua Tautan Clover Retribution"
+    },
+    "tier": {
+      "title": "Daftar Tingkat Clover Retribution",
+      "description": "Analisis tingkat Clover Retribution untuk ras, sifat, sihir, senjata, dan grimoire di seluruh meta pembaruan saat ini.",
+      "metaTitle": "Daftar Tingkat Clover Retribution - Ras, Sifat, Sihir",
+      "metaDescription": "Gunakan peringkat tingkat Clover Retribution untuk membandingkan opsi ras, sifat, sihir, senjata, dan grimoire untuk progresi meta saat ini.",
+      "categoryLabel": "TINGKAT",
+      "whatIs": "Apa itu kategori Tingkat Clover Retribution?",
+      "whatIsDescription": "Kategori ini berisi panduan peringkat Clover Retribution yang membandingkan opsi berdasarkan skala, utilitas, kemampuan bertahan, dan sinergi build. Ini membantu Anda memprioritaskan reroll dan pengeluaran sumber daya di sekitar nilai patch saat ini.",
+      "why": "Mengapa membaca panduan tingkat Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Prioritaskan reroll bernilai tinggi",
+        "step1Description": "Perincian tingkat menunjukkan pilihan ras, sifat, dan sihir mana yang layak dipertahankan untuk progresi jangka panjang.",
+        "step2Title": "Bangun di sekitar sinergi yang terbukti",
+        "step2Description": "Anda dapat memasangkan senjata, statistik, dan pasif yang bekerja dengan baik bersama-sama daripada mencampur opsi yang bertentangan.",
+        "step3Title": "Beradaptasi dengan perubahan meta",
+        "step3Description": "Peringkat siklus patch membantu Anda memperbarui rencana build Anda ketika keseimbangan atau rute progresi berubah."
+      },
+      "featured": "Panduan Tingkat Clover Retribution Unggulan",
+      "all": "Semua Panduan Tingkat Clover Retribution"
+    },
+    "guide": {
+      "title": "Panduan Clover Retribution",
+      "description": "Panduan progres Clover Retribution untuk naik level, misi, kontrol, putaran, pengaturan pesta, dan navigasi peta.",
+      "metaTitle": "Panduan Clover Retribution - Pemula hingga Progres",
+      "metaDescription": "Ikuti panduan Clover Retribution untuk pengaturan pemula, rute naik level, referensi kontrol, farming putaran, dan pos pemeriksaan progres.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Apa itu kategori Panduan Clover Retribution?",
+      "whatIsDescription": "Artikel panduan menjelaskan sistem Clover Retribution langkah demi langkah, mulai dari pengaturan sesi pertama hingga loop naik level yang dapat diulang dan pos pemeriksaan progres. Artikel ini dibuat untuk orientasi cepat dan pertumbuhan jangka panjang yang lebih bersih.",
+      "why": "Mengapa membaca panduan Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Mulai dengan jalur progres yang jelas",
+        "step1Description": "Anda dapat mengikuti rute naik level dan misi yang terstruktur alih-alih menebak-nebak di mana harus menghabiskan sesi pertama Anda.",
+        "step2Title": "Pelajari kontrol dan sistem lebih cepat",
+        "step2Description": "Penjelasan kontrol dan mekanisme mengurangi gesekan pengaturan dan membantu Anda mengelola perlengkapan dengan lebih efisien.",
+        "step3Title": "Hindari pemborosan sumber daya",
+        "step3Description": "Panduan yang berfokus pada progres membantu Anda menghabiskan putaran dan reset pada pencapaian yang tepat."
+      },
+      "featured": "Panduan Clover Retribution Unggulan",
+      "all": "Semua Panduan Clover Retribution"
+    },
+    "builds": {
+      "title": "Build Clover Retribution",
+      "description": "Jalur build Clover Retribution yang mencakup anti-sihir, hibrida, paladin, iblis, dan optimasi penskalaan stat.",
+      "metaTitle": "Build Clover Retribution - Jalur Build Terbaik",
+      "metaDescription": "Bandingkan build Clover Retribution untuk rute anti-sihir, hibrida, paladin, dan iblis dengan tips optimasi stat dan sifat.",
+      "categoryLabel": "BUILD",
+      "whatIs": "Apa itu Build Clover Retribution?",
+      "whatIsDescription": "Artikel build berfokus pada perencanaan perlengkapan Clover Retribution yang lengkap, termasuk sinergi ras-sifat, alokasi stat, dan arah senjata atau sihir. Artikel ini membantu Anda berkomitmen pada rute endgame yang koheren.",
+      "why": "Mengapa membaca panduan build Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Pilih rute endgame yang terfokus",
+        "step1Description": "Anda dapat membandingkan rencana fisik, hibrida, dan berpusat pada sihir sebelum menginvestasikan sumber daya reroll yang langka.",
+        "step2Title": "Sejajarkan stat dengan nilai sifat",
+        "step2Description": "Penjelasan build menjelaskan bagaimana penyebaran stat dan efek sifat saling memperkuat untuk penskalaan yang lebih baik.",
+        "step3Title": "Kurangi pembangunan ulang yang mahal",
+        "step3Description": "Jalur build yang direncanakan mengurangi kemungkinan reset setelah pos pemeriksaan progres akhir game."
+      },
+      "featured": "Build Clover Retribution Unggulan",
+      "all": "Semua Build Clover Retribution"
+    },
+    "magic": {
+      "title": "Sihir Clover Retribution",
+      "description": "Panduan sihir Clover Retribution yang mencakup kekuatan elemen, peran kombo, prioritas penskalaan, dan penggunaan pertandingan.",
+      "metaTitle": "Sihir Clover Retribution - Panduan Elemen dan Penskalaan",
+      "metaDescription": "Pelajari opsi sihir Clover Retribution termasuk Cahaya, Bayangan, Tebasan, Spasial, Pasir, Kekosongan, dan Kunci dengan rekomendasi berbasis peran.",
+      "categoryLabel": "SIHIR",
+      "whatIs": "Apa itu kategori Sihir Clover Retribution?",
+      "whatIsDescription": "Artikel sihir menjelaskan peran, kekuatan, dan perilaku penskalaan setiap elemen Clover Retribution. Artikel ini membantu Anda memilih arah grimoire yang sesuai dengan rencana stat dan sifat Anda.",
+      "why": "Mengapa membaca panduan sihir Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Pilih elemen yang tepat sejak awal",
+        "step1Description": "Perbandingan yang berfokus pada peran membantu Anda memutuskan antara gaya burst, kontrol, sustain, dan mobilitas.",
+        "step2Title": "Cocokkan sihir dengan inti build Anda",
+        "step2Description": "Anda dapat menyelaraskan pilihan sihir dengan bonus ras dan sifat untuk hasil kerusakan dan utilitas yang lebih kuat.",
+        "step3Title": "Tingkatkan konsistensi PvE dan PvP",
+        "step3Description": "Tips khusus elemen membuat rotasi dan keputusan pertandingan lebih andal di berbagai konten."
+      },
+      "featured": "Panduan Sihir Clover Retribution Unggulan",
+      "all": "Semua Panduan Sihir Clover Retribution"
+    }
   }
 }

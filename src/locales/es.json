@@ -1,10 +1,853 @@
 {
+  "seo": {
+    "home": {
+      "title": "Clover Retribution Wiki - Códigos, Listas de Niveles y Progresión",
+      "description": "Wiki de Clover Retribution para códigos, enlaces de Trello y Discord, pasos para principiantes, listas de niveles, construcciones de estadísticas y notas de actualización.",
+      "keywords": "Clover Retribution, códigos de Clover Retribution, lista de niveles de Clover Retribution, razas de Clover Retribution",
+      "ogTitle": "Clover Retribution Wiki - Códigos, Listas de Niveles y Progresión",
+      "ogDescription": "Wiki de Clover Retribution para códigos, enlaces de Trello y Discord, pasos para principiantes, listas de niveles, construcciones de estadísticas y notas de actualización.",
+      "twitterTitle": "Clover Retribution Wiki - Códigos, Listas de Niveles y Progresión",
+      "twitterDescription": "Wiki de Clover Retribution para códigos, enlaces de Trello y Discord, pasos para principiantes, listas de niveles, construcciones de estadísticas y notas de actualización."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "links": "Links",
-    "tier": "Tier",
-    "guide": "Guide",
-    "builds": "Builds",
-    "magic": "Magic"
+    "codes": "Códigos",
+    "links": "Enlaces",
+    "tier": "Nivel",
+    "guide": "Guía",
+    "builds": "Construcciones",
+    "magic": "Magia"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Roblox Black Clover RPG",
+    "title": "Clover Retribution Wiki",
+    "description": "Rastrea códigos activos de Clover Retribution, las mejores construcciones, niveles de raza y rasgos, y recursos oficiales en un solo lugar.",
+    "getFreeCodesCTA": "Ver Códigos",
+    "playOnSteamCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "64.6M+",
+        "label": "Visitas Totales"
+      },
+      "stat2": {
+        "value": "1.8K+",
+        "label": "Jugadores en Línea"
+      },
+      "stat3": {
+        "value": "92.96%",
+        "label": "Calificación de Votos Positivos"
+      },
+      "stat4": {
+        "value": "384K+",
+        "label": "Favoritos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Clover Retribution",
+    "description": "Mira una ruta de inicio rápida de Clover Retribution antes de gastar giros."
+  },
+  "tools": {
+    "title": "Clover Retribution",
+    "titleHighlight": "Navegación del Módulo",
+    "subtitle": "Salta al módulo exacto de Clover Retribution que necesitas.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Clover Retribution",
+        "description": "Últimas recompensas y requisitos de canje",
+        "sectionId": "codes"
+      },
+      {
+        "icon": "Link2",
+        "title": "Enlaces de Trello y Discord de Clover Retribution",
+        "description": "Recursos oficiales y centros comunitarios",
+        "sectionId": "trello-discord-links"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía para Principiantes de Clover Retribution",
+        "description": "Configuración de la primera sesión y flujo de misiones",
+        "sectionId": "beginner-guide"
+      },
+      {
+        "icon": "WandSparkles",
+        "title": "Lista de Niveles de Magia y Grimorio de Clover Retribution",
+        "description": "Elecciones meta y notas de construcción",
+        "sectionId": "magic-grimoire-tier-list"
+      },
+      {
+        "icon": "Users",
+        "title": "Lista de Niveles de Razas de Clover Retribution",
+        "description": "Las mejores razas para decisiones de reroll",
+        "sectionId": "race-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "Lista de Niveles de Rasgos de Clover Retribution",
+        "description": "Valor de los rasgos por nivel y rol",
+        "sectionId": "traits-tier-list"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de Estadísticas, Armas y Crafteo de Clover Retribution",
+        "description": "Planificación de estadísticas y progresión de equipo",
+        "sectionId": "stats-weapons-crafting-guide"
+      },
+      {
+        "icon": "BellRing",
+        "title": "Registro de Actualizaciones y Guía de la Raza Demonio de Clover Retribution",
+        "description": "Actualizaciones recientes y prioridades de lanzamiento",
+        "sectionId": "update-log-devil-race-guide"
+      }
+    ]
+  },
+  "modules": {
+    "cloverRetributionCodes": {
+      "title": "Códigos de Clover Retribution",
+      "intro": "Canjea estos códigos de Clover Retribution para obtener giros de raza, giros de magia, giros de rasgos y paquetes de relanzamiento completo.",
+      "items": [
+        {
+          "code": "!devilracerelease",
+          "reward": "350 giros de todos los tipos",
+          "requirements": "Requiere nivel 40 y membresía del grupo de Roblox",
+          "priority": "Máxima"
+        },
+        {
+          "code": "!fixingstuff",
+          "reward": "150 giros de todos los tipos",
+          "requirements": "Requiere nivel 40 y membresía del grupo de Roblox",
+          "priority": "Alta"
+        },
+        {
+          "code": "!iwasbusy",
+          "reward": "100 giros de todos los tipos",
+          "requirements": "Canje en el menú principal",
+          "priority": "Alta"
+        }
+      ]
+    },
+    "cloverRetributionTrelloDiscordLinks": {
+      "title": "Enlaces de Trello y Discord de Clover Retribution",
+      "intro": "Usa estos enlaces oficiales de Clover Retribution para mecánicas, anuncios, publicaciones de códigos y soporte.",
+      "items": [
+        {
+          "label": "Tablero oficial de Trello",
+          "url": "https://trello.com/b/xKxR061L/clover-retribution-official-trello",
+          "useFor": "Mecánicas, razas, rasgos, magia y referencias de actualizaciones"
+        },
+        {
+          "label": "Discord oficial",
+          "url": "https://discord.com/invite/clover-retribution",
+          "useFor": "Anuncios en vivo, lanzamientos de códigos y eventos"
+        },
+        {
+          "label": "Página del juego en Roblox",
+          "url": "https://www.roblox.com/games/10912405603/Clover-Retribution",
+          "useFor": "Inicia el juego y consulta las actualizaciones actuales de la página del juego"
+        },
+        {
+          "label": "Comunidad de Roblox",
+          "url": "https://www.roblox.com/communities/15890651/Clover-Retribution",
+          "useFor": "Únete para cumplir los requisitos de códigos restringidos por grupo"
+        }
+      ]
+    },
+    "cloverRetributionBeginnerGuide": {
+      "title": "Guía para principiantes de Clover Retribution",
+      "intro": "Esta ruta para principiantes de Clover Retribution te ayuda a evitar giros desperdiciados y reinicios de estadísticas tempranos.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Únete a los centros oficiales del juego",
+          "body": "Únete a la página del juego en Roblox y a la comunidad oficial de Roblox antes de canjear recompensas restringidas por grupo."
+        },
+        {
+          "step": 2,
+          "title": "Canjea primero las recompensas de códigos",
+          "body": "Reclama los códigos activos en el menú principal y guarda parte de tus giros para tu configuración final."
+        },
+        {
+          "step": 3,
+          "title": "Usa misiones para subir de nivel de forma estable",
+          "body": "Las misiones de historia y repetibles proporcionan EXP constante y una progresión inicial más fluida."
+        },
+        {
+          "step": 4,
+          "title": "Ajusta las estadísticas a tu plan de combate",
+          "body": "Equilibra Fuerza, Destreza, Inteligencia y Constitución en torno a tu magia principal y estilo de arma."
+        }
+      ]
+    },
+    "cloverRetributionMagicGrimoireTierList": {
+      "title": "Lista de niveles de magia y grimorios de Clover Retribution",
+      "intro": "Compara las opciones de magia de Clover Retribution por nivel, rol y límite de mejora.",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Meta superior",
+          "entries": [
+            {
+              "name": "Tiempo",
+              "role": "Control y ráfaga"
+            },
+            {
+              "name": "Sangre",
+              "role": "Sustento y presión"
+            },
+            {
+              "name": "Luz",
+              "role": "Ofensiva rápida"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Selecciones fuertes",
+          "entries": [
+            {
+              "name": "Agua",
+              "role": "Daño equilibrado y utilidad"
+            },
+            {
+              "name": "Hielo",
+              "role": "Control y rutas de combo"
+            },
+            {
+              "name": "Vacío",
+              "role": "Alto escalado con mejoras"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Situacional",
+          "entries": [
+            {
+              "name": "Llama",
+              "role": "Presión por quemadura"
+            },
+            {
+              "name": "Veneno",
+              "role": "Daño en el tiempo"
+            },
+            {
+              "name": "Espacial",
+              "role": "Utilidad de movilidad"
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionRaceTierList": {
+      "title": "Lista de niveles de razas de Clover Retribution",
+      "intro": "Compara las razas más fuertes de Clover Retribution por rareza, bonificaciones de estadísticas, valor pasivo y mejor ajuste de construcción.",
+      "items": [
+        {
+          "tier": "SS",
+          "label": "Mejores opciones",
+          "entries": [
+            {
+              "name": "Starborn",
+              "rarity": "Mítico",
+              "why": "+65 de Inteligencia, +20% de Maná y +50% de resistencia al daño mágico para la mejor escalada de mago."
+            },
+            {
+              "name": "Solean",
+              "rarity": "Mítico",
+              "why": "Estadísticas híbridas, inmunidad al fuego y utilidad de vuelo personalizada."
+            },
+            {
+              "name": "Ryomen",
+              "rarity": "Mítico",
+              "why": "Paquete de regeneración enfocado en la supervivencia para juego en solitario de tanque."
+            },
+            {
+              "name": "Mahari",
+              "rarity": "Mítico",
+              "why": "Resistencia adaptativa más +25% de Maná para peleas largas."
+            },
+            {
+              "name": "Dreadscale",
+              "rarity": "Mítico",
+              "why": "Gran paquete de HP y resistencia para construcciones de primera línea."
+            },
+            {
+              "name": "Legendary Kynthari",
+              "rarity": "Mítico",
+              "why": "Velocidad, HP y Zenith Surge para rutas de melé agresivas."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Razas fuertes para el juego final",
+          "entries": [
+            {
+              "name": "Primordial Human",
+              "rarity": "Mítico",
+              "why": "Alta distribución de FUE/DES/CON con bonificación de HP y velocidad."
+            },
+            {
+              "name": "Siphonite",
+              "rarity": "Mítico",
+              "why": "Regeneración de maná y habilidades de supervivencia para la durabilidad del lanzador."
+            },
+            {
+              "name": "High Elf",
+              "rarity": "Legendario",
+              "why": "Daño mágico confiable y aumentos de maná."
+            },
+            {
+              "name": "Sylvan",
+              "rarity": "Legendario",
+              "why": "Fuerte producción de curación y utilidad de apoyo."
+            },
+            {
+              "name": "Kynthari",
+              "rarity": "Legendario",
+              "why": "Rápida progresión física con bonificación de HP y Zenith Surge."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Grandes elecciones especializadas",
+          "entries": [
+            {
+              "name": "Dark Elf",
+              "rarity": "Legendario",
+              "why": "Alta sinergia de daño de fuego para construcciones de Fuego."
+            },
+            {
+              "name": "High Orc",
+              "rarity": "Legendario",
+              "why": "Fuerte escalada física enfocada en la Fuerza."
+            },
+            {
+              "name": "Lynthari",
+              "rarity": "Legendario",
+              "why": "Juego evasivo y de movilidad enfocado en la Destreza."
+            },
+            {
+              "name": "Gorgon",
+              "rarity": "Épico",
+              "why": "Bonificaciones de perforación con inmunidad a veneno y petrificación."
+            },
+            {
+              "name": "Stonekin",
+              "rarity": "Épico",
+              "why": "Alta capacidad de supervivencia y defensa anti-contundente."
+            },
+            {
+              "name": "Dryad",
+              "rarity": "Épico",
+              "why": "Soporte de producción de curación para lanzadores de utilidad."
+            },
+            {
+              "name": "Hybrid Dwarf",
+              "rarity": "Legendario",
+              "why": "Gran ruta de maestría/EXP con utilidad de lanzador duradero."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Útil pero reemplazable",
+          "entries": [
+            {
+              "name": "Hybrid Elf",
+              "rarity": "Épico",
+              "why": "Valor híbrido temprano pero menor techo en el juego tardío."
+            },
+            {
+              "name": "Beast",
+              "rarity": "Raro",
+              "why": "Buen soporte contundente temprano."
+            },
+            {
+              "name": "Orc",
+              "rarity": "Raro",
+              "why": "Opción de Fuerza inicial antes de mejores tiradas."
+            },
+            {
+              "name": "Goblin",
+              "rarity": "Raro",
+              "why": "Útil para la agricultura de oro más que para el combate."
+            },
+            {
+              "name": "Dwarf",
+              "rarity": "Poco común",
+              "why": "Utilidad de economía de artesanía con bajo impacto en combate."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Solo para principiantes",
+          "entries": [
+            {
+              "name": "Human",
+              "rarity": "Común",
+              "why": "Sin mejoras directas, mejor reemplazado cuando haya giros de raza disponibles."
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionTraitsTierList": {
+      "title": "Lista de niveles de rasgos de Clover Retribution",
+      "intro": "Clasifica los rasgos de Clover Retribution por rareza, impacto pasivo, sinergia de construcción y prioridad de relanzamiento.",
+      "items": [
+        {
+          "tier": "SS",
+          "label": "Rasgos que definen la construcción",
+          "entries": [
+            {
+              "name": "Power Of Friendship",
+              "rarity": "Mítico",
+              "why": "Activador de engaño a la muerte más recuperación y breves i-frames."
+            },
+            {
+              "name": "Mystical Eyes",
+              "rarity": "Mítico",
+              "why": "Amplias mejoras de estadísticas con acumulaciones de escalado de ráfaga."
+            },
+            {
+              "name": "Monstrous Reserves",
+              "rarity": "Mítico",
+              "why": "Enorme reserva de maná y regeneración para rotaciones largas."
+            },
+            {
+              "name": "Divine Restriction",
+              "rarity": "Mítico",
+              "why": "El mejor rasgo físico sin magia con movilidad y capacidad de supervivencia."
+            },
+            {
+              "name": "Dragon's Blessing",
+              "rarity": "Mítico",
+              "why": "Opciones frecuentes de utilidad y sustento basadas en deseos."
+            },
+            {
+              "name": "Adaptive Resistance",
+              "rarity": "Mítico",
+              "why": "Defensa adaptativa y utilidad ofensiva exclusivas de Mahari."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Conservaciones de fin de juego",
+          "entries": [
+            {
+              "name": "High Speed Regeneration",
+              "rarity": "Mítico",
+              "why": "Rasgo de sustento de Ryomen para peleas prolongadas."
+            },
+            {
+              "name": "Prodigy",
+              "rarity": "Mítico",
+              "why": "Velocidad de progresión muy alta con soporte de estadísticas global."
+            },
+            {
+              "name": "Heavenly Restricted",
+              "rarity": "Legendario",
+              "why": "Excelente ruta de daño físico con una fuerte penalización de maná."
+            },
+            {
+              "name": "Arcane Zenith",
+              "rarity": "Legendario",
+              "why": "Gran reducción del consumo de maná para construcciones de lanzadores."
+            },
+            {
+              "name": "Mana Rampage",
+              "rarity": "Legendario",
+              "why": "Fuerte aumento del daño mágico cuando se resuelve el sustento de maná."
+            },
+            {
+              "name": "Tenacity",
+              "rarity": "Legendario",
+              "why": "Reducción de daño confiable con poca HP para la supervivencia del jefe."
+            },
+            {
+              "name": "Boss Slayer",
+              "rarity": "Legendario",
+              "why": "Alto daño al jefe con una compensación de movimiento manejable."
+            },
+            {
+              "name": "Loved by Mana",
+              "rarity": "Legendario",
+              "why": "Gran aumento de maná plano para configuraciones con muchos hechizos."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Rasgos de construcción fuertes",
+          "entries": [
+            {
+              "name": "Lyrical Surge",
+              "rarity": "Legendario",
+              "why": "Útil ciclo de soporte ofensivo/defensivo para todo el grupo."
+            },
+            {
+              "name": "Warrior's Might",
+              "rarity": "Legendario",
+              "why": "Duplica la salud del bloqueo en asignaciones centradas en la Fuerza."
+            },
+            {
+              "name": "Arcane Insight",
+              "rarity": "Legendario",
+              "why": "Fuerte EXP de trébol y escalado mágico condicional."
+            },
+            {
+              "name": "Swift Reflexes",
+              "rarity": "Legendario",
+              "why": "Mejoras de movilidad y esquiva perfecta para construcciones DEX."
+            },
+            {
+              "name": "Unyielding Sentinel",
+              "rarity": "Legendario",
+              "why": "Defensa pasiva escalable, más fuerte cuando tiene poca HP."
+            },
+            {
+              "name": "Zenith Surge",
+              "rarity": "Legendario",
+              "why": "Escalado de daño con poca HP exclusivo de Kynthari."
+            },
+            {
+              "name": "Nature's Bond",
+              "rarity": "Legendario",
+              "why": "Aumento de estadísticas de zona forestal exclusivo de Sylvan."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Rasgos de utilidad útiles",
+          "entries": [
+            {
+              "name": "Noble",
+              "rarity": "Épico",
+              "why": "Buen aumento de maná temprano para lanzadores."
+            },
+            {
+              "name": "Superior Speed",
+              "rarity": "Épico",
+              "why": "Simple aumento de movilidad para mayor comodidad."
+            },
+            {
+              "name": "Mystic Savant",
+              "rarity": "Épico",
+              "why": "Sólido rasgo de eficiencia de maná interino."
+            },
+            {
+              "name": "Gaia's Blessing",
+              "rarity": "Épico",
+              "why": "Valor de nicho para construcciones de Tierra y Arena."
+            },
+            {
+              "name": "Gold Fever",
+              "rarity": "Raro",
+              "why": "Útil para la agricultura económica, no para el combate final."
+            },
+            {
+              "name": "Mana Block",
+              "rarity": "Poco común",
+              "why": "Rasgo de desbloqueo defensivo con valor limitado a largo plazo."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Baja prioridad",
+          "entries": [
+            {
+              "name": "Scholar",
+              "rarity": "Raro",
+              "why": "Bonificación menor de Inteligencia, fácil de relanzar más tarde."
+            },
+            {
+              "name": "Arcane Adept",
+              "rarity": "Raro",
+              "why": "Eficiencia de maná básica con bajo límite."
+            },
+            {
+              "name": "Finesse Master",
+              "rarity": "Poco común",
+              "why": "Pequeño valor de Destreza temprano solamente."
+            },
+            {
+              "name": "Fighter",
+              "rarity": "Poco común",
+              "why": "Mezcla de estadísticas físicas iniciales, fácil de reemplazar."
+            },
+            {
+              "name": "Average",
+              "rarity": "Común",
+              "why": "Sin ventaja directa, objetivo de relanzamiento inmediato."
+            }
+          ]
+        }
+      ]
+    },
+    "cloverRetributionStatsWeaponsCraftingGuide": {
+      "title": "Guía de Estadísticas, Armas y Artesanía de Clover Retribution",
+      "intro": "Crea tu build en torno a una ruta de daño principal de Clover Retribution primero, luego alinea la raza, el rasgo, la asignación de estadísticas y las bonificaciones de equipo con esa misma ruta.",
+      "items": [
+        {
+          "name": "Builds de Fuerza",
+          "stat": "Fuerza",
+          "description": "Mejora el daño físico centrado en contusiones y la fuerza de bloqueo.",
+          "tip": "Ideal con High Orc, Dreadscale, Primordial Human o Stonekin."
+        },
+        {
+          "name": "Builds de Destreza",
+          "stat": "Destreza",
+          "description": "Mejora las rutas de tajo y perforación para un estilo de juego con armas rápidas.",
+          "tip": "Ideal con las rutas de Lynthari, Gorgon, Primordial Human o Kynthari."
+        },
+        {
+          "name": "Builds de Inteligencia",
+          "stat": "Inteligencia",
+          "description": "Mejora el daño mágico y el escalado centrado en grimorios.",
+          "tip": "Ideal con Starborn, High Elf, Solean y rasgos centrados en lo Arcano."
+        },
+        {
+          "name": "Builds de Constitución",
+          "stat": "Constitución",
+          "description": "Mejora la supervivencia mediante un mayor HP y un escalado de durabilidad.",
+          "tip": "Ideal con Ryomen, Dreadscale, Stonekin y rasgos defensivos."
+        },
+        {
+          "name": "Rasgos de Enfoque de Estadística al 60%",
+          "stat": "Enfoque de estadística asignada",
+          "description": "Asignar muchos puntos a una sola estadística puede desbloquear rutas de rasgos enfocadas.",
+          "tip": "Planifica los objetivos de rasgos antes de gastar puntos para que los rerolls y las estadísticas coincidan."
+        },
+        {
+          "name": "Atajo de Escalado de Armas",
+          "stat": "Tipo de daño",
+          "description": "El daño contundente favorece la Fuerza, el tajo y la perforación favorecen la Destreza, y los hechizos favorecen la Inteligencia.",
+          "tip": "Decide si prefieres físico, mágico, tanque o híbrido antes de realizar rerolls costosos."
+        },
+        {
+          "name": "Prioridad de Artesanía y Equipo",
+          "stat": "Bonificaciones de equipo",
+          "description": "Usa armaduras y accesorios que refuercen tu plan de estadísticas principal.",
+          "tip": "Evita bonificaciones mixtas aleatorias que diluyan tu ruta de build principal."
+        },
+        {
+          "name": "Controles de Menú y Equipamiento",
+          "stat": "R, G, M",
+          "description": "R equipa el arma, G equipa el grimorio, M abre la gestión de builds y rerolls.",
+          "tip": "Revisa tu equipamiento actual antes de usar rerolls raros o recursos clave."
+        }
+      ]
+    },
+    "cloverRetributionUpdateLogDevilRaceGuide": {
+      "title": "Registro de Actualizaciones y Guía de la Raza Devil de Clover Retribution",
+      "intro": "Sigue el ciclo de actualización actual de la raza Devil de Clover Retribution, los códigos clave y las prioridades de reroll antes de comprometerte con las rutas de build finales.",
+      "items": [
+        {
+          "date": "Mayo de 2026",
+          "tag": "Actualización Actual",
+          "title": "Lanzamiento de la Raza Devil",
+          "description": "La experiencia se centra en la demanda de la raza Devil y el valor de los giros de raza; protege tus mejores razas y rasgos antes de excederte con los rerolls."
+        },
+        {
+          "date": "27 de mayo de 2026",
+          "tag": "Nuevos Códigos",
+          "title": "Códigos de Giros por el Lanzamiento de la Raza Devil",
+          "description": "!devilracerelease (350), !fixingstuff (150), !iwasbusy (100), con requisitos de grupo y nivel donde se indique."
+        },
+        {
+          "date": "Progresión Devil",
+          "tag": "Punto de Control de Rasgo",
+          "title": "Huésped del Diablo",
+          "description": "Ruta de rasgos principal de progresión devil para la Unión Devil y la progresión de contratos devil."
+        },
+        {
+          "date": "Progresión Devil",
+          "tag": "Ruta Híbrida",
+          "title": "Progresión Híbrida-Devil",
+          "description": "La progresión utiliza partes de devil, almas y riesgo de corrupción a través de etapas de transformación visibles."
+        },
+        {
+          "date": "Prioridad de Build",
+          "tag": "Plan de Reroll",
+          "title": "Qué Rerollear Primero",
+          "description": "Usa giros de raza para objetivos de raza de alto valor, giros de rasgos para pasivas que definen la build, y luego giros de magia una vez que la dirección de la build esté fijada."
+        },
+        {
+          "date": "Seguimiento de Actualizaciones",
+          "tag": "Dónde Consultar",
+          "title": "Fuentes Oficiales de Actualización",
+          "description": "Prioriza el estado de la página de Roblox además de las actualizaciones oficiales de Discord y Trello antes de gastar recursos limitados."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Clover Retribution",
+    "titleHighlight": "FAQ",
+    "subtitle": "Preguntas comunes de Clover Retribution para jugadores nuevos y recurrentes.",
+    "questions": [
+      {
+        "question": "¿Cómo canjeo los códigos de Clover Retribution?",
+        "answer": "Abre Clover Retribution, usa el cuadro de códigos del menú principal, pega el código exactamente y envíalo antes de entrar a tu servidor."
+      },
+      {
+        "question": "¿Cuál es la mejor ruta de Clover Retribution para principiantes?",
+        "answer": "Únete al grupo oficial, canjea códigos activos, sube de nivel mediante misiones repetibles y comprométete a realizar rerolls solo después de probar tu camino de magia preferido."
+      },
+      {
+        "question": "¿Dónde puedo encontrar actualizaciones oficiales de Clover Retribution?",
+        "answer": "Usa los enlaces de Discord y Trello de Clover Retribution en el módulo de recursos para avisos oficiales y referencias del sistema."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Comienza tu build de Clover Retribution",
+    "description": "Usa los módulos de arriba para fijar tu raza, magia, rasgo y camino de progresión.",
+    "joinCommunity": "Únete a la comunidad",
+    "joinGame": "Jugar Clover Retribution"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Clover Retribution",
+      "description": "Últimos códigos de Clover Retribution para spins y recursos de reroll, con notas sobre el tiempo de canje y requisitos.",
+      "metaTitle": "Códigos de Clover Retribution - Spins y Rerolls activos",
+      "metaDescription": "Encuentra códigos activos de Clover Retribution para spins de raza, magia y rasgos con notas de requisitos y tiempos de actualización.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Clover Retribution?",
+      "whatIsDescription": "Los códigos de Clover Retribution son comandos de canje lanzados por los desarrolladores que otorgan spins, rerolls y bonificaciones para la progresión. Generalmente están vinculados a actualizaciones, correcciones o eventos importantes y pueden incluir requisitos de nivel o grupo.",
+      "why": "¿Por qué leer esta página de códigos de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Reclama recompensas antes de que expiren",
+        "step1Description": "Obtienes la lista de códigos que funcionan actualmente en un solo lugar, para que puedas canjear recompensas antes de que desaparezcan.",
+        "step2Title": "Evita errores de canje",
+        "step2Description": "Las notas de requisitos te ayudan a cumplir con las condiciones de nivel y grupo antes de perder tiempo ingresando cada código.",
+        "step3Title": "Planifica tu presupuesto de reroll",
+        "step3Description": "Conocer las recompensas de spins actuales facilita decidir si hacer reroll de raza, rasgo o magia primero."
+      },
+      "featured": "Códigos destacados de Clover Retribution",
+      "all": "Todos los códigos de Clover Retribution"
+    },
+    "links": {
+      "title": "Enlaces de Clover Retribution",
+      "description": "Referencias oficiales de Trello, Discord, grupo y enlaces de actualización de Clover Retribution para información confiable del juego.",
+      "metaTitle": "Enlaces de Clover Retribution - Trello, Discord, Grupo",
+      "metaDescription": "Accede a los enlaces oficiales de Clover Retribution, incluyendo Trello, Discord, grupo de Roblox, servidor privado y recursos de actualización.",
+      "categoryLabel": "ENLACES",
+      "whatIs": "¿Qué son los enlaces de Clover Retribution?",
+      "whatIsDescription": "Esta categoría rastrea los enlaces de recursos oficiales de Clover Retribution, incluyendo documentación de Trello, anuncios de Discord, acceso al grupo y páginas de seguimiento de actualizaciones utilizadas para eventos y códigos.",
+      "why": "¿Por qué leer esta página de enlaces de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Accede a recursos oficiales rápidamente",
+        "step1Description": "Puedes abrir el canal de comunidad o documentación correcto sin buscar entre copias desactualizadas.",
+        "step2Title": "Rastrea actualizaciones y anuncios",
+        "step2Description": "Los enlaces de actualizaciones y eventos te ayudan a verificar las notas del parche actuales, ventanas de mantenimiento y nuevos lanzamientos de funciones.",
+        "step3Title": "Mantente alineado con los requisitos de los códigos",
+        "step3Description": "Los enlaces de grupos y redes sociales facilitan el cumplimiento de los prerrequisitos de recompensa vinculados a los canales oficiales."
+      },
+      "featured": "Enlaces destacados de Clover Retribution",
+      "all": "Todos los enlaces de Clover Retribution"
+    },
+    "tier": {
+      "title": "Tier List de Clover Retribution",
+      "description": "Análisis de niveles de Clover Retribution para razas, rasgos, magia, armas y grimorios en los metas de actualización actuales.",
+      "metaTitle": "Tier List de Clover Retribution - Raza, Rasgo, Magia",
+      "metaDescription": "Usa las clasificaciones de niveles de Clover Retribution para comparar opciones de raza, rasgo, magia, arma y grimorio para la progresión del meta actual.",
+      "categoryLabel": "TIER",
+      "whatIs": "¿Qué es la categoría de Tier de Clover Retribution?",
+      "whatIsDescription": "Esta categoría contiene guías de clasificación de Clover Retribution que comparan opciones por escalado, utilidad, supervivencia y sinergia de build. Te ayuda a priorizar rerolls y el gasto de recursos según el valor del parche actual.",
+      "why": "¿Por qué leer las guías de tier de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Prioriza rerolls de alto valor",
+        "step1Description": "Los desgloses de niveles muestran qué opciones de raza, rasgo y magia vale la pena conservar para la progresión a largo plazo.",
+        "step2Title": "Construye en torno a sinergias probadas",
+        "step2Description": "Puedes emparejar armas, estadísticas y pasivas que funcionen bien juntas en lugar de mezclar opciones conflictivas.",
+        "step3Title": "Adáptate a los cambios del meta",
+        "step3Description": "Las clasificaciones del ciclo de parches te ayudan a actualizar tu plan de build cuando cambian el equilibrio o las rutas de progresión."
+      },
+      "featured": "Guías de Tier destacadas de Clover Retribution",
+      "all": "Todas las guías de Tier de Clover Retribution"
+    },
+    "guide": {
+      "title": "Guía de Clover Retribution",
+      "description": "Guías de progresión de Clover Retribution para subir de nivel, misiones, controles, giros, configuración de grupo y navegación por el mapa.",
+      "metaTitle": "Guía de Clover Retribution - De principiante a progresión",
+      "metaDescription": "Sigue las guías de Clover Retribution para la configuración inicial, rutas de nivelación, referencias de control, farmeo de giros y puntos de control de progresión.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué es la categoría Guía de Clover Retribution?",
+      "whatIsDescription": "Los artículos de la guía explican los sistemas de Clover Retribution paso a paso, desde la configuración de la primera sesión hasta los bucles de nivelación repetibles y los puntos de control de progresión. Están diseñados para una incorporación rápida y un crecimiento a largo plazo más limpio.",
+      "why": "¿Por qué leer las guías de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Comienza con una ruta de progresión clara",
+        "step1Description": "Puedes seguir rutas estructuradas de nivelación y misiones en lugar de adivinar dónde pasar tus primeras sesiones.",
+        "step2Title": "Aprende los controles y sistemas más rápido",
+        "step2Description": "Los explicadores de controles y mecánicas reducen la fricción de configuración y te ayudan a administrar los equipamientos de manera más eficiente.",
+        "step3Title": "Evita el desperdicio de recursos",
+        "step3Description": "La orientación centrada en la progresión te ayuda a gastar giros y reinicios en los hitos correctos."
+      },
+      "featured": "Guías destacadas de Clover Retribution",
+      "all": "Todas las guías de Clover Retribution"
+    },
+    "builds": {
+      "title": "Construcciones de Clover Retribution",
+      "description": "Rutas de construcción de Clover Retribution que cubren anti-magia, híbrido, paladín, diablo y optimización de escalado de estadísticas.",
+      "metaTitle": "Construcciones de Clover Retribution - Mejores rutas de construcción",
+      "metaDescription": "Compara las construcciones de Clover Retribution para rutas anti-magia, híbridas, de paladín y de diablo con consejos de optimización de estadísticas y rasgos.",
+      "categoryLabel": "CONSTRUCCIONES",
+      "whatIs": "¿Qué son las construcciones de Clover Retribution?",
+      "whatIsDescription": "Los artículos de construcción se centran en la planificación completa del equipamiento de Clover Retribution, incluyendo la sinergia de rasgos de raza, la asignación de estadísticas y la dirección de armas o magia. Te ayudan a comprometerte con una ruta coherente para el juego final.",
+      "why": "¿Por qué leer las guías de construcción de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Elige una ruta de juego final enfocada",
+        "step1Description": "Puedes comparar planes físicos, híbridos y centrados en la magia antes de invertir recursos raros de reroll.",
+        "step2Title": "Alinea las estadísticas con el valor de los rasgos",
+        "step2Description": "Las descripciones de las construcciones explican cómo la distribución de estadísticas y los efectos de los rasgos se refuerzan mutuamente para un mejor escalado.",
+        "step3Title": "Reduce las reconstrucciones costosas",
+        "step3Description": "Una ruta de construcción planificada reduce la posibilidad de reiniciar después de los puntos de control de progresión del juego tardío."
+      },
+      "featured": "Construcciones destacadas de Clover Retribution",
+      "all": "Todas las construcciones de Clover Retribution"
+    },
+    "magic": {
+      "title": "Magia de Clover Retribution",
+      "description": "Guías de magia de Clover Retribution que cubren las fortalezas de los elementos, el rol de los combos, las prioridades de escalado y el uso en enfrentamientos.",
+      "metaTitle": "Magia de Clover Retribution - Guía de elementos y escalado",
+      "metaDescription": "Aprende las opciones de magia de Clover Retribution, incluyendo Luz, Sombra, Corte, Espacial, Arena, Vacío y Llave con recomendaciones basadas en roles.",
+      "categoryLabel": "MAGIA",
+      "whatIs": "¿Qué es la categoría Magia de Clover Retribution?",
+      "whatIsDescription": "Los artículos de magia explican el rol, las fortalezas y el comportamiento de escalado de cada elemento de Clover Retribution. Te ayudan a elegir una dirección de grimorio que se adapte a tu plan de estadísticas y rasgos.",
+      "why": "¿Por qué leer las guías de magia de Clover Retribution?",
+      "whySteps": {
+        "step1Title": "Elige el elemento correcto temprano",
+        "step1Description": "Las comparaciones centradas en el rol te ayudan a decidir entre estilos de ráfaga, control, sostenimiento y movilidad.",
+        "step2Title": "Combina la magia con el núcleo de tu construcción",
+        "step2Description": "Puedes alinear las elecciones de magia con los bonos de raza y rasgos para obtener resultados de daño y utilidad más fuertes.",
+        "step3Title": "Mejora la consistencia en PvE y PvP",
+        "step3Description": "Los consejos específicos de elementos hacen que las rotaciones y las decisiones de enfrentamiento sean más confiables en diferentes contenidos."
+      },
+      "featured": "Guías destacadas de magia de Clover Retribution",
+      "all": "Todas las guías de magia de Clover Retribution"
+    }
   }
 }
