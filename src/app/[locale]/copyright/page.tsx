@@ -9,7 +9,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverretribution.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cloverretribution.wiki'
   const path = '/copyright'
 
   return {
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Copyright and intellectual property information for Clover Retribution Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Clover Retribution Wiki',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Copyright Notice - Clover Retribution Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: May 27, 2026
           </p>
         </div>
       </section>
@@ -91,7 +91,7 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
+              <li><strong>Roblox</strong> - Owner of the Roblox platform</li>
               <li><strong>Clover Retribution Developers</strong> - Creators of the Clover Retribution game</li>
             </ul>
             <p>
@@ -152,7 +152,7 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Clover Retribution</strong> - Trademark of the game developers</li>
               <li><strong>Clover Retribution Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>

@@ -218,7 +218,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverretribution.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cloverretribution.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -252,9 +252,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
+          siteName: 'Clover Retribution Wiki',
           title,
           description,
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          images: [
+            {
+              url: `${siteUrl}/images/hero.webp`,
+              width: 768,
+              height: 432,
+              alt: 'Clover Retribution hero artwork',
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [`${siteUrl}/images/hero.webp`],
         },
         robots: {
           index: true,
@@ -277,6 +293,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: defaultTitle,
         description: `Browse all ${contentType} content for Clover Retribution Wiki`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          type: 'website',
+          siteName: 'Clover Retribution Wiki',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Clover Retribution Wiki`,
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          images: [`${siteUrl}/images/hero.webp`],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Clover Retribution Wiki`,
+          images: [`${siteUrl}/images/hero.webp`],
+        },
         robots: {
           index: true,
           follow: true,
@@ -310,10 +340,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
+          type: 'article',
+          siteName: 'Clover Retribution Wiki',
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: metadata.title,
+          description: metadata.description,
+          images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
         },
         robots: {
           index: true,
@@ -345,10 +383,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
+              type: 'article',
+              siteName: 'Clover Retribution Wiki',
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: metadata.title,
+              description: metadata.description,
+              images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
             },
             robots: {
               index: true,

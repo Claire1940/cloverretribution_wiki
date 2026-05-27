@@ -36,9 +36,9 @@
   "hero": {
     "badge": "Roblox Black Clover RPG",
     "title": "Clover Retribution Wiki",
-    "description": "Track active Clover Retribution codes, top builds, race and trait tiers, and official resources in one place.",
-    "getFreeCodesCTA": "Check Codes",
-    "playOnSteamCTA": "Play on Roblox",
+    "description": "Clover Retribution Wiki tracks active codes, magic routes, race and trait priorities, and official links for faster progression.",
+    "getFreeCodesCTA": "Get Clover Retribution Codes",
+    "playOnSteamCTA": "Play Clover Retribution on Roblox",
     "stats": {
       "stat1": {
         "value": "64.6M+",
@@ -724,9 +724,20 @@
   },
   "cta": {
     "title": "Start Your Clover Retribution Build",
-    "description": "Use the modules above to lock your race, magic, trait, and progression path.",
-    "joinCommunity": "Join Community",
-    "joinGame": "Play Clover Retribution"
+    "description": "Use the modules above, then follow official channels for updates, codes, and patch notes.",
+    "joinCommunity": "Join Clover Retribution Discord",
+    "joinGame": "Play Clover Retribution on Roblox"
+  },
+  "footer": {
+    "brand": "Clover Retribution Wiki",
+    "description": "Unofficial fan resource for Clover Retribution on Roblox.",
+    "social": {
+      "roblox": "Official Roblox Game",
+      "community": "Official Roblox Community",
+      "discord": "Official Discord",
+      "trello": "Official Trello",
+      "youtube": "YouTube Release Stream"
+    }
   },
   "pages": {
     "codes": {

@@ -13,7 +13,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverretribution.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cloverretribution.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`

@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverretribution.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cloverretribution.wiki'
   const path = '/terms-of-service'
 
   return {
     title: "Terms of Service - Clover Retribution Wiki",
-    description: "Read the Terms of Service for Clover Retribution Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
+    description: "Read the Terms of Service for Clover Retribution Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Roblox game resource platform.",
     robots: {
       index: false,
       follow: true,
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: "Terms and conditions for using Clover Retribution Wiki.",
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: "Clover Retribution Wiki",
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: "Terms of Service - Clover Retribution Wiki",
       description: "Terms and conditions for using Clover Retribution Wiki.",
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function TermsOfService() {
             Terms and conditions for using Clover Retribution Wiki
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: May 27, 2026
           </p>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function TermsOfService() {
             <h2>2. Description of Service</h2>
             <p>
               Clover Retribution Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
-              and resources related to the Steam game "Clover Retribution". Our services include, but are not limited to:
+              and resources related to the Roblox game "Clover Retribution". Our services include, but are not limited to:
             </p>
             <ul>
               <li>Game guides and survival strategies</li>
@@ -99,7 +99,7 @@ export default function TermsOfService() {
             </ul>
             <p>
               <strong>Important:</strong> Clover Retribution Wiki is NOT affiliated with, endorsed by, or associated with
-              Valve Corporation (Steam) or the official developers of Clover Retribution. We are an independent fan community.
+              Roblox Corporation or the official developers of Clover Retribution. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>
@@ -137,7 +137,7 @@ export default function TermsOfService() {
             <h3>4.2 Game Content</h3>
             <p>
               All game-related content, including but not limited to character images, game screenshots, logos, and
-              trademarks, are the property of Valve Corporation (Steam) and/or the developers of Clover Retribution. We use such
+              trademarks, are the property of Roblox Corporation and/or the developers of Clover Retribution. We use such
               content under fair use principles for informational and educational purposes only.
             </p>
 
@@ -157,7 +157,7 @@ export default function TermsOfService() {
               <li><strong>Accuracy:</strong> We strive to provide accurate information, but we do not guarantee that all content is current, complete, or error-free. Game updates may render information outdated.</li>
               <li><strong>Availability:</strong> We do not guarantee that the Website will be available at all times or free from interruptions, errors, or technical issues.</li>
               <li><strong>Third-Party Content:</strong> We are not responsible for the accuracy or reliability of information obtained from third-party sources.</li>
-              <li><strong>Demo Availability:</strong> Steam demo availability and game updates may change without notice. We are not responsible for demo access or game changes.</li>
+              <li><strong>Game Availability:</strong> Roblox platform access, game modes, and updates may change without notice. We are not responsible for access changes.</li>
             </ul>
             <p>
               You acknowledge that your use of the Website is at your sole risk and discretion.
@@ -165,7 +165,7 @@ export default function TermsOfService() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              TO THE FULLEST EXTENT PERMITTED BY LAW, LUCID BLOCKS WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+              TO THE FULLEST EXTENT PERMITTED BY LAW, CLOVER RETRIBUTION WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
               SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
               OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
             </p>
@@ -183,7 +183,7 @@ export default function TermsOfService() {
 
             <h2>7. External Links</h2>
             <p>
-              The Website may contain links to third-party websites, including Steam, Discord, social media platforms,
+              The Website may contain links to third-party websites, including Roblox, Discord, social media platforms,
               and other external resources. These links are provided for your convenience only.
             </p>
             <p>

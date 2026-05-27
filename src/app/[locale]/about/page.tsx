@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverretribution.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cloverretribution.wiki'
   const path = '/about'
 
   return {
-    title: 'About Clover Retribution Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Clover Retribution Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Clover Retribution Steam game.',
+    title: 'About Clover Retribution Wiki - Your Ultimate Roblox Game Resource',
+    description: 'Learn about Clover Retribution Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Clover Retribution Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn about our mission to provide the best Clover Retribution game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Clover Retribution Wiki',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'About Clover Retribution Wiki',
       description: 'Learn about our mission to provide the best Clover Retribution game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -74,7 +74,7 @@ export default function About() {
             <h2>Welcome to Clover Retribution Wiki</h2>
             <p>
               Clover Retribution Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Clover Retribution". We are a community-driven platform that provides comprehensive guides,
+              master the Roblox game "Clover Retribution". We are a community-driven platform that provides comprehensive guides,
               crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
             </p>
             <p>

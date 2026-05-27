@@ -35,12 +35,20 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, moduleLinkMap: _moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.cloverretribution.wiki";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cloverretribution.wiki";
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${siteUrl}/#organization`,
+        name: "Clover Retribution Wiki",
+        url: siteUrl,
+        logo: `${siteUrl}/images/hero.webp`,
+        image: `${siteUrl}/images/hero.webp`,
+      },
       {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
@@ -50,11 +58,12 @@ export default function HomePageClient({ latestArticles, moduleLinkMap: _moduleL
       },
       {
         "@type": "VideoObject",
-        name: "Clover Retribution Starter Guide",
-        description: "Starter guide and gameplay overview for Clover Retribution.",
-        uploadDate: "2024-01-01",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/f7Tiw0gWtQ0",
+        name: "Clover Retribution Release Stream and Gameplay",
+        description: "Release stream showcase and gameplay overview for Clover Retribution.",
+        uploadDate: "2023-07-14",
+        thumbnailUrl: "https://i.ytimg.com/vi/oK8inrGmfpQ/hqdefault.jpg",
+        embedUrl: "https://www.youtube.com/embed/oK8inrGmfpQ",
+        contentUrl: "https://www.youtube.com/watch?v=oK8inrGmfpQ",
       },
     ],
   };
@@ -80,10 +89,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap: _moduleL
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 leading-[1.05]">{t.hero.title}</h1>
             <p className="mx-auto mb-8 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg md:mb-10 md:max-w-3xl md:text-2xl">{t.hero.description}</p>
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
-              <button onClick={() => scrollToSection("codes")} className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4 bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white rounded-lg font-semibold text-base md:text-lg transition-colors">
+              <a href="https://discord.com/invite/clover-retribution" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4 bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white rounded-lg font-semibold text-base md:text-lg transition-colors">
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a href="https://www.roblox.com/games/10912405603/Clover-Retribution" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4 border border-border hover:bg-white/10 rounded-lg font-semibold text-base md:text-lg transition-colors">
                 {t.hero.playOnSteamCTA}
                 <ArrowRight className="w-5 h-5" />
@@ -97,9 +106,13 @@ export default function HomePageClient({ latestArticles, moduleLinkMap: _moduleL
       </section>
 
       <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature videoId="f7Tiw0gWtQ0" title={t.gameFeature.title} posterSrc="/images/hero.webp" />
+            <VideoFeature
+              videoId="oK8inrGmfpQ"
+              title={t.gameFeature.title}
+              posterSrc="https://i.ytimg.com/vi/oK8inrGmfpQ/hqdefault.jpg"
+            />
           </div>
         </div>
       </section>
