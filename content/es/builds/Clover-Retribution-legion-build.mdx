@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Legion Build: Guía y Configuración de Inteligencia 2026",
+  description: "Domina la construcción de legiones de Clover Retribution con nuestra guía sobre estadísticas, mecánicas de prestigio, invocaciones de piezas de ajedrez y el mejor equipo para estilos de juego de alta Inteligencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Legion+Build+Guide",
+  date: "2026-05-27",
+  author: "Equipo de Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **construcción de legiones de Clover Retribution** se centra en maximizar la **Inteligencia** para aumentar la salud, los escudos y la curación de las invocaciones.
+- La **Gestión de Maná** es crítica ya que todas las invocaciones de Legión drenan continuamente tu reserva de maná mientras están activas.
+- **Torre y Alfil** son tus piezas de utilidad principales, proporcionando escudos y curación masiva de área de efecto respectivamente.
+- **Prestigia 5 veces** para obtener un aumento permanente de +50 estadísticas en todos los atributos para la optimización del juego final.
+- El **Alto Elfo** sigue siendo la mejor opción de raza debido a sus masivas reservas de maná y mejoras de daño mágico.
+</Callout>
+
+<Section icon={Map} title="Dominando la Construcción de Legiones de Clover Retribution">
+
+La **construcción de legiones de Clover Retribution** representa uno de los estilos de juego más únicos del juego, cambiando el enfoque del combate directo a la gestión táctica de invocaciones. A diferencia de las magias elementales tradicionales que dependen de proyectiles de lanzamiento instantáneo, la Magia de Legión te permite poblar el campo de batalla con piezas de ajedrez estacionarias que proporcionan presión ofensiva, escudos defensivos y curación sostenida. Esta construcción depende en gran medida de la estadística de Inteligencia (INT), que rige casi todos los aspectos de la efectividad de tus invocaciones.
+
+**Puntos destacados del video:**
+- Resumen de las cuatro piezas principales de la Legión: Peón, Torre, Caballo y Alfil.
+- Explicación de la mecánica de drenaje de maná y cómo mantener múltiples invocaciones.
+- Información sobre el sistema de prestigio y cómo aumenta tus estadísticas base.
+- Demostración del hechizo de sangre Torrente Carmesí como herramienta de supervivencia.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Magia de Legión, Prestigio, Halloween y Más" />
+
+<Callout type="tip" title="Consejo de Invocación">
+Recuerda que puedes invocar múltiples Peones para abrumar a los enemigos, pero las piezas de nivel superior como el Alfil y la Torre son limitadas. Usa el clic derecho para desinvocar piezas manualmente si tu maná comienza a bajar demasiado durante una pelea de jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Magia de Legión: Desglose de Piezas y Escalamiento">
+
+Para ejecutar eficazmente una **construcción de legiones de Clover Retribution**, debes comprender los roles específicos de cada pieza de ajedrez. Cada pieza drena maná con el tiempo, lo que significa que tu estadística de Inteligencia no solo aumenta su poder, sino que también aumenta tu reserva de maná, lo que te permite mantenerlas activas por más tiempo.
+
+| Pieza | Función Primaria | Mecánica de Escalamiento | Efecto Especial |
+| :--- | :--- | :--- | :--- |
+| **Peón** | DPS/Curación de Objetivo Único | INT / Maestría | Ataca y cura al objetivo más cercano simultáneamente |
+| **Torre** | Daño de AoE / Escudo | Escalamiento 100% INT | Otorga un escudo igual a la INT del lanzador a los aliados cercanos |
+| **Caballo** | Daño de Ráfaga Alto | Maestría Base | Proporciona un **30% de Mejora de Daño** al aliado más cercano |
+| **Alfil** | Curación Élite | INT / Maestría Alta | Lanza curaciones de AoE y hechizos de alto nivel como Guardián de la Muerte |
+
+El Caballo es ampliamente considerado el golpeador pesado del conjunto, mientras que la Torre es esencial para el juego en grupo debido a su escalamiento de escudo plano. En un entorno en solitario, una combinación del Peón para daño constante y el Alfil para la supervivencia es a menudo la configuración más estable.
+
+<Callout type="warning" title="Agotamiento de Maná">
+Si tu maná llega a cero, todas las piezas de Legión activas desaparecerán inmediatamente. Siempre mantente atento a tu barra azul, especialmente cuando uses el Alfil, que es la pieza más cara de mantener.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estadísticas Óptimas y Selección de Raza">
+
+La base de cualquier **construcción de legiones de Clover Retribution** exitosa reside en tu distribución de atributos y pasivas raciales. Dado que los escudos y la curación de tus invocaciones son directamente proporcionales a tu Inteligencia, debes buscar una gran inversión en esa área.
+
+<CardGrid cols={3}>
+  <Card title="Alto Elfo (Nivel S)">
+    - **Reservas Monstruosas**: Gran reserva de maná para mantener múltiples piezas.
+    - **Afinidad Mágica**: Impulso natural a todo el escalamiento basado en INT.
+    - Lo mejor para construcciones de Legión puras.
+  </Card>
+  <Card title="Lynthari (Nivel A)">
+    - **Alta Velocidad**: Te ayuda a reposicionarte mientras las invocaciones hacen el trabajo.
+    - **Mejora de Destreza**: Útil si usas un estoque secundario o un arma rápida.
+    - Bueno para construcciones híbridas de movilidad.
+  </Card>
+  <Card title="Humano (Nivel B)">
+    - **Versatilidad**: Estadísticas equilibradas para jugadores que no se han comprometido.
+    - **Rerrolls más fáciles**: Menor barrera de entrada para nuevos jugadores.
+    - Recomendado solo para el juego temprano.
+  </Card>
+</CardGrid>
+
+### Distribución de Estadísticas Recomendada
+
+| Rango de Nivel | Inteligencia (INT) | Constitución (CON) | Destreza (DEX) |
+| :--- | :--- | :--- | :--- |
+| **Juego Temprano (1-100)** | 70% | 20% | 10% |
+| **Juego Medio (101-300)** | 80% | 15% | 5% |
+| **Juego Final (405)** | 90% | 10% | 0% |
+
+<Callout type="info" title="Prioridad de Inteligencia">
+En el nivel 405, tener alrededor de 400-500 INT permite que el hechizo Torrente Carmesí (si usas el subestilo de Sangre) elimine casi de un solo golpe a los mobs de élite como los Escorpiones, mientras proporciona una curación masiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor Equipo y Configuración de Armadura">
+
+Tu equipo debe complementar tu alta estadística de INT para maximizar la eficiencia de tus invocaciones de Legión. Busca armaduras que proporcionen bonificaciones de "Regeneración de Maná" o "Daño Mágico" para compensar el drenaje constante de tus piezas.
+
+<Steps>
+  <Step num="1" title="Selección de Arma Principal">
+    El **Bastón de Cuerno de Yeti** es actualmente la opción principal para esta construcción. Ofrece aumentos significativos a la Inteligencia y al Daño Mágico, lo que hace que los escudos de tu Torre sean significativamente más resistentes.
+  </Step>
+  <Step num="2" title="Armadura y Mantos">
+    Equipa el **Manto Peludo del Arcanista**. Este conjunto de armadura está diseñado específicamente para lanzadores de hechizos, proporcionando la capacidad de maná necesaria para mantener un Alfil y un Caballo activos simultáneamente.
+  </Step>
+  <Step num="3" title="Optimización de Accesorios">
+    Busca el **Void Wisp** (aparición rara). Aunque es raro, otorga +25 INT y mejora las magias relacionadas con el vacío, pero el aumento de estadísticas en bruto es invaluable para el escalamiento de la Legión.
+  </Step>
+</Steps>
+
+| Ranura de Equipo | Recomendación de Objeto | Beneficio Clave |
+| :--- | :--- | :--- |
+| **Arma** | Bastón de Cuerno de Yeti | Gran aumento de INT y Daño Mágico |
+| **Armadura** | Manto Peludo del Arcanista | Altas Reservas de Maná |
+| **Accesorio** | Void Wisp | +25 Inteligencia |
+| **Pergamino** | Torrente Carmesí | Robo de Vida y Supervivencia |
+
+<Callout type="success" title="Sinergia de Supervivencia">
+Usar el pergamino **Torrente Carmesí** (obtenido de la Bruja de Sangre) proporciona un movimiento de robo de vida con un enfriamiento de 10 segundos. Esta es la red de seguridad perfecta para los usuarios de la Legión que están estacionarios mientras gestionan sus invocaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prestigio y Optimización del Juego Tardío">
+
+Para llevar tu **construcción de legiones de Clover Retribution** al límite absoluto, debes participar en el sistema de Prestigio que se encuentra en el Rey Mago. Prestigiar reinicia tu nivel pero proporciona un crecimiento de estadísticas permanente que es esencial para enfrentarse a jefes de alto nivel.
+
+### Recompensas de Escalamiento de Prestigio
+Cuando prestigias al nivel máximo actual (405), recibes bonificaciones significativas:
+- **Puntos de Estadística**: Ganas el 2.5% de tu nivel como estadísticas permanentes. En el nivel 405, esto es aproximadamente +10 estadísticas por prestigio.
+- **Bonificación Máxima**: Puedes prestigiar hasta 5 veces, lo que resulta en un total de **+50 estadísticas gratuitas** en cada categoría (STR, DEX, INT, CON).
+- **Probabilidad de Cuatro Hojas**: Prestigiar en el nivel 405 otorga una probabilidad base del 10% de obtener una versión "Cuatro Hojas" de tu magia, que desbloquea movimientos exclusivos y poderosos.
+
+| Recuento de Prestigio | Estadísticas de Bonificación Total | Probabilidad de Piedad de Cuatro Hojas |
+| :--- | :--- | :--- |
+| 1 | +10 | 10% |
+| 2 | +20 | 20% |
+| 3 | +30 | 25% |
+| 4 | +40 | 30% |
+| 5 | +50 | 40% |
+
+<Callout type="warning" title="El Jefe de Prestigio">
+Ten en cuenta que el Rey Mago eventualmente se convertirá en un jefe. Cuantos más niveles le "alimentes" a través del prestigio, más fuerte será cuando finalmente tengas que enfrentarte a él en futuras actualizaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de la Construcción de Legiones y Preguntas Frecuentes">
+
+Antes de adentrarte en las mazmorras de nivel superior o participar en los eventos de Halloween, asegúrate de que tu construcción cumpla con estos criterios para una máxima eficiencia.
+
+<Checklist
+  id="legion-readiness"
+  title="Lista de Verificación de Finalización de la Construcción de Legiones:"
+  items={[
+    "Alcanzar el Nivel 405 para un escalamiento máximo de Prestigio",
+    "Obtener el Bastón de Cuerno de Yeti para el escalamiento de INT",
+    "Desbloquear la pieza de Alfil a través de la Maestría Mágica",
+    "Equipar el pergamino Torrente Carmesí para curación de emergencia",
+    "Alcanzar al menos Prestigio 3 para el colchón de estadísticas",
+    "Asegurar una raza de Alto Elfo o Alto Orco para maná/durabilidad"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Qué pieza debo priorizar en una construcción de legiones de Clover Retribution?",
+    answer: "La Torre es tu pieza más importante para el juego general. Su escudo escala 1:1 con tu Inteligencia, proporcionando un enorme amortiguador para ti y tus aliados durante encuentros difíciles."
+  },
+  {
+    question: "¿La Maestría Mágica se guarda cuando vuelvo a tirar mi Grimorio?",
+    answer: "No, la maestría no se guarda a menos que poseas el pase de juego Clover Storage. Si planeas cambiar entre Legión y otras magias, este pase de juego es muy recomendable."
+  },
+  {
+    question: "¿Cómo obtengo el movimiento Torrente Carmesí para mi construcción?",
+    answer: "Debes obtener el pergamino del NPC Bruja de Sangre. Una vez equipado y usado, te otorga el hechizo Torrente Carmesí, que proporciona daño y curación proporcionales a tu INT."
+  },
+  {
+    question: "¿Es viable la construcción de Legión para enfrentarse a jefes en solitario?",
+    answer: "Sí, pero requiere una gestión cuidadosa del maná. Al rotar tus invocaciones y usar el Caballo para la mejora de daño del 30%, puedes superar a la mayoría de los jefes mientras tus piezas hacen el trabajo."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Profesional Final">
+A medida que progreses, prioriza los tokens de Aniversario de Orion en la torre. Guardar 30 de estos tokens garantiza un Borrador Mágico Mítico, lo cual es vital si necesitas volver a tirar tus rasgos para que coincidan con los requisitos de Inteligencia del estilo de juego de la Legión.
+</Callout>
+
+</Section>

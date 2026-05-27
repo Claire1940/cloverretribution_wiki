@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame, Heart, Scroll } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Melhor Build de Clover Retribution: Loadouts Meta e Guia de Atributos 2026",
+  description: "Domine a melhor build de Clover Retribution com nosso guia sobre configurações de Restrição Divina, Inteligência e Destreza. Otimize atributos, equipamentos e traços para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Best+Build",
+  date: "2026-05-27",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As melhores opções de **build de Clover Retribution** atualmente giram em torno da configuração de **Restrição Divina** (Toji) para domínio físico ou builds de **Inteligência** para maestria mágica.
+- A **Restrição Divina** exige sacrificar 100% da sua mana para obter buffs físicos massivos, teletransportes e habilidades de arma gratuitas.
+- A **Alocação de Atributos** é crítica; para builds físicas, foque em **Destreza** e **Constituição**, enquanto builds mágicas exigem pelo menos 60% dos pontos em **Inteligência**.
+- O **Sistema de Prestígio** permite que os jogadores reiniciem os níveis para farmar giros e aumentar a piedade para obter **Grimórios de Quatro Folhas** raros.
+- As **Melhores Raças** para 2026 incluem **Ryomen** (para físico) e **Alto Elfo** (para mágico) devido aos seus multiplicadores de atributos inatos.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Meta: Escolhendo Seu Caminho">
+
+Em Clover Retribution, sua build é o culminar de sua Raça, Traço, Magia e distribuição de Atributos. Em 2026, o meta mudou para papéis altamente especializados, em vez de personagens "faz-tudo". Se você quer ser uma força física imparável ou um mago de alto dano e pouca defesa, entender a sinergia entre esses elementos é o primeiro passo.
+
+**Destaques do Vídeo:**
+- Análise detalhada da progressão da **Restrição Divina** (Toji).
+- Melhor equipamento para causadores de dano físico (Campeão Gorgon vs. Manto).
+- Breakpoints de atributos ideais para manter o buff **Sentinela**.
+- Como invocar e "cheese" o chefe **Apex** para obter drops únicos.
+
+<YouTubeEmbed videoId="l_x4V_v_VNU" title="O GUIA DEFINITIVO DO TOJI! ATRIBUTOS, MAGIA, RAÇA, EQUIPAMENTO DE RESTRIÇÃO DIVINA | Clover Retribution" />
+
+<Callout type="success" title="Dica Meta">
+A build "Toji" atual (Restrição Divina) é amplamente considerada a **melhor build de Clover Retribution** para solar chefes porque elimina a necessidade de gerenciamento de mana, ao mesmo tempo em que oferece redução de dano massiva e mobilidade.
+</Callout>
+
+| Tipo de Build | Atributo Principal | Raça Chave | Melhor Traço | Estilo de Jogo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Restrição Divina** | Dex / Con | Ryomen | Restrição Divina | Tanque/DPS Físico |
+| **Nuke Mágico** | Inteligência | Alto Elfo | Reservas Monstruosas | Magia de Área à Distância |
+| **Velocista** | Destreza | Lynthari | Regeneração de Alta Velocidade | Combate Corpo a Corpo Evasivo Rápido |
+| **Briguento** | Força | Alto Orc | Resistência Adaptativa | Tanque de Ataque Pesado |
+
+</Section>
+
+<Section icon={Swords} title="A Build de Restrição Divina (Toji)">
+
+A build de Restrição Divina é um caminho de alto investimento e alta recompensa que muda completamente a forma como você joga. Ao sacrificar sua capacidade de usar magia (perdendo 100% de mana), você ganha atributos físicos incríveis e habilidades únicas que o tornam um pesadelo tanto em PvP quanto em PvE.
+
+<CardGrid cols={2}>
+  <Card title="Vantagens Principais">
+    - **Teletransporte**: Substitui os dashes padrão por teletransportes instantâneos.
+    - **Habilidades Gratuitas**: Habilidades de arma não exigem mana para serem executadas.
+    - **Buffs de Dano**: Aumento de 30% em Dano de Contusão, Corte e Perfuração.
+    - **Sobrevivência**: Aumento de 20% na Vida base e imunidade a Dano de Queda.
+  </Card>
+  <Card title="Equipamento Necessário">
+    - **Arma**: Anulador Divino ou Separação do Pecado.
+    - **Armadura**: Armadura do Campeão Gorgon (para DMG) ou Manto do Mais Forte (para HP).
+    - **Acessório**: Título de Anulador Divino e Dragonas de Pedra Etérea.
+    - **Colar**: Medalhão Arcano ou Colar do Vermelho.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sacrifício de Mana">
+Uma vez que você avança para a Restrição Divina, sua barra de mana é permanentemente removida. Você não pode usar nenhuma magia, então certifique-se de estar comprometido com um estilo de jogo baseado em armas antes de completar o desafio Apex.
+</Callout>
+
+### Como Desbloquear a Restrição Divina
+Para alcançar esta build, você deve primeiro obter o traço **Restrito Celestial**. Este é um traço lendário que reduz sua mana em 80% em troca de aumentos de atributos base.
+
+<Steps>
+  <Step num="1" title="Alcance o Nível 250">
+    Você deve atingir o limite de nível de 250 e ter mantido o traço Restrito Celestial por pelo menos 8 horas e 20 minutos de tempo total (não necessariamente no jogo).
+  </Step>
+  <Step num="2" title="Acione a Recompensa">
+    Mate mobs de alto nível como Venom até que uma mensagem apareça: "Alguém colocou uma recompensa em sua cabeça." Isso indica que o chefe Apex está vindo.
+  </Step>
+  <Step num="3" title="Derrote Apex">
+    Apex aparecerá atrás de você em 10-20 minutos. Você deve causar pelo menos 30% do dano a ele. Reconecte-se ao jogo após a morte para ver sua barra de mana desaparecer e o traço evoluir.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Zap} title="Builds de Inteligência e Maestria Mágica">
+
+Se você prefere a versatilidade da magia, a build de Inteligência é sua escolha principal. Esta build depende de grandes reservas de mana e escalonamento de feitiços para limpar salas de inimigos à distância. Ao contrário da build de Restrição Divina, esta configuração requer gerenciamento constante de recursos.
+
+| Componente | Recomendação | Raciocínio |
+| :--- | :--- | :--- |
+| **Raça** | **Alto Elfo** | Fornece enormes reservas de mana e escalonamento de inteligência. |
+| **Traço** | **Reservas Monstruosas** | Aumenta significativamente a mana total e a regeneração. |
+| **Distribuição de Atributos** | **60% Int / 40% Con** | Garante alto dano de feitiço enquanto sobrevive a ataques de chefes. |
+| **Arma** | **Cajado de Chifre de Yeti** | Aumenta significativamente a produção de dano mágico. |
+| **Armadura** | **Manto do Arcanista** | Aumenta a resistência mágica e os atributos de inteligência. |
+
+<Callout type="tip" title="Breakpoints de Atributos">
+Sempre invista pelo menos um ponto em Inteligência no início para aumentar sua regeneração de mana. Para builds de fim de jogo, mire em pelo menos 300+ de Inteligência para maximizar o dano de feitiços de alto nível como Árvore do Mundo ou Raio de Sol.
+</Callout>
+
+### Classificação de Sinergia Mágica
+Nem todas as magias são iguais para uma build de Inteligência. Em 2026, as seguintes magias dominam o meta:
+1. **Raio de Sol**: 25% de Redução de Dano e 15% mais dano durante o dia.
+2. **Areia**: Fornece 15% de Redução de Dano plana, tornando você surpreendentemente resistente.
+3. **Árvore do Mundo**: Oferece escudos e minas terrestres, embora escale menos agressivamente que Raio de Sol.
+
+</Section>
+
+<Section icon={Heart} title="Escalonamento de Atributos Físicos: Destreza vs. Força">
+
+Escolher entre Destreza e Força determina sua escolha de arma e fluxo de combate. Enquanto a Força se concentra em golpes pesados e lentos que atordoam os inimigos, a Destreza se trata de velocidade, esquiva e combos rápidos.
+
+**Destaques do Vídeo:**
+- Melhor forma de farmar giros (mais de 360 por hora).
+- Usando o farm de Vampiro (Lucius) para subir de nível de 1 a 240.
+- Dicas de nivelamento: Colocando pontos em Inteligência mesmo para builds físicas para gerenciar mana de utilidade.
+
+<YouTubeEmbed videoId="n6z7b6HXDVzY" title="SISTEMA DE PRESTÍGIO! MELHOR FORMA DE FARMAR GIROS!! 360 GIROS POR HORA | Clover Retribution" />
+
+<Callout type="info" title="O Buff Sentinela">
+Se você estiver usando a raça **Ryomen** para uma build física, não exceda 210 de Destreza se sua Constituição estiver muito baixa. Exceder proporções específicas de Destreza/Constituição pode fazer com que você perca o buff **Sentinela**, que fornece camadas defensivas essenciais.
+</Callout>
+
+| Atributo | Foco | Raça Recomendada | Arma Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Destreza** | Velocidade / Críticos | Lynthari / Ryomen | Lâmina Gelada Pegajosa / Katana |
+| **Força** | Dano Bruto / Atordoamento | Alto Orc | Garra do Galante / Espada Grande |
+| **Constituição** | HP / Defesa | Escala do Pavor / Pele de Pedra | Escudo e Espada |
+
+</Section>
+
+<Section icon={Sparkles} title="O Sistema de Prestígio e o Farm de Giros">
+
+Para alcançar a **melhor build de Clover Retribution**, você provavelmente precisará usar o sistema de Prestígio. Este sistema permite que você reinicie seu nível para 1 em troca de aumentos de atributos permanentes ou "giros" que são usados para obter Raças, Traços e Magias melhores.
+
+<Checklist
+  id="prestige-prep"
+  title="Lista de Verificação de Prestígio:"
+  items={[
+    "Equipe seu melhor equipamento antes de reiniciar (Os requisitos de nível podem impedir o reequipamento mais tarde).",
+    "Alcance pelo menos o Nível 200 (Nível 405 é ideal para a piedade de Quatro Folhas).",
+    "Escolha 'Eu gostaria de outra chance na vida' para 5 atributos permanentes.",
+    "Escolha 'Se eu tivesse mais algumas chances' para giros (Nível dividido por 3).",
+    "Junte-se a uma Guilda para o buff de 10% de XP para acelerar o processo de subir de nível novamente."
+  ]}
+/>
+
+<Callout type="tip" title="Eficiência de Giro">
+Farmar Lucius (Vampiro Ancião) é a maneira mais rápida de recuperar níveis. No nível 1, uma única morte de Lucius pode levá-lo ao nível 80+, concedendo dezenas de giros instantaneamente. Mire em **340 giros por hora** usando esta rotação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão de Equipamento de Fim de Jogo">
+
+A peça final de qualquer build é o equipamento. A maioria dos itens de nível superior são dropados de raides ou chefes mundiais como o Kraken ou o Golem de Gelo Corrompido.
+
+| Slot | Melhor em Slot (Físico) | Melhor em Slot (Mágico) | Fonte |
+| :--- | :--- | :--- | :--- |
+| **Cabeça** | Capacete de Tenente Trevo | Capuz do Arcanista | Incursão na Capital Trevo |
+| **Ombro** | Dragonas de Pedra Etérea | Dragonas Corrompidas | Golem / Incursão na Capital |
+| **Costas** | Capa do Aventureiro Antigo | Manto Infundido em Mana | Golem de Gelo Corrompido |
+| **Brincos** | Brincos do Kraken | Brincos de Pérola | Oran (Fichas do Kraken) |
+| **Anel** | Anéis de Veneno | Anéis de Regeneração de Mana | Chefe Veneno / Criação |
+
+<Callout type="success" title="Otimização de Dano">
+Para usuários de Restrição Divina, a **Armadura do Campeão Gorgon** é a escolha meta atual em vez do Manto do Mais Forte. Embora você perca cerca de 600 de HP, o aumento de 5% em Todo o Dano e +15 de Destreza permitem limpezas de chefes muito mais rápidas.
+</Callout>
+
+</Section>
+
+<Section icon={Scroll} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor build absoluta de Clover Retribution para iniciantes?",
+    answer: "A build de Destreza/Constituição com a raça Lynthari é a mais amigável para iniciantes. Ela oferece alta velocidade de movimento e regeneração de vida, permitindo que você sobreviva a erros enquanto aprende os padrões dos chefes."
+  },
+  {
+    question: "Posso mudar de uma build Mágica para Restrição Divina mais tarde?",
+    answer: "Sim, mas você deve obter o traço Restrito Celestial e completar o desafio Apex. Esteja ciente de que você perderá o acesso a todos os feitiços que desbloqueou em seu Grimório."
+  },
+  {
+    question: "A piedade do Grimório de Quatro Folhas é transferida através do Prestígio?",
+    answer: "Sim. Se você escolher a opção de se aproximar do seu grimório no nível 405, sua piedade aumenta. Cada tentativa falha aumenta sua chance em 10% para a próxima vez que você atingir o nível máximo."
+  },
+  {
+    question: "A Força é melhor que a Destreza para a Restrição Divina?",
+    answer: "Atualmente, a Destreza é preferida porque escala melhor com os teletransportes e a espada Anulador Divino. A Força é mais adequada para usuários de armas pesadas como os principais de Espada Grande."
+  }
+]} />
+
+</Section>

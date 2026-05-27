@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Arena en Clover Retribution: Habilidades, Builds y Consejos",
+  description: "Domina la Magia de Arena en Clover Retribution con esta guía completa que cubre todas las habilidades, builds óptimas y estrategias PvP.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Sand+Magic+Clover+Retribution",
+  date: "2026-05-27",
+  author: "Equipo de Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Magia de Arena** en Clover Retribution ofrece una fuerte defensa y daño consistente.
+- La pasiva **Armadura de Arena** proporciona una reducción de daño significativa para una mayor supervivencia.
+- El **Grimorio de Arena de Cuatro Hojas** mejora las habilidades, incluyendo la transformación de arena en arena de hierro y el envenenamiento de enemigos.
+- Hechizos ofensivos clave como **Golpe de Arena** y **Tsunami de Arena** son cruciales tanto para PvE como para PvP.
+- El **Escudo de Arena** es una poderosa herramienta defensiva, capaz de absorber una cantidad sustancial de daño.
+</Callout>
+
+<Section icon={Sparkles} title="Descubriendo la Magia de Arena de Clover Retribution">
+La **Magia de Arena** en Clover Retribution es un tipo de magia de rareza Mítica, que ofrece una mezcla única de capacidades ofensivas y defensivas. Es conocida por su habilidad para controlar el campo de batalla, ralentizar a los enemigos y proporcionar una reducción de daño significativa. Para aquellos lo suficientemente afortunados como para obtener un Grimorio de Arena de cuatro hojas, la magia se mejora aún más, transformando la arena ordinaria en potente arena de hierro con la posibilidad de aplicar veneno.
+
+**Puntos destacados del video:**
+- Demuestra las habilidades y pasivas de la Magia de Arena.
+- Muestra el gameplay contra mini-jefes y en escenarios PvP.
+- Resalta la reducción de daño proporcionada por la Armadura de Arena.
+- Muestra el efecto de veneno del Grimorio de Arena de cuatro hojas.
+
+<YouTubeEmbed videoId="t4ga4ZO7ABM" title="Demostración de MAGIA DE ARENA de 4 Hojas (Clover Retribution)" />
+
+El núcleo de la Magia de Arena gira en torno a su habilidad pasiva, **Armadura de Arena**, que otorga una reducción de daño fija. Aunque el porcentaje exacto puede variar, aumenta constantemente tu durabilidad, convirtiéndote en un oponente más duro en cualquier enfrentamiento. Esta pasiva siempre está activa, proporcionando una capa constante de protección, ya sea que tengas un grimorio de cuatro hojas o no.
+
+<Callout type="tip">
+Concéntrate en aprovechar la reducción de daño de la Armadura de Arena para enfrentarte a los enemigos de forma más agresiva, especialmente en los encuentros al principio del juego.
+</Callout>
+
+### Rareza y Adquisición de la Magia de Arena
+La Magia de Arena tiene una rareza Mítica en Clover Retribution, lo que la convierte en uno de los tipos de magia más raros y buscados. Adquirirla normalmente implica usar giros, que se pueden obtener a través de actividades en el juego, compras de Robux o canjeando códigos. La rareza a menudo se correlaciona con el poder y la utilidad de la magia, y la Magia de Arena cumple con esta expectativa con su versátil conjunto de herramientas.
+
+| Tipo de Magia  | Rareza      | Método de Adquisición                            |
+| :------------- | :---------- | :----------------------------------------------- |
+| **Arena**      | **Mítica**  | **Giros (Robux, Códigos, Recompensas del juego)**|
+| Sangre         | Mítica      | Giros (Robux, Códigos, Recompensas del juego)    |
+| Árbol del Mundo| Mítica      | Giros (Robux, Códigos, Recompensas del juego)    |
+| Espacial       | Mítica      | Giros (Robux, Códigos, Recompensas del juego)    |
+| Tiempo         | Mítica      | Giros (Robux, Códigos, Recompensas del juego)    |
+| Agua           | Legendaria  | Giros (Robux, Códigos, Recompensas del juego)    |
+| Hielo          | Legendaria  | Giros (Robux, Códigos, Recompensas del juego)    |
+| Vacío          | Legendaria  | Giros (Robux, Códigos, Recompensas del juego)    |
+| Rayo           | Épica       | Giros (Robux, Códigos, Recompensas del juego)    |
+| Llama          | Épica       | Giros (Robux, Códigos, Recompensas del juego)    |
+| Limo           | Rara        | Giros (Robux, Códigos, Recompensas del juego)    |
+| Dados          | Rara        | Giros (Robux, Códigos, Recompensas del juego)    |
+| Tierra         | Poco Común  | Giros (Robux, Códigos, Recompensas del juego)    |
+| Viento         | Poco Común  | Giros (Robux, Códigos, Recompensas del juego)    |
+| Melodía        | Común       | Giros (Robux, Códigos, Recompensas del juego)    |
+| Curación       | Común       | Giros (Robux, Códigos, Recompensas del juego)    |
+
+</Section>
+
+<Section icon={Swords} title="Análisis de Habilidades de Magia de Arena">
+La Magia de Arena cuenta con un conjunto completo de habilidades que atienden tanto a la presión ofensiva como a la resistencia defensiva. La variante de cuatro hojas mejora significativamente estas habilidades, a menudo añadiendo un efecto de veneno que puede reducir la salud del enemigo con el tiempo. Comprender el enfriamiento, el costo de maná y el requisito de maestría de cada habilidad es clave para optimizar tu estilo de juego.
+
+### Habilidades de Arena Principales
+
+| Habilidad     | Enfriamiento | Costo de Maná | Req. Maestría | Descripción                                        | Características Clave                                                     |
+| :------------ | :----------- | :------------ | :----------- | :------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Armadura de Arena**| Pasiva  | N/A       | N/A          | Proporciona +15 de reducción de daño.              | Defensa constante, mejora la supervivencia.                               |
+| **Golpe de Arena**| 2.5s     | 35        | 5            | Lanza arena frente a ti.                           | Bajo enfriamiento, buen hitbox, utilizable frecuentemente para daño consistente. |
+| **Tormenta de Arena**| 50s      | 75        | 25           | Crea una tormenta de arena a tu alrededor.         | Daña y ralentiza a los enemigos, posibilidad de envenenar con 4 hojas.    |
+| **Tsunami de Arena**| 30s      | 125       | 60           | Envía una ola de arena hacia adelante.             | Arrastra a oponentes más ligeros, múltiples golpes, bueno para desenganche/daño en PvP. |
+| **Escudo de Arena**| 1m       | 125       | 100          | Conjura un escudo de arena.                        | Escala con la salud, proporciona una absorción de daño significativa durante 45 segundos. |
+| **Aluvión de Arena**| -        | -         | -            | Invoca múltiples puños de arena para causar daño.  | Alto daño de ráfaga, bueno para rematar enemigos (específico de 4 hojas).|
+| **Gia SRI**   | -        | -         | -            | Causa un gran daño en un área.                     | Potente habilidad de área de efecto (específica de 4 hojas).             |
+
+<Callout type="warning" title="Gestión de Maná">
+Varias habilidades de Magia de Arena, especialmente Tsunami de Arena y Escudo de Arena, tienen costos de maná relativamente altos. Una gestión eficaz del maná es crucial, particularmente si tienes un rasgo de Restricción Celestial que limita tu maná.
+</Callout>
+
+### Mejoras del Grimorio de Cuatro Hojas
+Un Grimorio de Arena de cuatro hojas eleva la Magia de Arena a un nuevo nivel. La arena se convierte en arena de hierro, dando a tus ataques la posibilidad de aplicar veneno, añadiendo un significativo componente de daño con el tiempo a tu arsenal. Esto es particularmente efectivo con habilidades de múltiples golpes como Tormenta de Arena y Tsunami de Arena.
+
+**Puntos destacados del video:**
+- Demuestra Aluvión de Arena y Gia SRI, exclusivos de la Magia de Arena de cuatro hojas.
+- Muestra la cantidad de daño de las habilidades mejoradas.
+- Discute el valor de la Magia de Arena de cuatro hojas para el daño y la utilidad.
+
+<YouTubeEmbed videoId="VHN26UobdHs" title="Demostración de Magia de Arena 4L : Clover Retribution" />
+
+</Section>
+
+<Section icon={Shield} title="Builds y Estrategias Óptimas de Magia de Arena">
+Para maximizar el potencial de la **Magia de Arena de Clover Retribution**, los jugadores deben centrarse en la inteligencia para aumentar el daño de los hechizos y considerar rasgos que complementen su naturaleza defensiva y ofensiva.
+
+### Escalado de Inteligencia
+La Magia de Arena escala eficazmente con la inteligencia. Invertir puntos en inteligencia aumentará significativamente el daño de todas tus habilidades activas, haciéndolas más potentes tanto en escenarios PvE como PvP. Por ejemplo, una build de alta inteligencia puede casi duplicar el daño de Golpe de Arena, convirtiéndolo en un hechizo altamente utilizable y efectivo.
+
+| Enfoque de Estadísticas | Beneficio Principal              | Beneficio Secundario                  | Rasgos Recomendados         |
+| :---------------- | :------------------------------- | :------------------------------------ | :-------------------------- |
+| **Inteligencia**  | **Daño de hechizos aumentado**   | Eficiencia de maná                    | Regeneración de maná, Sabio |
+| Defensa           | Supervivencia mejorada           | Reducción de daño recibido            | Guardia, Piel de Hierro     |
+| Destreza          | Ataques M1 más rápidos, movilidad| Probabilidad de esquivar              | Rápido, Ágil                |
+
+<Callout type="success" title="Sinergia de Build">
+Combinar la Magia de Arena con una build de alta inteligencia es altamente recomendado. Esto maximiza tu daño mientras que la Armadura de Arena se encarga de una parte del daño entrante, permitiendo un estilo de juego ofensivo-defensivo equilibrado.
+</Callout>
+
+### Estrategias PvE y de Jefes
+Para el contenido PvE y las peleas contra jefes, la Magia de Arena ofrece una gran utilidad. La ralentización y el daño con el tiempo de Tormenta de Arena pueden reducir continuamente la salud del jefe, mientras que Golpe de Arena proporciona un daño consistente y de bajo enfriamiento. Tsunami de Arena se puede usar para el control de masas contra enemigos más pequeños o para añadir daño explosivo. El Escudo de Arena es invaluable para absorber poderosos ataques de jefes, lo que te permite mantenerte en encuentros desafiantes.
+
+<Steps>
+  <Step num="1" title="Enfrentamiento Inicial">
+    Activa **Tormenta de Arena** para aplicar ralentización y daño inicial, creando un aura a tu alrededor.
+  </Step>
+  <Step num="2" title="Daño Sostenido">
+    Usa repetidamente **Golpe de Arena** debido a su bajo enfriamiento y buen hitbox para un daño consistente.
+  </Step>
+  <Step num="3" title="Postura Defensiva">
+    Despliega **Escudo de Arena** cuando el jefe prepare un ataque pesado o cuando tu salud esté baja, absorbiendo un daño significativo.
+  </Step>
+  <Step num="4" title="Control de Masas/Explosión">
+    Usa **Tsunami de Arena** para arrastrar grupos de enemigos o para añadir una explosión de daño a los jefes, especialmente cuando son vulnerables.
+  </Step>
+</Steps>
+
+### Tácticas PvP
+En PvP, la Magia de Arena sobresale en el control del espacio y en superar a los oponentes. La combinación de la reducción de daño de la Armadura de Arena y la capacidad de absorción del Escudo de Arena te hace muy resistente.
+
+| Táctica PvP      | Habilidad Utilizada | Beneficio                                        |
+| :--------------- | :------------------ | :--------------------------------------------- |
+| **Control de Zona**| Tormenta de Arena   | Ralentiza y daña a los enemigos en un área, limita el movimiento. |
+| **Desenganche**  | Tsunami de Arena    | Aleja a los oponentes, creando distancia.      |
+| **Daño Explosivo**| Aluvión de Arena (4L)| Daño rápido y alto para rematar enemigos debilitados. |
+| **Sostenimiento/Tanque**| Escudo de Arena     | Absorbe el daño explosivo del oponente, permite contraatacar. |
+| **Hostigamiento**| Golpe de Arena      | Ataque a distancia de bajo enfriamiento para reducir la salud. |
+
+<CardGrid cols={2}>
+  <Card title="Juego Ofensivo">
+    - Utiliza **Golpe de Arena** para una presión constante.
+    - Sigue con **Tsunami de Arena** para arrastrar a los enemigos a posiciones desfavorables.
+    - Con 4 hojas, **Aluvión de Arena** proporciona una fuerte explosión.
+  </Card>
+  <Card title="Juego Defensivo">
+    - Confía en la **Armadura de Arena** para la reducción de daño pasiva.
+    - Usa **Escudo de Arena** para negar los intentos de combo del oponente.
+    - **Tormenta de Arena** puede disuadir empujes agresivos o crear espacio.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Maximizando tu Potencial de Magia de Arena">
+Para dominar verdaderamente la **Magia de Arena de Clover Retribution**, considera no solo tus habilidades sino también tu build general de personaje, incluyendo rasgos y equipo.
+
+### Rasgos Recomendados
+Elegir los rasgos correctos puede mejorar significativamente tu Magia de Arena. Los rasgos que aumentan la regeneración de maná, la inteligencia o la reducción de daño general son particularmente beneficiosos. Por ejemplo, "Reservas del Monstruo" puede proporcionar un impulso de maná muy necesario, permitiendo un lanzamiento de hechizos más frecuente. Aunque "Ojos Místicos" podría ser deseado para algunas builds, los rasgos que apoyan directamente las fortalezas de tu magia suelen ser más efectivos.
+
+<Checklist
+  id="sand-magic-traits"
+  title="Principales Rasgos para la Magia de Arena:"
+  items={[
+    "**Regeneración de Maná:** Asegura un lanzamiento de hechizos sostenido.",
+    "**Impulso de Inteligencia:** Aumenta directamente el daño de los hechizos.",
+    "**Reducción de Daño:** Mejora aún más la pasiva Armadura de Arena.",
+    "**Regeneración de Salud:** Mejora la supervivencia general."
+  ]}
+/>
+
+### Consideraciones de Equipo
+Equipar objetos que proporcionen inteligencia, maná o estadísticas defensivas amplificará aún más tu Magia de Arena. Los bastones de mago, por ejemplo, a menudo vienen con bonificaciones de inteligencia, aumentando directamente el daño de tus hechizos. Busca equipo que proporcione un enfoque equilibrado tanto para el ataque como para la defensa, apoyando la naturaleza híbrida de la Magia de Arena.
+
+| Ranura de Equipo | Estadísticas Recomendadas   | Ejemplo de Objeto (si aplica) |
+| :------------- | :-------------------------- | :--------------------------- |
+| Arma           | Inteligencia, Maná          | Bastón de Mago               |
+| Armadura       | Defensa, Salud, Inteligencia | Túnicas, Armadura Pesada     |
+| Accesorios     | Regeneración de Maná, Inteligencia | Amuletos, Anillos            |
+
+<Callout type="info" title="La Adaptación es Clave">
+Aunque las builds específicas son útiles, siempre debes estar listo para adaptar tu estrategia. Las builds del oponente, el entorno y el estado actual del juego deben influir en el uso de tus habilidades y en las prioridades de objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Magia de Arena">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la rareza de la Magia de Arena en Clover Retribution?",
+    answer: "La **Magia de Arena** es un tipo de magia de rareza Mítica en Clover Retribution, lo que la convierte en una de las formas de magia más raras de adquirir. Su poder y versatilidad reflejan su alta rareza."
+  },
+  {
+    question: "¿Cómo mejora el Grimorio de Arena de cuatro hojas la Magia de Arena?",
+    answer: "Con un Grimorio de Arena de cuatro hojas, tu arena se transforma en arena de hierro, y tus habilidades tienen la posibilidad de aplicar veneno. Esto añade un valioso efecto de daño con el tiempo, especialmente útil con hechizos de múltiples golpes como **Tormenta de Arena** y **Tsunami de Arena**."
+  },
+  {
+    question: "¿Es la Magia de Arena buena tanto para PvE como para PvP?",
+    answer: "Sí, la **Magia de Arena** es muy versátil. Sus capacidades defensivas como **Armadura de Arena** y **Escudo de Arena** la hacen excelente para la supervivencia en PvE, mientras que su control de masas y daño consistente de **Golpe de Arena** y **Tormenta de Arena** son efectivos en escenarios PvP."
+  },
+  {
+    question: "¿Cuál es la estadística principal en la que centrarse para una build de Magia de Arena?",
+    answer: "La estadística principal en la que centrarse para una build de **Magia de Arena de Clover Retribution** es la Inteligencia. Esto aumenta significativamente el daño de todos tus hechizos ofensivos, haciendo tus ataques mucho más potentes."
+  }
+]} />
+
+</Section>

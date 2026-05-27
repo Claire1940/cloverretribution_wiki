@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Shadow Magic: Mantra, Pohon Skill & Build",
+  description: "Jelajahi Shadow Magic di Clover Retribution, meliputi mantra-mantra kuatnya, build pohon skill yang optimal, dan cara menguasai ilmu hitamnya untuk kerusakan maksimal.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/36454F/fff?text=Shadow+Magic+Guide",
+  date: "2026-05-27",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Shadow Magic** adalah sihir perusak yang kuat di Clover Retribution.
+- Mantra **Night Coffin** adalah kemampuan yang menonjol, memberikan kerusakan signifikan.
+- **Pohon Skill Shadow Magic** menawarkan peningkatan kerusakan dan utilitas yang krusial.
+- Menguasai **Umbral Doppelgangers** dan **Shadow Nodes** adalah kunci permainan tingkat lanjut.
+- **Intelligence (INT)** adalah stat scaling utama untuk semua sihir.
+</Callout>
+
+<Section icon={Sparkles} title="Mengungkap Shadow Magic Clover Retribution">
+Shadow Magic di Clover Retribution adalah kekuatan yang tangguh, dikenal karena potensi kerusakannya yang tinggi dan mantra utilitas yang unik. Panduan ini membahas kemampuan intinya, peningkatan pohon skill, dan strategi untuk memaksimalkan efektivitasnya dalam pertempuran. Dengan pembaruan terbaru, Shadow Magic telah menerima pohon skill khusus, menjadikannya pilihan yang lebih layak dan menarik bagi para pemain.
+
+**Sorotan Video:**
+- Mendemonstrasikan keempat mantra Shadow Magic dalam aksi.
+- Menunjukkan kekuatan penghancur Night Coffin.
+- Memberikan gambaran umum tentang pohon skill Shadow Magic yang baru ditambahkan.
+
+<YouTubeEmbed videoId="v__vsSqkG2g" title="SHADOW MAGIC IS CRAZY! Clover Retribution" />
+
+<Callout type="tip" title="Menguasai INT">
+Ingatlah bahwa semua sihir di Clover Retribution, termasuk **Shadow Magic**, berskala langsung dengan stat **Intelligence (INT)** Anda. Memprioritaskan INT dalam pembangunan karakter Anda akan secara signifikan meningkatkan kerusakan mantra dan efektivitas keseluruhan Anda.
+</Callout>
+
+Shadow Magic menawarkan perpaduan area-of-effect, utilitas, dan kerusakan ledakan target tunggal, menjadikannya serbaguna untuk berbagai skenario pertempuran.
+
+</Section>
+
+<Section icon={Swords} title="Mantra dan Kemampuan Shadow Magic Inti">
+Shadow Magic memiliki seperangkat mantra unik yang dirancang untuk serangan dan permainan taktis. Memahami setiap kemampuan sangat penting untuk pertempuran yang efektif.
+
+| Nama Mantra         | Jenis          | Deskripsi                                                                                               | Kerusakan / Efek                                 | Cooldown | Biaya Mana |
+| :------------------ | :------------- | :------------------------------------------------------------------------------------------------------ | :----------------------------------------------- | :------- | :-------- |
+| **Shadow Domain**   | AoE / Utilitas | Menciptakan zona bergerak yang mengeluarkan doppelganger yang meledak dan menargetkan musuh terdekat.  | Kerusakan AoE berkelanjutan dari ledakan        | Sedang   | Sedang    |
+| **Shadow Node**     | Utilitas / Ledakan | Menempatkan titik arah; teleportasi kembali menyebabkan ledakan. Bagus untuk reposisi dan ledakan.      | Kerusakan ledakan saat teleportasi             | Singkat  | Rendah    |
+| **Umbral Doppelganger** | Panggil / AoE  | Memanggil klon yang berlari melewati musuh dan meledak. (Catatan: Saat ini ada bug, diharapkan akan diperbaiki). | Kerusakan AoE ledakan                            | Sedang   | Sedang    |
+| **Night Coffin**    | Ledakan / AoE  | Gerakan khas. Menciptakan ledakan yang kuat dan dapat diulang secara instan.                            | **8-9k kerusakan**, hampir instan diulang      | Sangat Singkat | Rendah (sekitar 50) |
+
+<Callout type="warning" title="Bug Umbral Doppelganger">
+Pada pembaruan terbaru, mantra **Umbral Doppelganger** diketahui memiliki bug. Meskipun dimaksudkan untuk memanggil klon yang meledak, fungsionalitasnya saat ini mungkin tidak konsisten. Perhatikan patch yang mengatasi masalah ini.
+</Callout>
+
+**Night Coffin** tidak diragukan lagi adalah bintang dari gudang senjata Shadow Magic, menawarkan kerusakan ledakan yang luar biasa dengan cooldown dan biaya mana yang sangat rendah. Ini menjadikannya sumber kerusakan utama dalam sebagian besar build.
+
+</Section>
+
+<Section icon={Trophy} title="Penjelasan Pohon Skill Shadow Magic">
+Pohon skill Shadow Magic yang didedikasikan memperkenalkan peningkatan yang kuat, memungkinkan pemain untuk menyesuaikan gaya bermain mereka dan secara signifikan meningkatkan potensi mantra mereka. Node-node ini sangat penting untuk setiap pengguna Shadow Magic yang serius.
+
+| Node Skill          | Peringkat | Efek                                                                                                           | Biaya Poin Skill | Prioritas |
+| :------------------ | :-------- | :--------------------------------------------------------------------------------------------------------------- | :--------------- | :-------- |
+| **Umbral Affinity** | 2         | Meningkatkan kerusakan mantra bayangan sebesar 5% per peringkat.                                                  | 1 per peringkat  | Tinggi    |
+| **Coffin Spires**   | 3         | Menambahkan 2 tugu onyx tambahan ke Night Coffin per peringkat (total 6).                                         | 1 per peringkat  | Sangat Tinggi |
+| **Well of Night**   | 1         | Menerima 10% pengurangan kerusakan saat berdiri di dalam efek bayangan Anda (Shadow Node, Night Coffin, Abyssal Domain). | 1                | Sedang    |
+| **Boundless Domain**| 1         | Radius Abyssal Domain 30% lebih besar dan durasi 30% lebih lama.                                                  | 1                | Sedang    |
+| **Lingering Sphere**| 1         | Shadow Node bertahan 50% lebih lama.                                                                              | 1                | Rendah    |
+| **Bound Echoes**    | 1         | Memanggil 1 Umbral Doppelganger tambahan saat merapal mantra.                                                  | 1                | Sedang    |
+| **Volatile Detonation** | 1         | Ledakan Shadow Node memberikan 25% lebih banyak kerusakan dan memiliki radius 25% lebih besar.                   | 1                | Tinggi    |
+| **Soul Tether**     | 1         | Ketika Umbral Doppelganger meledak, pulihkan 10% dari kerusakan yang ditimbulkannya.                             | 1                | Rendah    |
+| **Phantom Network** | 1         | Meledakkan Shadow Node berantai ke node/doppelganger lain, menyebabkan mereka meledak.                           | 1                | Tinggi    |
+
+<Callout type="success" title="Jalur Skill yang Dioptimalkan">
+Untuk kerusakan maksimum, prioritaskan **Umbral Affinity**, **Coffin Spires**, dan **Volatile Detonation**. Node-node ini secara langsung meningkatkan mantra kerusakan utama Anda dan memberikan scaling yang signifikan.
+</Callout>
+
+Pohon skill memungkinkan build yang beragam, apakah Anda fokus pada kerusakan mentah, peningkatan daya tahan, atau utilitas yang ditingkatkan. Node **Phantom Network**, khususnya, menawarkan potensi kombo yang menarik dengan beberapa Shadow Node.
+
+</Section>
+
+<Section icon={Target} title="Membangun Karakter Shadow Magic Anda">
+Membangun karakter Shadow Magic yang efektif melibatkan alokasi stat dan distribusi poin skill yang strategis. Berikut adalah uraian pertimbangan utama:
+
+<Steps>
+  <Step num="1" title="Prioritas Stat">
+    Sebagai pengguna sihir, **Intelligence (INT)** adalah stat utama Anda. Ini secara langsung menskalakan kerusakan semua mantra Shadow Magic Anda. Setelah INT, pertimbangkan **Constitution (CON)** untuk peningkatan daya tahan, karena Shadow Magic dapat melibatkan pertempuran jarak dekat dengan efek domainnya. Dexterity (DEX) dan Strength (STR) kurang penting untuk build sihir murni.
+  </Step>
+  <Step num="2" title="Akuisisi Poin Skill">
+    Poin skill terutama diperoleh melalui quest promosi di Wizard King dan menyelesaikan misi dari papan misi di Coliseum. Anda perlu mencapai level 500 untuk prestise dan berpotensi mereset poin skill.
+    Untuk detail lebih lanjut tentang promosi dan poin skill, lihat ikhtisar pembaruan umum ini: [Clover Retribution Update Info](https://www.youtube.com/watch?v=Jk5KvJpc-MU).
+  </Step>
+  <Step num="3" title="Progresi Pohon Skill yang Direkomendasikan">
+    Mulailah dengan berinvestasi di **Umbral Affinity** untuk peningkatan kerusakan instan. Selanjutnya, maksimalkan **Coffin Spires** untuk memperkuat Night Coffin Anda. Kemudian, pertimbangkan **Volatile Detonation** untuk ledakan Shadow Node dan **Phantom Network** untuk kombo AoE tingkat lanjut. Node daya tahan seperti **Well of Night** dapat diambil nanti berdasarkan gaya bermain Anda.
+  </Step>
+  <Step num="4" title="Pemilihan Perlengkapan dan Grimoire">
+    Targetkan perlengkapan yang memberikan bonus Intelligence. Saat memutar grimoire, ingatlah bahwa penguasaan tidak tersimpan di antara sihir yang berbeda kecuali Anda memiliki gamepass Clover Storage. Fokuslah untuk menguasai Shadow Magic untuk membuka semua mantranya.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Reset Poin Skill">
+Jika Anda ingin mereset poin skill Anda, Anda harus mencapai batas level baru 500 dan kemudian prestise dengan mengunjungi Wizard King. Ini memungkinkan eksperimen build.
+</Callout>
+
+Shadow Magic menawarkan gaya bermain yang dinamis dan bermanfaat, terutama bagi mereka yang menyukai kerusakan ledakan tinggi dan kontrol area taktis.
+
+</Section>
+
+<Section icon={Shield} title="Shadow Magic dalam Praktik dan FAQ">
+Memahami aplikasi praktis mantra Shadow Magic dan menjawab pertanyaan umum dapat lebih meningkatkan gameplay Anda.
+
+<CardGrid cols={2}>
+  <Card title="Efektivitas PvE">
+    Shadow Magic unggul dalam PvE karena kemampuan AoE yang kuat dari **Shadow Domain** dan ledakan tinggi dari **Night Coffin**. Ini memungkinkan pembersihan kelompok musuh yang efisien dan kerusakan signifikan terhadap bos. **Phantom Network** dapat menciptakan reaksi berantai yang menghancurkan.
+  </Card>
+  <Card title="Potensi PvP">
+    Dalam PvP, ledakan instan dari **Night Coffin** sangat berharga. **Shadow Node** menawarkan mobilitas yang sangat baik dan ledakan tak terduga untuk manuver mengelak atau permainan ofensif. Pengurangan kerusakan dari **Well of Night** juga bisa sangat penting dalam duel.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Potensi Kombo">
+Bereksperimenlah dengan menempatkan beberapa **Shadow Nodes** sebelum mengaktifkan **Phantom Network** untuk menciptakan ledakan berantai besar-besaran. Ini bisa sangat efektif untuk membersihkan kelompok besar atau memberikan kerusakan ledakan ke satu target.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan Shadow Magic di Clover Retribution?",
+    answer: "Grimoire, termasuk Shadow Magic, diperoleh dengan memutar di halaman beranda. Ada sistem kelangkaan, dan Anda membutuhkan keberuntungan untuk mendapatkan sihir spesifik yang Anda inginkan."
+  },
+  {
+    question: "Apakah Shadow Magic dianggap kuat dalam meta saat ini?",
+    answer: "Ya, Shadow Magic, terutama dengan mantra **Night Coffin** yang kuat dan pohon skill yang kokoh, dianggap sebagai salah satu sihir teratas dalam permainan, menawarkan output kerusakan yang tinggi."
+  },
+  {
+    question: "Apakah penguasaan sihir terbawa jika saya mengganti grimoire saya?",
+    answer: "Tidak, penguasaan sihir biasanya tidak tersimpan saat Anda merombak sihir Anda, kecuali Anda memiliki gamepass Clover Storage. Gamepass ini memungkinkan Anda untuk mempertahankan penguasaan di berbagai grimoire."
+  },
+  {
+    question: "Apa cara terbaik untuk mendapatkan poin skill untuk build Shadow Magic saya?",
+    answer: "Poin skill terutama diperoleh dengan menyelesaikan quest promosi dari Wizard King dan mengambil berbagai misi dari papan misi yang ditemukan di Coliseum. Quest-quest ini sangat penting untuk memajukan karakter Anda dan membuka node pohon skill."
+  }
+]} />
+
+</Section>

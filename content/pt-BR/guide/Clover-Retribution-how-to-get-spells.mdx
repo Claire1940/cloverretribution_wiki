@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution: Como Obter Feitiços: Um Guia Abrangente",
+  description: "Aprenda como obter e dominar feitiços em Clover Retribution, incluindo aquisição de grimórios, maestria de feitiços e métodos eficazes de farm.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Clover+Retribution+Spells",
+  date: "2026-05-27",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Grimórios** são obtidos ao **girar** na página inicial.
+- A **maestria de feitiços** desbloqueia novas habilidades e aprimora as existentes.
+- Utilize o **TinyTask** para farmar maestria de feitiços AFK de forma eficiente.
+- O **gamepass Clover Storage** é crucial para salvar o progresso de magia e maestria.
+- O atributo de **Inteligência (INT)** escala diretamente o seu dano mágico.
+</Callout>
+
+<Section icon={Sparkles} title="Adquirindo Seu Primeiro Grimório e Feitiços">
+Em Clover Retribution, os feitiços estão intrinsecamente ligados ao seu grimório, que essencialmente dita o seu tipo de magia. Obter um grimório é o passo fundamental para desbloquear qualquer feitiço no jogo. Sem um grimório, você não terá acesso a nenhuma habilidade mágica.
+
+Os grimórios são categorizados por raridade, influenciando o poder e a singularidade dos feitiços associados a eles. O jogo oferece uma variedade de tipos de magia, cada um com seu próprio conjunto de habilidades que escalam com o seu atributo de Inteligência (INT).
+
+**Destaques do Vídeo:**
+- Demonstra a configuração inicial do jogo e a criação de personagem.
+- Explica a importância de girar para obter magia (grimórios) no início.
+- Menciona o impacto da magia escolhida na construção do personagem.
+
+<YouTubeEmbed videoId="vZSPvXm99_Q" title="Clover Retribution Demon Update: Starter Guide" />
+
+### Raridade e Tipos de Grimórios
+Os grimórios podem ser obtidos através de um sistema de giro na página inicial do jogo. Cada giro tem uma chance de conceder um grimório de raridade variada.
+
+| Raridade      | Exemplos de Tipos de Magia | Chance | Notas                                     |
+|-------------|----------------------------|--------|-------------------------------------------|
+| **Comum**   | Cura, Melodia              | Alta   | Feitiços básicos, bons para iniciantes.   |
+| **Incomum** | Terra, Vento               | Média  | Habilidades mais versáteis.               |
+| **Raro**    | Slime, Dados               | Baixa  | Efeitos únicos e poder moderado.          |
+| **Épico**   | Relâmpago, Chama           | Muito Baixa| Poderoso, muitas vezes com capacidades de AOE.|
+| **Lendário**| Vazio, Água                | Ultra Baixa| Poder excepcional, feitiços que mudam o jogo.|
+| **Mítico**  | Árvore do Mundo, Tempo     | Extremamente Baixa| Nível superior, muitas vezes com movimentos exclusivos de 4 Folhas.|
+
+<Callout type="tip" title="Maximizando Seus Giros de Grimório">
+Embora girar seja baseado na sorte, considere economizar giros, se possível, para aumentar suas chances de obter um grimório de raridade superior. No início, qualquer grimório será suficiente para começar sua jornada mágica.
+</Callout>
+
+### Grimórios de 4 Folhas
+Há uma rara chance de 1% de obter um grimório com '4 Folhas' no nome. Esses grimórios especiais desbloqueiam movimentos exclusivos de 4 Folhas, aumentando significativamente seu poder e utilidade. No entanto, esse status especial não é salvo entre os giros, a menos que você possua o **gamepass Clover Storage**.
+
+</Section>
+
+<Section icon={Target} title="Desbloqueando e Dominando Feitiços">
+Uma vez que você tenha um grimório, você começará a desbloquear feitiços através da maestria mágica. Quanto mais você usa seu grimório, mais maestria você acumula, levando a novos e mais poderosos feitiços específicos para aquele grimório. A maestria de feitiços é uma mecânica crucial que aprimora suas habilidades, potencialmente aumentando o tamanho da AOE, alterando as propriedades dos movimentos ou diminuindo os tempos de recarga.
+
+### Feitiços Arcanos para Iniciantes
+Todos os jogadores recebem um conjunto de feitiços arcanos para iniciantes à medida que progridem com sua maestria mágica. Esses feitiços são universais e **são salvos** entre diferentes magias, tornando-os um conjunto confiável de habilidades.
+
+<CardGrid cols={2}>
+  <Card title="Centelha de Mana">
+    - Cria luz ao seu redor por um certo período de tempo.
+    - Útil para exploração e visibilidade.
+  </Card>
+  <Card title="Explosão de Mana">
+    - Dispara uma explosão concentrada de mana para frente.
+    - Dano direto, bom para alvos únicos.
+  </Card>
+  <Card title="Surto de Mana">
+    - Libera mana concentrada em todas as direções.
+    - Eficaz para dano em área ou para limpar múltiplos inimigos fracos.
+  </Card>
+  <Card title="Bala de Mana">
+    - Atira um pequeno projétil de mana para frente.
+    - Ataque rápido e de baixo custo.
+  </Card>
+  <Card title="Bainha de Mana">
+    - Reveste sua arma com energia arcana.
+    - Aprimora ataques corpo a corpo com magia.
+  </Card>
+  <Card title="Colisão de Mana">
+    - Usa mana para fazer você pular alto e cair com força.
+    - Mobilidade e atordoamento/dano em área.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Reinício de Maestria">
+Sem o **gamepass Clover Storage**, sua maestria mágica não é salva se você rerolar seu grimório. Isso significa que, se você girar para uma nova magia e depois retornar a uma anterior, perderá todo o progresso de maestria naquele grimório. O gamepass é altamente recomendado para magos dedicados.
+</Callout>
+
+### Benefícios da Maestria de Feitiços
+Dominar seus feitiços traz vantagens significativas, transformando suas habilidades e tornando você mais potente em combate.
+
+| Nível de Maestria | Efeito nos Feitiços                                     | Exemplo de Aprimoramento (Magia de Sangue) |
+|--------------|---------------------------------------------------------|---------------------------------------------|
+| **Nível 1**  | Feitiço básico desbloqueado                             | Um único golpe de sangue                    |
+| **Nível 2**  | AOE aumentada, projéteis adicionais ou tempos de recarga menores | Dois golpes de sangue                       |
+| **Nível 3**  | Efeitos aprimorados, tamanho maior ou aumento significativo de dano | Cataclismo Carmesim cresce em tamanho, explosão maior |
+| **Nível 4**  | Mais projéteis, alcance aumentado                       | Perseguição Carmesim ganha mais projéteis   |
+| **Nível 5**  | Substancialmente maior, dano superior, propriedades únicas| Hidra Carmesim torna-se muito maior e causa mais dano |
+
+</Section>
+
+<Section icon={Trophy} title="Farm Eficiente de Maestria de Feitiços">
+Farmar maestria de feitiços pode ser um processo demorado, mas com os métodos certos, você pode acelerá-lo significativamente. A ideia principal é usar seus feitiços repetidamente para ganhar pontos de maestria. Para eficiência ótima, muitos jogadores utilizam ferramentas de automação.
+
+### Maestria de Feitiços Automatizada com TinyTask
+Uma das maneiras mais eficazes de farmar maestria de feitiços, especialmente para grind AFK, é usando um programa de macro como o **TinyTask**. Essa ferramenta registra suas ações e pode reproduzi-las continuamente, permitindo que você use seus feitiços sem entrada manual.
+
+<Callout type="info">
+TinyTask é uma ferramenta de macro legítima e não contém vírus inerentemente. Sempre baixe software de fontes oficiais ou respeitáveis para garantir a segurança.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Prepare Seu Personagem">
+    Certifique-se de que seu grimório esteja equipado. Posicione seu personagem em uma área segura e isolada onde você não será perturbado ou atacado. Certifique-se de ter regeneração de mana suficiente ou um plano para reiniciar regularmente.
+  </Step>
+  <Step num="2" title="Grave Sua Macro">
+    Abra o TinyTask. Comece a gravar.
+    1. Abra seu grimório.
+    2. Use seu feitiço de maior custo de mana.
+    3. Use seus outros feitiços em sequência.
+    4. Certifique-se de que todos os feitiços sejam usados antes que seus tempos de recarga sejam reiniciados.
+    5. Se você tiver pouca mana (por exemplo, devido à Restrição Celestial), espere a mana regenerar o suficiente antes de usar o próximo feitiço de alto custo.
+    6. Uma vez que todos os feitiços estejam em tempo de recarga ou você os tenha usado todos, realize um reset de personagem (por exemplo, reset no jogo ou um teletransporte rápido, se aplicável).
+    Pare a gravação.
+  </Step>
+  <Step num="3" title="Configure a Reprodução">
+    No TinyTask, defina a reprodução como "Contínua" para repetir suas ações gravadas indefinidamente.
+  </Step>
+  <Step num="4" title="Comece a Farmar AFK">
+    Inicie a macro. Seu personagem agora usará feitiços repetidamente e reiniciará, acumulando maestria de feitiços ao longo do tempo. Este método pode reduzir significativamente o tempo necessário para maximizar sua maestria de feitiços, potencialmente alcançando a maestria total em alguns dias, mesmo com pausas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gerenciamento de Mana para Macros">
+Se seu personagem tiver mana limitada, certifique-se de que sua macro contabilize o tempo de regeneração de mana. Você pode precisar ajustar o tempo entre os lançamentos de feitiços ou incluir uma breve pausa antes de reiniciar para permitir que a mana se recupere.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="A Importância do Gamepass Clover Storage">
+O gamepass Clover Storage é, sem dúvida, o investimento mais valioso para qualquer usuário de magia em Clover Retribution. Seus benefícios vão além da mera conveniência, impactando sua progressão e flexibilidade a longo prazo.
+
+### Principais Benefícios do Clover Storage
+
+| Recurso          | Sem Gamepass                                       | Com Gamepass                                             | Impacto                                                                |
+|------------------|----------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
+| **Armazenamento de Magia**| Apenas um grimório ativo; rerolar perde a magia anterior. | Armazena todos os grimórios obtidos.                       | Experimente diferentes tipos de magia sem perdas.                      |
+| **Salvar Maestria** | A maestria de feitiços é reiniciada ao rerolar grimórios. | O progresso da maestria de feitiços é salvo para cada grimório. | Essencial para dominar múltiplos tipos de magia; evita grind repetitivo. |
+| **Salvar 4 Folhas**| O status de 4 Folhas é perdido ao rerolar.         | O status de 4 Folhas (e movimentos exclusivos) é salvo com o grimório. | Preserva aprimoramentos raros e poderosos do grimório.                 |
+| **Armazenamento de Raça**| Não aplicável (o armazenamento de raça é separado). | Também oferece armazenamento de raça.                     | Utilidade adicional para gerenciar as raças dos personagens.           |
+
+<Callout type="success" title="Progressão de Mago a Longo Prazo">
+Se você planeja se envolver seriamente com magia em Clover Retribution, o gamepass Clover Storage é quase uma necessidade. Ele elimina a frustração de perder o progresso da maestria e permite uma troca perfeita entre diferentes construções mágicas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Otimizando Sua Build de Magia">
+Para maximizar a eficácia dos seus feitiços, é crucial entender como a magia escala e como alocar seus atributos da melhor forma. O atributo de Inteligência (INT) é o atributo principal para todos os usuários de magia.
+
+### Alocação de Atributos para Magos
+Priorizar a Inteligência (INT) é fundamental para qualquer build focada em magia. Este atributo aumenta diretamente o dano dos seus feitiços e, muitas vezes, o seu pool de mana.
+
+| Atributo             | Impacto no Usuário de Magia                               | Recomendação                                                              |
+|----------------------|-----------------------------------------------------------|---------------------------------------------------------------------------|
+| **Inteligência (INT)** | Aumenta o dano dos feitiços, potencialmente a capacidade de mana. | **Foco Principal:** Aloque a maioria dos seus pontos de atributo aqui.    |
+| **Constituição (CON)** | Aumenta a vida e a defesa.                                | **Foco Secundário:** Aloque pontos suficientes para sobrevivência, especialmente no início. |
+| **Destreza (DEX)**     | Aumenta o dano corpo a corpo, não é diretamente benéfico para magos puros. | **Evitar:** Não invista pontos, a menos que esteja construindo um personagem híbrido. |
+
+<Checklist
+  id="mage-optimization"
+  title="Lista de Verificação de Otimização para Magos:"
+  items={[
+    "Priorize Inteligência (INT) para dano máximo de feitiço",
+    "Aloque Constituição (CON) suficiente para sobrevivência",
+    "Evite builds híbridas, a menos que sejam especificamente planejadas e otimizadas",
+    "Utilize anéis ou acessórios que aumentem INT ou regeneração de mana",
+    "Considere grimórios de 4 Folhas para movimentos poderosos exclusivos"
+  ]}
+/>
+
+<Callout type="warning" title="Considerações sobre Builds Híbridas">
+Embora tentador, builds híbridas (por exemplo, mago com alta destreza) são geralmente menos eficazes, a menos que meticulosamente planejadas. Distribuir seus atributos muito finamente resultará em dano e eficácia subótimos tanto para magia quanto para corpo a corpo. Concentre-se em um tipo de dano principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes Sobre Feitiços">
+
+<FAQ items={[
+  {
+    question: "Como consigo meu primeiro grimório em Clover Retribution?",
+    answer: "Você obtém seu primeiro grimório usando o sistema de giro disponível na página inicial do jogo. Cada giro tem uma chance de conceder um grimório de raridade variada."
+  },
+  {
+    question: "A maestria de feitiços é reiniciada se eu mudar meu tipo de magia?",
+    answer: "Sim, se você rerolar seu grimório sem o gamepass Clover Storage, sua maestria de feitiços para o tipo de magia anterior será reiniciada. O gamepass salva todo o seu progresso de maestria."
+  },
+  {
+    question: "Qual é a melhor forma de farmar maestria de feitiços rapidamente?",
+    answer: "A maneira mais eficiente de farmar maestria de feitiços é usando uma ferramenta de macro como o TinyTask. Grave-se lançando repetidamente todos os seus feitiços e, em seguida, resetando seu personagem, e configure a macro para repetir continuamente."
+  },
+  {
+    question: "Em qual atributo devo focar como usuário de magia?",
+    answer: "Como usuário de magia, seu foco principal deve ser no atributo de Inteligência (INT). Isso aumenta diretamente o dano dos seus feitiços e também pode aumentar sua capacidade de mana."
+  }
+]} />
+
+</Section>

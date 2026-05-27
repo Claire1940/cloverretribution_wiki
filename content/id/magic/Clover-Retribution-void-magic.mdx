@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sihir Void Clover Retribution: Kemampuan Legendaris & Panduan Penguasaan",
+  description: "Kuasai sihir void Clover Retribution dengan penjelasan kami tentang kemampuan legendaris, biaya mana, dan persyaratan penguasaan untuk meta 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/2d004d/fff?text=Void+Magic+Guide",
+  date: "2026-05-27",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Kata Kunci Utama**: Menguasai **sihir void Clover Retribution** membutuhkan pemahaman tentang skala AOE legendaris dan mekanisme Gloom-nya.
+- **Tingkat Kelangkaan**: Void adalah **Sihir Legendaris** dengan peluang dasar 0.49%, menjadikannya salah satu tarikan paling langka dalam game.
+- **Mekanisme Inti**: Semua kemampuan menerapkan **debuff Gloom**, yang menumpuk hingga lima kali untuk memicu pusaran kerusakan besar.
+- **Fokus Build**: Prioritaskan **Intelligence** untuk skala kerusakan dan **Constitution** untuk menangani biaya mana yang tinggi dari mantra endgame.
+- **Alat Terbaik**: Kemampuan **Black Hole** sangat penting untuk crowd control tetapi membutuhkan grimoire semanggi berdaun 4 untuk membukanya.
+</Callout>
+
+<Section icon={Sparkles} title="Ikhtisar Sihir Void dan Sorotan Video">
+
+Sistem **sihir void Clover Retribution** berdiri sebagai puncak dominasi area-of-effect (AOE). Tidak seperti sihir elemental yang berfokus pada proyektil langsung, Void memanipulasi ruang dan efek status untuk mengendalikan medan perang. Pemain yang berhasil mendapatkan kekuatan langka 0.49% ini mendapatkan akses ke moveset yang menghukum musuh yang berkumpul melalui efek status "Gloom". Dalam meta 2026 saat ini, Void sering dipasangkan dengan build intelligence tinggi untuk memaksimalkan potensi damage-over-time (DOT) dari bahaya berbasis daratnya.
+
+**Sorotan Video:**
+- Tampilan detail **sihir Mythical dan Legendaris** termasuk moveset Void yang sulit ditangkap.
+- Penjelasan tentang bagaimana **statistik Intelligence** secara langsung memengaruhi ukuran root dan AOE untuk sihir tingkat tinggi serupa.
+- Demonstrasi visual dari **efek Gloom** dan bagaimana efek tersebut menumpuk terhadap NPC dengan kesehatan tinggi.
+- Perbandingan antara grimoire berdaun 3 dan berdaun 4 yang eksklusif seperti **Black Hole**.
+
+<YouTubeEmbed videoId="keB6DQqkOHI" title="SEMUA SIHIR MYTHICAL di Clover Retribution!" />
+
+<Callout type="success" title="Wawasan Meta">
+Sihir Void saat ini dianggap S-Tier untuk membersihkan dungeon karena kemampuannya untuk menarik musuh ke zona pembunuhan terpusat menggunakan Black Hole.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rincian Moveset dan Persyaratan Penguasaan">
+
+Membuka potensi penuh **sihir void Clover Retribution** membutuhkan investasi signifikan dalam Penguasaan. Setiap gerakan memiliki tujuan taktis tertentu, mulai dari mobilitas kecepatan tinggi hingga kontrol zona besar. Biaya mana jauh lebih tinggi daripada sihir umum, sehingga membutuhkan distribusi stat yang seimbang.
+
+| Nama Kemampuan | Penguasaan | Biaya Mana | Cooldown | Efek Utama |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wormhole** | 5 | 25 | 6s | Melaju ke depan/Menerapkan Gloom |
+| **Depth Coil** | 25 | 70 | 24s | AOE Tanah/Awan DOT |
+| **Black Hole** | 65 | 100 | 20s | Menghisap musuh/Ledakan |
+| **Void Zone** | 95 | 300 | 120s | Buff Kerusakan Sihir 50% |
+
+<CardGrid cols={2}>
+  <Card title="Wormhole (Mobilitas)">
+    Alat pergerakan dasar bagi pengguna Void. Ini melapisi pemain dengan energi, memungkinkan serangan yang merusak musuh mana pun di jalurnya. Penting untuk reposisi dalam PvP.
+  </Card>
+  <Card title="Void Zone (Ultimate)">
+    Medan ungu besar yang meningkatkan semua kerusakan sihir. Meskipun cooldownnya 120 detik, peningkatan kerusakan 50% menjadikannya buff terkuat dalam game untuk serangan bos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Catatan Persyaratan">
+Ingatlah bahwa **Black Hole** hanya dapat diakses jika sihir Void Anda memiliki efek Semanggi berdaun 4. Tanpa itu, penguasaan Anda akan terbatas pada gerakan utilitas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mekanisme Gloom dan Sinergi Pasif">
+
+Fitur utama dari **sihir void Clover Retribution** adalah kemampuan pasifnya. Setiap kali mantra mengenai musuh, ia menerapkan efek status **Gloom**. Ini bukan hanya debuff sederhana; ini adalah mekanisme yang dapat ditumpuk yang mengubah lingkaran tempur Anda.
+
+**Cara Kerja Gloom:**
+- Setiap serangan menerapkan satu tumpukan Gloom.
+- Pada **5 tumpukan**, pusaran gelap muncul di bawah kaki target.
+- Pusaran tersebut memberikan kerusakan berkelanjutan pada target dan musuh terdekat.
+- Tumpukan Gloom juga secara halus mengurangi kecepatan gerakan target, membuatnya lebih mudah untuk menjebak mereka di **Depth Coil**.
+
+| Komponen Build | Tingkat Sinergi | Alasan |
+| :--- | :--- | :--- |
+| **Intelligence** | ★★★★★ | Meningkatkan kerusakan DOT dari pusaran Gloom. |
+| **Constitution** | ★★★★☆ | Diperlukan untuk mempertahankan biaya mana 300 dari Void Zone. |
+| **High Orc Race** | ★★★☆☆ | Memberikan kekuatan yang dibutuhkan untuk berdiri di dalam Void Zone Anda sendiri. |
+| **Elf Race** | ★★★★★ | Memaksimalkan kumpulan mana dan kekuatan sihir untuk skala AOE. |
+
+<Callout type="tip" title="Strategi Pro">
+Gunakan **Wormhole** untuk dengan cepat menerapkan tumpukan Gloom pertama, lalu segera ikuti dengan **Depth Coil**. Perlambatan dari tumpukan awal akan membuat musuh terjebak di awan DOT lebih lama.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cara Mendapatkan Sihir Void: Panduan Reroll">
+
+Mendapatkan **sihir void Clover Retribution** adalah ujian kesabaran atau keberuntungan. Sebagai sihir kelangkaan Legendaris, kemungkinannya kecil, tetapi ada cara untuk mengoptimalkan putaran Anda.
+
+<Steps>
+  <Step num="1" title="Akumulasi Putaran">
+    Dapatkan putaran dengan menyelesaikan misi harian di Unnamed Village atau dengan menukarkan kode komunitas aktif.
+  </Step>
+  <Step num="2" title="Periksa Kelangkaan Putaran">
+    Putaran standar memiliki peluang 0.49%. Jika Anda memiliki **Putaran Langka**, peluangnya meningkat menjadi 5%. **Putaran Epik** menawarkan peluang terbaik pada 19%.
+  </Step>
+  <Step num="3" title="Targetkan Grimoire">
+    Kunjungi Grimoire Tower setelah Anda memiliki cukup putaran. Jika Anda mendapatkan Void, periksa jumlah semanggi Anda. Semanggi berdaun 4 wajib untuk kemampuan **Black Hole**.
+  </Step>
+  <Step num="4" title="Penyelarasan Trait">
+    Pastikan trait karakter Anda tidak bertentangan. Misalnya, **Heavenly Restriction** mencegah penggunaan sihir sama sekali, yang akan membatalkan hasil Void Anda.
+  </Step>
+</Steps>
+
+| Jenis Putaran | Tingkat Legendaris | Probabilitas Void | Biaya/Usaha |
+| :--- | :--- | :--- | :--- |
+| Standar | 0.49% | Sangat Rendah | Hadiah Umum |
+| Putaran Langka | 5.00% | Sedang | Hadiah Acara |
+| Putaran Epik | 19.00% | Tinggi | Robux/Boss Drops |
+
+<Callout type="warning" title="Peringatan">
+Jangan pernah membuang sihir Legendaris seperti Void kecuali Anda memiliki setidaknya 200+ putaran cadangan. Tingkat 0.49% dapat mengakibatkan ribuan putaran terbuang.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progres Penguasaan dan FAQ">
+
+Untuk menjadi penyihir terkuat di Clover Capital, Anda harus mencapai tonggak sejarah tertentu dengan grimoire Anda. Penguasaan diperoleh dengan memberikan kerusakan dengan sihir yang Anda gunakan, jadi farming monster dengan kesehatan tinggi seperti **Giant Wolf** atau **Ogres** direkomendasikan untuk leveling cepat.
+
+<Checklist
+  id="void-mastery-goals"
+  title="Tonggak Penguasaan Void:"
+  items={[
+    "Capai Tingkat Penguasaan 5 untuk membuka Wormhole untuk mobilitas.",
+    "Capai Tingkat Penguasaan 25 untuk memulai farming AOE yang efisien dengan Depth Coil.",
+    "Dapatkan Grimoire berdaun 4 untuk mengaktifkan Black Hole pada Tingkat 65.",
+    "Capai Tingkat 95 untuk memberikan buff Void Zone untuk party raid Anda.",
+    "Alokasikan setidaknya 100 poin ke Intelligence untuk memaksimalkan skala Gloom."
+  ]}
+/>
+
+<Callout type="tip" title="Tips Farming">
+Tempat terbaik untuk farming Penguasaan Void adalah **kamp Mercenary** dekat Timston. Kepadatan tinggi mereka memungkinkan **Depth Coil** untuk mengenai banyak target, melipatgandakan perolehan penguasaan Anda per cast.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apakah sihir void Clover Retribution bagus untuk bermain solo?",
+    answer: "Ya, ini sangat luar biasa untuk bermain solo. Kombinasi serangan Wormhole dan tarikan AOE Black Hole memungkinkan Anda untuk mengendalikan dan membunuh kelompok musuh yang besar tanpa menerima kerusakan."
+  },
+  {
+    question: "Apakah saya memerlukan ras tertentu untuk sihir Void?",
+    answer: "Meskipun tidak wajib, ras Elf sangat direkomendasikan karena kumpulan mana yang meningkat, yang membantu mengimbangi biaya tinggi Void Zone (300 Mana)."
+  },
+  {
+    question: "Bagaimana cara memicu pusaran Gloom?",
+    answer: "Anda harus mengenai musuh yang sama lima kali dengan kemampuan void Anda. Setelah tumpukan kelima diterapkan, pusaran akan secara otomatis muncul dan memberikan kerusakan AOE."
+  },
+  {
+    question: "Bisakah saya menggunakan sihir Void dengan Heavenly Restriction?",
+    answer: "Tidak. Heavenly Restriction menghilangkan kemampuan Anda untuk menggunakan sihir sebagai ganti kehebatan fisik. Jika Anda memiliki trait ini, Anda tidak dapat menggunakan kemampuan Void apa pun."
+  }
+]} />
+
+</Section>

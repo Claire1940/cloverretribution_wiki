@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sihir Pasir Clover Retribution: Kemampuan, Build, dan Tips",
+  description: "Kuasai Sihir Pasir di Clover Retribution dengan panduan komprehensif yang mencakup semua kemampuan, build optimal, dan strategi PvP ini.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Sand+Magic+Clover+Retribution",
+  date: "2026-05-27",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Sihir Pasir (Sand Magic)** di Clover Retribution menawarkan pertahanan yang kuat dan damage yang konsisten.
+- **Pasif Sand Armor** memberikan pengurangan damage yang signifikan untuk meningkatkan kelangsungan hidup.
+- **Grimoire Pasir Semanggi Empat (Four-leaf Sand Grimoire)** meningkatkan kemampuan, termasuk mengubah pasir menjadi pasir besi dan meracuni musuh.
+- Mantra ofensif utama seperti **Sand Swipe** dan **Sand Tsunami** sangat krusial baik untuk PvE maupun PvP.
+- **Sand Shield** adalah alat pertahanan yang kuat, mampu menyerap damage yang besar.
+</Callout>
+
+<Section icon={Sparkles} title="Mengungkap Sihir Pasir Clover Retribution">
+**Sihir Pasir** di Clover Retribution adalah tipe sihir dengan kelangkaan Mythic, menawarkan perpaduan unik antara kemampuan ofensif dan defensif. Sihir ini dikenal karena kemampuannya untuk mengendalikan medan perang, memperlambat musuh, dan memberikan pengurangan damage yang signifikan. Bagi mereka yang cukup beruntung mendapatkan Grimoire Pasir semanggi empat, sihir ini akan ditingkatkan lebih jauh, mengubah pasir biasa menjadi pasir besi yang kuat dengan peluang untuk memberikan efek racun.
+
+**Sorotan Video:**
+- Mendemonstrasikan skill dan kemampuan pasif Sihir Pasir.
+- Menunjukkan gameplay melawan mini-boss dan dalam skenario PvP.
+- Menyoroti pengurangan damage yang diberikan oleh Sand Armor.
+- Menampilkan efek racun dari Grimoire Pasir semanggi empat.
+
+<YouTubeEmbed videoId="t4ga4ZO7ABM" title="4 Leaf SAND MAGIC Showcase (Clover Retribution)" />
+
+Inti dari Sihir Pasir berputar pada kemampuan pasifnya, **Sand Armor**, yang memberikan pengurangan damage tetap. Meskipun persentase pastinya dapat bervariasi, kemampuan ini secara konsisten meningkatkan daya tahan Anda, membuat Anda menjadi lawan yang lebih tangguh dalam pertempuran apa pun. Pasif ini selalu aktif, memberikan lapisan perlindungan konstan baik Anda memiliki grimoire semanggi empat maupun tidak.
+
+<Callout type="tip">
+Fokuslah pada pemanfaatan pengurangan damage dari Sand Armor untuk menghadapi musuh dengan lebih agresif, terutama dalam pertemuan di awal permainan.
+</Callout>
+
+### Kelangkaan dan Akuisisi Sihir Pasir
+Sihir Pasir memiliki kelangkaan Mythic di Clover Retribution, menjadikannya salah satu tipe sihir yang lebih langka dan banyak dicari. Mendapatkannya biasanya melibatkan penggunaan spin, yang bisa diperoleh melalui aktivitas dalam game, pembelian Robux, atau menukarkan kode. Kelangkaan sering kali berkorelasi dengan kekuatan dan kegunaan sihir tersebut, dan Sihir Pasir memenuhi ekspektasi ini dengan rangkaian kemampuan yang serbaguna.
+
+| Tipe Sihir     | Kelangkaan  | Metode Akuisisi                                  |
+| :------------- | :---------- | :----------------------------------------------- |
+| **Sand**       | **Mythic**  | **Spin (Robux, Kode, Hadiah dalam game)**        |
+| Blood          | Mythic      | Spin (Robux, Kode, Hadiah dalam game)            |
+| World Tree     | Mythic      | Spin (Robux, Kode, Hadiah dalam game)            |
+| Spatial        | Mythic      | Spin (Robux, Kode, Hadiah dalam game)            |
+| Time           | Mythic      | Spin (Robux, Kode, Hadiah dalam game)            |
+| Water          | Legendary   | Spin (Robux, Kode, Hadiah dalam game)            |
+| Ice            | Legendary   | Spin (Robux, Kode, Hadiah dalam game)            |
+| Void           | Legendary   | Spin (Robux, Kode, Hadiah dalam game)            |
+| Lightning      | Epic        | Spin (Robux, Kode, Hadiah dalam game)            |
+| Flame          | Epic        | Spin (Robux, Kode, Hadiah dalam game)            |
+| Slime          | Rare        | Spin (Robux, Kode, Hadiah dalam game)            |
+| Dice           | Rare        | Spin (Robux, Kode, Hadiah dalam game)            |
+| Earth          | Uncommon    | Spin (Robux, Kode, Hadiah dalam game)            |
+| Wind           | Uncommon    | Spin (Robux, Kode, Hadiah dalam game)            |
+| Melody         | Common      | Spin (Robux, Kode, Hadiah dalam game)            |
+| Healing        | Common      | Spin (Robux, Kode, Hadiah dalam game)            |
+
+</Section>
+
+<Section icon={Swords} title="Penjelasan Kemampuan Sihir Pasir">
+Sihir Pasir memiliki serangkaian kemampuan komprehensif yang melayani tekanan ofensif dan ketahanan defensif. Varian semanggi empat meningkatkan skill ini secara signifikan, sering kali menambahkan efek racun yang dapat menguras kesehatan musuh seiring waktu. Memahami cooldown, biaya mana, dan syarat mastery setiap kemampuan adalah kunci untuk mengoptimalkan gameplay Anda.
+
+### Kemampuan Inti Pasir
+
+| Kemampuan     | Cooldown | Biaya Mana | Syarat Mastery | Deskripsi                                          | Fitur Utama                                                               |
+| :------------ | :------- | :--------- | :------------- | :------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Sand Armor**| Pasif    | N/A        | N/A            | Memberikan +15 pengurangan damage.                 | Pertahanan konstan, meningkatkan kelangsungan hidup.                      |
+| **Sand Swipe**| 2.5d     | 35         | 5              | Mendorong pasir ke depan Anda.                     | Cooldown rendah, hitbox bagus, dapat di-spam untuk damage konsisten.      |
+| **Sandstorm** | 50d      | 75         | 25             | Menciptakan badai pasir di sekitar Anda.           | Memberikan damage dan memperlambat musuh, peluang racun dengan semanggi 4.|
+| **Sand Tsunami**| 30d      | 125        | 60             | Mengirimkan gelombang pasir ke depan.              | Menyeret lawan yang lebih ringan, multi-tick, bagus untuk PvP.            |
+| **Sand Shield**| 1m       | 125        | 100            | Memanggil perisai yang terbuat dari pasir.         | Berskala dengan health, memberikan penyerapan damage besar selama 45d.    |
+| **Sand Barrage**| -        | -          | -              | Memunculkan tinju pasir untuk damage.              | Damage burst tinggi, bagus untuk menghabisi musuh (khusus semanggi 4).    |
+| **Gia SRI**   | -        | -          | -              | Memberikan damage tinggi dalam suatu area.         | Kemampuan area-of-effect yang kuat (khusus semanggi 4).                   |
+
+<Callout type="warning" title="Manajemen Mana">
+Beberapa kemampuan Sihir Pasir, terutama Sand Tsunami dan Sand Shield, memiliki biaya mana yang relatif tinggi. Manajemen mana yang efektif sangat penting, terutama jika Anda memiliki trait Heavenly Restriction yang membatasi mana Anda.
+</Callout>
+
+### Peningkatan Grimoire Semanggi Empat
+Grimoire Pasir semanggi empat mengangkat Sihir Pasir ke level yang baru. Pasir berubah menjadi pasir besi, memberikan serangan Anda peluang untuk memicu racun, menambahkan komponen damage-over-time yang signifikan ke dalam rangkaian kemampuan Anda. Ini sangat efektif dengan kemampuan multi-hit seperti Sand Tsunami dan Sandstorm.
+
+**Sorotan Video:**
+- Mendemonstrasikan Sand Barrage dan Gia SRI, eksklusif untuk Sihir Pasir semanggi empat.
+- Menunjukkan output damage dari kemampuan yang ditingkatkan.
+- Membahas nilai dari Sihir Pasir semanggi empat untuk damage dan utilitas.
+
+<YouTubeEmbed videoId="VHN26UobdHs" title="Sand Magic Showcase 4L : Clover Retribution" />
+
+</Section>
+
+<Section icon={Shield} title="Build dan Strategi Sihir Pasir Optimal">
+Untuk memaksimalkan potensi **Sihir Pasir Clover Retribution**, pemain harus fokus pada intelligence untuk meningkatkan damage mantra dan mempertimbangkan trait yang melengkapi sifat defensif dan ofensifnya.
+
+### Penskalaan Intelligence
+Sihir Pasir berskala secara efektif dengan intelligence. Menginvestasikan poin ke dalam intelligence akan meningkatkan output damage dari semua kemampuan aktif Anda secara signifikan, membuatnya lebih kuat baik dalam skenario PvE maupun PvP. Sebagai contoh, build intelligence tinggi dapat hampir menggandakan damage dari Sand Swipe, menjadikannya mantra yang sangat efektif dan dapat di-spam.
+
+| Fokus Stat      | Manfaat Utama                    | Manfaat Sekunder                      | Trait yang Direkomendasikan |
+| :-------------- | :------------------------------- | :------------------------------------ | :-------------------------- |
+| **Intelligence**| **Peningkatan damage mantra**    | Efisiensi mana                        | Mana Regeneration, Sage     |
+| Defense         | Meningkatkan kelangsungan hidup  | Mengurangi damage yang diterima       | Guard, Iron Skin            |
+| Dexterity       | Serangan M1 lebih cepat, mobilitas| Peluang menghindar                    | Swift, Agile                |
+
+<Callout type="success" title="Sinergi Build">
+Memasangkan Sihir Pasir dengan build intelligence tinggi sangat direkomendasikan. Ini memaksimalkan damage Anda sementara Sand Armor menangani sebagian damage yang masuk, memungkinkan gaya bermain ofensif-defensif yang seimbang.
+</Callout>
+
+### Strategi PvE dan Boss
+Untuk konten PvE dan pertarungan boss, Sihir Pasir menawarkan kegunaan yang luar biasa. Efek lambat dan damage-over-time dari Sandstorm dapat terus menguras kesehatan boss, sementara Sand Swipe memberikan damage yang konsisten dengan cooldown rendah. Sand Tsunami dapat digunakan untuk crowd control terhadap musuh yang lebih kecil atau untuk menambahkan damage burst. Sand Shield sangat berharga untuk menahan serangan boss yang kuat, memungkinkan Anda untuk bertahan melalui pertempuran yang menantang.
+
+<Steps>
+  <Step num="1" title="Pertemuan Awal">
+    Aktifkan **Sandstorm** untuk memberikan efek lambat dan damage awal, menciptakan aura di sekitar Anda.
+  </Step>
+  <Step num="2" title="Damage Berkelanjutan">
+    Spam **Sand Swipe** karena cooldown-nya yang rendah dan hitbox yang bagus untuk output damage yang konsisten.
+  </Step>
+  <Step num="3" title="Posisi Defensif">
+    Gunakan **Sand Shield** saat boss bersiap untuk serangan berat atau saat kesehatan Anda rendah, untuk menyerap damage yang signifikan.
+  </Step>
+  <Step num="4" title="Crowd Control/Burst">
+    Gunakan **Sand Tsunami** untuk menyeret sekelompok musuh atau untuk menambahkan ledakan damage pada boss, terutama saat mereka rentan.
+  </Step>
+</Steps>
+
+### Taktik PvP
+Dalam PvP, Sihir Pasir unggul dalam mengendalikan ruang dan mengungguli ketahanan lawan. Kombinasi pengurangan damage dari Sand Armor dan kemampuan menyerap dari Sand Shield membuat Anda sangat tangguh (tanky).
+
+| Taktik PvP       | Kemampuan yang Digunakan | Manfaat                                        |
+| :--------------- | :----------------------- | :--------------------------------------------- |
+| **Kontrol Zona** | Sandstorm                | Memperlambat dan merusak musuh di area tertentu. |
+| **Melepaskan Diri**| Sand Tsunami             | Menyeret lawan menjauh, menciptakan jarak.     |
+| **Damage Burst** | Sand Barrage (4L)        | Damage tinggi dan cepat untuk menghabisi lawan. |
+| **Ketahanan/Tank**| Sand Shield              | Menyerap burst damage lawan, memungkinkan serangan balik. |
+| **Mencicil Darah**| Sand Swipe               | Serangan jarak jauh cooldown rendah untuk mencicil HP. |
+
+<CardGrid cols={2}>
+  <Card title="Permainan Ofensif">
+    - Gunakan **Sand Swipe** untuk tekanan konstan.
+    - Lanjutkan dengan **Sand Tsunami** untuk menyeret musuh ke posisi yang tidak menguntungkan.
+    - Dengan semanggi 4, **Sand Barrage** memberikan burst yang kuat.
+  </Card>
+  <Card title="Permainan Defensif">
+    - Andalkan **Sand Armor** untuk pengurangan damage pasif.
+    - Gunakan **Sand Shield** untuk menggagalkan upaya kombo lawan.
+    - **Sandstorm** dapat mencegah desakan agresif atau menciptakan ruang.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Memaksimalkan Potensi Sihir Pasir Anda">
+Untuk benar-benar menguasai **Sihir Pasir Clover Retribution**, pertimbangkan tidak hanya kemampuan Anda tetapi juga build karakter Anda secara keseluruhan, termasuk trait dan perlengkapan.
+
+### Trait yang Direkomendasikan
+Memilih trait yang tepat dapat meningkatkan Sihir Pasir Anda secara signifikan. Trait yang meningkatkan regenerasi mana, intelligence, atau pengurangan damage umum sangatlah bermanfaat. Misalnya, "Monster's Reserves" dapat memberikan dorongan mana yang sangat dibutuhkan, memungkinkan casting mantra yang lebih sering.
+
+<Checklist
+  id="sand-magic-traits"
+  title="Trait Terbaik untuk Sihir Pasir:"
+  items={[
+    "**Mana Regeneration:** Memastikan penggunaan mantra yang berkelanjutan.",
+    "**Intelligence Boost:** Secara langsung meningkatkan damage mantra.",
+    "**Damage Reduction:** Lebih meningkatkan pasif Sand Armor.",
+    "**Health Regeneration:** Meningkatkan kelangsungan hidup secara keseluruhan."
+  ]}
+/>
+
+### Pertimbangan Perlengkapan
+Melengkapi item yang memberikan intelligence, mana, atau stat defensif akan semakin memperkuat Sihir Pasir Anda. Staf penyihir (Mage staff), misalnya, sering kali datang dengan bonus intelligence, yang secara langsung meningkatkan damage mantra Anda. Carilah gear yang memberikan pendekatan seimbang untuk ofensif dan defensif.
+
+| Slot Perlengkapan | Stat yang Direkomendasikan  | Contoh Item (jika ada)       |
+| :---------------- | :-------------------------- | :--------------------------- |
+| Senjata           | Intelligence, Mana          | Mage Staff                   |
+| Armor             | Defense, Health, Intelligence| Robes, Heavy Armor           |
+| Aksesoris         | Mana Regeneration, Intelligence| Amulets, Rings               |
+
+<Callout type="info" title="Adaptasi adalah Kunci">
+Meskipun build spesifik sangat membantu, selalu siap untuk menyesuaikan strategi Anda. Build lawan, lingkungan, dan status permainan saat ini harus memengaruhi penggunaan kemampuan dan prioritas target Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan tentang Sihir Pasir">
+
+<FAQ items={[
+  {
+    question: "Apa kelangkaan Sihir Pasir di Clover Retribution?",
+    answer: "**Sihir Pasir** adalah tipe sihir dengan kelangkaan Mythic di Clover Retribution, menjadikannya salah satu bentuk sihir yang lebih langka untuk didapatkan. Kekuatan dan keserbagunaannya mencerminkan kelangkaannya yang tinggi."
+  },
+  {
+    question: "Bagaimana Grimoire Pasir semanggi empat meningkatkan Sihir Pasir?",
+    answer: "Dengan Grimoire Pasir semanggi empat, pasir Anda berubah menjadi pasir besi, dan kemampuan Anda mendapatkan peluang untuk memicu racun. Ini menambahkan efek damage-over-time yang berharga, terutama berguna dengan mantra multi-hit seperti **Sandstorm** dan **Sand Tsunami**."
+  },
+  {
+    question: "Apakah Sihir Pasir bagus untuk PvE dan PvP?",
+    answer: "Ya, **Sihir Pasir** sangat serbaguna. Kemampuan defensifnya seperti **Sand Armor** dan **Sand Shield** membuatnya sangat baik untuk kelangsungan hidup di PvE, sementara crowd control dan damage yang konsisten dari **Sand Swipe** dan **Sandstorm** efektif dalam skenario PvP."
+  },
+  {
+    question: "Apa stat utama yang harus difokuskan untuk build Sihir Pasir?",
+    answer: "Stat utama yang harus difokuskan untuk build **Sihir Pasir Clover Retribution** adalah Intelligence. Ini secara signifikan meningkatkan output damage dari semua mantra ofensif Anda, membuat serangan Anda jauh lebih kuat."
+  }
+]} />
+
+</Section>

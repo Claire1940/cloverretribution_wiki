@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Luz em Retribuição de Trevo: Guia de Build Mítica e Feitiços",
+  description: "Domine a mítica magia de luz em Retribuição de Trevo com nosso guia de 2026. Descubra as melhores estatísticas, sinergias de raça e rotações de feitiços de alto DPS.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/000?text=Light+Magic+Guide",
+  date: "2026-05-27",
+  author: "Equipe da Wiki de Retribuição de Trevo",
+  keywords: "Retribuição de Trevo, magia de luz, build mítica, feitiços, guia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Magia de luz em Retribuição de Trevo** é um grimório de raridade Mítica, sendo uma das magias mais difíceis, porém mais recompensadoras de se obter no meta de 2026.
+- **Alto Consumo de Mana**: Feitiços como o Pilar de Luz podem drenar uma barra inteira de mana; equipar **Reservas Monstruosas (Monsterous Reserves)** ou **Mana do Amor (Love Mana)** é obrigatório para combate sustentado.
+- **Foco em Atributos**: Priorize **Inteligência (INT)** para escalonamento de dano e **Constituição (CON)** para sobrevivência, com uma divisão de 220 INT / 170 CON sendo o ponto ideal do "soft cap" atual.
+- **Contra-Meta**: Esta magia foi projetada especificamente para combater usuários Divinos de alto HP, oferecendo um dos maiores DPS brutos do jogo.
+- **Sinergia de Raça**: A raça **Lunariano (Soan)** é a escolha principal para usuários de Luz devido às suas capacidades de voo e buffs ofensivos.
+</Callout>
+
+<Section icon={Zap} title="Visão Geral e Raridade da Magia de Luz">
+
+A **magia de luz em Retribuição de Trevo** está no ápice da hierarquia mágica como um grimório de raridade Mítica. Ao contrário de magias comuns ou incomuns, obter a Luz requer sorte significativa ou um alto número de giros (spins) na página inicial. Na versão atual do jogo de 2026, as magias Míticas possuem uma chance ponderada, o que significa que estatisticamente você tem mais chances de ver variantes raras como Árvore do Mundo ou Tempo antes de cair na Luz, dependendo da rotação do patch atual.
+
+**Destaques do Vídeo:**
+- **Verificação de Raridade**: A Luz é um grimório Mítico com uma baixa porcentagem de giro.
+- **Escalonamento de Atributos**: Escala principalmente com Inteligência (INT) para saída máxima de dano.
+- **Gerenciamento de Mana**: Feitiços de alto nível exigem reservas massivas de mana ou características específicas para serem viáveis.
+
+<YouTubeEmbed videoId="YRf5QcKi2LM" title="A Magia de Luz está Quebrada? Build de Atributos : Retribuição de Trevo" />
+
+Esta magia serve como uma ferramenta de DPS de alta intensidade. Enquanto magias como Vazio ou Chama oferecem um dano decente, a Luz foi projetada para destruir as enormes barras de vida de inimigos de nível Divino. No entanto, esse poder tem um custo alto: a eficiência de mana. Sem uma build adequada, um usuário de Luz se verá "bloqueado por mana" após apenas algumas rotações de feitiços.
+
+| Característica | Detalhe | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Raridade** | **Mítica** | Extremamente difícil de obter; requer muitos giros |
+| **Escalonamento** | **Inteligência (INT)** | Mais INT leva a um dano massivo por tique |
+| **Papel Principal** | **Burst DPS** | Melhor usada para derreter chefes e counterar usuários Divinos |
+| **Custo de Mana** | **Extremo** | Requer equipamentos e traits específicos para sustentar |
+| **Chance de 4 Folhas** | **1%** | Desbloqueia movimentos exclusivos se obtida com sucesso |
+
+<Callout type="warning" title="Aviso de Giro">
+Lembre-se de que a maestria mágica não é salva entre os giros, a menos que você possua o **Clover Storage Gamepass**. Se você girar e perder a Magia de Luz sem este passe, perderá todo o progresso e a própria magia.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Feitiços e Progressão de Maestria">
+
+Dominar a **magia de luz em Retribuição de Trevo** envolve desbloquear uma série de feitiços cada vez mais poderosos. A maestria é obtida usando consistentemente o grimório em combate. Conforme você aumenta seu nível de maestria, você passa de explosões arcanas básicas para devastadores pilares de luz com efeito em área (AoE).
+
+### Feitiços de Luz Únicos
+
+O núcleo do kit de Luz gira em torno de dois feitiços principais que definem seu lugar no meta de 2026: **Chuva Sagrada (Holy Rain)** e **Pilar de Luz (Light Pillar)**.
+
+| Nome do Feitiço | Nível de Maestria | Descrição | Uso de Mana |
+| :--- | :--- | :--- | :--- |
+| **Chuva Sagrada** | Nível Médio | Invoca múltiplos feixes de luz do céu | Moderado/Alto |
+| **Pilar de Luz** | Nível Alto | Um enorme feixe vertical que causa dano AoE contínuo | Muito Alto |
+| **Arrancada de Luz** | Utilitário | Uma habilidade de movimento de alta velocidade similar à Pika Dash | Baixo |
+| **Fogo Fátuo de Mana** | Iniciante | Cria uma orbe flutuante de luz para iluminação | Muito Baixo |
+
+### Feitiços Arcanos (Universais)
+Cada jogador também tem acesso a feitiços Arcanos que escalam com sua maestria em Magia de Luz. Estes são essenciais para preencher lacunas em sua rotação quando seus feitiços principais estão em cooldown.
+
+| Feitiço Arcano | Efeito | Dica de Estratégia |
+| :--- | :--- | :--- |
+| **Explosão de Mana** | Jato concentrado para frente | Use para finalizar mobs com vida baixa |
+| **Estouro de Mana** | Liberação AoE em todas as direções | Ótimo para limpar Escorpiões ou pequenos grupos |
+| **Projétil de Mana** | Pequeno projétil | Melhor para manter o DPS durante a regeneração de mana |
+| **Bainha de Mana** | Revestimento de arma | Essencial para builds híbridas usando cajados ou espadas |
+
+<Callout type="tip" title="Farm de Maestria">
+Para subir o nível de maestria da Magia de Luz rapidamente, foque em farmar mobs de alto HP como Anubis. Como a Chuva Sagrada atinge várias vezes, ela gera mais experiência de maestria por conjuração em comparação com feitiços de acerto único.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A Build Ideal de Magia de Luz">
+
+Para maximizar o potencial da **magia de luz em Retribuição de Trevo**, sua distribuição de atributos deve equilibrar o poder bruto com a capacidade de realmente conjurar seus feitiços. Uma build de "canhão de vidro" com 400 de INT pode parecer tentadora, mas sem Constituição (CON), você será eliminado antes que a animação do seu Pilar de Luz termine.
+
+### Distribuição de Atributos Recomendada (Nível 200+)
+
+A build a seguir é considerada o "Padrão Ouro" para usuários de Luz em maio de 2026:
+
+| Atributo | Valor Recomendado | Por que é necessário |
+| :--- | :--- | :--- |
+| **Inteligência** | **220** | Atinge o soft cap para escalonamento de dano e tamanho da reserva de mana |
+| **Constituição** | **170** | Fornece o HP necessário para sobreviver aos ataques em área dos chefes |
+| **Destreza** | **30-50** | Aumenta a velocidade de conjuração e a chance de acerto crítico |
+| **Força** | **0** | Não é necessária para builds puras de magia; ignore totalmente |
+
+### Melhores Equipamentos para Usuários de Luz
+
+Sua armadura e acessórios devem focar em Inteligência e Regeneração de Mana.
+
+<CardGrid cols={3}>
+  <Card title="Armadura Tide Skill">
+    - **+30 Constituição**
+    - +5 Inteligência
+    - +15 Destreza
+    - *Equipamento de evento por tempo limitado*
+  </Card>
+  <Card title="Harpa de Batalha Drake Car">
+    - **Alta Regen de Mana**
+    - Aumenta Dano Mágico
+    - Melhor para lutas longas contra chefes
+  </Card>
+  <Card title="Olho Mítico (Mahari)">
+    - **Aumento de Precisão**
+    - Buff Mágico Passivo
+    - Escolha de acessório de alto nível
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Bônus de Sinergia">
+Usar a raça **Lunariano (Soan)** oferece uma vantagem massiva. Sua habilidade "Sunfire Shift" permite alternar entre um estado defensivo (20% de resistência a dano) e um estado ofensivo (aumento de velocidade e dano). Para usuários de Luz, desligar o fogo durante a conjuração de um Pilar de Luz pode resultar em um DPS recorde.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Gerenciamento de Mana">
+
+O maior obstáculo para qualquer usuário de **magia de luz em Retribuição de Trevo** é a "Barreira de Mana". Mesmo com alta Inteligência, os feitiços supremos drenam recursos mais rápido do que podem ser repostos naturalmente.
+
+### Como Corrigir Problemas de Mana
+
+<Steps>
+  <Step num="1" title="Obtenha Reservas Monstruosas">
+    Esta é uma característica mítica que aumenta significativamente sua reserva total de mana e a taxa de regeneração. É quase obrigatória para o gameplay de Luz em alto nível.
+  </Step>
+  <Step num="2" title="Equipe Acessórios de Aumento de Mana">
+    Procure por brincos ou capas que forneçam bônus fixos de INT. Cada ponto de INT aumenta levemente sua regeneração de mana por tique.
+  </Step>
+  <Step num="3" title="Domine a Rotação">
+    Nunca comece com o Pilar de Luz. Inicie com a Chuva Sagrada para enfraquecer os alvos e só use o ultimate quando o chefe estiver parado ou atordoado para garantir que cada tique de dano atinja.
+  </Step>
+  <Step num="4" title="Seleção de Raça">
+    Se você não conseguir o Lunariano, considere **Elfo Superior** ou **Elfo Híbrido**. Estas raças oferecem bônus naturais de reserva de mana que ajudam a preencher a lacuna se você não tiver a trait de Reservas Monstruosas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Dreno do Ultimate">
+Usar dois Pilares de Luz em sucessão rápida colocará você em um "Estado Ruim" com mana negativa. Sempre mantenha pelo menos 300 de mana em reserva para conjurar uma Arrancada de Luz para posicionamento de emergência.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão">
+
+Use este checklist para acompanhar sua jornada rumo a se tornar um usuário de Magia de Luz de elite em Retribuição de Trevo.
+
+<Checklist
+  id="light-magic-progression"
+  title="Marcos do Usuário de Luz:"
+  items={[
+    "Obter Magia de Luz (Raridade Mítica) na Tela Inicial",
+    "Alcançar o Nível 150 para atender ao requisito oculto de escalonamento Mítico",
+    "Desbloquear Chuva Sagrada através do farm de maestria",
+    "Obter a característica Reservas Monstruosas ou Mana do Amor",
+    "Alcançar 220 de Inteligência para atingir o soft cap de dano",
+    "Solar com sucesso um chefe Anubis usando a rotação de Pilar de Luz"
+  ]}
+/>
+
+<Callout type="info" title="Veredito Final">
+A Magia de Luz é atualmente a magia de maior DPS no jogo para PvE contra chefes. Embora seu alto custo de mana a torne difícil para iniciantes, ela é a rainha indiscutível do meta de 2026 para jogadores de endgame que possuem o equipamento necessário para suportá-la.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A magia de luz em Retribuição de Trevo é melhor que o Vazio?",
+    answer: "Em termos de DPS bruto contra alvos únicos, a Magia de Luz geralmente supera o Vazio. No entanto, o Vazio oferece melhor utilidade e controle de multidão. Para farmar chefes, a Luz é a escolha superior."
+  },
+  {
+    question: "Qual é a melhor raça para a Magia de Luz?",
+    answer: "Lunariano (Soan) é a melhor devido ao seu Sunfire Shift e voo. O Elfo Superior é uma forte segunda opção pelo enorme bônus na reserva de mana."
+  },
+  {
+    question: "Como faço para minha mana não acabar tão rápido?",
+    answer: "Você deve usar a característica Reservas Monstruosas e equipar itens como a Armadura Tide Skill. Além disso, evite usar o Pilar de Luz repetidamente; use a Chuva Sagrada para limpeza geral de mobs."
+  },
+  {
+    question: "A Magia de Luz tem uma versão de 4 folhas?",
+    answer: "Sim, há uma chance de 1% de obter uma versão de 4 folhas da Luz, que desbloqueia um movimento secreto. Este movimento é geralmente uma versão mais poderosa da Arrancada de Luz padrão ou um projétil extra."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "links": "Links",
+    "tier": "Tier",
+    "guide": "Guide",
+    "builds": "Builds",
+    "magic": "Magic"
+  }
+}

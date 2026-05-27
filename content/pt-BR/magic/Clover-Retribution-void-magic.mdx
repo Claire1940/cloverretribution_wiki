@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia do Vazio em Clover Retribution: Habilidades Lendárias e Guia de Maestria",
+  description: "Domine a magia do vazio em Clover Retribution com nossa análise de habilidades lendárias, custos de mana e requisitos de maestria para o meta de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d004d/fff?text=Void+Magic+Guide",
+  date: "2026-05-27",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave Principal**: Dominar a **magia do vazio em Clover Retribution** exige a compreensão de sua lendária escalabilidade de AOE e mecânicas de Gloom.
+- **Nível de Raridade**: Vazio é uma **Magia Lendária** com uma chance base de 0,49%, tornando-a uma das mais raras do jogo.
+- **Mecânica Principal**: Todas as habilidades aplicam o **efeito negativo Gloom**, que acumula até cinco vezes para desencadear um vórtice de dano massivo.
+- **Foco da Build**: Priorize **Inteligência** para escalonamento de dano e **Constituição** para lidar com os altos custos de mana das magias de fim de jogo.
+- **Melhor Ferramenta**: A habilidade **Buraco Negro** é essencial para controle de multidões, mas requer um grimório de trevo de 4 folhas para ser desbloqueada.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral da Magia do Vazio e Destaques em Vídeo">
+
+O sistema de **magia do vazio em Clover Retribution** se destaca como um pináculo de domínio de área de efeito (AOE). Ao contrário das magias elementais que se concentram em projéteis diretos, o Vazio manipula o espaço e os efeitos de status para controlar o campo de batalha. Jogadores que conseguem rolar este poder de raridade de 0,49% obtêm acesso a um conjunto de movimentos que pune inimigos agrupados através do efeito de status "Gloom". No meta atual de 2026, o Vazio é frequentemente combinado com builds de alta inteligência para maximizar o potencial de dano ao longo do tempo (DOT) de seus perigos baseados no solo.
+
+**Destaques em Vídeo:**
+- Demonstração detalhada de **magias Míticas e Lendárias**, incluindo o evasivo conjunto de movimentos do Vazio.
+- Explicação de como as **estatísticas de Inteligência** influenciam diretamente o enraizamento e o tamanho da AOE para magias de alto nível semelhantes.
+- Demonstração visual do **efeito Gloom** e como ele se acumula contra NPCs com muita vida.
+- Comparação entre movimentos exclusivos de grimórios de 3 e 4 folhas, como **Buraco Negro**.
+
+<YouTubeEmbed videoId="keB6DQqkOHI" title="TODAS AS MAGIAS MÍTICAS em Clover Retribution!" />
+
+<Callout type="success" title="Visão do Meta">
+A Magia do Vazio é atualmente considerada S-Tier para limpeza de masmorras devido à sua capacidade de puxar inimigos para uma zona de abate centralizada usando Buraco Negro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise do Conjunto de Movimentos e Requisitos de Maestria">
+
+Desbloquear todo o potencial da **magia do vazio em Clover Retribution** requer um investimento significativo em Maestria. Cada movimento serve a um propósito tático específico, variando de mobilidade de alta velocidade a controle massivo de zona. Os custos de mana são notavelmente mais altos do que as magias comuns, necessitando de uma distribuição equilibrada de atributos.
+
+| Nome da Habilidade | Maestria | Custo de Mana | Tempo de Recarga | Efeito Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Buraco de Minhoca** | 5 | 25 | 6s | Avançar/Aplicar Gloom |
+| **Bobina Profunda** | 25 | 70 | 24s | AOE no chão/Nuvem DOT |
+| **Buraco Negro** | 65 | 100 | 20s | Sugar inimigos/Explosão |
+| **Zona do Vazio** | 95 | 300 | 120s | 50% de Buff de Dano Mágico |
+
+<CardGrid cols={2}>
+  <Card title="Buraco de Minhoca (Mobilidade)">
+    A ferramenta de movimento básica para usuários do Vazio. Ela envolve o jogador em energia, permitindo um avanço que causa dano a qualquer inimigo no caminho. Essencial para reposicionamento em PvP.
+  </Card>
+  <Card title="Zona do Vazio (Ultimate)">
+    Um enorme campo roxo que aumenta todo o dano mágico. Embora o tempo de recarga seja de 120 segundos, o aumento de 50% no dano o torna o buff mais forte do jogo para ataques a chefes.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota de Requisito">
+Lembre-se que o **Buraco Negro** só é acessível se sua magia do Vazio tiver o efeito de Trevo de 4 folhas. Sem ele, sua maestria será limitada aos movimentos de utilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A Mecânica Gloom e Sinergia Passiva">
+
+A característica definidora da **magia do vazio em Clover Retribution** é sua habilidade passiva. Toda vez que um feitiço atinge um inimigo, ele aplica o efeito de status **Gloom**. Isso não é apenas um simples efeito negativo; é uma mecânica empilhável que transforma seu ciclo de combate.
+
+**Como o Gloom Funciona:**
+- Cada acerto aplica uma pilha de Gloom.
+- Em **5 pilhas**, um vórtice escuro se manifesta sob os pés do alvo.
+- O vórtice causa dano contínuo ao alvo e a quaisquer inimigos próximos.
+- As pilhas de Gloom também reduzem sutilmente a velocidade de movimento do alvo, tornando-o mais fácil de prender em uma **Bobina Profunda**.
+
+| Componente da Build | Nível de Sinergia | Razão |
+| :--- | :--- | :--- |
+| **Inteligência** | ★★★★★ | Aumenta o dano DOT do vórtice Gloom. |
+| **Constituição** | ★★★★☆ | Necessário para sustentar o custo de mana de 300 da Zona do Vazio. |
+| **Raça Orc Superior** | ★★★☆☆ | Fornece a resistência necessária para permanecer dentro de sua própria Zona do Vazio. |
+| **Raça Elfo** | ★★★★★ | Maximiza o pool de mana e o poder mágico para escalonamento de AOE. |
+
+<Callout type="tip" title="Estratégia Profissional">
+Use **Buraco de Minhoca** para aplicar rapidamente a primeira pilha de Gloom, e então imediatamente siga com **Bobina Profunda**. A lentidão das pilhas iniciais manterá o inimigo preso na nuvem DOT por mais tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Obter a Magia do Vazio: Guia de Reroll">
+
+Obter a **magia do vazio em Clover Retribution** é um teste de paciência ou sorte. Como uma magia de raridade Lendária, as chances são pequenas, mas existem maneiras de otimizar seus giros.
+
+<Steps>
+  <Step num="1" title="Acumule Giros">
+    Ganhe giros completando missões diárias na Vila Sem Nome ou resgatando códigos ativos da comunidade.
+  </Step>
+  <Step num="2" title="Verifique a Raridade do Giro">
+    Os giros padrão têm uma chance de 0,49%. Se você possuir **Giros Raros**, a chance aumenta para 5%. **Giros Épicos** oferecem as melhores chances, com 19%.
+  </Step>
+  <Step num="3" title="Mire no Grimório">
+    Visite a Torre do Grimório quando tiver giros suficientes. Se você rolar Vazio, verifique sua contagem de trevos. Um trevo de 4 folhas é obrigatório para a habilidade **Buraco Negro**.
+  </Step>
+  <Step num="4" title="Alinhamento de Traços">
+    Certifique-se de que seu traço de personagem não entre em conflito. Por exemplo, a **Restrição Celestial** impede totalmente o uso de magia, o que anularia seu giro de Vazio.
+  </Step>
+</Steps>
+
+| Tipo de Giro | Taxa Lendária | Probabilidade de Vazio | Custo/Esforço |
+| :--- | :--- | :--- | :--- |
+| Padrão | 0,49% | Extremamente Baixa | Recompensas Comuns |
+| Giro Raro | 5,00% | Moderada | Recompensas de Evento |
+| Giro Épico | 19,00% | Alta | Robux/Drops de Chefes |
+
+<Callout type="warning" title="Aviso">
+Nunca descarte uma magia Lendária como Vazio a menos que você tenha pelo menos 200+ giros acumulados. A taxa de 0,49% pode resultar em milhares de giros desperdiçados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão de Maestria e FAQ">
+
+Para se tornar o mago mais forte em Clover Capital, você deve atingir marcos específicos com seu grimório. A maestria é obtida causando dano com sua magia equipada, então farmar mobs com muita vida como o **Lobo Gigante** ou os **Ogros** é recomendado para um nivelamento rápido.
+
+<Checklist
+  id="void-mastery-goals"
+  title="Marcos de Maestria do Vazio:"
+  items={[
+    "Alcance o Nível de Maestria 5 para desbloquear Buraco de Minhoca para mobilidade.",
+    "Alcance o Nível de Maestria 25 para iniciar o farm eficiente de AOE com Bobina Profunda.",
+    "Adquira um Grimório de 4 folhas para ativar o desbloqueio de Buraco Negro no Nível 65.",
+    "Alcance o Nível 95 para fornecer o buff Zona do Vazio para sua equipe de raid.",
+    "Aloque pelo menos 100 pontos em Inteligência para maximizar a escalabilidade de Gloom."
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Farm">
+O melhor lugar para farmar Maestria do Vazio é o **acampamento de Mercenários** perto de Timston. Sua alta densidade permite que a **Bobina Profunda** atinja múltiplos alvos, multiplicando seus ganhos de maestria por conjuração.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A magia do vazio em Clover Retribution é boa para jogar solo?",
+    answer: "Sim, é excepcional para jogar solo. A combinação do avanço Buraco de Minhoca e o puxão AOE de Buraco Negro permite que você kite e mate grandes grupos de inimigos sem receber dano."
+  },
+  {
+    question: "Preciso de uma raça específica para a magia do Vazio?",
+    answer: "Embora não seja obrigatório, a raça Elfo é altamente recomendada por seu maior pool de mana, o que ajuda a compensar o alto custo de Zona do Vazio (300 Mana)."
+  },
+  {
+    question: "Como eu ativo o vórtice Gloom?",
+    answer: "Você deve atingir o mesmo inimigo cinco vezes com suas habilidades do vazio. Uma vez que a quinta pilha é aplicada, o vórtice aparece automaticamente e causa dano AOE."
+  },
+  {
+    question: "Posso usar a magia do Vazio com Restrição Celestial?",
+    answer: "Não. A Restrição Celestial remove sua capacidade de usar magia em troca de proeza física. Se você tiver este traço, não poderá usar nenhuma habilidade do Vazio."
+  }
+]} />
+
+</Section>

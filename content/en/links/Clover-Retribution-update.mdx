@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Update: May 2026 Overview",
+  description: "Explore the latest Clover Retribution updates for May 2026, featuring skill tree resets, new quests, and crucial bug fixes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3498db/fff?text=Clover+Retribution+Update",
+  date: "2026-05-27",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The latest **Clover Retribution update** introduces significant quality-of-life changes and new content.
+- **Skill tree resets** are now available through multiple methods, including a free option for high-ranking Magic Knights.
+- **New quests** have been added to the Magic Knight promotion system, offering more progression paths.
+- Key bug fixes address issues with grimmoires, spirit dives, and devil unions, enhancing overall gameplay.
+- Wind magic has seen adjustments, but remains a powerful choice for many builds.
+</Callout>
+
+<Section icon={Sparkles} title="Latest Clover Retribution Update Highlights">
+The recent **Clover Retribution update** brings a wave of enhancements and new features, refining the gameplay experience and addressing long-standing community requests. From flexible skill tree resets to expanded questlines, players have more options than ever to customize their journey. These changes aim to provide a more balanced and engaging environment for both new and veteran players.
+
+**Video Highlights:**
+- Introduction to the mini-update and new codes.
+- Details on the various methods for skill tree resets.
+- Overview of bug fixes for grimmoires, spirit dives, and devil unions.
+- Discussion on new quests and their impact on progression.
+- Insight into current stat builds and recommendations.
+
+<YouTubeEmbed videoId="4aG04-ZDsZw" title="NEW CODE!! QUICK STAT GUIDE + UPDATE | Clover Retribution" />
+
+The development team, led by Fabio, has been diligently working to implement these changes, ensuring a smoother and more enjoyable experience. Many of these updates, while initially small, lay the groundwork for future content and balance adjustments.
+
+<Callout type="tip" title="Developer Insight">
+Fabio has been actively working on these updates even while focusing on other projects, showcasing continued investment in Clover Retribution. This commitment promises a more stable and evolving game world for players.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Skill Tree Reset Options">
+The ability to reset your skill tree is a major quality-of-life improvement in this **Clover Retribution update**. Previously, players were locked into their choices, making experimentation difficult. Now, several avenues are available to reallocate skill points, catering to different playstyles and resource availability.
+
+<CardGrid cols={3}>
+  <Card title="Wizard King Reset">
+    - **Free, one-time reset** for Intermediate Magic Knight Rank 4 and above.
+    - Easiest method for high-ranking players.
+    - Accessible by talking to the Wizard King.
+  </Card>
+  <Card title="Elixir of Reflection">
+    - **Craftable potion** costing 62,600 Gold.
+    - Requires specific rare materials from mission board orders.
+    - Offers a free-to-play, repeatable reset option.
+  </Card>
+  <Card title="Robux Purchase">
+    - **Instant reset** for 750 Robux (675 with Plus subscription).
+    - Convenient for players who prefer to avoid grinding.
+    - Available directly from the in-game shop.
+  </Card>
+</CardGrid>
+
+The introduction of these options provides much-needed flexibility, allowing players to adapt their builds to new metas or simply correct past mistakes without significant penalty.
+
+<Callout type="warning" title="Elixir Crafting Materials">
+Crafting the Elixir of Reflection requires specific runes and spirit feathers. These items, such as the Rune of Endless Tides, have a small chance to drop from mission board orders, with higher chances for higher Magic Knight ranks.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Magic Knight Ranking and Quests">
+The Magic Knight ranking system has received an overhaul, with new quests and promotion mechanics designed to provide a clearer progression path. Players can now earn Skill Points (SP) through promotions, which are essential for unlocking nodes in the expanded skill trees.
+
+<Steps>
+  <Step num="1" title="Enroll as a Magic Knight">
+    Reach at least Level 100 and talk to the Wizard King in Clover Capital to enroll. You will start as Junior Magic Knight 1.
+  </Step>
+  <Step num="2" title="Complete Orders and Gain XP">
+    Take orders from the mission board in Clover Capital. These offer significant XP with a 10-minute cooldown. Normal questing also contributes to XP.
+  </Step>
+  <Step num="3" title="Undertake Promotion Quests">
+    Once enough XP is accumulated, the mission board will offer a promotion quest. Complete this to rank up.
+  </Step>
+  <Step num="4" title="Earn Skill Points (SP)">
+    Each promotion rewards SP, which are used to unlock nodes in the various skill trees.
+  </Step>
+  <Step num="5" title="Manage Promotion Cooldowns">
+    Promotions have a cooldown, starting at 26 minutes for Junior Magic Knight 1 and increasing by 6 minutes per rank.
+  </Step>
+</Steps>
+
+This structured progression system encourages active participation in the game's world, ensuring players are rewarded for their dedication. The addition of 25 new quests to the mission board provides ample opportunities for advancement, reducing reliance on specific, potentially difficult, tasks.
+
+| Magic Knight Rank | Promotion Cooldown (Minutes) | Key Rewards |
+|:------------------|:-----------------------------|:------------|
+| Junior Magic Knight 1 | 26                           | Skilled Trait, SP |
+| Intermediate Magic Knight 4 | 50                           | Free Skill Reset Option, SP |
+| Senior Magic Knight 1 | 74                           | Increased Order Item Drop Rates, SP |
+| Grand Magic Knight 4 | 98                           | Max SP, Elite Perks |
+
+<Callout type="info" title="Avoiding Harder Orders">
+For players farming spins, it's advisable not to exceed Intermediate Magic Knight Rank 4, as orders become progressively harder at higher ranks. This allows for more efficient farming of specific resources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Magic Adjustments">
+The **Clover Retribution update** includes several reworks and bug fixes impacting combat and magic, most notably for Dark and Wind magic, as well as Devil Union and Spirit Dive mechanics. These adjustments aim to balance power levels and resolve previous exploits.
+
+**Summary of Combat Adjustments:**
+
+| Feature         | Old State                                      | New State                                            | Impact                                             |
+|:----------------|:-----------------------------------------------|:-----------------------------------------------------|:---------------------------------------------------|
+| Inventory Load  | Slow, noticeable delays                        | Significantly faster loading                         | Improved user experience, less downtime            |
+| Broom Flying    | Fast on PC, less effective on mobile/console   | Reworked speed, increased height, 3-sec speed boost | Better for mobile/console, slower for PC veterans  |
+| Legion          | Macro-friendly, strong                         | Pieces have health bars, draw aggro, despawn if far | Massive nerf, prevents Kraken macroing             |
+| Crits           | Standard mechanics                             | Reworked, making Dark magic extremely powerful       | Dark magic builds now highly effective             |
+| Level Cap       | 405                                            | **500**                                              | Requires more grinding for max level prestiges     |
+| Spirit Dives    | No mana cost to sustain                        | Now cost mana to sustain, toggleable                 | Requires resource management                       |
+| Aetherion's Blessing & Devil Union | Could be used together, bugged interactions            | No buffs from Aetherion's Blessing with Devil equipped | Fixes exploit, balances power                      |
+| Devil Union % Cap | Lower                                          | Increased to **45%**                                 | More control over Devil Union, future mana costs   |
+| Shadow Magic    | Not available                                  | Added with unique spells, no 4L spell yet            | New build possibilities, currently no stat scaling |
+| Wind Magic      | Extremely powerful, 3-second Kraken kills      | Nerfed, Kraken kills now 8-10 seconds                | Balanced power, still strong but not overpowered   |
+
+Shadow Magic, a new addition, offers unique abilities like `Night Coffin`, which can deal thousands of damage. While it currently lacks stat scaling (making 100% CON builds optimal), its potential is significant. The rework of Devil Union and Spirit Dive checks should prevent previous bugs where players could combine incompatible abilities.
+
+<Callout type="success" title="Shadow Magic Potential">
+Shadow Magic's `Night Coffin` spell is exceptionally strong, capable of massive damage with the right build, despite currently having no stat scaling. This makes it a prime candidate for future meta builds.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bug Fixes and Quality of Life Improvements">
+Numerous bug fixes and quality-of-life adjustments have been implemented to enhance overall game stability and player experience. These changes demonstrate the ongoing commitment to refining Clover Retribution.
+
+<Checklist
+  id="update-fixes"
+  title="Key Bug Fixes and Improvements:"
+  items={[
+    "Fixed **True Path Soul Fragment** functionality.",
+    "Resolved issues with **Key Grimmoire** and **Imitation Grimmoire**.",
+    "Corrected **Morningstar's Blessing** to provide proper buffs.",
+    "Reworked checks for **Devil Union** and **Spirit Dive** to avoid conflicts.",
+    "Added 25 new quests to the **Magic Knight ranking system**.",
+    "Fixed issues with various rings and their interactions.",
+    "**Shadow Magic** can no longer hit party members in safe zones.",
+    "Players no longer lose active quests upon death, a significant QoL improvement."
+  ]}
+/>
+
+The fix for not losing active quests upon death is a particularly welcome change, reducing frustration for players tackling challenging content. These continuous improvements contribute to a more polished and enjoyable gaming environment for all.
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions about the Update">
+
+<FAQ items={[
+  {
+    question: "How can I reset my skill tree after the Clover Retribution update?",
+    answer: "You have three main options: a free one-time reset from the Wizard King (for Intermediate Magic Knight Rank 4+), crafting an Elixir of Reflection (costing 62,600 Gold and rare materials), or purchasing a reset for 750 Robux."
+  },
+  {
+    question: "What new content was added in the latest Clover Retribution update?",
+    answer: "The update introduced Shadow Magic, the Devil Race, an expanded Magic Knight ranking system with 25 new quests, and various reworks to existing mechanics like broom flying and combat crit calculations."
+  },
+  {
+    question: "Was Wind Magic nerfed in the Clover Retribution update?",
+    answer: "Yes, Wind Magic was adjusted. While still powerful, its damage output has been reduced, making activities like Kraken kills take longer (from 3 seconds to 8-10 seconds)."
+  },
+  {
+    question: "Are there any new codes with the Clover Retribution update?",
+    answer: "Yes, new codes are periodically released. For example, '!fixingstuff' and '!devilracerelease' were recently added, providing spins for various in-game items. Always check official sources for the latest active codes."
+  }
+]} />
+
+</Section>

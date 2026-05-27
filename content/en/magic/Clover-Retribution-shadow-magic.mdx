@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Shadow Magic: Spells, Skill Tree & Builds",
+  description: "Explore Shadow Magic in Clover Retribution, covering its powerful spells, optimal skill tree builds, and how to master its dark arts for maximum damage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/36454F/fff?text=Shadow+Magic+Guide",
+  date: "2026-05-27",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Shadow Magic** is a potent damage-dealing magic in Clover Retribution.
+- The **Night Coffin** spell is a standout ability, dealing significant damage.
+- The **Shadow Magic Skill Tree** offers crucial damage boosts and utility.
+- Mastering **Umbral Doppelgangers** and **Shadow Nodes** is key to advanced play.
+- **Intelligence (INT)** is the primary scaling stat for all magic.
+</Callout>
+
+<Section icon={Sparkles} title="Unveiling Clover Retribution Shadow Magic">
+Shadow Magic in Clover Retribution is a formidable force, known for its high damage potential and unique utility spells. This guide delves into its core abilities, skill tree enhancements, and strategies to maximize its effectiveness in combat. With recent updates, Shadow Magic has received a dedicated skill tree, making it an even more viable and exciting choice for players.
+
+**Video Highlights:**
+- Demonstrates all four Shadow Magic spells in action.
+- Showcases the devastating power of Night Coffin.
+- Provides an overview of the newly added Shadow Magic skill tree.
+
+<YouTubeEmbed videoId="v__vsSqkG2g" title="SHADOW MAGIC IS CRAZY! Clover Retribution" />
+
+<Callout type="tip" title="Mastering INT">
+Remember that all magic in Clover Retribution, including **Shadow Magic**, scales directly with your **Intelligence (INT)** stat. Prioritizing INT in your character build will significantly boost your spell damage and overall effectiveness.
+</Callout>
+
+Shadow Magic offers a blend of area-of-effect, utility, and single-target burst damage, making it versatile for various combat scenarios.
+
+</Section>
+
+<Section icon={Swords} title="Core Shadow Magic Spells and Abilities">
+Shadow Magic boasts a unique set of spells designed for both offense and tactical play. Understanding each ability is crucial for effective combat.
+
+| Spell Name          | Type           | Description                                                                                             | Damage / Effect                                  | Cooldown | Mana Cost |
+| :------------------ | :------------- | :------------------------------------------------------------------------------------------------------ | :----------------------------------------------- | :------- | :-------- |
+| **Shadow Domain**   | AoE / Utility  | Creates a mobile zone spawning exploding doppelgangers that target nearby enemies.                      | Continuous AoE damage from explosions            | Moderate | Moderate  |
+| **Shadow Node**     | Utility / Burst | Places a waypoint; teleporting back causes an explosion. Great for repositioning and burst.             | Explosion damage on teleport                     | Short    | Low       |
+| **Umbral Doppelganger** | Summon / AoE   | Summons clones that run through enemies and explode. (Note: Currently buggy, expected to be fixed).     | Explosive AoE damage                             | Moderate | Moderate  |
+| **Night Coffin**    | Burst / AoE    | The signature move. Creates a powerful, instant-recastable explosion.                                   | **8-9k damage**, nearly instant recast            | Very Short | Low (approx 50) |
+
+<Callout type="warning" title="Umbral Doppelganger Bug">
+As of the latest update, the **Umbral Doppelganger** spell is known to be buggy. While it's intended to summon exploding clones, its current functionality may be inconsistent. Keep an eye out for patches addressing this.
+</Callout>
+
+The **Night Coffin** is undoubtedly the star of the Shadow Magic arsenal, offering incredible burst damage with a surprisingly low cooldown and mana cost. This makes it a primary damage source in most builds.
+
+</Section>
+
+<Section icon={Trophy} title="Shadow Magic Skill Tree Breakdown">
+The dedicated Shadow Magic skill tree introduces powerful enhancements, allowing players to customize their playstyle and significantly boost their spell's potency. These nodes are essential for any serious Shadow Magic user.
+
+| Skill Node          | Ranks | Effect                                                                                                           | Skill Point Cost | Priority  |
+| :------------------ | :---- | :--------------------------------------------------------------------------------------------------------------- | :--------------- | :-------- |
+| **Umbral Affinity** | 2     | Increases shadow spell damage by 5% per rank.                                                                    | 1 per rank       | High      |
+| **Coffin Spires**   | 3     | Adds 2 additional onyx spires to Night Coffin per rank (total 6).                                                | 1 per rank       | Very High |
+| **Well of Night**   | 1     | Take 10% reduced damage while standing inside your shadow effects (Shadow Node, Night Coffin, Abyssal Domain).    | 1                | Medium    |
+| **Boundless Domain**| 1     | Abyssal Domain radius 30% larger and duration 30% longer.                                                        | 1                | Medium    |
+| **Lingering Sphere**| 1     | Shadow Nodes persist 50% longer.                                                                                 | 1                | Low       |
+| **Bound Echoes**    | 1     | Summons 1 additional Umbral Doppelganger when casting the spell.                                                 | 1                | Medium    |
+| **Volatile Detonation** | 1     | Shadow Node bursts deal 25% more damage and have 25% larger radius.                                              | 1                | High      |
+| **Soul Tether**     | 1     | When an Umbral Doppelganger explodes, heal 10% of the damage it deals.                                           | 1                | Low       |
+| **Phantom Network** | 1     | Bursting a Shadow Node chains to other nodes/doppelgangers, causing them to explode.                             | 1                | High      |
+
+<Callout type="success" title="Optimized Skill Path">
+For maximum damage, prioritize **Umbral Affinity**, **Coffin Spires**, and **Volatile Detonation**. These nodes directly enhance your primary damage spells and provide significant scaling.
+</Callout>
+
+The skill tree allows for diverse builds, whether you focus on raw damage, increased survivability, or enhanced utility. The **Phantom Network** node, in particular, offers exciting combo potential with multiple Shadow Nodes.
+
+</Section>
+
+<Section icon={Target} title="Building Your Shadow Magic Character">
+Crafting an effective Shadow Magic character involves strategic stat allocation and skill point distribution. Here’s a breakdown of key considerations:
+
+<Steps>
+  <Step num="1" title="Stat Prioritization">
+    As a magic user, **Intelligence (INT)** is your paramount stat. It directly scales the damage of all your Shadow Magic spells. After INT, consider **Constitution (CON)** for increased survivability, as Shadow Magic can involve close-quarters combat with its domain effects. Dexterity (DEX) and Strength (STR) are less critical for a pure magic build.
+  </Step>
+  <Step num="2" title="Skill Point Acquisition">
+    Skill points are primarily obtained through promotion quests at the Wizard King and completing missions from the mission board at the Coliseum. You'll need to reach level 500 to prestige and potentially reset skill points.
+    For more details on promotions and skill points, check out this general update overview: [Clover Retribution Update Info](https://www.youtube.com/watch?v=Jk5KvJpc-MU).
+  </Step>
+  <Step num="3" title="Recommended Skill Tree Progression">
+    Start by investing in **Umbral Affinity** for immediate damage gains. Next, max out **Coffin Spires** to empower your Night Coffin. Then, consider **Volatile Detonation** for Shadow Node burst and **Phantom Network** for advanced AoE combos. Survivability nodes like **Well of Night** can be picked up later based on your playstyle.
+  </Step>
+  <Step num="4" title="Gear and Grimoire Selection">
+    Aim for gear that provides Intelligence bonuses. When spinning for grimoires, remember that mastery does not save between different magics unless you have the Clover Storage gamepass. Focus on mastering Shadow Magic to unlock all its spells.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Skill Point Reset">
+If you wish to reset your skill points, you must reach the new level cap of 500 and then prestige by visiting the Wizard King. This allows for build experimentation.
+</Callout>
+
+Shadow Magic offers a dynamic and rewarding playstyle, especially for those who enjoy high burst damage and tactical area control.
+
+</Section>
+
+<Section icon={Shield} title="Shadow Magic in Practice and FAQs">
+Understanding the practical applications of Shadow Magic spells and addressing common questions can further enhance your gameplay.
+
+<CardGrid cols={2}>
+  <Card title="PvE Effectiveness">
+    Shadow Magic excels in PvE due to its strong AoE capabilities from **Shadow Domain** and the high burst of **Night Coffin**. It allows for efficient clearing of groups of enemies and significant damage against bosses. The **Phantom Network** can create devastating chain reactions.
+  </Card>
+  <Card title="PvP Potential">
+    In PvP, the instant burst from **Night Coffin** is invaluable. **Shadow Node** offers excellent mobility and an unexpected explosion for evasive maneuvers or offensive plays. The damage reduction from **Well of Night** can also be critical in duels.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Combo Potential">
+Experiment with placing multiple **Shadow Nodes** before activating **Phantom Network** to create a massive chain explosion. This can be incredibly effective for clearing large groups or dealing burst damage to a single target.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I get Shadow Magic in Clover Retribution?",
+    answer: "Grimoires, including Shadow Magic, are obtained by spinning in the home page. There's a rarity system, and you'll need luck to get the specific magic you desire."
+  },
+  {
+    question: "Is Shadow Magic considered strong in the current meta?",
+    answer: "Yes, Shadow Magic, particularly with its powerful **Night Coffin** spell and robust skill tree, is considered one of the top magics in the game, offering high damage output."
+  },
+  {
+    question: "Does magic mastery carry over if I change my grimoire?",
+    answer: "No, magic mastery typically does not save when you reroll your magic, unless you possess the Clover Storage gamepass. This gamepass allows you to retain mastery across different grimoires."
+  },
+  {
+    question: "What is the best way to get skill points for my Shadow Magic build?",
+    answer: "Skill points are primarily earned by completing promotion quests from the Wizard King and taking on various missions from the mission board found at the Coliseum. These quests are crucial for progressing your character and unlocking skill tree nodes."
+  }
+]} />
+
+</Section>

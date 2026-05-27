@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia del Vacío en Clover Retribution: Habilidades Legendarias y Guía de Maestría",
+  description: "Domina la magia del vacío de Clover Retribution con nuestro desglose de habilidades legendarias, costos de maná y requisitos de maestría para la meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d004d/fff?text=Void+Magic+Guide",
+  date: "2026-05-27",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Dominar la **magia del vacío de Clover Retribution** requiere comprender su escalado legendario de AOE y las mecánicas de Penumbra.
+- **Nivel de rareza**: Vacío es una **Magia Legendaria** con una probabilidad base de aparición del 0.49%, lo que la convierte en una de las más raras del juego.
+- **Mecánica central**: Todas las habilidades aplican el **estado alterado Penumbra**, que se acumula hasta cinco veces para activar un vórtice de daño masivo.
+- **Enfoque de construcción**: Prioriza la **Inteligencia** para el escalado de daño y la **Constitución** para manejar los altos costos de maná de los hechizos de final de juego.
+- **Mejor herramienta**: La habilidad **Agujero Negro** es esencial para el control de masas, pero requiere un grimorio de trébol de 4 hojas para desbloquearla.
+</Callout>
+
+<Section icon={Sparkles} title="Visión General de la Magia del Vacío y Aspectos Destacados en Video">
+
+El sistema de **magia del vacío de Clover Retribution** se erige como un pináculo del dominio del área de efecto (AOE). A diferencia de las magias elementales que se centran en proyectiles directos, el Vacío manipula el espacio y los efectos de estado para controlar el campo de batalla. Los jugadores que logran obtener este poder de 0.49% de rareza acceden a un conjunto de movimientos que castiga a los enemigos agrupados a través del efecto de estado "Penumbra". En la meta actual de 2026, el Vacío a menudo se combina con construcciones de alta inteligencia para maximizar el potencial de daño a lo largo del tiempo (DOT) de sus peligros basados en el suelo.
+
+**Aspectos Destacados en Video:**
+- Muestra detallada de **magias Míticas y Legendarias**, incluyendo el elusivo conjunto de movimientos del Vacío.
+- Explicación de cómo las **estadísticas de Inteligencia** influyen directamente en el tamaño de la raíz y el AOE para magias similares de alto nivel.
+- Demostración visual del **efecto Penumbra** y cómo se acumula contra NPC con mucha salud.
+- Comparación entre movimientos exclusivos de grimorios de 3 y 4 hojas como **Agujero Negro**.
+
+<YouTubeEmbed videoId="keB6DQqkOHI" title="¡TODAS LAS MAGIAS MÍTICAS en Clover Retribution!" />
+
+<Callout type="success" title="Perspectiva del Meta">
+La Magia del Vacío se considera actualmente de Nivel S para la limpieza de mazmorras debido a su capacidad para atraer enemigos a una zona de aniquilación centralizada usando Agujero Negro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose del Conjunto de Movimientos y Requisitos de Maestría">
+
+Desbloquear todo el potencial de la **magia del vacío de Clover Retribution** requiere una inversión significativa en Maestría. Cada movimiento tiene un propósito táctico específico, que va desde la movilidad de alta velocidad hasta el control masivo de zonas. Los costos de maná son notablemente más altos que los de las magias comunes, lo que requiere una distribución equilibrada de estadísticas.
+
+| Nombre de la Habilidad | Maestría | Costo de Maná | Enfriamiento | Efecto Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Agujero de Gusano** | 5 | 25 | 6s | Deslizamiento hacia adelante/Aplica Penumbra |
+| **Bobina de Profundidad** | 25 | 70 | 24s | AOE terrestre/Nube DOT |
+| **Agujero Negro** | 65 | 100 | 20s | Aspira enemigos/Explosión |
+| **Zona de Vacío** | 95 | 300 | 120s | 50% de Mejora de Daño Mágico |
+
+<CardGrid cols={2}>
+  <Card title="Agujero de Gusano (Movilidad)">
+    La herramienta de movimiento básica para los usuarios del Vacío. Cubre al jugador de energía, permitiendo un deslizamiento que daña a cualquier enemigo en el camino. Esencial para el reposicionamiento en PvP.
+  </Card>
+  <Card title="Zona de Vacío (Definitiva)">
+    Un campo púrpura masivo que mejora todo el daño mágico. Aunque el enfriamiento es de 120 segundos, el aumento del 50% de daño lo convierte en la mejora más fuerte del juego para las incursiones de jefes.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota de Requisito">
+Recuerda que **Agujero Negro** solo es accesible si tu magia del Vacío tiene el efecto de Trébol de 4 hojas. Sin él, tu maestría se limitará a los movimientos de utilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La Mecánica de Penumbra y Sinergia Pasiva">
+
+La característica definitoria de la **magia del vacío de Clover Retribution** es su habilidad pasiva. Cada vez que un hechizo conecta con un enemigo, aplica el efecto de estado **Penumbra**. Esto no es solo un simple estado alterado; es una mecánica acumulable que transforma tu ciclo de combate.
+
+**Cómo funciona Penumbra:**
+- Cada golpe aplica una acumulación de Penumbra.
+- Con **5 acumulaciones**, un vórtice oscuro se manifiesta bajo los pies del objetivo.
+- El vórtice inflige daño continuo al objetivo y a cualquier enemigo cercano.
+- Las acumulaciones de Penumbra también reducen sutilmente la velocidad de movimiento del objetivo, lo que facilita atraparlos en una **Bobina de Profundidad**.
+
+| Componente de Construcción | Nivel de Sinergia | Razón |
+| :--- | :--- | :--- |
+| **Inteligencia** | ★★★★★ | Aumenta el daño DOT del vórtice de Penumbra. |
+| **Constitución** | ★★★★☆ | Necesario para mantener el costo de maná de 300 de Zona de Vacío. |
+| **Raza Orco Superior** | ★★★☆☆ | Proporciona la resistencia necesaria para permanecer dentro de tu propia Zona de Vacío. |
+| **Raza Elfo** | ★★★★★ | Maximiza el pozo de maná y el poder mágico para el escalado de AOE. |
+
+<Callout type="tip" title="Estrategia Pro">
+Usa **Agujero de Gusano** para aplicar rápidamente la primera acumulación de Penumbra, y luego sigue inmediatamente con **Bobina de Profundidad**. La ralentización de las acumulaciones iniciales mantendrá al enemigo atrapado en la nube DOT por más tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Obtener Magia del Vacío: Guía de Re-roll">
+
+Obtener la **magia del vacío de Clover Retribution** es una prueba de paciencia o suerte. Como magia de rareza Legendaria, las probabilidades son escasas, pero hay formas de optimizar tus giros.
+
+<Steps>
+  <Step num="1" title="Acumular Giros">
+    Gana giros completando misiones diarias en la Aldea Sin Nombre o canjeando códigos activos de la comunidad.
+  </Step>
+  <Step num="2" title="Verificar Rareza del Giro">
+    Los giros estándar tienen un 0.49% de probabilidad. Si posees **Giros Raros**, la probabilidad salta al 5%. Los **Giros Épicos** ofrecen las mejores probabilidades con un 19%.
+  </Step>
+  <Step num="3" title="Apuntar al Grimorio">
+    Visita la Torre del Grimorio una vez que tengas suficientes giros. Si obtienes Vacío, verifica tu recuento de tréboles. Un trébol de 4 hojas es obligatorio para la habilidad **Agujero Negro**.
+  </Step>
+  <Step num="4" title="Alineación de Rasgos">
+    Asegúrate de que el rasgo de tu personaje no entre en conflicto. Por ejemplo, la **Restricción Celestial** impide el uso de magia por completo, lo que anularía tu giro de Vacío.
+  </Step>
+</Steps>
+
+| Tipo de Giro | Tasa Legendaria | Probabilidad de Vacío | Costo/Esfuerzo |
+| :--- | :--- | :--- | :--- |
+| Estándar | 0.49% | Extremadamente Baja | Recompensas Comunes |
+| Giro Raro | 5.00% | Moderada | Recompensas de Evento |
+| Giro Épico | 19.00% | Alta | Robux/Botines de Jefes |
+
+<Callout type="warning" title="Advertencia">
+Nunca deseches una magia Legendaria como Vacío a menos que tengas al menos 200+ giros de respaldo. La tasa del 0.49% puede resultar en miles de giros desperdiciados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de Maestría y Preguntas Frecuentes">
+
+Para convertirte en el mago más fuerte de Clover Capital, debes alcanzar hitos específicos con tu grimorio. La maestría se gana infligiendo daño con tu magia equipada, por lo que se recomienda farmear mobs con mucha salud como el **Lobo Gigante** o los **Ogros** para una nivelación rápida.
+
+<Checklist
+  id="void-mastery-goals"
+  title="Hitos de Maestría del Vacío:"
+  items={[
+    "Alcanza el Nivel de Maestría 5 para desbloquear Agujero de Gusano para movilidad.",
+    "Alcanza el Nivel de Maestría 25 para comenzar un farmeo AOE eficiente con Bobina de Profundidad.",
+    "Adquiere un Grimorio de 4 hojas para habilitar el desbloqueo de Agujero Negro en el Nivel 65.",
+    "Alcanza el Nivel 95 para proporcionar la mejora de Zona de Vacío a tu grupo de incursión.",
+    "Asigna al menos 100 puntos a Inteligencia para maximizar el escalado de Penumbra."
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Farmeo">
+El mejor lugar para farmear Maestría del Vacío es el **campamento de Mercenarios** cerca de Timston. Su alta densidad permite que **Bobina de Profundidad** golpee a múltiples objetivos, multiplicando tus ganancias de maestría por cada lanzamiento.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es buena la magia del vacío de Clover Retribution para jugar en solitario?",
+    answer: "Sí, es excepcional para jugar en solitario. La combinación del deslizamiento de Agujero de Gusano y la atracción AOE de Agujero Negro te permite kitear y matar grandes grupos de enemigos sin recibir daño."
+  },
+  {
+    question: "¿Necesito una raza específica para la magia del Vacío?",
+    answer: "Aunque no es obligatorio, se recomienda encarecidamente la raza Elfo por su mayor reserva de maná, lo que ayuda a compensar el alto costo de Zona de Vacío (300 Maná)."
+  },
+  {
+    question: "¿Cómo activo el vórtice de Penumbra?",
+    answer: "Debes golpear al mismo enemigo cinco veces con tus habilidades de vacío. Una vez que se aplica la quinta acumulación, el vórtice aparece automáticamente e inflige daño AOE."
+  },
+  {
+    question: "¿Puedo usar magia del Vacío con Restricción Celestial?",
+    answer: "No. La Restricción Celestial elimina tu capacidad de usar magia a cambio de destreza física. Si tienes este rasgo, no puedes usar ninguna habilidad del Vacío."
+  }
+]} />
+
+</Section>

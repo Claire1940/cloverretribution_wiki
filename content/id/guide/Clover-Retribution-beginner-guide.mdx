@@ -1,0 +1,228 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Pemula Clover Retribution: Tips Penting untuk Pemain Baru",
+  description: "Kuasai Clover Retribution dengan panduan pemula ini, mencakup pertarungan, misi, statistik, crafting, dan strategi leveling yang efisien untuk pemain baru.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Clover+Retribution+Beginner",
+  date: "2026-05-27",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- Mulai petualangan Anda di **Clover Retribution** dengan menyelesaikan tutorial dan mengumpulkan sumber daya awal.
+- Fokus pada **misi berulang** untuk leveling yang efisien sejak awal.
+- Pahami **empat statistik inti** (Kelincahan, Kekuatan, Kecerdasan, Konstitusi) untuk membangun karakter Anda secara efektif.
+- Manfaatkan **crafting** untuk mendapatkan perlengkapan yang kuat dan meningkatkan kemampuan bertarung Anda.
+- Maksimalkan kemajuan Anda dengan **AFK farming** di The Library untuk mendapatkan putaran sihir, ras, dan sifat gratis.
+</Callout>
+
+<Section icon={Map} title="Memulai Petualangan Anda di Clover Retribution">
+_Clover Retribution_ menawarkan pengalaman RPG yang kaya dengan mekanisme mendalam seperti crafting, gathering, dan questing. Sebagai pemain baru, memahami langkah awal dan sistem inti sangat penting untuk kemajuan yang efisien. Panduan ini akan memandu Anda melalui semua yang perlu Anda ketahui untuk memulai dengan kuat di dunia Clover Retribution.
+
+**Sorotan Video:**
+- Pelajari tentang putaran awal untuk sihir, ras, dan sifat.
+- Pahami dampak ras pada build Anda (misalnya, Kelincahan vs. Sihir).
+- Temukan misi awal dan lokasi leveling seperti Bandit dan Serigala.
+- Dapatkan tips tentang grinding dan pengelompokan untuk efisiensi.
+
+<YouTubeEmbed videoId="vZSPvXm99_Q" title="Pembaruan Iblis Clover Retribution: Panduan Pemula" />
+
+Saat pertama kali memuat game, Anda akan diminta untuk menyelesaikan tutorial. Penting untuk membaca penjelasan tentang penguasaan mantra dan semanggi, fungsi statistik, dan manajemen inventaris. Tutorial ini juga memandu Anda mengumpulkan sumber daya dasar seperti tembaga dan besi, yang sangat penting untuk crafting nanti. Luangkan waktu Anda untuk mengumpulkan sumber daya sebanyak mungkin selama fase ini, karena penambangan bisa lebih membosankan di server publik.
+
+<Callout type="tip" title="Penimbunan Sumber Daya Tutorial">
+Selama tutorial, sebelum meninggalkan area awal, pastikan untuk **mengumpulkan tembaga dan besi sebanyak mungkin**. Sumber daya ini penting untuk membuat senjata dan perlengkapan, dan jauh lebih sulit didapatkan di server publik nanti karena persaingan.
+</Callout>
+
+Setelah tutorial selesai, Anda akan dikirim ke Unnamed Village di Kerajaan Pertama. Desa ini berfungsi sebagai pusat awal Anda untuk misi dan kustomisasi karakter.
+
+</Section>
+
+<Section icon={Swords} title="Dasar-dasar Pertarungan dan Misi">
+Pertarungan di _Clover Retribution_ menggabungkan aksi dengan elemen RPG strategis. Melengkapi senjata atau sihir pilihan Anda adalah langkah pertama. Pertarungan jarak dekat melibatkan serangan klik kiri dasar untuk kombo, sedangkan sihir menggunakan mantra yang dilengkapi di bilah alat Anda, masing-masing dengan cooldown. Mengelola serangan Anda secara efisien dan memahami pola musuh akan menjadi kunci keberhasilan.
+
+### Jenis Misi dan Manfaatnya
+
+Misi adalah metode utama untuk naik level dan maju di _Clover Retribution_. Ada tiga jenis utama, masing-masing menawarkan manfaat unik:
+
+| Jenis Misi       | Ikon              | Deskripsi                                                               | Efisiensi Leveling |
+| :--------------- | :---------------- | :------------------------------------------------------------------------ | :------------------ |
+| **Misi Cerita** | Tanda Seru Emas  | Melanjutkan narasi utama, seringkali terkait dengan pertarungan bos.                | Sedang            |
+| **Misi Berulang** | Tanda Seru Biru | Dapat diselesaikan berkali-kali, sangat baik untuk grinding XP.               | **Tinggi**            |
+| **Misi Harian** | Tanda Seru Hijau | Dapat diselesaikan sekali sehari, menawarkan XP yang baik dan hadiah berharga lainnya.      | Tinggi (batas harian)  |
+
+<Callout type="success" title="Strategi Leveling yang Efisien">
+Untuk pemain baru, **misi berulang adalah cara paling efisien untuk naik level dengan cepat**. Fokus pada misi ini untuk mendapatkan level awal dan membuka area baru serta konten cerita.
+</Callout>
+
+### Progres Leveling Awal (Level 1-45)
+
+| Rentang Level | Pemberi Misi / Lokasi | Tujuan                                 | Hadiah / Catatan                                        |
+| :---------- | :--------------------- | :---------------------------------------- | :----------------------------------------------------- |
+| **1-15**    | Bruno (Tutorial)       | Bunuh Bandit                              | XP Dasar, memperkenalkan pertarungan.                           |
+| **15-25**   | NPC Kedai (Unnamed Village) | Bunuh 10 Serigala, lalu Serigala Alpha         | XP Bagus, kesempatan untuk **gelar Pembunuh Serigala** (6% kerusakan ekstra). |
+| **25-35**   | NPC Desa Timestone  | Bunuh 6-12 Tentara Bayaran Berpengalaman            | XP Stabil, mempersiapkan pertemuan yang lebih sulit.             |
+| **35-45**   | NPC Desa Timestone  | Bunuh Ogre (disarankan berkelompok)          | XP Lebih Tinggi, menantang solo.                           |
+| **45+**     | Misi Cerita Utama       | Kalahkan Serigala Alpha (memberikan **Sapu**)      | Penting untuk perjalanan lebih cepat.                           |
+
+</Section>
+
+<Section icon={Gem} title="Memahami Statistik dan Build Anda">
+Setiap kali Anda naik level di _Clover Retribution_, Anda mendapatkan satu poin untuk dialokasikan ke salah satu dari empat statistik inti. Memahami statistik ini sangat penting untuk mengembangkan build karakter yang efektif.
+
+<CardGrid cols={2}>
+  <Card title="Kelincahan (DEX)">
+    - Meningkatkan **kerusakan tebasan dan tusukan** (pedang, belati, busur).
+    - Meningkatkan **jendela menghindar sempurna**.
+    - Ideal untuk build yang lincah, berfokus pada senjata.
+  </Card>
+  <Card title="Kekuatan (STR)">
+    - Meningkatkan **kerusakan pukulan** (palu, cestus, pukulan).
+    - Meningkatkan **pengurangan kerusakan blok**.
+    - Memungkinkan mengangkat benda berat.
+    - Disukai oleh build jarak dekat yang tangguh atau memukul keras.
+  </Card>
+  <Card title="Kecerdasan (INT)">
+    - Meningkatkan **kerusakan sihir** dari mantra.
+    - Mempercepat **pembelajaran mantra**.
+    - Penting untuk build penyihir.
+  </Card>
+  <Card title="Konstitusi (CON)">
+    - Meningkatkan **kesehatan dan mana**.
+    - Meningkatkan **ketahanan terhadap kondisi** seperti "teracuni."
+    - Penting untuk semua build, terutama tank.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Perhatian Alokasi Statistik">
+Hindari terburu-buru membuat build tertentu sejak awal. Eksperimen dengan berbagai jenis senjata dan sihir untuk menemukan gaya bermain pilihan Anda. **Reset statistik jarang terjadi dan seringkali membutuhkan Robux**, jadi alokasi yang bijaksana adalah kuncinya.
+</Callout>
+
+Meskipun panduan YouTube mungkin menawarkan build "optimal", seringkali lebih bermanfaat bagi pemain baru untuk mengalami berbagai gaya bermain yang ditawarkan oleh pendekatan berbasis kekuatan, kelincahan, dan sihir. Ini memungkinkan Anda secara alami tertarik pada build yang cocok untuk Anda, mencegah pemborosan waktu dan potensi Robux untuk reset statistik.
+
+</Section>
+
+<Section icon={Sparkles} title="Crafting dan Akuisisi Perlengkapan">
+Crafting adalah landasan akuisisi perlengkapan di _Clover Retribution_, menawarkan beberapa peralatan terbaik yang tersedia di luar drop bos. Prosesnya mudah:
+
+<Steps>
+  <Step num="1" title="Kumpulkan Material">
+    Kumpulkan material yang diperlukan dari seluruh dunia (misalnya, tembaga, besi, batu), dari monster yang dikalahkan, atau dengan membeli dari penjual. Bos adalah sumber yang sangat baik untuk komponen crafting langka.
+  </Step>
+  <Step num="2" title="Kunjungi Tukang Besi">
+    Temukan NPC Tukang Besi di kota. Mereka adalah tujuan Anda untuk semua kebutuhan crafting.
+  </Step>
+  <Step num="3" title="Buat Item Anda">
+    Pilih item yang ingin Anda buat. Layar konfirmasi akan menampilkan peluang keberhasilan crafting. Item level rendah seringkali memiliki keberhasilan 100%, tetapi perlengkapan tingkat tinggi dapat memiliki peluang lebih rendah. Bayar biaya yang diperlukan untuk mencoba crafting.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Senjata Kualitas Artefak">
+Saat membuat senjata awal Anda, bidik **kualitas artefak**. Ini memberikan pengali kerusakan 1,5x gratis, secara signifikan meningkatkan efektivitas pertarungan awal Anda. Buatlah beberapa hingga Anda mendapatkan satu jika sumber daya memungkinkan.
+</Callout>
+
+### Material dan Sumber Crafting Utama
+
+| Material | Sumber Utama                  | Penggunaan                                 | Catatan                                             |
+| :------- | :------------------------------ | :------------------------------------ | :------------------------------------------------ |
+| **Tembaga** | Node penambangan (tutorial/dunia)   | Senjata awal, zirah dasar            | Penting untuk perlengkapan pemula.                      |
+| **Besi**   | Node penambangan (tutorial/dunia)   | Senjata tingkat menengah, zirah               | Lebih maju dari tembaga, sedikit lebih langka.        |
+| **Batu**  | Node penambangan (tutorial/dunia)   | Senjata awal, alat dasar          | Berlimpah, digunakan untuk crafting awal.              |
+| **Drop Bos** | Bos tertentu (misalnya, Venom, Ogres) | Komponen langka untuk perlengkapan kuat     | Seringkali diperlukan untuk item unik tingkat tinggi.       |
+| **Penjual Toko** | Berbagai kota                 | Material umum, resep crafting    | Sumber yang dapat diandalkan untuk item dasar dan beberapa item lanjutan. |
+
+</Section>
+
+<Section icon={Trophy} title="Memaksimalkan Keuntungan dengan AFK Farming dan Misi Harian">
+Bahkan saat Anda tidak aktif bermain, _Clover Retribution_ menawarkan cara untuk maju. Mode permainan "Perpustakaan" dirancang untuk AFK farming, memungkinkan Anda secara pasif mendapatkan sumber daya penting.
+
+### Perpustakaan: Pusat AFK Anda
+
+Perpustakaan menyediakan:
+- **Putaran Sihir**: Menggulir ulang jenis sihir Anda untuk menemukan mantra yang lebih kuat atau diinginkan.
+- **Putaran Ras**: Mengubah ras Anda, yang secara signifikan dapat memengaruhi statistik dan potensi build Anda (misalnya, Orc untuk Kekuatan/Konstitusi).
+- **Putaran Sifat**: Dapatkan sifat baru yang menawarkan berbagai bonus, lebih jauh menyesuaikan karakter Anda.
+
+<Callout type="tip" title="Putaran Ulang Gratis">
+Manfaatkan AFK farming di The Library untuk mengumpulkan putaran sihir, ras, dan sifat gratis. Ini memungkinkan Anda mengoptimalkan karakter Anda tanpa menghabiskan Robux untuk putaran ulang, menjadikannya strategi jangka panjang yang berharga.
+</Callout>
+
+### Misi Harian: Hadiah Konsisten
+
+Misi harian, ditandai dengan tanda seru hijau di minimap Anda, dapat diselesaikan sekali sehari dan menawarkan pengalaman yang sangat baik serta hadiah lainnya. Jadikan kebiasaan untuk menyelesaikan ini kapan pun memungkinkan. Contohnya termasuk:
+
+| Misi Harian   | Lokasi / NPC      | Tujuan                                 | Hadiah (Contoh)                          | Catatan                                       |
+| :------------ | :------------------ | :---------------------------------------- | :----------------------------------------- | :------------------------------------------ |
+| **Memetik Bunga** | Desa Tundra      | Petik 12 bunga                           | XP, 8 putaran (sihir, ras, sifat)           | Sederhana, cepat.                              |
+| **Penyelamatan Kucing** | Desa Tundra      | Temukan kucing Whiskers                     | 2 putaran ras, sifat, sihir gratis            | Sangat mudah, bagus untuk putaran awal.            |
+| **Perburuan Kalajengking** | NPC Desa Gurun  | Bunuh 5 Kalajengking, kumpulkan 10 kelenjar       | 4500 XP                                    | XP pertengahan game yang bagus.                           |
+| **Golem Harian** | Pulau Aetherstone    | Kalahkan Golem (membutuhkan level 165)         | XP Signifikan, drop langka                 | Konten level tinggi, sering dilakukan berkelompok.   |
+
+</Section>
+
+<Section icon={Shield} title="Progres Lanjutan dan Konten Grup">
+Seiring kemajuan Anda, tantangan di _Clover Retribution_ akan meningkat. Banyak aktivitas dan bos akhir game dirancang untuk permainan kelompok, menjadikan interaksi komunitas sangat penting.
+
+### Grinding Pertengahan Game (Level 75-165)
+
+| Rentang Level | Pemberi Misi / Lokasi | Tujuan                                 | Rekomendasi                                       |
+| :---------- | :--------------------- | :---------------------------------------- | :---------------------------------------------------- |
+| **75-120**  | Orion (Menara Artemis)  | Bunuh 15 Penyihir Angin (Biksu Angin)           | Bagus untuk Penyihir, peluang 5% untuk zirah INT.              |
+|             | Misi Yeti             | Bunuh 5 Yeti (Desa Tundra)             | **Disarankan berkelompok**; Yeti setrum, ras Tling kebal. |
+| **120-165** | NPC Desa Gurun     | Bunuh Kalajengking                            | Lebih mudah daripada Ogres, drop bagus untuk pengguna tombak.        |
+|             | Wanita Abu-abu (Ngarai Gurun) | Bunuh 10 Penjaga Batu                   | **Sangat disarankan berkelompok**, membosankan jika solo.           |
+
+<Callout type="warning" title="Strategi Farming Yeti">
+Yeti memiliki teriakan dahsyat yang menyetrum. Jika Anda tidak memiliki **ras Tling (kebal setrum)** atau pass game perjalanan cepat, pertimbangkan untuk farming Ogres atau Shadow Hands hingga level 120 untuk menghindari perjalanan membosankan ke Tundra.
+</Callout>
+
+### Golem dan Selanjutnya
+
+Golem di Pulau Aetherstone adalah tantangan pertengahan hingga akhir game yang signifikan. Untuk memanggil Golem, Anda perlu mengaktifkan empat pilar batu dengan rune tertentu: Wrath, Challenge, Earth, dan Tempest. Rune ini biasanya dijatuhkan oleh berbagai bos seperti Bandit Lord, Warlord, Campson, dan Lucius.
+
+<Checklist
+  id="golem-preparation"
+  title="Daftar Periksa Pemanggilan Golem:"
+  items={[
+    "Dapatkan Rune Wrath (Bandit Lord)",
+    "Dapatkan Rune Challenge (Warlord)",
+    "Dapatkan Rune Earth (Campson)",
+    "Dapatkan Rune Tempest (Lucius)",
+    "Masukkan rune ke pilar masing-masing",
+    "Kumpulkan kelompok untuk pertarungan Golem"
+  ]}
+/>
+
+Golem paling baik dilawan dalam kelompok, karena Anda perlu memberikan setidaknya 10% dari total kerusakannya untuk menerima kredit drop. Jangan terburu-buru dalam misi ini, karena misi cerita berikutnya tidak tersedia hingga level 150.
+
+</Section>
+
+<Section icon={Target} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara memaksimalkan leveling awal game saya di Clover Retribution?",
+    answer: "Fokus pada penyelesaian misi berulang, karena misi tersebut menawarkan perolehan pengalaman yang paling efisien. Lengkapi ini dengan misi harian untuk hadiah dan XP tambahan. Bergabung dengan pemain lain juga dapat mempercepat proses secara signifikan."
+  },
+  {
+    question: "Haruskah saya menghabiskan Robux untuk putaran sihir, ras, atau sifat?",
+    answer: "Umumnya tidak disarankan untuk menghabiskan Robux untuk putaran. Sebagai gantinya, manfaatkan mode permainan AFK 'Perpustakaan' untuk mendapatkan putaran sihir, ras, dan sifat gratis secara pasif. Ini memungkinkan optimasi karakter tanpa mata uang dunia nyata."
+  },
+  {
+    question: "Apa yang harus saya prioritaskan saat mengalokasikan statistik saya sebagai pemula?",
+    answer: "Sebagai pemula di Clover Retribution, sebaiknya eksperimen dengan berbagai jenis senjata dan sihir sebelum berkomitmen pada build tertentu. Pahami bagaimana Kelincahan, Kekuatan, Kecerdasan, dan Konstitusi memengaruhi gaya bermain Anda, karena reset statistik mahal. Menginvestasikan beberapa poin ke Konstitusi untuk meningkatkan kesehatan dan mana selalu merupakan pilihan yang aman."
+  },
+  {
+    question: "Di mana saya bisa menemukan informasi lebih mendalam tentang Clover Retribution?",
+    answer: "Wiki Clover Retribution adalah sumber daya yang bagus untuk informasi terperinci tentang item, misi, dan mekanisme permainan. Anda juga dapat menemukan komunitas dan diskusi yang bermanfaat di server Discord resmi Clover Retribution."
+  }
+]} />
+
+</Section>

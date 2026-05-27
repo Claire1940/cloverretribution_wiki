@@ -10,7 +10,14 @@
       "twitterDescription": "Clover Retribution wiki for codes, Trello and Discord links, beginner steps, tier lists, stat builds, and update notes."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "links": "Links",
+    "tier": "Tier",
+    "guide": "Guide",
+    "builds": "Builds",
+    "magic": "Magic"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -33,10 +40,22 @@
     "getFreeCodesCTA": "Check Codes",
     "playOnSteamCTA": "Play on Roblox",
     "stats": {
-      "stat1": { "value": "64.6M+", "label": "Total Visits" },
-      "stat2": { "value": "1.8K+", "label": "Players Online" },
-      "stat3": { "value": "92.96%", "label": "Upvote Rating" },
-      "stat4": { "value": "384K+", "label": "Favorites" }
+      "stat1": {
+        "value": "64.6M+",
+        "label": "Total Visits"
+      },
+      "stat2": {
+        "value": "1.8K+",
+        "label": "Players Online"
+      },
+      "stat3": {
+        "value": "92.96%",
+        "label": "Upvote Rating"
+      },
+      "stat4": {
+        "value": "384K+",
+        "label": "Favorites"
+      }
     }
   },
   "gameFeature": {
@@ -48,14 +67,54 @@
     "titleHighlight": "Module Navigation",
     "subtitle": "Jump to the exact Clover Retribution module you need.",
     "cards": [
-      { "icon": "Ticket", "title": "Clover Retribution Codes", "description": "Latest rewards and redemption requirements", "sectionId": "codes" },
-      { "icon": "Link2", "title": "Clover Retribution Trello and Discord Links", "description": "Official resources and community hubs", "sectionId": "trello-discord-links" },
-      { "icon": "Compass", "title": "Clover Retribution Beginner Guide", "description": "First-session setup and quest flow", "sectionId": "beginner-guide" },
-      { "icon": "WandSparkles", "title": "Clover Retribution Magic and Grimoire Tier List", "description": "Meta picks and build notes", "sectionId": "magic-grimoire-tier-list" },
-      { "icon": "Users", "title": "Clover Retribution Race Tier List", "description": "Best races for reroll decisions", "sectionId": "race-tier-list" },
-      { "icon": "Shield", "title": "Clover Retribution Traits Tier List", "description": "Trait value by tier and role", "sectionId": "traits-tier-list" },
-      { "icon": "Swords", "title": "Clover Retribution Stats Weapons and Crafting Guide", "description": "Stat planning and gear progression", "sectionId": "stats-weapons-crafting-guide" },
-      { "icon": "BellRing", "title": "Clover Retribution Update Log and Devil Race Guide", "description": "Recent updates and release priorities", "sectionId": "update-log-devil-race-guide" }
+      {
+        "icon": "Ticket",
+        "title": "Clover Retribution Codes",
+        "description": "Latest rewards and redemption requirements",
+        "sectionId": "codes"
+      },
+      {
+        "icon": "Link2",
+        "title": "Clover Retribution Trello and Discord Links",
+        "description": "Official resources and community hubs",
+        "sectionId": "trello-discord-links"
+      },
+      {
+        "icon": "Compass",
+        "title": "Clover Retribution Beginner Guide",
+        "description": "First-session setup and quest flow",
+        "sectionId": "beginner-guide"
+      },
+      {
+        "icon": "WandSparkles",
+        "title": "Clover Retribution Magic and Grimoire Tier List",
+        "description": "Meta picks and build notes",
+        "sectionId": "magic-grimoire-tier-list"
+      },
+      {
+        "icon": "Users",
+        "title": "Clover Retribution Race Tier List",
+        "description": "Best races for reroll decisions",
+        "sectionId": "race-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "Clover Retribution Traits Tier List",
+        "description": "Trait value by tier and role",
+        "sectionId": "traits-tier-list"
+      },
+      {
+        "icon": "Swords",
+        "title": "Clover Retribution Stats Weapons and Crafting Guide",
+        "description": "Stat planning and gear progression",
+        "sectionId": "stats-weapons-crafting-guide"
+      },
+      {
+        "icon": "BellRing",
+        "title": "Clover Retribution Update Log and Devil Race Guide",
+        "description": "Recent updates and release priorities",
+        "sectionId": "update-log-devil-race-guide"
+      }
     ]
   },
   "modules": {
@@ -63,86 +122,584 @@
       "title": "Clover Retribution Codes",
       "intro": "Redeem these Clover Retribution codes for race spins, magic spins, trait spins, and full reroll bundles.",
       "items": [
-        { "code": "!devilracerelease", "reward": "350 spins of all types", "requirements": "Requires level 40 and Roblox group membership", "priority": "Highest" },
-        { "code": "!fixingstuff", "reward": "150 spins of all types", "requirements": "Requires level 40 and Roblox group membership", "priority": "High" },
-        { "code": "!iwasbusy", "reward": "100 spins of all types", "requirements": "Main-menu redemption", "priority": "High" }
+        {
+          "code": "!devilracerelease",
+          "reward": "350 spins of all types",
+          "requirements": "Requires level 40 and Roblox group membership",
+          "priority": "Highest"
+        },
+        {
+          "code": "!fixingstuff",
+          "reward": "150 spins of all types",
+          "requirements": "Requires level 40 and Roblox group membership",
+          "priority": "High"
+        },
+        {
+          "code": "!iwasbusy",
+          "reward": "100 spins of all types",
+          "requirements": "Main-menu redemption",
+          "priority": "High"
+        }
       ]
     },
     "cloverRetributionTrelloDiscordLinks": {
       "title": "Clover Retribution Trello and Discord Links",
       "intro": "Use these official Clover Retribution links for mechanics, announcements, code posts, and support.",
       "items": [
-        { "label": "Official Trello Board", "url": "https://trello.com/b/xKxR061L/clover-retribution-official-trello", "useFor": "Mechanics, races, traits, magic, and update references" },
-        { "label": "Official Discord", "url": "https://discord.com/invite/clover-retribution", "useFor": "Live announcements, code drops, and events" },
-        { "label": "Roblox Game Page", "url": "https://www.roblox.com/games/10912405603/Clover-Retribution", "useFor": "Launch the game and check current game-page updates" },
-        { "label": "Roblox Community", "url": "https://www.roblox.com/communities/15890651/Clover-Retribution", "useFor": "Join group-gated code requirements" }
+        {
+          "label": "Official Trello Board",
+          "url": "https://trello.com/b/xKxR061L/clover-retribution-official-trello",
+          "useFor": "Mechanics, races, traits, magic, and update references"
+        },
+        {
+          "label": "Official Discord",
+          "url": "https://discord.com/invite/clover-retribution",
+          "useFor": "Live announcements, code drops, and events"
+        },
+        {
+          "label": "Roblox Game Page",
+          "url": "https://www.roblox.com/games/10912405603/Clover-Retribution",
+          "useFor": "Launch the game and check current game-page updates"
+        },
+        {
+          "label": "Roblox Community",
+          "url": "https://www.roblox.com/communities/15890651/Clover-Retribution",
+          "useFor": "Join group-gated code requirements"
+        }
       ]
     },
     "cloverRetributionBeginnerGuide": {
       "title": "Clover Retribution Beginner Guide",
       "intro": "This Clover Retribution beginner route helps you avoid wasted spins and early stat resets.",
       "items": [
-        { "step": 1, "title": "Join official game hubs", "body": "Join the Roblox game page and official Roblox community before redeeming group-gated rewards." },
-        { "step": 2, "title": "Redeem code rewards first", "body": "Claim active codes in the main menu and save part of your spins for your final build." },
-        { "step": 3, "title": "Use quests for stable leveling", "body": "Story and repeatable quests provide steady EXP and cleaner early progression." },
-        { "step": 4, "title": "Match stats to your combat plan", "body": "Balance Strength, Dexterity, Intelligence, and Constitution around your core magic and weapon style." }
+        {
+          "step": 1,
+          "title": "Join official game hubs",
+          "body": "Join the Roblox game page and official Roblox community before redeeming group-gated rewards."
+        },
+        {
+          "step": 2,
+          "title": "Redeem code rewards first",
+          "body": "Claim active codes in the main menu and save part of your spins for your final build."
+        },
+        {
+          "step": 3,
+          "title": "Use quests for stable leveling",
+          "body": "Story and repeatable quests provide steady EXP and cleaner early progression."
+        },
+        {
+          "step": 4,
+          "title": "Match stats to your combat plan",
+          "body": "Balance Strength, Dexterity, Intelligence, and Constitution around your core magic and weapon style."
+        }
       ]
     },
     "cloverRetributionMagicGrimoireTierList": {
       "title": "Clover Retribution Magic and Grimoire Tier List",
       "intro": "Compare Clover Retribution magic options by tier, role, and upgrade ceiling.",
       "items": [
-        { "tier": "S", "label": "Top Meta", "entries": [ { "name": "Time", "role": "Control and burst" }, { "name": "Blood", "role": "Sustain and pressure" }, { "name": "Light", "role": "Fast offense" } ] },
-        { "tier": "A", "label": "Strong Picks", "entries": [ { "name": "Water", "role": "Balanced damage and utility" }, { "name": "Ice", "role": "Control and combo routes" }, { "name": "Void", "role": "High scaling with upgrades" } ] },
-        { "tier": "B", "label": "Situational", "entries": [ { "name": "Flame", "role": "Burn pressure" }, { "name": "Poison", "role": "Damage over time" }, { "name": "Spatial", "role": "Mobility utility" } ] }
+        {
+          "tier": "S",
+          "label": "Top Meta",
+          "entries": [
+            {
+              "name": "Time",
+              "role": "Control and burst"
+            },
+            {
+              "name": "Blood",
+              "role": "Sustain and pressure"
+            },
+            {
+              "name": "Light",
+              "role": "Fast offense"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Picks",
+          "entries": [
+            {
+              "name": "Water",
+              "role": "Balanced damage and utility"
+            },
+            {
+              "name": "Ice",
+              "role": "Control and combo routes"
+            },
+            {
+              "name": "Void",
+              "role": "High scaling with upgrades"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Situational",
+          "entries": [
+            {
+              "name": "Flame",
+              "role": "Burn pressure"
+            },
+            {
+              "name": "Poison",
+              "role": "Damage over time"
+            },
+            {
+              "name": "Spatial",
+              "role": "Mobility utility"
+            }
+          ]
+        }
       ]
     },
     "cloverRetributionRaceTierList": {
       "title": "Clover Retribution Race Tier List",
       "intro": "Compare the strongest Clover Retribution races by rarity, stat bonuses, passive value, and best build fit.",
       "items": [
-        { "tier": "SS", "label": "Best keeps", "entries": [ { "name": "Starborn", "rarity": "Mythical", "why": "+65 Intelligence, +20% Mana, and +50% magic damage resistance for top mage scaling." }, { "name": "Solean", "rarity": "Mythical", "why": "Hybrid stats, flame immunity, and custom flight utility." }, { "name": "Ryomen", "rarity": "Mythical", "why": "Sustain-focused regen package for tanky solo play." }, { "name": "Mahari", "rarity": "Mythical", "why": "Adaptive Resistance plus +25% Mana for long fights." }, { "name": "Dreadscale", "rarity": "Mythical", "why": "Large HP and resistance package for frontline builds." }, { "name": "Legendary Kynthari", "rarity": "Mythical", "why": "Speed, HP, and Zenith Surge for aggressive melee routes." } ] },
-        { "tier": "S", "label": "Strong endgame races", "entries": [ { "name": "Primordial Human", "rarity": "Mythical", "why": "High STR/DEX/CON spread with bonus HP and speed." }, { "name": "Siphonite", "rarity": "Mythical", "why": "Mana regeneration and sustain skills for caster durability." }, { "name": "High Elf", "rarity": "Legendary", "why": "Reliable magic damage and mana boosts." }, { "name": "Sylvan", "rarity": "Legendary", "why": "Strong healing output and support utility." }, { "name": "Kynthari", "rarity": "Legendary", "why": "Fast physical progression with HP bonus and Zenith Surge." } ] },
-        { "tier": "A", "label": "Great specialized picks", "entries": [ { "name": "Dark Elf", "rarity": "Legendary", "why": "High fire-damage synergy for Fire builds." }, { "name": "High Orc", "rarity": "Legendary", "why": "Strong Strength-focused physical scaling." }, { "name": "Lynthari", "rarity": "Legendary", "why": "Dexterity-focused evasive and mobility play." }, { "name": "Gorgon", "rarity": "Epic", "why": "Piercing bonuses with poison and petrification immunity." }, { "name": "Stonekin", "rarity": "Epic", "why": "High survivability and anti-bludgeoning defense." }, { "name": "Dryad", "rarity": "Epic", "why": "Healing-output support for utility casters." }, { "name": "Hybrid Dwarf", "rarity": "Legendary", "why": "Great mastery/EXP route with durable caster utility." } ] },
-        { "tier": "B", "label": "Useful but replaceable", "entries": [ { "name": "Hybrid Elf", "rarity": "Epic", "why": "Early hybrid value but lower late-game ceiling." }, { "name": "Beast", "rarity": "Rare", "why": "Good early bludgeoning support." }, { "name": "Orc", "rarity": "Rare", "why": "Starter Strength option before better rolls." }, { "name": "Goblin", "rarity": "Rare", "why": "Useful for gold farming over combat." }, { "name": "Dwarf", "rarity": "Uncommon", "why": "Crafting economy utility with low combat impact." } ] },
-        { "tier": "C", "label": "Starter only", "entries": [ { "name": "Human", "rarity": "Common", "why": "No direct buffs, best replaced when race spins are available." } ] }
+        {
+          "tier": "SS",
+          "label": "Best keeps",
+          "entries": [
+            {
+              "name": "Starborn",
+              "rarity": "Mythical",
+              "why": "+65 Intelligence, +20% Mana, and +50% magic damage resistance for top mage scaling."
+            },
+            {
+              "name": "Solean",
+              "rarity": "Mythical",
+              "why": "Hybrid stats, flame immunity, and custom flight utility."
+            },
+            {
+              "name": "Ryomen",
+              "rarity": "Mythical",
+              "why": "Sustain-focused regen package for tanky solo play."
+            },
+            {
+              "name": "Mahari",
+              "rarity": "Mythical",
+              "why": "Adaptive Resistance plus +25% Mana for long fights."
+            },
+            {
+              "name": "Dreadscale",
+              "rarity": "Mythical",
+              "why": "Large HP and resistance package for frontline builds."
+            },
+            {
+              "name": "Legendary Kynthari",
+              "rarity": "Mythical",
+              "why": "Speed, HP, and Zenith Surge for aggressive melee routes."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Strong endgame races",
+          "entries": [
+            {
+              "name": "Primordial Human",
+              "rarity": "Mythical",
+              "why": "High STR/DEX/CON spread with bonus HP and speed."
+            },
+            {
+              "name": "Siphonite",
+              "rarity": "Mythical",
+              "why": "Mana regeneration and sustain skills for caster durability."
+            },
+            {
+              "name": "High Elf",
+              "rarity": "Legendary",
+              "why": "Reliable magic damage and mana boosts."
+            },
+            {
+              "name": "Sylvan",
+              "rarity": "Legendary",
+              "why": "Strong healing output and support utility."
+            },
+            {
+              "name": "Kynthari",
+              "rarity": "Legendary",
+              "why": "Fast physical progression with HP bonus and Zenith Surge."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Great specialized picks",
+          "entries": [
+            {
+              "name": "Dark Elf",
+              "rarity": "Legendary",
+              "why": "High fire-damage synergy for Fire builds."
+            },
+            {
+              "name": "High Orc",
+              "rarity": "Legendary",
+              "why": "Strong Strength-focused physical scaling."
+            },
+            {
+              "name": "Lynthari",
+              "rarity": "Legendary",
+              "why": "Dexterity-focused evasive and mobility play."
+            },
+            {
+              "name": "Gorgon",
+              "rarity": "Epic",
+              "why": "Piercing bonuses with poison and petrification immunity."
+            },
+            {
+              "name": "Stonekin",
+              "rarity": "Epic",
+              "why": "High survivability and anti-bludgeoning defense."
+            },
+            {
+              "name": "Dryad",
+              "rarity": "Epic",
+              "why": "Healing-output support for utility casters."
+            },
+            {
+              "name": "Hybrid Dwarf",
+              "rarity": "Legendary",
+              "why": "Great mastery/EXP route with durable caster utility."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Useful but replaceable",
+          "entries": [
+            {
+              "name": "Hybrid Elf",
+              "rarity": "Epic",
+              "why": "Early hybrid value but lower late-game ceiling."
+            },
+            {
+              "name": "Beast",
+              "rarity": "Rare",
+              "why": "Good early bludgeoning support."
+            },
+            {
+              "name": "Orc",
+              "rarity": "Rare",
+              "why": "Starter Strength option before better rolls."
+            },
+            {
+              "name": "Goblin",
+              "rarity": "Rare",
+              "why": "Useful for gold farming over combat."
+            },
+            {
+              "name": "Dwarf",
+              "rarity": "Uncommon",
+              "why": "Crafting economy utility with low combat impact."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Starter only",
+          "entries": [
+            {
+              "name": "Human",
+              "rarity": "Common",
+              "why": "No direct buffs, best replaced when race spins are available."
+            }
+          ]
+        }
       ]
     },
     "cloverRetributionTraitsTierList": {
       "title": "Clover Retribution Traits Tier List",
       "intro": "Rank Clover Retribution traits by rarity, passive impact, build synergy, and reroll priority.",
       "items": [
-        { "tier": "SS", "label": "Build-defining traits", "entries": [ { "name": "Power Of Friendship", "rarity": "Mythical", "why": "Cheat-death trigger plus recovery and short i-frames." }, { "name": "Mystical Eyes", "rarity": "Mythical", "why": "Broad stat boosts with burst scaling stacks." }, { "name": "Monstrous Reserves", "rarity": "Mythical", "why": "Massive mana pool and regeneration for long rotations." }, { "name": "Divine Restriction", "rarity": "Mythical", "why": "Top no-magic physical trait with mobility and survivability." }, { "name": "Dragon's Blessing", "rarity": "Mythical", "why": "Frequent wish-based utility and sustain options." }, { "name": "Adaptive Resistance", "rarity": "Mythical", "why": "Mahari-exclusive adaptive defense and offense utility." } ] },
-        { "tier": "S", "label": "Endgame keeps", "entries": [ { "name": "High Speed Regeneration", "rarity": "Mythical", "why": "Ryomen sustain trait for extended fights." }, { "name": "Prodigy", "rarity": "Mythical", "why": "Very high progression speed with global stat support." }, { "name": "Heavenly Restricted", "rarity": "Legendary", "why": "Excellent physical damage route with heavy mana penalty." }, { "name": "Arcane Zenith", "rarity": "Legendary", "why": "Major mana-consumption cut for caster builds." }, { "name": "Mana Rampage", "rarity": "Legendary", "why": "Strong magic damage increase when mana sustain is solved." }, { "name": "Tenacity", "rarity": "Legendary", "why": "Reliable low-HP damage reduction for boss survivability." }, { "name": "Boss Slayer", "rarity": "Legendary", "why": "High boss damage with manageable movement tradeoff." }, { "name": "Loved by Mana", "rarity": "Legendary", "why": "Large flat mana boost for spell-heavy setups." } ] },
-        { "tier": "A", "label": "Strong build traits", "entries": [ { "name": "Lyrical Surge", "rarity": "Legendary", "why": "Useful party-wide offense/defense support cycle." }, { "name": "Warrior's Might", "rarity": "Legendary", "why": "Doubles block health on Strength-focused assignments." }, { "name": "Arcane Insight", "rarity": "Legendary", "why": "Strong clover EXP and conditional magic scaling." }, { "name": "Swift Reflexes", "rarity": "Legendary", "why": "Mobility and perfect-dodge improvements for DEX builds." }, { "name": "Unyielding Sentinel", "rarity": "Legendary", "why": "Scaling passive defense, strongest when low HP." }, { "name": "Zenith Surge", "rarity": "Legendary", "why": "Kynthari-exclusive low-HP damage scaling." }, { "name": "Nature's Bond", "rarity": "Legendary", "why": "Sylvan-exclusive forest zone stat boost." } ] },
-        { "tier": "B", "label": "Useful utility traits", "entries": [ { "name": "Noble", "rarity": "Epic", "why": "Good early mana increase for casters." }, { "name": "Superior Speed", "rarity": "Epic", "why": "Simple mobility boost for comfort." }, { "name": "Mystic Savant", "rarity": "Epic", "why": "Solid placeholder mana-efficiency trait." }, { "name": "Gaia's Blessing", "rarity": "Epic", "why": "Niche value for Earth and Sand builds." }, { "name": "Gold Fever", "rarity": "Rare", "why": "Useful for economy farming, not final combat." }, { "name": "Mana Block", "rarity": "Uncommon", "why": "Defensive unlock trait with limited long-term value." } ] },
-        { "tier": "C", "label": "Low priority", "entries": [ { "name": "Scholar", "rarity": "Rare", "why": "Minor Intelligence bonus, easy reroll later." }, { "name": "Arcane Adept", "rarity": "Rare", "why": "Basic mana efficiency with low ceiling." }, { "name": "Finesse Master", "rarity": "Uncommon", "why": "Small early Dexterity value only." }, { "name": "Fighter", "rarity": "Uncommon", "why": "Starter physical stat mix, easy to replace." }, { "name": "Average", "rarity": "Common", "why": "No direct advantage, immediate reroll target." } ] }
+        {
+          "tier": "SS",
+          "label": "Build-defining traits",
+          "entries": [
+            {
+              "name": "Power Of Friendship",
+              "rarity": "Mythical",
+              "why": "Cheat-death trigger plus recovery and short i-frames."
+            },
+            {
+              "name": "Mystical Eyes",
+              "rarity": "Mythical",
+              "why": "Broad stat boosts with burst scaling stacks."
+            },
+            {
+              "name": "Monstrous Reserves",
+              "rarity": "Mythical",
+              "why": "Massive mana pool and regeneration for long rotations."
+            },
+            {
+              "name": "Divine Restriction",
+              "rarity": "Mythical",
+              "why": "Top no-magic physical trait with mobility and survivability."
+            },
+            {
+              "name": "Dragon's Blessing",
+              "rarity": "Mythical",
+              "why": "Frequent wish-based utility and sustain options."
+            },
+            {
+              "name": "Adaptive Resistance",
+              "rarity": "Mythical",
+              "why": "Mahari-exclusive adaptive defense and offense utility."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Endgame keeps",
+          "entries": [
+            {
+              "name": "High Speed Regeneration",
+              "rarity": "Mythical",
+              "why": "Ryomen sustain trait for extended fights."
+            },
+            {
+              "name": "Prodigy",
+              "rarity": "Mythical",
+              "why": "Very high progression speed with global stat support."
+            },
+            {
+              "name": "Heavenly Restricted",
+              "rarity": "Legendary",
+              "why": "Excellent physical damage route with heavy mana penalty."
+            },
+            {
+              "name": "Arcane Zenith",
+              "rarity": "Legendary",
+              "why": "Major mana-consumption cut for caster builds."
+            },
+            {
+              "name": "Mana Rampage",
+              "rarity": "Legendary",
+              "why": "Strong magic damage increase when mana sustain is solved."
+            },
+            {
+              "name": "Tenacity",
+              "rarity": "Legendary",
+              "why": "Reliable low-HP damage reduction for boss survivability."
+            },
+            {
+              "name": "Boss Slayer",
+              "rarity": "Legendary",
+              "why": "High boss damage with manageable movement tradeoff."
+            },
+            {
+              "name": "Loved by Mana",
+              "rarity": "Legendary",
+              "why": "Large flat mana boost for spell-heavy setups."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong build traits",
+          "entries": [
+            {
+              "name": "Lyrical Surge",
+              "rarity": "Legendary",
+              "why": "Useful party-wide offense/defense support cycle."
+            },
+            {
+              "name": "Warrior's Might",
+              "rarity": "Legendary",
+              "why": "Doubles block health on Strength-focused assignments."
+            },
+            {
+              "name": "Arcane Insight",
+              "rarity": "Legendary",
+              "why": "Strong clover EXP and conditional magic scaling."
+            },
+            {
+              "name": "Swift Reflexes",
+              "rarity": "Legendary",
+              "why": "Mobility and perfect-dodge improvements for DEX builds."
+            },
+            {
+              "name": "Unyielding Sentinel",
+              "rarity": "Legendary",
+              "why": "Scaling passive defense, strongest when low HP."
+            },
+            {
+              "name": "Zenith Surge",
+              "rarity": "Legendary",
+              "why": "Kynthari-exclusive low-HP damage scaling."
+            },
+            {
+              "name": "Nature's Bond",
+              "rarity": "Legendary",
+              "why": "Sylvan-exclusive forest zone stat boost."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Useful utility traits",
+          "entries": [
+            {
+              "name": "Noble",
+              "rarity": "Epic",
+              "why": "Good early mana increase for casters."
+            },
+            {
+              "name": "Superior Speed",
+              "rarity": "Epic",
+              "why": "Simple mobility boost for comfort."
+            },
+            {
+              "name": "Mystic Savant",
+              "rarity": "Epic",
+              "why": "Solid interim mana-efficiency trait."
+            },
+            {
+              "name": "Gaia's Blessing",
+              "rarity": "Epic",
+              "why": "Niche value for Earth and Sand builds."
+            },
+            {
+              "name": "Gold Fever",
+              "rarity": "Rare",
+              "why": "Useful for economy farming, not final combat."
+            },
+            {
+              "name": "Mana Block",
+              "rarity": "Uncommon",
+              "why": "Defensive unlock trait with limited long-term value."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Low priority",
+          "entries": [
+            {
+              "name": "Scholar",
+              "rarity": "Rare",
+              "why": "Minor Intelligence bonus, easy reroll later."
+            },
+            {
+              "name": "Arcane Adept",
+              "rarity": "Rare",
+              "why": "Basic mana efficiency with low ceiling."
+            },
+            {
+              "name": "Finesse Master",
+              "rarity": "Uncommon",
+              "why": "Small early Dexterity value only."
+            },
+            {
+              "name": "Fighter",
+              "rarity": "Uncommon",
+              "why": "Starter physical stat mix, easy to replace."
+            },
+            {
+              "name": "Average",
+              "rarity": "Common",
+              "why": "No direct advantage, immediate reroll target."
+            }
+          ]
+        }
       ]
     },
     "cloverRetributionStatsWeaponsCraftingGuide": {
       "title": "Clover Retribution Stats, Weapons, and Crafting Guide",
       "intro": "Build around one main Clover Retribution damage path first, then align race, trait, stat allocation, and gear bonuses to that same route.",
       "items": [
-        { "name": "Strength Builds", "stat": "Strength", "description": "Improves bludgeoning-focused physical damage and blocking strength.", "tip": "Best with High Orc, Dreadscale, Primordial Human, or Stonekin." },
-        { "name": "Dexterity Builds", "stat": "Dexterity", "description": "Improves slashing and piercing routes for fast weapon play.", "tip": "Best with Lynthari, Gorgon, Primordial Human, or Kynthari routes." },
-        { "name": "Intelligence Builds", "stat": "Intelligence", "description": "Improves magic damage and grimoire-focused scaling.", "tip": "Best with Starborn, High Elf, Solean, and Arcane-focused traits." },
-        { "name": "Constitution Builds", "stat": "Constitution", "description": "Improves survivability through higher HP and durable scaling.", "tip": "Best with Ryomen, Dreadscale, Stonekin, and defensive traits." },
-        { "name": "60% Stat Focus Traits", "stat": "Assigned stat focus", "description": "Heavy assigned points in one stat can unlock focused trait routes.", "tip": "Plan trait goals before spending points so rerolls and stats match." },
-        { "name": "Weapon Scaling Shortcut", "stat": "Damage type", "description": "Bludgeoning favors Strength, slashing and piercing favor Dexterity, and spells favor Intelligence.", "tip": "Decide physical, magic, tank, or hybrid before expensive rerolls." },
-        { "name": "Crafting and Gear Priority", "stat": "Gear bonuses", "description": "Use armor and accessories that reinforce your core stat plan.", "tip": "Avoid random mixed bonuses that dilute your main build route." },
-        { "name": "Menu and Loadout Controls", "stat": "R, G, M", "description": "R equips weapon, G equips grimoire, M opens build and reroll management.", "tip": "Check current loadout before using rare rerolls or key resources." }
+        {
+          "name": "Strength Builds",
+          "stat": "Strength",
+          "description": "Improves bludgeoning-focused physical damage and blocking strength.",
+          "tip": "Best with High Orc, Dreadscale, Primordial Human, or Stonekin."
+        },
+        {
+          "name": "Dexterity Builds",
+          "stat": "Dexterity",
+          "description": "Improves slashing and piercing routes for fast weapon play.",
+          "tip": "Best with Lynthari, Gorgon, Primordial Human, or Kynthari routes."
+        },
+        {
+          "name": "Intelligence Builds",
+          "stat": "Intelligence",
+          "description": "Improves magic damage and grimoire-focused scaling.",
+          "tip": "Best with Starborn, High Elf, Solean, and Arcane-focused traits."
+        },
+        {
+          "name": "Constitution Builds",
+          "stat": "Constitution",
+          "description": "Improves survivability through higher HP and durable scaling.",
+          "tip": "Best with Ryomen, Dreadscale, Stonekin, and defensive traits."
+        },
+        {
+          "name": "60% Stat Focus Traits",
+          "stat": "Assigned stat focus",
+          "description": "Heavy assigned points in one stat can unlock focused trait routes.",
+          "tip": "Plan trait goals before spending points so rerolls and stats match."
+        },
+        {
+          "name": "Weapon Scaling Shortcut",
+          "stat": "Damage type",
+          "description": "Bludgeoning favors Strength, slashing and piercing favor Dexterity, and spells favor Intelligence.",
+          "tip": "Decide physical, magic, tank, or hybrid before expensive rerolls."
+        },
+        {
+          "name": "Crafting and Gear Priority",
+          "stat": "Gear bonuses",
+          "description": "Use armor and accessories that reinforce your core stat plan.",
+          "tip": "Avoid random mixed bonuses that dilute your main build route."
+        },
+        {
+          "name": "Menu and Loadout Controls",
+          "stat": "R, G, M",
+          "description": "R equips weapon, G equips grimoire, M opens build and reroll management.",
+          "tip": "Check current loadout before using rare rerolls or key resources."
+        }
       ]
     },
     "cloverRetributionUpdateLogDevilRaceGuide": {
       "title": "Clover Retribution Update Log and Devil Race Guide",
       "intro": "Track the current Clover Retribution Devil Race update cycle, key codes, and reroll priorities before committing to final build paths.",
       "items": [
-        { "date": "May 2026", "tag": "Current Update", "title": "Devil Race Release", "description": "The experience is focused on Devil Race demand and race-spin value; protect top race and trait keeps before over-rerolling." },
-        { "date": "May 27, 2026", "tag": "New Codes", "title": "Devil Race Release Spin Codes", "description": "!devilracerelease (350), !fixingstuff (150), !iwasbusy (100), with group and level requirements where listed." },
-        { "date": "Devil Progression", "tag": "Trait Checkpoint", "title": "Devil's Host", "description": "Core devil-progression trait route for Devil Union and devil contract progression." },
-        { "date": "Devil Progression", "tag": "Hybrid Path", "title": "Hybrid-Devil Progression", "description": "Progression uses devil parts, souls, and corruption risk through visible transformation stages." },
-        { "date": "Build Priority", "tag": "Reroll Plan", "title": "What to Reroll First", "description": "Use race spins for high-value race targets, trait spins for build-defining passives, then magic spins after build direction is fixed." },
-        { "date": "Update Tracking", "tag": "Where to Check", "title": "Official Update Sources", "description": "Prioritize Roblox page status plus official Discord and Trello updates before spending limited resources." }
+        {
+          "date": "May 2026",
+          "tag": "Current Update",
+          "title": "Devil Race Release",
+          "description": "The experience is focused on Devil Race demand and race-spin value; protect top race and trait keeps before over-rerolling."
+        },
+        {
+          "date": "May 27, 2026",
+          "tag": "New Codes",
+          "title": "Devil Race Release Spin Codes",
+          "description": "!devilracerelease (350), !fixingstuff (150), !iwasbusy (100), with group and level requirements where listed."
+        },
+        {
+          "date": "Devil Progression",
+          "tag": "Trait Checkpoint",
+          "title": "Devil's Host",
+          "description": "Core devil-progression trait route for Devil Union and devil contract progression."
+        },
+        {
+          "date": "Devil Progression",
+          "tag": "Hybrid Path",
+          "title": "Hybrid-Devil Progression",
+          "description": "Progression uses devil parts, souls, and corruption risk through visible transformation stages."
+        },
+        {
+          "date": "Build Priority",
+          "tag": "Reroll Plan",
+          "title": "What to Reroll First",
+          "description": "Use race spins for high-value race targets, trait spins for build-defining passives, then magic spins after build direction is fixed."
+        },
+        {
+          "date": "Update Tracking",
+          "tag": "Where to Check",
+          "title": "Official Update Sources",
+          "description": "Prioritize Roblox page status plus official Discord and Trello updates before spending limited resources."
+        }
       ]
     }
   },
@@ -151,9 +708,18 @@
     "titleHighlight": "FAQ",
     "subtitle": "Common Clover Retribution questions for new and returning players.",
     "questions": [
-      { "question": "How do I redeem Clover Retribution codes?", "answer": "Open Clover Retribution, use the main-menu code box, paste the code exactly, and submit before entering your server." },
-      { "question": "What is the best Clover Retribution route for beginners?", "answer": "Join the official group, redeem active codes, level through repeatable quests, and commit to rerolls only after testing your preferred magic path." },
-      { "question": "Where can I find official Clover Retribution updates?", "answer": "Use the Clover Retribution Discord and Trello links in the resource module for official notices and system references." }
+      {
+        "question": "How do I redeem Clover Retribution codes?",
+        "answer": "Open Clover Retribution, use the main-menu code box, paste the code exactly, and submit before entering your server."
+      },
+      {
+        "question": "What is the best Clover Retribution route for beginners?",
+        "answer": "Join the official group, redeem active codes, level through repeatable quests, and commit to rerolls only after testing your preferred magic path."
+      },
+      {
+        "question": "Where can I find official Clover Retribution updates?",
+        "answer": "Use the Clover Retribution Discord and Trello links in the resource module for official notices and system references."
+      }
     ]
   },
   "cta": {
@@ -161,5 +727,127 @@
     "description": "Use the modules above to lock your race, magic, trait, and progression path.",
     "joinCommunity": "Join Community",
     "joinGame": "Play Clover Retribution"
+  },
+  "pages": {
+    "codes": {
+      "title": "Clover Retribution Codes",
+      "description": "Latest Clover Retribution codes for spins and reroll resources, with redemption timing and requirement notes.",
+      "metaTitle": "Clover Retribution Codes - Active Spins and Rerolls",
+      "metaDescription": "Find active Clover Retribution codes for race, magic, and trait spins with requirement notes and update timing.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Clover Retribution Codes?",
+      "whatIsDescription": "Clover Retribution codes are redeem commands released by the developers that grant spins, rerolls, and progression-friendly bonuses. They are usually tied to updates, fixes, or milestone events and may include level or group requirements.",
+      "why": "Why read this Clover Retribution codes page?",
+      "whySteps": {
+        "step1Title": "Claim rewards before they expire",
+        "step1Description": "You get the currently working code list in one place, so you can redeem rewards before they rotate out.",
+        "step2Title": "Avoid redemption mistakes",
+        "step2Description": "Requirement notes help you meet level and group conditions before you spend time entering each code.",
+        "step3Title": "Plan your reroll budget",
+        "step3Description": "Knowing current spin payouts makes it easier to decide whether to reroll race, trait, or magic first."
+      },
+      "featured": "Featured Clover Retribution Codes",
+      "all": "All Clover Retribution Codes"
+    },
+    "links": {
+      "title": "Clover Retribution Links",
+      "description": "Official Clover Retribution Trello, Discord, group, and update-link references for trusted game information.",
+      "metaTitle": "Clover Retribution Links - Trello, Discord, Group",
+      "metaDescription": "Access official Clover Retribution links including Trello, Discord, Roblox group, private server, and update resources.",
+      "categoryLabel": "LINKS",
+      "whatIs": "What are Clover Retribution Links?",
+      "whatIsDescription": "This category tracks official Clover Retribution resource links, including Trello documentation, Discord announcements, group access, and update-tracking pages used for events and codes.",
+      "why": "Why read this Clover Retribution links page?",
+      "whySteps": {
+        "step1Title": "Reach official resources quickly",
+        "step1Description": "You can open the right community or documentation channel without searching through outdated copies.",
+        "step2Title": "Track updates and announcements",
+        "step2Description": "Update and event links help you verify current patch notes, maintenance windows, and new feature drops.",
+        "step3Title": "Stay aligned with code requirements",
+        "step3Description": "Group and social links make it easier to satisfy reward prerequisites tied to official channels."
+      },
+      "featured": "Featured Clover Retribution Links",
+      "all": "All Clover Retribution Links"
+    },
+    "tier": {
+      "title": "Clover Retribution Tier List",
+      "description": "Clover Retribution tier analysis for races, traits, magic, weapons, and grimoires across current update metas.",
+      "metaTitle": "Clover Retribution Tier List - Race, Trait, Magic",
+      "metaDescription": "Use Clover Retribution tier rankings to compare race, trait, magic, weapon, and grimoire options for current meta progression.",
+      "categoryLabel": "TIER",
+      "whatIs": "What is the Clover Retribution Tier category?",
+      "whatIsDescription": "This category contains Clover Retribution ranking guides that compare options by scaling, utility, survivability, and build synergy. It helps you prioritize rerolls and resource spending around current patch value.",
+      "why": "Why read Clover Retribution tier guides?",
+      "whySteps": {
+        "step1Title": "Prioritize high-value rerolls",
+        "step1Description": "Tier breakdowns show which race, trait, and magic choices are worth keeping for long-term progression.",
+        "step2Title": "Build around proven synergies",
+        "step2Description": "You can pair weapons, stats, and passives that perform well together instead of mixing conflicting options.",
+        "step3Title": "Adapt to meta shifts",
+        "step3Description": "Patch-cycle rankings help you update your build plan when balance or progression routes change."
+      },
+      "featured": "Featured Clover Retribution Tier Guides",
+      "all": "All Clover Retribution Tier Guides"
+    },
+    "guide": {
+      "title": "Clover Retribution Guide",
+      "description": "Clover Retribution progression guides for leveling, quests, controls, spins, party setup, and map navigation.",
+      "metaTitle": "Clover Retribution Guide - Beginner to Progression",
+      "metaDescription": "Follow Clover Retribution guides for beginner setup, leveling routes, control references, spin farming, and progression checkpoints.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Clover Retribution Guide category?",
+      "whatIsDescription": "Guide articles explain Clover Retribution systems step by step, from first-session setup to repeatable leveling loops and progression checkpoints. They are built for fast onboarding and cleaner long-term growth.",
+      "why": "Why read Clover Retribution guides?",
+      "whySteps": {
+        "step1Title": "Start with a clear progression path",
+        "step1Description": "You can follow structured leveling and quest routes instead of guessing where to spend your first sessions.",
+        "step2Title": "Learn controls and systems faster",
+        "step2Description": "Control and mechanic explainers reduce setup friction and help you manage loadouts more efficiently.",
+        "step3Title": "Avoid wasted resources",
+        "step3Description": "Progression-focused guidance helps you spend spins and resets at the right milestones."
+      },
+      "featured": "Featured Clover Retribution Guides",
+      "all": "All Clover Retribution Guides"
+    },
+    "builds": {
+      "title": "Clover Retribution Builds",
+      "description": "Clover Retribution build paths covering anti-magic, hybrid, paladin, devil, and stat-scaling optimization.",
+      "metaTitle": "Clover Retribution Builds - Best Build Paths",
+      "metaDescription": "Compare Clover Retribution builds for anti-magic, hybrid, paladin, and devil routes with stat and trait optimization tips.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are Clover Retribution Builds?",
+      "whatIsDescription": "Build articles focus on complete Clover Retribution loadout planning, including race-trait synergy, stat allocation, and weapon or magic direction. They help you commit to a coherent endgame route.",
+      "why": "Why read Clover Retribution build guides?",
+      "whySteps": {
+        "step1Title": "Pick a focused endgame route",
+        "step1Description": "You can compare physical, hybrid, and magic-centric plans before investing rare reroll resources.",
+        "step2Title": "Align stats with trait value",
+        "step2Description": "Build writeups explain how stat spread and trait effects reinforce each other for better scaling.",
+        "step3Title": "Reduce costly rebuilds",
+        "step3Description": "A planned build path lowers the chance of resetting after late-game progression checkpoints."
+      },
+      "featured": "Featured Clover Retribution Builds",
+      "all": "All Clover Retribution Builds"
+    },
+    "magic": {
+      "title": "Clover Retribution Magic",
+      "description": "Clover Retribution magic guides covering element strengths, combo role, scaling priorities, and matchup usage.",
+      "metaTitle": "Clover Retribution Magic - Element and Scaling Guide",
+      "metaDescription": "Learn Clover Retribution magic options including Light, Shadow, Slash, Spatial, Sand, Void, and Key with role-based recommendations.",
+      "categoryLabel": "MAGIC",
+      "whatIs": "What is the Clover Retribution Magic category?",
+      "whatIsDescription": "Magic articles explain each Clover Retribution element's role, strengths, and scaling behavior. They help you choose a grimoire direction that fits your stat and trait plan.",
+      "why": "Why read Clover Retribution magic guides?",
+      "whySteps": {
+        "step1Title": "Choose the right element early",
+        "step1Description": "Role-focused comparisons help you decide between burst, control, sustain, and mobility styles.",
+        "step2Title": "Match magic with your build core",
+        "step2Description": "You can align magic picks with race and trait bonuses for stronger damage and utility outcomes.",
+        "step3Title": "Improve PvE and PvP consistency",
+        "step3Description": "Element-specific tips make rotations and matchup decisions more reliable across different content."
+      },
+      "featured": "Featured Clover Retribution Magic Guides",
+      "all": "All Clover Retribution Magic Guides"
+    }
   }
 }

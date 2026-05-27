@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Builds de Clover Retribution: Alocação Otimizada de Atributos e Equipamentos",
+  description: "Descubra as melhores builds de Clover Retribution para Inteligência, Destreza e Força, incluindo alocação de atributos, características, raças e escolhas de equipamentos para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Clover+Retribution+Builds",
+  date: "2026-05-27",
+  author: "Equipe da Wiki de Clover Retribution",
+  keywords: "clover retribution, builds, inteligência, destreza, força, atributos, equipamentos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Builds de Clover Retribution** são cruciais para otimizar sua jogabilidade.
+- Priorize os **limites de atributos (stat caps)** para usuários de magia, especialmente Inteligência.
+- **Pontos de habilidade** são escassos; invista com sabedoria para evitar rotas subotimizadas.
+- **Raças e Características** fornecem bônus significativos para complementar sua build.
+- **Magia de Vento** é atualmente considerada extremamente potente para causar dano.
+</Callout>
+
+<Section icon={Swords} title="Entendendo as Builds de Clover Retribution">
+Em Clover Retribution, uma build define seu estilo de jogo através de uma combinação de atributos, características, raças, armas e armaduras. Esses elementos trabalham em sinergia para criar um personagem poderoso adaptado ao seu estilo de combate preferido. Quer você prefira magia pura, ataques rápidos ou força bruta, entender como combinar esses componentes é a chave para o domínio.
+
+**Destaques do Vídeo:**
+- As opções de reset da árvore de habilidades agora estão disponíveis através do Rei Mago ou de uma poção.
+- Os limites máximos de atributos variam de acordo com o tipo de magia; excedê-los gera retornos decrescentes.
+- Paladino Híbrido e certas raças podem aumentar os limites flexíveis (soft caps) de atributos.
+
+<YouTubeEmbed videoId="4aG04-ZDsZw" title="NOVO CÓDIGO!! GUIA RÁPIDO DE ATRIBUTOS + ATUALIZAÇÃO | Clover Retribution" />
+
+O jogo é atualizado frequentemente, introduzindo novas mecânicas ou reequilibrando as existentes, o que pode alterar significativamente o meta. Manter-se informado sobre essas mudanças é essencial para manter sua build otimizada.
+
+<Callout type="tip" title="Visão Geral dos Componentes da Build">
+A eficácia do seu personagem depende da sinergia entre quatro componentes principais:
+1.  **Atributos (Stats)**: Impactam diretamente seu dano, defesa e utilidade.
+2.  **Características (Traits)**: Bônus passivos que aprimoram atributos específicos.
+3.  **Raças**: Oferecem habilidades únicas e bônus de atributos.
+4.  **Equipamento**: Armas e armaduras que fornecem reforços ofensivos e defensivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Alocação de Atributos Principais">
+A alocação adequada de atributos é a espinha dorsal de qualquer build eficaz em Clover Retribution. Embora existam limites específicos para certas habilidades mágicas, uma regra geral envolve focar no seu atributo de dano principal enquanto aloca uma parte em Constituição para sobrevivência.
+
+| Tipo de Atributo | Foco Principal | Principais Benefícios | Exemplos de Builds |
+|--------------|---------------------------------------------|--------------------------------------------------|----------------------------------------------|
+| **Inteligência** | Dano mágico, Capacidade de Mana | Alto dano de feitiço, ataques em área (AoE), combate à distância | Mago, Curandeiro |
+| **Destreza** | Velocidade de ataque, Chance de crítico, Taxa de esquiva | Ataques rápidos, alta mobilidade, evasão | Restrição Divina, Assassino |
+| **Força** | Dano físico, Vida, Chance de bloqueio | Golpes pesados, resistência (tankiness), combate corpo a corpo | Guerreiro, Tank |
+| Constituição | Vida, Redução de dano | Sobrevivência, resiliência | Todas as builds (foco secundário) |
+
+<Callout type="warning" title="Escassez de Pontos de Habilidade">
+Atualmente, os pontos de habilidade são difíceis de resetar em Clover Retribution. Invista-os com sabedoria, focando em nós que beneficiam diretamente sua magia e estilo de jogo escolhidos para evitar ficar preso em uma build subotimizada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimizando sua Build: Raças, Características e Equipamentos">
+Além dos atributos, sua escolha de raça, características e equipamentos impacta profundamente a eficácia da sua build. Cada um oferece vantagens únicas que podem amplificar seu estilo de jogo escolhido.
+
+<CardGrid cols={3}>
+  <Card title="Build de Destreza">
+    - **70% Destreza, 30% Constituição**
+    - Característica: Regeneração de Alta Velocidade
+    - Raça: Lynthari
+    - Armadura: Carapaça Enigma
+    - Arma: Lâmina de Gosma Gélida
+  </Card>
+  <Card title="Build de Inteligência">
+    - **60%+ Inteligência**
+    - Restante para Constituição/Mana
+    - Característica: Reservas Monstruosas
+    - Raça: Elfo Superior
+    - Armadura: Manto de Pele do Arcanista
+    - Arma: Cajado de Chifre de Yeti
+  </Card>
+  <Card title="Build de Força">
+    - **60% Força, 40% Constituição**
+    - Característica: Resistência Adaptativa
+    - Raça: Ryomen ou Orc Superior
+    - Armadura: Vanguarda de Pele de Ogro
+    - Arma: Aperto do Galante
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Destaque do Meta Atual: Magia de Vento">
+Atualizações recentes tornaram a Magia de Vento excepcionalmente poderosa. Se você busca uma alta produção de dano, considere uma build de Inteligência baseada em Vento. Seu estado atual, embora potencialmente bugado, oferece vantagens significativas.
+</Callout>
+
+**Progressão da Árvore de Habilidades para Magos:**
+
+<Steps>
+  <Step num="1" title="Priorize Nós de Dano Mágico">
+    Para builds de Inteligência, invista em cada nó da árvore de habilidades que conceda dano mágico. Geralmente são encontrados no ramo de "Int" da árvore.
+  </Step>
+  <Step num="2" title="Considere o Ramo da Bênção de Ethereion">
+    Este ramo oferece bônus significativos de dano mágico por um custo de pontos de habilidade relativamente baixo (14 SP). Acesse-o recebendo a bênção de Ethereion em uma Fenda Espiritual.
+  </Step>
+  <Step num="3" title="Usuários de Magia de Luz: Maximize o Ramo Spirit Dive">
+    Se você é um usuário de magia de Luz, priorize o ramo Light Spirit Dive para uma redução crucial de 20% no tempo de recarga, resolvendo um gargalo principal dessa magia.
+  </Step>
+  <Step num="4" title="Raça Demônio: Foque no Ramo Demônio">
+    Jogadores da raça Demônio devem alocar a maioria dos pontos de habilidade no ramo Demônio, pois ele fornece mecânicas que mudam o jogo, incluindo evitar a morte. Combine com Magia Negra para um bônus adicional de 20% de dano mágico.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Considerações Avançadas de Build e Atualizações">
+O mundo de Clover Retribution é dinâmico, com atualizações frequentes que podem mudar as prioridades das builds. Ficar de olho nas notas de atualização e nas discussões da comunidade é vital para manter uma configuração otimizada.
+
+| Recurso | Impacto nas Builds | Status Atual (27/05/2026) |
+|----------------------|------------------------------------------------------|-----------------------------------------------------------|
+| **Reset da Árvore** | Permite flexibilidade de build, corrige erros iniciais | Disponível via Rei Mago (promoção) ou poção (custosa) |
+| **Correções de Grimório** | Grimórios de Chave e Imitação agora funcionam corretamente | Melhora o acesso à magia e customização |
+| **Mergulho de Ethereion** | Potencial mudador de meta para todos os tipos de magia | Ainda um pouco bugado, mas espera-se que seja corrigido |
+| **Buffs na Magia de Vento** | Aumento na produção de dano, altamente viável para magos | Atualmente considerada um dos melhores tipos de magia |
+| **Ordens/Missões** | Fonte de EXP e itens, pode impactar a progressão | Novas missões adicionadas; evite ranks altos para giros mais fáceis |
+
+<Callout type="info" title="Opções de Reset da Árvore de Habilidades">
+Se você precisar re-especializar seus pontos de habilidade, você tem algumas opções:
+-   **Rei Mago**: Promova-se a Cavaleiro Mágico Intermediário 4 e fale com o Rei Mago.
+-   **Criador de Poções**: Fabrique um "Elixir da Reflexão" por $62.600 e vários componentes raros.
+-   **Loja de Robux**: Compre um reset da árvore de habilidades por 750 Robux.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes Sobre Builds">
+
+<FAQ items={[
+  {
+    question: "Qual é o fator mais importante em uma build de Clover Retribution?",
+    answer: "O fator mais importante é a sinergia entre os atributos, raça, características e equipamentos escolhidos. Todos eles devem se complementar para maximizar seu dano principal ou utilidade."
+  },
+  {
+    question: "Posso resetar meus pontos de habilidade se eu cometer um erro?",
+    answer: "Sim, os pontos de habilidade agora podem ser resetados. Você pode fazer isso alcançando o nível de Cavaleiro Mágico Intermediário 4 e falando com o Rei Mago, fabricando um Elixir da Reflexão ou comprando um reset com Robux."
+  },
+  {
+    question: "Qual tipo de magia é atualmente considerado o melhor para dano?",
+    answer: "A partir das atualizações mais recentes, a magia de Vento é amplamente considerada um dos tipos de magia mais poderosos para produção de dano devido aos buffs recentes."
+  },
+  {
+    question: "Como os limites de atributos (stat caps) influenciam minhas escolhas de build?",
+    answer: "Os limites de atributos ditam o valor máximo efetivo que você pode obter de um atributo para uma habilidade específica. Investir além do limite flexível (soft cap) gera retornos decrescentes, por isso é crucial consultar guias de limites de atributos para otimizar seus pontos."
+  }
+]} />
+
+</Section>

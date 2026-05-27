@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Legião do Clover Retribution: Guia de Inteligência e Setup 2026",
+  description: "Domine a build de legião no Clover Retribution com nosso guia sobre atributos, mecânicas de prestígio, invocações de peças de xadrez e os melhores equipamentos para estilos de jogo de alta Inteligência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Legion+Build+Guide",
+  date: "2026-05-27",
+  author: "Equipe da Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **build de legião do Clover Retribution** foca em maximizar a **Inteligência** para escalonar a vida, escudos e cura das invocações.
+- O **Gerenciamento de Mana** é crítico, pois todas as invocações da Legião drenam continuamente sua reserva de mana enquanto estão ativas.
+- A **Torre (Rook) e o Bispo (Bishop)** são suas principais peças de utilidade, fornecendo escudos e cura massiva em área, respectivamente.
+- Realize o **Prestígio 5 vezes** para ganhar um bônus permanente de +50 em todos os atributos para otimização de fim de jogo.
+- O **Elfo Alto (High Elf)** continua sendo a melhor escolha de raça devido às suas reservas massivas de mana e bônus de dano mágico.
+</Callout>
+
+<Section icon={Map} title="Dominando a Build de Legião do Clover Retribution">
+
+A **build de legião do Clover Retribution** representa um dos estilos de jogo mais únicos do jogo, mudando o foco do combate direto para o gerenciamento tático de invocações. Ao contrário das magias elementais tradicionais que dependem de projéteis de conjuração instantânea, a Magia de Legião permite que você povoe o campo de batalha com peças de xadrez estacionárias que fornecem pressão ofensiva, escudos defensivos e cura sustentada. Esta build é fortemente dependente do atributo Inteligência (INT), que governa quase todos os aspectos da eficácia de suas invocações.
+
+**Destaques do Vídeo:**
+- Visão geral das quatro principais peças da Legião: Peão, Torre, Cavaleiro e Bispo.
+- Explicação da mecânica de dreno de mana e como sustentar múltiplas invocações.
+- Informações sobre o sistema de prestígio e como ele aumenta seus atributos base.
+- Demonstração do feitiço de sangue Torrente Carmesim (Crimson Torrent) como ferramenta de sobrevivência.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Magia de Legião, Prestígio, Halloween e Mais" />
+
+<Callout type="tip" title="Dica de Invocação">
+Lembre-se de que você pode invocar vários Peões para sobrecarregar os inimigos, mas peças de nível superior como o Bispo e a Torre são limitadas. Use o botão direito para desinvocar peças manualmente se sua mana começar a cair demais durante uma luta contra um chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Magia de Legião: Detalhamento de Peças e Escalonamento">
+
+Para rodar efetivamente uma **build de legião do Clover Retribution**, você deve entender as funções específicas de cada peça de xadrez. Cada peça drena mana ao longo do tempo, o que significa que seu atributo de Inteligência não apenas aumenta o poder delas — ele também aumenta sua reserva de mana, permitindo mantê-las ativas por mais tempo.
+
+| Peça | Função Primária | Mecânica de Escalonamento | Efeito Especial |
+| :--- | :--- | :--- | :--- |
+| **Peão (Pawn)** | DPS/Cura de Alvo Único | INT / Maestria | Ataca e cura o alvo mais próximo simultaneamente |
+| **Torre (Rook)** | Dano em Área / Escudo | 100% de Escalonamento de INT | Concede um escudo igual à INT do conjurador para aliados próximos |
+| **Cavaleiro (Knight)** | Alto Dano Explosivo | Maestria Base | Fornece um **Bônus de Dano de 30%** ao aliado mais próximo |
+| **Bispo (Bishop)** | Cura de Elite | Alta INT / Maestria | Conjura curas em área e feitiços de alto nível como Proteção contra a Morte |
+
+O Cavaleiro é amplamente considerado o batedor pesado do conjunto, enquanto a Torre é essencial para o jogo em grupo devido ao seu escalonamento de escudo fixo. Em um ambiente solo, uma combinação do Peão para dano constante e do Bispo para sobrevivência costuma ser o setup mais estável.
+
+<Callout type="warning" title="Esgotamento de Mana">
+Se sua mana chegar a zero, todas as peças da Legião ativas desaparecerão imediatamente. Fique sempre de olho na sua barra azul, especialmente ao usar o Bispo, que é a peça mais cara de manter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Atributos Otimizados e Seleção de Raça">
+
+A base de qualquer **build de legião do Clover Retribution** bem-sucedida reside na distribuição de seus atributos e passivas raciais. Como os escudos e a cura de suas invocações são diretamente proporcionais à sua Inteligência, você deve visar um investimento pesado nessa área.
+
+<CardGrid cols={3}>
+  <Card title="Elfo Alto (S-Tier)">
+    - **Reservas Monstruosas**: Reserva massiva de mana para sustentar múltiplas peças.
+    - **Afinidade Mágica**: Bônus natural para todo o escalonamento baseado em INT.
+    - Melhor para builds puras de Legião.
+  </Card>
+  <Card title="Lynthari (A-Tier)">
+    - **Alta Velocidade**: Ajuda você a se reposicionar enquanto as invocações fazem o trabalho.
+    - **Bônus de Destreza**: Útil se você usar uma rapieira secundária ou arma rápida.
+    - Bom para builds híbridas de mobilidade.
+  </Card>
+  <Card title="Humano (B-Tier)">
+    - **Versatilidade**: Atributos equilibrados para jogadores que ainda não se decidiram.
+    - **Rerolls mais Fáceis**: Barreira de entrada menor para novos jogadores.
+    - Recomendado apenas para o início do jogo.
+  </Card>
+</CardGrid>
+
+### Distribuição de Atributos Recomendada
+
+| Faixa de Nível | Inteligência (INT) | Constituição (CON) | Destreza (DEX) |
+| :--- | :--- | :--- | :--- |
+| **Início de Jogo (1-100)** | 70% | 20% | 10% |
+| **Meio de Jogo (101-300)** | 80% | 15% | 5% |
+| **Fim de Jogo (405)** | 90% | 10% | 0% |
+
+<Callout type="info" title="Prioridade de Inteligência">
+No nível 405, ter cerca de 400-500 de INT permite que o feitiço Torrente Carmesim (se você usar o subestilo de Sangue) quase elimine mobs de elite como Escorpiões com um golpe, enquanto fornece uma auto-cura massiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Equipamentos e Setup de Itens">
+
+Seu equipamento deve complementar seu alto atributo de INT para maximizar a eficiência de suas invocações da Legião. Procure por armaduras que forneçam bônus de "Regeneração de Mana" ou "Dano Mágico" para compensar o dreno constante de suas peças.
+
+<Steps>
+  <Step num="1" title="Seleção da Arma Primária">
+    O **Cajado de Chifre de Yeti (Yeti Horn Staff)** é atualmente a escolha principal para esta build. Ele oferece aumentos significativos em Inteligência e Dano Mágico, tornando os escudos da sua Torre significativamente mais resistentes.
+  </Step>
+  <Step num="2" title="Armaduras e Mantos">
+    Equipe o **Manto de Pele do Arcanista (Arcanist’s Furred Mantle)**. Este conjunto de armadura foi projetado especificamente para conjuradores, fornecendo a capacidade de mana necessária para manter um Bispo e um Cavaleiro ativos simultaneamente.
+  </Step>
+  <Step num="3" title="Otimização de Acessórios">
+    Procure pelo **Fogo-fátuo do Vazio (Void Wisp)** (spawn raro). Embora raro, ele concede +25 de INT e bufa magias relacionadas ao vazio, mas o aumento bruto de atributos é inestimável para o escalonamento da Legião.
+  </Step>
+</Steps>
+
+| Espaço de Equipamento | Recomendação de Item | Principal Benefício |
+| :--- | :--- | :--- |
+| **Arma** | Cajado de Chifre de Yeti | Aumento massivo de INT e Dano Mágico |
+| **Armadura** | Manto de Pele do Arcanista | Altas Reservas de Mana |
+| **Acessório** | Fogo-fátuo do Vazio | +25 de Inteligência |
+| **Pergaminho** | Torrente Carmesim | Roubo de Vida e Sobrevivência |
+
+<Callout type="success" title="Sinergia de Sobrevivência">
+Usar o pergaminho **Torrente Carmesim** (obtido da Bruxa de Sangue) fornece um movimento de roubo de vida com 10 segundos de recarga. Esta é a rede de segurança perfeita para usuários de Legião que ficam estacionários enquanto gerenciam suas invocações.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prestígio e Otimização de Fim de Jogo">
+
+Para levar sua **build de legião do Clover Retribution** ao limite absoluto, você deve se envolver com o sistema de Prestígio encontrado no Rei Mago. O prestígio redefine seu nível, mas fornece crescimento permanente de atributos, o que é essencial para enfrentar chefes de alto nível.
+
+### Recompensas de Escalonamento de Prestígio
+Quando você realiza o prestígio no limite de nível atual (405), você recebe bônus significativos:
+- **Pontos de Atributo**: Você ganha 2,5% do seu nível como atributos permanentes. No nível 405, isso é aproximadamente +10 atributos por prestígio.
+- **Bônus Máximo**: Você pode realizar o prestígio até 5 vezes, resultando em um total de **+50 atributos gratuitos** em cada categoria (FOR, DES, INT, CON).
+- **Chance de Quatro Folhas**: Realizar o prestígio no nível 405 dá uma chance base de 10% de obter uma versão de "Quatro Folhas" da sua magia, que desbloqueia movimentos exclusivos e poderosos.
+
+| Contagem de Prestígio | Total de Atributos Bônus | Chance de Piedade de Quatro Folhas |
+| :--- | :--- | :--- |
+| 1 | +10 | 10% |
+| 2 | +20 | 20% |
+| 3 | +30 | 25% |
+| 4 | +40 | 30% |
+| 5 | +50 | 40% |
+
+<Callout type="warning" title="O Chefe do Prestígio">
+Esteja ciente de que o Rei Mago eventualmente se tornará um chefe. Quanto mais níveis você "alimentar" a ele através do prestígio, mais forte ele será quando você finalmente tiver que enfrentá-lo em atualizações futuras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist da Build de Legião e FAQ">
+
+Antes de partir para as masmorras de nível superior ou participar dos eventos de Halloween, certifique-se de que sua build atenda a estes critérios para máxima eficiência.
+
+<Checklist
+  id="legion-readiness"
+  title="Checklist de Conclusão da Build de Legião:"
+  items={[
+    "Alcançar o Nível 405 para o escalonamento máximo de Prestígio",
+    "Obter o Cajado de Chifre de Yeti para escalonamento de INT",
+    "Desbloquear a peça Bispo através da Maestria Mágica",
+    "Equipar o pergaminho Torrente Carmesim para cura de emergência",
+    "Alcançar pelo menos Prestígio 3 para a margem de atributos",
+    "Garantir uma raça Elfo Alto ou Orc Alto para mana/durabilidade"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual peça devo priorizar em uma build de legião do Clover Retribution?",
+    answer: "A Torre (Rook) é sua peça mais importante para o jogo geral. Seu escudo escalona 1:1 com sua Inteligência, fornecendo uma proteção massiva para você e seus aliados durante encontros difíceis."
+  },
+  {
+    question: "A Maestria Mágica é salva quando eu dou reroll no meu Grimório?",
+    answer: "Não, a maestria não é salva a menos que você possua o gamepass Clover Storage. Se você planeja alternar entre Legião e outras magias, este gamepass é altamente recomendado."
+  },
+  {
+    question: "Como consigo o movimento Torrente Carmesim para minha build?",
+    answer: "Você deve obter o pergaminho com o NPC Bruxa de Sangue (Blood Witch). Uma vez equipado e usado, ele concede o feitiço Torrente Carmesim, que fornece dano e cura proporcionais à sua INT."
+  },
+  {
+    question: "A build de Legião é viável para solar chefes?",
+    answer: "Sim, mas requer um gerenciamento cuidadoso de mana. Ao alternar suas invocações e usar o Cavaleiro para o bônus de dano de 30%, você pode superar a resistência da maioria dos chefes enquanto suas peças fazem o trabalho."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Profissional Final">
+Conforme você progride, priorize os tokens de Aniversário de Orion na torre. Economizar 30 desses tokens garante um Apagador de Magia Mítica (Mythic Magic Eraser), que é vital se você precisar refazer seus traços para corresponder aos requisitos de Inteligência do estilo de jogo da Legião.
+</Callout>
+
+</Section>
