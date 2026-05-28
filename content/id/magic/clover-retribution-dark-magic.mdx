@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Dark Magic: Panduan Build Lengkap & Showcase Jurus",
+  description: "Kuasai sihir gelap Clover Retribution dengan panduan komprehensif kami tentang moveset, ras terbaik seperti Starborn, dan sifat penting untuk build damage tinggi.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Dark+Magic+Build+Guide",
+  date: "2026-05-28",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Sihir gelap Clover Retribution** adalah gaya sihir tingkat tinggi yang bergantung pada pedang, unggul dalam crowd control dan damage burst tinggi.
+- **Mekanik Inti**: Semua mantra Sihir Gelap membutuhkan **pedang** untuk dilengkapi, artinya Anda tidak bisa mendapatkan bonus intelijen khusus staf.
+- **Ras Terbaik**: **Starborn** adalah pilihan utama karena bonus Intelijen +65 yang besar, diikuti oleh **High Elf** untuk scaling mana.
+- **Manajemen Mana**: Sihir Gelap memiliki konsumsi mana yang sangat tinggi; sifat **Monstrous Reserves** dianggap wajib untuk pertarungan berkelanjutan.
+- **Jurus Khas**: **Dimensional Slash** (versi 4-Daun) memberikan true damage dan mampu melewati pertahanan musuh sepenuhnya.
+</Callout>
+
+<Section icon={BookOpen} title="Memahami Sihir Gelap Clover Retribution">
+
+Sihir gelap Clover Retribution secara luas dianggap sebagai salah satu sihir yang paling estetis dan unik secara mekanis dalam game. Tidak seperti sihir elemental tradisional yang mengandalkan tongkat atau casting grimoire saja, Sihir Gelap mengintegrasikan ilmu pedang dengan kekuatan misterius secara mulus. Jenis sihir ini dicirikan oleh biaya mana yang tinggi, kemampuan block-breaking yang luar biasa, dan persyaratan bilah fisik untuk menyalurkan energinya.
+
+Dalam meta saat ini, Sihir Gelap sering dipasangkan dengan build "Hybrid" atau "Devil" untuk memaksimalkan output mentah. Meskipun kurang serbaguna dibandingkan sihir Air atau Darah dalam hal penyembuhan diri, sihir ini mengkompensasi dengan tekanan ofensif yang luar biasa dan efek status seperti "Gloom."
+
+**Sorotan Video:**
+- Penjelasan rinci tentang persyaratan scaling **Intelijen (INT)**.
+- Showcase sinergi build **Hybrid Devil**.
+- Demonstrasi mekanika crowd control **Black Hole**.
+- Analisis output damage **Dimensional Slash** pada musuh yang rusak.
+
+<YouTubeEmbed videoId="CAhInKAEO9I" title="Black Clover Roblox First Look at dark magic/hybrid devil build | CLOVER RETRIBUTION" />
+
+<Callout type="tip" title="Tips Penguasaan">
+Karena Sihir Gelap membutuhkan pedang, fokuslah untuk mendapatkan senjata dengan damage dasar tinggi atau efek pasif unik yang melengkapi scaling sihir. Kurangnya bonus staf berarti stat Intelijen dasar dan bonus Ras Anda harus menanggung potensi damage Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Analisis Moveset & Kemampuan Lengkap">
+
+Efektivitas **sihir gelap Clover Retribution** terletak pada kemampuannya untuk mengganggu formasi musuh dan memberikan tebasan yang menghancurkan. Sebagian besar jurus dalam kit ini dirancang untuk memecahkan blok, membuatnya sangat efektif dalam skenario PvP.
+
+| Nama Jurus | Tipe | Biaya Mana | Efek Khusus |
+| :--- | :--- | :--- | :--- |
+| **Dark Slash** | Ofensif | Sedang | Tebasan vertikal cepat yang memecahkan blok dan memberikan knockback tinggi. |
+| **Death Thrust** | Menusuk | Sedang | Dorongan maju yang mengabaikan sebagian pertahanan musuh. |
+| **Black Hole** | Crowd Control | Tinggi | Menarik musuh di sekitar ke titik pusat, memberikan tick damage dan menerapkan Gloom. |
+| **Dimensional Slash** | Jurus 4-Daun | Sangat Tinggi | Gelombang horizontal besar yang memberikan **True Damage** dan mencakup area yang luas. |
+
+### Eksklusif 4-Daun: Dimensional Slash
+Jika Anda cukup beruntung untuk mendapatkan grimoire Gelap versi 4-daun, Anda membuka Dimensional Slash. Jurus ini adalah pengubah permainan karena mengabaikan semua resistensi damage. Dalam konten PvE tingkat tinggi, di mana bos memiliki kumpulan pertahanan yang besar, jurus ini tetap mematikan secara konsisten.
+
+<Callout type="warning" title="Konsumsi Mana">
+Jurus Sihir Gelap dapat mengonsumsi hingga 150-200 mana per cast tergantung pada tingkat penguasaan Anda. Tanpa sifat yang tepat, Anda akan "terkunci mana" setelah hanya dua atau tiga rotasi.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ras Terbaik untuk Pengguna Sihir Gelap">
+
+Memilih ras yang tepat adalah fondasi dari setiap build **sihir gelap Clover Retribution** yang sukses. Karena Anda tidak dapat menggunakan staf, Anda memerlukan ras yang memberikan bonus Intelijen (INT) atau Mana datar untuk mengkompensasi.
+
+<CardGrid cols={3}>
+  <Card title="Starborn (Mitos)">
+    - **+65 Intelijen**: Peningkatan INT datar tertinggi dalam game.
+    - **+20% Mana**: Penting untuk biaya mantra Gelap yang tinggi.
+    - **+50% Resistensi Sihir**: Bagus untuk duel mage-on-mage.
+  </Card>
+  <Card title="High Elf (Legendaris)">
+    - **+10 Intelijen**: Scaling dasar yang solid.
+    - **+15% Mana**: Membantu casting berkelanjutan.
+    - **+12% Magic Damage**: Pengali langsung untuk tebasan Anda.
+  </Card>
+  <Card title="Mahari (Mitos)">
+    - **+25% Mana**: Kumpulan mana terbaik dalam game.
+    - **Resistensi Adaptif**: Pertahanan dinamis berdasarkan damage yang Anda terima.
+    - **Daya Tahan Tinggi**: Terbaik untuk pemain yang kesulitan dengan sifat glass-cannon Sihir Gelap.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Keunggulan Starborn">
+Untuk damage murni, Starborn tidak tertandingi. Bonus INT +65 bertindak sebagai pengali besar untuk setiap jurus Sihir Gelap, seringkali memungkinkan Anda untuk satu-shot mob standar bahkan tanpa build yang maksimal.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Sifat Penting & Distribusi Stat">
+
+Untuk membuat build **sihir gelap Clover Retribution** Anda layak, Anda harus memprioritaskan sifat-sifat tertentu yang mengatasi kelemahan bawaan sihir—khususnya kelaparan mana.
+
+### Daftar Tingkat Sifat yang Direkomendasikan
+
+| Sifat | Kelangkaan | Efek | Sinergi dengan Sihir Gelap |
+| :--- | :--- | :--- | :--- |
+| **Monstrous Reserves** | Mitos | +50% Mana, +10 regen datar | **S-Tier**: Menyelesaikan semua masalah mana. |
+| **Mana Rampage** | Legendaris | +16% Magic DMG, +16% Biaya Mana | **A-Tier**: Damage ekstrem dengan biaya tinggi. |
+| **Arcane Zenith** | Legendaris | -30% Konsumsi Mana | **A-Tier**: Membuat build lebih efisien. |
+| **Loved by Mana** | Langka | +250 Mana Datar | **B-Tier**: Pengisi awal game yang bagus. |
+
+### Alokasi Stat Optimal
+Kebanyakan pemain veteran merekomendasikan investasi besar dalam Intelijen, dengan Konstitusi yang cukup untuk bertahan dari satu kombo dalam PvP.
+
+<Steps>
+  <Step num="1" title="Intelijen (INT)">
+    Targetkan setidaknya **400+ INT**. Ini adalah stat damage utama Anda dan secara langsung memengaruhi scaling Dark Slash dan Dimensional Slash Anda.
+  </Step>
+  <Step num="2" title="Konstitusi (CON)">
+    Alokasikan sekitar **50-100 poin** di sini. Pengguna Sihir Gelap sering berada dalam jarak dekat karena persyaratan pedang, jadi Anda membutuhkan bantalan kesehatan kecil.
+  </Step>
+  <Step num="3" title="Kelincahan (DEX)">
+    Investasi minimal diperlukan kecuali Anda menjalankan senjata hybrid spesifik yang membutuhkan scaling DEX.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Farming Mana Wisp">
+Jangan lupa untuk mengumpulkan Wisp di sekitar peta. Mengumpulkan 20-25 Wisp memberikan peningkatan permanen pada regenerasi mana datar Anda, yang bertumpuk dengan sifat seperti Monstrous Reserves.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategi Pertempuran & Tips PvP">
+
+Menggunakan **sihir gelap Clover Retribution** secara efektif membutuhkan keseimbangan posisi dan waktu. Karena jurus Anda memiliki animasi yang berbeda, Anda tidak bisa begitu saja "spam" tanpa dihukum.
+
+### Strategi Kombo PvP
+1.  **Mulai dengan Black Hole**: Gunakan ini untuk menarik musuh dan menerapkan debuff Gloom, yang mengurangi visibilitas dan gerakan mereka.
+2.  **Lanjutkan dengan Dark Slash**: Saat mereka terperangkap di Black Hole, gunakan Dark Slash untuk memecahkan blok mereka jika mereka menahannya.
+3.  **Eksekusi dengan Dimensional Slash**: Setelah blok mereka pecah dan kesehatan mereka rendah, tembak Dimensional Slash untuk menghabisi.
+
+### Farming PvE
+Untuk farming mob, **Black Hole** adalah teman terbaik Anda. Kumpulkan musuh, jatuhkan Black Hole, dan gunakan mantra arcane **Mana Burst** (tersedia untuk semua pengguna sihir) untuk membersihkan kelompok secara efisien.
+
+<Checklist
+  id="dark-magic-checklist"
+  title="Daftar Periksa Build Sihir Gelap:"
+  items={[
+    "Dapatkan Grimoire Gelap (lebih disukai 4-Daun)",
+    "Lengkapi Pedang damage tinggi (bukan Staf)",
+    "Roll untuk ras Starborn atau High Elf",
+    "Amankan sifat Monstrous Reserves",
+    "Capai stat Intelijen 400+",
+    "Kumpulkan 25 Wisp untuk regen mana maksimal"
+  ]}
+/>
+
+<Callout type="warning" title="Peringatan Persyaratan Pedang">
+Jika Anda secara tidak sengaja beralih ke Staf atau tangan kosong, jurus Sihir Gelap Anda akan berwarna abu-abu. Selalu pastikan pedang utama Anda terikat ke hotkey yang mudah diakses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Pertanyaan Umum Sihir Gelap">
+
+<FAQ items={[
+  {
+    question: "Apakah sihir gelap Clover Retribution lebih baik dari sihir Void?",
+    answer: "Sihir Gelap lebih fokus pada gaya bermain hybrid melee-magic dan tebasan pedang, sedangkan Sihir Void biasanya menawarkan lebih banyak utilitas dan opsi crowd control yang berbeda. Gelap umumnya lebih disukai untuk damage burst mentah dengan pedang."
+  },
+  {
+    question: "Bagaimana cara mendapatkan sihir gelap versi 4-daun?",
+    answer: "Setiap kali Anda memutar untuk sihir, ada kemungkinan 1% untuk menjadi versi 4-daun. Ini memberi Anda jurus eksklusif Dimensional Slash."
+  },
+  {
+    question: "Bisakah saya menggunakan Sihir Gelap tanpa pedang?",
+    answer: "Tidak. Semua mantra Sihir Gelap inti di Clover Retribution memerlukan pedang untuk dilengkapi. Anda masih dapat menggunakan mantra Arcane generik seperti Mana Blast tanpa pedang, tetapi jurus Gelap spesifik akan dinonaktifkan."
+  },
+  {
+    question: "Apa itu efek status 'Gloom'?",
+    answer: "Gloom adalah debuff yang diterapkan oleh jurus Sihir Gelap (terutama Black Hole) yang menghalangi penglihatan lawan dan sedikit mengurangi output damage keseluruhan mereka untuk durasi singkat."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Aetherstone Golem: Raid Guide & Drops",
+  description: "Master the Aetherstone Golem raid in Clover Retribution with our comprehensive guide, covering rune locations, boss mechanics, and valuable drops.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Aetherstone+Golem+Guide",
+  date: "2026-05-28",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Aetherstone Golem** is the first raid boss in Clover Retribution, found on Aetherstone Isle.
+- Activate the portal by placing four specific **runes**: Wrath, Challenge, Earth, and Tempest.
+- The Golem is immune to **poison** and deals bludgeoning damage.
+- Break purple crystals within **30 seconds** during the DPS check to avoid a wipe.
+- Key drops include the **Aether Blade**, Mana Wielder title, and Aetherstone equipment.
+</Callout>
+
+<Section icon={Map} title="Accessing Aetherstone Isle and Summoning the Golem">
+Aetherstone Isle is the first raid in Clover Retribution, offering challenging combat and valuable rewards. To gain access, players must activate a portal by finding and inserting four specific runes into stone pillars around the map. While there's no strict level requirement, soloing the raid effectively often requires reaching around level 100 to consistently deal enough damage for boss credit.
+
+**Video Highlights:**
+- Demonstrates all four rune pillar locations clearly.
+- Shows the process of inserting each rune.
+- Highlights the portal opening sequence.
+
+<YouTubeEmbed videoId="GVEblODH-Jg" title="How To Spawn Golem + All Rune Locations Clover Retribution" />
+
+The portal to Aetherstone Isle is located at the center of the lake just south of Unnamed Village. Activating it requires four distinct runes, each corresponding to a specific stone pillar.
+
+<Callout type="tip">
+It's common practice to insert the Rune of Colossal Wrath last. This ensures that all players have ample time to reach the activated portal before it closes, maximizing participation in the raid.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Rune Acquisition">
+    Runes are obtained from chests dropped by event bosses like the **Bandit Lord** and **Warlord**. The drop chance is estimated to be around 30-40% per chest. Players will likely acquire most of their runes from these two bosses due to their accessibility.
+  </Card>
+  <Card title="Portal Activation">
+    Once all four runes are placed in their correct pillars, the circular portal in the middle of the lake near Unnamed Village will open, granting access to Aetherstone Isle and the **Aetherstone Golem**.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Rune Locations and Placement Guide">
+Successfully summoning the Aetherstone Golem requires knowing the exact locations of the four runestones and which rune corresponds to each. Following a specific order can also streamline the process for groups.
+
+<Steps>
+  <Step num="1" title="Rune of Shattered Earth">
+    Head towards the large skull head near the Alpha Wolf. Look slightly to the left, up on a hill by the goblins. Interact with the pillar there and insert the Rune of Shattered Earth.
+  </Step>
+  <Step num="2" title="Rune of Raging Tempest">
+    From the main spawn, fly directly towards the Bandit Camp, past it, in the direction of the Wind Monks. You will find a pillar to interact with. Insert the Rune of Raging Tempest.
+  </Step>
+  <Step num="3" title="Rune of Endless Challenge">
+    Go left from the main portal towards the castle/kingdom, between the kingdom and the ogre area. In the corner beside the kingdom stairs, you'll find the pillar for the Rune of Endless Challenge.
+  </Step>
+  <Step num="4" title="Rune of Colossal Wrath">
+    This pillar is located directly next to the main Aetherstone portal. From spawn, go straight towards the gigantic circular portal. The pillar is in the corner to the right. Insert the Rune of Colossal Wrath last to ensure everyone can enter the portal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Rune Drop Rates">
+The exact drop rate for runes is not officially published, but community estimates suggest a 30-40% chance from event boss chests. Be prepared for some grinding to collect all four.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Aetherstone Golem Boss Mechanics and Strategy">
+The Aetherstone Golem is a formidable opponent with unique attack patterns and a critical mid-fight mechanic. Understanding these elements is key to a successful raid.
+
+The Golem is immune to the **poison** status effect, and all its attacks deal bludgeoning damage. Players should prepare gear and abilities that mitigate this damage type.
+
+**Golem Attack Patterns:**
+| Attack Name        | Description                                       | Parry/Dodge | Notes                                                                          |
+| :----------------- | :------------------------------------------------ | :---------- | :----------------------------------------------------------------------------- |
+| Stone Fist Summon  | Summons a stone fist from below the player.       | Yes         | Requires quick reaction to avoid damage.                                       |
+| Ground Slam        | Slams the ground, causing an area-of-effect (AoE).| Yes         | Stay alert for the telegraph to perfectly dodge or parry.                      |
+| Spinning AoE       | A wide-reaching spinning attack.                  | Yes         | Can be tricky to parry due to its duration; dodging is often safer.            |
+
+<Callout type="info">
+All three of the Aetherstone Golem's attacks can be parried and perfectly dodged, offering skilled players opportunities to mitigate damage and counter-attack.
+</Callout>
+
+**The DPS Check Phase:**
+Once the Aetherstone Golem's health drops below 75%, a critical DPS check begins. Six purple crystals will appear around the arena. Players have exactly **30 seconds** to destroy all six crystals. Failure to do so will result in an instant wipe for everyone in the area. This phase is often the main reason why soloing the raid is extremely difficult, as one-shotting these crystals is typically required to meet the time limit.
+
+<Checklist
+  id="golem-strategy"
+  title="Raid Success Checklist:"
+  items={[
+    "Form a group for the DPS check phase",
+    "Focus fire on purple crystals immediately",
+    "Utilize parries and perfect dodges for boss attacks",
+    "Assign roles for crystal destruction if in a group",
+    "Maintain at least 10% damage dealt for boss credit"
+  ]}
+/>
+
+If the raid fails, the portal will enter a 15-minute cooldown period before it can be re-activated.
+
+</Section>
+
+<Section icon={Trophy} title="Aetherstone Golem Drops and Rewards">
+Defeating the Aetherstone Golem offers a variety of valuable rewards, including unique equipment, materials, and titles that can significantly boost your character's power and progression. The Golem has 13 potential drops, with 11 directly from the boss and two from the chest that spawns after its defeat.
+
+**Key Drops from Aetherstone Golem:**
+| Item Name             | Type      | Rarity | Primary Use                                                                  | Notes                                                                           |
+| :-------------------- | :-------- | :----- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Aether Blade**      | Sword     | Legendary | Best sword for Dark Magic; Wrath M2 boosts all damage by 12%.             | Highly sought after for magic users.                                            |
+| **Mana Wielder**      | Title     | Rare   | +15% Magic Mastery, +5% Mana (after soft cap).                              | Required to unlock the Archinist class.                                         |
+| Gleaming Aether Core  | Material  | Rare   | Used by Hybrid Paladin race to create a grace increasing shield HP by 25%. | Specific to Hybrid Paladins.                                                    |
+| Aetherstone Soil      | Material  | Common | Used to summon Dragon Balls by talking to Orion at Artemis Tower.           | Essential for Dragon Ball summons.                                              |
+| Hemlock Sigil         | Material  | Rare   | One of four materials needed to summon the Crimson Witch.                   | Component for a high-tier summon.                                               |
+| Corrupted Mana Crystal| Quest Item| N/A    | Main story quest item.                                                      | Covered in the game's leveling guide.                                           |
+| Aetherstone Hammer    | Hammer    | Uncommon | Currently functions as a basic hammer.                                      | No special properties at the moment.                                            |
+| Spirit Feather, Tier, Core | Material | Rare | Equivalents to devil parts; can force a spirit rift open with all three.    | Newer items with evolving uses.                                                 |
+
+<Callout type="tip">
+For players aiming for the Archinist class, prioritizing the **Mana Wielder** title drop from the Aetherstone Golem is crucial due to its prerequisite status.
+</Callout>
+
+**Drops from the Post-Golem Chest:**
+After the Golem is defeated, a chest will spawn containing additional potential rewards.
+Drop rates for these items are not officially known, but community estimates place them around 1-5%.
+
+| Item Name           | Type     | Rarity | Primary Use                                                 | Estimated Drop Rate |
+| :------------------ | :------- | :----- | :---------------------------------------------------------- | :------------------ |
+| **Aetherstone Halberd** | Halberd  | Legendary | Powerful polearm.                                           | 1-5%                |
+| **Aetherstone Pauldrons** | Armor    | Legendary | Shoulder armor piece.                                       | 1-5%                |
+
+<Callout type="warning" title="Rare Drop Grind">
+Obtaining rare drops like the Aetherstone Pauldrons can require significant effort. Some players report over 200 Golem kills to acquire specific legendary items.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Tips for Golem Raids">
+Optimizing your approach to the Aetherstone Golem can significantly increase your success rate and efficiency in farming its valuable drops.
+
+<CardGrid cols={3}>
+  <Card title="Damage Threshold">
+    To receive credit for a boss kill and its associated rewards, you must deal at least **10% of the Golem's total health** in damage. For chest drops, a 5% damage contribution is often sufficient.
+  </Card>
+  <Card title="Group Composition">
+    While soloing is possible for high-level, well-geared players, a group is highly recommended, especially for the crystal phase. Diverse damage types and crowd control can make the fight much smoother.
+  </Card>
+  <Card title="Aggro Management">
+    The Golem, like other bosses in Clover Retribution, targets the player who has dealt the most damage. In a group, the highest damage dealer should be prepared to tank or kite the boss's attacks.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+During the crystal phase, if you're not the primary crystal destroyer, position yourself to deal damage to the Golem while staying aware of crystal locations to assist if needed.
+</Callout>
+
+**Healing during Combat:**
+Players can experience a form of out-of-combat healing even during the crystal destruction phase. This passive regeneration can be crucial for sustaining health through the fight, especially if you're actively dodging and managing aggro.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the Aetherstone Golem?",
+    answer: "The Aetherstone Golem is the first raid boss encountered in Clover Retribution, located on Aetherstone Isle. Defeating it requires activating a portal with four specific runes."
+  },
+  {
+    question: "How do I summon the Aetherstone Golem?",
+    answer: "You summon the Aetherstone Golem by collecting four runes (Shattered Earth, Raging Tempest, Endless Challenge, Colossal Wrath) from event boss chests and placing them in their respective stone pillars around the map. This opens the portal to Aetherstone Isle."
+  },
+  {
+    question: "What are the key drops from the Aetherstone Golem?",
+    answer: "Key drops include the Aether Blade (a strong sword for Dark Magic), the Mana Wielder title (required for the Archinist class), Gleaming Aether Core, Aetherstone Soil, and from the chest, the Aetherstone Halberd and Aetherstone Pauldrons."
+  },
+  {
+    question: "Can I solo the Aetherstone Golem raid?",
+    answer: "While it's technically possible, soloing is extremely difficult, especially during the crystal destruction phase. It typically requires a high level (around 100) and the ability to one-shot the purple crystals within 30 seconds."
+  }
+]} />
+
+</Section>

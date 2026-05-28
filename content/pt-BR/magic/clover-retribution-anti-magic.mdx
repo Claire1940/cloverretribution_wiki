@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Antimagia: Guia de Boss e Estratégias de Build",
+  description: "Domine o tipo de demônio mais raro em Clover Retribution. Aprenda as mecânicas do boss de antimagia, builds de Restrição Divina e como desbloquear o feitiço da Espada Grande.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Anti-Magic+Devil+Guide",
+  date: "2026-05-28",
+  author: "Equipe Wiki Clover Retribution",
+  keywords: "clover retribution, antimagia, boss guide, divine restriction, devil union"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Raridade de Antimagia**: Este é o tipo de demônio mais raro em Clover Retribution, aparecendo em apenas **5% das Fendas de Demônio**.
+- **Identificação de Tier**: Procure por **raios pretos** ao redor da fenda para identificar demônios de alta dificuldade Tier 3-4.
+- **Build Recomendada**: Uma **build de Restrição Divina (Divine Restriction)** é altamente recomendada devido à alta resistência e alcance de esquiva superior.
+- **Recompensa Principal**: Derrotar o demônio e atingir 25% de Maestria desbloqueia a poderosa **Espada Grande de Antimagia**.
+- **Votos de Vinculação**: Os jogadores podem trocar mana ou até mesmo um braço por **aumentos permanentes de Atributos de Demônio**.
+</Callout>
+
+<Section icon={Map} title="Localizando e Identificando Fendas de Antimagia">
+
+Encontrar um demônio de antimagia é o primeiro grande obstáculo para qualquer jogador aspirante em 2026. Ao contrário dos demônios de Fogo do Inferno ou Amaldiçoados, que dominam as taxas de spawn, a antimagia é uma ocorrência rara que exige paciência e, muitas vezes, o uso de itens especializados. Quando uma Fenda de Demônio aparece, o jogo realiza uma verificação de probabilidade para determinar qual entidade reside nela.
+
+| Tipo de Demônio | Chance de Spawn | Atributo Primário |
+| :--- | :--- | :--- |
+| **Fogo do Inferno** | 60% | Pilares de Fogo / Dano de Explosão |
+| **Amaldiçoado** | 35% | Clones / Confusão |
+| **Antimagia** | 5% | Dreno de Mana / Chuva de Espadas |
+
+Antes de entrar, você deve identificar o Tier do demônio. Demônios de Tier 1 e 2 são significativamente mais fáceis e adequados para farmar drops. No entanto, se você deseja garantir um contrato, deve enfrentar as variantes de Tier 3 ou 4. Estas são identificadas pelos **raios pretos** que cintilam ao redor da entrada da fenda. Se a fenda não tiver esses raios, você está enfrentando um oponente de tier inferior.
+
+**Destaques do Vídeo:**
+- Identificação da taxa de spawn de 5% para Fendas de Antimagia.
+- Dicas visuais para níveis de dificuldade Tier 1-2 vs. Tier 3-4.
+- A importância da build de Restrição Divina para a sobrevivência.
+- Detalhamento dos padrões de ataque baseados em espadas.
+
+<YouTubeEmbed videoId="TpFOY3oXAP8" title="Clover Retribution Para Leigos: Luta contra o Demônio de Antimagia" />
+
+<Callout type="tip" title="Dica Profissional">
+Se você tiver orçamento, use uma **Relíquia Abissal (Abyssal Relic)** para rolar novamente o tipo de demônio dentro de uma fenda. Embora a chance de 5% permaneça a mesma, isso permite que você passe pelas fendas mais rápido sem esperar que novas surjam naturalmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas do Chefe Demônio de Antimagia">
+
+A luta contra um demônio de antimagia é um teste de resistência e posicionamento. Cada demônio segue um ciclo rigoroso: uma **Fase de Ataque** onde são imunes a todo dano, seguida por uma **Fase de Atordoamento** que dura aproximadamente 11 segundos. Durante a fase de atordoamento, você deve liberar seu DPS máximo antes que o demônio retome o ataque.
+
+### Padrões de Ataque Tier 1-2
+Demônios de tier inferior utilizam dois ataques primários de espada. As **Espadas Caçadoras de Demônios (Demon Slayer Swords)** caem em incrementos de duas — uma visando sua localização exata e outra caindo aleatoriamente. Simultaneamente, as **Espadas Destruidoras de Demônios (Demon Destroyer Swords)** surgem na arena. Essas espadas são particularmente perigosas para magos, pois drenam 50-70 de mana ao surgir e causam 100 de dano por tick em uma área de efeito (AoE) persistente.
+
+### Padrões de Ataque Tier 3-4
+As lutas de alto tier escalam o caos significativamente. Você enfrentará mais de 35 espadas Caçadoras de Demônios caindo em sucessões rápidas e aleatórias. A adição mais letal é o **Corte Gigante (Giant Slash)**, um ataque de arena de amplo alcance com um tempo de carregamento de 3 segundos.
+
+| Nome do Ataque | Tier | Efeito | Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| **Espada Caçadora de Demônios** | 1-4 | Dano físico direto | Esquiva Perfeita ou Aparar |
+| **Espada Destruidora de Demônios** | 1-4 | **Dreno de 50-70 de Mana** / AoE | Fique fora do alcance |
+| **Corte Gigante** | 3-4 | Dano massivo em toda a arena | Dash para fora do alcance / I-frames |
+| **Raios Pretos** | 3-4 | Dano alto / Atordoamento | Movimentação constante |
+
+<Callout type="warning" title="Aviso Crítico">
+Os ataques de antimagia escalam com o atributo de **Inteligência (INT)** do demônio. Se você encontrar um demônio Tier 4 com INT alta enquanto usa uma build de Mago, o dreno de mana e o dano provavelmente encerrarão a luta instantaneamente. Sempre verifique a aura do demônio antes de se comprometer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Build Ideal: A Vantagem da Restrição Divina">
+
+Embora seja tecnicamente possível derrotar um demônio de antimagia usando magia de alto nível como **Árvore do Mundo** ou **Vazio**, isso é altamente desencorajado para o jogador médio. As mecânicas de antimagia são projetadas especificamente para punir personagens dependentes de mana. Isso torna a build de **Restrição Divina (DR)** o meta indiscutível para este encontro em 2026.
+
+<CardGrid cols={3}>
+  <Card title="Resistência">
+    Builds de DR oferecem saúde base e redução de dano significativamente maiores em comparação com magos \"glass-cannon\".
+  </Card>
+  <Card title="I-Frames">
+    As esquivas em uma build de Restrição Divina têm um **alcance insano** e frames de invencibilidade mais longos.
+  </Card>
+  <Card title="Imunidade a Mana">
+    Como as builds de DR não dependem de mana tradicional para o dano primário, o dreno da Destruidora de Demônios é menos impactante.
+  </Card>
+</CardGrid>
+
+Se você insistir em usar Magia, deve dominar a mecânica de **Aparar (Parry)**. Muitos jogadores não sabem que as espadas Caçadoras de Demônios podem ser aparadas. A janela é surpreendentemente generosa, e paradas bem-sucedidas podem manter um mago vivo tempo suficiente para chegar à fase de atordoamento. No entanto, um erro geralmente resulta em uma perda completa de mana.
+
+<Callout type="success" title="Recomendação de Build">
+Combine Restrição Divina com a regeneração de **Vampiro Ancião** ou **Ryoman**. Essas curas passivas funcionam durante a luta se você ficar fora de combate por 15-30 segundos, permitindo que você resete sua vida entre os ciclos de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueando Feitiços e Habilidades de Antimagia">
+
+Garantir um contrato com um demônio de antimagia é apenas o começo. Para realmente aproveitar seu poder, você deve progredir através da **Maestria da União Demoníaca**. Ao contrário dos demônios de Fogo do Inferno, que concedem o buff de chama arroxeada, a antimagia foca na dominância física e no aprimoramento de armas.
+
+| Habilidade | Requisito | Descrição |
+| :--- | :--- | :--- |
+| **Espada Grande de Antimagia** | 25% de Maestria de União | Invoca uma lâmina massiva para combate corpo a corpo. |
+| **Redemoinho de Antimagia** | Espada Grande Ativa | Um ataque giratório em AoE que limpa inimigos próximos. |
+| **Escudo de Mana** | Passiva | Reduz o dano mágico recebido com base no nível de União. |
+| **Cortador de Mundos** | Restrição Divina | Corte de projétil de alto dano (Requer build de DR). |
+
+Para obter esses feitiços, você tem **75% de chance** de receber uma nova habilidade cada vez que derrotar seu demônio durante uma sessão de \"Treinamento\". Note que o treinamento de demônio só pode ser realizado a cada duas horas e o demônio torna-se progressivamente mais forte a cada vitória.
+
+<Callout type="info" title="Nota sobre Maestria">
+O progresso da União Demoníaca é separado da sua Maestria de Magia padrão. Você deve usar ativamente sua forma demoníaca ou completar treinamentos para aumentar essa porcentagem.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Votos de Vinculação e Gestão de Relacionamento">
+
+Seu relacionamento com seu demônio determina a rapidez com que você pode acessar o treinamento e os votos de vinculação. Demônios não vinculados começam com uma relação neutra de 0, enquanto demônios vinculados — aqueles com quem você fez um contrato — começam com um déficit de -20. Você deve preencher essa lacuna através de missões e meditação.
+
+<Steps>
+  <Step num="1" title="Meditação">
+    Pressione **N** para meditar por 10 minutos. Isso permite que você entre em sua paisagem mental e fale com seu demônio.
+  </Step>
+  <Step num="2" title="Missões de Relacionamento">
+    Complete a **missão Mana Wisp** (+5 de relação), **missão Eyeball** (+10-15) ou a **missão Devil Heart** (+20).
+  </Step>
+  <Step num="3" title="Escolhas de Conversa">
+    Ao falar com seu demônio, escolha \"Discutir sem pensar\" para responder a perguntas baseadas em personalidade para ganhar pontos de relação fáceis.
+  </Step>
+  <Step num="4" title="Votos de Vinculação">
+    Assim que sua relação for alta o suficiente, escolha \"Eu quero ficar mais forte\" para iniciar um Voto de Vinculação (Binding Vow).
+  </Step>
+</Steps>
+
+### Opções de Votos de Vinculação
+Existem atualmente dois acordos principais que você pode selar. Esteja avisado: fazer um voto fará com que os **Espíritos** rejeitem você por um período significativo.
+
+| Tipo de Voto | Requisito | Benefício | Penalidade |
+| :--- | :--- | :--- | :--- |
+| **Troca de Mana** | Todos os Usuários | +10% de Mana de Demônio | -10% de Mana Regular Total |
+| **O Sacrifício** | Apenas Não Vinculados | +5% Atributos de Demônio Permanentes | Perda permanente de um braço |
+
+<Callout type="warning" title="Erro Visual">
+O voto \"Sacrifício\" remove o braço do seu personagem. Embora isso forneça um aumento permanente de atributos, o efeito visual às vezes pode atravessar conjuntos de armadura. Este é um problema cosmético conhecido na build atual de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Conclusão de Antimagia">
+
+Use este checklist para acompanhar seu progresso rumo ao domínio da antimagia.
+
+<Checklist
+  id="anti-magic-progression"
+  title="Objetivos de Maestria de Antimagia:"
+  items={[
+    "Localizar uma Fenda de Antimagia Tier 3-4 (Raios Pretos)",
+    "Derrotar o Demônio de Antimagia usando uma build de Restrição Divina",
+    "Atingir 25% de Maestria de União Demoníaca",
+    "Desbloquear o feitiço Espada Grande de Antimagia",
+    "Atingir 30+ pontos de Relação para desbloquear Votos de Vinculação",
+    "Completar o Voto de Vinculação de Troca de Mana"
+  ]}
+/>
+
+<Callout type="tip" title="Conselho Final">
+Sempre leve **Poções de Vida** para a fenda. A luta de antimagia é longa e, como sua mana será constantemente drenada, você não pode confiar em feitiços de cura para permanecer vivo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor build para as lutas contra o boss de antimagia em Clover Retribution?",
+    answer: "A build de Restrição Divina (Divine Restriction) é a melhor escolha. Ela fornece resistência superior e esquivas de longo alcance com frames de invencibilidade generosos, essenciais para sobreviver à chuva de espadas e mecânicas de dreno de mana do demônio de antimagia."
+  },
+  {
+    question: "Como eu sei se uma Fenda de Demônio é Tier 3 ou 4?",
+    answer: "Procure por raios pretos cintilando ao redor do lado de fora da fenda. Se os raios estiverem presentes, é um demônio Tier 3 ou 4. Se não houver raios, é um demônio Tier 1 ou 2."
+  },
+  {
+    question: "Posso usar magia contra o demônio de antimagia?",
+    answer: "É possível, mas muito difícil. As espadas Destruidoras de Demônios drenam 50-70 de mana toda vez que surgem, o que pode deixar os magos incapazes de lançar feitiços. Se usar magia, você deve ser perito em aparar as espadas Caçadoras de Demônios para sobreviver."
+  },
+  {
+    question: "Como consigo a Espada Grande de Antimagia?",
+    answer: "Você deve primeiro atingir 25% de Maestria de União Demoníaca. Depois disso, você pode participar do Treinamento de Demônio a cada duas horas. Derrotar seu demônio no treinamento dá a você 75% de chance de desbloquear a habilidade da Espada Grande."
+  }
+]} />
+
+</Section>

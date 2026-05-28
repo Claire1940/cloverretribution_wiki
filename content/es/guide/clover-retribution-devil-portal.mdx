@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Portal del Diablo de Retribución de Trébol: Ubicaciones de Aparición y Guía de Contratos",
+  description: "Domina el sistema de portal del diablo de retribución de trébol en 2026. Encuentra todas las ubicaciones de aparición, comprende los niveles del portal y aprende cómo asegurar los mejores contratos con el diablo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Devil+Portal+Guide",
+  date: "2026-05-28",
+  author: "Equipo de Wiki de Retribución de Trébol"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Portal del diablo de retribución de trébol**: Un evento raro de aparición del 1% durante los Eventos Mundiales que requiere Nivel 150+ para entrar.
+- **Ubicaciones de Aparición**: Se encuentran principalmente en la cueva de las Llanuras, las afueras de la Aldea del Desierto y las áreas del vacío de la Tundra.
+- **Niveles del Portal**: Varían desde Nivel 1 (común) hasta Nivel 4 (1% de probabilidad), determinando el nivel y poder del Diablo.
+- **Tipos de Contrato**: Elige entre Vinculado (más seguro pero requiere sacrificios) o No Vinculado (requiere una victoria 1v1 para el 80% de las estadísticas).
+- **Mejoras de Estadísticas**: Los colores del portal indican mejoras: Morado (INT), Rojo (CON), Naranja (STR) y Amarillo (DEX).
+</Callout>
+
+<Section icon={Map} title="Encontrando el Portal del Diablo de Retribución de Trébol">
+
+El **portal del diablo de retribución de trébol** (también conocido como Fisura del Diablo) es la puerta de entrada al contenido más poderoso del juego. Estos portales no aparecen aleatoriamente; están vinculados a Eventos Mundiales y tienen una tasa de aparición notoriamente baja de aproximadamente el 1%. Para siquiera ver o interactuar con estos portales, tu personaje debe haber alcanzado al menos el Nivel 150. Si intentas entrar antes de este hito, el portal permanecerá inaccesible, independientemente de su nivel o color.
+
+**Puntos destacados del video:**
+- Recorrido detallado de la entrada de la cueva de la aldea inicial.
+- Navegación por la Aldea del Desierto para encontrar puntos de fisura ocultos.
+- Confirmación visual de la ubicación de aparición del puente de la Tundra.
+- Consejos para identificar los niveles del portal según los efectos de luz circundantes.
+
+<YouTubeEmbed videoId="pkt_WqAzcu4" title="Clover Retribution Todas las Ubicaciones de Aparición de Fisuras/Portales del Diablo" />
+
+<Callout type="warning" title="Tiempo de Aparición">
+Los Portales del Diablo solo aparecen durante los Eventos Mundiales activos. Si el anuncio del servidor para un Evento Mundial no se ha activado, estás perdiendo el tiempo explorando estas ubicaciones. Siempre mantente atento al chat global para las notificaciones de eventos.
+</Callout>
+
+Cuando aparece un portal, a menudo está rodeado de luz. La intensidad de esta luz sirve como una señal visual para el Nivel del portal. Un portal de Nivel 4, por ejemplo, brilla mucho más intensamente que una fisura de Nivel 1. Los jugadores deben priorizar los portales de alto nivel, ya que ofrecen estadísticas base significativamente mejores para el contrato con el diablo resultante.
+
+| Ubicación | Punto de Referencia Específico | Dificultad |
+| :--- | :--- | :--- |
+| **Cueva de las Llanuras** | Detrás de la mina de cobre/hierro de la aldea inicial | Principiante |
+| **Aldea del Desierto A** | Detrás de la entrada de la ciudad cerca del cactus | Moderada |
+| **Aldea del Desierto B** | Cerca de la entrada a la zona de la cueva del Kraken | Moderada |
+| **Vacío de la Tundra** | Plataforma al otro lado del puente del PNJ meditando | Alta |
+| **El Laberinto** | Escondido en una esquina específica del laberinto | Difícil |
+
+</Section>
+
+<Section icon={Target} title="Colores del Portal y Mecánicas de Nivel">
+
+Cada **portal del diablo de retribución de trébol** está codificado por colores para representar la mejora de estadísticas específica que proporcionará el Diablo en su interior. Comprender estos colores es vital para optimizar tu construcción. Por ejemplo, un Mago debería buscar exclusivamente portales Morados para maximizar la Inteligencia, mientras que un Tanque debería buscar portales Rojos para aumentar la Constitución.
+
+<CardGrid cols={2}>
+  <Card title="Portales Morados y Rojos">
+    - **Morado (Inteligencia)**: Esencial para construcciones enfocadas en magia y escalado de maná.
+    - **Rojo (Constitución)**: Proporciona enormes aumentos de HP y supervivencia.
+  </Card>
+  <Card title="Portales Naranjas y Amarillos">
+    - **Naranja (Fuerza)**: Ideal para armas cuerpo a cuerpo físicas y daño bruto.
+    - **Amarillo (Destreza)**: Mejora la velocidad de ataque, la movilidad y el escalado de armas específicas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimización de Nivel">
+Si encuentras un portal de Nivel 1 pero necesitas uno de Nivel 3, puedes usar un **Corazón del Diablo** más tarde para mejorar tu diablo. Sin embargo, encontrar un portal de alto nivel de forma natural te ahorra recursos y Robux significativos.
+</Callout>
+
+El nivel del portal determina el rango de nivel del Diablo al que te enfrentarás dentro. Los niveles más altos son significativamente más difíciles de derrotar, pero ofrecen techos de estadísticas mucho más altos para tus contratos.
+
+| Nivel del Portal | Probabilidad de Aparición | Rango de Nivel | Potencial de Estadísticas |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1** | 58% | Nivel 100-200 | Promedio |
+| **Nivel 2** | 29% | Nivel 200-300 | Superior al Promedio |
+| **Nivel 3** | 12% | Nivel 300-400 | Alto |
+| **Nivel 4** | 1% | Nivel 400-600 | Divino |
+
+</Section>
+
+<Section icon={Swords} title="Asegurando el Contrato con el Diablo">
+
+Una vez que entras en el **portal del diablo de retribución de trébol**, te enfrentas a una elección que alterará permanentemente la progresión de tu personaje. Puedes negociar un Contrato Vinculado o desafiar al Diablo a un Contrato No Vinculado. Esta decisión depende completamente de tu capacidad de combate y tu voluntad de sacrificar estadísticas permanentes del personaje.
+
+<Steps>
+  <Step num="1" title="Entrar en la Fisura">
+    Asegúrate de ser Nivel 150+ y acércate al portal. Una vez dentro, encontrarás una plataforma donde reside el Diablo.
+  </Step>
+  <Step num="2" title="Elegir Tipo de Contrato">
+    Interactúa con el Diablo. Se te pedirá que elijas entre un acuerdo Vinculado o No Vinculado.
+  </Step>
+  <Step num="3" title="Completar el Requisito">
+    Para Vinculado, selecciona tu sacrificio. Para No Vinculado, prepárate para un duelo 1v1 de alta dificultad.
+  </Step>
+  <Step num="4" title="Finalizar la Unión">
+    Una vez que se cumplan las condiciones, el Diablo desaparecerá y obtendrás acceso al Modo Diablo (presiona T).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja del Contrato No Vinculado">
+El Contrato No Vinculado es objetivamente superior porque otorga el 80% de las estadísticas del Diablo sin ninguna desventaja. Sin embargo, la lucha 1v1 es agotadora. Si fallas la lucha, pierdes la oportunidad del portal.
+</Callout>
+
+Si eliges la ruta Vinculada, debes ofrecer un sacrificio. Estos sacrificios son permanentes y solo pueden revertirse eliminando al Diablo por completo en el PNJ Abogado del Diablo por 50,000 de Oro.
+
+| Tipo de Sacrificio | Descripción de la Penalización | Recomendado para |
+| :--- | :--- | :--- |
+| **Alma** | Debuff permanente de Drenaje de Alma | Solo para jugadores hardcore |
+| **Salud** | Pérdida permanente del 15% de HP Máx. | Construcciones de alta defensa |
+| **Riqueza** | Reducción del 50% en todo el Oro ganado | Jugadores de endgame |
+| **Potencial** | Pérdida del 50% de EXP para Maestría/Magia | Personajes de nivel máximo |
+
+</Section>
+
+<Section icon={Sparkles} title="Personalidades del Diablo y Subida de Nivel">
+
+No todos los Diablos se comportan de la misma manera. Tu Diablo tendrá una de varias personalidades, lo que dicta cómo debes subirlo de nivel. Subir de nivel a tu Diablo es esencial para desbloquear todo su potencial y, finalmente, transformarlo en un Diablo Chibi.
+
+**Requisitos de Subida de Nivel por Personalidad:**
+- **Misterioso**: Requiere matar jefes de eventos o completar misiones de Nivel 150+.
+- **Vengativo**: Requiere derrotar a jugadores de nivel similar o derrotar jefes en solitario.
+- **Arrogante**: Requiere derrotar jefes en solitario (100% de daño) sin estar en un grupo.
+
+<Callout type="info" title="Maná Diabólico">
+Usar el Modo Diablo consume Maná Diabólico. Puedes reponer este recurso consumiendo Fragmentos de Alma, que caen de varios PNJ mientras tienes un contrato de Diablo activo.
+</Callout>
+
+Para mejorar aún más a tu Diablo, puedes recolectar objetos de Alma específicos que caen de enemigos de élite en todo el mundo. Estos objetos no solo recuperan el 15% de tu Maná Diabólico, sino que también proporcionan aumentos permanentes de estadísticas.
+
+| Nombre del Objeto | Mejora de Estadísticas | Fuente de Caída |
+| :--- | :--- | :--- |
+| **Alma de Agilidad** | Aumento de Destreza | Lobo / Guantelete de Grimorio |
+| **Alma de Sabiduría** | Aumento de Inteligencia | Lobo Alfa / Monjes del Viento |
+| **Alma de Fortaleza** | Aumento de Constitución | Garra del Desierto / Guardián de Piedra |
+| **Alma de Valor** | Aumento de Fuerza | Ogro / Yeti / Juggernaut |
+
+</Section>
+
+<Section icon={Heart} title="Diablos Chibi y Mejoras de Objetos">
+
+El objetivo final para muchos jugadores después de entrar en un **portal del diablo de retribución de trébol** es obtener un Diablo Chibi. Estos compañeros en miniatura flotan sobre tu hombro y proporcionan mejoras significativamente más fuertes que sus contrapartes de tamaño completo. El proceso es largo y requiere dedicación.
+
+<Checklist
+  id="chibi-requirements"
+  title="Camino al Diablo Chibi:"
+  items={[
+    "Alcanza el Nivel 10 con tu Diablo actual",
+    "Entra en Forma de Diablo y permanece activo durante 7 horas",
+    "Recolecta Partes de Demonio Menor (Corazón, Ojo, Cuerno) para alimentarlo",
+    "Mantén la felicidad del Diablo alimentándolo cuando frunce el ceño"
+  ]}
+/>
+
+<Callout type="warning" title="Alimentando a tu Chibi">
+Los Diablos Chibi requieren mucho mantenimiento. Si no los alimentas con Partes de Demonio Menor (que son caídas Míticas de Diablos Menores), su efectividad disminuirá. Siempre mantén un stock de estas partes en tu inventario.
+</Callout>
+
+Si no estás satisfecho con la apariencia o las estadísticas de tu Diablo, puedes visitar al PNJ Abogado del Diablo. Este PNJ te permite usar objetos específicos para "volver a tirar" tu Diablo sin tener que encontrar un nuevo portal.
+
+| Objeto | Efecto | Adquisición |
+| :--- | :--- | :--- |
+| **Corazón del Diablo** | Aumenta el Nivel del Diablo en 1 | Caída rara de Jefes del Diablo |
+| **Ojo del Diablo** | Vuelve a tirar las estadísticas base del Diablo | Caída rara de Jefes del Diablo |
+| **Cuerno del Diablo** | Vuelve a tirar la apariencia y el nombre | Caída rara de Jefes del Diablo |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre el Portal del Diablo de Retribución de Trébol">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de encontrar un portal del diablo de retribución de trébol?",
+    answer: "El método más eficiente es esperar un Evento Mundial y usar un método de viaje rápido (como Magia Espacial) para recorrer rápidamente los puntos de aparición de la cueva de las Llanuras, la Aldea del Desierto y la Tundra."
+  },
+  {
+    question: "¿Puedo tener más de un contrato con el Diablo a la vez?",
+    answer: "No, solo puedes tener un contrato con el Diablo activo. Si quieres uno diferente, debes pagar 50,000 de Oro al Abogado del Diablo para eliminar tu contrato actual antes de entrar en un nuevo portal."
+  },
+  {
+    question: "¿Vale la pena gastar Robux para hacer aparecer un Diablo?",
+    answer: "Puedes comprar el Ojo, el Cuerno y el Corazón por un total de 1.4k Robux para hacer aparecer un Diablo manualmente. Sin embargo, esto no garantiza un Nivel alto, por lo que generalmente se considera una inversión de alto riesgo en comparación con encontrar un portal de forma natural."
+  },
+  {
+    question: "¿Qué sucede si muero durante una pelea de Contrato No Vinculado?",
+    answer: "Si mueres durante la pelea 1v1 por un Contrato No Vinculado, el portal desaparecerá y perderás la oportunidad. Se recomienda encarecidamente llevar tu mejor equipo y pociones antes de iniciar el desafío."
+  }
+]} />
+
+</Section>

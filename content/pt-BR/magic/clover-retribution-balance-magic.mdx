@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Equilíbrio Clover Retribution: Guia de Habilidades e Melhores Builds 2026",
+  description: "Domine a magia de equilíbrio de modo duplo de Clover Retribution com nosso guia de 2026. Saiba mais sobre o movimento True Balance de 4 folhas, mecânicas de mudança e escalonamento de INT.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Balance+Magic+Guide",
+  date: "2026-05-28",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **magia de equilíbrio Clover Retribution** é um grimório de raridade Mítica (taxa de queda de 0,14%) que apresenta um sistema de alternância de modo duplo.
+- **Modos Duplos**: Alterne entre Roxo (Dano) e Amarelo (Cura) usando a habilidade Mudança de Equilíbrio.
+- **Escalonamento de Inteligência**: Todas as habilidades escalam fortemente com o atributo INT, afetando a produção de dano e a potência de cura.
+- **Exclusivo de 4 Folhas**: O movimento True Balance está disponível apenas para jogadores com um grimório de trevo de 4 folhas.
+- **Versatilidade PvP/PvE**: Excelente para sobrevivência solo ou suporte em grupo devido aos seus enormes pulsos de cura em área.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral da Magia de Equilíbrio Clover Retribution">
+
+A **magia de equilíbrio Clover Retribution** destaca-se como um dos grimórios Míticos mais versáteis e procurados na meta de 2026. Ao contrário de magias ofensivas tradicionais como Fogo ou Relâmpago, Equilíbrio oferece uma camada tática única através de sua mecânica de mudança. Os jogadores podem transitar perfeitamente de um conjurador de alto dano para um curador de suporte dedicado no meio do combate, tornando-o uma escolha de nível S para raids de masmorras e confrontos PvP de alto risco.
+
+**Destaques do Vídeo:**
+- Demonstração dos efeitos visuais de modo duplo do grimório Mítico de Equilíbrio.
+- Demonstração do projétil Balance Budge nos modos de Dano e Cura.
+- Análise visual do pulso AOE exclusivo de 4 folhas "True Balance".
+- Comparação dos efeitos de escalonamento de Inteligência na frequência do pulso.
+
+<YouTubeEmbed videoId="keB6DQqkOHI" title="TODAS AS MAGIAS MÍTICAS em Clover Retribution! 🔥" />
+
+<Callout type="info" title="Fato de Raridade Mítica">
+Obter a Magia de Equilíbrio requer sorte significativa ou rerrolagem dedicada, pois ela tem uma chance de giro de 0,14%. Os jogadores frequentemente priorizam os passes de jogo "Clover Storage" para garantir que não percam esse rolamento raro.
+</Callout>
+
+A magia de equilíbrio é definida por sua capacidade de adaptação. No cenário atual de 2026, dominar o tempo de sua "Mudança" é a diferença entre um novato e um profissional. A magia depende muito do seu atributo de Inteligência (INT), que determina a magnitude de seus orbes "Budge" e o poder regenerativo de seus pulsos de cura.
+
+| Característica | Detalhes |
+| | |
+| **Raridade** | Mítica (0,14%) |
+| **Atributo Primário** | Inteligência (INT) |
+| **Estilo de Jogo** | Híbrido (Dano/Curador) |
+| **Mecânica Chave** | Mudança de Modo (Roxo/Amarelo) |
+| **Melhor Para** | Raids em Grupo e Sobrevivência Solo |
+
+</Section>
+
+<Section icon={Swords} title="Conjunto de Habilidades Essenciais e Análise de Habilidades">
+
+Compreender os feitiços individuais dentro do grimório de **magia de equilíbrio Clover Retribution** é essencial para maximizar sua eficiência em combate. Cada movimento se comporta de forma diferente com base no seu estado atual de "Mudança de Equilíbrio".
+
+<CardGrid cols={3}>
+  <Card title="Balance Budge">
+    - **Modo de Dano**: Dispara um orbe roxo que causa alto dano mágico ao contato.
+    - **Modo de Cura**: Dispara um orbe amarelo que cria um pulso de cura ao impacto.
+    - **Escalonamento**: O tamanho do orbe e os valores de dano/cura aumentam com INT.
+  </Card>
+  <Card title="Balance Shift">
+    - **Função**: O movimento utilitário principal que alterna o estado do grimório.
+    - **Visuais**: Aura roxa para Dano, aura amarela para Cura.
+    - **Recarga**: Mínima, permitindo ajustes táticos rápidos durante o combate.
+  </Card>
+  <Card title="True Balance">
+    - **Exclusivo**: Disponível apenas para usuários de trevo de 4 folhas.
+    - **Efeito**: Gera um campo pulsante massivo ao redor do conjurador.
+    - **Versatilidade**: Causa dano aos inimigos ou cura massiva aos aliados, dependendo do modo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Combate Profissional">
+Use "True Balance" no modo de Dano para quebrar os escudos inimigos instantaneamente, em seguida, mude imediatamente para o modo de Cura e use "Balance Budge" em si mesmo para recuperar qualquer dano sofrido durante o combate.
+</Callout>
+
+O escalonamento desses movimentos não é apenas linear. Níveis de Maestria mais altos desbloqueiam "ticks" adicionais para os pulsos de cura e raios de AOE maiores para o campo True Balance. Em 2026, muitos jogadores combinam essa magia com raças de alta INT como Elfos Superiores ou Lichts para atingir os limites de dano no início de sua progressão.
+
+| Nome da Habilidade | Nível de Maestria | Custo de Mana | Efeito do Modo |
+| | | | |
+| **Balance Budge** | Base | Baixo | Dano/Cura de alvo único |
+| **Balance Shift** | Base | Nenhum | Alterna o estado |
+| **True Balance** | Maestria 50 | Alto | Pulso AOE (Apenas 4 Folhas) |
+
+</Section>
+
+<Section icon={Shield} title="Maestria Estratégica: Mudança e Escalonamento">
+
+O verdadeiro poder da **magia de equilíbrio Clover Retribution** reside na mecânica "Balance Shift". Esta não é apenas uma mudança cosmética; ela altera completamente seu papel em um grupo. Quando o grimório está no modo Roxo, suas habilidades se concentram em "Dano Verdadeiro" e quebra de escudo. No modo Amarelo, você se torna a máquina de sustentação definitiva.
+
+<Steps>
+  <Step num="1" title="Engajamento Inicial">
+    Comece a luta no modo Roxo (Dano). Use Balance Budge para atingir os inimigos e construir sua reserva de mana enquanto mantém distância.
+  </Step>
+  <Step num="2" title="Quebra de Escudo">
+    Se o inimigo tiver um escudo de alta durabilidade, ative True Balance. Os pulsos de dano da Magia de Equilíbrio são notórios por derreter escudos mais rápido do que feitiços elementais tradicionais.
+  </Step>
+  <Step num="3" title="O Pivô de Suporte">
+    Assim que sua saúde ou a saúde de seus companheiros de equipe cair abaixo de 50%, use Balance Shift. A transição é quase instantânea.
+  </Step>
+  <Step num="4" title="Cura de Explosão">
+    Lance um Balance Budge no modo de Cura aos seus pés. Com alta Inteligência, um único orbe pode restaurar mais de 70% do seu HP em questão de segundos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gerenciamento de Mana">
+Embora o Balance Shift não tenha tempo de recarga, o True Balance consome uma parte significativa da sua barra de mana. Certifique-se de ter altos atributos de Regeneração de Mana através do seu equipamento ou traços para manter o campo pulsante.
+</Callout>
+
+Para as builds de 2026, recomendamos uma proporção de 3:1 de INT para VIT. Isso garante que sua cura seja potente o suficiente para superar o dano recebido, enquanto mantém sua reserva de saúde grande o suficiente para sobreviver a ataques de explosão de usuários de magia das Sombras ou de Sangue.
+
+| Atributo | Prioridade | Razão |
+| | | |
+| **Inteligência** | 1º | Escalonamento primário para todo o DMG e Cura. |
+| **Vitalidade** | 2º | Aumenta a capacidade de sobrevivência durante as mudanças de modo. |
+| **Destreza** | 3º | Melhora a velocidade de conjuração para spam mais rápido do Budge. |
+
+</Section>
+
+<Section icon={Trophy} title="Comparação de Magias Míticas: Por que Escolher Equilíbrio?">
+
+Na hierarquia das Magias Míticas de Clover Retribution, Equilíbrio ocupa um nicho único. Enquanto a Árvore do Mundo oferece CC e o Tempo oferece ressurreição, Equilíbrio fornece a sustentação mais consistente e a jogabilidade adaptativa.
+
+| Tipo de Magia | Raridade | Função Primária | Principal Vantagem |
+| | | | |
+| **Equilíbrio** | Mítica | Híbrido | Troca instantânea de função |
+| **Árvore do Mundo** | Mítica | Suporte/CC | Debuffs e atordoamento em área |
+| **Tempo** | Mítica | Utilidade | Ressurreição e Parada do Tempo |
+| **Sangue** | Mítica | DPS | Dano de sangramento e drenagem de HP |
+
+<Callout type="success" title="A Vantagem de 4 Folhas">
+Se você tiver a sorte de rolar um grimório de Equilíbrio de 4 folhas, terá acesso a "True Balance". Este movimento é considerado "quebrado" por muitos na comunidade de 2026 porque permite curar NPCs e companheiros de equipe simultaneamente enquanto está no meio de uma caótica luta contra um chefe.
+</Callout>
+
+De acordo com os dados mais recentes da [Clover Retribution Wiki](https://clover-retribution.fandom.com/wiki/Grimoire%27s_(Magic)), o escalonamento de cura da Magia de Equilíbrio é aproximadamente 25% maior do que a "Magia de Cura" padrão quando usada na maestria máxima. Isso a torna a escolha superior para conteúdo de fim de jogo onde a sobrevivência é priorizada em vez da velocidade bruta.
+
+<Checklist
+  id="balance-magic-goals"
+  title="Marcos da Magia de Equilíbrio:"
+  items={[
+    "Alcançar o Nível de Maestria 50 para desbloquear True Balance",
+    "Adquirir um grimório de trevo de 4 folhas para movimentos exclusivos",
+    "Equipar acessórios que aumentam a INT (por exemplo, Manto de Mago)",
+    "Dominar o tempo da alternância de Balance Shift",
+    "Testar pulsos de dano contra chefes Golem de alto nível"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Como Obter e Guia de Progressão">
+
+Garantir a **magia de equilíbrio Clover Retribution** é uma jornada de persistência. Como é uma raridade Mítica, você provavelmente gastará centenas de giros para vê-la aparecer em seu slot de grimório.
+
+<Steps>
+  <Step num="1" title="Girando por Magia">
+    Acesse o menu principal e use seus giros. Lembre-se de que Equilíbrio tem uma chance de 0,14%. Procure o ícone do livro amarelo/roxo.
+  </Step>
+  <Step num="2" title="Armazenamento de Trevo">
+    Se você rolar Equilíbrio, mas quiser continuar girando por uma versão de 4 folhas, certifique-se de ter o passe de jogo Clover Storage. Isso permite que você salve sua magia Mítica enquanto tenta rolar para a variante exclusiva de 4 folhas.
+  </Step>
+  <Step num="3" title="Grinding de Maestria">
+    Uma vez obtido, vá para os acampamentos de bandidos de baixo nível. Use Balance Budge repetidamente para construir Maestria. A Maestria não é salva entre grimórios diferentes, a menos que você tenha o passe de armazenamento.
+  </Step>
+  <Step num="4" title="Alocação de Atributos">
+    Invista seus pontos em Inteligência. No nível 100, você deve ter pelo menos 150 pontos em INT para ver o verdadeiro potencial da meta de Equilíbrio de 2026.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conselho Final">
+Não se desanime com a versão de 3 folhas. Embora o "True Balance" de 4 folhas seja poderoso, as mecânicas básicas de "Balance Budge" e "Shift" são fortes o suficiente para levá-lo pela maior parte do conteúdo atual do jogo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A magia de equilíbrio Clover Retribution é melhor do que a Árvore do Mundo?",
+    answer: "Depende do seu estilo de jogo. A Árvore do Mundo é melhor para controle de multidões e enfraquecimento de inimigos com 'Weaken', enquanto Equilíbrio é superior para sustentação bruta e adaptação instantânea a diferentes funções de combate."
+  },
+  {
+    question: "O Balance Shift custa mana para usar?",
+    answer: "Não, o Balance Shift é uma alternância de utilidade que não consome mana, permitindo que você alterne entre os modos de dano e cura quantas vezes for necessário durante uma luta."
+  },
+  {
+    question: "Posso curar outros jogadores com a Magia de Equilíbrio?",
+    answer: "Sim, no modo de Cura (Amarelo), Balance Budge e True Balance fornecem pulsos de cura em área que afetam quaisquer jogadores ou NPCs amigáveis dentro do raio."
+  },
+  {
+    question: "Como consigo a versão de 4 folhas da Magia de Equilíbrio?",
+    answer: "Há uma chance de 1% ao girar qualquer grimório de que ele seja uma variante de '4 folhas'. Isso é independente da raridade da magia, o que significa que você precisa acertar tanto o giro Mítico quanto o giro de 4 folhas simultaneamente."
+  }
+]} />
+
+</Section>

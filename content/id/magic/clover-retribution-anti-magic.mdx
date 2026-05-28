@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Anti Magic: Panduan Bos & Strategi Bangunan",
+  description: "Kuasai tipe iblis terlangka di Clover Retribution. Pelajari mekanisme bos anti-sihir, bangunan Divine Restriction, dan cara membuka mantra Pedang Besar.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Anti-Magic+Devil+Guide",
+  date: "2026-05-28",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Kelangkaan Anti-Sihir**: Ini adalah tipe iblis terlangka di Clover Retribution, hanya muncul di **5% dari Devil Rifts**.
+- **Identifikasi Tingkat**: Cari **kilatan hitam** di sekitar celah untuk mengidentifikasi iblis Tingkat 3-4 yang sulit.
+- **Bangunan yang Direkomendasikan**: **Bangunan Divine Restriction** sangat direkomendasikan karena ketahanan yang tinggi dan jangkauan menghindar yang superior.
+- **Hadiah Utama**: Mengalahkan iblis dan mencapai 25% Penguasaan akan membuka **Pedang Besar Anti-Sihir** yang kuat.
+- **Sumpah Mengikat**: Pemain dapat menukar mana atau bahkan lengan untuk **peningkatan Statistik Iblis** permanen.
+</Callout>
+
+<Section icon={Map} title="Mencari dan Mengidentifikasi Celah Anti-Sihir">
+
+Menemukan iblis anti-sihir adalah rintangan besar pertama bagi setiap pemain yang bercita-cita tinggi di tahun 2026. Tidak seperti iblis Hellfire atau Cursed, yang mendominasi tingkat kemunculan, anti-sihir adalah kejadian langka yang membutuhkan kesabaran dan seringkali penggunaan item khusus. Ketika Celah Iblis muncul, permainan melakukan pemeriksaan probabilitas untuk menentukan entitas mana yang berada di dalamnya.
+
+| Tipe Iblis | Peluang Muncul | Atribut Utama |
+| :--- | :--- | :--- |
+| **Hellfire** | 60% | Pilar Api / Kerusakan Ledakan |
+| **Cursed** | 35% | Klon / Kebingungan |
+| **Anti-Magic** | 5% | Penyerapan Mana / Hujan Pedang |
+
+Sebelum masuk, Anda harus mengidentifikasi Tingkat iblis. Iblis Tingkat 1 dan 2 jauh lebih mudah dan cocok untuk mendapatkan drop. Namun, jika Anda ingin mendapatkan kontrak, Anda harus menghadapi varian Tingkat 3 atau 4. Ini diidentifikasi oleh **kilatan hitam** yang berkedip-kedip di sekitar pintu masuk celah. Jika celah tidak memiliki kilatan ini, Anda menghadapi lawan tingkat rendah.
+
+**Sorotan Video:**
+- Mengidentifikasi tingkat kemunculan 5% untuk Celah Anti-Sihir.
+- Isyarat visual untuk tingkat kesulitan Tingkat 1-2 vs. Tingkat 3-4.
+- Pentingnya bangunan Divine Restriction untuk bertahan hidup.
+- Penjelasan rinci tentang pola serangan berbasis pedang.
+
+<YouTubeEmbed videoId="TpFOY3oXAP8" title="Clover Retribution For Dummies: Pertarungan Iblis Anti-Sihir" />
+
+<Callout type="tip" title="Tips Pro">
+Jika Anda memiliki anggaran, gunakan **Abyssal Relic** untuk mengulang jenis iblis di dalam celah. Meskipun peluang 5% tetap sama, ini memungkinkan Anda untuk melewati celah lebih cepat tanpa menunggu yang baru muncul secara alami.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanisme Bos Iblis Anti-Sihir">
+
+Pertarungan melawan iblis anti-sihir adalah ujian ketahanan dan posisi. Setiap iblis mengikuti siklus ketat: **Fase Serangan** di mana mereka kebal terhadap semua kerusakan, diikuti oleh **Fase Setrum** yang berlangsung sekitar 11 detik. Selama fase setrum, Anda harus melepaskan DPS maksimum Anda sebelum iblis melanjutkan serangannya.
+
+### Pola Serangan Tingkat 1-2
+Iblis tingkat rendah menggunakan dua serangan pedang utama. **Pedang Pembunuh Iblis** jatuh secara bertahap dua-satu menargetkan lokasi persis Anda dan satu jatuh secara acak. Secara bersamaan, **Pedang Penghancur Iblis** muncul di seluruh arena. Pedang ini sangat berbahaya bagi penyihir karena menguras 50-70 mana saat muncul dan memberikan 100 kerusakan per detik dalam AoE yang bertahan lama.
+
+### Pola Serangan Tingkat 3-4
+Pertarungan tingkat tinggi meningkatkan kekacauan secara signifikan. Anda akan menghadapi lebih dari 35 Pedang Pembunuh Iblis yang jatuh secara berurutan, acak, dan cepat. Tambahan yang paling mematikan adalah **Tebasan Raksasa**, serangan arena yang luas dengan persiapan 3 detik.
+
+| Nama Serangan | Tingkat | Efek | Penanggulangan |
+| :--- | :--- | :--- | :--- |
+| **Pedang Pembunuh Iblis** | 1-4 | Kerusakan fisik langsung | Menghindar Sempurna atau Tangkis |
+| **Pedang Penghancur Iblis** | 1-4 | **Penyerapan Mana 50-70** / Kerusakan AoE | Tetap di luar jangkauan |
+| **Tebasan Raksasa** | 3-4 | Kerusakan besar di seluruh arena | Melarikan diri dari jangkauan / I-frame |
+| **Kilatan Hitam** | 3-4 | Kerusakan tinggi / Setrum | Gerakan konstan |
+
+<Callout type="warning" title="Peringatan Kritis">
+Serangan anti-sihir berskala dengan statistik **Kecerdasan (INT)** iblis. Jika Anda menghadapi iblis Tingkat 4 dengan INT tinggi saat bermain bangunan Penyihir, penyerapan mana dan kerusakan kemungkinan akan mengakhiri pertarungan secara instan. Selalu periksa aura iblis sebelum berkomitmen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bangunan Optimal: Keuntungan Divine Restriction">
+
+Meskipun secara teknis mungkin untuk mengalahkan iblis anti-sihir menggunakan sihir tingkat tinggi seperti **World Tree** atau **Void**, ini sangat tidak disarankan untuk pemain rata-rata. Mekanisme anti-sihir secara khusus dirancang untuk menghukum karakter yang bergantung pada mana. Ini menjadikan bangunan **Divine Restriction (DR)** meta yang tak terbantahkan untuk pertemuan ini di tahun 2026.
+
+<CardGrid cols={3}>
+  <Card title="Ketahanan">
+    Bangunan DR menawarkan kesehatan dasar dan pengurangan kerusakan yang jauh lebih tinggi dibandingkan dengan penyihir glass-cannon.
+  </Card>
+  <Card title="I-Frames">
+    Dodge dalam bangunan Divine Restriction memiliki **jangkauan yang luar biasa** dan bingkai invincibility yang lebih panjang.
+  </Card>
+  <Card title="Kekebalan Mana">
+    Karena bangunan DR tidak bergantung pada mana tradisional untuk kerusakan utama, penyerapan Demon Destroyer kurang berdampak.
+  </Card>
+</CardGrid>
+
+Jika Anda bersikeras menggunakan Sihir, Anda harus menguasai mekanisme **Tangkis**. Banyak pemain tidak menyadari bahwa pedang Pembunuh Iblis dapat ditangkis. Jendela waktu yang diberikan cukup murah hati, dan tangkisan yang berhasil dapat menjaga penyihir tetap hidup cukup lama untuk mencapai fase setrum. Namun, satu kesalahan biasanya mengakibatkan hilangnya mana secara total.
+
+<Callout type="success" title="Rekomendasi Bangunan">
+Pasangkan Divine Restriction dengan regenerasi **Elder Vampire** atau **Ryoman**. Penyembuhan pasif ini bekerja selama pertarungan jika Anda tetap di luar pertempuran selama 15-30 detik, memungkinkan Anda untuk mengatur ulang kesehatan Anda di antara siklus serangan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Membuka Mantra dan Kemampuan Anti-Sihir">
+
+Mendapatkan kontrak dengan iblis anti-sihir hanyalah permulaan. Untuk benar-benar memanfaatkan kekuatannya, Anda harus maju melalui **Penguasaan Persatuan Iblis**. Tidak seperti iblis Hellfire, yang memberikan buff api keunguan, anti-sihir berfokus pada dominasi fisik dan peningkatan senjata.
+
+| Kemampuan | Persyaratan | Deskripsi |
+| :--- | :--- | :--- |
+| **Pedang Besar Anti-Sihir** | 25% Penguasaan Persatuan | Memanggil pedang besar untuk pertarungan jarak dekat. |
+| **Pusaran Anti-Sihir** | Pedang Besar Aktif | Serangan AoE berputar yang membersihkan musuh di dekatnya. |
+| **Perisai Mana** | Pasif | Mengurangi kerusakan sihir yang masuk berdasarkan level Persatuan. |
+| **World Slasher** | Divine Restriction | Tebasan proyektil kerusakan tinggi (Membutuhkan bangunan DR). |
+
+Untuk mendapatkan mantra ini, Anda memiliki **peluang 75%** untuk menerima kemampuan baru setiap kali Anda mengalahkan iblis Anda selama sesi "Pelatihan". Perhatikan bahwa pelatihan iblis hanya dapat dilakukan setiap dua jam dan iblis menjadi semakin kuat dengan setiap kemenangan.
+
+<Callout type="info" title="Catatan Penguasaan">
+Kemajuan Persatuan Iblis terpisah dari Penguasaan Sihir standar Anda. Anda harus secara aktif menggunakan bentuk iblis Anda atau menyelesaikan pelatihan untuk meningkatkan persentase ini.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sumpah Mengikat dan Manajemen Hubungan">
+
+Hubungan Anda dengan iblis Anda menentukan seberapa cepat Anda dapat mengakses pelatihan dan sumpah mengikat. Iblis yang tidak terikat dimulai dengan hubungan netral 0, sementara iblis yang terikat—yang telah Anda buat kontrak dengannya—dimulai dengan defisit -20. Anda harus menjembatani kesenjangan ini melalui misi dan meditasi.
+
+<Steps>
+  <Step num="1" title="Meditasi">
+    Tekan **N** untuk bermeditasi selama 10 menit. Ini memungkinkan Anda untuk memasuki alam pikiran Anda dan berbicara dengan iblis Anda.
+  </Step>
+  <Step num="2" title="Misi Hubungan">
+    Selesaikan **misi Mana Wisp** (+5 hubungan), **misi Bola Mata** (+10-15), atau **misi Hati Iblis** (+20).
+  </Step>
+  <Step num="3" title="Pilihan Percakapan">
+    Saat berbicara dengan iblis Anda, pilih "Bertengkar tanpa berpikir" untuk menjawab pertanyaan berbasis kepribadian untuk poin hubungan yang mudah.
+  </Step>
+  <Step num="4" title="Sumpah Mengikat">
+    Setelah hubungan Anda cukup tinggi, pilih "Saya ingin menjadi lebih kuat" untuk memulai Sumpah Mengikat.
+  </Step>
+</Steps>
+
+### Pilihan Sumpah Mengikat
+Saat ini ada dua kesepakatan besar yang bisa Anda buat. Berhati-hatilah: membuat sumpah akan menyebabkan **Roh** menolak Anda untuk jangka waktu yang signifikan.
+
+| Jenis Sumpah | Persyaratan | Manfaat | Kekurangan |
+| :--- | :--- | :--- | :--- |
+| **Pertukaran Mana** | Semua Pengguna | +10% Mana Iblis | -10% Total Mana Reguler |
+| **Pengorbanan** | Hanya yang Tidak Terikat | +5% Statistik Iblis Permanen | Kehilangan satu lengan secara permanen |
+
+<Callout type="warning" title="Bug Visual">
+Sumpah "Pengorbanan" menghilangkan lengan karakter Anda. Meskipun ini memberikan peningkatan statistik permanen, efek visual terkadang dapat menembus set armor. Ini adalah masalah kosmetik yang diketahui dalam build 2026 saat ini.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Penyelesaian Anti-Sihir">
+
+Gunakan daftar periksa ini untuk melacak kemajuan Anda menuju menjadi master anti-sihir.
+
+<Checklist
+  id="anti-magic-progression"
+  title="Tujuan Penguasaan Anti-Sihir:"
+  items={[
+    "Temukan Celah Anti-Sihir Tingkat 3-4 (Kilatan Hitam)",
+    "Kalahkan Iblis Anti-Sihir menggunakan bangunan Divine Restriction",
+    "Capai 25% Penguasaan Persatuan Iblis",
+    "Buka mantra Pedang Besar Anti-Sihir",
+    "Capai 30+ poin Hubungan untuk membuka Sumpah Mengikat",
+    "Selesaikan Sumpah Mengikat Pertukaran Mana"
+  ]}
+/>
+
+<Callout type="tip" title="Saran Terakhir">
+Selalu bawa **Ramuan Kesehatan** ke dalam celah. Pertarungan anti-sihir berlangsung lama, dan karena mana Anda akan terus terkuras, Anda tidak dapat mengandalkan mantra penyembuhan untuk tetap hidup.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa bangunan terbaik untuk pertarungan bos anti-sihir Clover Retribution?",
+    answer: "Bangunan Divine Restriction adalah pilihan terbaik. Ini memberikan ketahanan superior dan dodge jarak jauh dengan I-frame yang murah hati, yang penting untuk bertahan dari hujan pedang dan mekanisme penyerapan mana dari iblis anti-sihir."
+  },
+  {
+    question: "Bagaimana cara mengetahui apakah Celah Iblis adalah Tingkat 3 atau 4?",
+    answer: "Cari kilatan hitam yang berkedip-kedip di sekitar bagian luar celah. Jika kilatan itu ada, itu adalah iblis Tingkat 3 atau 4. Jika tidak ada kilatan, itu adalah iblis Tingkat 1 atau 2."
+  },
+  {
+    question: "Bisakah saya menggunakan sihir melawan iblis anti-sihir?",
+    answer: "Mungkin saja tetapi sangat sulit. Pedang Penghancur Iblis menguras 50-70 mana setiap kali muncul, yang dapat membuat penyihir tidak dapat merapal mantra. Jika Anda menggunakan sihir, Anda harus ahli dalam menangkis pedang Pembunuh Iblis untuk bertahan hidup."
+  },
+  {
+    question: "Bagaimana cara mendapatkan Pedang Besar Anti-Sihir?",
+    answer: "Anda harus terlebih dahulu mencapai 25% Penguasaan Persatuan Iblis. Setelah itu, Anda dapat berpartisipasi dalam Pelatihan Iblis setiap dua jam. Mengalahkan iblis Anda dalam pelatihan memberi Anda peluang 75% untuk membuka kemampuan Pedang Besar."
+  }
+]} />
+
+</Section>

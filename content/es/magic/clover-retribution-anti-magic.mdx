@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Anti Magia: Guía de Jefe y Estrategias de Construcción",
+  description: "Domina el tipo de diablo más raro en Clover Retribution. Aprende las mecánicas del jefe anti-magia, las construcciones de Restricción Divina y cómo desbloquear el hechizo de Gran Espada.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Anti-Magic+Devil+Guide",
+  date: "2026-05-28",
+  author: "Equipo de Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Rareza Anti-Magia**: Este es el tipo de diablo más raro en Clover Retribution, apareciendo solo en el **5% de las Grietas del Diablo**.
+- **Identificación de Nivel**: Busca **rayos negros** alrededor de la grieta para identificar diablos de Nivel 3-4 de alta dificultad.
+- **Construcción Recomendada**: Se recomienda encarecidamente una **construcción de Restricción Divina** debido a su gran resistencia y rango de esquiva superior.
+- **Recompensa Clave**: Derrotar al diablo y alcanzar el 25% de Maestría desbloquea la poderosa **Gran Espada Anti-Magia**.
+- **Votos Vinculantes**: Los jugadores pueden intercambiar maná o incluso un brazo por **mejoras permanentes de estadísticas del Diablo**.
+</Callout>
+
+<Section icon={Map} title="Localización e Identificación de Grietas Anti-Magia">
+
+Encontrar un diablo anti-magia es el primer gran obstáculo para cualquier jugador aspirante en 2026. A diferencia de los diablos de Fuego Infernal o Malditos, que dominan las tasas de aparición, el anti-magia es una ocurrencia rara que requiere paciencia y a menudo el uso de objetos especializados. Cuando aparece una Grieta del Diablo, el juego realiza una verificación de probabilidad para determinar qué entidad reside dentro.
+
+| Tipo de Diablo | Probabilidad de Aparición | Atributo Principal |
+| :--- | :--- | :--- |
+| **Fuego Infernal** | 60% | Pilares de Fuego / Daño de Ráfaga |
+| **Maldito** | 35% | Clones / Confusión |
+| **Anti-Magia** | 5% | Drenaje de Maná / Lluvia de Espadas |
+
+Antes de entrar, debes identificar el Nivel del diablo. Los diablos de Nivel 1 y 2 son significativamente más fáciles y adecuados para farmear objetos. Sin embargo, si buscas asegurar un contrato, debes enfrentarte a las variantes de Nivel 3 o 4. Estas se identifican por los **rayos negros** que parpadean alrededor de la entrada de la grieta. Si la grieta carece de estos rayos, te enfrentas a un oponente de menor nivel.
+
+**Puntos Destacados del Video:**
+- Identificación de la tasa de aparición del 5% para las Grietas Anti-Magia.
+- Pistas visuales para los niveles de dificultad de Nivel 1-2 vs. Nivel 3-4.
+- La importancia de la construcción de Restricción Divina para la supervivencia.
+- Desglose detallado de los patrones de ataque basados en espadas.
+
+<YouTubeEmbed videoId="TpFOY3oXAP8" title="Clover Retribution Para Tontos: Pelea contra el Diablo Anti-Magia" />
+
+<Callout type="tip" title="Consejo Profesional">
+Si tienes el presupuesto, usa una **Reliquia Abisal** para volver a tirar el tipo de diablo dentro de una grieta. Aunque la probabilidad del 5% sigue siendo la misma, te permite pasar por las grietas más rápido sin esperar a que aparezcan nuevas de forma natural.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Jefe Diablo Anti-Magia">
+
+La lucha contra un diablo anti-magia es una prueba de resistencia y posicionamiento. Cada diablo sigue un ciclo estricto: una **Fase de Ataque** donde son inmunes a todo daño, seguida de una **Fase de Aturdimiento** que dura aproximadamente 11 segundos. Durante la fase de aturdimiento, debes desatar tu máximo DPS antes de que el diablo reanude su asalto.
+
+### Patrones de Ataque de Nivel 1-2
+Los diablos de menor nivel utilizan dos ataques de espada principales. Las **Espadas Asesina-Demonios** caen en incrementos de dos: una apuntando a tu ubicación exacta y otra cayendo aleatoriamente. Simultáneamente, las **Espadas Destructora-Demonios** aparecen por toda la arena. Estas espadas son particularmente peligrosas para los magos, ya que drenan 50-70 de maná al aparecer y causan 100 de daño por tic en un AoE persistente.
+
+### Patrones de Ataque de Nivel 3-4
+Las peleas de alto nivel escalan el caos significativamente. Te enfrentarás a más de 35 espadas Asesina-Demonios cayendo en rápidas y aleatorias sucesiones. La adición más letal es el **Corte Gigante**, un ataque de arena de amplio alcance con un tiempo de preparación de 3 segundos.
+
+| Nombre del Ataque | Nivel | Efecto | Contraataque |
+| :--- | :--- | :--- | :--- |
+| **Espada Asesina-Demonios** | 1-4 | Daño físico directo | Esquiva Perfecta o Parada |
+| **Espada Destructora-Demonios** | 1-4 | **Drenaje de Maná 50-70** / Tic de AoE | Mantente fuera de rango |
+| **Corte Gigante** | 3-4 | Daño masivo en toda la arena | Dash fuera de rango / I-frames |
+| **Rayo Negro** | 3-4 | Alto daño / Aturdimiento | Movimiento constante |
+
+<Callout type="warning" title="Advertencia Crítica">
+Los ataques anti-magia escalan con la estadística de **Inteligencia (INT)** del diablo. Si te encuentras con un diablo de Nivel 4 con alta INT mientras juegas con una construcción de Mago, el drenaje de maná y el daño probablemente terminarán la pelea instantáneamente. Siempre revisa el aura del diablo antes de comprometerte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción Óptima: La Ventaja de la Restricción Divina">
+
+Si bien es técnicamente posible derrotar a un diablo anti-magia usando magia de alto nivel como **Árbol del Mundo** o **Vacío**, se desaconseja encarecidamente para el jugador promedio. Las mecánicas anti-magia están específicamente diseñadas para castigar a los personajes que dependen del maná. Esto hace que la construcción de **Restricción Divina (DR)** sea el meta indiscutible para este encuentro en 2026.
+
+<CardGrid cols={3}>
+  <Card title="Resistencia">
+    Las construcciones de DR ofrecen una salud base y una reducción de daño significativamente mayores en comparación con los magos de cristal.
+  </Card>
+  <Card title="I-Frames">
+    Las esquivas en una construcción de Restricción Divina tienen un **rango increíble** y marcos de invencibilidad más largos.
+  </Card>
+  <Card title="Inmunidad al Maná">
+    Dado que las construcciones de DR no dependen del maná tradicional para el daño principal, el drenaje del Destructor de Demonios es menos impactante.
+  </Card>
+</CardGrid>
+
+Si insistes en usar Magia, debes dominar la mecánica de la **Parada**. Muchos jugadores desconocen que las espadas Asesina-Demonios pueden ser paradas. La ventana es sorprendentemente generosa, y las paradas exitosas pueden mantener a un mago vivo el tiempo suficiente para alcanzar la fase de aturdimiento. Sin embargo, un error generalmente resulta en una eliminación completa del maná.
+
+<Callout type="success" title="Recomendación de Construcción">
+Combina la Restricción Divina con la regeneración de **Vampiro Anciano** o **Ryoman**. Estas curaciones pasivas funcionan durante la lucha si te mantienes fuera de combate durante 15-30 segundos, lo que te permite restablecer tu salud entre ciclos de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueando Hechizos y Habilidades Anti-Magia">
+
+Asegurar un contrato con un diablo anti-magia es solo el principio. Para aprovechar verdaderamente su poder, debes progresar a través de la **Maestría de Unión del Diablo**. A diferencia de los diablos de Fuego Infernal, que otorgan el buff de llama púrpura, el anti-magia se centra en el dominio físico y la mejora de armas.
+
+| Habilidad | Requisito | Descripción |
+| :--- | :--- | :--- |
+| **Gran Espada Anti-Magia** | 25% de Maestría de Unión | Invoca una espada masiva para el combate cuerpo a cuerpo. |
+| **Torbellino Anti-Magia** | Gran Espada Activa | Un ataque giratorio de AoE que despeja a los enemigos cercanos. |
+| **Escudo de Maná** | Pasivo | Reduce el daño mágico entrante según el nivel de Unión. |
+| **Cortador de Mundos** | Restricción Divina | Corte de proyectil de alto daño (requiere construcción DR). |
+
+Para obtener estos hechizos, tienes un **75% de probabilidad** de recibir una nueva habilidad cada vez que derrotas a tu diablo durante una sesión de "Entrenamiento". Ten en cuenta que el entrenamiento del diablo solo se puede realizar cada dos horas y el diablo se vuelve progresivamente más fuerte con cada victoria.
+
+<Callout type="info" title="Nota de Maestría">
+El progreso de la Unión del Diablo es independiente de tu Maestría Mágica estándar. Debes usar activamente tu forma de diablo o completar el entrenamiento para aumentar este porcentaje.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Votos Vinculantes y Gestión de Relaciones">
+
+Tu relación con tu diablo determina la rapidez con la que puedes acceder al entrenamiento y a los votos vinculantes. Los diablos no vinculados comienzan con una relación neutral de 0, mientras que los diablos vinculados, aquellos con los que has hecho un contrato, comienzan con un déficit de -20. Debes reducir esta brecha a través de misiones y meditación.
+
+<Steps>
+  <Step num="1" title="Meditación">
+    Pulsa **N** para meditar durante 10 minutos. Esto te permite entrar en tu paisaje mental y hablar con tu diablo.
+  </Step>
+  <Step num="2" title="Misiones de Relación">
+    Completa la **misión de Wisps de Maná** (+5 de relación), la **misión de Ojos** (+10-15), o la **misión del Corazón del Diablo** (+20).
+  </Step>
+  <Step num="3" title="Elecciones de Conversación">
+    Al hablar con tu diablo, elige "Discutir sin sentido" para responder preguntas basadas en la personalidad y obtener puntos de relación fácilmente.
+  </Step>
+  <Step num="4" title="Votos Vinculantes">
+    Una vez que tu relación sea lo suficientemente alta, elige "Quiero hacerme más fuerte" para iniciar un Voto Vinculante.
+  </Step>
+</Steps>
+
+### Opciones de Voto Vinculante
+Actualmente hay dos grandes tratos que puedes cerrar. Ten en cuenta: hacer un voto hará que los **Espíritus** te rechacen por un período significativo.
+
+| Tipo de Voto | Requisito | Beneficio | Inconveniente |
+| :--- | :--- | :--- | :--- |
+| **Intercambio de Maná** | Todos los Usuarios | +10% Maná del Diablo | -10% Maná Regular Total |
+| **El Sacrificio** | Solo No Vinculados | +5% Estadísticas Permanentes del Diablo | Pérdida permanente de un brazo |
+
+<Callout type="warning" title="Error Visual">
+El voto de "Sacrificio" elimina el brazo de tu personaje. Si bien esto proporciona una mejora de estadísticas permanente, el efecto visual a veces puede superponerse con los conjuntos de armadura. Este es un problema cosmético conocido en la versión actual de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Completado Anti-Magia">
+
+Usa esta lista de verificación para seguir tu progreso hacia la maestría anti-magia.
+
+<Checklist
+  id="anti-magic-progression"
+  title="Objetivos de Maestría Anti-Magia:"
+  items={[
+    "Localizar una Grieta Anti-Magia de Nivel 3-4 (Rayo Negro)",
+    "Derrotar al Diablo Anti-Magia usando una construcción de Restricción Divina",
+    "Alcanzar el 25% de Maestría de Unión del Diablo",
+    "Desbloquear el hechizo Gran Espada Anti-Magia",
+    "Alcanzar más de 30 puntos de Relación para desbloquear Votos Vinculantes",
+    "Completar el Voto Vinculante de Intercambio de Maná"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Final">
+Lleva siempre **Pociones de Salud** a la grieta. La lucha anti-magia es larga, y como tu maná se drenará constantemente, no puedes depender de los hechizos de curación para mantenerte con vida.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor construcción para las peleas contra el jefe anti-magia en Clover Retribution?",
+    answer: "La construcción de Restricción Divina es la mejor opción. Proporciona una resistencia superior y esquivas de largo alcance con generosos I-frames, que son esenciales para sobrevivir a la lluvia de espadas y las mecánicas de drenaje de maná del diablo anti-magia."
+  },
+  {
+    question: "¿Cómo sé si una Grieta del Diablo es de Nivel 3 o 4?",
+    answer: "Busca rayos negros parpadeando alrededor del exterior de la grieta. Si los rayos están presentes, es un diablo de Nivel 3 o 4. Si no hay rayos, es un diablo de Nivel 1 o 2."
+  },
+  {
+    question: "¿Puedo usar magia contra el diablo anti-magia?",
+    answer: "Es posible pero muy difícil. Las espadas Destructora-Demonios drenan 50-70 de maná cada vez que aparecen, lo que puede dejar a los magos incapaces de lanzar hechizos. Si usas magia, debes ser experto en parar las espadas Asesina-Demonios para sobrevivir."
+  },
+  {
+    question: "¿Cómo consigo la Gran Espada Anti-Magia?",
+    answer: "Primero debes alcanzar el 25% de Maestría de Unión del Diablo. Después de eso, puedes participar en el Entrenamiento del Diablo cada dos horas. Derrotar a tu diablo en el entrenamiento te da un 75% de probabilidad de desbloquear la habilidad Gran Espada."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Golem de Pedra de Éter: Guia de Raid e Drops",
+  description: "Domine a raid do Golem de Pedra de Éter em Clover Retribution com nosso guia completo, cobrindo localizações de runas, mecânicas do chefe e drops valiosos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/800080/fff?text=Aetherstone+Golem+Guide",
+  date: "2026-05-28",
+  author: "Equipe da Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Golem de Pedra de Éter** (Aetherstone Golem) é o primeiro chefe de raid em Clover Retribution, encontrado na Ilha da Pedra de Éter.
+- Ative o portal colocando quatro **runas** específicas: Ira, Desafio, Terra e Tempestade.
+- O Golem é imune a **veneno** e causa dano de concussão.
+- Destrua os cristais roxos em até **30 segundos** durante o teste de DPS para evitar uma derrota total (wipe).
+- Os drops principais incluem a **Lâmina de Éter**, o título Mana Wielder e equipamentos de Pedra de Éter.
+</Callout>
+
+<Section icon={Map} title="Acessando a Ilha da Pedra de Éter e Invocando o Golem">
+A Ilha da Pedra de Éter é a primeira raid em Clover Retribution, oferecendo combate desafiador e recompensas valiosas. Para ganhar acesso, os jogadores devem ativar um portal encontrando e inserindo quatro runas específicas em pilares de pedra espalhados pelo mapa. Embora não haja um requisito de nível estrito, completar a raid sozinho geralmente requer estar por volta do nível 100 para causar dano suficiente de forma consistente para receber o crédito do chefe.
+
+**Destaques do Vídeo:**
+- Demonstra claramente as localizações dos quatro pilares de runas.
+- Mostra o processo de inserção de cada runa.
+- Destaca a sequência de abertura do portal.
+
+<YouTubeEmbed videoId="GVEblODH-Jg" title="Como invocar o Golem + Todas as localizações de runas em Clover Retribution" />
+
+O portal para a Ilha da Pedra de Éter está localizado no centro do lago, logo ao sul da Vila Sem Nome (Unnamed Village). Ativá-lo requer quatro runas distintas, cada uma correspondendo a um pilar de pedra específico.
+
+<Callout type="tip">
+É prática comum inserir a Runa da Ira Colossal por último. Isso garante que todos os jogadores tenham tempo suficiente para chegar ao portal ativado antes que ele feche, maximizando a participação na raid.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Aquisição de Runas">
+    As runas são obtidas de baús dropados por chefes de evento como o **Lorde Bandido** (Bandit Lord) e o **Lorde de Guerra** (Warlord). A chance de drop é estimada em cerca de 30-40% por baú. Os jogadores provavelmente adquirirão a maioria de suas runas desses dois chefes devido à sua acessibilidade.
+  </Card>
+  <Card title="Ativação do Portal">
+    Uma vez que as quatro runas forem colocadas em seus respectivos pilares, o portal circular no meio do lago perto da Vila Sem Nome se abrirá, concedendo acesso à Ilha da Pedra de Éter e ao **Golem de Pedra de Éter**.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Localizações das Runas e Guia de Posicionamento">
+Invocar o Golem de Pedra de Éter com sucesso requer conhecer as localizações exatas das quatro runas e qual runa corresponde a cada pilar. Seguir uma ordem específica também pode agilizar o processo para grupos.
+
+<Steps>
+  <Step num="1" title="Runa da Terra Despedaçada (Shattered Earth)">
+    Vá em direção à grande cabeça de caveira perto do Lobo Alfa. Olhe ligeiramente para a esquerda, no topo de uma colina perto dos goblins. Interaja com o pilar lá e insira a Runa da Terra Despedaçada.
+  </Step>
+  <Step num="2" title="Runa da Tempestade Furiosa (Raging Tempest)">
+    A partir do spawn principal, voe diretamente em direção ao Acampamento Bandido, passe por ele, na direção dos Monges do Vento. Você encontrará um pilar para interagir. Insira a Runa da Tempestade Furiosa.
+  </Step>
+  <Step num="3" title="Runa do Desafio Infinito (Endless Challenge)">
+    Vá para a esquerda a partir do portal principal em direção ao castelo/reino, entre o reino e a área dos ogros. No canto ao lado das escadas do reino, você encontrará o pilar para a Runa do Desafio Infinito.
+  </Step>
+  <Step num="4" title="Runa da Ira Colossal (Colossal Wrath)">
+    Este pilar está localizado diretamente ao lado do portal principal da Pedra de Éter. Do spawn, vá direto para o gigantesco portal circular. O pilar está no canto à direita. Insira a Runa da Ira Colossal por último para garantir que todos possam entrar no portal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Taxas de Drop de Runas">
+A taxa de drop exata para as runas não é publicada oficialmente, mas estimativas da comunidade sugerem uma chance de 30-40% nos baús de chefes de evento. Esteja preparado para um pouco de "grind" para coletar as quatro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas e Estratégia do Chefe Golem de Pedra de Éter">
+O Golem de Pedra de Éter é um oponente formidável com padrões de ataque únicos e uma mecânica crítica no meio da luta. Entender esses elementos é a chave para uma raid bem-sucedida.
+
+O Golem é imune ao efeito de status de **veneno**, e todos os seus ataques causam dano de concussão. Os jogadores devem preparar equipamentos e habilidades que mitiguem esse tipo de dano.
+
+**Padrões de Ataque do Golem:**
+| Nome do Ataque     | Descrição                                         | Aparar/Esquivar | Notas                                                                          |
+| :----------------- | :------------------------------------------------ | :-------------- | :----------------------------------------------------------------------------- |
+| Invocação de Punho | Invoca um punho de pedra vindo debaixo do jogador.| Sim             | Requer reação rápida para evitar o dano.                                       |
+| Impacto no Solo    | Bate no chão, causando dano em área (AoE).        | Sim             | Fique alerta ao sinal visual para esquivar ou aparar perfeitamente.            |
+| Giro em Área       | Um ataque giratório de longo alcance.             | Sim             | Pode ser difícil de aparar devido à duração; esquivar costuma ser mais seguro. |
+
+<Callout type="info">
+Todos os três ataques do Golem de Pedra de Éter podem ser aparados e esquivados perfeitamente, oferecendo aos jogadores habilidosos oportunidades para mitigar danos e contra-atacar.
+</Callout>
+
+**A Fase de Teste de DPS:**
+Assim que a vida do Golem de Pedra de Éter cai abaixo de 75%, um teste crítico de DPS começa. Seis cristais roxos aparecerão ao redor da arena. Os jogadores têm exatamente **30 segundos** para destruir todos os seis cristais. Se não o fizerem, resultará em um "wipe" instantâneo para todos na área. Esta fase é frequentemente a principal razão pela qual solar a raid é extremamente difícil, já que geralmente é necessário destruir esses cristais com um único golpe para cumprir o limite de tempo.
+
+<Checklist
+  id="golem-strategy"
+  title="Checklist para o Sucesso na Raid:"
+  items={[
+    "Forme um grupo para a fase de teste de DPS",
+    "Foquem o dano nos cristais roxos imediatamente",
+    "Utilize aparagens e esquivas perfeitas contra os ataques do chefe",
+    "Atribua funções para a destruição dos cristais se estiver em grupo",
+    "Mantenha pelo menos 10% de dano causado para receber o crédito do chefe"
+  ]}
+/>
+
+Se a raid falhar, o portal entrará em um período de recarga de 15 minutos antes de poder ser reativado.
+
+</Section>
+
+<Section icon={Trophy} title="Drops e Recompensas do Golem de Pedra de Éter">
+Derrotar o Golem de Pedra de Éter oferece uma variedade de recompensas valiosas, incluindo equipamentos únicos, materiais e títulos que podem aumentar significativamente o poder e a progressão do seu personagem. O Golem tem 13 drops potenciais, sendo 11 diretamente do chefe e dois do baú que aparece após sua derrota.
+
+**Drops Principais do Golem de Pedra de Éter:**
+| Nome do Item          | Tipo      | Raridade   | Uso Principal                                                                 | Notas                                                                           |
+| :-------------------- | :-------- | :--------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Lâmina de Éter**    | Espada    | Lendário   | Melhor espada para Magia Negra; M2 de Ira aumenta todo o dano em 12%.         | Muito procurada por usuários de magia.                                          |
+| **Mana Wielder**      | Título    | Raro       | +15% de Maestria Mágica, +5% de Mana (após o soft cap).                      | Necessário para desbloquear a classe Arquinitista.                              |
+| Núcleo de Éter Brilhante| Material  | Raro       | Usado pela raça Paladino Híbrido para criar uma graça que aumenta o HP do escudo em 25%.| Específico para Paladinos Híbridos.                                             |
+| Solo de Pedra de Éter | Material  | Comum      | Usado para invocar as Dragon Balls falando com Orion na Torre de Artemis.     | Essencial para invocações de Dragon Ball.                                       |
+| Sigilo de Hemlock     | Material  | Raro       | Um dos quatro materiais necessários para invocar a Bruxa Carmesim.            | Componente para uma invocação de alto nível.                                    |
+| Cristal de Mana Corrompido| Item de Missão| N/A | Item da missão principal da história.                                         | Abordado no guia de nivelamento do jogo.                                        |
+| Martelo de Pedra de Éter| Martelo   | Incomum    | Atualmente funciona como um martelo básico.                                  | Sem propriedades especiais no momento.                                          |
+| Pena, Tier, Núcleo Espiritual | Material | Raro | Equivalentes a partes de demônio; pode forçar a abertura de uma fenda espiritual com os três. | Itens novos com usos em evolução.                                               |
+
+<Callout type="tip">
+Para jogadores que visam a classe Arquinitista, priorizar o drop do título **Mana Wielder** do Golem de Pedra de Éter é crucial devido ao seu status de pré-requisito.
+</Callout>
+
+**Drops do Baú Pós-Golem:**
+Após o Golem ser derrotado, um baú aparecerá contendo recompensas potenciais adicionais.
+As taxas de drop para esses itens não são conhecidas oficialmente, mas estimativas da comunidade as situam em torno de 1-5%.
+
+| Nome do Item           | Tipo     | Raridade   | Uso Principal                                               | Taxa de Drop Estimada |
+| :--------------------- | :------- | :--------- | :---------------------------------------------------------- | :-------------------- |
+| **Alabarda de Pedra de Éter**| Alabarda | Lendário   | Poderosa arma de haste.                                     | 1-5%                  |
+| **Hombreiras de Pedra de Éter**| Armadura | Lendário   | Peça de armadura para os ombros.                            | 1-5%                  |
+
+<Callout type="warning" title="Grind de Drops Raros">
+Obter drops raros como as Hombreiras de Pedra de Éter pode exigir um esforço significativo. Alguns jogadores relatam mais de 200 abates do Golem para adquirir itens lendários específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dicas Avançadas para Raids do Golem">
+Otimizar sua abordagem ao Golem de Pedra de Éter pode aumentar significativamente sua taxa de sucesso e eficiência ao farmar seus drops valiosos.
+
+<CardGrid cols={3}>
+  <Card title="Limiar de Dano">
+    Para receber o crédito por matar o chefe e suas recompensas associadas, você deve causar pelo menos **10% da vida total do Golem** em dano. Para drops de baú, uma contribuição de 5% de dano costuma ser suficiente.
+  </Card>
+  <Card title="Composição do Grupo">
+    Embora solar seja possível para jogadores de nível alto e bem equipados, um grupo é altamente recomendado, especialmente para a fase dos cristais. Tipos de dano diversos e controle de grupo podem tornar a luta muito mais tranquila.
+  </Card>
+  <Card title="Gerenciamento de Aggro">
+    O Golem, como outros chefes em Clover Retribution, foca no jogador que causou mais dano. Em um grupo, o causador de dano mais alto deve estar preparado para tancar ou atrair (kite) os ataques do chefe.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Durante a fase dos cristais, se você não for o destruidor principal de cristais, posicione-se para causar dano ao Golem enquanto fica atento às localizações dos cristais para ajudar se necessário.
+</Callout>
+
+**Cura durante o Combate:**
+Os jogadores podem experimentar uma forma de cura fora de combate mesmo durante a fase de destruição dos cristais. Essa regeneração passiva pode ser crucial para sustentar a vida durante a luta, especialmente se você estiver esquivando ativamente e gerenciando o aggro.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que é o Golem de Pedra de Éter?",
+    answer: "O Golem de Pedra de Éter é o primeiro chefe de raid encontrado em Clover Retribution, localizado na Ilha da Pedra de Éter. Derrotá-lo requer a ativação de um portal com quatro runas específicas."
+  },
+  {
+    question: "Como eu invoco o Golem de Pedra de Éter?",
+    answer: "Você invoca o Golem de Pedra de Éter coletando quatro runas (Terra Despedaçada, Tempestade Furiosa, Desafio Infinito, Ira Colossal) em baús de chefes de evento e colocando-as em seus respectivos pilares de pedra pelo mapa. Isso abre o portal para a Ilha da Pedra de Éter."
+  },
+  {
+    question: "Quais são os principais drops do Golem de Pedra de Éter?",
+    answer: "Os principais drops incluem a Lâmina de Éter (uma espada forte para Magia Negra), o título Mana Wielder (necessário para a classe Arquinitista), Núcleo de Éter Brilhante, Solo de Pedra de Éter e, do baú, a Alabarda de Pedra de Éter e as Hombreiras de Pedra de Éter."
+  },
+  {
+    question: "Posso fazer a raid do Golem de Pedra de Éter sozinho?",
+    answer: "Embora seja tecnicamente possível, solar é extremamente difícil, especialmente durante a fase de destruição dos cristais. Geralmente requer um nível alto (cerca de 100) e a habilidade de destruir os cristais roxos com um único golpe em menos de 30 segundos."
+  }
+]} />
+
+</Section>

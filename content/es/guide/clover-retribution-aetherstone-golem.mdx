@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gólem de Piedra Etérea de Clover Retribution: Guía de Raid y Recompensas",
+  description: "Domina la raid del Gólem de Piedra Etérea en Clover Retribution con nuestra guía completa, que cubre la ubicación de las runas, la mecánica del jefe y las valiosas recompensas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Aetherstone+Golem+Guide",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Gólem de Piedra Etérea** es el primer jefe de raid en Clover Retribution, encontrado en la Isla de Piedra Etérea.
+- Activa el portal colocando cuatro **runas** específicas: Ira, Desafío, Tierra y Tempestad.
+- El Gólem es inmune al **veneno** y causa daño contundente.
+- Rompe los cristales morados en **30 segundos** durante la prueba de DPS para evitar un wipe.
+- Las recompensas clave incluyen la **Hoja Etérea**, el título de Portador de Maná y el equipo de Piedra Etérea.
+</Callout>
+
+<Section icon={Map} title="Accediendo a la Isla de Piedra Etérea y Convocando al Gólem">
+La Isla de Piedra Etérea es la primera raid en Clover Retribution, ofreciendo combates desafiantes y valiosas recompensas. Para acceder, los jugadores deben activar un portal encontrando e insertando cuatro runas específicas en pilares de piedra alrededor del mapa. Aunque no hay un requisito de nivel estricto, para hacer la raid en solitario de manera efectiva a menudo se requiere alcanzar alrededor del nivel 100 para infligir suficiente daño de manera consistente y obtener crédito por el jefe.
+
+**Puntos Destacados del Video:**
+- Demuestra claramente las cuatro ubicaciones de los pilares de runas.
+- Muestra el proceso de inserción de cada runa.
+- Destaca la secuencia de apertura del portal.
+
+<YouTubeEmbed videoId="GVEblODH-Jg" title="Cómo invocar al Gólem + Todas las ubicaciones de runas en Clover Retribution" />
+
+El portal a la Isla de Piedra Etérea se encuentra en el centro del lago, justo al sur de la Aldea Sin Nombre. Activarlo requiere cuatro runas distintas, cada una correspondiente a un pilar de piedra específico.
+
+<Callout type="tip">
+Es una práctica común insertar la Runa de la Ira Colosal al final. Esto asegura que todos los jugadores tengan tiempo suficiente para llegar al portal activado antes de que se cierre, maximizando la participación en la raid.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Adquisición de Runas">
+    Las runas se obtienen de cofres soltados por jefes de evento como el **Señor Bandido** y el **Señor de la Guerra**. La probabilidad de caída se estima en un 30-40% por cofre. Es probable que los jugadores adquieran la mayoría de sus runas de estos dos jefes debido a su accesibilidad.
+  </Card>
+  <Card title="Activación del Portal">
+    Una vez que las cuatro runas se colocan en sus pilares correctos, el portal circular en medio del lago cerca de la Aldea Sin Nombre se abrirá, otorgando acceso a la Isla de Piedra Etérea y al **Gólem de Piedra Etérea**.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de Ubicación y Colocación de Runas">
+Invocar con éxito al Gólem de Piedra Etérea requiere conocer las ubicaciones exactas de las cuatro runas y a qué runa corresponde cada una. Seguir un orden específico también puede agilizar el proceso para los grupos.
+
+<Steps>
+  <Step num="1" title="Runa de la Tierra Destrozada">
+    Dirígete hacia la gran cabeza de calavera cerca del Lobo Alfa. Mira ligeramente a la izquierda, en una colina junto a los goblins. Interactúa con el pilar allí e inserta la Runa de la Tierra Destrozada.
+  </Step>
+  <Step num="2" title="Runa de la Tempestad Furiosa">
+    Desde el punto de aparición principal, vuela directamente hacia el Campamento Bandido, pásalo, en dirección a los Monjes del Viento. Encontrarás un pilar con el que interactuar. Inserta la Runa de la Tempestad Furiosa.
+  </Step>
+  <Step num="3" title="Runa del Desafío Interminable">
+    Ve a la izquierda desde el portal principal hacia el castillo/reino, entre el reino y el área de los ogros. En la esquina junto a las escaleras del reino, encontrarás el pilar para la Runa del Desafío Interminable.
+  </Step>
+  <Step num="4" title="Runa de la Ira Colosal">
+    Este pilar se encuentra directamente junto al portal principal de Piedra Etérea. Desde el punto de aparición, ve directamente hacia el gigantesco portal circular. El pilar está en la esquina a la derecha. Inserta la Runa de la Ira Colosal al final para asegurar que todos puedan entrar al portal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tasas de Caída de Runas">
+La tasa de caída exacta de las runas no está publicada oficialmente, pero las estimaciones de la comunidad sugieren una probabilidad del 30-40% en los cofres de los jefes de evento. Prepárate para un poco de farmeo para recolectar las cuatro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas y Estrategia del Jefe Gólem de Piedra Etérea">
+El Gólem de Piedra Etérea es un oponente formidable con patrones de ataque únicos y una mecánica crítica a mitad de la pelea. Comprender estos elementos es clave para una raid exitosa.
+
+El Gólem es inmune al efecto de estado de **veneno**, y todos sus ataques infligen daño contundente. Los jugadores deben preparar equipo y habilidades que mitiguen este tipo de daño.
+
+**Patrones de Ataque del Gólem:**
+| Nombre del Ataque    | Descripción                                       | Parar/Esquivar | Notas                                                                          |
+| :------------------- | :------------------------------------------------ | :------------- | :----------------------------------------------------------------------------- |
+| Invocación de Puño de Piedra | Invoca un puño de piedra desde debajo del jugador. | Sí             | Requiere una reacción rápida para evitar el daño.                              |
+| Golpe en el Suelo    | Golpea el suelo, causando un área de efecto (AoE).| Sí             | Mantente alerta a la señal para esquivar o parar perfectamente.                |
+| AoE Giratorio        | Un ataque giratorio de amplio alcance.            | Sí             | Puede ser difícil de parar debido a su duración; esquivar suele ser más seguro. |
+
+<Callout type="info">
+Los tres ataques del Gólem de Piedra Etérea pueden ser parados y esquivados perfectamente, ofreciendo a los jugadores hábiles oportunidades para mitigar el daño y contraatacar.
+</Callout>
+
+**La Fase de Prueba de DPS:**
+Una vez que la salud del Gólem de Piedra Etérea cae por debajo del 75%, comienza una prueba de DPS crítica. Aparecerán seis cristales morados alrededor de la arena. Los jugadores tienen exactamente **30 segundos** para destruir los seis cristales. No hacerlo resultará en un wipe instantáneo para todos en el área. Esta fase es a menudo la razón principal por la que hacer la raid en solitario es extremadamente difícil, ya que generalmente se requiere destruir estos cristales de un solo golpe para cumplir con el límite de tiempo.
+
+<Checklist
+  id="golem-strategy"
+  title="Lista de Verificación para el Éxito de la Raid:"
+  items={[
+    "Forma un grupo para la fase de prueba de DPS",
+    "Concéntrate en los cristales morados inmediatamente",
+    "Utiliza paradas y esquivas perfectas para los ataques del jefe",
+    "Asigna roles para la destrucción de cristales si estás en un grupo",
+    "Mantén al menos un 10% de daño infligido para obtener crédito por el jefe"
+  ]}
+/>
+
+Si la raid falla, el portal entrará en un período de enfriamiento de 15 minutos antes de que pueda ser reactivado.
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Botines del Gólem de Piedra Etérea">
+Derrotar al Gólem de Piedra Etérea ofrece una variedad de valiosas recompensas, incluyendo equipo único, materiales y títulos que pueden aumentar significativamente el poder y la progresión de tu personaje. El Gólem tiene 13 posibles botines, 11 directamente del jefe y dos del cofre que aparece después de su derrota.
+
+**Botines Clave del Gólem de Piedra Etérea:**
+| Nombre del Objeto      | Tipo      | Rareza    | Uso Principal                                                              | Notas                                                                           |
+| :--------------------- | :-------- | :-------- | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Hoja Etérea**        | Espada    | Legendario | Mejor espada para Magia Oscura; Ira M2 aumenta todo el daño en un 12%.   | Muy buscada por los usuarios de magia.                                          |
+| **Portador de Maná**   | Título    | Raro      | +15% Dominio Mágico, +5% Maná (después del límite blando).                 | Requerido para desbloquear la clase Arquimago.                                   |
+| Núcleo Etéreo Brillante | Material  | Raro      | Usado por la raza Paladín Híbrido para crear una gracia que aumenta la HP del escudo en un 25%. | Específico para Paladines Híbridos.                                             |
+| Tierra de Piedra Etérea | Material  | Común     | Usado para invocar Esferas del Dragón hablando con Orión en la Torre de Artemisa. | Esencial para las invocaciones de Esferas del Dragón.                           |
+| Sello de Cicuta        | Material  | Raro      | Uno de los cuatro materiales necesarios para invocar a la Bruja Carmesí.   | Componente para una invocación de alto nivel.                                   |
+| Cristal de Maná Corrupto| Objeto de Misión| N/A   | Objeto de misión de la historia principal.                                 | Cubierto en la guía de subida de nivel del juego.                               |
+| Martillo de Piedra Etérea| Martillo  | Poco Común| Actualmente funciona como un martillo básico.                              | Sin propiedades especiales por el momento.                                      |
+| Pluma de Espíritu, Tier, Núcleo | Material | Raro   | Equivalentes a partes de demonio; pueden forzar la apertura de una grieta espiritual con los tres. | Nuevos objetos con usos en evolución.                                           |
+
+<Callout type="tip">
+Para los jugadores que buscan la clase Arquimago, priorizar la obtención del título **Portador de Maná** del Gólem de Piedra Etérea es crucial debido a su estado de prerrequisito.
+</Callout>
+
+**Botines del Cofre Posterior al Gólem:**
+Después de derrotar al Gólem, aparecerá un cofre que contendrá recompensas potenciales adicionales.
+Las tasas de caída de estos objetos no se conocen oficialmente, pero las estimaciones de la comunidad las sitúan alrededor del 1-5%.
+
+| Nombre del Objeto          | Tipo       | Rareza     | Uso Principal                                                 | Tasa de Caída Estimada |
+| :------------------------- | :--------- | :--------- | :---------------------------------------------------------- | :--------------------- |
+| **Alabarda de Piedra Etérea** | Alabarda   | Legendario | Poderosa arma de asta.                                      | 1-5%                   |
+| **Hombreras de Piedra Etérea** | Armadura   | Legendario | Pieza de armadura para hombros.                             | 1-5%                   |
+
+<Callout type="warning" title="Grindeo de Botines Raros">
+Obtener botines raros como las Hombreras de Piedra Etérea puede requerir un esfuerzo significativo. Algunos jugadores reportan más de 200 muertes de Gólems para adquirir objetos legendarios específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consejos Avanzados para Raids del Gólem">
+Optimizar tu enfoque para el Gólem de Piedra Etérea puede aumentar significativamente tu tasa de éxito y eficiencia al farmear sus valiosas recompensas.
+
+<CardGrid cols={3}>
+  <Card title="Umbral de Daño">
+    Para recibir crédito por la muerte de un jefe y sus recompensas asociadas, debes infligir al menos el **10% de la salud total del Gólem** en daño. Para los botines de cofre, una contribución de daño del 5% suele ser suficiente.
+  </Card>
+  <Card title="Composición del Grupo">
+    Aunque es posible jugar en solitario para jugadores de alto nivel y bien equipados, se recomienda encarecidamente un grupo, especialmente para la fase de cristales. Diversos tipos de daño y control de multitudes pueden hacer que la pelea sea mucho más fluida.
+  </Card>
+  <Card title="Gestión de Agresividad">
+    El Gólem, al igual que otros jefes en Clover Retribution, apunta al jugador que ha infligido más daño. En un grupo, el que inflige más daño debe estar preparado para tanquear o kitear los ataques del jefe.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Durante la fase de cristales, si no eres el destructor principal de cristales, posicionate para infligir daño al Gólem mientras estás atento a la ubicación de los cristales para ayudar si es necesario.
+</Callout>
+
+**Curación durante el Combate:**
+Los jugadores pueden experimentar una forma de curación fuera de combate incluso durante la fase de destrucción de cristales. Esta regeneración pasiva puede ser crucial para mantener la salud durante la pelea, especialmente si estás esquivando activamente y gestionando la agresividad.
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es el Gólem de Piedra Etérea?",
+    answer: "El Gólem de Piedra Etérea es el primer jefe de raid encontrado en Clover Retribution, ubicado en la Isla de Piedra Etérea. Derrotarlo requiere activar un portal con cuatro runas específicas."
+  },
+  {
+    question: "¿Cómo invoco al Gólem de Piedra Etérea?",
+    answer: "Invocas al Gólem de Piedra Etérea recolectando cuatro runas (Tierra Destrozada, Tempestad Furiosa, Desafío Interminable, Ira Colosal) de los cofres de los jefes de evento y colocándolas en sus respectivos pilares de piedra alrededor del mapa. Esto abre el portal a la Isla de Piedra Etérea."
+  },
+  {
+    question: "¿Cuáles son los botines clave del Gólem de Piedra Etérea?",
+    answer: "Los botines clave incluyen la Hoja Etérea (una espada fuerte para Magia Oscura), el título de Portador de Maná (requerido para la clase Arquimago), Núcleo Etéreo Brillante, Tierra de Piedra Etérea, y del cofre, la Alabarda de Piedra Etérea y las Hombreras de Piedra Etérea."
+  },
+  {
+    question: "¿Puedo hacer la raid del Gólem de Piedra Etérea en solitario?",
+    answer: "Aunque técnicamente es posible, hacerlo en solitario es extremadamente difícil, especialmente durante la fase de destrucción de cristales. Típicamente requiere un nivel alto (alrededor del 100) y la capacidad de destruir los cristales morados de un solo golpe en 30 segundos."
+  }
+]} />
+
+</Section>

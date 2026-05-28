@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Aetherstone Golem: Panduan Raid & Drop",
+  description: "Kuasai raid Aetherstone Golem di Clover Retribution dengan panduan komprehensif kami, mencakup lokasi rune, mekanisme bos, dan drop berharga.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/800080/fff?text=Aetherstone+Golem+Guide",
+  date: "2026-05-28",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Aetherstone Golem** adalah bos raid pertama di Clover Retribution, ditemukan di Aetherstone Isle.
+- Aktifkan portal dengan menempatkan empat **rune** spesifik: Wrath, Challenge, Earth, dan Tempest.
+- Golem kebal terhadap **racun** dan memberikan kerusakan tumpul.
+- Hancurkan kristal ungu dalam waktu **30 detik** selama pemeriksaan DPS untuk menghindari wipe.
+- Drop utama termasuk **Aether Blade**, gelar Mana Wielder, dan peralatan Aetherstone.
+</Callout>
+
+<Section icon={Map} title="Mengakses Aetherstone Isle dan Memanggil Golem">
+Aetherstone Isle adalah raid pertama di Clover Retribution, menawarkan pertarungan yang menantang dan hadiah berharga. Untuk mendapatkan akses, pemain harus mengaktifkan portal dengan menemukan dan memasukkan empat rune spesifik ke pilar batu di sekitar peta. Meskipun tidak ada persyaratan level yang ketat, melakukan solo raid secara efektif seringkali membutuhkan level sekitar 100 untuk secara konsisten memberikan kerusakan yang cukup untuk kredit bos.
+
+**Sorotan Video:**
+- Menunjukkan dengan jelas keempat lokasi pilar rune.
+- Menunjukkan proses memasukkan setiap rune.
+- Menyoroti urutan pembukaan portal.
+
+<YouTubeEmbed videoId="GVEblODH-Jg" title="Cara Memunculkan Golem + Semua Lokasi Rune Clover Retribution" />
+
+Portal ke Aetherstone Isle terletak di tengah danau tepat di selatan Unnamed Village. Mengaktifkannya membutuhkan empat rune yang berbeda, masing-masing sesuai dengan pilar batu tertentu.
+
+<Callout type="tip">
+Adalah praktik umum untuk memasukkan Rune of Colossal Wrath terakhir. Ini memastikan bahwa semua pemain memiliki waktu yang cukup untuk mencapai portal yang diaktifkan sebelum ditutup, memaksimalkan partisipasi dalam raid.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Akuisisi Rune">
+    Rune diperoleh dari peti yang dijatuhkan oleh bos event seperti **Bandit Lord** dan **Warlord**. Tingkat drop diperkirakan sekitar 30-40% per peti. Pemain kemungkinan besar akan mendapatkan sebagian besar rune mereka dari kedua bos ini karena aksesibilitasnya.
+  </Card>
+  <Card title="Aktivasi Portal">
+    Setelah keempat rune ditempatkan di pilar yang benar, portal melingkar di tengah danau dekat Unnamed Village akan terbuka, memberikan akses ke Aetherstone Isle dan **Aetherstone Golem**.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Lokasi Rune dan Panduan Penempatan">
+Berhasil memanggil Aetherstone Golem membutuhkan pengetahuan tentang lokasi pasti keempat runestone dan rune mana yang sesuai dengan masing-masing. Mengikuti urutan tertentu juga dapat menyederhanakan proses untuk kelompok.
+
+<Steps>
+  <Step num="1" title="Rune of Shattered Earth">
+    Pergilah menuju kepala tengkorak besar di dekat Alpha Wolf. Lihat sedikit ke kiri, di atas bukit di dekat goblin. Berinteraksi dengan pilar di sana dan masukkan Rune of Shattered Earth.
+  </Step>
+  <Step num="2" title="Rune of Raging Tempest">
+    Dari spawn utama, terbang langsung menuju Bandit Camp, melewati itu, ke arah Wind Monks. Anda akan menemukan pilar untuk berinteraksi. Masukkan Rune of Raging Tempest.
+  </Step>
+  <Step num="3" title="Rune of Endless Challenge">
+    Pergi ke kiri dari portal utama menuju kastil/kerajaan, di antara kerajaan dan area ogre. Di sudut di samping tangga kerajaan, Anda akan menemukan pilar untuk Rune of Endless Challenge.
+  </Step>
+  <Step num="4" title="Rune of Colossal Wrath">
+    Pilar ini terletak tepat di samping portal utama Aetherstone. Dari spawn, lurus menuju portal melingkar raksasa. Pilar berada di sudut kanan. Masukkan Rune of Colossal Wrath terakhir untuk memastikan semua orang dapat memasuki portal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tingkat Drop Rune">
+Tingkat drop pasti untuk rune tidak dipublikasikan secara resmi, tetapi perkiraan komunitas menunjukkan peluang 30-40% dari peti bos event. Bersiaplah untuk grinding untuk mengumpulkan keempatnya.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanisme dan Strategi Bos Aetherstone Golem">
+Aetherstone Golem adalah lawan yang tangguh dengan pola serangan unik dan mekanisme kritis di tengah pertarungan. Memahami elemen-elemen ini adalah kunci untuk raid yang sukses.
+
+Golem kebal terhadap efek status **racun**, dan semua serangannya memberikan kerusakan tumpul. Pemain harus mempersiapkan perlengkapan dan kemampuan yang mengurangi jenis kerusakan ini.
+
+**Pola Serangan Golem:**
+| Nama Serangan      | Deskripsi                                         | Parry/Dodge | Catatan                                                                        |
+| :----------------- | :------------------------------------------------ | :---------- | :----------------------------------------------------------------------------- |
+| Stone Fist Summon  | Memanggil tinju batu dari bawah pemain.           | Ya          | Membutuhkan reaksi cepat untuk menghindari kerusakan.                          |
+| Ground Slam        | Menghempas tanah, menyebabkan area-of-effect (AoE).| Ya          | Tetap waspada terhadap tanda untuk menghindari atau menangkis dengan sempurna. |
+| Spinning AoE       | Serangan berputar yang luas.                      | Ya          | Bisa jadi sulit untuk ditangkis karena durasinya; menghindar seringkali lebih aman. |
+
+<Callout type="info">
+Ketiga serangan Aetherstone Golem dapat ditangkis dan dihindari dengan sempurna, menawarkan pemain terampil peluang untuk mengurangi kerusakan dan melakukan serangan balik.
+</Callout>
+
+**Fase Pemeriksaan DPS:**
+Setelah kesehatan Aetherstone Golem turun di bawah 75%, pemeriksaan DPS kritis dimulai. Enam kristal ungu akan muncul di sekitar arena. Pemain memiliki waktu tepat **30 detik** untuk menghancurkan keenam kristal. Kegagalan untuk melakukannya akan mengakibatkan wipe instan untuk semua orang di area tersebut. Fase ini seringkali menjadi alasan utama mengapa melakukan solo raid sangat sulit, karena menghancurkan kristal ini dalam satu pukulan biasanya diperlukan untuk memenuhi batas waktu.
+
+<Checklist
+  id="golem-strategy"
+  title="Daftar Periksa Keberhasilan Raid:"
+  items={[
+    "Bentuk grup untuk fase pemeriksaan DPS",
+    "Fokus tembakan pada kristal ungu segera",
+    "Manfaatkan parry dan perfect dodge untuk serangan bos",
+    "Tetapkan peran untuk penghancuran kristal jika dalam grup",
+    "Pertahankan setidaknya 10% kerusakan yang diberikan untuk kredit bos"
+  ]}
+/>
+
+Jika raid gagal, portal akan memasuki periode cooldown 15 menit sebelum dapat diaktifkan kembali.
+
+</Section>
+
+<Section icon={Trophy} title="Drop dan Hadiah Aetherstone Golem">
+Mengalahkan Aetherstone Golem menawarkan berbagai hadiah berharga, termasuk peralatan unik, material, dan gelar yang dapat secara signifikan meningkatkan kekuatan dan kemajuan karakter Anda. Golem memiliki 13 potensi drop, dengan 11 langsung dari bos dan dua dari peti yang muncul setelah kekalahannya.
+
+**Drop Utama dari Aetherstone Golem:**
+| Nama Item             | Tipe      | Kelangkaan | Penggunaan Utama                                                             | Catatan                                                                           |
+| :-------------------- | :-------- | :----- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Aether Blade**      | Pedang    | Legendaris | Pedang terbaik untuk Sihir Gelap; Wrath M2 meningkatkan semua kerusakan sebesar 12%. | Sangat dicari oleh pengguna sihir.                                            |
+| **Mana Wielder**      | Gelar     | Langka   | +15% Penguasaan Sihir, +5% Mana (setelah soft cap).                          | Diperlukan untuk membuka kelas Archinist.                                         |
+| Gleaming Aether Core  | Material  | Langka   | Digunakan oleh ras Hybrid Paladin untuk menciptakan rahmat yang meningkatkan HP perisai sebesar 25%. | Spesifik untuk Hybrid Paladin.                                                    |
+| Aetherstone Soil      | Material  | Umum   | Digunakan untuk memanggil Bola Naga dengan berbicara kepada Orion di Artemis Tower. | Penting untuk pemanggilan Bola Naga.                                              |
+| Hemlock Sigil         | Material  | Langka   | Salah satu dari empat material yang dibutuhkan untuk memanggil Crimson Witch. | Komponen untuk pemanggilan tingkat tinggi.                                               |
+| Corrupted Mana Crystal| Item Quest| N/A    | Item quest cerita utama.                                                      | Dibahas dalam panduan leveling game.                                           |
+| Aetherstone Hammer    | Palu      | Tidak Umum | Saat ini berfungsi sebagai palu dasar.                                      | Tidak ada properti khusus saat ini.                                            |
+| Spirit Feather, Tier, Core | Material | Langka | Setara dengan bagian iblis; dapat memaksa keretakan roh terbuka dengan ketiganya. | Item yang lebih baru dengan penggunaan yang berkembang.                                                 |
+
+<Callout type="tip">
+Bagi pemain yang mengincar kelas Archinist, memprioritaskan drop gelar **Mana Wielder** dari Aetherstone Golem sangat penting karena status prasyaratnya.
+</Callout>
+
+**Drop dari Peti Pasca-Golem:**
+Setelah Golem dikalahkan, peti akan muncul yang berisi hadiah potensial tambahan.
+Tingkat drop untuk item-item ini tidak diketahui secara resmi, tetapi perkiraan komunitas menempatkannya sekitar 1-5%.
+
+| Nama Item           | Tipe     | Kelangkaan | Penggunaan Utama                                                 | Perkiraan Tingkat Drop |
+| :------------------ | :------- | :----- | :---------------------------------------------------------- | :------------------ |
+| **Aetherstone Halberd** | Halberd  | Legendaris | Polearm yang kuat.                                           | 1-5%                |
+| **Aetherstone Pauldrons** | Armor    | Legendaris | Potongan armor bahu.                                       | 1-5%                |
+
+<Callout type="warning" title="Grinding Drop Langka">
+Mendapatkan drop langka seperti Aetherstone Pauldrons mungkin membutuhkan usaha yang signifikan. Beberapa pemain melaporkan lebih dari 200 pembunuhan Golem untuk mendapatkan item legendaris tertentu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tips Lanjutan untuk Raid Golem">
+Mengoptimalkan pendekatan Anda terhadap Aetherstone Golem dapat secara signifikan meningkatkan tingkat keberhasilan dan efisiensi Anda dalam mengumpulkan drop berharganya.
+
+<CardGrid cols={3}>
+  <Card title="Ambang Batas Kerusakan">
+    Untuk menerima kredit atas pembunuhan bos dan hadiah terkait, Anda harus memberikan setidaknya **10% dari total kesehatan Golem** dalam kerusakan. Untuk drop peti, kontribusi kerusakan 5% seringkali sudah cukup.
+  </Card>
+  <Card title="Komposisi Grup">
+    Meskipun soloing dimungkinkan untuk pemain tingkat tinggi yang dilengkapi dengan baik, grup sangat direkomendasikan, terutama untuk fase kristal. Berbagai jenis kerusakan dan kontrol kerumunan dapat membuat pertarungan jauh lebih lancar.
+  </Card>
+  <Card title="Manajemen Aggro">
+    Golem, seperti bos lain di Clover Retribution, menargetkan pemain yang telah memberikan kerusakan paling banyak. Dalam grup, pemberi kerusakan tertinggi harus siap untuk menahan atau menarik serangan bos.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Selama fase kristal, jika Anda bukan penghancur kristal utama, posisikan diri Anda untuk memberikan kerusakan pada Golem sambil tetap waspada terhadap lokasi kristal untuk membantu jika diperlukan.
+</Callout>
+
+**Penyembuhan selama Pertarungan:**
+Pemain dapat mengalami bentuk penyembuhan di luar pertarungan bahkan selama fase penghancuran kristal. Regenerasi pasif ini bisa sangat penting untuk menjaga kesehatan selama pertarungan, terutama jika Anda aktif menghindari dan mengelola aggro.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Apa itu Aetherstone Golem?",
+    answer: "Aetherstone Golem adalah bos raid pertama yang ditemui di Clover Retribution, terletak di Aetherstone Isle. Mengalahkannya membutuhkan aktivasi portal dengan empat rune spesifik."
+  },
+  {
+    question: "Bagaimana cara memanggil Aetherstone Golem?",
+    answer: "Anda memanggil Aetherstone Golem dengan mengumpulkan empat rune (Shattered Earth, Raging Tempest, Endless Challenge, Colossal Wrath) dari peti bos event dan menempatkannya di pilar batu masing-masing di sekitar peta. Ini membuka portal ke Aetherstone Isle."
+  },
+  {
+    question: "Apa saja drop utama dari Aetherstone Golem?",
+    answer: "Drop utama termasuk Aether Blade (pedang kuat untuk Sihir Gelap), gelar Mana Wielder (diperlukan untuk kelas Archinist), Gleaming Aether Core, Aetherstone Soil, dan dari peti, Aetherstone Halberd dan Aetherstone Pauldrons."
+  },
+  {
+    question: "Bisakah saya melakukan solo raid Aetherstone Golem?",
+    answer: "Meskipun secara teknis mungkin, soloing sangat sulit, terutama selama fase penghancuran kristal. Biasanya dibutuhkan level tinggi (sekitar 100) dan kemampuan untuk menghancurkan kristal ungu dalam satu pukulan dalam waktu 30 detik."
+  }
+]} />
+
+</Section>

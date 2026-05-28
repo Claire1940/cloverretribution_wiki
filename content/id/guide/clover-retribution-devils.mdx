@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Iblis Clover Retribution: Panduan Progresi 2026 & Peringkat Stat",
+  description: "Kuasai sistem iblis Clover Retribution dengan panduan 2026 kami. Pelajari tentang rift, kontrak, trait Chibi, dan cara tercepat untuk memaksimalkan Union Mastery Anda.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Devil+Progression+Guide",
+  date: "2026-05-28",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Iblis Clover Retribution** membutuhkan level minimum 150 untuk memulai progresi dan memasuki rift khusus.
+- **Unbound Contract** lebih unggul daripada Bound Contract karena tidak memberikan debuff stat atau sumber daya permanen.
+- **Union Mastery** membutuhkan sekitar 14 jam waktu aktif untuk dimaksimalkan, membuka bentuk Chibi di titik tengah.
+- **Intelligence** saat ini merupakan meta-stat untuk semua build, karena secara langsung meningkatkan damage spell iblis yang kuat.
+- **Wisdom Soul** dan item spesifik stat lainnya sangat penting untuk mencapai batas level 600 pada iblis Tier 4.
+</Callout>
+
+<Section icon={Target} title="Memulai dengan Iblis Clover Retribution">
+
+Memasuki dunia **iblis Clover Retribution** adalah upaya tingkat tinggi yang secara mendasar mengubah batas kekuatan karakter Anda. Sebelum Anda dapat melihat rift, Anda harus memenuhi persyaratan progresi yang ketat. Rintangan terpenting adalah mencapai Level 150. Setelah Anda mencapai tonggak sejarah ini, Anda harus menemukan "Mysterious Guy" di Desa Gurun (Desert Village) untuk memulai pencarian Rute Iblis (Devil’s Route).
+
+**Sorotan Video:**
+- Panduan mendalam tentang persyaratan Level 150 dan quest Desa Gurun.
+- Cara menavigasi Rute Iblis dan menemukan Fabio, sang Advokat Iblis.
+- Penjelasan mengapa iblis Tier 3 dan Tier 4 adalah satu-satunya pilihan jangka panjang yang layak.
+- Rincian tentang grinding Union Mastery selama 14 jam.
+
+<YouTubeEmbed videoId="ylSCHymg5Bw" title="Clover Retribution Untuk Pemula: Panduan Iblis" />
+
+Untuk memasuki area "Devil's Route" di selatan Golem Portal, Anda mungkin perlu mengetik "darkness unveils the truth" di chat untuk membuka pintu tersembunyi. Di dalam, Anda akan bertemu Fabio, sang Advokat Iblis. Dia adalah NPC pusat untuk mengelola iblis Anda, membeli fragmen soul, dan melakukan reroll trait.
+
+<Callout type="warning" title="Persyaratan Level">
+Jangan mencoba berburu iblis sebelum Level 150. Anda tidak dapat memasuki rift, dan bahkan jika Anda bisa, kesulitan pertempuran iblis Tier 3 dan 4 membutuhkan build level yang hampir maksimal untuk berhasil.
+</Callout>
+
+| Persyaratan | Deskripsi |
+| :--- | :--- |
+| **Level Minimum** | Level 150 wajib untuk rift dan quest Rute Iblis |
+| **Lokasi** | Desa Gurun (Mysterious Guy) dan Rute Iblis (Fabio) |
+| **Kode Masuk** | "darkness unveils the truth" (diketik di chat pada dinding) |
+| **Mata Uang** | Gold untuk bagian dasar/soul, Devil Heart untuk peningkatan tier |
+
+</Section>
+
+<Section icon={Map} title="Devil Rift, Tier, dan Mekanisme Spawn">
+
+Menemukan iblis melibatkan pemantauan world event. Ada peluang dasar 1% untuk Devil Rift muncul selama event besar apa pun. Namun, Anda dapat meningkatkan peluang ini secara signifikan dengan berpartisipasi dalam aktivitas dunia tertentu. Mengorbankan Mana Wisp adalah metode yang paling andal, dengan setiap wisp menambahkan 1% ke peluang spawn, maksimal bonus 20%.
+
+Rift diberi kode warna berdasarkan stat utama iblis. Meskipun Anda dapat mereroll stat ini nanti menggunakan Mata Iblis (Devil Eye), menemukan warna yang tepat sejak dini dapat menghemat sumber daya Anda.
+
+| Warna Rift | Stat Utama | Buff yang Diberikan |
+| :--- | :--- | :--- |
+| **Ungu** | Intelligence | Peningkatan Magic Damage |
+| **Merah** | Constitution | Pengurangan Damage dan HP |
+| **Oranye** | Strength | Peningkatan Bludgeoning Damage |
+| **Kuning** | Dexterity | Damage Slashing dan Piercing |
+
+Rift juga hadir dalam empat tier. Anda harus selalu menargetkan rift Tier 3 atau Tier 4, yang ditandai dengan petir hitam yang berkedip di sekitar portal. Iblis Tier 1 dan 2 umumnya dianggap sebagai "bahan" karena mereka memiliki batas level yang lebih rendah (200-300) dan hanya dapat ditingkatkan satu kali.
+
+<Callout type="tip" title="Identifikasi Tier">
+Selalu cari petir hitam. Iblis Tier 4 dapat mencapai Level 600, memberikan total 1.200 stat jika merupakan tipe Corrupt. Iblis Tier 1 hanya mencapai batas 600 total stat, membuatnya jauh lebih lemah di endgame.
+</Callout>
+
+| Tier Iblis | Peluang Spawn | Batas Level | Timer Despawn |
+| :--- | :--- | :--- | :--- |
+| **Tier 1** | 58% | Level 200 | 10 Menit |
+| **Tier 2** | 29% | Level 300 | 15 Menit |
+| **Tier 3** | 12% | Level 400 | 25 Menit |
+| **Tier 4** | 1% | Level 600 | 35 Menit |
+
+</Section>
+
+<Section icon={Swords} title="Bound vs. Unbound Contract">
+
+Saat Anda memasuki rift dan menghadapi iblis, Anda dihadapkan pada pilihan: menjalin kontrak atau bertarung. Ini adalah keputusan paling kritis dalam perjalanan **iblis Clover Retribution** Anda. Membuat Bound Contract lebih mudah tetapi disertai dengan penalti permanen yang melemahkan.
+
+<CardGrid cols={2}>
+  <Card title="Bound Contract">
+    - **Kelebihan**: Akses instan ke 50% stat iblis. Tidak perlu bertarung.
+    - **Kekurangan**: Debuff permanen (kehilangan EXP, pengurangan HP, atau pengurangan Gold). Terbatas pada 50% Union.
+  </Card>
+  <Card title="Unbound Contract">
+    - **Kelebihan**: Akses ke 80%+ stat iblis. Tidak ada debuff permanen. Tidak ada batas Union.
+    - **Kekurangan**: Membutuhkan kemenangan melawan iblis dalam pertarungan boss 1v1.
+  </Card>
+</CardGrid>
+
+Jika Anda memilih jalur Bound, Anda harus memilih pengorbanan. Penalti ini tetap ada bahkan jika Anda menyimpan iblis di penyimpanan game pass.
+
+| Tipe Pengorbanan | Deskripsi Penalti |
+| :--- | :--- |
+| **Offer Potential** | Kehilangan 50% semua EXP (Level, Magic, dan Weapon) |
+| **Offer Wealth** | Kehilangan 50% dari semua Gold yang didapat |
+| **Offer Life** | Pengurangan permanen 25% dari Max HP Anda |
+| **Offer Soul** | Debuff Soul Drain permanen (secara perlahan menghancurkan soul) |
+
+<Callout type="success" title="Aturan Emas">
+Selalu pilih Unbound Contract. Pertarungannya sulit, tetapi tidak adanya debuff permanen dan batas stat yang lebih tinggi menjadikannya satu-satunya pilihan yang layak bagi pemain serius.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Union Mastery dan Evolusi Chibi">
+
+Setelah Anda mendapatkan iblis, Anda harus meningkatkan Union Mastery Anda. Ini adalah ukuran waktu yang dihabiskan dalam Mode Union (diaktifkan dengan menekan T). Dibutuhkan sekitar 50.000 detik (13,88 jam) untuk memaksimalkan bar ini sepenuhnya.
+
+<Steps>
+  <Step num="1" title="Union Awal">
+    Mulai gunakan mode Union. Pada tahap ini, konsumsi mana tinggi (10 mana/detik) dan Anda tidak memiliki indikator visual.
+  </Step>
+  <Step num="2" title="Buka Chibi (7 Jam)">
+    Pada tanda 25.000 detik, iblis Anda menyusut menjadi bentuk Chibi yang melayang di atas bahu Anda. Anda sekarang dapat menaikkan level Chibi secara terpisah.
+  </Step>
+  <Step num="3" title="Tanda Wajah (10% Union)">
+    Setelah mencapai 10% Union Percent, karakter Anda mendapatkan tanda wajah yang khas, dan penggunaan mana mulai berkurang berdasarkan mastery.
+  </Step>
+  <Step num="4" title="Mastery Maksimal (14 Jam)">
+    Pada 50.000 detik, Anda membuka Tanduk dalam mode Union. Penggunaan mana dikurangi ke minimum (5 mana/detik).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tips Efisiensi">
+Jangan mendorong Union Percent Anda melewati 9% sampai Anda memaksimalkan Mastery Anda. Jika Anda mencapai 10% Union dengan Mastery rendah, pengurasan mana akan hampir dua kali lipat, memaksa Anda untuk mengumpulkan fragmen soul dua kali lebih banyak.
+</Callout>
+
+Memberi makan Chibi Anda bagian-bagian iblis yang lebih rendah (Heart, Eye, Horn) akan meningkatkan levelnya. Pada level 5, Chibi membuka trait pasif permanen.
+
+<Checklist
+  id="chibi-traits"
+  title="Kemungkinan Trait Chibi:"
+  items={[
+    "Imp's Vitality: +5% Max Health",
+    "Fiendish Strength: +2% Semua Damage",
+    "Devil Mana Surge: +10% Devil Mana",
+    "Demonic Fury: +6% Semua Damage (Langka)",
+    "Devilish Soul Drain: Memulihkan mana saat menggunakan spell"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Kepribadian Iblis dan Meditasi">
+
+Kepribadian iblis Anda menentukan bagaimana Anda mendapatkan Devil XP dan pertanyaan apa yang akan diajukan selama meditasi. Untuk mengidentifikasi kepribadian iblis Anda, masuk ke mode Union dan tunggu 11 menit. Iblis akan mulai membisikkan pesan.
+
+| Kepribadian | Pesan Identifikasi | Tipe Quest |
+| :--- | :--- | :--- |
+| **Penuh Dendam** | "They should suffer" / "Forsake mercy" | Bunuh boss sendirian / Bunuh pemain |
+| **Misterius** | "Will you delve deeper?" / "You must explore" | Selesaikan quest level tinggi / Boss event |
+| **Sombong** | "You don't need anyone else" / "Not enough souls" | Bunuh boss sendirian (Tanpa Party) |
+
+Meditasi adalah cara utama untuk meningkatkan Hubungan (Relation) dengan iblis Anda. Anda harus bermeditasi (tekan N) selama 10 menit berturut-turut untuk memicu percakapan. Jawaban yang benar memberikan +3 Relation.
+
+<Callout type="info" title="Jawaban Meditasi">
+Jawaban yang benar berubah setelah Anda melewati 30 Relation. Selalu pastikan Anda memberikan respons spesifik yang diminta oleh kepribadian iblis Anda.
+</Callout>
+
+| Kepribadian | Jawaban Pertanyaan 1 | Jawaban Pertanyaan 2 (30+ Rel) |
+| :--- | :--- | :--- |
+| **Penuh Dendam** | "Reduce it to ash" | "Expose and break the traitor" |
+| **Misterius** | "In the heart of night" | "Step with purpose" |
+| **Sombong** | "Your name, mighty one" | "Who earns loyal hearts" |
+
+</Section>
+
+<Section icon={Trophy} title="Farming Soul dan Optimalisasi Stat">
+
+Untuk mencapai potensi maksimal dari **iblis Clover Retribution** Anda, Anda harus memberi mereka Stat Soul. Item ini meningkatkan stat tertentu dan memulihkan mana iblis. Intelligence (Wisdom Soul) adalah prioritas saat ini karena spell iblis seperti Hellflame Torrent berskala secara eksklusif dengan stat Intelligence iblis.
+
+| Tipe Soul | Stat Utama | Sumber Drop |
+| :--- | :--- | :--- |
+| **Soul of Wisdom** | Intelligence | Shadow Hand Goon, Alpha Wolf, Gauntlet |
+| **Soul of Fortitude** | Constitution | Stone Guardian, Desert Claw, Gauntlet |
+| **Soul of Valor** | Strength | Ogre, Yeti, Gauntlet |
+| **Soul of Nimbleness** | Dexterity | Serigala, Iblis Rendah, Gauntlet |
+
+<Callout type="success" title="Penyebaran Stat Sempurna">
+Untuk iblis Tier 4, targetkan 450 Intelligence dan 150 Constitution. Jika Anda memiliki iblis Corrupt, Anda dapat mendorong Intelligence hingga 600, menghasilkan output damage yang masif untuk spell Union Anda.
+</Callout>
+
+Terakhir, Anda dapat membuat peralatan yang kuat menggunakan drop iblis. Seri senjata "Sin" membutuhkan sayap, ekor, dan gigi yang dijatuhkan dari iblis tingkat tinggi. Senjata-senjata ini memberikan efek mana burn dan bonus damage terhadap makhluk cahaya (Spirit).
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan lebih banyak Devilish Mana?",
+    answer: "Satu-satunya cara untuk memulihkan Devilish Mana adalah dengan mengonsumsi Soul Fragment atau Stat Soul. Anda dapat membeli fragmen dasar dari Fabio atau mencarinya dari NPC seperti Shadow Hand Goons."
+  },
+  {
+    question: "Bisakah saya mengubah tipe magic iblis saya?",
+    answer: "Ya, Anda dapat menggunakan Abyssal Relic untuk reroll antara Hellfire, Curse, dan Anti-Magic. Namun, ini akan mereset Union Percent Anda ke nol dan mengurangi Relation Anda sebanyak 10."
+  },
+  {
+    question: "Apa itu Iblis Corrupt?",
+    answer: "Ada peluang 5% untuk iblis mana pun muncul sebagai Corrupt, yang ditandai dengan petir hitam kecil. Iblis Corrupt memiliki batas stat yang lebih tinggi, memberikan hingga 120 stat tambahan pada Tier 4."
+  },
+  {
+    question: "Bagaimana cara membuka Spell Iblis?",
+    answer: "Setelah Anda mencapai 25% Union dan 30 Relation, Anda dapat memilih 'Devil Training' saat berbicara dengan iblis Anda. Mengalahkan iblis Anda dalam latihan ini memiliki peluang 75% untuk membuka spell uniknya."
+  }
+]} />
+
+</Section>

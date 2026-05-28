@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Demônios de Retribuição de Trevo: Guia de Progressão 2026 e Ranking de Atributos",
+  description: "Domine o sistema de demônios de Retribuição de Trevo com nosso guia de 2026. Aprenda sobre fendas, contratos, características Chibi e a maneira mais rápida de maximizar sua Maestria de União.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Devil+Progression+Guide",
+  date: "2026-05-28",
+  author: "Equipe da Wiki de Retribuição de Trevo",
+  keywords: "retribuição de trevo, demônios, guia de progressão, maestria de união, chibi"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **demônios de Retribuição de Trevo** exigem um nível mínimo de 150 para iniciar a progressão e entrar em fendas especializadas.
+- **Contratos Não Vinculados (Unbound)** são superiores aos Contratos Vinculados porque não impõem penalidades permanentes de atributos ou recursos.
+- A **Maestria de União** leva aproximadamente 14 horas de tempo ativo para ser maximizada, desbloqueando a forma Chibi na metade do caminho.
+- **Inteligência** é atualmente o atributo meta para todas as builds, pois escala diretamente o dano de poderosos feitiços demoníacos.
+- **Almas da Sabedoria** e outros itens específicos de atributos são essenciais para atingir o limite de nível 600 em demônios de Tier 4.
+</Callout>
+
+<Section icon={Target} title="Começando com os Demônios de Retribuição de Trevo">
+
+Entrar no mundo dos **demônios de Retribuição de Trevo** é um empreendimento de alto nível que muda fundamentalmente o teto de poder do seu personagem. Antes mesmo de conseguir ver uma fenda, você deve atender a requisitos rigorosos de progressão. O obstáculo mais importante é atingir o Nível 150. Assim que atingir esse marco, você deve localizar o "Cara Misterioso" (Mysterious Guy) na Vila do Deserto para iniciar a missão da Rota do Demônio.
+
+**Destaques do Vídeo:**
+- Passo a passo detalhado do requisito de Nível 150 e da missão na Vila do Deserto.
+- Como navegar pela Rota do Demônio e encontrar Fabio, o Advogado do Demônio.
+- Explicação de por que demônios de Tier 3 e Tier 4 são as únicas escolhas viáveis a longo prazo.
+- Detalhamento do grind de 14 horas da Maestria de União.
+
+<YouTubeEmbed videoId="ylSCHymg5Bw" title="Retribuição de Trevo para Iniciantes: Guia de Demônios" />
+
+Para entrar na área da "Rota do Demônio" ao sul do Portal do Golem, você pode precisar digitar "darkness unveils the truth" no chat para abrir a porta escondida. Lá dentro, você encontrará Fabio, o Advogado do Demônio. Ele é o NPC central para gerenciar seu demônio, comprar fragmentos de alma e trocar características (reroll).
+
+<Callout type="warning" title="Requisito de Nível">
+Não tente caçar demônios antes do Nível 150. Você não poderá entrar nas fendas e, mesmo que pudesse, a dificuldade de combate dos demônios de Tier 3 e 4 exige uma build de nível quase máximo para ter sucesso.
+</Callout>
+
+| Requisito | Descrição |
+| :--- | :--- |
+| **Nível Mínimo** | Nível 150 é obrigatório para fendas e para a missão da Rota do Demônio |
+| **Localização** | Vila do Deserto (Cara Misterioso) e Rota do Demônio (Fabio) |
+| **Código de Entrada** | "darkness unveils the truth" (digitado no chat próximo à parede) |
+| **Moeda** | Ouro para partes/almas básicas, Corações Demoníacos para upgrades de tier |
+
+</Section>
+
+<Section icon={Map} title="Fendas Demoníacas, Tiers e Mecânicas de Spawn">
+
+Encontrar um demônio envolve monitorar eventos mundiais. Existe uma chance base de 1% de uma Fenda Demoníaca aparecer durante qualquer evento importante. No entanto, você pode aumentar significativamente essas chances participando de atividades mundiais específicas. Sacrificar Mana Wisps é o método mais confiável, com cada wisp adicionando 1% à chance de spawn, limitando-se a um bônus de 20%.
+
+As fendas são codificadas por cores com base no atributo principal do demônio. Embora você possa trocar esses atributos mais tarde usando um Olho de Demônio, encontrar a cor certa cedo pode economizar recursos.
+
+| Cor da Fenda | Atributo Principal | Bônus Fornecido |
+| :--- | :--- | :--- |
+| **Roxo** | Inteligência | Aumento de Dano Mágico |
+| **Vermelho** | Constituição | Redução de Dano e HP |
+| **Laranja** | Força | Aumento de Dano de Concussão |
+| **Amarelo** | Destreza | Dano de Corte e Perfuração |
+
+As fendas também vêm em quatro tiers. Você deve sempre buscar fendas de Tier 3 ou Tier 4, que são distinguidas por raios pretos oscilando ao redor do portal. Demônios de Tier 1 e 2 são geralmente considerados "comida" porque possuem limites de nível mais baixos (200-300) e só podem ser aprimorados uma vez.
+
+<Callout type="tip" title="Identificação de Tier">
+Sempre procure pelos raios pretos. Um demônio de Tier 4 pode atingir o Nível 600, fornecendo 1.200 atributos totais se for Corrompido. Demônios de Tier 1 limitam-se a 600 atributos totais, tornando-os significativamente mais fracos no endgame.
+</Callout>
+
+| Tier do Demônio | Chance de Spawn | Limite de Nível | Tempo para Sumir |
+| :--- | :--- | :--- | :--- |
+| **Tier 1** | 58% | Nível 200 | 10 Minutos |
+| **Tier 2** | 29% | Nível 300 | 15 Minutos |
+| **Tier 3** | 12% | Nível 400 | 25 Minutos |
+| **Tier 4** | 1% | Nível 600 | 35 Minutos |
+
+</Section>
+
+<Section icon={Swords} title="Contratos Vinculados vs. Não Vinculados">
+
+Ao entrar em uma fenda e confrontar um demônio, você terá uma escolha: forjar um contrato ou lutar. Esta é a decisão mais crítica em sua jornada com os **demônios de Retribuição de Trevo**. Fazer um Contrato Vinculado (Bound) é mais fácil, mas traz penalidades permanentes e debilitantes.
+
+<CardGrid cols={2}>
+  <Card title="Contrato Vinculado">
+    - **Prós**: Acesso instantâneo a 50% dos atributos do demônio. Sem necessidade de combate.
+    - **Contras**: Penalidades permanentes (perda de EXP, redução de HP ou dreno de Ouro). Limitado a 50% de União.
+  </Card>
+  <Card title="Contrato Não Vinculado">
+    - **Prós**: Acesso a mais de 80% dos atributos do demônio. Sem penalidades permanentes. Sem limite de União.
+    - **Contras**: Requer derrotar o demônio em uma luta de chefe 1v1.
+  </Card>
+</CardGrid>
+
+Se você escolher a rota Vinculada, deve selecionar um sacrifício. Essas penalidades permanecem mesmo se você guardar o demônio no armazenamento do game pass.
+
+| Tipo de Sacrifício | Descrição da Penalidade |
+| :--- | :--- |
+| **Oferecer Potencial** | Perda de 50% de toda EXP (Nível, Magia e Arma) |
+| **Oferecer Riqueza** | Perda de 50% de todo Ouro ganho |
+| **Oferecer Vida** | Redução permanente de 25% do seu HP Máximo |
+| **Oferecer Alma** | Debuff permanente de Dreno de Alma (destrói a alma lentamente) |
+
+<Callout type="success" title="A Regra de Ouro">
+Sempre escolha o Contrato Não Vinculado (Unbound). O combate é difícil, mas a ausência de penalidades permanentes e o teto de atributos mais alto o tornam a única escolha viável para jogadores sérios.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maestria de União e Evolução Chibi">
+
+Depois de adquirir seu demônio, você deve progredir sua Maestria de União. Esta é uma medida do tempo gasto no Modo União (ativado pressionando T). Leva aproximadamente 50.000 segundos (13,88 horas) para maximizar totalmente esta barra.
+
+<Steps>
+  <Step num="1" title="União Inicial">
+    Comece a usar o modo União. Nesta fase, o consumo de mana é alto (10 mana/seg) e você não tem indicadores visuais.
+  </Step>
+  <Step num="2" title="Desbloqueio do Chibi (7 Horas)">
+    Na marca de 25.000 segundos, seu demônio encolhe para uma forma Chibi que flutua sobre seu ombro. Agora você pode subir o nível do Chibi separadamente.
+  </Step>
+  <Step num="3" title="Marcas Faciais (10% de União)">
+    Ao atingir 10% de Percentual de União, seu personagem ganha marcas faciais distintas, e o uso de mana começa a diminuir com base na maestria.
+  </Step>
+  <Step num="4" title="Maestria Máxima (14 Horas)">
+    Aos 50.000 segundos, você desbloqueia Chifres no modo União. O uso de mana é reduzido ao mínimo (5 mana/seg).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Eficiência">
+Não ultrapasse 9% de Percentual de União até ter maximizado sua Maestria. Se você atingir 10% de União com baixa Maestria, o dreno de mana será quase o dobro, forçando você a farmar o dobro de fragmentos de alma.
+</Callout>
+
+Alimentar seu Chibi com partes de demônios menores (Corações, Olhos, Chifres) aumenta seu nível. No nível 5, o Chibi desbloqueia uma característica passiva permanente.
+
+<Checklist
+  id="chibi-traits"
+  title="Possíveis Características Chibi:"
+  items={[
+    "Vitalidade do Imp: +5% de Vida Máxima",
+    "Força Diabólica: +2% de Todo Dano",
+    "Surto de Mana Demoníaca: +10% de Mana Demoníaca",
+    "Fúria Demoníaca: +6% de Todo Dano (Raro)",
+    "Dreno de Alma Diabólico: Repõe mana ao conjurar feitiços"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Personalidades Demoníacas e Meditação">
+
+A personalidade do seu demônio determina como você ganha XP Demoníaco e quais perguntas ele fará durante a meditação. Para identificar a personalidade do seu demônio, entre no modo União e espere 11 minutos. O demônio começará a sussurrar mensagens.
+
+| Personalidade | Mensagem de Identificação | Tipo de Missão |
+| :--- | :--- | :--- |
+| **Vingativo** | "Eles devem sofrer" / "Abandone a misericórdia" | Matar chefes sozinho / Matar jogadores |
+| **Misterioso** | "Você irá mais fundo?" / "Você deve explorar" | Concluir missões de alto nível / Chefes de evento |
+| **Arrogante** | "Você não precisa de mais ninguém" / "Almas insuficientes" | Matar chefes sozinho (Sem Grupo) |
+
+A meditação é a principal forma de aumentar sua Relação com seu demônio. Você deve meditar (pressionar N) por 10 minutos seguidos para acionar uma conversa. Respostas corretas concedem +3 de Relação.
+
+<Callout type="info" title="Respostas de Meditação">
+As respostas corretas mudam quando você ultrapassa 30 de Relação. Certifique-se sempre de fornecer a resposta específica que a personalidade do seu demônio exige.
+</Callout>
+
+| Personalidade | Resposta Pergunta 1 | Resposta Pergunta 2 (30+ Rel) |
+| :--- | :--- | :--- |
+| **Vingativo** | "Reduza-o a cinzas" | "Exponha e quebre o traidor" |
+| **Misterioso** | "No coração da noite" | "Caminhe com propósito" |
+| **Arrogante** | "Seu nome, ó poderoso" | "Quem conquista corações leais" |
+
+</Section>
+
+<Section icon={Trophy} title="Farm de Almas e Otimização de Atributos">
+
+Para atingir o potencial máximo de seus **demônios de Retribuição de Trevo**, você deve alimentá-los com Almas de Atributo. Esses itens aumentam atributos específicos e repõem a mana demoníaca. Inteligência (Almas da Sabedoria) é a prioridade atual porque feitiços demoníacos como Hellflame Torrent escalam exclusivamente com o atributo de Inteligência do demônio.
+
+| Tipo de Alma | Atributo Principal | Fontes de Drop |
+| :--- | :--- | :--- |
+| **Alma da Sabedoria** | Inteligência | Capangas da Mão Sombria, Lobos Alfa, Manoplas |
+| **Alma da Fortitude** | Constituição | Guardiões de Pedra, Garras do Deserto, Manoplas |
+| **Alma do Valor** | Força | Ogros, Yetis, Manoplas |
+| **Alma da Agilidade** | Destreza | Lobos, Demônios Menores, Manoplas |
+
+<Callout type="success" title="A Distribuição Perfeita de Atributos">
+Para um demônio de Tier 4, foque em 450 de Inteligência e 150 de Constituição. Se você tiver um demônio Corrompido, pode levar a Inteligência até 600, resultando em um dano massivo para seus feitiços de União.
+</Callout>
+
+Finalmente, você pode criar equipamentos poderosos usando drops de demônios. A série de armas "Sin" exige asas, caudas e dentes dropados de demônios de tier alto. Essas armas fornecem efeitos de queima de mana e dano bônus contra criaturas de luz (Espíritos).
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como consigo mais Mana Demoníaca?",
+    answer: "A única maneira de repor a Mana Demoníaca é consumindo Fragmentos de Alma ou Almas de Atributo. Você pode comprar fragmentos básicos do Fabio ou farmá-los de NPCs como os Capangas da Mão Sombria."
+  },
+  {
+    question: "Posso mudar o tipo de magia do meu demônio?",
+    answer: "Sim, você pode usar uma Relíquia Abissal para trocar entre Fogo do Inferno, Maldição e Anti-Magia. No entanto, isso resetará seu Percentual de União para zero e diminuirá sua Relação em 10."
+  },
+  {
+    question: "O que é um Demônio Corrompido?",
+    answer: "Existe uma chance de 5% de qualquer demônio spawnar como Corrompido, indicado por pequenos raios pretos. Demônios Corrompidos têm um limite de atributos mais alto, fornecendo até 120 atributos extras no Tier 4."
+  },
+  {
+    question: "Como desbloqueio o Feitiço do Demônio?",
+    answer: "Assim que atingir 25% de União e 30 de Relação, você pode escolher 'Treinamento Demoníaco' ao falar com seu demônio. Derrotar seu demônio neste treinamento tem 75% de chance de desbloquear seu feitiço único."
+  }
+]} />
+
+</Section>

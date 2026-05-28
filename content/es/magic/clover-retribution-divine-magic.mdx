@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia Divina de Clover Retribution: Habilidades Míticas y Builds",
+  description: "Explora los poderosos tipos de Magia Divina en Clover Retribution, incluyendo Árbol del Mundo, Tiempo, Equilibrio, Luz y Sol, con desgloses detallados de habilidades y consejos de construcción.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Divine+Magic+Guide",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Magia Divina** en Clover Retribution ofrece habilidades míticas únicas con profundidad estratégica.
+- La **Magia del Árbol del Mundo** sobresale en desventajas y curación de equipo, especialmente con Cuatro Hojas.
+- La **Magia del Tiempo** proporciona una potente utilidad a través de guiones, esquivas e incluso resurrección.
+- La **Magia del Equilibrio** ofrece un estilo de juego versátil, alternando entre curación y daño.
+- La **Magia de la Luz** es una fuerte opción de apoyo, centrándose en la curación y el daño de área de efecto.
+- La **Magia del Sol** proporciona una reducción de daño significativa y un alto daño de área.
+</Callout>
+
+<Section icon={Sparkles} title="Desvelando la Magia Divina en Clover Retribution">
+En Clover Retribution, la búsqueda de magia poderosa es central para la progresión del personaje. Entre la miríada de grimorios, la **Magia Divina** se destaca como algunas de las habilidades más codiciadas y potentes disponibles. Estos tipos de magia mítica ofrecen estilos de juego únicos, desde devastadores ataques de área de efecto hasta cruciales hechizos de apoyo y utilidad. Comprender las fortalezas de cada Magia Divina y cómo dominar sus habilidades es clave para dominar el mundo de Clover Retribution.
+
+Esta guía profundiza en los detalles de cada Magia Divina, detallando sus habilidades principales, efectos pasivos y posibles sinergias. Ya sea que busques infligir desventajas, controlar el campo de batalla o proporcionar curación esencial, hay una Magia Divina adaptada a tu estrategia.
+
+**Puntos destacados del video:**
+- Visión general de todos los tipos de magia mítica en Clover Retribution.
+- Demostraciones de la magia del Árbol del Mundo, Sangre, Tiempo, Equilibrio, Luz y Sol.
+- Información sobre las habilidades principales y los efectos únicos de cada magia.
+
+<YouTubeEmbed videoId="keB6DQqkOHI" title="¡TODAS LAS MAGIAS MÍTICAS en Clover Retribution! 🔥" />
+
+</Section>
+
+<Section icon={Swords} title="Magia del Árbol del Mundo: La Ira y el Apoyo de la Naturaleza">
+La Magia del Árbol del Mundo es un tipo de Magia Divina versátil conocida por su habilidad para controlar el campo de batalla con raíces y proporcionar apoyo crucial a los aliados. Sus habilidades a menudo infligen el perjuicio "Debilitado", haciendo a los enemigos más vulnerables al daño. Para los usuarios de Cuatro Hojas, desbloquea un poderoso hechizo de curación y mejora.
+
+<Callout type="tip">
+La Magia del Árbol del Mundo escala con tu estadística de Inteligencia (INT). Una Inteligencia más alta significa más raíces generadas para habilidades como "Raíces del Mundo" y mayor curación de "Gran Árbol Mistilteinn".
+</Callout>
+
+| Habilidad             | Maestría | Efecto                                                                                                           | Perjuicio/Mejora |
+| :------------------ | :------ | :--------------------------------------------------------------------------------------------------------------- | :-------------- |
+| **Raíces del Mundo**   | 10      | Invoca raíces frente a ti, atacando a los enemigos. Escala con INT (más raíces con mayor INT).                 | Debilitado (probabilidad) |
+| **Ascendencia Arbórea** | 25      | Crea una mina terrestre de raíces en tu cursor, dañando y enraizando a los enemigos cuando se activa.                             | Enraizado (probabilidad) |
+| **Vórtice Verde**  | 45      | Invoca un árbol con un remolino, infligiendo daño con el tiempo a los enemigos atrapados en su interior.                     | Daño con el tiempo |
+| **Abrazo del Bosque** | 60      | Desata una explosión de raíces en área desde el suelo, dañando a los enemigos cercanos.                                         | Debilitado, Enraizado (probabilidad) |
+| **Gran Árbol Mistilteinn** | 75      | (Solo Cuatro Hojas) Genera un árbol gigante que cura a los aliados dentro de su área y proporciona un escudo.                     | Curación, Escudo |
+
+</Section>
+
+<Section icon={Target} title="Magia del Tiempo: Maestría sobre Cronos">
+La Magia del Tiempo es una Magia Divina altamente evasiva y disruptiva, que ofrece a los jugadores una movilidad increíble y control sobre el flujo del combate. Sus pasivas únicas permiten guiones, esquivas e incluso la posibilidad de revivir después de la muerte, lo que la convierte en una opción formidable para los jugadores que prefieren el posicionamiento estratégico y la supervivencia.
+
+<Callout type="warning" title="Requisito de Cuatro Hojas">
+Algunas de las habilidades más poderosas de la Magia del Tiempo, como "Crono Anastasis", son exclusivas para los usuarios de Cuatro Hojas. Sin Cuatro Hojas, te perderás un potencial significativo de daño a lo largo del tiempo.
+</Callout>
+
+| Habilidad             | Enfriamiento (s) | Efecto                                                                                                           | Tipo         |
+| :------------------ | :----------- | :--------------------------------------------------------------------------------------------------------------- | :----------- |
+| **Explosión Crono**    | 8            | Crea una burbuja de tiempo alrededor del objetivo que explota, infligiendo daño.                                           | Daño       |
+| **Movimiento Temporal**  | 12           | Dispara tres proyectiles de tiempo que persiguen al enemigo.                                                         | Daño       |
+| **Crono Anastasis**| 65           | (Solo Cuatro Hojas) Invoca un reloj gigante sobre ti, infligiendo daño continuo a lo largo del tiempo a los enemigos dentro de su radio. | Daño con el tiempo |
+
+**Habilidades Pasivas:**
+- **TP Dash:** Permite movimientos rápidos y evasivos con un efecto de imagen residual.
+- **Visión Futura:** Otorga la posibilidad de esquivar automáticamente los ataques entrantes cuando está activo.
+- **Revivir con Barra de Tiempo:** Al morir, existe la posibilidad de revivir con una pizca de salud si la barra de tiempo del primer movimiento está activa.
+
+</Section>
+
+<Section icon={Shield} title="Magia de Equilibrio: El Equilibrio del Combate">
+La Magia de Equilibrio ofrece un estilo de juego dual único, permitiendo a los usuarios alternar entre modos ofensivos y defensivos. Esta Magia Divina sobresale en la adaptación a diversas situaciones de combate, proporcionando un daño significativo o una curación potente según las necesidades estratégicas del usuario.
+
+<Callout type="info">
+La Magia de Equilibrio es significativamente más poderosa con un grimorio de Cuatro Hojas. Si bien una versión de tres hojas se considera menos efectiva, la de Cuatro Hojas desbloquea "Verdadero Equilibrio", que amplifica los efectos de "Empuje de Equilibrio" tanto en el modo de daño como en el de curación.
+</Callout>
+
+| Habilidad           | Modo       | Efecto                                                                                                    | Notas         |
+| :---------------- | :--------- | :-------------------------------------------------------------------------------------------------------- | :------------ |
+| **Empuje de Equilibrio** | Curación    | Crea un orbe que cura a los aliados dentro de su radio.                                                       | Cura HP      |
+| **Empuje de Equilibrio** | Daño     | Crea un orbe que daña a los enemigos dentro de su radio.                                                   | Inflige Daño  |
+| **Cambio de Equilibrio** | N/A        | Alterna entre los modos de Curación (amarillo) y Daño (púrpura).                                               | Cambio de Modo   |
+| **Verdadero Equilibrio**  | Curación    | (Solo Cuatro Hojas) Genera un gran AOE. Cuando está activo, usar Empuje de Equilibrio en modo curación pulsa una curación significativa. | Curación AOE   |
+| **Verdadero Equilibrio**  | Daño     | (Solo Cuatro Hojas) Genera un gran AOE. Cuando está activo, usar Empuje de Equilibrio en modo daño pulsa un daño significativo.   | Daño AOE    |
+
+</Section>
+
+<Section icon={Trophy} title="Magia de Luz: Iluminación Divina">
+La Magia de Luz es un poderoso tipo de Magia Divina que se enfoca principalmente en el apoyo y el daño de área de efecto. Es una excelente opción para los jugadores que disfrutan contribuyendo a las peleas de equipo con curación y daño de ráfaga. Al igual que otras magias míticas, su efectividad se amplifica con un grimorio de Cuatro Hojas.
+
+<Callout type="success">
+La "Bendición Brillante" de la Magia de Luz es una habilidad de apoyo vital para los usuarios de Cuatro Hojas, proporcionando una curación significativa a los compañeros de equipo dentro de su área. Esto puede cambiar el rumbo en encuentros desafiantes.
+</Callout>
+
+| Habilidad           | Maestría | Efecto                                                                                                           | Tipo            |
+| :---------------- | :------ | :--------------------------------------------------------------------------------------------------------------- | :-------------- |
+| **Lluvia Sagrada**     | 5       | Dispara múltiples lanzas de luz a los enemigos. Más tréboles aumentan la efectividad.                                    | Daño          |
+| **Pilar de Luz**  | 25      | Invoca un poderoso pilar de luz, infligiendo un alto daño en un área.                                              | Daño AOE      |
+| **Entierro Divino** | 45      | Salta y dispara un rayo masivo de luz, infligiendo un daño inmenso.                                              | Daño de Ráfaga    |
+| **Bendición Brillante** | 75      | (Solo Cuatro Hojas) Crea un círculo de curación que restaura la salud de los aliados dentro de su radio.                      | Curación/Apoyo AOE |
+
+</Section>
+
+<Section icon={Sparkles} title="Magia del Sol: Poder Radiante">
+La Magia del Sol es una formidable Magia Divina que ofrece tanto mejoras defensivas como potentes capacidades ofensivas, particularmente con su daño de área de efecto. Recompensa los estilos de juego agresivos al mismo tiempo que proporciona una capa de supervivencia.
+
+<Callout type="tip">
+La Magia del Sol tiene una pasiva que otorga reducción de daño y aumento de daño durante el día, lo que la hace estratégicamente ventajosa para luchar durante las horas diurnas.
+</Callout>
+
+| Habilidad           | Efecto                                                                                                      | Notas                                                              |
+| :---------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **Bendición del Sol**     | Otorga un 10% de reducción de daño y un 10% de aumento de daño. Escala con los tréboles para mayores aumentos.              | Habilidad de alternancia; no se puede usar con "Calor Inmensurable".         |
+| **Calor Inmensurable** | Conjura una explosión de calor en área que inflige daño con el tiempo a los enemigos dentro de su radio.                      | Requiere que "Bendición del Sol" esté desactivada. Bueno para daño AOE sostenido.    |
+| **Llamarada de Bendición**   | Dispara un proyectil solar que crea un círculo de daño con el tiempo en área al impactar.                          | Alto daño de ráfaga con AOE residual.                               |
+
+<Checklist
+  id="divine-magic-mastery"
+  title="Lista de Verificación de Maestría de Magia Divina:"
+  items={[
+    "Comprende las habilidades principales y las mecánicas únicas de cada magia.",
+    "Identifica si tu magia elegida requiere un grimorio de Cuatro Hojas para un rendimiento óptimo.",
+    "Practica las rotaciones de habilidades para maximizar el daño o la curación.",
+    "Considera la estadística de inteligencia para las magias que escalan con ella.",
+    "Experimenta con diferentes tipos de magia para encontrar tu estilo de juego preferido."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Comparación y Sinergias de la Magia Divina">
+Elegir la Magia Divina correcta depende en gran medida de tu rol preferido y de la composición del equipo. Cada tipo ofrece ventajas distintas, lo que los hace adecuados para diferentes escenarios de combate.
+
+<CardGrid cols={2}>
+  <Card title="Enfoque Ofensivo">
+    - **Magia del Tiempo:** Excelente para los distribuidores de daño evasivos y aquellos que valoran la supervivencia.
+    - **Magia del Sol:** Ideal para jugadores agresivos que quieren infligir un alto daño de área y beneficiarse de las mejoras pasivas.
+    - **Magia de Equilibrio (Modo de Daño):** Flexible para el daño de ráfaga cuando sea necesario.
+  </Card>
+  <Card title="Enfoque de Apoyo">
+    - **Magia del Árbol del Mundo:** Perfecta para debilitar a los enemigos y proporcionar curación y escudos consistentes a los aliados.
+    - **Magia de Luz:** Fuerte para la curación de ráfaga y el potente daño de área.
+    - **Magia de Equilibrio (Modo de Curación):** Una opción versátil para curanderos adaptables.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Escalado de Inteligencia">
+Recuerda que la mayoría de las habilidades mágicas, especialmente las de los grimorios míticos, escalan con tu estadística de Inteligencia (INT). Priorizar la INT en la construcción de tu personaje mejorará significativamente la efectividad de tus hechizos de Magia Divina.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Magia Divina">
+<FAQ items={[
+  {
+    question: "¿Qué es la Magia Divina en Clover Retribution?",
+    answer: "La Magia Divina se refiere a los tipos de magia de rareza mítica en Clover Retribution, que son los grimorios más raros y poderosos disponibles, ofreciendo habilidades y estilos de juego únicos."
+  },
+  {
+    question: "¿Es el Grimorio de Cuatro Hojas esencial para la Magia Divina?",
+    answer: "Si bien todos los tipos de Magia Divina son fuertes, un grimorio de Cuatro Hojas a menudo desbloquea una habilidad exclusiva y poderosa que mejora significativamente el potencial de la magia, como 'Gran Árbol Mistilteinn' para el Árbol del Mundo o 'Verdadero Equilibrio' para la Magia de Equilibrio."
+  },
+  {
+    question: "¿Cómo aumento el poder de mis habilidades de Magia Divina?",
+    answer: "La mayoría de las habilidades de Magia Divina escalan con tu estadística de Inteligencia (INT). Aumentar tu INT hará que tus hechizos sean más fuertes. Además, usar tus habilidades regularmente aumenta su maestría, impulsando aún más su efectividad."
+  },
+  {
+    question: "¿Qué Magia Divina es mejor para jugar en solitario?",
+    answer: "La Magia del Tiempo es excelente para jugar en solitario debido a su alta supervivencia y habilidades evasivas. La Magia del Sol también ofrece un buen poder ofensivo y reducción de daño, lo que la convierte en una fuerte contendiente para los jugadores en solitario."
+  }
+]} />
+</Section>
