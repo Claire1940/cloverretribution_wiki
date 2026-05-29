@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vassoura de Retribuição do Trevo: Guia de Voo e Controles 2026",
+  description: "Domine a vassoura de Retribuição do Trevo com nosso guia de 2026. Aprenda os atalhos, como obter sua primeira montaria e dicas de gerenciamento de mana para voar.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Broom+Flight+Guide",
+  date: "2026-05-29",
+  author: "Equipe Wiki de Retribuição do Trevo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave Principal**: A **vassoura de Retribuição do Trevo** é a ferramenta essencial para travessia aérea e exploração de mapas.
+- **Tecla de Ativação**: Pressione **B** no seu teclado para equipar ou desequipar sua vassoura instantaneamente.
+- **Requisito de Mana**: Voar consome mana constante; certifique-se de que sua **Inteligência (INT)** e **Reserva de Mana** são suficientes para viagens de longa distância.
+- **Obtenção**: A maioria dos jogadores adquire sua primeira vassoura do **NPC Mestre das Vassouras** localizado na cidade inicial.
+- **Controles Móveis**: Use o **botão na tela** dedicado, especificamente rotulado para ativação da vassoura, se estiver jogando em uma tela sensível ao toque.
+</Callout>
+
+<Section icon={Sparkles} title="Controles da Vassoura e Mapeamento de Entrada">
+
+Navegar pelo vasto mundo de Retribuição do Trevo exige mais do que apenas andar. A **vassoura de Retribuição do Trevo** serve como seu veículo principal para alcançar ilhas de alta altitude e contornar surgimentos perigosos de mobs. Compreender o esquema de controle é o primeiro passo para a maestria aérea. Quer você esteja jogando em um PC com teclado mecânico ou em um dispositivo móvel, os desenvolvedores otimizaram a experiência para garantir um movimento fluido.
+
+| Tipo de Entrada | Ação | Descrição |
+| :--- | :--- | :--- |
+| **Tecla B** | **Equipar/Desequipar** | Alterna a vassoura para dentro e para fora da sua mão. |
+| **Barra de Espaço** | **Ascender** | Aumenta sua altitude atual durante o voo. |
+| **Ctrl Esquerdo** | **Descender** | Diminui sua altitude atual durante o voo. |
+| **WASD** | **Direcional** | Teclas de movimento padrão para guiar seu caminho de voo. |
+| **Shift** | **Voo de Sprint** | Aumenta a velocidade de voo ao custo de um maior consumo de mana. |
+
+<Callout type="warning" title="Conflito de Entrada">
+Se pressionar **B** não equipar sua **vassoura de Retribuição do Trevo**, verifique suas configurações de atalho no menu principal. Ocasionalmente, mods de interface personalizados ou atalhos de habilidade sobrepostos (1-9) podem causar atraso na entrada.
+</Callout>
+
+Em dispositivos móveis, a interface se adapta para fornecer um joystick flutuante para direção e um botão persistente no lado direito da tela para montaria. Embora muitos jogadores prefiram a visão irrestrita de uma configuração de teclado, a atualização móvel de 2026 melhorou significativamente a capacidade de resposta dos controles deslizantes de altitude.
+
+</Section>
+
+<Section icon={Map} title="Como Obter Sua Primeira Vassoura">
+
+Todo novo mago em Retribuição do Trevo começa a pé, mas a transição para os céus é uma prioridade para uma coleta eficiente. Para colocar as mãos em uma **vassoura de Retribuição do Trevo**, você deve localizar o Mestre das Vassouras. Este NPC é tipicamente encontrado perto dos arredores da Capital Central ou dentro da vila inicial, muitas vezes parado perto de uma pilha de fardos de palha.
+
+<Steps>
+  <Step num="1" title="Localize o Mestre das Vassouras">
+    Viaje para a área central. Procure o NPC rotulado como **Mestre das Vassouras** ou **Mercador de Vassouras**. Ele geralmente está posicionado perto da área do estábulo.
+  </Step>
+  <Step num="2" title="Reúna o Ouro Necessário">
+    A vassoura básica custa aproximadamente **500 Ouro**. Você pode ganhar isso rapidamente completando as missões iniciais "Exterminar Lobos" ou "Entregar Suprimentos".
+  </Step>
+  <Step num="3" title="Compra e Inventário">
+    Interaja com o NPC e selecione a opção 'Vassoura Básica'. Uma vez comprada, o item aparecerá automaticamente em seu inventário.
+  </Step>
+  <Step num="4" title="Equipar na Barra de Atalhos">
+    Abra seu inventário e arraste o ícone da vassoura para sua barra de atalhos ativa ou certifique-se de que ela seja reconhecida como sua montaria principal nas configurações.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Recompensas de Missão">
+Alguns eventos mundiais específicos em 2026 agora oferecem vassouras especializadas como recompensas. Fique de olho na linha de missões da **Floresta Lapis**, pois às vezes ela concede uma vassoura com 10% a mais de eficiência de mana.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Níveis de Vassoura e Comparação de Desempenho">
+
+Nem todas as vassouras são criadas iguais. Conforme você avança em Retribuição do Trevo, descobrirá que a **vassoura de Retribuição do Trevo** vem em várias raridades. Vassouras de nível superior oferecem velocidades de viagem mais rápidas e taxas de consumo de mana mais baixas, o que é crucial para alcançar chefes de fim de jogo como o Diabo Anti-Mágico.
+
+<CardGrid cols={3}>
+  <Card title="Vassoura Comum">
+    - **Velocidade**: 100% (Base)
+    - **Drenagem de Mana**: Alta
+    - **Custo**: 500 Ouro
+  </Card>
+  <Card title="Vassoura Reforçada">
+    - **Velocidade**: 125%
+    - **Drenagem de Mana**: Moderada
+    - **Custo**: 2.500 Ouro
+  </Card>
+  <Card title="Voo Real">
+    - **Velocidade**: 160%
+    - **Drenagem de Mana**: Baixa
+    - **Custo**: 10.000 Ouro
+  </Card>
+</CardGrid>
+
+A tabela a seguir detalha as estatísticas técnicas das vassouras mais populares disponíveis na atualização de maio de 2026:
+
+| Nome da Vassoura | Raridade | Multiplicador de Velocidade | Eficiência de Mana | Efeitos Especiais |
+| :--- | :--- | :--- | :--- | :--- |
+| **Palha Básica** | Comum | 1.0x | Baixa | Nenhuma |
+| **Voador de Carvalho** | Incomum | 1.2x | Média | Ascensão Mais Rápida |
+| **Prata Veloz** | Rara | 1.4x | Alta | Dano de Queda Reduzido |
+| **Sentinela do Trevo** | Épica | 1.7x | Muito Alta | Regeneração de Mana |
+| **Vassoura do Vazio** | Lendária | 2.0x | Infinita* | Voo Furtivo |
+
+<Callout type="success" title="Vantagem Lendária">
+A **Vassoura do Vazio** é atualmente a escolha meta para 2026. Embora não tenha mana infinita, sua drenagem é tão baixa que um jogador com mais de 200 INT pode voar por todo o mapa sem parar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Técnicas de Voo Avançadas e Gerenciamento de Mana">
+
+Dominar a **vassoura de Retribuição do Trevo** envolve mais do que apenas segurar a tecla para frente. Jogadores avançados usam o voo para obter vantagens táticas em PvP e para desviar de ataques maciços em área de chefes mundiais. Como o voo está diretamente ligado à sua reserva de mana, sua construção impacta significativamente sua mobilidade.
+
+**Estratégias de Gerenciamento de Mana:**
+- **Escala de Inteligência**: Aumentar seu atributo INT não apenas aumenta o dano de feitiços, mas também expande sua reserva de mana, permitindo durações de voo mais longas.
+- **Voo Pulsado**: Em vez de segurar Shift constantemente, toque-o em rajadas curtas para manter o impulso enquanto reduz a drenagem da sua barra de energia.
+- **Conservação de Altitude**: Subir custa mais mana do que o movimento horizontal. Alcance sua altura desejada cedo e depois plane em um ritmo constante.
+
+| Recurso | Impacto no Voo | Recomendação |
+| :--- | :--- | :--- |
+| **Wisp de Mana** | Regeneração Passiva | Mantenha sempre ativo durante viagens longas. |
+| **Vento Forte** | Recuo | Voe mais baixo para evitar a resistência do vento. |
+| **Peso** | Penalidade de Velocidade | Armadura pesada pode reduzir ligeiramente a aceleração do voo. |
+
+<Callout type="info" title="Voo de Combate">
+No patch atual de 2026, ser atingido enquanto está em sua vassoura tem uma chance de desmontá-lo. Se você é um mago, use seus feitiços de longo alcance para abrir caminho antes de voar por zonas agressivas de mobs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prontidão e Manutenção da Vassoura">
+
+Antes de partir em uma longa expedição para as Fendas do Diabo, certifique-se de que seu equipamento esteja otimizado. Uma vassoura que falha no meio de uma zona de alta altitude pode levar a uma morte rápida por dano de queda. Use a seguinte lista de verificação para se preparar para sua próxima jornada.
+
+<Checklist
+  id="broom-prep"
+  title="Lista de Verificação Pré-Voo:"
+  items={[
+    "Verifique se a tecla B está corretamente configurada nas configurações",
+    "Verifique se sua Mana atual excede 300 para uma viagem segura",
+    "Equipe um Wisp de Mana ou Grimório para auxiliar na regeneração",
+    "Certifique-se de que o nível da sua vassoura é apropriado para a dificuldade da zona",
+    "Limpe sua barra de atalhos de itens desnecessários para evitar cliques errados"
+  ]}
+/>
+
+<Callout type="warning" title="Dano de Queda">
+Se você ficar sem mana no ar, você cairá. Tenha sempre uma **Poção de Queda Suave** ou uma habilidade de dash pronta para anular o impacto antes de atingir o chão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para corrigir o problema da vassoura não aparecer quando pressiono B?",
+    answer: "Isso geralmente é causado por ter uma arma sacada (tecla R). Em Retribuição do Trevo, você deve embainhar suas armas antes de poder equipar com sucesso a vassoura de Retribuição do Trevo."
+  },
+  {
+    question: "Posso personalizar a aparência da minha vassoura?",
+    answer: "Sim, na atualização de 2026, você pode visitar o NPC 'Encantador' para aplicar skins ou efeitos de brilho à sua vassoura por uma pequena quantia de Robux ou materiais de criação de alto nível."
+  },
+  {
+    question: "Existe um requisito de nível para voar?",
+    answer: "Não há um limite de nível rígido, mas você geralmente precisa de ouro suficiente (500+) e pelo menos 50 de Mana para tornar o voo prático por mais de alguns segundos."
+  },
+  {
+    question: "A vassoura funciona em masmorras?",
+    answer: "O voo é restrito na maioria das masmorras internas e arenas de chefes específicas (como a luta contra o Diabo Anti-Mágico) para evitar que os jogadores 'trapaceiem' nas mecânicas."
+  }
+]} />
+
+</Section>

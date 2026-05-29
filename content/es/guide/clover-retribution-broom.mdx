@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Escoba de Retribución de Trébol: Guía de Vuelo y Controles 2026",
+  description: "Domina la escoba de retribución de trébol con nuestra guía de 2026. Aprende atajos de teclado, cómo obtener tu primera montura y consejos de gestión de maná para volar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Broom+Flight+Guide",
+  date: "2026-05-29",
+  author: "Equipo Wiki de Retribución de Trébol"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: La **escoba de retribución de trébol** es la herramienta esencial para el desplazamiento aéreo y la exploración del mapa.
+- **Tecla de activación**: Pulsa **B** en tu teclado para equipar o desequipar tu escoba al instante.
+- **Requisito de maná**: Volar consume maná constantemente; asegúrate de que tu **Inteligencia (INT)** y tu **Reserva de Maná** sean suficientes para viajes de larga distancia.
+- **Obtención**: La mayoría de los jugadores adquieren su primera escoba del **NPC Maestro de Escobas** ubicado en la ciudad inicial.
+- **Controles móviles**: Usa el **botón en pantalla** dedicado específicamente etiquetado para la activación de la escoba si juegas en una pantalla táctil.
+</Callout>
+
+<Section icon={Sparkles} title="Controles de la Escoba y Mapeo de Entradas">
+
+Navegar por el vasto mundo de Clover Retribution requiere más que solo caminar. La **escoba de retribución de trébol** sirve como tu vehículo principal para alcanzar islas de gran altitud y evitar peligrosas zonas de aparición de mobs. Comprender el esquema de control es el primer paso hacia el dominio aéreo. Ya sea que juegues en una PC con teclado mecánico o en un dispositivo móvil, los desarrolladores han optimizado la experiencia para asegurar un movimiento fluido.
+
+| Tipo de Entrada | Acción | Descripción |
+| :--- | :--- | :--- |
+| **Tecla B** | **Equipar/Desequipar** | Alterna la escoba dentro y fuera de tu mano. |
+| **Barra espaciadora** | **Ascender** | Aumenta tu altitud actual mientras vuelas. |
+| **Ctrl Izquierdo** | **Descender** | Disminuye tu altitud actual mientras vuelas. |
+| **WASD** | **Direccional** | Teclas de movimiento estándar para dirigir tu trayectoria de vuelo. |
+| **Shift** | **Vuelo Rápido** | Aumenta la velocidad de vuelo a costa de un mayor consumo de maná. |
+
+<Callout type="warning" title="Conflicto de Entrada">
+Si al pulsar **B** no equipas tu **escoba de retribución de trébol**, revisa la configuración de tus atajos de teclado en el menú principal. Ocasionalmente, los mods de interfaz de usuario personalizados o las teclas de acceso rápido de habilidades superpuestas (1-9) pueden causar retrasos en la entrada.
+</Callout>
+
+En dispositivos móviles, la interfaz se adapta para proporcionar un joystick flotante para la dirección y un botón persistente en el lado derecho de la pantalla para montar. Aunque muchos jugadores prefieren la vista sin restricciones de una configuración de teclado, la actualización móvil de 2026 ha mejorado significativamente la capacidad de respuesta de los deslizadores de altitud.
+
+</Section>
+
+<Section icon={Map} title="Cómo Obtener tu Primera Escoba">
+
+Cada nuevo mago en Clover Retribution comienza a pie, pero la transición a los cielos es una prioridad para una agricultura eficiente. Para conseguir una **escoba de retribución de trébol**, debes localizar al Maestro de Escobas. Este NPC se encuentra típicamente cerca de las afueras de la Capital Central o dentro del pueblo inicial, a menudo de pie cerca de un montón de fardos de paja.
+
+<Steps>
+  <Step num="1" title="Localiza al Maestro de Escobas">
+    Viaja al área central principal. Busca al NPC etiquetado como **Maestro de Escobas** o **Mercader de Escobas**. Generalmente se encuentra cerca del área de los establos.
+  </Step>
+  <Step num="2" title="Reúne el Oro Requerido">
+    La escoba básica cuesta aproximadamente **500 de Oro**. Puedes ganarlo rápidamente completando las misiones de principios de juego "Exterminar Lobos" o "Entregar Suministros".
+  </Step>
+  <Step num="3" title="Compra e Inventario">
+    Interactúa con el NPC y selecciona la opción 'Escoba Básica'. Una vez comprada, el objeto aparecerá en tu inventario automáticamente.
+  </Step>
+  <Step num="4" title="Equipa en la Barra de Acceso Rápido">
+    Abre tu inventario y arrastra el icono de la escoba a tu barra de acceso rápido activa o asegúrate de que sea reconocida como tu montura principal en la configuración.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Recompensas de Misión">
+Algunos eventos mundiales específicos en 2026 ahora ofrecen escobas especializadas como recompensa. Presta atención a la línea de misiones de **Lapis Forest**, ya que a veces otorga una escoba con un 10% más de eficiencia de maná.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Niveles de Escoba y Comparación de Rendimiento">
+
+No todas las escobas son iguales. A medida que progreses en Clover Retribution, descubrirás que la **escoba de retribución de trébol** viene en varias rarezas. Las escobas de nivel superior ofrecen velocidades de viaje más rápidas y tasas de consumo de maná más bajas, lo cual es crítico para alcanzar jefes de final de juego como el Diablo Anti-Magia.
+
+<CardGrid cols={3}>
+  <Card title="Escoba Común">
+    - **Velocidad**: 100% (Base)
+    - **Drenaje de Maná**: Alto
+    - **Costo**: 500 Oro
+  </Card>
+  <Card title="Escoba Reforzada">
+    - **Velocidad**: 125%
+    - **Drenaje de Maná**: Moderado
+    - **Costo**: 2,500 Oro
+  </Card>
+  <Card title="Paseo Real por el Cielo">
+    - **Velocidad**: 160%
+    - **Drenaje de Maná**: Bajo
+    - **Costo**: 10,000 Oro
+  </Card>
+</CardGrid>
+
+La siguiente tabla desglosa las estadísticas técnicas de las escobas más populares disponibles en la actualización de mayo de 2026:
+
+| Nombre de la Escoba | Rareza | Multiplicador de Velocidad | Eficiencia de Maná | Efectos Especiales |
+| :--- | :--- | :--- | :--- | :--- |
+| **Paja Básica** | Común | 1.0x | Baja | Ninguno |
+| **Volador de Roble** | Poco Común | 1.2x | Media | Ascenso más Rápido |
+| **Rayo de Plata** | Rara | 1.4x | Alta | Daño por Caída Reducido |
+| **Centinela de Trébol** | Épica | 1.7x | Muy Alta | Regeneración de Maná |
+| **Barredora del Vacío** | Legendaria | 2.0x | Infinita* | Vuelo Sigiloso |
+
+<Callout type="success" title="Ventaja Legendaria">
+La **Barredora del Vacío** es actualmente la elección meta para 2026. Aunque en realidad no tiene maná infinito, su drenaje es tan bajo que un jugador con más de 200 INT puede volar por todo el mapa sin detenerse.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Técnicas de Vuelo Avanzadas y Gestión de Maná">
+
+Dominar la **escoba de retribución de trébol** implica más que solo mantener pulsada la tecla de avance. Los jugadores avanzados utilizan el vuelo para obtener ventajas tácticas en el PVP y para esquivar ataques masivos de área de efecto de los jefes mundiales. Dado que el vuelo está directamente ligado a tu reserva de maná, tu construcción afecta significativamente tu movilidad.
+
+**Estrategias de Gestión de Maná:**
+- **Escalado de Inteligencia**: Aumentar tu estadística INT no solo potencia el daño de los hechizos, sino que también expande tu reserva de maná, permitiendo duraciones de vuelo más largas.
+- **Vuelo Pulsado**: En lugar de mantener Shift constantemente, tócalo en ráfagas cortas para mantener el impulso mientras reduces el drenaje de tu barra de energía.
+- **Conservación de Altitud**: Subir cuesta más maná que el movimiento horizontal. Alcanza tu altura deseada pronto y luego planea a un ritmo constante.
+
+| Característica | Impacto en el Vuelo | Recomendación |
+| :--- | :--- | :--- |
+| **Hada de Maná** | Regeneración Pasiva | Siempre activa durante viajes largos. |
+| **Viento Fuerte** | Empuje | Vuela más bajo para evitar la resistencia del viento. |
+| **Peso** | Penalización de Velocidad | La armadura pesada puede reducir ligeramente la aceleración de vuelo. |
+
+<Callout type="info" title="Vuelo de Combate">
+En el parche actual de 2026, ser golpeado mientras estás en tu escoba tiene una posibilidad de desmontarte. Si eres un mago, usa tus hechizos de largo alcance para despejar un camino antes de volar a través de zonas de mobs agresivos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preparación y Mantenimiento de la Escoba">
+
+Antes de emprender una larga expedición a las Grietas del Diablo, asegúrate de que tu equipo esté optimizado. Una escoba averiada en medio de una zona de gran altitud puede llevar a una muerte rápida por daño de caída. Utiliza la siguiente lista de verificación para prepararte para tu próximo viaje.
+
+<Checklist
+  id="broom-prep"
+  title="Lista de Verificación Pre-Vuelo:"
+  items={[
+    "Verifica que la tecla B esté correctamente asignada en la configuración",
+    "Comprueba que tu Maná actual supere los 300 para un viaje seguro",
+    "Equipa un Hada de Maná o un Grimorio para ayudar con la regeneración",
+    "Asegúrate de que el nivel de tu escoba sea apropiado para la dificultad de la zona",
+    "Limpia tu barra de acceso rápido de objetos innecesarios para evitar clics accidentales"
+  ]}
+/>
+
+<Callout type="warning" title="Daño por Caída">
+Si te quedas sin maná en el aire, caerás. Ten siempre una **Poción de Caída de Pluma** o una habilidad de embestida lista para anular el impacto antes de tocar el suelo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo arreglo que la escoba no aparezca cuando presiono B?",
+    answer: "Esto suele ser causado por tener un arma desenvainada (tecla R). En Clover Retribution, debes envainar tus armas antes de poder equipar con éxito la escoba de retribución de trébol."
+  },
+  {
+    question: "¿Puedo personalizar la apariencia de mi escoba?",
+    answer: "Sí, en la actualización de 2026, puedes visitar al NPC 'Encantador' para aplicar aspectos o efectos de brillo a tu escoba por una pequeña cantidad de Robux o materiales de artesanía de alto nivel."
+  },
+  {
+    question: "¿Hay un requisito de nivel para volar?",
+    answer: "No hay un límite de nivel fijo, pero generalmente necesitas suficiente oro (500+) y al menos 50 de Maná para que volar sea práctico por más de unos pocos segundos."
+  },
+  {
+    question: "¿Funciona la escoba en las mazmorras?",
+    answer: "El vuelo está restringido en la mayoría de las mazmorras interiores y arenas de jefes específicas (como la lucha contra el Diablo Anti-Magia) para evitar que los jugadores abusen de las mecánicas."
+  }
+]} />
+
+</Section>

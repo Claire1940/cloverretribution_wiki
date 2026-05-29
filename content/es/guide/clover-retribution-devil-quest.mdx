@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ScrollText, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Devil Quest: Guía paso a paso para contratos",
+  description: "Domina la misión del diablo de Clover Retribution. Aprende a encontrar portales, elegir entre contratos Vinculados y No Vinculados, y subir de nivel tus tiers de diablo en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/e0e0e0?text=Devil+Quest+Guide",
+  date: "2026-05-29",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Misión del diablo de Clover Retribution**: Requiere Nivel 150 para empezar, pero se recomienda Nivel 200+ para sobrevivir.
+- **Tipos de Contrato**: Elige entre **Vinculado** (sacrifica estadísticas/oro) o **No Vinculado** (requiere una victoria 1v1).
+- **Frase Secreta**: Escribe **Darkness unveils the truth** cerca de la roca en la Aldea del Desierto para abrir el camino.
+- **Tiers de Diablo**: Van del Tier 1 al Tier 4, con tiers más altos que proporcionan grandes mejoras de estadísticas y auras únicas.
+- **Gestión de Maná**: Usa **Fragmentos de Alma** para reponer el Maná Demoníaco y mantener tu estado de Unión.
+</Callout>
+
+<Section icon={Map} title="Iniciando la Misión del Diablo de Clover Retribution">
+
+El viaje hacia el poder infernal comienza con la **misión del diablo de Clover Retribution**, un proceso de varias etapas que transforma el potencial de tu personaje. Para empezar, debes localizar a un PNJ específico en la **Aldea de Arena** (Desierto) que menciona que alguien ha visto algo que quizás no sobreviva para contar. Esta misión tiene un requisito estricto de **Nivel 150**, aunque los jugadores experimentados sugieren alcanzar el Nivel 200 o superior para evitar ser rechazados por diablos de tier superior o fallar en las pruebas de combate.
+
+**Puntos Destacados del Video:**
+- **Ubicación de la Misión**: Se encuentra en la Aldea del Desierto, al noroeste del lago.
+- **Ritual Secreto**: Debes escribir la frase "Darkness unveils the truth" para revelar el portal oculto.
+- **PNJ Fabio**: Conoce al Abogado del Diablo para gestionar tus contratos y objetos.
+
+<YouTubeEmbed videoId="VHlRYI69wZw" title="Clover Retribution Guía Detallada de los Diablos" />
+
+Una vez que el portal sea revelado, entrarás en la **Ruta del Diablo**. Aquí, te encuentras con Fabio, el Abogado del Diablo. Él sirve como el centro principal para todas las mecánicas relacionadas con los diablos, incluyendo forzar fisuras, vender piezas y eliminar contratos existentes por una tarifa considerable de 50.000 de Oro.
+
+<Callout type="warning" title="Advertencia de Nivel">
+Aunque la misión se abre en el Nivel 150, intentar un contrato No Vinculado a este nivel es extremadamente difícil. Los diablos poseen una gran cantidad de HP y patrones de IA agresivos que pueden abrumar fácilmente a los jugadores de bajo nivel.
+</Callout>
+
+</Section>
+
+<Section icon={ScrollText} title="Entendiendo los Contratos del Diablo">
+
+Hay dos formas principales de sellar un trato durante la **misión del diablo de Clover Retribution**. Tu elección impacta significativamente la distribución de tus estadísticas y el "precio" que pagas por el poder.
+
+| Tipo de Contrato | Ganancia de Estadísticas | Requisito | Opciones de Sacrificio |
+| :--- | :--- | :--- | :--- |
+| **Vinculado** | 50% de Estadísticas del Diablo | Nivel 150+ | EXP, HP Máximo, Oro o Drenaje de Alma |
+| **No Vinculado** | 80% de Estadísticas del Diablo | Victoria 1v1 | Ninguno (No se aplican desventajas) |
+
+### El Sacrificio del Vinculado
+Si eliges un contrato Vinculado, el diablo exigirá una porción de tu esencia. Esto resulta en una desventaja permanente mientras el contrato esté activo. Puedes elegir sacrificar tu ganancia de Oro, tu salud máxima o aceptar un efecto de "Drenaje de Alma". La mayoría de los jugadores optan por sacrificar Oro si tienen un método de farmeo confiable, ya que las desventajas de HP y EXP pueden obstaculizar la progresión en el juego tardío.
+
+### La Prueba del No Vinculado
+El contrato No Vinculado es el camino "verdadero" para los buscadores de meta. Al derrotar al diablo en un duelo 1v1, evitas todas las desventajas y obtienes un masivo 80% de sus estadísticas. Esta es la única forma de maximizar la eficiencia de tu construcción, pero requiere un bloqueo y esquiva precisos.
+
+<Callout type="tip" title="Consejo Profesional">
+Si no estás usando una construcción de **Restricción Divina**, asegúrate de haber dominado las mecánicas de parry del juego antes de intentar una batalla No Vinculada. Un error puede llevar a un reinicio instantáneo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Personalidades y Progresión del Diablo">
+
+Cada diablo obtenido a través de la **misión del diablo de Clover Retribution** viene con una personalidad distinta. Estas personalidades dictan cómo subes de nivel tu **Maestría de Unión**, lo cual es esencial para desbloquear la forma Chibi y las marcas avanzadas.
+
+<CardGrid cols={3}>
+  <Card title="Diablo Arrogante">
+    - **Requisito**: Matar jefes solo.
+    - **Restricción**: No debe estar en un grupo.
+    - **Progreso**: Inflige el 100% del daño al jefe.
+  </Card>
+  <Card title="Diablo Vengativo">
+    - **Requisito**: Derrotar jugadores cerca de tu nivel.
+    - **Restricción**: También puede matar jefes solo.
+    - **Progreso**: Las muertes PVP proporcionan la maestría más rápida.
+  </Card>
+  <Card title="Diablo Misterioso">
+    - **Requisito**: Explora y completa eventos.
+    - **Restricción**: Solo misiones de Nivel 150+.
+    - **Progreso**: Mejor para el farmeo casual de eventos.
+  </Card>
+</CardGrid>
+
+Para verificar tu progresión, puedes entrar en la **Unión del Diablo** presionando 'T' (o haciendo clic en tu personaje en el móvil). Busca pistas de diálogo específicas de tu diablo para identificar su tipo:
+- **Arrogante**: "No debes perder" o "No necesitas a nadie más".
+- **Vengativo**: "No pueden detenernos" o "Una misericordia abandonada".
+- **Misterioso**: "¿Ya me has encontrado?" o "Debes explorar".
+
+<Callout type="success" title="Consejo de Maestría">
+Asegúrate siempre de que tu **Unión del Diablo** esté activa al dar el golpe final a un jefe o completar una misión. Si la Unión está desactivada, no recibirás progresión de maestría.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tiers, Estadísticas y Objetos Esenciales">
+
+Los diablos se clasifican en tiers que determinan su nivel de poder base. Durante la **misión del diablo de Clover Retribution**, el color y la intensidad del aura del portal indican el tier del diablo en su interior.
+
+| Tier | Probabilidad de Aparición | Rango de Nivel | Apariencia del Aura |
+| :--- | :--- | :--- | :--- |
+| **Tier 1** | 58% | 100-200 | Aura mínima, colores básicos |
+| **Tier 2** | 29% | 200-300 | Círculo brillante más grande |
+| **Tier 3** | 12% | 300-400 | Aura radiante alrededor del cuerpo |
+| **Tier 4** | 1% | 400-600 | Aura gigante negra/de color con relámpagos |
+
+### Evolución y Reroll
+Puedes modificar a tu diablo usando objetos raros que sueltan los jefes o que se compran en la tienda. Ten en cuenta que estas son partes "Regulares", no partes "Menores".
+
+<Steps>
+  <Step num="1" title="Corazón de Diablo">
+    Se utiliza para aumentar el Tier de tu diablo. Es extremadamente raro y puede mejorar un Tier 3 a un Tier 4.
+  </Step>
+  <Step num="2" title="Ojo de Diablo">
+    Vuelve a lanzar las estadísticas base de tu diablo. Es esencial para alinear un diablo con tu construcción mágica específica (por ejemplo, Inteligencia para Magos).
+  </Step>
+  <Step num="3" title="Cuerno de Diablo">
+    Te permite cambiar el nombre y la apariencia física de tu diablo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Diablos Corruptos">
+Existe una rara posibilidad de obtener un **Diablo Corrupto**. Estos se identifican por los relámpagos negros que irradian del portal. Ofrecen estadísticas base significativamente más altas en comparación con los diablos estándar del mismo tier.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Maná y Fragmentos de Alma">
+
+Mantener tu estado de Unión requiere **Maná Demoníaco**, representado por la barra morada. Una vez que termines la **misión del diablo de Clover Retribution**, debes farmear Fragmentos de Alma para mantener esta barra llena.
+
+| Objeto | Recuperación de Maná | Fuente |
+| :--- | :--- | :--- |
+| **Fragmento de Alma Menor** | 50% | Orcos, Mercenarios |
+| **Fragmento de Alma** | 25% | Monjes, Cazadores de Lobos, Lobo Alfa |
+| **Fragmento de Alma Mayor** | 35% | Capuchas Sombrías, Ogros, Guardianes de Piedra |
+
+Más allá de la simple recuperación de maná, ciertas **Almas** se pueden usar para aumentar permanentemente las estadísticas de tu diablo:
+- **Alma de Sabiduría**: Aumenta la Inteligencia (Azul/Púrpura).
+- **Alma de Valor**: Aumenta la Fuerza (Naranja).
+- **Alma de Fortaleza**: Aumenta la Constitución/HP (Rojo).
+- **Alma de Nimbo**: Aumenta la Destreza/Velocidad (Amarillo).
+
+<Checklist
+  id="mana-farming"
+  title="Lista de Verificación de Farmeo de Maná:"
+  items={[
+    "Derrota a los Guardianes de Piedra para obtener Fragmentos de Alma Mayor",
+    "Caza Lobos Alfa para obtener fragmentos estándar",
+    "Mantén la Unión activa durante al menos 7 horas para desbloquear Chibi",
+    "Usa Alma de Sabiduría si utilizas una construcción con mucha magia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Flame} title="El Encuentro con el Diablo de Fuego Infernal">
+
+Durante ciertos eventos mundiales, puedes encontrarte con el **Diablo de Fuego Infernal**. Este es un encuentro único que requiere tácticas específicas para sobrevivir. A diferencia de los objetivos estándar de la **misión del diablo de Clover Retribution**, el Fuego Infernal utiliza peligros ambientales.
+
+**Patrones de Ataque del Fuego Infernal:**
+- **Explosión de Fuego Infernal**: Un AOE masivo centrado en el jefe al comienzo de cada fase.
+- **Meteoros**: 12 meteoros teledirigidos que siguen el movimiento del jugador.
+- **Torre de Fuego Infernal**: Invoca pilares de fuego bajo tus pies; sigue moviéndote para evitar el daño continuo por quemaduras.
+- **Balas Teledirigidas**: Proyectiles de fuego rápido que se activan una vez que el jefe cae por debajo de un cierto umbral de HP.
+
+<Callout type="warning" title="Estrategia de Batalla">
+El Diablo de Fuego Infernal solo recibe daño significativo durante su "Fase de Caída". Concéntrate al 100% en esquivar durante las fases de ataque y guarda tus habilidades de alto daño para cuando deje de moverse.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre la Misión del Diablo">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel mínimo para la misión del diablo de Clover Retribution?",
+    answer: "El requisito estricto es Nivel 150. Sin embargo, se recomienda Nivel 200 para contratos Vinculados, y Nivel 300+ es ideal para intentar batallas No Vinculadas contra diablos de Tier 4."
+  },
+  {
+    question: "¿Cómo consigo un diablo Chibi?",
+    answer: "Debes alcanzar el 10% de Unión del Diablo y luego pasar un total de 7 horas en el estado de Unión. Después de 14 horas, también desbloquearás cuernos y marcas faciales únicos."
+  },
+  {
+    question: "¿Puedo cambiar la personalidad de mi diablo?",
+    answer: "No, la personalidad (Arrogante, Vengativo, Misterioso) se establece al hacer el contrato. Si quieres una personalidad diferente, debes pagar a Fabio 50.000 de Oro para eliminar al diablo y comenzar la misión de nuevo."
+  },
+  {
+    question: "¿Dónde puedo encontrar Fragmentos de Alma Mayor?",
+    answer: "Los Fragmentos de Alma Mayor son soltados por jefes y mobs de alto nivel, incluyendo Guardianes de Piedra, Veneno, el Señor de las Praderas y Ogros."
+  }
+]} />
+
+</Section>
