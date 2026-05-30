@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Legião em Retribuição de Trevo: Guia Completo de Invocação e Atributos",
+  description: "Domine a Magia de Legião em Retribuição de Trevo com nosso guia sobre mecânicas de peças, estratégias de invocação e como ela se compara ao meta de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Legion+Magic+Guide",
+  date: "2026-05-30",
+  author: "Equipe da Wiki de Retribuição de Trevo",
+  keywords: "retribuição de trevo, magia de legião, guia de invocação, prestígio, torrente carmesim"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Magia de Legião** é um tipo de magia único baseado em invocação, apresentando quatro peças distintas com temática de xadrez: Peão, Torre, Cavalo e Bispo.
+- **Gerenciamento de Mana** é crítico, pois todas as peças invocadas drenam mana continuamente; ficar sem mana faz com que todas as invocações ativas desapareçam instantaneamente.
+- **Posicionamento Tático** é obrigatório porque as peças invocadas não se movem uma vez colocadas, exigindo que os jogadores planejem o layout do campo de batalha.
+- **Potencial de Sinergia** é alto, com o Cavalo fornecendo um bônus de dano de 30% e a Torre oferecendo escudos baseados em inteligência para aliados próximos.
+- **Sistema de Prestígio** permite que os jogadores resetem para o nível um em troca de aumentos permanentes de atributos e uma chance progressiva de obter trevos de quatro folhas raros.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral da Magia de Legião em Retribuição de Trevo">
+
+A magia de legião em Retribuição de Trevo introduz uma camada tática sofisticada ao sistema de combate do jogo. Ao contrário das magias tradicionais de projéteis ou de área de efeito, a Magia de Legião depende da implantação estratégica de invocações estacionárias. Cada peça serve a um propósito específico, variando de dano na linha de frente e cura até proteção defensiva e bônus ofensivos massivos. A partir das atualizações de 2026, este tipo de magia tornou-se fundamental para jogadores que preferem um estilo de jogo de "comandante", controlando o fluxo da batalha através de torretas estacionárias e unidades de suporte.
+
+**Destaques do Vídeo:**
+- Análise detalhada de todas as quatro peças da Magia de Legião e seus comportamentos específicos de combate.
+- Demonstração das mecânicas de drenagem de mana e como sustentar múltiplas invocações.
+- Passo a passo do novo sistema de Prestígio e as recompensas do Rei Mago.
+- Prévia do feitiço de sangue Torrente Carmesim e itens atuais do evento de Halloween.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Retribuição de Trevo: Magia de Legião, Prestígio, Halloween e Mais" />
+
+A mecânica central da Magia de Legião envolve o clique esquerdo para invocar uma peça e o clique direito para desinvocá-la. Como essas peças são estacionárias, seu posicionamento inicial determina sua eficácia em encontros PvE e PvP. A maestria desta magia requer uma compreensão profunda da regeneração de mana e do escalonamento de inteligência, já que a força dos escudos e da cura está diretamente correlacionada aos atributos do conjurador.
+
+<Callout type="tip" title="Sustentabilidade de Mana">
+Invista pesadamente nos atributos de Inteligência e Regeneração de Mana. Como as peças da Legião drenam mana ao longo do tempo, uma reserva de mana baixa fará com que suas invocações desapareçam antes que possam fornecer valor significativo em lutas longas contra chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="As Quatro Peças da Magia de Legião">
+
+A eficácia da magia de legião em Retribuição de Trevo é dividida entre suas quatro invocações. Cada peça tem um custo e perfil de utilidade únicos. Entender quando implantar um Peão em vez de um Bispo pode ser a diferença entre a vitória e um reset rápido.
+
+| Peça | Função Principal | Habilidade Especial | Custo de Mana |
+| :--- | :--- | :--- | :--- |
+| **Peão** | Dano e Cura | Ataca e cura o alvo mais próximo simultaneamente | Baixo |
+| **Torre** | AoE e Defesa | Ataque em área massivo e escudo de 10% escalado com INT | Médio |
+| **Cavalo** | DPS Alto e Buff | Maior saída de dano e bônus de dano de 30% para aliados | Alto |
+| **Bispo** | Suporte de Elite | Cura em área poderosa e feitiços de proteção avançados | Muito Alto |
+
+<CardGrid cols={2}>
+  <Card title="O Peão e a Torre">
+    - **Peão**: A espinha dorsal da sua legião. Você pode invocar múltiplos Peões para criar um perímetro defensivo que tanto causa dano aos inimigos quanto mantém sua vida cheia.
+    - **Torre**: Essencial para conteúdo em grupo. O escudo que ela fornece escala com sua Inteligência, tornando-a uma peça obrigatória para a limpeza de masmorras de alto nível.
+  </Card>
+  <Card title="O Cavalo e o Bispo">
+    - **Cavalo**: O principal causador de dano. Seu bônus de dano de 30% é um dos mais fortes do jogo, aumentando significativamente o DPS geral do grupo.
+    - **Bispo**: A peça mais cara. Em níveis de maestria mais altos, ganha acesso a feitiços como Proteção contra a Morte, que pode salvar jogadores de golpes letais.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitação Estacionária">
+Lembre-se de que nenhuma das peças da Legião pode se mover. Se um inimigo sair do alcance delas, você deve desinvocar e invocá-las novamente, o que consome mana adicional. Sempre atraia os chefes para sua "zona de abate" onde suas peças estão agrupadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Magia de Legião vs. Outros Tipos de Magia">
+
+No meta atual de 2026, escolher seu tipo de magia é uma decisão significativa. A Magia de Legião ocupa um lugar único em comparação com os tipos Mítico e Lendário de alta raridade. Embora possa não ter a mobilidade bruta da magia do Vazio ou do Tempo, sua utilidade em combate estacionário é inigualável.
+
+| Tipo de Magia | Raridade | Estilo de Jogo | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Legião** | Rara/Épica | Invocador/Tático | Raides em Grupo / Farm de Chefes |
+| **Sangue** | Lendária | Roubo de Vida / DPS | Sobrevivência Solo |
+| **Vazio** | Lendária | Mobilidade / Controle de Grupo | PvP / Limpeza Rápida |
+| **Árvore do Mundo** | Mítica | Suporte / Buffs | Jogo de Equipe de Elite |
+| **Tempo** | Mítica | Evasivo / Explosão | PvP de Alta Habilidade |
+
+A Magia de Legião brilha em cenários onde o objetivo é fixo. Por exemplo, durante eventos de estilo tower defense ou ao lutar contra chefes com padrões de movimento previsíveis, o Cavalo e a Torre podem manter 100% de atividade em seus buffs e escudos. Em contraste, usuários de Magia de Sangue frequentemente dependem do feitiço **Torrente Carmesim**, que fornece excelente dano em alvo único e cura, mas carece da utilidade para toda a equipe de um Bispo da Legião.
+
+<Callout type="info" title="Estatísticas de Raridade">
+De acordo com a atualização mais recente, as raridades de Magia permanecem consistentes: Comum (80%), Incomum (12%), Rara (6%), Épica (0,74%), Lendária (0,19%) e Mítica (0,1%). O posicionamento da Magia de Legião no nível Raro/Épico a torna acessível, porém poderosa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Obtendo Torrente Carmesim e Feitiços de Sangue">
+
+Enquanto focam na magia de legião em Retribuição de Trevo, muitos jogadores também buscam a Magia de Sangue por sua sobrevivência. O novo feitiço, **Torrente Carmesim**, tornou-se uma adição vital ao arsenal de Sangue.
+
+<Steps>
+  <Step num="1" title="Localize a Bruxa de Sangue">
+    Viaje até o NPC Bruxa de Sangue para obter o pergaminho necessário. Este é um requisito antes que o feitiço possa ser aprendido.
+  </Step>
+  <Step num="2" title="Equipe e Use o Pergaminho">
+    Abra seu inventário e equipe o pergaminho da Torrente Carmesim. Usá-lo adicionará permanentemente o movimento à sua biblioteca de Magia de Sangue.
+  </Step>
+  <Step num="3" title="Domine o Escalonamento">
+    O dano da Torrente Carmesim é diretamente proporcional à quantidade de cura que ela fornece. Com Inteligência alta (cerca de 400-500), você pode quase derrotar mobs de elite como Escorpiões com um único golpe.
+  </Step>
+</Steps>
+
+| Nome do Feitiço | Req. de Maestria | Tempo de Recarga | Efeito Principal |
+| :--- | :--- | :--- | :--- |
+| **Wound (Ferida)** | Base | Curto | Ataque básico de soco para frente |
+| **Torrente Carmesim** | Pergaminho | 10s | Ataque de sangue perfurante com roubo de vida |
+| **Hidra Carmesim** | Alta | Longo | Projétil rastreador de múltiplas cabeças |
+
+<Callout type="success" title="Aumento de Sobrevivência">
+O custo de mana da Torrente Carmesim diminui conforme sua contagem de Trevos aumenta, eventualmente estabilizando em torno de 100 de mana. Isso a torna uma ferramenta incrivelmente eficiente para manter a saúde durante encontros difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistemas de Prestígio e Guildas">
+
+As atualizações de 2026 introduziram o sistema de Prestígio, uma mecânica de progressão de longo prazo que recompensa jogadores dedicados. Ao falar com o Rei Mago, você pode redefinir seu progresso para obter benefícios permanentes.
+
+**Recompensas e Escalonamento de Prestígio:**
+- **Aumentos de Atributos**: Receba 2,5% do seu nível como atributos permanentes (Con, Int, For, Des). No limite de nível 405, isso representa aproximadamente 10 pontos de atributo por prestígio.
+- **Chance de Trevo de Quatro Folhas**: Chance progressiva de obter um trevo de quatro folhas para sua magia. Começa em 10% (no nível 405) e aumenta em 10% por tentativa falha (até 40%).
+- **Giros**: Receba seu nível dividido por três em giros (aprox. 133 giros no nível 405).
+
+<Checklist
+  id="prestige-prep"
+  title="Checklist de Preparação para o Prestígio:"
+  items={[
+    "Alcançar o limite de nível atual (Nível 405 recomendado)",
+    "Garantir um Amuleto para armazenar seu Grimório atual",
+    "Acumular ouro suficiente para atualizações de Guilda",
+    "Completar as missões diárias de Halloween para obter tokens",
+    "Confirmar que você está pronto para resetar para o Nível 1"
+  ]}
+/>
+
+| Contagem de Prestígio | Total de Atributos Grátis | Chance Base de 4 Folhas |
+| :--- | :--- | :--- |
+| **1** | ~10 | 10% (no lvl 405) |
+| **3** | ~30 | 30% (se falhou duas vezes) |
+| **5 (MÁX)** | 50 | 40% (Taxa Máxima de Sucesso) |
+
+<Callout type="warning" title="O Futuro Chefe">
+Os desenvolvedores sugeriram que o Rei Mago eventualmente se tornará um chefe. Quanto mais níveis você "alimentar" a ele através do sistema de Prestígio, mais forte ele se tornará em atualizações futuras. Use o Prestígio com sabedoria.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de Retribuição de Trevo">
+
+<FAQ items={[
+  {
+    question: "Como faço para minhas peças de Magia de Legião pararem de desaparecer?",
+    answer: "As peças de Legião drenam mana constantemente. Para mantê-las ativas, você deve garantir que sua regeneração de mana exceda a drenagem total de todas as peças invocadas. Desinvoque peças não utilizadas clicando com o botão direito para economizar mana."
+  },
+  {
+    question: "A Magia de Legião é melhor que a magia Mítica do Tempo?",
+    answer: "Depende da atividade. A magia do Tempo é superior para mobilidade e evasão em PvP, mas a Magia de Legião oferece melhores buffs de equipe sustentados e defesa estacionária para raides e farm de chefes."
+  },
+  {
+    question: "Qual é o melhor atributo para uma build de Magia de Legião?",
+    answer: "Inteligência (INT) é a prioridade. Ela aumenta sua reserva total de mana, regeneração de mana e escala diretamente a força do escudo da Torre e a cura do Bispo."
+  },
+  {
+    question: "Posso fazer prestígio mais de cinco vezes?",
+    answer: "Atualmente, você só pode receber bônus de atributos para os primeiros cinco prestígios, totalizando 50 atributos gratuitos em cada categoria. Prestígios adicionais podem ser úteis apenas para tentativas de trevo de 4 folhas ou giros."
+  }
+]} />
+
+</Section>

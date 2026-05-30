@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Ghost, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prestige Clover Retribution: Panduan Progresi & Statistik 2026",
+  description: "Kuasai sistem prestige Clover Retribution. Pelajari cara farming spin, membuka grimoire empat daun, dan memaksimalkan peningkatan statistik permanen di tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Prestige+System+Guide",
+  date: "2026-05-30",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **clover retribution prestige**: Sebuah sistem yang mereset level Anda ke 1 sebagai imbalan atas buff statistik permanen, spin, atau peningkatan grimoire.
+- **Lokasi Wizard King**: Bicaralah dengan NPC Wizard King yang terletak di dekat Advisor untuk memulai proses prestige.
+- **Maksimalisasi Statistik**: Setiap prestige memberikan 2,5% dari level Anda sebagai statistik permanen, dibatasi hingga total 5 prestige untuk bonus +50.
+- **Pity Empat Daun**: Mencapai level 405 memberikan peluang dasar 10% untuk grimoire empat daun, dengan pity yang meningkat hingga 40%.
+- **Farming Optimal**: Gunakan farm Vampir (Lucius) untuk meningkatkan level dengan cepat setelah mereset karakter Anda.
+</Callout>
+
+<Section icon={Map} title="Memahami Sistem Prestige Clover Retribution">
+
+Sistem **clover retribution prestige** adalah mekanik endgame terbaik bagi pemain yang ingin melampaui batas level standar. Dengan mengorbankan progres Anda saat ini dan mereset ke level 1, Anda membuka bonus permanen yang kuat yang membuat karakter Anda jauh lebih kuat dalam jangka panjang. Sistem ini dikelola oleh Wizard King, seorang NPC yang ditemukan di area hub utama di sebelah Advisor.
+
+**Sorotan Video:**
+- **Lokasi Wizard King**: Cara menemukan NPC prestige dan menavigasi menunya.
+- **Opsi Prestige**: Penjelasan tentang empat jalur berbeda yang bisa Anda ambil saat mereset.
+- **Ikhtisar Sihir Legion**: Pengenalan bidak sihir baru berbasis Catur.
+- **Konten Halloween**: Tinjauan singkat tentang item dan token musiman.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Sihir Legion, Prestige, dan Lainnya" />
+
+Saat Anda berinteraksi dengan Wizard King dan memilih "I'm tired of my current self" (Aku bosan dengan diriku yang sekarang), Anda akan disajikan dengan empat pilihan berbeda. Setiap pilihan melayani tujuan progresi yang berbeda, baik Anda sedang mencari Grimoire langka, mencari kekuatan murni, atau farming spin untuk mendapatkan trait baru.
+
+| Opsi Prestige | Hadiah Utama | Terbaik Untuk |
+| :--- | :--- | :--- |
+| **Grow closer to grimoire** | Peluang 5% - 10% untuk Empat Daun | Pemburu Grimoire |
+| **Another chance at life** | Poin Statistik Permanen | Pengejar meta pertempuran |
+| **Don't part with grimoire** | Arcane Locket (Penyimpanan) | Pemain dengan banyak sihir |
+| **A few more chances** | Spin (Level / 3) | Reroll Trait dan Sihir |
+
+<Callout type="warning" title="Peringatan Reset Level">
+Melakukan prestige akan mereset karakter Anda ke level 1 dan menghapus semua poin statistik Anda saat ini. Pastikan Anda telah mengenakan perlengkapan level tinggi sebelum mereset, karena Anda mungkin tidak memenuhi persyaratan level untuk memakainya kembali setelah Anda menjadi level 1.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Statistik Permanen dan Pity Grimoire Empat Daun">
+
+Alasan paling populer untuk menggunakan sistem **clover retribution prestige** adalah perolehan statistik permanen. Pemain dapat melakukan prestige hingga lima kali untuk mendapatkan peningkatan besar pada atribut dasar mereka. Setiap kali Anda melakukan prestige menggunakan opsi "Another chance at life", Anda menerima 2,5% dari level Anda saat ini sebagai statistik permanen. Pada batas level saat ini yaitu 405, ini berarti sekitar 10 poin per kategori statistik (Strength, Dexterity, Constitution, Intelligence).
+
+Bagi mereka yang memburu Grimoire Empat Daun yang langka, sistem prestige menawarkan mekanik pity yang terstruktur. Peluang keberhasilan Anda terkait langsung dengan level Anda pada saat reset.
+
+| Level saat Prestige | Peluang Dasar Empat Daun | Pity Gagal (Upaya Berikutnya) |
+| :--- | :--- | :--- |
+| **Level 200** | Peluang 5% | Tanpa Bonus Pity |
+| **Level 405 (Maks)** | Peluang 10% | Meningkat menjadi 20% |
+| **Level 405 (Gagal ke-2)** | Peluang 20% | Meningkat menjadi 25% |
+| **Level 405 (Gagal ke-3)** | Peluang 25% | Meningkat menjadi 30% |
+| **Level 405 (Gagal ke-4)** | Peluang 30% | Meningkat menjadi 40% |
+
+<CardGrid cols={2}>
+  <Card title="Penskalaan Statistik">
+    Bonus statistik berlaku untuk semua atribut inti. Setelah 5 prestige pada level maksimal, Anda akan memiliki +50 poin permanen di STR, DEX, CON, dan INT, memberikan keuntungan besar dalam PVP dan Raid tingkat tinggi.
+  </Card>
+  <Card title="Batas Pity">
+    Sistem pity hanya aktif jika Anda melakukan prestige pada batas level maksimum (saat ini 405). Jika Anda melakukan prestige pada level 200, Anda tetap memiliki peluang datar 5% tanpa membangun pity di masa depan.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategi Statistik">
+Fokuslah untuk mencapai batas level 405 sebelum setiap prestige. Perbedaan perolehan statistik antara level 200 dan level 405 hampir dua kali lipat, dan ini adalah satu-satunya cara untuk membangun pity Empat Daun secara efisien.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cara Terbaik untuk Farming Spin dan Level">
+
+Setelah Anda melakukan **clover retribution prestige**, tujuan utama Anda adalah kembali ke batas level secepat mungkin. Metode paling efisien yang ditemukan pada tahun 2026 melibatkan farm Vampir, khususnya menargetkan bos Lucius dan antek-antek di sekitarnya. Metode ini sangat efektif sehingga pemain dapat memperoleh hingga 360 spin per jam dengan memanfaatkan mekanik spin-per-level.
+
+**Sorotan Video:**
+- **Rotasi Vampir**: Jalur yang tepat untuk menarik Prajurit, Elit, dan Lucius.
+- **Solo vs. Party**: Mengapa build sihir sangat unggul dalam farming mob ini secara solo.
+- **Matematika Spin**: Bagaimana sistem 2-level-per-1-spin memberikan hadiah pada leveling cepat.
+- **Mempertahankan Gear**: Tips untuk menjaga perlengkapan level tinggi Anda tetap aktif setelah reset.
+
+<YouTubeEmbed videoId="n6z7bHXDVzY" title="Cara Terbaik untuk Farming Spin di Clover Retribution" />
+
+Untuk memaksimalkan efisiensi Anda, ikuti rotasi spesifik ini di area Vampir. Anda harus bertujuan untuk mengumpulkan empat Prajurit Vampir di tengah sebelum melepaskan sihir AOE, lalu pindah ke Elit, dan terakhir Lucius.
+
+| Rentang Level | Target Farming | Lokasi |
+| :--- | :--- | :--- |
+| **Level 1 - 80** | Prajurit Vampir & Lucius | Ladang Vampir |
+| **Level 80 - 240** | Rotasi Vampir Elder | Ruang Bawah Tanah Vampir |
+| **Level 240 - 405** | Quest Kraken / Nixxar | Laut Tingkat Tinggi/Raid |
+
+<Steps>
+  <Step num="1" title="Siapkan Sihir">
+    Gunakan tipe sihir dengan AOE yang kuat (seperti Light atau Sihir Legion) untuk membersihkan kelompok mob secara instan. Ini jauh lebih cepat daripada menggunakan senjata fisik di level rendah.
+  </Step>
+  <Step num="2" title="Quest Harian">
+    Ambil semua quest harian yang tersedia di level 1. Meskipun Anda level rendah, Anda dapat menyelesaikan harian level tinggi untuk mendapatkan XP dalam jumlah besar.
+  </Step>
+  <Step num="3" title="Loop Lucius">
+    Kalahkan Lucius, lalu reset spawn mob dengan membersihkan Prajurit dan Elit. Satu pembunuhan Lucius di level 1 dapat membuat Anda langsung melonjak ke level 80+.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonus Spin">
+Anda mendapatkan 1 spin untuk setiap 2 level yang Anda peroleh. Dengan melakukan prestige dan bergegas kembali ke level 405, Anda dapat mengumpulkan ratusan spin untuk menyempurnakan trait dan sihir karakter Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pengganda Pengalaman dan Buff">
+
+Untuk membuat proses grinding **clover retribution prestige** lebih ringan, Anda harus menumpuk pengganda pengalaman (XP). Game membatasi total pengganda XP pada 4x, jadi meskipun Anda dapat menggunakan berbagai item dan trait, apa pun yang melampaui batas 4x akan terbuang percuma.
+
+| Sumber Buff | Bonus XP | Tipe |
+| :--- | :--- | :--- |
+| **Ras Manusia** | +30% XP | Trait Pasif |
+| **Trait Prodigy** | Peningkatan Signifikan | Trait Karakter |
+| **Panji Guild** | +10% XP | Buff Grup Sementara |
+| **Golden Clover Club** | +5% XP | Gamepass / Keanggotaan |
+| **Bonus Pemain Baru** | 4x XP | Otomatis (Level 1-100) |
+
+<Checklist
+  id="xp-stacking"
+  title="Daftar Periksa Sebelum Grinding:"
+  items={[
+    "Bergabunglah dengan guild untuk mendapatkan buff XP pasif 10%",
+    "Pastikan Anda memiliki trait Prodigy untuk penguasaan yang lebih cepat",
+    "Gunakan ras Manusia jika Anda benar-benar fokus pada leveling",
+    "Aktifkan Panji Pertumbuhan (Banner of Growth) jika guild Anda memilikinya",
+    "Periksa kode aktif yang mungkin memberikan booster XP sementara"
+  ]}
+/>
+
+<Callout type="info" title="Batas 4x">
+Jangan gunakan Elixir Pertumbuhan jika Anda sudah memiliki bonus Pemain Baru 4x atau kombinasi trait Manusia/Prodigy yang sudah mencapai batas. Simpan Elixir Anda untuk rentang level 100 hingga 405 di mana bonus alami 4x sudah habis.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Sihir Legion dan Mantra Baru">
+
+Pembaruan 2026 memperkenalkan Sihir Legion, set sihir taktis berdasarkan bidak catur. Sihir ini sangat efektif bagi pemain yang baru saja menyelesaikan **clover retribution prestige** karena memungkinkan pertahanan stasioner dan penyembuhan saat Anda berada dalam kondisi kesehatan rendah.
+
+**Bidak Sihir Legion:**
+- **Pion (Pawn)**: Menyerang dan menyembuhkan target terdekat. Anda dapat memanggil beberapa pion untuk membuat perimeter pertahanan.
+- **Benteng (Rook)**: Melakukan serangan AOE besar dan memberikan perisai berdasarkan 10% dari Kecerdasan Anda.
+- **Kuda (Knight)**: Pemberi damage utama. Ini memberikan buff damage 30% kepada sekutu terdekat.
+- **Gajah (Bishop)**: Bidak penyembuh berbiaya tinggi yang pada akhirnya dapat merapalkan Death Ward pada tingkat penguasaan yang lebih tinggi.
+
+Selain itu, mantra Sihir Darah baru, **Crimson Torrent**, telah menjadi andalan untuk kelangsungan hidup. Diperoleh melalui gulungan dari Blood Witch, kerusakannya sebanding dengan penyembuhan yang diberikannya. Ini menjadikannya alat yang sangat baik untuk tetap hidup selama grinding level 1-100 yang berbahaya setelah reset prestige.
+
+| Nama Mantra | Sumber | Biaya Mana | Fitur Utama |
+| :--- | :--- | :--- | :--- |
+| **Crimson Torrent** | Gulungan Blood Witch | ~100 Mana | Damage berskala dengan penyembuhan |
+| **Chrono Burst** | Sihir Waktu | Bervariasi | Sekarang berfungsi sebagai gerakan menghindar |
+| **Legion Knight** | Sihir Legion | Drain Tinggi | Buff Damage 30% untuk sekutu |
+
+<Callout type="tip" title="Manajemen Mana">
+Bidak Sihir Legion terus-menerus menguras mana saat aktif. Jika Anda kehabisan mana, semua bidak yang Anda panggil akan menghilang. Investasikan beberapa poin statistik pertama Anda ke dalam Intelligence (Kecerdasan) agar panggilan Anda tetap aktif lebih lama.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Konten Musiman dan Drop Langka">
+
+Sambil melakukan grinding **clover retribution prestige** Anda, pantau terus acara musiman seperti pembaruan Halloween dan token Anniversary. Acara ini menyediakan item langka yang dapat meningkatkan kekuatan karakter Anda secara signifikan tanpa memerlukan reset level.
+
+**Item Toko Halloween:**
+- **Biji Labu**: Dikumpulkan dari NPC Labu dan Kerangka.
+- **Token Halloween**: Drop langka yang digunakan untuk membeli perlengkapan eksklusif dari Vendor Halloween.
+- **Void Wisp**: Spawn langka yang memperkuat Sihir Void dan memberikan +25 Intelligence saat dipakai.
+
+**Hadiah Anniversary:**
+Dengan berbicara kepada Orion di Menara, Anda dapat mengumpulkan Token Anniversary. Menyimpan 30 token ini memungkinkan Anda untuk membeli Mythic Magic Eraser yang terjamin, yang sangat penting bagi pemain yang ingin menukar sihir mereka tanpa kehilangan progres prestige mereka.
+
+<FAQ items={[
+  {
+    question: "Berapa jumlah maksimal saya bisa melakukan prestige untuk statistik?",
+    answer: "Anda dapat melakukan prestige hingga 5 kali untuk opsi 'Another chance at life', memberi Anda total +50 poin statistik permanen di semua kategori."
+  },
+  {
+    question: "Apakah pity Empat Daun mereset jika saya prestige di level rendah?",
+    answer: "Sistem pity hanya dibangun dan dipertahankan saat Anda melakukan prestige pada batas level 405. Melakukan prestige lebih awal (misalnya, level 200) memberikan peluang datar 5% dan tidak berkontribusi pada penghitung pity."
+  },
+  {
+    question: "Bisakah saya menyimpan perlengkapan saya setelah prestige clover retribution?",
+    answer: "Ya, Anda menyimpan perlengkapan Anda, tetapi Anda harus memakainya sebelum melakukan prestige. Jika Anda melepasnya di level 1, kemungkinan besar Anda tidak akan bisa memakainya kembali sampai Anda mencapai level yang diperlukan lagi."
+  },
+  {
+    question: "Berapa banyak spin yang saya dapatkan untuk prestige di level 405?",
+    answer: "Jika Anda memilih opsi 'If only I had a few more chances', Anda menerima level Anda dibagi 3 dalam bentuk spin. Pada level 405, ini tepat 135 spin."
+  }
+]} />
+
+<Callout type="success" title="Tujuan Akhir">
+Build karakter terbaik di tahun 2026 melibatkan 5 prestige statistik diikuti oleh satu prestige terakhir untuk Grimoire Empat Daun. Ini memastikan Anda memiliki statistik dasar maksimum dan sihir paling kuat yang mungkin didapat.
+</Callout>
+
+</Section>

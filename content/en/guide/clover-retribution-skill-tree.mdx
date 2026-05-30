@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "clover retribution skill tree: 2026 Progression Guide & Best Builds",
+  description: "Master the clover retribution skill tree with our guide on skill points, magic branches, and the best builds for mages and divine restriction players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skill+Tree+Mastery",
+  date: "2026-05-30",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **clover retribution skill tree**: A complex system offering unique nodes for magic, physical stats, and racial traits.
+- **Skill Point Acquisition**: Points are primarily earned through **Magic Knight Orders** and promotions via the Wizard King.
+- **Max Skill Points**: Current level caps allow for a maximum of **43 skill points** for fully progressed characters.
+- **Resetting Nodes**: Use the **Elixir of Reflection** or reach Intermediate Magic Knight Rank 4 for a free reset.
+- **Optimal Pathing**: Focus on the **Intelligence (Int)** branch for mages or **Dexterity (Dex)** for Divine Restriction builds.
+</Callout>
+
+<Section icon={Target} title="Skill Tree Mechanics and Point Acquisition">
+
+Understanding the **clover retribution skill tree** is essential for any player looking to optimize their character's power. Unlike traditional RPGs where points are handed out every level, this system ties progression to your rank within the kingdom. You must engage with the Wizard King to initiate your journey as a Magic Knight, which unlocks the ability to earn skill points through specific promotion quests.
+
+**Video Highlights:**
+- **Point Cap**: You have a limited pool of 43 points; spending them wisely is mandatory.
+- **The Trap**: Avoid the **Broom Boost** node at all costs, as the 10% increase is negligible.
+- **Resetting**: A functional reset system now exists via crafting or rank rewards.
+- **Race Synergy**: Certain races, like the Ryoman, have dedicated nodes within the tree.
+
+<YouTubeEmbed videoId="3qfRgeTZQc0" title="Clover Retribution Skill Tree Guide" />
+
+To begin earning points, navigate to the **Mission Board** and complete Magic Knight Orders. These orders have internal cooldowns but remain the most efficient way for beginners to level up and gain the currency needed for skill tree investment.
+
+| Rank Level | SP Reward | Unlock Requirements |
+| :--- | :--- | :--- |
+| **Initiate** | 1-3 | Complete first 5 Orders |
+| **Junior Knight** | 5-10 | Level 100 + Promotion Quest |
+| **Intermediate Knight** | 12-18 | Level 250 + Promotion Quest |
+| **Senior Knight** | 20+ | Level 500 + Boss Raid |
+
+<Callout type="warning" title="Misinformation Alert">
+Earlier guides suggested skill points were permanent. This is no longer true; however, resetting is expensive. Do not experiment blindly with your last few points.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Magic-Specific Branches and Clover Mastery">
+
+Not all magics are created equal in the **clover retribution skill tree**. Currently, specific magics like Light, Dark, Wind, Earth, and Healing have dedicated branches that offer massive utility and damage boosts. If you are using a magic that lacks a tree, such as the current bugged Shadow tree, you should focus your points on universal attribute branches instead.
+
+Before investing heavily in magic nodes, you must prioritize your **Clover Mastery**. Using your abilities fills a progression bar that correlates with the clovers above your skills. At max clovers, magics like Dark see up to a 95% reduction in mana consumption.
+
+| Magic Type | Tree Status | Primary Benefit |
+| :--- | :--- | :--- |
+| **Light** | Active | Cooldown reduction & Spirit Dive |
+| **Dark** | Active | High mana efficiency & Damage |
+| **Healing** | Active | Increased potency & AoE range |
+| **Legion** | Active | Summon health & Damage scaling |
+| **Shadow** | Bugged | Currently non-functional (Avoid) |
+
+For Legion magic users, the first node in the magic tree is a "must-have" to manage the extreme mana drain typical of that build.
+
+<Callout type="tip" title="Clover Scaling Tip">
+Clover scaling on abilities only provides significant benefits if you have a **Four-Leaf Clover** on your magic. If you have a Three-Leaf, prioritize rerolling or prestiging to reach Four-Leaf status before deep-diving into the skill tree.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Attribute Branches: Mage vs. Divine Restriction">
+
+The core of the **clover retribution skill tree** is divided into Intelligence (Int), Dexterity (Dex), and Strength (Str) branches. Most players will fall into either the Mage category or the Divine Restriction (DR) category.
+
+<CardGrid cols={3}>
+  <Card title="Intelligence Branch">
+    - **Magic Damage**: Grants flat and percentage increases.
+    - **Mana Management**: Reduces cost and increases regen.
+    - **Arcane Insight**: Essential for high-tier spell scaling.
+  </Card>
+  <Card title="Dexterity Branch">
+    - **M1 Speed**: Increases attack velocity for melee.
+    - **Bleeding Edge**: Adds bleed procs to physical hits.
+    - **Crit Chance**: Boosts overall physical lethality.
+  </Card>
+  <Card title="Strength Branch">
+    - **Physical Power**: Best for heavy weapon users.
+    - **Berserker Rage**: Grants buffs when at low health.
+    - **Knockback**: Increases impact of heavy strikes.
+  </Card>
+</CardGrid>
+
+For mages, a 60/40 split is recommended. Allocate 60% of your available points into Intelligence to hit the **Arcane Insight** and **Arcanist** thresholds. The remaining 40% should go into Constitution for survivability, as glass cannon builds struggle in 2026's endgame content.
+
+| Node Name | Branch | Effect | Cost |
+| :--- | :--- | :--- | :--- |
+| **Arcane Insight** | Intelligence | +15% Magic Damage | 3 SP |
+| **Bleeding Edge** | Dexterity | 10% Bleed Chance | 2 SP |
+| **Mana Flow** | Intelligence | -10% Mana Consumption | 2 SP |
+| **Ryoman Stat Cap** | Racial | +30% Higher Stat Cap | 5 SP |
+
+<Callout type="success" title="Ryoman Synergy">
+If you are playing a Divine Restriction build, the **Ryoman race** is objectively the best choice. With 20 fingers eaten and the dedicated skill tree nodes, you can reach a **311 Dex cap**, making your M1 attacks incredibly fast.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Branches: Spirits and Devils">
+
+Once you have secured your primary attribute nodes, the **clover retribution skill tree** opens up into "Spirits" and "Devils." These are late-game branches that require specific world events to unlock, such as Spirit Rifts or Devil Hunts.
+
+The **Ethereion's Blessing** branch is the current meta for non-light mages. It costs roughly 14 skill points and provides a massive boost to overall magic damage. For Light magic users, the **Light Spirit Dive** branch is non-negotiable, as it reduces cooldowns by an additional 20%, effectively removing the bottleneck that limits the Light magic playstyle.
+
+| Advanced Branch | Unlock Method | Best For |
+| :--- | :--- | :--- |
+| **Ethereion** | Spirit Rift | Universal Magic DPS |
+| **Light Spirit** | 8% Spawn Chance | Light Magic Users |
+| **Devil Union** | Devil Hunt Quest | Hybrid/Melee Builds |
+| **Divine Restriction** | Trait Roll | No-Magic Challenge Runs |
+
+The Devil branch offers unique "cheat death" mechanics, allowing you to survive scenarios that would normally result in an instant wipe. However, this requires defeating multiple tiers of Devils, which is a significant grind.
+
+<Callout type="info" title="Spirit Rifts">
+Spirit Rifts are timed events. If you see one, prioritize it immediately to gain the **Ethereion's Blessing**, which is a prerequisite for one of the strongest branches in the tree.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Reset Your Skill Tree">
+
+If you find yourself stuck in a "bad route" or want to swap from a Mage to a Divine Restriction build, you must use a reset. There are two primary ways to do this: reaching a specific rank or crafting a specialized elixir.
+
+<Steps>
+  <Step num="1" title="Reach Rank 4">
+    Progress your Magic Knight rank to **Intermediate Rank 4**. The Wizard King will grant you one free Skill Tree Reset.
+  </Step>
+  <Step num="2" title="Gather Materials">
+    If you have already used your free reset, you must craft the **Elixir of Reflection**. You need 62,000 Gold and several rare runes.
+  </Step>
+  <Step num="3" title="Visit Time Village">
+    Locate the specialized NPC in **Time Village**. You must be at least Level 15 to interact with the crafting menu.
+  </Step>
+  <Step num="4" title="Consume the Elixir">
+    Drinking the Elixir of Reflection will refund all 43 skill points. Note that items used to unlock specific nodes (like Runes of Endless Tides) are **not** refunded.
+  </Step>
+</Steps>
+
+| Crafting Material | Amount | Source |
+| :--- | :--- | :--- |
+| **Gold** | 62,000 | General Gameplay |
+| **Spirit Feather** | 1 | Spirit Rifts |
+| **Devil Horns** | 2 | Tier 2+ Devils |
+| **Rune of Endless Tides** | 2 | Knight Orders |
+| **Ether Golem Runes** | 2 (Each) | Boss Drops |
+
+<Callout type="warning" title="No Item Refunds">
+Resetting your tree only returns your **Skill Points**. It does NOT return the rare runes or gold used to unlock those specific nodes. Think twice before resetting a fully maxed magic branch.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Checklist and FAQ">
+
+To ensure your build is truly "maxed," follow this checklist to verify you haven't missed any critical components of the **clover retribution skill tree**.
+
+<Checklist
+  id="endgame-build-check"
+  title="Max Build Requirements:"
+  items={[
+    "Reach Level 500 to hit the current stat point cap",
+    "Unlock Intermediate Magic Knight Rank 4 for easier orders",
+    "Achieve Max Clover Mastery on your primary spells",
+    "Eat 20 Ryoman Fingers if running a Dex build",
+    "Secure Ethereion's Blessing from a Spirit Rift",
+    "Equip Scarlet Witch or Hamson's Armor before prestiging"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "How many skill points can I get in total?",
+    answer: "As of the May 2026 update, the maximum number of skill points available is 43. These are earned through promotion quests and ranking up with the Wizard King."
+  },
+  {
+    question: "Can I reset my stats and my skill tree separately?",
+    answer: "Yes. Use the Elixir of Reflection for the skill tree and the Elixir of Renewal for your base stats (Strength, Intelligence, etc.)."
+  },
+  {
+    question: "Is the Shadow magic skill tree working yet?",
+    answer: "No, the Shadow skill tree is currently bugged and does not provide the listed benefits. It is recommended to save your points or invest in the universal Intelligence branch instead."
+  },
+  {
+    question: "What is the best race for a skill tree focus?",
+    answer: "Ryoman is currently the best for physical/Dex builds due to its 30% stat cap increase. High Elf is the top choice for Mages due to its natural magic damage scaling."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always keep a few skill points in reserve. The developers frequently update the **clover retribution skill tree**, and having spare points allows you to adapt to the meta without needing an expensive reset.
+</Callout>
+
+</Section>

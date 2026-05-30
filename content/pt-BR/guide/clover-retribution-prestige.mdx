@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Ghost, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prestígio em Clover Retribution: Guia de Progressão e Atributos 2026",
+  description: "Domine o sistema de prestígio de Clover Retribution. Aprenda a farmar spins, desbloquear grimórios de quatro folhas e maximizar ganhos permanentes de atributos em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Prestige+System+Guide",
+  date: "2026-05-30",
+  author: "Equipe da Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **prestígio em clover retribution**: Um sistema que redefine seu nível para 1 em troca de buffs permanentes de atributos, spins ou melhorias de grimório.
+- **Localização do Rei Mago**: Fale com o NPC Rei Mago (Wizard King) localizado perto do Conselheiro (Advisor) para iniciar o processo de prestígio.
+- **Maximização de Atributos**: Cada prestígio concede 2,5% do seu nível como atributos permanentes, com limite de 5 prestígios totais para um bônus de +50.
+- **Pity de Quatro Folhas**: Atingir o nível 405 oferece uma chance base de 10% para um grimório de quatro folhas, com o pity aumentando até 40%.
+- **Farm Otimizado**: Use o farm de Vampiros (Lucius) para recuperar níveis rapidamente após resetar seu personagem.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Prestígio de Clover Retribution">
+
+O sistema de **prestígio em clover retribution** é a mecânica definitiva de endgame para jogadores que buscam transcender o limite de nível padrão. Ao sacrificar seu progresso atual e resetar para o nível 1, você desbloqueia bônus permanentes poderosos que tornam seu personagem significativamente mais forte a longo prazo. Este sistema é gerenciado pelo Rei Mago, um NPC encontrado na área central do hub, adjacente ao Conselheiro.
+
+**Destaques do Vídeo:**
+- **Localização do Rei Mago**: Como encontrar o NPC de prestígio e navegar em seu menu.
+- **Opções de Prestígio**: Uma análise dos quatro caminhos diferentes que você pode seguir ao resetar.
+- **Visão Geral da Magia de Legião**: Introdução às novas peças de magia baseadas em xadrez.
+- **Conteúdo de Halloween**: Breve visão geral dos itens e tokens sazonais.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Legion Magic, Prestige, and More" />
+
+Quando você interage com o Rei Mago e seleciona "I'm tired of my current self" (Estou cansado de mim mesmo), quatro escolhas distintas são apresentadas. Cada escolha atende a um objetivo de progressão diferente, seja você um caçador de grimórios raros, alguém em busca de poder bruto ou farmando spins para roletar novos traços.
+
+| Opção de Prestígio | Recompensa Principal | Melhor Para |
+| :--- | :--- | :--- |
+| **Grow closer to grimoire** | 5% - 10% de chance de Quatro Folhas | Caçadores de Grimórios |
+| **Another chance at life** | Pontos de Atributos Permanentes | Meta-chasers de Combate |
+| **Don't part with grimoire** | Arcane Locket (Armazenamento) | Jogadores com múltiplas magias |
+| **A few more chances** | Spins (Nível / 3) | Reroll de Traços e Magia |
+
+<Callout type="warning" title="Aviso de Reset de Nível">
+O prestígio resetará seu personagem para o nível 1 e removerá todos os seus pontos de atributos atuais. Certifique-se de ter equipamentos de alto nível equipados antes de resetar, pois você pode não atender aos requisitos de nível para reequipá-los quando estiver no nível 1.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Atributos Permanentes e Pity de Grimório de Quatro Folhas">
+
+O motivo mais popular para utilizar o sistema de **prestígio em clover retribution** é o ganho permanente de atributos. Os jogadores podem prestigiar até cinco vezes para obter um aumento massivo em seus atributos base. Cada vez que você prestigia usando a opção "Another chance at life", você recebe 2,5% do seu nível atual como atributos permanentes. No limite de nível atual de 405, isso se traduz em aproximadamente 10 pontos por categoria de atributo (Força, Destreza, Constituição, Inteligência).
+
+Para aqueles que caçam o elusivo Grimório de Quatro Folhas, o sistema de prestígio oferece uma mecânica de pity estruturada. Suas chances de sucesso estão diretamente ligadas ao seu nível no momento do reset.
+
+| Nível no Prestígio | Chance Base de Quatro Folhas | Pity de Falha (Próxima Tentativa) |
+| :--- | :--- | :--- |
+| **Nível 200** | 5% de Chance | Sem Bônus de Pity |
+| **Nível 405 (Limite)** | 10% de Chance | Aumenta para 20% |
+| **Nível 405 (2ª Falha)** | 20% de Chance | Aumenta para 25% |
+| **Nível 405 (3ª Falha)** | 25% de Chance | Aumenta para 30% |
+| **Nível 405 (4ª Falha)** | 30% de Chance | Aumenta para 40% |
+
+<CardGrid cols={2}>
+  <Card title="Escalonamento de Atributos">
+    O bônus de atributo se aplica a todos os atributos principais. Após 5 prestígios no nível máximo, você terá +50 pontos permanentes em STR, DEX, CON e INT, proporcionando uma vantagem massiva em PVP e Raides de alto nível.
+  </Card>
+  <Card title="O Limite do Pity">
+    O sistema de pity só é ativado se você prestigiar no limite máximo de nível (atualmente 405). Se você prestigiar no nível 200, manterá uma chance fixa de 5% sem acumular pity futuro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia de Atributos">
+Foque em atingir o limite de nível 405 antes de cada prestígio. A diferença nos ganhos de atributos entre o nível 200 e o nível 405 é quase o dobro, e é a única maneira de acumular eficientemente o pity de Quatro Folhas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhor Forma de Farmar Spins e Níveis">
+
+Após realizar um **prestígio em clover retribution**, seu objetivo principal é retornar ao limite de nível o mais rápido possível. O método mais eficiente descoberto em 2026 envolve o farm de Vampiros, visando especificamente o chefe Lucius e seus lacaios ao redor. Este método é tão eficaz que os jogadores podem ganhar até 360 spins por hora, aproveitando a mecânica de spins por nível.
+
+**Destaques do Vídeo:**
+- **Rotação de Vampiros**: O caminho exato para atrair Soldados, Elites e Lucius.
+- **Solo vs. Grupo**: Por que builds mágicas se destacam no farm solo desses mobs.
+- **Matemática dos Spins**: Como o sistema de 1 spin a cada 2 níveis recompensa o nivelamento rápido.
+- **Retenção de Equipamentos**: Dicas para manter seus equipamentos de alto nível ativos após um reset.
+
+<YouTubeEmbed videoId="n6z7bHXDVzY" title="Melhor Forma de Farmar Spins em Clover Retribution" />
+
+Para maximizar sua eficiência, siga esta rotação específica na área dos Vampiros. Você deve tentar agrupar os quatro Soldados Vampiros no centro antes de lançar magia de área (AOE), depois seguir para os Elites e, finalmente, Lucius.
+
+| Faixa de Nível | Alvo de Farm | Localização |
+| :--- | :--- | :--- |
+| **Nível 1 - 80** | Soldados Vampiros e Lucius | Campos de Vampiros |
+| **Nível 80 - 240** | Rotação de Vampiros Anciões | Criptas de Vampiros |
+| **Nível 240 - 405** | Missão do Kraken / Nixxar | Mar de Alto Nível/Raides |
+
+<Steps>
+  <Step num="1" title="Equipar Magia">
+    Use um tipo de magia com AOE forte (como Luz ou Magia de Legião) para limpar grupos de mobs instantaneamente. Isso é muito mais rápido do que usar armas físicas em níveis baixos.
+  </Step>
+  <Step num="2" title="Missões Diárias">
+    Pegue todas as missões diárias disponíveis no nível 1. Mesmo sendo nível baixo, você pode completar diárias de alto nível para obter grandes quantidades de XP.
+  </Step>
+  <Step num="3" title="O Ciclo do Lucius">
+    Derrote Lucius e depois resete os spawns dos mobs limpando os Soldados e Elites. Uma única morte de Lucius no nível 1 pode te levar direto para o nível 80+.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bônus de Spins">
+Você ganha 1 spin para cada 2 níveis obtidos. Ao prestigiar e correr de volta para o nível 405, você pode acumular centenas de spins para aperfeiçoar os traços e a magia do seu personagem.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Multiplicadores de Experiência e Buffs">
+
+Para tornar o grind de **prestígio em clover retribution** suportável, você deve acumular multiplicadores de experiência. O jogo limita o multiplicador total de XP em 4x, portanto, embora você possa usar vários itens e traços, qualquer coisa além do limite de 4x é desperdiçada.
+
+| Fonte de Buff | Bônus de XP | Tipo |
+| :--- | :--- | :--- |
+| **Raça Humana** | +30% XP | Traço Passivo |
+| **Traço Prodígio (Prodigy)** | Aumento Significativo | Traço de Personagem |
+| **Estandarte da Guilda** | +10% XP | Buff Temporário de Grupo |
+| **Clube do Trevo Dourado** | +5% XP | Gamepass / Assinatura |
+| **Bônus de Novo Jogador** | 4x XP | Automático (Nível 1-100) |
+
+<Checklist
+  id="xp-stacking"
+  title="Checklist Pré-Grind:"
+  items={[
+    "Junte-se a uma guilda para o buff passivo de 10% de XP",
+    "Certifique-se de ter o traço Prodígio para maestria mais rápida",
+    "Equipe a raça Humana se estiver focado estritamente em subir de nível",
+    "Ative um Estandarte do Crescimento se sua guilda tiver um disponível",
+    "Verifique se há códigos ativos que possam fornecer boosters temporários de XP"
+  ]}
+/>
+
+<Callout type="info" title="O Limite de 4x">
+Não use Elixires de Crescimento se você já tiver o bônus de 4x de Novo Jogador ou uma combinação de traços Humano/Prodígio que atinja o limite. Salve seus Elixires para o trecho do nível 100 ao 405, onde o bônus natural de 4x expira.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Magia de Legião e Novos Feitiços">
+
+A atualização de 2026 introduziu a Magia de Legião (Legion Magic), um conjunto tático baseado em peças de xadrez. Esta magia é altamente eficaz para jogadores que acabaram de completar um **prestígio em clover retribution**, pois permite defesa estacionária e cura enquanto você está com vida baixa.
+
+**Peças da Magia de Legião:**
+- **Peão (Pawn)**: Ataca e cura o alvo mais próximo. Você pode invocar vários peões para criar um perímetro defensivo.
+- **Torre (Rook)**: Realiza um grande ataque AOE e fornece um escudo baseado em 10% da sua Inteligência.
+- **Cavaleiro (Knight)**: O principal causador de dano. Ele fornece um buff de 30% de dano aos aliados próximos.
+- **Bispo (Bishop)**: Uma peça de cura de alto custo que pode eventualmente conjurar Death Ward em níveis mais altos de maestria.
+
+Além disso, o novo feitiço de Magia de Sangue, **Torrente Carmesim (Crimson Torrent)**, tornou-se essencial para a sobrevivência. Obtido através de um pergaminho da Bruxa de Sangue, seu dano é proporcional à cura que fornece. Isso o torna uma excelente ferramenta para se manter vivo durante o perigoso grind do nível 1-100 após um reset de prestígio.
+
+| Nome do Feitiço | Fonte | Custo de Mana | Característica Principal |
+| :--- | :--- | :--- | :--- |
+| **Crimson Torrent** | Pergaminho da Bruxa de Sangue | ~100 Mana | Dano escala com a cura |
+| **Chrono Burst** | Magia do Tempo | Varia | Agora atua como um movimento evasivo |
+| **Legion Knight** | Magia de Legião | Dreno Alto | Buff de 30% de Dano para aliados |
+
+<Callout type="tip" title="Gerenciamento de Mana">
+As peças da Magia de Legião drenam mana continuamente enquanto estão ativas. Se você ficar sem mana, todas as suas peças invocadas desaparecerão. Invista seus primeiros pontos de atributo em Inteligência para manter suas invocações ativas por mais tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conteúdo Sazonal e Drops Raros">
+
+Enquanto faz o grind do seu **prestígio em clover retribution**, fique de olho em eventos sazonais como a atualização de Halloween e os tokens de Aniversário. Eles fornecem itens raros que podem aumentar significativamente o poder do seu personagem sem exigir um reset de nível.
+
+**Itens da Loja de Halloween:**
+- **Sementes de Abóbora**: Coletadas de NPCs Abóbora e Esqueleto.
+- **Tokens de Halloween**: Drops raros usados para comprar equipamentos exclusivos do Vendedor de Halloween.
+- **Void Wisp**: Um spawn raro que buffa a Magia do Vazio e fornece +25 de Inteligência quando equipado.
+
+**Recompensas de Aniversário:**
+Ao falar com Orion na Torre, você pode coletar Tokens de Aniversário. Economizar 30 desses tokens permite comprar um Mythic Magic Eraser garantido, essencial para jogadores que desejam trocar sua magia sem perder o progresso de prestígio.
+
+<FAQ items={[
+  {
+    question: "Qual é o número máximo de vezes que posso prestigiar para atributos?",
+    answer: "Você pode prestigiar até 5 vezes pela opção 'Another chance at life', ganhando um total de +50 pontos de atributos permanentes em todas as categorias."
+  },
+  {
+    question: "O pity de Quatro Folhas reseta se eu prestigiar em um nível baixo?",
+    answer: "O sistema de pity só é construído e mantido quando você prestigia no limite de nível 405. Prestigiar antes (ex: nível 200) fornece uma chance fixa de 5% e não contribui para o contador de pity."
+  },
+  {
+    question: "Posso manter meus equipamentos após um prestígio em clover retribution?",
+    answer: "Sim, você mantém seus equipamentos, mas deve tê-los equipados antes de prestigiar. Se você os desequipar no nível 1, provavelmente não conseguirá colocá-los de volta até atingir o nível necessário novamente."
+  },
+  {
+    question: "Quantos spins eu ganho ao prestigiar no nível 405?",
+    answer: "Se você escolher a opção 'If only I had a few more chances', você recebe seu nível dividido por 3 em spins. No nível 405, isso dá exatamente 135 spins."
+  }
+]} />
+
+<Callout type="success" title="Objetivo Final">
+A build definitiva de personagem em 2026 envolve 5 prestígios de atributos seguidos por um prestígio final para um Grimório de Quatro Folhas. Isso garante que você tenha os atributos base máximos e a magia mais poderosa possível.
+</Callout>
+
+</Section>

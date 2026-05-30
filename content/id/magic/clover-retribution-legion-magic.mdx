@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sihir Legion Clover Retribution: Panduan Pemanggilan & Statistik Lengkap",
+  description: "Kuasai Sihir Legion Clover Retribution dengan panduan kami tentang mekanik bidak, strategi pemanggilan, dan perbandingannya dengan meta 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Legion+Magic+Guide",
+  date: "2026-05-30",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Sihir Legion** adalah tipe sihir berbasis pemanggilan unik yang menampilkan empat bidak bertema catur yang berbeda: Pawn, Rook, Knight, dan Bishop.
+- **Manajemen Mana** sangat penting karena semua bidak yang dipanggil terus-menerus menguras mana; kehabisan mana menyebabkan semua pemanggilan aktif menghilang seketika.
+- **Penempatan Taktis** wajib dilakukan karena bidak yang dipanggil tidak bergerak setelah ditempatkan, mengharuskan pemain untuk merencanakan tata letak medan perang mereka.
+- **Potensi Sinergi** sangat tinggi dengan Knight yang memberikan buff kerusakan 30% dan Rook yang menawarkan perisai berskala kecerdasan kepada sekutu terdekat.
+- **Sistem Prestige** memungkinkan pemain untuk mereset ke level satu untuk peningkatan statistik permanen dan peluang berskala untuk mendapatkan daun semanggi empat yang langka.
+</Callout>
+
+<Section icon={Sparkles} title="Ikhtisar Sihir Legion Clover Retribution">
+
+Sihir legion Clover Retribution memperkenalkan lapisan taktis yang canggih ke dalam sistem pertarungan game ini. Berbeda dengan sihir proyektil tradisional atau area-of-effect, Sihir Legion mengandalkan penempatan strategis dari pemanggilan statis. Setiap bidak melayani peran tertentu, mulai dari kerusakan lini depan dan penyembuhan hingga perisai pertahanan dan buff ofensif yang masif. Hingga pembaruan tahun 2026, tipe sihir ini telah menjadi pilihan utama bagi pemain yang lebih menyukai gaya bermain "komandan", mengendalikan alur pertempuran melalui turret statis dan unit pendukung.
+
+**Sorotan Video:**
+- Penjelasan mendalam tentang keempat bidak Sihir Legion dan perilaku tempur spesifik mereka.
+- Demonstrasi mekanik pengurasan mana dan cara mempertahankan banyak pemanggilan.
+- Panduan sistem Prestige baru dan hadiah dari Raja Penyihir.
+- Pratinjau mantra darah Crimson Torrent dan item acara Halloween saat ini.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Sihir Legion, Prestige, Halloween, dan Lainnya" />
+
+Mekanik inti dari Sihir Legion melibatkan klik kiri untuk memanggil bidak dan klik kanan untuk membatalkan pemanggilan. Karena bidak-bidak ini statis, penempatan awal Anda menentukan efektivitas Anda dalam pertemuan PvE dan PvP. Penguasaan sihir ini membutuhkan pemahaman mendalam tentang regenerasi mana dan penskalaan kecerdasan (intelligence), karena kekuatan perisai dan penyembuhan berkorelasi langsung dengan statistik pengguna.
+
+<Callout type="tip" title="Keberlanjutan Mana">
+Berinvestasilah secara besar-besaran pada statistik Kecerdasan (Intelligence) dan Regenerasi Mana. Karena bidak Legion menguras mana seiring waktu, kolam mana yang rendah akan mengakibatkan pemanggilan Anda menghilang sebelum mereka dapat memberikan nilai signifikan dalam pertarungan bos yang lama.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Empat Bidak Sihir Legion">
+
+Efektivitas sihir legion Clover Retribution dibagi di antara empat pemanggilannya. Setiap bidak memiliki profil biaya dan kegunaan yang unik. Memahami kapan harus mengerahkan Pawn dibandingkan Bishop bisa menjadi penentu antara kemenangan dan reset cepat.
+
+| Bidak | Fungsi Utama | Kemampuan Khusus | Biaya Mana |
+| :--- | :--- | :--- | :--- |
+| **Pawn** | Kerusakan & Penyembuhan | Menyerang dan menyembuhkan target terdekat secara bersamaan | Rendah |
+| **Rook** | AoE & Pertahanan | Serangan area masif dan perisai berskala 10% INT | Sedang |
+| **Knight** | DPS Tinggi & Buff | Output kerusakan tertinggi dan buff kerusakan 30% untuk sekutu | Tinggi |
+| **Bishop** | Dukungan Elit | Penyembuhan AoE yang kuat dan mantra pelindung tingkat lanjut | Sangat Tinggi |
+
+<CardGrid cols={2}>
+  <Card title="Pawn & Rook">
+    - **Pawn**: Tulang punggung legion Anda. Anda dapat memanggil beberapa Pawn untuk menciptakan perimeter pertahanan yang memberikan kerusakan pada musuh sekaligus menjaga kesehatan Anda tetap penuh.
+    - **Rook**: Sangat penting untuk konten grup. Perisai yang diberikannya berskala dengan Kecerdasan Anda, menjadikannya bidak wajib untuk pembersihan dungeon tingkat tinggi.
+  </Card>
+  <Card title="Knight & Bishop">
+    - **Knight**: Pemberi kerusakan utama. Buff kerusakan 30%-nya adalah salah satu yang terkuat di dalam game, secara signifikan meningkatkan DPS keseluruhan party.
+    - **Bishop**: Bidak termahal. Pada tingkat penguasaan yang lebih tinggi, ia mendapatkan akses ke mantra seperti Death Ward, yang dapat menyelamatkan pemain dari serangan mematikan.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Batasan Statis">
+Ingatlah bahwa tidak ada bidak Legion yang dapat bergerak. Jika musuh bergerak keluar dari jangkauan mereka, Anda harus membatalkan dan memanggil mereka kembali, yang mengonsumsi mana tambahan. Selalu pancing bos ke "zona pembunuhan" Anda di mana bidak-bidak Anda berkumpul.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sihir Legion vs. Tipe Sihir Lainnya">
+
+Dalam meta 2026 saat ini, memilih tipe sihir Anda adalah keputusan penting. Sihir Legion berada di tempat yang unik dibandingkan dengan tipe Mitos dan Legendaris yang memiliki kelangkaan tinggi. Meskipun mungkin tidak memiliki mobilitas mentah seperti sihir Void atau Waktu, kegunaannya dalam pertempuran statis tidak tertandingi.
+
+| Tipe Sihir | Kelangkaan | Gaya Bermain | Terbaik Untuk |
+| :--- | :--- | :--- | :--- |
+| **Legion** | Langka/Epik | Pemanggil/Taktisi | Raid Grup / Farming Bos |
+| **Blood** | Legendaris | Life Steal / DPS | Kelangsungan Hidup Solo |
+| **Void** | Legendaris | Mobilitas / Kontrol Massa | PvP / Pembersihan Cepat |
+| **World Tree** | Mitos | Dukungan / Buffing | Permainan Tim Elit |
+| **Time** | Mitos | Evasif / Burst | PvP Keterampilan Tinggi |
+
+Sihir Legion unggul dalam skenario di mana tujuannya tetap. Misalnya, selama acara bergaya tower defense atau saat melawan bos dengan pola gerakan yang dapat diprediksi, Knight dan Rook dapat mempertahankan uptime 100% pada buff dan perisai mereka. Sebaliknya, pengguna Sihir Darah (Blood) sering mengandalkan mantra **Crimson Torrent**, yang memberikan kerusakan target tunggal dan penyembuhan yang sangat baik tetapi kurang memiliki kegunaan seluruh tim seperti Legion Bishop.
+
+<Callout type="info" title="Statistik Kelangkaan">
+Pada patch terbaru, kelangkaan Sihir tetap konsisten: Umum (80%), Tidak Umum (12%), Langka (6%), Epik (0,74%), Legendaris (0,19%), dan Mitos (0,1%). Penempatan Sihir Legion di tingkat Langka/Epik menjadikannya mudah diakses namun tetap kuat.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mendapatkan Crimson Torrent dan Mantra Darah">
+
+Sambil berfokus pada sihir legion Clover Retribution, banyak pemain juga melirik Sihir Darah untuk kelangsungan hidupnya. Mantra baru, **Crimson Torrent**, telah menjadi tambahan vital bagi rangkaian alat Darah.
+
+<Steps>
+  <Step num="1" title="Temukan Blood Witch">
+    Pergilah ke NPC Blood Witch untuk mendapatkan gulungan (scroll) yang diperlukan. Ini adalah syarat sebelum mantra dapat dipelajari.
+  </Step>
+  <Step num="2" title="Lengkapi dan Gunakan Gulungan">
+    Buka inventaris Anda dan lengkapi gulungan Crimson Torrent. Menggunakannya akan menambahkan jurus tersebut secara permanen ke perpustakaan Sihir Darah Anda.
+  </Step>
+  <Step num="3" title="Kuasai Penskalaan">
+    Kerusakan Crimson Torrent berbanding lurus dengan jumlah penyembuhan yang diberikannya. Dengan Kecerdasan tinggi (sekitar 400-500), Anda hampir bisa melakukan one-shot pada mob elit seperti Kalajengking.
+  </Step>
+</Steps>
+
+| Nama Mantra | Syarat Penguasaan | Cooldown | Efek Utama |
+| :--- | :--- | :--- | :--- |
+| **Wound** | Dasar | Singkat | Serangan pukulan lurus dasar |
+| **Crimson Torrent** | Gulungan | 10 detik | Serangan darah menusuk dengan life steal |
+| **Crimson Hydra** | Tinggi | Lama | Proyektil pelacak berkepala banyak |
+
+<Callout type="success" title="Peningkatan Kelangsungan Hidup">
+Biaya mana Crimson Torrent berkurang seiring bertambahnya jumlah Daun Semanggi Anda, yang akhirnya menetap di sekitar 100 mana. Ini menjadikannya alat yang sangat efisien untuk menjaga kesehatan selama pertemuan yang sulit.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistem Prestige dan Guild">
+
+Pembaruan tahun 2026 memperkenalkan sistem Prestige, mekanik progres jangka panjang yang menghargai pemain yang berdedikasi. Dengan berbicara kepada Raja Penyihir, Anda dapat mereset kemajuan Anda untuk mendapatkan manfaat permanen.
+
+**Hadiah dan Penskalaan Prestige:**
+- **Peningkatan Statistik**: Terima 2,5% dari level Anda sebagai statistik permanen (Con, Int, Str, Dex). Pada batas level 405, ini berarti sekitar 10 statistik per prestige.
+- **Peluang Daun Semanggi Empat**: Peluang berskala untuk mendapatkan daun semanggi empat untuk sihir Anda. Dimulai dari 10% (pada level 405) dan meningkat sebesar 10% per upaya yang gagal (hingga 40%).
+- **Spin**: Terima level Anda dibagi tiga dalam bentuk spin (sekitar 133 spin pada level 405).
+
+<Checklist
+  id="prestige-prep"
+  title="Daftar Periksa Prestige:"
+  items={[
+    "Capai batas level saat ini (disarankan Level 405)",
+    "Amankan Jimat (Amulet) untuk menyimpan Grimoire Anda saat ini",
+    "Kumpulkan emas yang cukup untuk peningkatan Guild",
+    "Selesaikan quest harian Halloween untuk token",
+    "Konfirmasi bahwa Anda siap untuk mereset ke Level 1"
+  ]}
+/>
+
+| Jumlah Prestige | Total Statistik Gratis | Peluang Dasar Daun 4 |
+| :--- | :--- | :--- |
+| **1** | ~10 | 10% (pada lvl 405) |
+| **3** | ~30 | 30% (jika gagal dua kali) |
+| **5 (MAKS)** | 50 | 40% (Tingkat Keberhasilan Maks) |
+
+<Callout type="warning" title="Bos Masa Depan">
+Pengembang telah mengisyaratkan bahwa Raja Penyihir pada akhirnya akan menjadi bos. Semakin banyak level yang Anda "berikan" kepadanya melalui sistem Prestige, semakin kuat dia dalam pembaruan mendatang. Lakukan prestige dengan bijak.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ Clover Retribution">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara menghentikan bidak Sihir Legion saya agar tidak menghilang?",
+    answer: "Bidak Legion menguras mana secara konstan. Untuk menjaganya tetap aktif, Anda harus memastikan regenerasi mana Anda melebihi total pengurasan dari semua bidak yang dipanggil. Batalkan pemanggilan bidak yang tidak digunakan dengan klik kanan untuk menghemat mana."
+  },
+  {
+    question: "Apakah Sihir Legion lebih baik daripada sihir Waktu Mitos?",
+    answer: "Tergantung pada aktivitasnya. Sihir Waktu lebih unggul untuk mobilitas dan penghindaran PvP, tetapi Sihir Legion menawarkan buff tim berkelanjutan dan pertahanan statis yang lebih baik untuk raid dan farming bos."
+  },
+  {
+    question: "Apa statistik terbaik untuk build Sihir Legion?",
+    answer: "Kecerdasan (INT) adalah prioritas. Ini meningkatkan total kolam mana Anda, regenerasi mana, dan secara langsung menskalakan kekuatan perisai Rook serta penyembuhan Bishop."
+  },
+  {
+    question: "Bisakah saya melakukan prestige lebih dari lima kali?",
+    answer: "Saat ini, Anda hanya bisa menerima bonus statistik untuk lima prestige pertama, dengan total 50 statistik gratis di setiap kategori. Prestige lebih lanjut mungkin hanya berguna untuk upaya daun semanggi 4 atau spin."
+  }
+]} />
+
+</Section>

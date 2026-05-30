@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Ghost, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prestigio en Clover Retribution: Guía de Progresión y Estadísticas 2026",
+  description: "Domina el sistema de prestigio de Clover Retribution. Aprende a farmear giros, desbloquear grimorios de cuatro hojas y maximizar las ganancias de estadísticas permanentes en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Prestige+System+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Clover Retribution",
+  keywords: "clover retribution, prestigio, estadísticas, grimorio de cuatro hojas, farmeo de giros"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **prestigio de clover retribution**: Un sistema que reinicia tu nivel a 1 a cambio de mejoras permanentes de estadísticas, giros o mejoras de grimorio.
+- **Ubicación del Rey Mago**: Habla con el NPC Rey Mago (Wizard King) ubicado cerca del Asesor para iniciar el proceso de prestigio.
+- **Maximización de Estadísticas**: Cada prestigio otorga el 2.5% de tu nivel como estadísticas permanentes, con un límite de 5 prestigios totales para un bono de +50.
+- **Pity de Cuatro Hojas**: Alcanzar el nivel 405 otorga una probabilidad base del 10% para un grimorio de cuatro hojas, con un sistema de piedad (pity) que aumenta hasta el 40%.
+- **Farmeo Óptimo**: Utiliza la granja de Vampiros (Lucius) para recuperar niveles rápidamente después de reiniciar tu personaje.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema de Prestigio de Clover Retribution">
+
+El sistema de **prestigio de clover retribution** es la mecánica definitiva del endgame para los jugadores que buscan trascender el límite de nivel estándar. Al sacrificar tu progreso actual y reiniciar al nivel 1, desbloqueas poderosas bonificaciones permanentes que hacen que tu personaje sea significativamente más fuerte a largo plazo. Este sistema es gestionado por el Rey Mago, un NPC que se encuentra en el área central junto al Asesor.
+
+**Puntos Destacados del Video:**
+- **Ubicación del Rey Mago**: Cómo encontrar al NPC de prestigio y navegar por su menú.
+- **Opciones de Prestigio**: Un desglose de los cuatro caminos diferentes que puedes tomar al reiniciar.
+- **Resumen de Magia de Legión**: Introducción a las nuevas piezas de magia basadas en el Ajedrez.
+- **Contenido de Halloween**: Breve resumen de los objetos y fichas de temporada.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Magia de Legión, Prestigio y más" />
+
+Cuando interactúas con el Rey Mago y seleccionas "Estoy cansado de mi yo actual" (I'm tired of my current self), se te presentan cuatro opciones distintas. Cada opción responde a un objetivo de progresión diferente, ya sea que estés cazando un grimorio raro, buscando poder puro o farmeando giros para obtener nuevos rasgos.
+
+| Opción de Prestigio | Recompensa Principal | Ideal para |
+| :--- | :--- | :--- |
+| **Grow closer to grimoire** | 5% - 10% de probabilidad de 4 Hojas | Cazadores de grimorios |
+| **Another chance at life** | Puntos de Estadística Permanentes | Jugadores competitivos de combate |
+| **Don't part with grimoire** | Guardapelo Arcano (Almacenamiento) | Jugadores con múltiples magias |
+| **A few more chances** | Giros (Nivel / 3) | Re-roleo de Rasgos y Magia |
+
+<Callout type="warning" title="Advertencia de Reinicio de Nivel">
+Prestigiar reiniciará tu personaje al nivel 1 y eliminará todos tus puntos de estadística actuales. Asegúrate de tener equipado equipo de alto nivel antes de reiniciar, ya que es posible que no cumplas con los requisitos de nivel para volver a equiparlos una vez que seas nivel 1.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Estadísticas Permanentes y Pity del Grimorio de Cuatro Hojas">
+
+La razón más popular para participar en el sistema de **prestigio de clover retribution** es la ganancia de estadísticas permanentes. Los jugadores pueden prestigiar hasta cinco veces para obtener un impulso masivo en sus atributos base. Cada vez que prestigias usando la opción "Another chance at life", recibes el 2.5% de tu nivel actual como estadísticas permanentes. En el límite de nivel actual de 405, esto se traduce en aproximadamente 10 puntos por categoría de estadística (Fuerza, Destreza, Constitución, Inteligencia).
+
+Para aquellos que cazan el esquivo Grimorio de Cuatro Hojas, el sistema de prestigio ofrece una mecánica de piedad (pity) estructurada. Tus posibilidades de éxito están directamente ligadas a tu nivel en el momento del reinicio.
+
+| Nivel al Prestigiar | Probabilidad Base 4 Hojas | Pity por Fallo (Siguiente Intento) |
+| :--- | :--- | :--- |
+| **Nivel 200** | 5% de Probabilidad | Sin Bono de Pity |
+| **Nivel 405 (Máx)** | 10% de Probabilidad | Aumenta al 20% |
+| **Nivel 405 (2º Fallo)** | 20% de Probabilidad | Aumenta al 25% |
+| **Nivel 405 (3º Fallo)** | 25% de Probabilidad | Aumenta al 30% |
+| **Nivel 405 (4º Fallo)** | 30% de Probabilidad | Aumenta al 40% |
+
+<CardGrid cols={2}>
+  <Card title="Escalado de Estadísticas">
+    El bono de estadísticas se aplica a todos los atributos principales. Después de 5 prestigios al nivel máximo, tendrás +50 puntos permanentes en STR, DEX, CON e INT, lo que proporciona una ventaja masiva en PVP y Raids de alto nivel.
+  </Card>
+  <Card title="El Límite del Pity">
+    El sistema de pity solo se activa si prestigias en el límite de nivel máximo (actualmente 405). Si prestigias al nivel 200, mantienes una probabilidad fija del 5% sin acumular pity para el futuro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia de Estadísticas">
+Concéntrate en alcanzar el límite de nivel 405 antes de cada prestigio. La diferencia en las ganancias de estadísticas entre el nivel 200 y el nivel 405 es casi el doble, y es la única forma de acumular eficientemente el pity de Cuatro Hojas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La Mejor Manera de Farmear Giros y Niveles">
+
+Después de realizar un **prestigio de clover retribution**, tu objetivo principal es regresar al límite de nivel lo más rápido posible. El método más eficiente descubierto en 2026 involucra la granja de Vampiros, específicamente apuntando al jefe Lucius y sus secuaces circundantes. Este método es tan efectivo que los jugadores pueden ganar hasta 360 giros por hora aprovechando la mecánica de giros por nivel.
+
+**Puntos Destacados del Video:**
+- **Rotación de Vampiros**: La ruta exacta para atraer Soldados, Élites y a Lucius.
+- **Solo vs. Grupo**: Por qué las builds de magia sobresalen en el farmeo solitario de estos enemigos.
+- **Matemáticas de Giros**: Cómo el sistema de 1 giro por cada 2 niveles recompensa la subida rápida de nivel.
+- **Retención de Equipo**: Consejos para mantener activo tu equipo de alto nivel tras un reinicio.
+
+<YouTubeEmbed videoId="n6z7bHXDVzY" title="La mejor forma de farmear giros en Clover Retribution" />
+
+Para maximizar tu eficiencia, sigue esta rotación específica en el área de los Vampiros. Debes intentar agrupar a los cuatro Soldados Vampiro en el centro antes de desatar magia de área (AOE), luego pasar a los Élites y finalmente a Lucius.
+
+| Rango de Nivel | Objetivo de Farmeo | Ubicación |
+| :--- | :--- | :--- |
+| **Nivel 1 - 80** | Soldados Vampiro y Lucius | Campos de Vampiros |
+| **Nivel 80 - 240** | Rotación de Vampiros Ancianos | Criptas de Vampiros |
+| **Nivel 240 - 405** | Misión del Kraken / Nixxar | Mar de alto nivel/Raids |
+
+<Steps>
+  <Step num="1" title="Equipar Magia">
+    Usa un tipo de magia con fuerte daño de área (como Luz o Magia de Legión) para limpiar grupos de enemigos instantáneamente. Esto es mucho más rápido que usar armas físicas en niveles bajos.
+  </Step>
+  <Step num="2" title="Misiones Diarias">
+    Recoge todas las misiones diarias disponibles al nivel 1. Aunque seas de nivel bajo, puedes completar diarias de nivel alto para obtener fragmentos masivos de XP.
+  </Step>
+  <Step num="3" title="El Bucle de Lucius">
+    Derrota a Lucius, luego reinicia la aparición de enemigos limpiando a los Soldados y Élites. Una sola muerte de Lucius al nivel 1 puede elevarte directamente al nivel 80+.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono de Giros">
+Ganas 1 giro por cada 2 niveles que aumentas. Al prestigiar y correr de regreso al nivel 405, puedes acumular cientos de giros para perfeccionar los rasgos y la magia de tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Multiplicadores de Experiencia y Buffs">
+
+Para que el proceso de **prestigio de clover retribution** sea llevadero, debes acumular multiplicadores de experiencia. El juego limita el multiplicador total de XP a 4x, por lo que, aunque puedes usar varios objetos y rasgos, cualquier cosa más allá del límite de 4x se desperdicia.
+
+| Fuente de Buff | Bono de XP | Tipo |
+| :--- | :--- | :--- |
+| **Raza Humana** | +30% XP | Rasgo Pasivo |
+| **Rasgo Prodigio** | Impulso Significativo | Rasgo de Personaje |
+| **Estandarte de Gremio** | +10% XP | Buff Temporal de Grupo |
+| **Club del Trébol Dorado** | +5% XP | Gamepass / Membresía |
+| **Bono de Jugador Nuevo** | 4x XP | Automático (Nivel 1-100) |
+
+<Checklist
+  id="xp-stacking"
+  title="Lista de Verificación Pre-Farmeo:"
+  items={[
+    "Únete a un gremio para obtener el buff pasivo de 10% de XP",
+    "Asegúrate de tener el rasgo Prodigio para una maestría más rápida",
+    "Equipa la raza Humana si estás estrictamente enfocado en subir de nivel",
+    "Activa un Estandarte de Crecimiento si tu gremio tiene uno disponible",
+    "Busca códigos activos que puedan proporcionar potenciadores temporales de XP"
+  ]}
+/>
+
+<Callout type="info" title="El Límite de 4x">
+No uses Elixires de Crecimiento si ya tienes el bono de 4x de Jugador Nuevo o una combinación de rasgos Humano/Prodigio que alcance el límite. Guarda tus elixires para el tramo del nivel 100 al 405, donde el bono natural de 4x desaparece.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Magia de Legión y Nuevos Hechizos">
+
+La actualización de 2026 introdujo la Magia de Legión, un conjunto de magia táctica basado en piezas de ajedrez. Esta magia es altamente efectiva para los jugadores que acaban de completar un **prestigio de clover retribution** porque permite una defensa estacionaria y curación mientras tienes poca salud.
+
+**Piezas de Magia de Legión:**
+- **Peón**: Ataca y cura al objetivo más cercano. Puedes invocar varios peones para crear un perímetro defensivo.
+- **Torre**: Realiza un gran ataque de área y proporciona un escudo basado en el 10% de tu Inteligencia.
+- **Caballo**: El principal repartidor de daño. Proporciona un buff de daño del 30% a los aliados cercanos.
+- **Alfil**: Una pieza de curación de alto costo que eventualmente puede lanzar Death Ward en niveles de maestría superiores.
+
+Además, el nuevo hechizo de Magia de Sangre, **Torrente Carmesí** (Crimson Torrent), se ha convertido en un elemento básico para la supervivencia. Obtenido a través de un pergamino de la Bruja de Sangre, su daño es proporcional a la curación que proporciona. Esto lo convierte en una herramienta excelente para mantenerse con vida durante el peligroso trayecto del nivel 1 al 100 después de un reinicio de prestigio.
+
+| Nombre del Hechizo | Fuente | Costo de Maná | Característica Clave |
+| :--- | :--- | :--- | :--- |
+| **Torrente Carmesí** | Pergamino de Bruja de Sangre | ~100 Maná | El daño escala con la curación |
+| **Chrono Burst** | Magia de Tiempo | Varía | Ahora actúa como un movimiento evasivo |
+| **Caballo de Legión** | Magia de Legión | Drenaje Alto | Buff de daño del 30% para aliados |
+
+<Callout type="tip" title="Gestión de Maná">
+Las piezas de Magia de Legión drenan maná continuamente mientras están activas. Si te quedas sin maná, todas tus piezas invocadas desaparecerán. Invierte tus primeros puntos de estadística en Inteligencia para mantener tus invocaciones activas por más tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenido de Temporada y Drops Raros">
+
+Mientras realizas tu **prestigio de clover retribution**, mantente atento a eventos estacionales como la actualización de Halloween y las fichas de Aniversario. Estos proporcionan objetos raros que pueden aumentar significativamente el poder de tu personaje sin requerir un reinicio de nivel.
+
+**Objetos de la Tienda de Halloween:**
+- **Semillas de Calabaza**: Recolectadas de NPCs Calabaza y Esqueleto.
+- **Fichas de Halloween**: Drops raros utilizados para comprar equipo exclusivo del Vendedor de Halloween.
+- **Void Wisp**: Una aparición rara que potencia la Magia de Vacío y otorga +25 de Inteligencia cuando se equipa.
+
+**Recompensas de Aniversario:**
+Al hablar con Orion en la Torre, puedes recolectar Fichas de Aniversario. Ahorrar 30 de estas fichas te permite comprar un Borrador de Magia Mítico garantizado, el cual es esencial para los jugadores que desean cambiar su magia sin perder su progreso de prestigio.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el número máximo de veces que puedo prestigiar para obtener estadísticas?",
+    answer: "Puedes prestigiar hasta 5 veces con la opción 'Another chance at life', lo que te otorga un total de +50 puntos de estadística permanentes en todas las categorías."
+  },
+  {
+    question: "¿Se reinicia el pity de Cuatro Hojas si prestigio en un nivel bajo?",
+    answer: "El sistema de pity solo se acumula y mantiene cuando prestigias en el límite de nivel 405. Prestigiar antes (por ejemplo, a nivel 200) otorga una probabilidad fija del 5% y no contribuye al contador de pity."
+  },
+  {
+    question: "¿Puedo conservar mi equipo después de un prestigio de clover retribution?",
+    answer: "Sí, conservas tu equipo, pero debes tenerlo equipado antes de prestigiar. Si lo desequipas al nivel 1, es probable que no puedas volver a ponértelo hasta que alcances de nuevo el nivel requerido."
+  },
+  {
+    question: "¿Cuántos giros obtengo por prestigiar al nivel 405?",
+    answer: "Si eliges la opción 'If only I had a few more chances', recibes tu nivel dividido por 3 en giros. Al nivel 405, esto es exactamente 135 giros."
+  }
+]} />
+
+<Callout type="success" title="Meta Final">
+La construcción definitiva del personaje en 2026 implica 5 prestigios de estadísticas seguidos de un prestigio final para un Grimorio de Cuatro Hojas. Esto asegura que tengas las estadísticas base máximas y la magia más poderosa posible.
+</Callout>
+
+</Section>

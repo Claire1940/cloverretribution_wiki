@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, ZapOff, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Rayo en Retribución de trébol: Guía de Habilidades de Rareza Épica y Maestría",
+  description: "Domina la magia de rayo de Retribución de trébol con nuestra guía de 2026. Aprende maestrías de habilidades, sinergias del debuff Electrizado y rotaciones de combate óptimas para la rareza Épica.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Lightning+Magic+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Retribución de trébol",
+  keywords: "Retribución de trébol, magia de rayo, guía, habilidades, maestría, rareza épica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La Magia de Rayo de Retribución de trébol** es un tipo de magia de **rareza Épica** con una **probabilidad de obtención del 0.74%**.
+- **Mecánica Principal**: Se centra en el combate de alta velocidad y el debuff **Electrizado** (Shocked) para infligir daño adicional.
+- **Habilidad Superior**: **Atuendo del Dios del Trueno** (Thunder Gods Attire) proporciona un aumento masivo de movilidad y mejora los ataques M1.
+- **Prioridad de Maestría**: Alcanza la **Maestría 75** lo antes posible para desbloquear la transformación completa.
+- **Mejor Sinergia**: Funciona excepcionalmente bien con builds de alta agilidad y armas de múltiples golpes.
+</Callout>
+
+<Section icon={Zap} title="Descripción General y Rareza de la Magia de Rayo">
+
+En el meta actual de 2026 de Retribución de trébol, la **magia de rayo de Retribución de trébol** destaca como uno de los tipos de magia más versátiles y agresivos disponibles. Clasificada bajo el nivel de rareza **Épica**, logra un equilibrio perfecto entre accesibilidad y poder bruto. Aunque es significativamente más difícil de obtener que la magia Común o Rara, proporciona un nivel de utilidad que rivaliza con muchos tipos Legendarios.
+
+**Puntos destacados del video:**
+- Exhibición detallada de la variante de **rayo de 4 hojas** y sus efectos visuales.
+- Demostración del rango de área (AoE) y los tics de daño de **Circo de Rayos** (Lightning Circus).
+- Pruebas de movimiento a alta velocidad usando el buff **Atuendo del Dios del Trueno**.
+- Rotación de combate que muestra cómo acumular el debuff **Electrizado** para una máxima eficiencia.
+
+<YouTubeEmbed videoId="3oXGfKWBjIU" title="Exhibición de rayo de 4 hojas (Retribución de trébol)" />
+
+La probabilidad de obtener magia de Rayo es relativamente baja, lo que la convierte en una posesión preciada para los jugadores que prefieren un estilo de juego de "cañón de cristal" o de alta movilidad. A continuación se muestra el desglose de rarezas de los tipos de magia en Retribución de trébol para ayudarte a entender dónde encaja el Rayo en la jerarquía.
+
+| Rareza de Magia | Probabilidad | Nivel de Poder | Dificultad de Obtención |
+| :--- | :--- | :--- | :--- |
+| **Común** | 80% | Básico | Muy Fácil |
+| **Poco Común** | 12% | Moderado | Fácil |
+| **Rara** | 6% | Fuerte | Moderada |
+| **Épica** | **0.74%** | **Muy Fuerte** | **Difícil** |
+| **Legendaria** | 0.19% | Élite | Muy Difícil |
+| **Mítica** | 0.1% | Divino | Extrema |
+
+<Callout type="tip" title="Consejo Pro">
+Si tu objetivo es la magia de Rayo, asegúrate de tener una buena reserva de giros. Con una probabilidad del 0.74%, es de esperar que pases una cantidad significativa de tiempo relanzando a menos que tengas modificadores de suerte altos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conjunto de Habilidades y Requisitos de Maestría">
+
+La fuerza de la **magia de rayo de Retribución de trébol** reside en su progresión. A diferencia de algunos tipos de magia que se sienten débiles hasta el último desbloqueo, el Rayo ofrece una opción sólida a distancia desde el principio y evoluciona hacia una poderosa herramienta de mejora cuerpo a cuerpo. Cada habilidad se basa en la mecánica de **Electrizado**, que es esencial para maximizar tu DPS en raids de alto nivel.
+
+| Nombre de Habilidad | Maestría | Enfriamiento | Efecto Primario |
+| :--- | :--- | :--- | :--- |
+| **Ataque de Rayo** | 5 | 8 Segundos | Invoca una nube que golpea la posición del cursor |
+| **Circo de Rayos** | 25 | 16 Segundos | Chispas en área que infligen daño extra a enemigos Electrizados |
+| **Atuendo del Dios del Trueno** | 75 | 5 Segundos | Buff de velocidad y ataques físicos M1 mejorados |
+
+### Desglose Detallado de Habilidades
+
+**Ataque de Rayo** (Lightning Strike) es tu movimiento de apertura básico. Al invocar una nube directamente sobre tu objetivo, puedes iniciar el combate desde una distancia segura. El objetivo principal de esta habilidad no es solo el daño inicial, sino la alta probabilidad de aplicar el debuff **Electrizado**.
+
+**Circo de Rayos** (Lightning Circus) actúa como tu herramienta principal de ráfaga y control de masas. Cuando estás rodeado por múltiples enemigos, esta habilidad crea un perímetro defensivo y ofensivo de electricidad. La sinergia aquí es vital: si un enemigo ya está Electrizado por tu ataque inicial, las chispas del Circo infligirán un daño significativamente mayor por cada tic.
+
+**Atuendo del Dios del Trueno** (Thunder Gods Attire) es la habilidad definitiva para los usuarios de Rayo. Al alcanzar la Maestría 75, tu personaje se convierte en un rayo literal. Esto no es solo un cambio cosmético; tu velocidad de movimiento aumenta drásticamente, permitiéndote kitear jefes o perseguir jugadores en PvP. Además, tus ataques básicos M1 adquieren propiedades eléctricas, haciendo que tu combate físico sea tan letal como tus hechizos.
+
+<Callout type="warning" title="Gestión de Maná">
+Atuendo del Dios del Trueno tiene un enfriamiento muy corto (5 segundos), pero mantener el buff puede consumir mucho maná. Asegúrate de que tus estadísticas de Inteligencia y Regeneración de Maná sean lo suficientemente altas para mantener la transformación durante combates largos.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Efectos de Estado y Sinergia de Combate">
+
+Entender el debuff **Electrizado** es la diferencia entre un novato y un maestro de la **magia de rayo de Retribución de trébol**. Mientras que otros tipos de magia como el Fuego se centran en el daño por tiempo (Quemadura) o el Vacío se centra en debilitar (Sombrío), el Rayo trata sobre la velocidad y la amplificación de combos.
+
+| Tipo de Debuff | Fuente de Magia | Efecto Primario | Sinergia con Rayo |
+| :--- | :--- | :--- | :--- |
+| **Electrizado** | **Rayo** | Aturde/Ralentiza y aumenta el daño mágico recibido | **Alta** (Activa daño extra de Circo) |
+| **Quemadura** | Fuego | Drenaje continuo de salud con el tiempo | Baja (Sin sinergia directa) |
+| **Sombrío** | Vacío | Visibilidad reducida y disminución de estadísticas | Media (Buena para utilidad en PvP) |
+| **Debilitado** | Árbol del Mundo | Reducción del daño infligido por el enemigo | Media (Aumenta la supervivencia) |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia PvE">
+    - **Abre con Ataque de Rayo** para aplicar el estado Electrizado.
+    - **Activa Circo de Rayos** una vez que el enemigo esté en rango para infligir 1.5x de daño.
+    - **Usa Atuendo del Dios del Trueno** para esquivar ataques telegrafiados de jefes mientras mantienes la presión con M1.
+  </Card>
+  <Card title="Estrategia PvP">
+    - **Abusa de la Movilidad**: Usa la velocidad del Atuendo para mantenerte fuera del alcance del oponente.
+    - **Castiga los Fallos**: Cuando un oponente falle una habilidad, cierra la distancia instantáneamente con tu buff de velocidad.
+    - **Bloqueo por Choque**: Mantén activo el debuff Electrizado para ralentizar su movimiento y convertirlos en objetivos más fáciles.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Bono de Sinergia">
+Se recomienda encarecidamente combinar la magia de Rayo con un arma de alto daño como una Katana o un Espadón. La velocidad de Atuendo del Dios del Trueno compensa la lentitud de ataque de las armas más pesadas, creando una build híbrida devastadora.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión: Cómo Dominar el Rayo">
+
+Dominar la **magia de rayo de Retribución de trébol** requiere una ruta de farmeo dedicada. Debido a que la habilidad más poderosa está bloqueada tras la Maestría 75, necesitas optimizar tus ganancias de experiencia.
+
+<Steps>
+  <Step num="1" title="Adquisición Inicial">
+    Lanza para obtener Rayo en el menú de magia. Si eres un jugador nuevo, usa cualquier código disponible para 2026 para obtener giros gratis. Aspira al menos a un trébol de 3 o 4 hojas para un mejor potencial.
+  </Step>
+  <Step num="2" title="El Inicio del Grind (Maestría 1-25)">
+    Farmea enemigos de nivel bajo usando **Ataque de Rayo**. Céntrate en grupos de enemigos para poder golpear a múltiples objetivos con un solo impacto de nube, maximizando el XP de maestría por lanzamiento.
+  </Step>
+  <Step num="3" title="Farmeo en Área (Maestría 25-75)">
+    Una vez que desbloquees **Circo de Rayos**, muévete a áreas de alta densidad. Atrae a 5-10 enemigos, aplica Electrizado a tantos como sea posible y luego derrítelos con el Circo. Esta es la forma más rápida de alcanzar el hito del nivel 75.
+  </Step>
+  <Step num="4" title="Integración de la Forma Final">
+    Después de desbloquear **Atuendo del Dios del Trueno**, practica tu movimiento de "Flash Step". Aprende el tiempo de tus reinicios de M1 mientras el buff está activo para asegurar que estás infligiendo el máximo DPS sin quedarte sin maná.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Maestría">
+La maestría se gana en función del daño infligido y la cantidad de veces que se usa una habilidad. Usar habilidades contra jefes con mucha vida suele otorgar más XP de maestría que eliminar enemigos débiles de un solo golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Magia de Rayo">
+
+Para asegurarte de aprovechar al máximo tu build de Rayo, sigue esta lista de objetivos y hitos esenciales para 2026.
+
+<Checklist
+  id="lightning-mastery-goals"
+  title="Hitos de Maestría de Rayo:"
+  items={[
+    "Alcanzar Maestría 5 para desbloquear Ataque de Rayo para hostigamiento a distancia",
+    "Alcanzar Maestría 25 para desbloquear Circo de Rayos para limpieza de áreas",
+    "Alcanzar Maestría 75 para desbloquear la transformación Atuendo del Dios del Trueno",
+    "Aplicar con éxito el debuff Electrizado a más de 100 enemigos",
+    "Mantener el Atuendo del Dios del Trueno durante más de 60 segundos en un solo encuentro de combate",
+    "Equipar equipo que potencie el Daño de Rayo o la Regeneración de Maná"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es la magia de Rayo mejor que la magia de Fuego?",
+    answer: "Depende de tu estilo de juego. La magia de Fuego inflige un daño por tiempo más constante a través del debuff de Quemadura, pero el Rayo ofrece una movilidad superior y un potencial de ráfaga con la sinergia de Electrizado."
+  },
+  {
+    question: "¿Cuál es la mejor raza para combinar con la magia de Rayo?",
+    answer: "Las razas con grandes reservas de maná o buffs de agilidad son ideales. Los Elfos proporcionan un excelente sustento de maná para el Atuendo del Dios del Trueno, mientras que las razas de alta agilidad se acumulan bien con la velocidad innata del Rayo."
+  },
+  {
+    question: "¿Puedo obtener magia de Rayo con giros básicos?",
+    answer: "Sí, pero con una tasa de obtención del 0.74%, se recomienda usar giros Raros o Épicos si los tienes para aumentar tu eficiencia."
+  },
+  {
+    question: "¿Golpea el Circo de Rayos a enemigos voladores?",
+    answer: "Sí, el área de efecto tiene una caja de colisión vertical que puede alcanzar a enemigos que están ligeramente por encima del suelo, lo que lo hace útil contra ciertos jefes con mecánicas de levitación."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto Final">
+La magia de Rayo sigue siendo una opción de primer nivel para los jugadores que valoran la velocidad y el juego técnico. Al dominar el debuff Electrizado y mantener tu Atuendo del Dios del Trueno, podrás dominar tanto las raids PvE como las arenas PvP en Retribución de trébol.
+</Callout>
+
+</Section>

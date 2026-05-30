@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Legión en Clover Retribution: Guía Completa de Invocación y Estadísticas",
+  description: "Domina la Magia de Legión en Clover Retribution con nuestra guía sobre mecánicas de piezas, estrategias de invocación y cómo se compara en el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Legion+Magic+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Magia de Legión** es un tipo de magia único basado en invocaciones que cuenta con cuatro piezas distintas con temática de ajedrez: Peón, Torre, Caballo y Alfil.
+- **Gestión de Maná** es crítica, ya que todas las piezas invocadas drenan maná continuamente; quedarse sin maná hace que todas las invocaciones activas desaparezcan instantáneamente.
+- **Posicionamiento Táctico** es obligatorio porque las piezas invocadas no se mueven una vez colocadas, lo que requiere que los jugadores planifiquen la disposición del campo de batalla.
+- **Potencial de Sinergia** es alto, con el Caballo proporcionando una mejora de daño del 30% y la Torre ofreciendo escudos basados en la inteligencia a los aliados cercanos.
+- **Sistema de Prestigio** permite a los jugadores reiniciar al nivel uno para obtener aumentos permanentes de estadísticas y una probabilidad escalable de obtener raros tréboles de cuatro hojas.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción General de la Magia de Legión en Clover Retribution">
+
+La magia de legión de Clover Retribution introduce una capa táctica sofisticada al sistema de combate del juego. A diferencia de las magias tradicionales de proyectiles o de área de efecto, la Magia de Legión se basa en el despliegue estratégico de invocaciones estacionarias. Cada pieza cumple un rol específico, que va desde el daño en primera línea y la curación hasta la protección con escudos y potentes mejoras ofensivas. A partir de las actualizaciones de 2026, este tipo de magia se ha convertido en un elemento básico para los jugadores que prefieren un estilo de juego de "comandante", controlando el flujo de la batalla a través de torretas estacionarias y unidades de apoyo.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de las cuatro piezas de Magia de Legión y sus comportamientos de combate específicos.
+- Demostración de las mecánicas de drenaje de maná y cómo mantener múltiples invocaciones.
+- Recorrido por el nuevo sistema de Prestigio y las recompensas del Rey Mago.
+- Vista previa del hechizo de sangre Torrente Carmesí y los objetos actuales del evento de Halloween.
+
+<YouTubeEmbed videoId="x9iY31bciKE" title="Clover Retribution: Magia de Legión, Prestigio, Halloween y más" />
+
+La mecánica central de la Magia de Legión implica hacer clic izquierdo para invocar una pieza y clic derecho para desinvocarla. Debido a que estas piezas son estacionarias, tu colocación inicial determina tu efectividad tanto en encuentros PvE como PvP. El dominio de esta magia requiere una comprensión profunda de la regeneración de maná y el escalado de inteligencia, ya que la fuerza de los escudos y la curación se correlaciona directamente con las estadísticas del lanzador.
+
+<Callout type="tip" title="Sostenibilidad de Maná">
+Invierte fuertemente en las estadísticas de Inteligencia y Regeneración de Maná. Dado que las piezas de Legión drenan maná con el tiempo, una reserva de maná baja provocará que tus invocaciones desaparezcan antes de que puedan proporcionar un valor significativo en peleas largas contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las Cuatro Piezas de la Magia de Legión">
+
+La efectividad de la magia de legión de Clover Retribution se divide entre sus cuatro invocaciones. Cada pieza tiene un coste y un perfil de utilidad únicos. Entender cuándo desplegar un Peón frente a un Alfil puede ser la diferencia entre la victoria y un reinicio rápido.
+
+| Pieza | Función Principal | Habilidad Especial | Coste de Maná |
+| :--- | :--- | :--- | :--- |
+| **Peón** | Daño y Curación | Ataca y cura al objetivo más cercano simultáneamente | Bajo |
+| **Torre** | AdE y Defensa | Ataque de área masivo y escudo del 10% basado en INT | Medio |
+| **Caballo** | DPS Alto y Mejora | Mayor producción de daño y mejora de daño del 30% a aliados | Alto |
+| **Alfil** | Soporte de Élite | Curación de área potente y hechizos de protección avanzados | Muy Alto |
+
+<CardGrid cols={2}>
+  <Card title="El Peón y la Torre">
+    - **Peón**: La columna vertebral de tu legión. Puedes invocar múltiples Peones para crear un perímetro defensivo que daña a los enemigos y te mantiene curado.
+    - **Torre**: Esencial para contenido en grupo. El escudo que proporciona escala con tu Inteligencia, convirtiéndola en una pieza obligatoria para la limpieza de mazmorras de alto nivel.
+  </Card>
+  <Card title="El Caballo y el Alfil">
+    - **Caballo**: El principal repartidor de daño. Su mejora de daño del 30% es una de las más fuertes del juego, aumentando significativamente el DPS general del grupo.
+    - **Alfil**: La pieza más cara. En niveles de maestría superiores, obtiene acceso a hechizos como Resguardo de Muerte, que puede salvar a los jugadores de golpes letales.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitación Estacionaria">
+Recuerda que ninguna de las piezas de Legión puede moverse. Si un enemigo se sale de su alcance, debes desinvocarlas y volver a invocarlas, lo que consume maná adicional. Siempre atrae a los jefes a tu "zona de muerte" donde tus piezas estén agrupadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Magia de Legión vs. Otros Tipos de Magia">
+
+En el meta actual de 2026, elegir tu tipo de magia es una decisión importante. La Magia de Legión ocupa un lugar único en comparación con los tipos Míticos y Legendarios de alta rareza. Aunque puede que no tenga la movilidad bruta de la magia de Vacío o de Tiempo, su utilidad en combate estacionario es inigualable.
+
+| Tipo de Magia | Rareza | Estilo de Juego | Mejor Para |
+| :--- | :--- | :--- | :--- |
+| **Legión** | Rara/Épica | Invocador/Táctico | Raids en Grupo / Farmeo de Jefes |
+| **Sangre** | Legendaria | Robo de Vida / DPS | Supervivencia en Solitario |
+| **Vacío** | Legendaria | Movilidad / Control de Masas | PvP / Limpieza Rápida |
+| **Árbol del Mundo** | Mítica | Soporte / Mejoras | Juego en Equipo de Élite |
+| **Tiempo** | Mítica | Evasivo / Ráfaga | PvP de Alta Habilidad |
+
+La Magia de Legión destaca en escenarios donde el objetivo es fijo. Por ejemplo, durante eventos de estilo defensa de torres o al luchar contra jefes con patrones de movimiento predecibles, el Caballo y la Torre pueden mantener un 100% de tiempo de actividad en sus mejoras y escudos. Por el contrario, los usuarios de Magia de Sangre a menudo confían en el hechizo **Torrente Carmesí**, que proporciona un excelente daño a un solo objetivo y curación, pero carece de la utilidad para todo el equipo de un Alfil de Legión.
+
+<Callout type="info" title="Estadísticas de Rareza">
+A partir del último parche, las rarezas de Magia se mantienen constantes: Común (80%), Poco común (12%), Rara (6%), Épica (0.74%), Legendaria (0.19%) y Mítica (0.1%). La ubicación de la Magia de Legión en el nivel Rara/Épica la hace accesible pero poderosa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Obtención de Torrente Carmesí y Hechizos de Sangre">
+
+Mientras se enfocan en la magia de legión de Clover Retribution, muchos jugadores también miran hacia la Magia de Sangre por su supervivencia. El nuevo hechizo, **Torrente Carmesí**, se ha convertido en una adición vital al arsenal de Sangre.
+
+<Steps>
+  <Step num="1" title="Localiza a la Bruja de Sangre">
+    Viaja al NPC de la Bruja de Sangre para obtener el pergamino necesario. Este es un requisito antes de que se pueda aprender el hechizo.
+  </Step>
+  <Step num="2" title="Equipa y Usa el Pergamino">
+    Abre tu inventario y equipa el pergamino de Torrente Carmesí. Usarlo añadirá permanentemente el movimiento a tu biblioteca de Magia de Sangre.
+  </Step>
+  <Step num="3" title="Domina el Escalado">
+    El daño de Torrente Carmesí es directamente proporcional a la cantidad de curación que proporciona. Con una Inteligencia alta (alrededor de 400-500), puedes casi eliminar de un golpe a monstruos de élite como los Escorpiones.
+  </Step>
+</Steps>
+
+| Nombre del Hechizo | Req. Maestría | Enfriamiento | Efecto Principal |
+| :--- | :--- | :--- | :--- |
+| **Herida** | Base | Corto | Ataque básico de puñetazo frontal |
+| **Torrente Carmesí** | Pergamino | 10s | Ataque de sangre perforante con robo de vida |
+| **Hidra Carmesí** | Alto | Largo | Proyectil rastreador de múltiples cabezas |
+
+<Callout type="success" title="Impulso de Supervivencia">
+El coste de maná de Torrente Carmesí disminuye a medida que aumenta tu recuento de Tréboles, estabilizándose finalmente en unos 100 de maná. Esto lo convierte en una herramienta increíblemente eficiente para mantener la salud durante encuentros difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistemas de Prestigio y Gremios">
+
+Las actualizaciones de 2026 introdujeron el sistema de Prestigio, una mecánica de progresión a largo plazo que recompensa a los jugadores dedicados. Al hablar con el Rey Mago, puedes reiniciar tu progreso para obtener beneficios permanentes.
+
+**Recompensas y Escalado de Prestigio:**
+- **Aumentos de Estadísticas**: Recibe el 2.5% de tu nivel como estadísticas permanentes (Con, Int, Fue, Des). En el límite de nivel 405, esto es aproximadamente 10 estadísticas por prestigio.
+- **Probabilidad de Trébol de Cuatro Hojas**: Probabilidad escalable de obtener un trébol de cuatro hojas para tu magia. Comienza en 10% (en el nivel 405) y aumenta un 10% por cada intento fallido (hasta el 40%).
+- **Giros**: Recibe tu nivel dividido por tres en giros (aprox. 133 giros en el nivel 405).
+
+<Checklist
+  id="prestige-prep"
+  title="Lista de Verificación de Prestigio:"
+  items={[
+    "Alcanzar el límite de nivel actual (se recomienda Nivel 405)",
+    "Asegurar un Amuleto para guardar tu Grimorio actual",
+    "Acumular suficiente oro para las mejoras del Gremio",
+    "Completar las misiones diarias de Halloween para obtener fichas",
+    "Confirmar que estás listo para reiniciar al Nivel 1"
+  ]}
+/>
+
+| Recuento de Prestigio | Estadísticas Gratuitas Totales | Probabilidad Base de 4 Hojas |
+| :--- | :--- | :--- |
+| **1** | ~10 | 10% (al nivel 405) |
+| **3** | ~30 | 30% (si fallaste dos veces) |
+| **5 (MÁX)** | 50 | 40% (Tasa de éxito máxima) |
+
+<Callout type="warning" title="El Futuro Jefe">
+Los desarrolladores han insinuado que el Rey Mago eventualmente se convertirá en un jefe. Cuantos más niveles le "alimentes" a través del sistema de Prestigio, más fuerte se volverá en futuras actualizaciones. Elige tu prestigio sabiamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes de Clover Retribution">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito que mis piezas de Magia de Legión desaparezcan?",
+    answer: "Las piezas de Legión drenan maná constantemente. Para mantenerlas activas, debes asegurarte de que tu regeneración de maná supere el drenaje total de todas las piezas invocadas. Desinvoca las piezas que no uses haciendo clic derecho para ahorrar maná."
+  },
+  {
+    question: "¿Es la Magia de Legión mejor que la magia Mítica de Tiempo?",
+    answer: "Depende de la actividad. La magia de Tiempo es superior para la movilidad y la evasión en PvP, pero la Magia de Legión ofrece mejores mejoras de equipo sostenidas y defensa estacionaria para raids y farmeo de jefes."
+  },
+  {
+    question: "¿Cuál es la mejor estadística para una build de Magia de Legión?",
+    answer: "La Inteligencia (INT) es la prioridad. Aumenta tu reserva total de maná, la regeneración de maná y escala directamente la fuerza del escudo de la Torre y la curación del Alfil."
+  },
+  {
+    question: "¿Puedo hacer prestigio más de cinco veces?",
+    answer: "Actualmente, solo puedes recibir bonificaciones de estadísticas por los primeros cinco prestigios, sumando un total de 50 estadísticas gratuitas en cada categoría. Los prestigios adicionales solo pueden ser útiles para intentos de trébol de 4 hojas o giros."
+  }
+]} />
+
+</Section>
