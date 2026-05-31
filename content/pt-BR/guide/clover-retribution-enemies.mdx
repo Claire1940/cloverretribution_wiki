@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Inimigos de Clover Retribution: Guia de Mobs e Mecânicas de Chefes (2026)",
+  description: "Domine cada encontro em Clover Retribution com nosso guia de inimigos de 2026. Aprenda padrões de chefes, taxas de drop de mobs e estratégias de raide para Aetherstone Isle.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Enemies+Guide",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Este guia cobre todos os **inimigos essenciais de Clover Retribution**, focando em chefes de raide e mobs de evento.
+- **Foco em Chefes de Raide**: O Golem de Aetherstone é a principal ameaça na raide da Ilha de Aetherstone, exigindo nível 100+ para abates consistentes.
+- **Mecânicas de Evento**: Mobs de Halloween como Abóboras e Cavaleiros Esqueletos Enigmas fornecem fichas de tempo limitado para equipamentos de alto nível.
+- **Farm de Runas**: Você deve derrotar chefes mundiais como o Lorde Bandido e o Senhor da Guerra para coletar as runas necessárias para a entrada na raide.
+- **Estratégia Crítica**: Sempre priorize o teste de DPS durante a luta contra o Golem para evitar um wipe instantâneo da equipe.
+</Callout>
+
+<Section icon={Swords} title="Golem de Aetherstone: O Primeiro Grande Chefe de Raide">
+
+O Golem de Aetherstone serve como o encontro final na raide da Ilha de Aetherstone, a primeira das sete grandes raides atualmente disponíveis no jogo. Embora não haja um requisito de nível rígido para entrar na raide, jogadores abaixo do nível 100 terão dificuldade em causar o limite de 10% de dano necessário para receber crédito e loot. Compreender as mecânicas desta enorme entidade de pedra é vital para a sobrevivência.
+
+**Destaques do Vídeo:**
+- **Requisitos de Entrada**: Como usar as quatro runas (Fúria, Desafio, Terra, Tempestade) para abrir o portal.
+- **Padrões de Ataque**: Detalhamento do conjunto de movimentos do Golem baseado em contusão.
+- **O Teste de DPS**: Um guia para destruir os cristais roxos dentro da janela de 30 segundos.
+- **Tabela de Loot**: Visão geral dos 13 drops possíveis, incluindo a Lâmina Etérea e os Ombreiras.
+
+<YouTubeEmbed videoId="9YA6mO1ab-M" title="Clover Retribution Para Leigos: Ilha de Aetherstone" />
+
+O Golem é totalmente imune a efeitos de status de veneno, tornando muitas builds de mago menos eficazes se dependerem de feitiços de veneno de dano ao longo do tempo. Cada ataque que o Golem realiza causa dano de contusão, que pode ser mitigado através de conjuntos de armadura específicos ou buffs defensivos.
+
+| Nome do Ataque | Descrição | Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Punho de Pedra** | Invoca um punho de pedra do chão sob o jogador. | Esquiva perfeita ou aparo quando o chão brilha. |
+| **Batida no Chão** | Um golpe pesado para baixo causando dano AoE massivo. | Pule ou cronometre um aparo para anular o impacto. |
+| **AoE Giratório** | O Golem gira rapidamente, atingindo todos os jogadores próximos. | Mantenha distância ou use uma esquiva perfeita. |
+| **Teste de DPS de Cristal** | Seis cristais roxos aparecem quando o chefe está atordoado. | Destrua todos os 6 cristais em 30 segundos. |
+
+<Callout type="warning" title="Aviso de Falha na Raide">
+A falha em completar o teste de DPS resulta em um abate instantâneo para todos na área da raide. Se a raide falhar, o portal para a Ilha de Aetherstone entra em um cooldown de 15 minutos antes de poder ser reaberto.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Farm de Runas e Chefes Mundiais">
+
+Para sequer enfrentar os **inimigos de Clover Retribution** de alto nível em raides, você deve primeiro farmar chefes mundiais específicos para materiais de entrada. O portal da Ilha de Aetherstone, localizado ao sul da Vila Sem Nome no centro do lago, requer quatro runas distintas. Essas runas não são drops garantidos e exigem um farm significativo.
+
+As runas—Fúria, Desafio, Terra e Tempestade—são obtidas dos baús de chefes de evento e mundiais. Com base em dados da comunidade, a taxa de drop dessas runas fica entre 30% e 40% por baú.
+
+| Nome do Chefe | Localização Principal | Drops de Runas Chave |
+| :--- | :--- | :--- |
+| **Lorde Bandido** | Acampamento Bandido dos Campos | Fúria, Terra |
+| **Senhor da Guerra** | Posto Avançado do Deserto | Desafio, Tempestade |
+| **Camson** | Floresta Escondida | Runa Aleatória |
+| **Lucius** | Ruínas Antigas | Runa Aleatória |
+
+<Callout type="tip" title="Dica de Eficiência">
+É uma prática comunitária padrão inserir a **Runa da Fúria** por último nos pilares. Isso garante que todos os membros da equipe tenham tempo suficiente para chegar ao portal antes que ele se feche, pois a ativação do portal é acionada pela colocação da runa final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Mobs do Evento de Halloween">
+
+Fora da progressão padrão, os **inimigos de Clover Retribution** sazonais oferecem oportunidades únicas para loot de tempo limitado. O evento de Halloween introduz mobs específicos que aparecem nos Campos, fornecendo fichas usadas na loja de Halloween do NPC Feric, localizado na taverna da Vila Sem Nome.
+
+<CardGrid cols={3}>
+  <Card title="Mobs Abóbora">
+    - **Vida**: ~700 HP
+    - **Taxa de Surgimento**: Alta (11 locais)
+    - **Drops Chave**: Armadura de Cavaleiro Abóbora, Fichas
+  </Card>
+  <Card title="Cavaleiro Esqueleto Enigma">
+    - **Vida**: ~1.200 HP
+    - **Combate**: Corpo a corpo agressivo
+    - **Drops Chave**: Cobre, Ferro, Fichas
+  </Card>
+  <Card title="Chefe: Bruxa Carmesim">
+    - **Requisito**: Sigilo de Hemlock
+    - **Dificuldade**: Alta
+    - **Recompensa**: Materiais de evento raros
+  </Card>
+</CardGrid>
+
+A taxa de drop de fichas de Halloween desses mobs é extremamente baixa (estimada em 0,1% a 0,3%), tornando a missão diária de Feric a maneira mais confiável de acumular moeda.
+
+| Nome do Item | Custo da Ficha | Requisito de Nível | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Carapaça do Mercador Oco** | 12 Fichas | 265 | Builds de Mago de alto nível |
+| **Presas Carmesim** | 7 Fichas | Nenhuma | Aumento de Inteligência e Mana |
+| **Poder de Jack** | 5 Fichas | Nenhuma | Builds de Corpo a Corpo e Tanque |
+
+<Callout type="success" title="Conselho para Novos Jogadores">
+As Presas Carmesim e o Poder de Jack **não têm requisito de nível**, tornando-os os melhores upgrades iniciais para novos jogadores que participam do evento.
+</Callout>
+
+</Section>
+
+<Section icon={Steps} title="Passo a Passo para Entrada na Raide">
+
+Para desafiar com sucesso o Golem de Aetherstone e outros **inimigos de Clover Retribution** de alto nível, siga esta sequência específica para garantir que sua equipe esteja preparada e o portal esteja ativo.
+
+<Steps>
+  <Step num="1" title="Farmar Chefes Mundiais">
+    Derrote o Lorde Bandido e o Senhor da Guerra repetidamente até que sua equipe tenha as quatro runas: Fúria, Desafio, Terra e Tempestade.
+  </Step>
+  <Step num="2" title="Localize os Pilares">
+    Vá para o lago ao sul da Vila Sem Nome. Encontre os quatro pilares de pedra ao redor da ilha central.
+  </Step>
+  <Step num="3" title="Coordene a Colocação das Runas">
+    Atribua jogadores a cada pilar. Coloque Terra, Desafio e Tempestade primeiro. Certifique-se de que todos os jogadores estejam próximos ao centro antes de colocar a runa da Fúria.
+  </Step>
+  <Step num="4" title="Enfrente o Golem">
+    Entre no portal. Certifique-se de que sua equipe tenha pelo menos um jogador com alto DPS capaz de destruir os cristais roxos rapidamente durante a fase de 75% de vida.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Loot e Progressão">
+
+Derrotar os mais fortes **inimigos de Clover Retribution** não é apenas sobre o desafio; é sobre o equipamento exclusivo que define o meta atual. O Golem de Aetherstone dropa uma variedade de armas e materiais de criação essenciais para builds de fim de jogo.
+
+<Checklist
+  id="golem-loot-checklist"
+  title="Drops Essenciais do Golem para Coletar:"
+  items={[
+    "Lâmina Etérea (Melhor para builds de Magia Negra)",
+    "Ombreiras de Aetherstone (Taxa de Drop de 1-5%)",
+    "Título de Empunhador de Mana (Necessário para a Classe Arcanista)",
+    "Núcleo Etéreo Brilhante (Para Graça Híbrida de Paladino)",
+    "Cristal de Mana Corrompido (Item de Missão Principal da História)"
+  ]}
+/>
+
+<Callout type="info" title="Contexto da Taxa de Drop">
+As Ombreiras de Aetherstone são notoriamente raras. Muitos jogadores relatam matar o Golem mais de 200 vezes antes de ver este item cair. A persistência é fundamental para os completistas.
+</Callout>
+
+| Item de Drop | Taxa de Drop (Est.) | Uso Principal |
+| :--- | :--- | :--- |
+| **Lâmina Etérea** | 10% | +12% de Dano via Fúria M2 |
+| **Martelo de Aetherstone** | 15% | Arma pesada padrão |
+| **Solo de Aetherstone** | 20% | Invocação de Esferas do Dragão |
+| **Pena Espiritual** | 5% | Abertura de Fendas Espirituais |
+| **Alabarda de Aetherstone** | 2% | Drop de baú raro |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ de Combate Inimigo">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de solar inimigos de Clover Retribution em raides?",
+    answer: "Solar raides como a Ilha de Aetherstone é extremamente difícil devido ao teste de DPS de cristal de 30 segundos. Você precisa de uma build capaz de destruir os cristais com um único golpe, tipicamente exigindo alta maestria mágica ou uma build corpo a corpo maximizada."
+  },
+  {
+    question: "Os mobs de Halloween permanecem depois de dezembro?",
+    answer: "Embora o evento seja temático de Halloween, o NPC Feric e os mobs frequentemente persistem até dezembro. No entanto, a loja é por tempo limitado, então gaste suas fichas o mais rápido possível."
+  },
+  {
+    question: "Por que não estou recebendo loot do Golem de Aetherstone?",
+    answer: "Você deve causar pelo menos 10% do dano total ao chefe para se qualificar para loot e crédito. Se você estiver em um grupo grande com jogadores de alto nível, pode não atingir esse limite."
+  },
+  {
+    question: "Onde posso encontrar a Bruxa Carmesim?",
+    answer: "A Bruxa Carmesim é um chefe oculto que requer o Sigilo de Hemlock, que é um drop raro da raide do Golem de Aetherstone. Usar o sigilo permite invocá-la para recompensas exclusivas."
+  }
+]} />
+
+</Section>

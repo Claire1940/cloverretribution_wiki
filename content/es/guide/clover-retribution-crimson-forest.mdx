@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bosque Carmesí de Clover Retribution: Guía de Raid de la Bruja Carmesí",
+  description: "Domina el Bosque Carmesí y derrota a la Bruja Carmesí en Clover Retribution con esta guía completa de raid. Aprende sobre la invocación, tácticas y botines.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Crimson+Forest+Raid",
+  date: "2026-05-31",
+  author: "Equipo de la Wiki de Clover Retribution",
+  keywords: "clover retribution, bosque carmesí, bruja carmesí, raid, guía, invocación, botín"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La raid de la **Bruja Carmesí** requiere un grupo de 5-6 jugadores, idealmente de nivel 300+.
+- Invoca a la bruja recolectando **cuatro objetos únicos** y colocándolos en orbes de sangre.
+- La bruja inflige **daño mágico y de sangrado** y tiene un escudo de 15,000 HP.
+- Lleva a un **usuario de magia Espacial** para teletransportación rápida si mueres o te quedas sin maná.
+- Farmear en un grupo grande (6-8 jugadores) otorga **más botines** por eliminación.
+</Callout>
+
+<Section icon={Swords} title="Conquistando el Bosque Carmesí de Clover Retribution">
+El **Bosque Carmesí** en Clover Retribution es el hogar de la formidable Bruja Carmesí, una raid de jefe que exige trabajo en equipo y planificación estratégica. Esta guía te llevará a través de todo lo que necesitas saber para invocar, luchar y derrotar con éxito a la Bruja Carmesí, maximizando tus recompensas. No hay requisitos de nivel para comenzar la raid, pero no se recomienda hacerla en solitario, ya que probablemente necesitarás estar alrededor del nivel 300+ en un grupo para recibir crédito por la eliminación de forma consistente.
+
+**Puntos Destacados del Video:**
+- Sin requisito de nivel para empezar, pero se recomienda nivel 300+ en grupo para obtener crédito.
+- La Bruja Carmesí tiene 250,000 HP y un temporizador de desaparición de 15 minutos.
+- Requiere cuatro objetos específicos para ser invocada, colocados en cuatro orbes de sangre.
+- La bruja usa magia, daño de sangrado, explosiones de sangre, hidras y un ataque de crucifixión.
+- Un usuario de magia Espacial es crucial para un farmeo eficiente de la raid.
+
+<YouTubeEmbed videoId="DDmd-UTysnE" title="Clover Retribution para Principiantes: Bruja Carmesí" />
+
+La Bruja Carmesí cuenta con 250,000 HP y un temporizador de desaparición de 15 minutos. Para recibir crédito por la eliminación, debes infligir al menos 25,000 de daño. Este no es un esfuerzo solitario; un grupo de cinco a seis jugadores es esencial para una raid fluida y exitosa.
+
+</Section>
+
+<Section icon={Target} title="Invocando a la Bruja Carmesí">
+Invocar a la Bruja Carmesí es un proceso de varios pasos que implica recolectar cuatro objetos distintos de varios jefes por todo el mapa. Una vez recolectados, estos objetos deben insertarse en orbes de sangre flotantes específicos para activar el ritual de invocación.
+
+<Steps>
+  <Step num="1" title="Recolectar Objetos de Invocación">
+    Necesitarás derrotar a jefes de mundo específicos para adquirir los cuatro objetos de invocación. Cada objeto tiene una tasa de caída única, así que prepárate para farmear un poco.
+    <Callout type="tip">
+      Concéntrate en farmear estos jefes con un grupo para aumentar tu eficiencia y las posibilidades de obtener los botines rápidamente.
+    </Callout>
+  </Step>
+  <Step num="2" title="Localizar los Orbes de Sangre">
+    Hay cuatro orbes de sangre flotantes colocados estratégicamente por el mapa. Necesitarás conocer la ubicación exacta de cada orbe y qué objeto corresponde a cada uno. El portal al Bosque Carmesí se encuentra justo al sur de Alpha Wolf.
+  </Step>
+  <Step num="3" title="Insertar Objetos en los Orbes">
+    Una vez recolectados los cuatro objetos, dirígete a sus respectivos orbes de sangre e insértalos. Aparecerá un mensaje confirmando que la bruja ha sido invocada.
+  </Step>
+  <Step num="4" title="Entrar al Bosque Carmesí">
+    Atraviesa el portal rojo que aparece después de la invocación. La Bruja Carmesí estará esperando en el centro del Bosque Carmesí.
+  </Step>
+</Steps>
+
+Aquí tienes un desglose de dónde encontrar cada objeto de invocación:
+
+| Objeto             | Jefe               | Tasa de Caída |
+| :----------------- | :----------------- | :------------ |
+| **Hemlock Sigil**  | Aetherstone Golem  | 11.4%         |
+| **Vainroot Thorn** | Kraken             | 11.4%         |
+| **Crimson Tearstone**| Medusa           | 13.3%         |
+| **Hearts Ember**   | Netherwing         | 30%           |
+
+</Section>
+
+<Section icon={Shield} title="Habilidades y Tácticas de la Bruja Carmesí">
+La Bruja Carmesí es una oponente formidable que inflige daño tanto mágico como de sangrado. Comprender sus patrones de ataque y saber cómo contrarrestarlos es crucial para la supervivencia. Comienza con un escudo de 15,000 HP que solo necesita ser roto una vez.
+
+<CardGrid cols={3}>
+  <Card title="Explosión de Sangre">
+    - **Efecto**: Invoca una explosión de sangre sobre cada jugador en el Bosque Carmesí.
+    - **Defensa**: Puede ser esquivada o bloqueada (parry). Las reacciones rápidas son clave.
+  </Card>
+  <Card title="Hidras de Sangre">
+    - **Efecto**: Aparecen hidras que escupen orbes de sangre teledirigidos.
+    - **Defensa**: Pueden ser esquivadas. Aunque son menos dañinas, ignorarlas por completo puede llevar a un daño acumulado.
+  </Card>
+  <Card title="Crucifixión">
+    - **Efecto**: Crucifica a cualquiera dentro de su radio.
+    - **Defensa**: No se puede bloquear. El tiempo para esquivar es muy tardío (unos 2 segundos después de que el círculo rojo se llene).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fase Crítica">
+Una vez que la salud de la Bruja Carmesí cae por debajo del 75%, el portal al Bosque Carmesí se cerrará. Esto significa que si mueres o te quedas sin maná, no podrás volver a entrar sin un usuario de magia Espacial que te teletransporte de regreso.
+</Callout>
+
+**Composición Esencial del Grupo:**
+Tener un **usuario de magia Espacial** en tu grupo es casi una necesidad. Pueden teletransportar a los jugadores de regreso al área de la raid, asegurando un enfrentamiento continuo incluso si alguien cae. Alternativamente, tener una cuenta secundaria con magia Espacial esperando en el punto de aparición puede servir para el mismo propósito. Incluso si eres lo suficientemente poderoso como para derrotarla solo, es ineficiente; un grupo otorga significativamente más botines.
+
+</Section>
+
+<Section icon={Trophy} title="Botines y Recompensas de la Bruja Carmesí">
+La Bruja Carmesí ofrece una variedad de botines valiosos, lo que la convierte en un objetivo principal para el farmeo. Cuantos más jugadores tengas en tu grupo (hasta 6-8), más botines podrás recibir potencialmente por eliminación, con hasta 16 botines posibles en un grupo grande. Esto es particularmente útil para obtener los objetos de invocación para continuar las raids indefinidamente.
+
+<Callout type="success" title="Maximiza tu Botín">
+Apunta a un grupo de 6-8 jugadores para maximizar el rendimiento de los botines. Esto asegura que obtengas más objetos valiosos, incluidos los necesarios para volver a invocar a la bruja, permitiendo un farmeo continuo.
+</Callout>
+
+Aquí tienes una lista detallada de los posibles botines de la Bruja Carmesí:
+
+| Objeto / Tipo             | Probabilidad | Propósito / Notas                                     |
+| :------------------------ | :----------- | :---------------------------------------------------- |
+| **Hemlock Sigil**         | 8.75%        | Objeto de invocación                                  |
+| **Vainroot Thorn**        | 8.75%        | Objeto de invocación                                  |
+| **Crimson Tearstone**     | 8.75%        | Objeto de invocación                                  |
+| **Hearts Ember**          | 8.75%        | Objeto de invocación                                  |
+| **Sanguin Bane** (Título) | -            | Actualmente no hace nada                              |
+| **Scarlet Hex Earrings**  | 6.25%        | Accesorio                                             |
+| **Crimson Torren Scroll** | -            | Uso futuro para desbloquear hechizo de Magia de Sangre|
+| **Scarlet Hex Hat**       | 1.85%        | Accesorio                                             |
+| **Scarlet Hex Necklace**  | 1.3%         | Accesorio                                             |
+| **Crimson Garb**          | 0.36%        | Mejor armadura para magos                             |
+| **Crimson Suit**          | 0.36%        | Mejor armadura para magos                             |
+| **Spirit Parts**          | -            | Usado para forzar la aparición de una Grieta Espiritual|
+
+Si estás buscando un grupo para hacer la raid de la Bruja Carmesí, el canal de "boss raids" en el Discord oficial de Clover Retribution es un recurso excelente, ya que los jugadores organizan grupos allí frecuentemente.
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificación de la Raid del Bosque Carmesí">
+Prepárate a fondo antes de desafiar a la Bruja Carmesí. Un equipo bien equipado y coordinado aumenta significativamente tus posibilidades de éxito y un farmeo eficiente.
+
+<Checklist
+  id="crimson-witch-prep"
+  title="Lista de Preparación para la Raid:"
+  items={[
+    "Reunir un grupo de 5-8 jugadores (nivel 300+ recomendado)",
+    "Confirmar que hay un usuario de magia Espacial en el grupo o en espera",
+    "Recolectar los cuatro objetos de invocación: Hemlock Sigil, Vainroot Thorn, Crimson Tearstone, Hearts Ember",
+    "Memorizar las ubicaciones de los orbes de sangre y las colocaciones de objetos correspondientes",
+    "Comprender los patrones de ataque de la Bruja Carmesí y los tiempos de esquiva/bloqueo",
+    "Abastecerse de pociones de curación y pociones de maná",
+    "Coordinar roles y estrategias con tu equipo antes de entrar"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes sobre el Bosque Carmesí">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel recomendado para la raid del Bosque Carmesí en Clover Retribution?",
+    answer: "Aunque no hay un requisito de nivel estricto para comenzar, se recomienda encarecidamente que los jugadores tengan un nivel de alrededor de 300 o superior dentro de un grupo de 5-6 para recibir crédito de forma consistente por derrotar a la Bruja Carmesí."
+  },
+  {
+    question: "¿Cómo invoco a la Bruja Carmesí?",
+    answer: "Para invocar a la Bruja Carmesí, necesitas recolectar cuatro objetos específicos: Hemlock Sigil, Vainroot Thorn, Crimson Tearstone y Hearts Ember. Estos objetos caen de diferentes jefes de mundo. Una vez recolectados, insértalos en los cuatro orbes de sangre flotantes ubicados por el mapa."
+  },
+  {
+    question: "¿Qué debo hacer si muero durante la raid de la Bruja Carmesí?",
+    answer: "Si mueres o te quedas sin maná después de que la salud de la Bruja Carmesí caiga por debajo del 75%, el portal al Bosque Carmesí se cerrará. Necesitarás a un usuario de magia Espacial en tu grupo para que te teletransporte de regreso al área de la raid para continuar luchando."
+  },
+  {
+    question: "¿Es mejor hacer la Bruja Carmesí solo o en grupo?",
+    answer: "Es mucho más eficiente hacer la raid de la Bruja Carmesí en un grupo de 6-8 jugadores. Hacerla solo otorga solo uno o dos botines, mientras que un grupo grande puede obtener hasta 16 botines por eliminación, aumentando significativamente tu eficiencia de farmeo para objetos como los componentes de invocación."
+  }
+]} />
+
+</Section>

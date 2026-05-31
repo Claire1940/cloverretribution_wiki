@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Magia Temporal: Habilidades e Guia de Maestria",
+  description: "Domine a Magia Temporal em Clover Retribution com este guia completo, cobrindo sua raridade Mítica, habilidades únicas, efeitos passivos e como maximizar seu potencial tanto em PvE quanto em PvP.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Time+Magic+Guide",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **Magia Temporal** é uma magia de raridade Mítica altamente cobiçada em **Clover Retribution**.
+- Ela possui habilidades passivas poderosas como **Esquivas de TP** e amplificação de dano a escudos.
+- Os principais feitiços ativos incluem **Explosão Temporal**, **Flick Temporal**, **Visão Futura** e **Anastasis Temporal**.
+- Dominar suas mecânicas únicas de esquiva e efeitos de status é crucial para o domínio em **PvP e PvE**.
+- A potencial **habilidade de Quatro Folhas** é rumorada como uma ressurreição completa, semelhante a Julius.
+</Callout>
+
+<Section icon={Clock} title="Compreendendo a Magia Temporal de Clover Retribution">
+A **Magia Temporal** se destaca como um tipo de magia de raridade Mítica em *Clover Retribution*, tornando-a uma das opções mais cobiçadas e poderosas disponíveis para os jogadores. Sua mistura única de capacidades ofensivas, utilidade defensiva e controle de multidão disruptivo a torna uma escolha formidável para conteúdo jogador-contra-ambiente (PvE) e encontros jogador-contra-jogador (PvP). Este guia aprofundará suas mecânicas centrais, habilidades e estratégias para ajudá-lo a dominar este estilo mágico excepcional.
+
+**Destaques do Vídeo:**
+- Demonstra as Esquivas de TP passivas da **Magia Temporal**, cruciais para evadir ataques.
+- Mostra cada habilidade ativa: Explosão Temporal, Flick Temporal, Visão Futura e Anastasis Temporal.
+- Fornece exemplos da **Magia Temporal** em ação durante a caça a chefes e cenários PvP.
+- Discute a hipotética habilidade de Quatro Folhas, sugerindo uma capacidade de ressurreição completa.
+- Destaca a eficácia da magia contra escudos, causando o dobro de dano.
+
+<YouTubeEmbed videoId="viprC7UWQGw" title="Demonstração da MAGIA TEMPORAL de 4 Folhas (Clover Retribution)" />
+
+A **Magia Temporal** é conhecida por sua proeza defensiva, oferecendo Esquivas de TP passivas que fornecem quadros de esquiva aumentados. Isso permite que os usuários evitem vários ataques de chefes e habilidades de jogadores, aumentando significativamente a sobrevivência. Além disso, seus feitiços causam o dobro de dano a escudos, tornando-a uma excelente escolha para quebrar oponentes fortemente blindados ou mecânicas de chefes.
+
+<Callout type="tip" title="Dominando a Esquiva">
+As Esquivas de TP passivas são a pedra angular do kit defensivo da **Magia Temporal**. Pratique o tempo de seus movimentos para aproveitar ao máximo esses quadros de esquiva aprimorados, transformando encontros desafiadores em gerenciáveis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades e Maestria da Magia Temporal">
+Desbloquear e dominar as habilidades da **Magia Temporal** requer dedicação e uso estratégico de seus pontos de maestria. Cada feitiço oferece vantagens distintas, contribuindo para um estilo de jogo versátil.
+
+<CardGrid cols={2}>
+  <Card title="Proeza Ofensiva">
+    - **Explosão Temporal** para AoE de curto alcance e efeitos de status de tempo.
+    - **Flick Temporal** para dano de projétil de múltiplos orbes e aplicação de status.
+    - **Anastasis Temporal** para dano AoE sustentado em uma ampla área.
+  </Card>
+  <Card title="Utilidade Defensiva">
+    - **Esquivas de TP passivas** para maior evasão.
+    - **Visão Futura** para uma chance significativa de esquivar de ataques recebidos.
+    - **Efeito de Status de Tempo** aprisiona inimigos, criando aberturas para ataques de acompanhamento.
+  </Card>
+</CardGrid>
+
+Aqui está um detalhamento das habilidades principais e seus requisitos de maestria:
+
+| Habilidade          | Custo de Mana | Recarga | Maestria Necessária | Descrição                                                                                                                              |
+| :--------------- | :-------- | :------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Explosão Temporal** | 25        | 8s       | 10               | Lança uma esfera AoE de curto alcance, alta chance de infligir efeito de status de Tempo, quebra guarda.                                                |
+| **Flick Temporal** | 25 (por carga) | 12s      | 25               | Atira 1-3 orbes de médio alcance, cada um com chance de ativar efeito de status de Tempo. Possui três cargas.                                    |
+| **Visão Futura** | 100       | 45s      | 45               | Concede 50% de chance de esquivar de todos os ataques recebidos por 43 segundos com trevos dourados máximos.                                                    |
+| **Anastasis Temporal** | 200       | 65s      | 60 ou 75         | Invoca um enorme relógio no céu, causando dano constante aos inimigos abaixo dele por 13 segundos. Pode ativar efeito de status de Tempo.                     |
+
+O **Efeito de Status de Tempo** é um componente crucial do controle de multidão da **Magia Temporal**. Quando acionado, os oponentes são aprisionados em uma esfera de tempo por 2,5 segundos antes de explodir, causando dano AoE adicional.
+
+<Callout type="warning" title="Gerenciamento de Mana">
+**Visão Futura** e **Anastasis Temporal** têm altos custos de mana. O gerenciamento eficaz de mana é fundamental para manter sua pressão defensiva e ofensiva, especialmente em confrontos prolongados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de PvE e PvP com Magia Temporal">
+O kit de ferramentas diversificado da **Magia Temporal** permite estratégias eficazes tanto em PvE quanto em PvP. Entender como alavancar suas forças únicas o diferenciará.
+
+### Lista de Verificação de Farm de Chefes em PvE
+
+<Checklist
+  id="pve-strategy"
+  title="Otimizando Encontros com Chefes:"
+  items={[
+    "Utilize **Esquivas de TP** para evadir mecânicas de chefes e ataques especiais.",
+    "Priorize a **Explosão Temporal** para quebrar a guarda e aplicar o efeito de status de Tempo para dano explosivo.",
+    "Implante a **Anastasis Temporal** durante as fases de vulnerabilidade do chefe para dano sustentado.",
+    "Ative a **Visão Futura** antes de habilidades de chefe de alto dano para mitigar o dano recebido.",
+    "Explore o passivo de 2x dano a escudos contra chefes com escudo."
+  ]}
+/>
+
+### Táticas de Engajamento PvP
+
+<Steps>
+  <Step num="1" title="Iniciação e Pressão">
+    Use a **Explosão Temporal** para iniciar o combate, infligir o efeito de status de Tempo e quebrar a guarda dos oponentes. Isso cria uma abertura imediata para ataques de acompanhamento.
+  </Step>
+  <Step num="2" title="Controle no Meio da Luta">
+    Encadeie o **Flick Temporal** para manter a pressão, aplicando o efeito de status de Tempo à distância. Use suas múltiplas cargas para controlar o espaço e prever o movimento inimigo.
+  </Step>
+  <Step num="3" title="Manobras Defensivas">
+    Use proativamente a **Visão Futura** ao antecipar dano explosivo ou controle de multidão inimigo. As **Esquivas de TP** passivas são inestimáveis para superar oponentes e criar distância.
+  </Step>
+  <Step num="4" title="Golpes Finais">
+    Quando um oponente estiver com pouca vida ou preso em um efeito de status de Tempo, use a **Anastasis Temporal** para garantir a eliminação com seu alto e sustentado dano AoE.
+  </Step>
+</Steps>
+
+<Callout type="info" title="A Habilidade de Quatro Folhas">
+Embora ainda não confirmada oficialmente, a hipotética habilidade de Quatro Folhas para a **Magia Temporal** é amplamente especulada como uma habilidade de ressurreição completa, espelhando Julius do anime *Black Clover*. Isso forneceria um nível sem precedentes de utilidade, oferecendo uma segunda chance em situações críticas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Obtendo e Maximizando Sua Magia Temporal">
+Adquirir a **Magia Temporal** é um desafio devido à sua raridade Mítica, mas as recompensas valem o esforço.
+
+<CardGrid cols={3}>
+  <Card title="Raridade">
+    - Classificação **Mítica**.
+    - Taxa de queda extremamente baixa (cerca de 0,1%).
+    - Requer persistência em rolar por magia.
+  </Card>
+  <Card title="Obtenção">
+    - Principalmente através de rolagens para novos Tipos de Magia.
+    - Rolagens adicionais podem ser compradas com Robux.
+    - Esteja preparado para muitas rolagens comuns/incomuns.
+  </Card>
+  <Card title="Maximizando">
+    - Foque na maestria para desbloquear todas as habilidades.
+    - Pratique as **Esquivas de TP** passivas para maior sobrevivência.
+    - Aprenda combos de habilidades para dano e controle de multidão ótimos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Rolagem Estratégica">
+Dada a taxa de queda extremamente baixa para magia Mítica, considere economizar suas rolagens ou Robux para eventos específicos ou quando novos tipos de magia forem introduzidos, pois isso pode aumentar ligeiramente suas chances ou fornecer melhor valor.
+</Callout>
+
+### Taxas de Queda de Tipos de Magia
+
+| Raridade      | Taxa de Queda | Notas                                                                   |
+| :---------- | :-------- | :---------------------------------------------------------------------- |
+| Comum      | Alta      | Obtido com mais frequência.                                               |
+| Incomum    | Moderada  | Ainda comum, mas menos frequente que Comum.                            |
+| Rara        | 6%        | Um passo notável na raridade.                                         |
+| Épica        | 0,74%     | Significativamente mais rara, requer mais rolagens.                               |
+| Lendária   | Muito Baixa  | Extremamente rara, muitas vezes cobiçada por habilidades poderosas.                   |
+| **Mítica**  | **0,1%**  | **O nível mais raro, inclui a Magia Temporal. Altamente procurado.**          |
+
+A jornada para obter a **Magia Temporal de Clover Retribution** é um teste de paciência, mas suas habilidades poderosas a tornam um ativo que muda o jogo. Sua combinação de manobras evasivas, potencial de quebra de escudo e controle de multidão que altera o tempo garante que os usuários sejam uma força a ser reconhecida em todos os aspectos do jogo.
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre a Magia Temporal">
+
+<FAQ items={[
+  {
+    question: "Qual é a raridade da Magia Temporal em Clover Retribution?",
+    answer: "A **Magia Temporal** é um tipo de magia de raridade Mítica, tornando-a uma das mais raras e poderosas de se obter em *Clover Retribution*. Sua taxa de queda é de aproximadamente 0,1%."
+  },
+  {
+    question: "Como funciona a Esquiva de TP passiva para a Magia Temporal?",
+    answer: "Os usuários da **Magia Temporal** ganham Esquivas de TP passivas, que fornecem quadros de esquiva aumentados. Isso permite uma evasão mais eficaz de ataques recebidos, tanto de chefes quanto de outros jogadores, aumentando significativamente a sobrevivência."
+  },
+  {
+    question: "O que é o efeito de status de Tempo e como ele é acionado?",
+    answer: "O **efeito de status de Tempo** aprisiona um oponente em uma esfera de tempo por 2,5 segundos, após o que ela explode para causar dano AoE. Habilidades como **Explosão Temporal**, **Flick Temporal** e **Anastasis Temporal** têm uma chance de infligir este efeito de status."
+  },
+  {
+    question: "A Magia Temporal é eficaz contra escudos?",
+    answer: "Sim, a **Magia Temporal** é extremamente eficaz contra escudos. Todos os seus movimentos causam o dobro de dano a qualquer tipo de escudo no jogo, tornando-a excelente para quebrar inimigos fortificados ou mecânicas de chefes."
+  }
+]} />
+
+</Section>

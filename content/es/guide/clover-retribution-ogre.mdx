@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ogro de Clover Retribution: Guía de Combate y Farmeo en Solitario 2026",
+  description: "Domina la lucha contra el jefe Ogro de Clover Retribution con nuestra guía de 2026. Aprende estrategias en solitario, mecánicas para romper escudos y tasas de caída raras para el Garrote de Ogro.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Ogre+Guide",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: El **ogro de Clover Retribution** es un jefe de mundo de nivel medio esencial para farmear el Garrote de Ogro y materiales de crafteo.
+- **Mecánica clave**: Romper el **Medidor de Escudo** del Ogro es la única forma de infligir daño significativo durante su estado vulnerable.
+- **Mejor estrategia**: Siempre **esquiva hacia la derecha** durante el ataque M-slam para evitar el daño masivo de impacto AOE.
+- **Consejo crítico**: Usa un arma con alto **Daño de Equilibrio** para agotar el escudo más rápido y obligar al Ogro a caer.
+- **Mejor opción**: La **raza Orco** proporciona un beneficio natural de fuerza que hace que enfrentar a este jefe en solitario sea significativamente más rápido en 2026.
+</Callout>
+
+<Section icon={Map} title="Descripción General y Ubicaciones del Jefe Ogro">
+
+El **ogro de Clover Retribution** sirve como un hito de progresión vital para los jugadores que transicionan al juego intermedio. A diferencia de los mobs estándar, el Ogro presenta una IA sofisticada que castiga el spamming sin sentido. Comprender dónde deambulan estos gigantes y qué ofrecen es el primer paso hacia un farmeo exitoso. En la meta actual de 2026, los Ogros son buscados principalmente por sus botines de alta durabilidad y la cantidad significativa de EXP que proporcionan a los Grimoires de nivel inferior.
+
+Típicamente, puedes encontrar al Ogro en la **región de la Tundra** o en pasos montañosos aislados. A menudo están rodeados de mobs más pequeños, por lo que despejar el perímetro antes de enfrentarse al jefe es muy recomendable para jugadores en solitario.
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Nivel del Jefe** | Nivel 35 - 50 (Escala según la región) |
+| **Ubicación Principal** | Tierras Altas de la Tundra / Paso del Norte |
+| **Tiempo de Aparición** | 10 - 15 Minutos |
+| **Clasificación de Dificultad** | ★★★☆☆ (Moderada) |
+| **Mejor Nivel para Solitario** | Nivel 45+ |
+
+**Aspectos Destacados del Video:**
+- Demuestra el ritmo de bloqueo del lanzamiento de rocas.
+- Muestra el momento exacto para la esquiva hacia la derecha durante el M-slam.
+- Ilustra cómo cae el Ogro después de que se rompe el escudo.
+- Destaca la importancia de atacar continuamente para evitar la regeneración del escudo.
+
+<YouTubeEmbed videoId="lwk0RBh66Ss" title="Roblox Clover Retribution | Cómo vencer ogros en solitario" />
+
+<Callout type="tip" title="Estrategia de Ubicación">
+Si las Tierras Altas de la Tundra están demasiado concurridas, revisa las cuevas del Paso del Norte. El **ogro de Clover Retribution** aparece allí con menos frecuencia, pero a menudo es ignorado por jugadores de alto nivel, lo que lo hace perfecto para sesiones de farmeo en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Análisis de Movimientos">
+
+Para derrotar al **ogro de Clover Retribution** de manera consistente, debes memorizar sus tres fases de ataque principales. La lucha es una batalla de desgaste centrada enteramente en la barra de escudo ubicada debajo de la salud del Ogro. Hasta que ese escudo se rompa, tu daño se reduce aproximadamente en un 80%.
+
+El Ogro utiliza una mezcla de acoso a distancia y devastador combate cuerpo a cuerpo. En 2026, la IA ha sido ajustada para rastrear a los jugadores de manera más efectiva, lo que significa que tu posicionamiento es más importante que nunca.
+
+| Nombre del Ataque | Tipo | Cómo Contrarrestar |
+| :--- | :--- | :--- |
+| **Lanzamiento de Roca** | A distancia | Mantén Bloqueo (F) o corre hacia un lado |
+| **M-Slam** | AOE Cuerpo a cuerpo | Esquiva específicamente a la **Derecha** |
+| **Golpe Terrestre** | AOE | Salta o corre fuera del radio |
+| **Balanceo de Garrote** | Cuerpo a cuerpo | Bloqueo perfecto para una ventana de aturdimiento |
+
+<CardGrid cols={2}>
+  <Card title="Mecánicas de Escudo">
+    - **Medidor de Escudo**: Barra visible que previene el daño de HP.
+    - **Ruptura**: Usa ataques pesados o magia específica.
+    - **Estado de Aturdimiento**: Cuando el escudo llega a cero, el Ogro cae.
+    - **Recuperación**: El escudo se regenera después de 8 segundos.
+  </Card>
+  <Card title="Ventana de Vulnerabilidad">
+    - **Daño Crítico**: Los ataques infligen el doble de daño mientras el Ogro está caído.
+    - **Recuperación de Maná**: Gran momento para recargar maná para hechizos.
+    - **Efectos de Estado**: Quemadura y Sangrado son un 50% más efectivos.
+    - **Finalizadores de Combo**: Usa tu habilidad de mayor daño aquí.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Regeneración de Escudo">
+Si dejas de atacar por más de 3 segundos, el escudo del Ogro comenzará a regenerarse. Incluso si necesitas curarte, lanza un proyectil rápido para evitar que el medidor se recargue.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia Paso a Paso en Solitario">
+
+Enfrentar al **ogro de Clover Retribution** en solitario requiere un enfoque disciplinado. No puedes "tanquear" sus golpes a menos que tengas una construcción defensiva dedicada. En su lugar, debes tratar la pelea como un baile, reaccionando a sus movimientos pesados y telegrafiados mientras debilitas sus defensas. Sigue estos pasos para asegurar una eliminación limpia sin agotar tu inventario de pociones.
+
+<Steps>
+  <Step num="1" title="Enfrentamiento Inicial">
+    Acércate al Ogro por el frente para provocar el **Lanzamiento de Roca**. Mantén tu bloqueo mientras te acercas. No uses tus habilidades de alto daño todavía; guárdalas para la fase de ruptura de escudo.
+  </Step>
+  <Step num="2" title="El Agotamiento del Escudo">
+    Mantente cerca de las piernas del Ogro. Cuando levante los brazos para el **M-Slam**, corre hacia la derecha. Inmediatamente después, sigue con una serie de ataques M1 (ligeros). Tu objetivo aquí es puramente agotar la barra de escudo amarilla.
+  </Step>
+  <Step num="3" title="La Ruptura del Escudo">
+    Una vez que la barra de escudo se vacíe, el Ogro realizará una animación de caída. Esta es tu ventana. Desata tus hechizos de Grimoire o habilidades de arma más poderosos ahora. Concéntrate en la cabeza si es posible para posibles modificadores críticos.
+  </Step>
+  <Step num="4" title="Restablecer y Repetir">
+    Después de 8 segundos, el Ogro se levantará y rugirá, empujándote hacia atrás. Este rugido no inflige daño, pero restablece su escudo. Retrocede, regenera tu resistencia y prepárate para repetir el ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gestión de Resistencia">
+Mantén siempre al menos el 20% de tu barra de resistencia llena. Si el Ogro comienza un Golpe Terrestre y no tienes resistencia para correr, es probable que recibas un golpe letal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín y Caídas Raras">
+
+Farmear al **ogro de Clover Retribution** se realiza principalmente para obtener el **Garrote de Ogro**, un arma pesada poderosa que sobresale en Daño de Equilibrio. Además, el Ogro suelta varios materiales utilizados en recetas de crafteo de alto nivel. En la actualización de 2026, las tasas de caída se han ajustado ligeramente para recompensar a los jugadores que infligen la mayor cantidad de daño en una ventana corta.
+
+| Nombre del Objeto | Probabilidad de Caída | Tipo de Objeto | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Garrote de Ogro** | 2% - 5% | Arma Pesada | Construcciones de alto Equilibrio / Jefes |
+| **Piel de Ogro** | 15% | Material | Crafteo de conjuntos de armadura pesada |
+| **Hueso Agrietado** | 40% | Material | Componente de mejora común |
+| **Carne Grande** | 100% | Consumible | Alimento de alta restauración de HP |
+
+<Checklist
+  id="ogre-farming-goals"
+  title="Lista de Verificación de Farmeo de Ogro:"
+  items={[
+    "Obtener el Garrote de Ogro (variante Legendaria)",
+    "Recolectar 20x Piel de Ogro para el Conjunto de Tundra",
+    "Alcanzar el Nivel 50 de Maestría de Combate",
+    "Desbloquear el título 'Asesino de Ogros'",
+    "Dominar el tiempo de bloqueo perfecto para los Balanceos de Garrote"
+  ]}
+/>
+
+<Callout type="info" title="Mejoras de la Tasa de Caída">
+Si estás buscando el Garrote de Ogro, asegúrate de tener la estadística de **Suerte** mejorada a través de accesorios o pasivas raciales. La tasa de caída se puede mejorar hasta un 7% con la configuración adecuada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamientos Recomendados para la Caza de Ogros">
+
+No todas las construcciones son iguales al enfrentarse al **ogro de Clover Retribution**. Debido a que la lucha depende en gran medida de la ruptura de escudos, las armas con alto impacto y la magia que inflige daño de múltiples golpes son las más efectivas. Aquí están las tres mejores construcciones para 2026.
+
+<CardGrid cols={3}>
+  <Card title="El Rompedor">
+    - **Arma**: Espada Grande
+    - **Magia**: Tierra/Piedra
+    - **Pros**: Daño masivo al escudo
+    - **Contras**: Velocidad de ataque lenta
+  </Card>
+  <Card title="El Elementalista">
+    - **Arma**: Dagas Dobles
+    - **Magia**: Fuego/Rayo
+    - **Pros**: Múltiples golpes rápidos
+    - **Contras**: Baja defensa
+  </Card>
+  <Card title="El Tanque">
+    - **Arma**: Escudo y Maza
+    - **Magia**: Curación/Luz
+    - **Pros**: Alta supervivencia
+    - **Contras**: Larga duración del combate
+  </Card>
+</CardGrid>
+
+| Tipo de Construcción | Velocidad de Ruptura de Escudo | Supervivencia | Umbral de Habilidad |
+| :--- | :--- | :--- | :--- |
+| **El Rompedor** | Excelente | Medio | Alto |
+| **El Elementalista** | Bueno | Bajo | Medio |
+| **El Tanque** | Lento | Excelente | Bajo |
+
+<Callout type="tip" title="Recomendación de Raza">
+La raza **Orco** es posiblemente la mejor para esta lucha debido a la pasiva "Fuerza Bruta", que aumenta el daño de Equilibrio en un 15%. Esto te permite romper el escudo del Ogro significativamente más rápido que un jugador Humano o Elfo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de romper el escudo del Ogro de Clover Retribution?",
+    answer: "La forma más eficiente es usando Armas Pesadas como Espadas Grandes o Martillos. Alternativamente, los hechizos mágicos de múltiples golpes como el Rayo pueden agotar el medidor rápidamente debido al número de golpes individuales."
+  },
+  {
+    question: "¿Por qué el Ogro sigue regenerando su salud?",
+    answer: "El Ogro no regenera salud de forma natural durante el combate a menos que se 'reinicie'. Si alejas al Ogro demasiado de su punto de aparición, volverá a su lugar y recuperará toda su salud. Permanece dentro de la arena de combate designada."
+  },
+  {
+    question: "¿Puedo vencer al Ogro en solitario en el Nivel 20?",
+    answer: "Es posible, pero extremadamente difícil. En el Nivel 20, tu producción de daño tendrá dificultades para evitar que el escudo se regenere. Se recomienda tener al menos el Nivel 35 para una experiencia en solitario cómoda."
+  },
+  {
+    question: "¿El Garrote de Ogro cae de todos los Ogros?",
+    answer: "Sí, cualquier mob etiquetado como Ogro tiene la posibilidad de soltar el garrote, pero la versión de Jefe de Mundo en la Tundra tiene una tasa de caída significativamente mayor en comparación con las variantes más pequeñas que se encuentran en las cuevas."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+La consistencia es clave. La lucha contra el **ogro de Clover Retribution** es una prueba mecánica. Una vez que domines el ritmo de 'Esquivar a la Derecha' y 'Bloquear Roca', podrás farmear a este jefe con un riesgo mínimo. ¡Buena suerte en tu búsqueda del Garrote de Ogro!
+</Callout>
+
+</Section>

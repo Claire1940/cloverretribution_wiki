@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hutan Crimson Clover Retribution: Panduan Raid Crimson Witch",
+  description: "Kuasai Hutan Crimson dan kalahkan Crimson Witch di Clover Retribution dengan panduan raid komprehensif ini. Pelajari pemanggilan, taktik, dan drop.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Crimson+Forest+Raid",
+  date: "2026-05-31",
+  author: "Tim Wiki Clover Retribution",
+  keywords: "clover retribution, crimson forest, crimson witch, raid guide, panduan raid"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- Raid **Crimson Witch** membutuhkan grup berisi 5-6 pemain, idealnya level 300+.
+- Panggil penyihir dengan mengumpulkan **empat item unik** dan menempatkannya di blood orb.
+- Penyihir memberikan **damage sihir dan bleed** serta memiliki shield sebesar 15.000 HP.
+- Bawa **pengguna sihir Spasial** untuk teleportasi cepat jika Anda mati atau kehabisan mana.
+- Farming dalam grup besar (6-8 pemain) menghasilkan **lebih banyak drop** per pembunuhan.
+</Callout>
+
+<Section icon={Swords} title="Menaklukkan Hutan Crimson Clover Retribution">
+**Hutan Crimson** di Clover Retribution adalah rumah bagi Crimson Witch yang tangguh, sebuah boss raid yang menuntut kerja sama tim dan perencanaan strategis. Panduan ini akan memandu Anda melalui semua yang perlu Anda ketahui untuk berhasil memanggil, melawan, dan mengalahkan Crimson Witch, serta memaksimalkan hadiah Anda. Tidak ada persyaratan level untuk memulai raid, tetapi bermain solo tidak disarankan, karena Anda kemungkinan besar perlu berada di sekitar level 300+ dalam sebuah grup untuk secara konsisten mendapatkan kredit pembunuhan.
+
+**Sorotan Video:**
+- Tidak ada persyaratan level untuk memulai, tetapi level 300+ dalam grup direkomendasikan untuk mendapatkan kredit.
+- Crimson Witch memiliki 250.000 HP dan timer despawn 15 menit.
+- Membutuhkan empat item spesifik untuk dipanggil, yang ditempatkan di empat blood orb.
+- Penyihir menggunakan sihir, damage bleed, ledakan darah, hydra, dan serangan penyaliban.
+- Pengguna Spasial sangat krusial untuk farming raid yang efisien.
+
+<YouTubeEmbed videoId="DDmd-UTysnE" title="Clover Retribution For Dummies: Crimson Witch" />
+
+Crimson Witch memiliki 250.000 HP dan timer despawn 15 menit. Untuk menerima kredit atas pembunuhan tersebut, Anda perlu memberikan setidaknya 25.000 damage. Ini bukan upaya solo; party berisi lima hingga enam pemain sangat penting untuk raid yang lancar dan sukses.
+
+</Section>
+
+<Section icon={Target} title="Memanggil Crimson Witch">
+Memanggil Crimson Witch adalah proses multi-langkah yang melibatkan pengumpulan empat item berbeda dari berbagai bos di seluruh peta. Setelah dikumpulkan, item-item ini harus dimasukkan ke dalam blood orb terapung tertentu untuk mengaktifkan ritual pemanggilan.
+
+<Steps>
+  <Step num="1" title="Kumpulkan Item Pemanggilan">
+    Anda perlu mengalahkan bos dunia tertentu untuk mendapatkan empat item pemanggilan. Setiap item memiliki tingkat drop yang unik, jadi bersiaplah untuk melakukan grinding.
+    <Callout type="tip">
+      Fokuslah untuk farming bos-bos ini dengan grup untuk meningkatkan efisiensi dan peluang mendapatkan drop dengan cepat.
+    </Callout>
+  </Step>
+  <Step num="2" title="Lokasi Blood Orb">
+    Ada empat blood orb terapung yang ditempatkan secara strategis di sekitar peta. Anda perlu mengetahui lokasi pasti dari setiap orb dan item mana yang sesuai dengannya. Portal ke Hutan Crimson terletak tepat di sebelah selatan Alpha Wolf.
+  </Step>
+  <Step num="3" title="Masukkan Item ke dalam Orb">
+    Setelah keempat item terkumpul, pergilah ke blood orb masing-masing dan masukkan item tersebut. Sebuah pesan akan muncul mengonfirmasi bahwa penyihir telah dipanggil.
+  </Step>
+  <Step num="4" title="Masuk ke Hutan Crimson">
+    Masuklah melalui portal merah yang muncul setelah pemanggilan. Crimson Witch akan menunggu di tengah Hutan Crimson.
+  </Step>
+</Steps>
+
+Berikut adalah rincian tempat menemukan setiap item pemanggilan:
+
+| Item              | Bos                | Tingkat Drop |
+| :---------------- | :----------------- | :----------- |
+| **Hemlock Sigil** | Aetherstone Golem  | 11.4%        |
+| **Vainroot Thorn**| Kraken             | 11.4%        |
+| **Crimson Tearstone**| Medusa           | 13.3%        |
+| **Hearts Ember**  | Netherwing         | 30%          |
+
+</Section>
+
+<Section icon={Shield} title="Kemampuan dan Taktik Crimson Witch">
+Crimson Witch adalah lawan yang tangguh, memberikan damage sihir dan bleed. Memahami pola serangannya dan mengetahui cara melawannya sangat krusial untuk bertahan hidup. Dia memulai dengan shield sebesar 15.000 HP yang hanya perlu dihancurkan sekali.
+
+<CardGrid cols={3}>
+  <Card title="Ledakan Darah">
+    - **Efek**: Memanggil ledakan darah pada setiap pemain di Hutan Crimson.
+    - **Pertahanan**: Dapat dihindari atau ditangkis (parry). Reaksi yang tepat waktu adalah kunci.
+  </Card>
+  <Card title="Hydra Darah">
+    - **Efek**: Memunculkan hydra yang meludahkan blood orb pengejar (homing).
+    - **Pertahanan**: Dapat dihindari. Meskipun damage-nya lebih kecil, mengabaikannya sepenuhnya dapat menyebabkan akumulasi damage.
+  </Card>
+  <Card title="Penyaliban">
+    - **Efek**: Menyalibkan siapa pun yang berada dalam radiusnya.
+    - **Pertahanan**: Tidak dapat ditangkis. Waktu menghindar sangat lambat (sekitar 2 detik setelah lingkaran merah terisi penuh).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fase Kritis">
+Setelah kesehatan Crimson Witch turun di bawah 75%, portal ke Hutan Crimson akan tertutup. Ini berarti jika Anda mati atau kehabisan mana, Anda tidak dapat masuk kembali tanpa pengguna sihir Spasial untuk men-teleportasi Anda kembali.
+</Callout>
+
+**Komposisi Party Esensial:**
+Memiliki **pengguna sihir Spasial** dalam party Anda hampir menjadi sebuah keharusan. Mereka dapat men-teleportasi pemain kembali ke area raid, memastikan pertempuran terus berlanjut bahkan jika seseorang gugur. Sebagai alternatif, memiliki akun alternatif dengan sihir Spasial yang menunggu di spawn dapat melayani tujuan yang sama. Bahkan jika Anda cukup kuat untuk melawannya sendirian, itu tidak efisien; sebuah grup menghasilkan drop yang jauh lebih banyak.
+
+</Section>
+
+<Section icon={Trophy} title="Drop dan Hadiah Crimson Witch">
+Crimson Witch menawarkan berbagai drop berharga, menjadikannya target utama untuk farming. Semakin banyak pemain yang Anda miliki dalam grup (hingga 6-8), semakin banyak drop yang berpotensi Anda terima per pembunuhan, dengan kemungkinan hingga 16 drop dalam party besar. Ini sangat berguna untuk mendapatkan item pemanggilan untuk melanjutkan raid tanpa henti.
+
+<Callout type="success" title="Maksimalkan Loot Anda">
+Targetkan party berisi 6-8 pemain untuk memaksimalkan perolehan drop Anda. Ini memastikan Anda mendapatkan lebih banyak item berharga, termasuk yang dibutuhkan untuk memanggil kembali penyihir, memungkinkan farming terus-menerus.
+</Callout>
+
+Berikut adalah daftar rinci potensi drop dari Crimson Witch:
+
+| Item / Tipe               | Peluang Drop | Tujuan / Catatan                                       |
+| :------------------------ | :----------- | :----------------------------------------------------- |
+| **Hemlock Sigil**         | 8.75%        | Item pemanggilan                                       |
+| **Vainroot Thorn**        | 8.75%        | Item pemanggilan                                       |
+| **Crimson Tearstone**     | 8.75%        | Item pemanggilan                                       |
+| **Hearts Ember**          | 8.75%        | Item pemanggilan                                       |
+| **Sanguin Bane** (Gelar)  | -            | Saat ini tidak melakukan apa-apa                       |
+| **Scarlet Hex Earrings**  | 6.25%        | Aksesori                                               |
+| **Crimson Torren Scroll** | -            | Penggunaan masa depan untuk membuka mantra Sihir Darah |
+| **Scarlet Hex Hat**       | 1.85%        | Aksesori                                               |
+| **Scarlet Hex Necklace**  | 1.3%         | Aksesori                                               |
+| **Crimson Garb**          | 0.36%        | Armor terbaik untuk mage                               |
+| **Crimson Suit**          | 0.36%        | Armor terbaik untuk mage                               |
+| **Spirit Parts**          | -            | Digunakan untuk memaksa Spirit Rift muncul (bicara dengan Elias) |
+
+Jika Anda mencari party untuk melakukan raid Crimson Witch, saluran "boss raids" di Discord resmi Clover Retribution adalah sumber daya yang sangat baik, karena para pemain sering mengorganisir grup di sana.
+
+</Section>
+
+<Section icon={Map} title="Daftar Periksa Raid Hutan Crimson">
+Bersiaplah secara menyeluruh sebelum menantang Crimson Witch. Tim yang lengkap dan terkoordinasi secara signifikan meningkatkan peluang keberhasilan dan efisiensi farming Anda.
+
+<Checklist
+  id="crimson-witch-prep"
+  title="Daftar Periksa Persiapan Raid:"
+  items={[
+    "Kumpulkan party berisi 5-8 pemain (direkomendasikan level 300+)",
+    "Pastikan ada pengguna sihir Spasial dalam party atau sedang bersiap",
+    "Kumpulkan keempat item pemanggilan: Hemlock Sigil, Vainroot Thorn, Crimson Tearstone, Hearts Ember",
+    "Hafalkan lokasi blood orb dan penempatan item yang sesuai",
+    "Pahami pola serangan Crimson Witch dan waktu menghindar/menangkis",
+    "Stok ramuan penyembuh dan ramuan mana",
+    "Koordinasikan peran dan strategi dengan tim Anda sebelum masuk"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan tentang Hutan Crimson">
+
+<FAQ items={[
+  {
+    question: "Berapa level yang direkomendasikan untuk raid Hutan Crimson di Clover Retribution?",
+    answer: "Meskipun tidak ada persyaratan level yang ketat untuk memulai, sangat direkomendasikan agar pemain berada di sekitar level 300 atau lebih tinggi dalam grup berisi 5-6 orang untuk secara konsisten menerima kredit karena mengalahkan Crimson Witch."
+  },
+  {
+    question: "Bagaimana cara memanggil Crimson Witch?",
+    answer: "Untuk memanggil Crimson Witch, Anda perlu mengumpulkan empat item spesifik: Hemlock Sigil, Vainroot Thorn, Crimson Tearstone, dan Hearts Ember. Item-item ini drop dari bos dunia yang berbeda. Setelah dikumpulkan, masukkan ke dalam empat blood orb terapung yang terletak di sekitar peta."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika saya mati selama raid Crimson Witch?",
+    answer: "Jika Anda mati atau kehabisan mana setelah kesehatan Crimson Witch turun di bawah 75%, portal ke Hutan Crimson akan tertutup. Anda akan membutuhkan pengguna sihir Spasial dalam party Anda untuk men-teleportasi Anda kembali ke area raid untuk terus bertarung."
+  },
+  {
+    question: "Apakah lebih baik melawan Crimson Witch sendirian atau dalam grup?",
+    answer: "Jauh lebih efisien untuk melakukan raid Crimson Witch dalam grup berisi 6-8 pemain. Bermain solo hanya menghasilkan satu atau dua drop, sementara grup besar bisa mendapatkan hingga 16 drop per pembunuhan, yang secara signifikan meningkatkan efisiensi farming Anda untuk item seperti komponen pemanggilan."
+  }
+]} />
+
+</Section>

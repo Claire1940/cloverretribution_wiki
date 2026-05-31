@@ -1,0 +1,234 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Navigation, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de Retribuição Clover: Locais Chave e Rotas de Nivelamento",
+  description: "Explore o mapa de Retribuição Clover com nosso guia detalhado de zonas iniciais, locais de chefes e pontos de surgimento de Esferas Estreladas para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Map+Guide",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Retribuição Clover"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **mapa de retribuição clover**: Navegar pelos diversos biomas do Reino Clover é essencial para um nivelamento eficiente e coleta de recursos.
+- **Progressão Inicial**: Comece na Vila Sem Nome e progrida pelas Pastagens até o nível 50 antes de seguir para a Capital.
+- **Proteção contra Perigos**: A Tundra exige equipamentos especializados como a Regalia de Tecelagem Gélida para sobreviver a danos ambientais.
+- **Viagem Rápida**: Utilize NPCs como Dory para teletransporte entre os principais centros para economizar tempo a pé.
+- **Esferas Estreladas**: Esses itens raros surgem em locais específicos nas Pastagens, Deserto e Tundra para recompensas poderosas.
+</Callout>
+
+<Section icon={Map} title="Zonas Iniciais e Progressão no Jogo Inicial">
+
+Navegar pelo **mapa de retribuição clover** começa na Vila Sem Nome, uma área focada em tutoriais onde você aprende combate básico e mecânicas de missões. Uma vez que você transita para o jogo principal, seu foco primário será as Pastagens, que abrigam os primeiros doadores de missões e acampamentos de mobs necessários para alcançar o nível 50. Esta região é relativamente segura em comparação com os biomas de final de jogo, mas requer uma abordagem estruturada para maximizar os ganhos de experiência.
+
+**Destaques do Vídeo:**
+- **Missões Iniciais**: Detalhes das missões Bandido e Lobo Alfa.
+- **Mecânicas de Chefes**: Como lidar com o Lobo Alfa para desbloquear a montaria Essencial Vassoura.
+- **Conselhos de Construção**: Recomendações para construções de Destreza vs. Magia durante o nivelamento inicial.
+- **Navegação**: Encontrando o Viajante Misterioso e os acampamentos de Goblins.
+
+<YouTubeEmbed videoId="vZSPvXm99_Q" title="Atualização do Demônio de Retribuição Clover: Guia para Iniciantes" />
+
+O jogo inicial é definido por uma série de centros de missões. Você começará lutando contra Bandidos perto do ponto de surgimento principal, progredindo para inimigos mais difíceis como Goblins e Mercenários Experientes.
+
+| Nome da Missão | Nível Recomendado | Mob Alvo | Recompensa de XP |
+| :--- | :--- | :--- | :--- |
+| **Ameaça Bandida** | Nível 1-20 | Bandidos (10) | Moderada |
+| **Viajante Misterioso** | Nível 25-30 | Guardas Viajantes | Alta |
+| **Predador Alfa** | Nível 40 | Lobo Alfa (Chefe) | Desbloqueio da Vassoura |
+| **Limpeza de Goblins** | Nível 40-50 | Goblins | Consistente |
+| **Caça ao Mercenário** | Nível 50-75 | Mercenários Experientes | 800 XP |
+
+<Callout type="tip" title="Aviso de Construção Híbrida">
+Evite distribuir seus pontos de atributo muito cedo. Concentre-se em Destreza para construções baseadas em espada ou Inteligência para construções baseadas em magia para garantir que você possa limpar mobs eficientemente antes de chegar ao Reino Clover.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Centro do Jogo Médio: Reino Clover e Mãos Sombrias">
+
+Ao atingir o nível 75, o **mapa de retribuição clover** se expande significativamente à medida que você avança em direção à Capital Clover. Esta área serve como um centro para jogadores de nível médio e introduz tipos de inimigos mais complexos, como as Mãos Sombrias e Ogros. A Capital também é onde você encontrará vendedores de alto nível e NPCs de missões especializadas.
+
+As Mãos Sombrias são um tipo de mob particularmente importante porque são "frágeis" (pouca vida) mas causam muito dano. Aprender seus padrões de ataque é vital para a sobrevivência. Durante seu tempo aqui, você também pode encontrar Eventos Mundiais, indicados por notificações de "Cinco Estrelas" no chat, que sinalizam o surgimento de desafios de elite.
+
+<CardGrid cols={2}>
+  <Card title="Núcleo da Capital Clover">
+    - **Mãos Sombrias**: Melhor para nivelar de 80 a 100.
+    - **Acampamentos de Ogros**: Mobs com alto XP que são melhor enfrentados em grupos de 4-5 jogadores.
+    - **Minichefe Veneno**: Deixa cair anéis essenciais que aumentam o dano mágico.
+  </Card>
+  <Card title="Postos Avançados de Caçadores de Lobos">
+    - **Faixa de Nível**: Ideal para 110 a 135.
+    - **Drops de Equipamento**: Caçadores fornecem conjuntos de armadura essenciais para o meio do jogo.
+    - **Densidade de Mobs**: Altas taxas de surgimento permitem uma agricultura eficiente de AOE.
+  </Card>
+</CardGrid>
+
+| Tipo de Mob | Faixa de Nível | Drops Chave | Dificuldade de Combate |
+| :--- | :--- | :--- | :--- |
+| **Mãos Sombrias** | 80-100 | Cristais de Mana | Moderada |
+| **Ogros** | 100-115 | Clava de Ogro, Couro Pesado | Difícil (Grupo) |
+| **Caçadores de Lobos** | 115-135 | Armadura de Caçador, Peles | Moderada |
+| **Veneno (Chefe)** | 100+ | Anéis de Dano Mágico | Muito Difícil |
+
+<Callout type="warning" title="Sistema de Ameaça">
+Em lutas em grupo contra chefes como Veneno ou Ogros, o alvo é determinado por "Ameaça". Jogadores que causam mais dano ou curam com frequência atrairão mais aggro, então gerencie sua produção para evitar ser focado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perigos do Fim do Jogo: Regiões de Tundra e Deserto">
+
+A Tundra e o Deserto representam os ambientes mais desafiadores no **mapa de retribuição clover**. Essas zonas apresentam perigos ambientais que causam dano por segundo a jogadores despreparados. Na Tundra, você deve lidar com o efeito "Gelo", enquanto o Deserto apresenta inimigos com alta HP, como Escorpiões e o Apez.
+
+Para sobreviver à Tundra, os jogadores devem criar a **Regalia de Tecelagem Gélida**. Este conjunto de armadura requer materiais coletados dos mobs Yeti e Lírios Congelados encontrados nas margens dos rios. A Vila da Tundra também abriga o Mestre Ferreiro, que é responsável por aprimorar suas armas usando Cristais de Mana.
+
+<Steps>
+  <Step num="1" title="Obter Chifres de Yeti">
+    Derrote Yetis na entrada da Tundra para coletar chifres. Cuidado com o atordoamento de seu "Rugido".
+  </Step>
+  <Step num="2" title="Coletar Lírios Congelados">
+    Siga o rio que leva à Tundra para encontrar essas plantas azuis crescendo perto do gelo.
+  </Step>
+  <Step num="3" title="Criar Regalia de Tecelagem Gélida">
+    Visite o NPC na Vila da Tundra. A receita custa 3.250 de ouro e previne danos de gelo.
+  </Step>
+  <Step num="4" title="Aprimorar no Ferreiro">
+    Uma vez protegido, use o Ferreiro da Vila para aprimorar a escala e o dano de sua arma.
+  </Step>
+</Steps>
+
+| Zona | Tipo de Perigo | Equipamento Necessário | Mobs Primários |
+| :--- | :--- | :--- | :--- |
+| **Tundra** | Dano de Gelo | Regalia de Tecelagem Gélida | Yetis, Golems de Gelo |
+| **Deserto** | Mobs com Alta HP | Armas de Alto DPS | Escorpiões, Apez |
+| **Rio da Tundra** | Navegação | Vassoura/Montaria | Nós de Lírio Congelado |
+
+<Callout type="success" title="Mobs Corrompidos">
+Procure mobs com uma aura roxa na Tundra. Estas são versões "Corrompidas" que possuem significativamente mais vida e dano, mas oferecem taxas de queda e bônus de XP muito superiores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Locais e Farm de Esferas Estreladas">
+
+As Esferas Estreladas, frequentemente chamadas de Esferas do Dragão pela comunidade, são itens raros que surgem em pontos específicos do **mapa de retribuição clover**. Coletá-las é uma tarefa de alta prioridade para jogadores que desejam desbloquear desejos poderosos ou obter itens raros como a Vassoura Aprimorada.
+
+Existem aproximadamente 25 locais de surgimento conhecidos. Essas esferas emitem um zumbido distinto quando você está por perto, tornando-as mais fáceis de rastrear se você tiver as dicas de áudio ativadas.
+
+**Destaques do Vídeo:**
+- **Caminho das Pastagens**: 3 pontos chave na faixa de floresta.
+- **Santuário do Deserto**: Locais dentro do poço da vila e atrás do santuário do deserto.
+- **Obby da Tundra**: Quatro pontos de surgimento distintos localizados na área de parkour da Tundra.
+- **Capital Clover**: Surgem perto das muralhas externas e árvores específicas.
+
+<YouTubeEmbed videoId="_3_wz9GEf6I" title="Todos os Locais de Esferas Estreladas: Retribuição Clover" />
+
+<CardGrid cols={3}>
+  <Card title="Surgimentos nas Pastagens">
+    - Faixa de floresta perto do início
+    - Manchas de grama
+    - Perto do viajante misterioso
+  </Card>
+  <Card title="Surgimentos no Deserto">
+    - Dentro do poço da vila
+    - Atrás da área do Santuário
+    - No topo de formações rochosas verdes
+  </Card>
+  <Card title="Surgimentos na Tundra">
+    - O Obby da Tundra (4 pontos)
+    - Telhados de edifícios da vila
+    - Perto do lago congelado
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dicas de Áudio">
+Ao caçar Esferas Estreladas, preste atenção a um tilintar cintilante. O som fica mais alto quanto mais perto você chega, o que é essencial para encontrar esferas escondidas em telhados ou dentro de poços.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Locais de Surgimento de Chefes e Requisitos de Runas">
+
+A progressão de alto nível no **mapa de retribuição clover** eventualmente exige que você desafie o Golem. No entanto, o portal do Golem está bloqueado e requer três Runas específicas para ser ativado. Essas runas são obtidas derrotando chefes mundiais que surgem em locais específicos.
+
+O Senhor Bandido e o Senhor Gosma são as principais fontes dessas runas. Esses chefes não surgem constantemente; eles têm temporizadores e locais específicos que os jogadores devem monitorar.
+
+<Checklist
+  id="rune-collection"
+  title="Lista de Verificação de Ativação de Runas:"
+  items={[
+    "Derrote o Senhor Bandido para a primeira Runa",
+    "Localize e derrote o Senhor Gosma para a segunda Runa",
+    "Obtenha a terceira Runa dos surgimentos de elite da Tundra",
+    "Insira todas as três Runas nos pilares do portal do Golem",
+    "Entre no portal para desafiar o Golem de Nível 165"
+  ]}
+/>
+
+| Nome do Chefe | Localização | Drop Chave | Requisito de Nível |
+| :--- | :--- | :--- | :--- |
+| **Senhor Bandido** | Caverna das Pastagens | Runa Bandida, Armadura | 40+ |
+| **Senhor Gosma** | Clareira da Floresta | Runa Gosma, Equipamento Gosma | 60+ |
+| **Veneno** | Periferia da Capital | Anéis Mágicos | 100+ |
+| **Golem** | Portal (Deserto/Tundra) | Pluma Carmesim (Rara) | 165+ |
+
+<Callout type="warning" title="Padrões de Chefes">
+Cada chefe tem um padrão de ataque específico. Para o Golem, aprender a bloquear perfeitamente seu golpe no chão é obrigatório, pois ele pode matar a maioria dos jogadores que não investiram pesadamente em Constituição com um único golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Navigation} title="Dicas de Navegação e Viagem Rápida">
+
+Viajar pelo vasto **mapa de retribuição clover** pode ser demorado. Para otimizar sua jornada, você deve priorizar o desbloqueio da montaria Vassoura cedo e a utilização da rede de teletransporte.
+
+Dory é o NPC principal para viagem rápida. Ele pode ser encontrado na maioria das grandes vilas e o teletransportará para outros centros descobertos por uma taxa em ouro. O preço varia com base na distância entre os dois locais.
+
+<Steps>
+  <Step num="1" title="Desbloquear a Vassoura">
+    Complete a missão Lobo Alfa no nível 40. Este é seu principal modo de transporte.
+  </Step>
+  <Step num="2" title="Encontrar NPCs Dory">
+    Interaja com Dory no Deserto, Tundra e Capital Clover para registrar os pontos de passagem.
+  </Step>
+  <Step num="3" title="Gerenciar Ouro">
+    O teletransporte custa entre 500 e 1.500 de ouro. Mantenha uma reserva para viagens rápidas durante eventos cronometrados.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Atualizações da Vassoura">
+Você pode atualizar sua vassoura usando Esferas Estreladas. Uma vassoura aprimorada tem velocidade de voo significativamente maior e melhor manobrabilidade, tornando muito mais fácil desviar de ataques de Yeti enquanto voa sobre a Tundra.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como faço para parar de sofrer dano na Tundra?",
+    answer: "Você deve criar a Regalia de Tecelagem Gélida no NPC da Vila da Tundra. Ela requer Chifres de Yeti e Lírios Congelados. Alternativamente, certas magias de fogo de alto nível fornecem resistência temporária."
+  },
+  {
+    question: "Qual é o melhor lugar para subir de nível de 100 para 150 no mapa?",
+    answer: "Os Caçadores de Lobos perto dos arredores da Capital Clover proporcionam o melhor equilíbrio de XP e segurança. Ao atingir o nível 135, você pode fazer a transição para os Yetis da Tundra se tiver a armadura adequada."
+  },
+  {
+    question: "Com que frequência as Esferas Estreladas surgem no mapa de Retribuição Clover?",
+    answer: "As esferas surgem periodicamente no mapa. Quando uma surge, uma notificação geralmente aparece no chat do servidor. Elas permanecem por 10 minutos antes de desaparecerem se não forem coletadas."
+  },
+  {
+    question: "Qual é a maneira mais rápida de chegar ao Deserto?",
+    answer: "A maneira mais rápida é usar o NPC de teletransporte Dory da Capital Clover. Se viajar a pé, siga para sudeste da Capital através da passagem do cânion."
+  }
+]} />
+
+</Section>

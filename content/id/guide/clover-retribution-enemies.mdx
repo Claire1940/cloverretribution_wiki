@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Musuh Pembalasan Clover: Panduan Mob & Mekanik Bos 2026",
+  description: "Kuasai setiap pertemuan dalam Pembalasan Clover dengan panduan musuh 2026 kami. Pelajari pola bos, tingkat drop mob, dan strategi raid untuk Aetherstone Isle.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Enemies+Guide",
+  date: "2026-05-31",
+  author: "Tim Wiki Pembalasan Clover"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Kata kunci utama**: Panduan ini mencakup semua **musuh pembalasan clover** yang penting, berfokus pada bos raid dan mob acara.
+- **Fokus Bos Raid**: Aetherstone Golem adalah ancaman utama dalam raid Aetherstone Isle, membutuhkan level 100+ untuk pembunuhan yang konsisten.
+- **Mekanik Acara**: Mob Halloween seperti Labu dan Ksatria Tengkorak Berlubang menyediakan token waktu terbatas untuk perlengkapan tingkat tinggi.
+- **Pertanian Rune**: Anda harus mengalahkan bos dunia seperti Bandit Lord dan Warlord untuk mengumpulkan rune yang diperlukan untuk masuk raid.
+- **Strategi Kritis**: Selalu prioritaskan pemeriksaan DPS selama pertarungan Golem untuk menghindari pemusnahan pesta instan.
+</Callout>
+
+<Section icon={Swords} title="Aetherstone Golem: Bos Raid Utama Pertama">
+
+Aetherstone Golem berfungsi sebagai pertemuan terakhir dalam raid Aetherstone Isle, yang pertama dari tujuh raid utama yang saat ini tersedia dalam game. Meskipun tidak ada persyaratan level yang sulit untuk memasuki raid, pemain di bawah level 100 akan kesulitan untuk mencapai ambang batas kerusakan 10% yang diperlukan untuk menerima kredit dan jarahan. Memahami mekanik entitas batu besar ini sangat penting untuk bertahan hidup.
+
+**Sorotan Video:**
+- **Persyaratan Masuk**: Cara menggunakan empat rune (Wrath, Challenge, Earth, Tempest) untuk membuka portal.
+- **Pola Serangan**: Rincian mendetail tentang set gerakan berbasis pukulan Golem.
+- **Pemeriksaan DPS**: Panduan untuk menghancurkan kristal ungu dalam jendela 30 detik.
+- **Tabel Jarahan**: Ikhtisar 13 kemungkinan drop, termasuk Aether Blade dan Puldrons.
+
+<YouTubeEmbed videoId="9YA6mO1ab-M" title="Pembalasan Clover Untuk Pemula: Aetherstone Isle" />
+
+Golem sepenuhnya kebal terhadap efek status racun, membuat banyak build penyihir kurang efektif jika mereka mengandalkan mantra racun kerusakan seiring waktu. Setiap serangan yang dilakukan Golem memberikan kerusakan pukulan, yang dapat dimitigasi melalui set baju besi tertentu atau buff defensif.
+
+| Nama Serangan | Deskripsi | Strategi Penanggulangan |
+| :--- | :--- | :--- |
+| **Stone Fist** | Memanggil tinju batu dari tanah di bawah pemain. | Hindari sempurna atau tangkis saat tanah bersinar. |
+| **Ground Slam** | Serangan ke bawah yang berat menyebabkan kerusakan AoE besar. | Lompat atau atur waktu tangkisan untuk meniadakan dampak. |
+| **Spinning AoE** | Golem berputar cepat, mengenai semua pemain di dekatnya. | Jaga jarak atau gunakan penghindaran sempurna. |
+| **Pemeriksaan DPS Kristal** | Enam kristal ungu muncul saat bos terpana. | Hancurkan semua 6 kristal dalam 30 detik. |
+
+<Callout type="warning" title="Peringatan Kegagalan Raid">
+Kegagalan untuk menyelesaikan pemeriksaan DPS mengakibatkan kematian instan bagi semua orang di area raid. Jika raid gagal, portal ke Aetherstone Isle memasuki cooldown 15 menit sebelum dapat dibuka kembali.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Pertanian Rune dan Bos Dunia">
+
+Untuk menghadapi **musuh pembalasan clover** tingkat tinggi dalam raid, Anda harus terlebih dahulu bertani bos dunia tertentu untuk bahan masuk. Portal Aetherstone Isle, yang terletak di selatan Desa Tanpa Nama di tengah danau, membutuhkan empat rune yang berbeda. Rune ini tidak dijamin akan jatuh dan membutuhkan pertanian yang signifikan.
+
+Rune—Wrath, Challenge, Earth, dan Tempest—diperoleh dari peti bos acara dan bos dunia. Berdasarkan data komunitas, tingkat drop untuk rune ini berada antara 30% dan 40% per peti.
+
+| Nama Bos | Lokasi Utama | Drop Rune Kunci |
+| :--- | :--- | :--- |
+| **Bandit Lord** | Kamp Bandit Padang Rumput | Wrath, Earth |
+| **Warlord** | Pos Gurun | Challenge, Tempest |
+| **Camson** | Hutan Tersembunyi | Rune Acak |
+| **Lucius** | Reruntuhan Kuno | Rune Acak |
+
+<Callout type="tip" title="Tips Efisiensi">
+Merupakan praktik komunitas standar untuk memasukkan **Rune Wrath** terakhir ke dalam pilar. Ini memastikan bahwa semua anggota party memiliki cukup waktu untuk mencapai portal sebelum ditutup, karena aktivasi portal dipicu oleh penempatan rune terakhir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Panduan Mob Acara Halloween">
+
+Di luar kemajuan standar, **musuh pembalasan clover** musiman menawarkan peluang unik untuk jarahan waktu terbatas. Acara Halloween memperkenalkan mob spesifik yang muncul di seluruh Padang Rumput, menyediakan token yang digunakan di NPC toko Halloween, Feric, yang terletak di penginapan Desa Tanpa Nama.
+
+<CardGrid cols={3}>
+  <Card title="Mob Labu">
+    - **Kesehatan**: ~700 HP
+    - **Tingkat Muncul**: Tinggi (11 lokasi)
+    - **Drop Kunci**: Armor Ksatria Labu, Token
+  </Card>
+  <Card title="Ksatria Tengkorak Berlubang">
+    - **Kesehatan**: ~1.200 HP
+    - **Pertarungan**: Melee agresif
+    - **Drop Kunci**: Tembaga, Besi, Token
+  </Card>
+  <Card title="Bos: Penyihir Crimson">
+    - **Persyaratan**: Hemlock Sigil
+    - **Kesulitan**: Tinggi
+    - **Hadiah**: Bahan acara langka
+  </Card>
+</CardGrid>
+
+Tingkat drop token Halloween dari mob ini sangat rendah (diperkirakan 0,1% hingga 0,3%), menjadikan misi harian dari Feric cara paling dapat diandalkan untuk mengumpulkan mata uang.
+
+| Nama Item | Biaya Token | Persyaratan Level | Terbaik Untuk |
+| :--- | :--- | :--- | :--- |
+| **Hollow Dealer's Carapace** | 12 Token | 265 | Build Penyihir tingkat tinggi |
+| **Crimson Fangs** | 7 Token | Tidak Ada | Peningkatan Intelijen dan Mana |
+| **Jack's Might** | 5 Token | Tidak Ada | Build Melee dan Tank |
+
+<Callout type="success" title="Saran Pemain Baru">
+Crimson Fangs dan Jack's Might **tidak memiliki persyaratan level**, menjadikannya peningkatan awal terbaik untuk pemain baru yang berpartisipasi dalam acara tersebut.
+</Callout>
+
+</Section>
+
+<Section icon={Steps} title="Panduan Masuk Raid">
+
+Untuk berhasil menantang Aetherstone Golem dan **musuh pembalasan clover** tingkat tinggi lainnya, ikuti urutan spesifik ini untuk memastikan party Anda siap dan portal aktif.
+
+<Steps>
+  <Step num="1" title="Bertani Bos Dunia">
+    Kalahkan Bandit Lord dan Warlord berulang kali hingga party Anda memiliki keempat rune: Wrath, Challenge, Earth, dan Tempest.
+  </Step>
+  <Step num="2" title="Temukan Pilar">
+    Pergilah ke danau di selatan Desa Tanpa Nama. Temukan empat pilar batu yang mengelilingi pulau tengah.
+  </Step>
+  <Step num="3" title="Koordinasikan Penempatan Rune">
+    Tetapkan pemain untuk setiap pilar. Tempatkan Earth, Challenge, dan Tempest terlebih dahulu. Pastikan semua pemain berada di dekat pusat sebelum menempatkan rune Wrath.
+  </Step>
+  <Step num="4" title="Hadapi Golem">
+    Masuk ke portal. Pastikan party Anda memiliki setidaknya satu pemain DPS tinggi yang mampu menghancurkan kristal ungu dengan cepat selama fase kesehatan 75%.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Jarahan dan Pencapaian Kemajuan">
+
+Mengalahkan **musuh pembalasan clover** terkuat bukan hanya tentang tantangan; ini tentang perlengkapan eksklusif yang mendefinisikan meta saat ini. Aetherstone Golem menjatuhkan berbagai senjata dan bahan kerajinan yang penting untuk build akhir game.
+
+<Checklist
+  id="golem-loot-checklist"
+  title="Drop Golem Penting untuk Dikumpulkan:"
+  items={[
+    "Aether Blade (Terbaik untuk build Sihir Gelap)",
+    "Aetherstone Puldrons (Tingkat Drop 1-5%)",
+    "Gelar Mana Wielder (Diperlukan untuk Kelas Arcanist)",
+    "Gleaming Aether Core (Untuk Hybrid Paladin Grace)",
+    "Corrupted Mana Crystal (Item Misi Cerita Utama)"
+  ]}
+/>
+
+<Callout type="info" title="Kontekstual Tingkat Drop">
+Aetherstone Puldrons sangat langka. Banyak pemain melaporkan membunuh Golem lebih dari 200 kali sebelum melihat item ini jatuh. Ketekunan adalah kunci bagi para kolektor.
+</Callout>
+
+| Item Drop | Tingkat Drop (Est.) | Penggunaan Utama |
+| :--- | :--- | :--- |
+| **Aether Blade** | 10% | +12% Kerusakan melalui Wrath M2 |
+| **Aetherstone Hammer** | 15% | Senjata berat standar |
+| **Aetherstone Soil** | 20% | Memanggil Dragon Balls |
+| **Spirit Feather** | 5% | Membuka Spirit Rifts |
+| **Aetherstone Halberd** | 2% | Drop peti langka |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ Pertarungan Musuh">
+
+<FAQ items={[
+  {
+    question: "Apa cara terbaik untuk solo musuh pembalasan clover dalam raid?",
+    answer: "Solo raid seperti Aetherstone Isle sangat sulit karena pemeriksaan DPS kristal 30 detik. Anda membutuhkan build yang mampu menghancurkan kristal dalam satu pukulan, biasanya membutuhkan penguasaan sihir tinggi atau build melee yang maksimal."
+  },
+  {
+    question: "Apakah mob Halloween tetap ada setelah Desember?",
+    answer: "Meskipun acara ini bertema Halloween, NPC Feric dan mob seringkali bertahan hingga Desember. Namun, toko ini terbatas waktu, jadi belanjakan token Anda sesegera mungkin."
+  },
+  {
+    question: "Mengapa saya tidak mendapatkan jarahan dari Aetherstone Golem?",
+    answer: "Anda harus memberikan setidaknya 10% dari total kerusakan pada bos untuk memenuhi syarat mendapatkan jarahan dan kredit. Jika Anda berada dalam kelompok besar dengan pemain tingkat tinggi, Anda mungkin gagal mencapai ambang batas ini."
+  },
+  {
+    question: "Di mana saya bisa menemukan Penyihir Crimson?",
+    answer: "Penyihir Crimson adalah bos tersembunyi yang membutuhkan Hemlock Sigil, yang merupakan drop langka dari raid Aetherstone Golem. Menggunakan sigil memungkinkan Anda memanggilnya untuk mendapatkan hadiah eksklusif."
+  }
+]} />
+
+</Section>

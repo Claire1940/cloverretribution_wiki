@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia del Tiempo de Clover Retribution: Guía de Habilidades y Maestría",
+  description: "Domina la Magia del Tiempo en Clover Retribution con esta guía completa que cubre su rareza Mítica, habilidades únicas, efectos pasivos y cómo maximizar su potencial tanto en PvE como en PvP.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Time+Magic+Guide",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Magia del Tiempo** es una magia de rareza Mítica muy codiciada en **Clover Retribution**.
+- Cuenta con poderosas habilidades pasivas como **Esquivas TP** y amplificación de daño de escudo.
+- Los hechizos activos clave incluyen **Ráfaga Crono**, **Golpe Temporal**, **Visión Futura** y **Anastasis Crono**.
+- Dominar sus mecánicas de esquiva únicas y efectos de estado es crucial para el dominio en **PvP y PvE**.
+- Se rumorea que la posible **habilidad de Cuatro Hojas** es una resurrección completa, similar a la de Julius.
+</Callout>
+
+<Section icon={Clock} title="Comprendiendo la Magia del Tiempo en Clover Retribution">
+La **Magia del Tiempo** destaca como un tipo de magia de rareza Mítica en *Clover Retribution*, lo que la convierte en una de las opciones más codiciadas y poderosas disponibles para los jugadores. Su combinación única de capacidades ofensivas, utilidad defensiva y control de masas disruptivo la convierte en una opción formidable tanto para el contenido jugador contra entorno (PvE) como para los encuentros jugador contra jugador (PvP). Esta guía profundizará en sus mecánicas principales, habilidades y estrategias para ayudarte a dominar este estilo mágico excepcional.
+
+**Puntos destacados del video:**
+- Demuestra las Esquivas TP pasivas de la **Magia del Tiempo**, cruciales para evadir ataques.
+- Muestra cada habilidad activa: Ráfaga Crono, Golpe Temporal, Visión Futura y Anastasis Crono.
+- Proporciona ejemplos de la **Magia del Tiempo** en acción durante el farmeo de jefes y escenarios PvP.
+- Discute la hipotética habilidad de Cuatro Hojas, insinuando una habilidad de resurrección completa.
+- Destaca la efectividad de la magia contra escudos, infligiendo el doble de daño.
+
+<YouTubeEmbed videoId="viprC7UWQGw" title="Demostración de MAGIA DEL TIEMPO de 4 Hojas (Clover Retribution)" />
+
+La **Magia del Tiempo** es reconocida por su destreza defensiva, ofreciendo Esquivas TP pasivas que proporcionan marcos de esquiva aumentados. Esto permite a los usuarios evadir numerosos ataques de jefes y habilidades de jugadores, mejorando significativamente la supervivencia. Además, sus hechizos infligen el doble de daño a los escudos, lo que la convierte en una excelente opción para romper las defensas de oponentes fuertemente blindados o las mecánicas de los jefes.
+
+<Callout type="tip" title="Dominando la Esquiva">
+Las Esquivas TP pasivas son la piedra angular del kit defensivo de la **Magia del Tiempo**. Practica la sincronización de tus movimientos para aprovechar al máximo estos marcos de esquiva mejorados, convirtiendo encuentros desafiantes en manejables.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades y Maestría de la Magia del Tiempo">
+Desbloquear y dominar las habilidades de la **Magia del Tiempo** requiere dedicación y un uso estratégico de tus puntos de maestría. Cada hechizo ofrece ventajas distintas, contribuyendo a un estilo de juego versátil.
+
+<CardGrid cols={2}>
+  <Card title="Destreza Ofensiva">
+    - **Ráfaga Crono** para AoE de corto alcance y efectos de estado de tiempo.
+    - **Golpe Temporal** para daño de proyectiles de múltiples orbes y aplicación de estado.
+    - **Anastasis Crono** para daño AoE sostenido en un área amplia.
+  </Card>
+  <Card title="Utilidad Defensiva">
+    - **Esquivas TP Pasivas** para una mayor evasión.
+    - **Visión Futura** para una probabilidad significativa de esquivar ataques entrantes.
+    - **Efecto de Estado de Tiempo** atrapa a los enemigos, creando aperturas para ataques de seguimiento.
+  </Card>
+</CardGrid>
+
+Aquí tienes un desglose de las habilidades principales y sus requisitos de maestría:
+
+| Habilidad          | Costo de Maná | Enfriamiento | Maestría Requerida | Descripción                                                                                                                              |
+| :--------------- | :-------- | :------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ráfaga Crono** | 25        | 8s       | 10               | Lanza una esfera AoE de corto alcance, alta probabilidad de infligir efecto de estado de Tiempo, rompe la guardia.                                                |
+| **Golpe Temporal** | 25 (por carga) | 12s      | 25               | Dispara 1-3 orbes de alcance medio, cada uno con una probabilidad de activar el efecto de estado de Tiempo. Tiene tres cargas.                                    |
+| **Visión Futura** | 100       | 45s      | 45               | Otorga un 50% de probabilidad de esquivar todos los ataques entrantes durante 43 segundos con tréboles dorados al máximo.                                                    |
+| **Anastasis Crono** | 200       | 65s      | 60 o 75         | Invoca un enorme reloj en el cielo, que daña constantemente a los enemigos debajo de él durante 13 segundos. Puede activar el efecto de estado de Tiempo.                     |
+
+El **Efecto de Estado de Tiempo** es un componente crucial del control de masas de la **Magia del Tiempo**. Cuando se activa, los oponentes quedan atrapados en una esfera de tiempo durante 2.5 segundos antes de que explote, infligiendo daño AoE adicional.
+
+<Callout type="warning" title="Gestión de Maná">
+**Visión Futura** y **Anastasis Crono** tienen altos costos de maná. La gestión eficaz del maná es clave para mantener tu presión defensiva y ofensiva, especialmente en enfrentamientos prolongados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias PvE y PvP con Magia del Tiempo">
+El diverso conjunto de herramientas de la **Magia del Tiempo** permite estrategias efectivas tanto en PvE como en PvP. Comprender cómo aprovechar sus fortalezas únicas te distinguirá.
+
+### Lista de verificación para el farmeo de jefes en PvE
+
+<Checklist
+  id="pve-strategy"
+  title="Optimizando encuentros con jefes:"
+  items={[
+    "Utiliza las **Esquivas TP** para evadir las mecánicas de los jefes y los ataques especiales.",
+    "Prioriza la **Ráfaga Crono** para romper la guardia e infligir el efecto de estado de Tiempo para daño explosivo.",
+    "Despliega la **Anastasis Crono** durante las fases de vulnerabilidad del jefe para daño sostenido.",
+    "Activa la **Visión Futura** antes de las habilidades de alto daño del jefe para mitigar el daño entrante.",
+    "Aprovecha el daño de escudo 2x pasivo contra jefes con escudo."
+  ]}
+/>
+
+### Tácticas de combate PvP
+
+<Steps>
+  <Step num="1" title="Iniciación y Presión">
+    Usa la **Ráfaga Crono** para iniciar el combate, infligir el efecto de estado de Tiempo y romper la guardia de los oponentes. Esto crea una apertura inmediata para ataques de seguimiento.
+  </Step>
+  <Step num="2" title="Control a mitad de combate">
+    Encadena el **Golpe Temporal** para mantener la presión, aplicando el efecto de estado de Tiempo a distancia. Usa sus múltiples cargas para controlar el espacio y predecir el movimiento del enemigo.
+  </Step>
+  <Step num="3" title="Maniobras Defensivas">
+    Usa proactivamente la **Visión Futura** cuando anticipes el daño explosivo o el control de masas del enemigo. Las **Esquivas TP** pasivas son invaluables para superar a los oponentes y crear distancia.
+  </Step>
+  <Step num="4" title="Golpes Finales">
+    Una vez que un oponente tiene poca salud o está atrapado en un efecto de estado de Tiempo, usa la **Anastasis Crono** para asegurar la muerte con su alto y sostenido daño AoE.
+  </Step>
+</Steps>
+
+<Callout type="info" title="La Habilidad de Cuatro Hojas">
+Aunque aún no ha sido confirmada oficialmente, la hipotética habilidad de Cuatro Hojas para la **Magia del Tiempo** se especula ampliamente que es una habilidad de resurrección completa, similar a la de Julius del anime *Black Clover*. Esto proporcionaría un nivel de utilidad sin precedentes, ofreciendo una segunda oportunidad en situaciones críticas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Obteniendo y Maximizando tu Magia del Tiempo">
+Adquirir la **Magia del Tiempo** es un desafío debido a su rareza Mítica, pero las recompensas valen la pena.
+
+<CardGrid cols={3}>
+  <Card title="Rareza">
+    - Clasificación **Mítica**.
+    - Tasa de aparición extremadamente baja (alrededor del 0.1%).
+    - Requiere persistencia al tirar por magia.
+  </Card>
+  <Card title="Obtención">
+    - Principalmente a través de tirar por nuevos Tipos de Magia.
+    - Se pueden comprar tiradas adicionales con Robux.
+    - Prepárate para muchas tiradas comunes/poco comunes.
+  </Card>
+  <Card title="Maximización">
+    - Concéntrate en la maestría para desbloquear todas las habilidades.
+    - Practica las **Esquivas TP** pasivas para una mayor supervivencia.
+    - Aprende combos de habilidades para un daño óptimo y control de masas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tiradas Estratégicas">
+Dada la tasa de aparición extremadamente baja para la magia Mítica, considera guardar tus tiradas o Robux para eventos específicos o cuando se introduzcan nuevos tipos de magia, ya que esto podría aumentar ligeramente tus posibilidades o proporcionar un mejor valor.
+</Callout>
+
+### Tasas de aparición de tipos de magia
+
+| Rareza      | Tasa de Aparición | Notas                                                                   |
+| :---------- | :-------- | :---------------------------------------------------------------------- |
+| Común      | Alta      | La más frecuentemente obtenida.                                               |
+| Poco común    | Moderada  | Todavía común, pero menos frecuente que Común.                            |
+| Rara        | 6%        | Un notable aumento en la rareza.                                         |
+| Épica        | 0.74%     | Significativamente más rara, requiere más tiradas.                               |
+| Legendaria   | Muy Baja  | Extremadamente rara, a menudo codiciada por sus poderosas habilidades.                   |
+| **Mítica**  | **0.1%**  | **El nivel más raro, incluye la Magia del Tiempo. Muy buscada.**          |
+
+El viaje para obtener la **Magia del Tiempo de Clover Retribution** es una prueba de paciencia, pero sus poderosas habilidades la convierten en un activo que cambia el juego. Su combinación de maniobras evasivas, potencial para romper escudos y control de masas que altera el tiempo asegura que los usuarios sean una fuerza a tener en cuenta en todos los aspectos del juego.
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Magia del Tiempo">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la rareza de la Magia del Tiempo en Clover Retribution?",
+    answer: "La **Magia del Tiempo** es un tipo de magia de rareza Mítica, lo que la convierte en una de las más raras y poderosas de obtener en *Clover Retribution*. Su tasa de aparición es aproximadamente del 0.1%."
+  },
+  {
+    question: "¿Cómo funciona la Esquiva TP pasiva para la Magia del Tiempo?",
+    answer: "Los usuarios de la **Magia del Tiempo** obtienen Esquivas TP pasivas, que proporcionan marcos de esquiva aumentados. Esto permite una evasión más efectiva de los ataques entrantes, tanto de jefes como de otros jugadores, aumentando significativamente la supervivencia."
+  },
+  {
+    question: "¿Qué es el efecto de estado de Tiempo y cómo se activa?",
+    answer: "El **efecto de estado de Tiempo** atrapa a un oponente en una esfera de tiempo durante 2.5 segundos, después de lo cual explota para infligir daño AoE. Habilidades como **Ráfaga Crono**, **Golpe Temporal** y **Anastasis Crono** tienen la posibilidad de infligir este efecto de estado."
+  },
+  {
+    question: "¿Es la Magia del Tiempo efectiva contra escudos?",
+    answer: "Sí, la **Magia del Tiempo** es extremadamente efectiva contra escudos. Todos sus movimientos infligen el doble de daño a cualquier tipo de escudo en el juego, lo que la hace excelente para romper las defensas de enemigos fortificados o las mecánicas de los jefes."
+  }
+]} />
+
+</Section>

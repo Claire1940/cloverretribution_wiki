@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Ogre: Panduan Farming & Pertarungan Solo 2026",
+  description: "Kuasai pertarungan bos Clover Retribution Ogre dengan panduan 2026 kami. Pelajari strategi solo, mekanisme penghancuran perisai, dan tingkat drop langka untuk Ogre Club.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Clover+Retribution+Ogre+Guide",
+  date: "2026-05-31",
+  author: "Tim Wiki Clover Retribution"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Kata kunci utama**: **Ogre retribusi clover** adalah bos dunia tingkat menengah yang penting untuk farming Ogre Club dan material crafting.
+- **Mekanisme kunci**: Memecahkan **Shield Gauge** Ogre adalah satu-satunya cara untuk memberikan damage signifikan selama keadaan rentannya.
+- **Strategi terbaik**: Selalu **hindari ke kanan** selama serangan M-slam untuk menghindari damage dampak AOE yang besar.
+- **Tips penting**: Gunakan senjata dengan **Poise Damage** tinggi untuk menghabiskan perisai lebih cepat dan memaksa Ogre jatuh.
+- **Pilihan teratas**: **Ras Orc** memberikan buff kekuatan alami yang membuat soloing bos ini jauh lebih cepat pada tahun 2026.
+</Callout>
+
+<Section icon={Map} title="Ikhtisar dan Lokasi Bos Ogre">
+
+**Ogre retribusi clover** berfungsi sebagai tonggak kemajuan vital bagi pemain yang beralih ke mid-game. Tidak seperti monster standar, Ogre memiliki AI canggih yang menghukum spamming tanpa berpikir. Memahami di mana raksasa-raksasa ini berkeliaran dan apa yang mereka tawarkan adalah langkah pertama menuju farming yang sukses. Dalam meta 2026 saat ini, Ogre terutama dicari karena drop dengan daya tahan tinggi dan sejumlah besar EXP yang mereka berikan ke Grimoire tingkat rendah.
+
+Biasanya, Anda dapat menemukan Ogre di **wilayah Tundra** atau jalur pegunungan terpencil. Mereka sering dikelilingi oleh monster yang lebih kecil, jadi membersihkan area sekitar sebelum menghadapi bos sangat disarankan untuk pemain solo.
+
+| Fitur | Detail |
+| :--- | :--- |
+| **Level Bos** | Level 35 - 50 (Berskala berdasarkan wilayah) |
+| **Lokasi Utama** | Tundra Highlands / Northern Pass |
+| **Waktu Spawn** | 10 - 15 Menit |
+| **Rating Kesulitan** | ★★★☆☆ (Sedang) |
+| **Level Terbaik untuk Solo** | Level 45+ |
+
+**Sorotan Video:**
+- Mendemonstrasikan ritme memblokir lemparan batu.
+- Menunjukkan waktu yang tepat untuk menghindar ke kanan selama M-slam.
+- Menggambarkan bagaimana Ogre jatuh setelah perisai pecah.
+- Menyoroti pentingnya menyerang terus-menerus untuk mencegah regenerasi perisai.
+
+<YouTubeEmbed videoId="lwk0RBh66Ss" title="Roblox Clover Retribution | Cara solo ogre" />
+
+<Callout type="tip" title="Strategi Lokasi">
+Jika Tundra Highlands terlalu ramai, periksa gua Northern Pass. **Ogre retribusi clover** muncul di sana lebih jarang tetapi sering diabaikan oleh pemain tingkat tinggi, menjadikannya sempurna untuk sesi farming solo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanika Pertarungan dan Analisis Gerakan">
+
+Untuk mengalahkan **ogre retribusi clover** secara konsisten, Anda harus menghafal tiga fase serangan utamanya. Pertarungan adalah pertempuran gesekan yang sepenuhnya berfokus pada bar perisai yang terletak di bawah kesehatan Ogre. Sampai perisai itu pecah, damage Anda berkurang sekitar 80%.
+
+Ogre menggunakan campuran gangguan jarak jauh dan pertarungan jarak dekat yang menghancurkan. Pada tahun 2026, AI telah disesuaikan untuk melacak pemain dengan lebih efektif, yang berarti posisi Anda lebih penting dari sebelumnya.
+
+| Nama Serangan | Tipe | Cara Menghadapi |
+| :--- | :--- | :--- |
+| **Rock Throw** | Jarak Jauh | Tahan Blok (F) atau melesat ke samping |
+| **M-Slam** | AOE Melee | Hindari ke **Kanan** secara spesifik |
+| **Ground Pound** | AOE | Lompat atau melesat menjauh dari radius |
+| **Club Swing** | Melee | Blok sempurna untuk jendela stagger |
+
+<CardGrid cols={2}>
+  <Card title="Mekanika Perisai">
+    - **Shield Gauge**: Bar terlihat yang mencegah kerusakan HP.
+    - **Pecah**: Gunakan serangan berat atau sihir spesifik.
+    - **Stun State**: Ketika perisai mencapai nol, Ogre jatuh.
+    - **Pemulihan**: Perisai beregenerasi setelah 8 detik.
+  </Card>
+  <Card title="Jendela Kerentanan">
+    - **Kerusakan Kritis**: Serangan memberikan 2x damage saat Ogre jatuh.
+    - **Pemulihan Mana**: Waktu yang tepat untuk mengisi ulang mana untuk mantra.
+    - **Efek Status**: Burn dan Bleed 50% lebih efektif.
+    - **Combo Enders**: Gunakan skill damage tertinggi Anda di sini.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Regenerasi Perisai">
+Jika Anda berhenti menyerang selama lebih dari 3 detik, perisai Ogre akan mulai beregenerasi. Bahkan jika Anda perlu menyembuhkan diri, lempar proyektil cepat untuk menjaga agar gauge tidak terisi kembali.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategi Solo Langkah demi Langkah">
+
+Soloing **ogre retribusi clover** membutuhkan pendekatan yang disiplin. Anda tidak bisa "menahan" serangannya kecuali Anda memiliki build defensif khusus. Sebaliknya, Anda harus memperlakukan pertarungan seperti tarian, bereaksi terhadap gerakan yang sangat tertelegraf saat mengikis pertahanannya. Ikuti langkah-langkah ini untuk memastikan pembunuhan yang bersih tanpa menghabiskan inventaris ramuan Anda.
+
+<Steps>
+  <Step num="1" title="Pertarungan Awal">
+    Dekati Ogre dari depan untuk memancing **Rock Throw**. Tetap tahan blok Anda saat Anda mendekat. Jangan gunakan skill damage tinggi Anda dulu; simpan untuk fase pemecahan perisai.
+  </Step>
+  <Step num="2" title="Pengikisan Perisai">
+    Tetap dekat dengan kaki Ogre. Saat ia mengangkat tangannya untuk **M-Slam**, melesat ke kanan. Segera ikuti dengan serangkaian serangan M1 (Ringan). Tujuan Anda di sini murni untuk menghabiskan bar perisai kuning.
+  </Step>
+  <Step num="3" title="Pemecahan Perisai">
+    Setelah bar perisai kosong, Ogre akan menampilkan animasi jatuh. Ini adalah jendela Anda. Lepaskan mantra Grimoire terkuat Anda atau skill senjata sekarang. Fokus pada kepala jika memungkinkan untuk potensi pengubah kritik.
+  </Step>
+  <Step num="4" title="Ulangi dan Ulangi">
+    Setelah 8 detik, Ogre akan berdiri kembali dan mengaum, mendorong Anda mundur. Auman ini tidak memberikan damage tetapi mengatur ulang perisainya. Mundur, regenerasi stamina Anda, dan bersiap untuk mengulangi siklus.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Manajemen Stamina">
+Selalu jaga setidaknya 20% dari bar stamina Anda penuh. Jika Ogre memulai Ground Pound dan Anda kehabisan stamina untuk melesat, Anda kemungkinan besar akan menerima serangan fatal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabel Loot dan Drop Langka">
+
+Farming **ogre retribusi clover** terutama dilakukan untuk **Ogre Club**, senjata berat yang kuat yang unggul dalam Poise Damage. Selain itu, Ogre menjatuhkan berbagai material yang digunakan dalam resep crafting tingkat tinggi. Dalam pembaruan 2026, tingkat drop sedikit disesuaikan untuk memberi penghargaan kepada pemain yang memberikan damage terbanyak dalam waktu singkat.
+
+| Nama Item | Peluang Drop | Tipe Item | Kasus Penggunaan |
+| :--- | :--- | :--- | :--- |
+| **Ogre Club** | 2% - 5% | Senjata Berat | Build Poise Tinggi / Bossing |
+| **Ogre Hide** | 15% | Material | Crafting set armor berat |
+| **Cracked Bone** | 40% | Material | Komponen upgrade umum |
+| **Large Meat** | 100% | Konsumsi | Makanan pemulihan HP tinggi |
+
+<Checklist
+  id="ogre-farming-goals"
+  title="Daftar Periksa Farming Ogre:"
+  items={[
+    "Dapatkan Ogre Club (varian Legendaris)",
+    "Kumpulkan 20x Ogre Hide untuk Tundra Set",
+    "Capai Level 50 Combat Mastery",
+    "Buka gelar 'Ogre Slayer'",
+    "Kuasai waktu blok sempurna untuk Club Swings"
+  ]}
+/>
+
+<Callout type="info" title="Buff Tingkat Drop">
+Jika Anda berburu Ogre Club, pastikan Anda memiliki stat **Luck** yang ditingkatkan melalui aksesori atau pasif ras. Tingkat drop dapat ditingkatkan hingga 7% dengan pengaturan yang tepat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Loadout yang Direkomendasikan untuk Berburu Ogre">
+
+Tidak semua build diciptakan sama saat menghadapi **ogre retribusi clover**. Karena pertarungan sangat bergantung pada pemecahan perisai, senjata dengan dampak tinggi dan sihir yang memberikan kerusakan multi-hit adalah yang paling efektif. Berikut adalah tiga build teratas untuk tahun 2026.
+
+<CardGrid cols={3}>
+  <Card title="The Breaker">
+    - **Senjata**: Greatsword
+    - **Sihir**: Earth/Stone
+    - **Kelebihan**: Kerusakan perisai besar
+    - **Kekurangan**: Kecepatan serangan lambat
+  </Card>
+  <Card title="The Elementalist">
+    - **Senjata**: Dual Daggers
+    - **Sihir**: Flame/Lightning
+    - **Kelebihan**: Serangan multi-hit cepat
+    - **Kekurangan**: Pertahanan rendah
+  </Card>
+  <Card title="The Tank">
+    - **Senjata**: Perisai & Palu
+    - **Sihir**: Penyembuhan/Cahaya
+    - **Kelebihan**: Daya tahan tinggi
+    - **Kekurangan**: Durasi pertarungan panjang
+  </Card>
+</CardGrid>
+
+| Tipe Build | Kecepatan Pemecahan Perisai | Daya Tahan | Tingkat Kesulitan |
+| :--- | :--- | :--- | :--- |
+| **The Breaker** | Sangat Baik | Sedang | Tinggi |
+| **The Elementalist** | Baik | Rendah | Sedang |
+| **The Tank** | Lambat | Sangat Baik | Rendah |
+
+<Callout type="tip" title="Rekomendasi Ras">
+Ras **Orc** bisa dibilang yang terbaik untuk pertarungan ini karena pasif "Brute Force", yang meningkatkan Poise damage sebesar 15%. Ini memungkinkan Anda memecahkan perisai Ogre secara signifikan lebih cepat daripada pemain Human atau Elf.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apa cara terbaik untuk memecahkan perisai Ogre Retribusi Clover?",
+    answer: "Cara yang paling efisien adalah menggunakan Senjata Berat seperti Greatsword atau Palu. Atau, mantra sihir multi-hit seperti Lightning Strike dapat menghabiskan gauge dengan cepat karena jumlah hit individu."
+  },
+  {
+    question: "Mengapa Ogre terus meregenerasi kesehatannya?",
+    answer: "Ogre tidak secara alami meregenerasi kesehatan di tengah pertarungan kecuali ia 'reset'. Jika Anda menarik Ogre terlalu jauh dari titik spawn-nya, ia akan kembali dan mendapatkan kembali kesehatan penuh. Tetaplah berada di dalam arena pertarungan yang ditentukan."
+  },
+  {
+    question: "Bisakah saya solo Ogre di Level 20?",
+    answer: "Mungkin saja tetapi sangat sulit. Di Level 20, output damage Anda akan kesulitan menjaga perisai agar tidak beregenerasi. Disarankan untuk setidaknya Level 35 untuk pengalaman solo yang nyaman."
+  },
+  {
+    question: "Apakah Ogre Club jatuh dari semua Ogre?",
+    answer: "Ya, setiap monster yang disebut Ogre memiliki peluang untuk menjatuhkan club, tetapi versi Bos Dunia di Tundra memiliki tingkat drop yang secara signifikan lebih tinggi dibandingkan dengan varian yang lebih kecil yang ditemukan di gua-gua."
+  }
+]} />
+
+<Callout type="success" title="Saran Akhir">
+Konsistensi adalah kunci. Pertarungan **ogre retribusi clover** adalah pemeriksaan mekanis. Setelah Anda menguasai ritme 'Hindari Kanan' dan 'Blok Batu', Anda dapat farming bos ini dengan risiko minimal. Semoga berhasil dalam perburuan Ogre Club Anda!
+</Callout>
+
+</Section>

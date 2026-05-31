@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Floresta Carmesim: Guia de Raid da Bruxa Carmesim",
+  description: "Domine a Floresta Carmesim e derrote a Bruxa Carmesim em Clover Retribution com este guia completo de raid. Aprenda sobre invocação, táticas e drops.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Crimson+Forest+Raid",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A raid da **Bruxa Carmesim** requer um grupo de 5-6 jogadores, idealmente nível 300+.
+- Invoque a bruxa coletando **quatro itens únicos** e colocando-os em orbes de sangue.
+- A bruxa causa **dano mágico e de sangramento** e possui um escudo de 15.000 HP.
+- Traga um **usuário de magia Espacial** para teletransporte rápido caso você morra ou fique sem mana.
+- Farmar em um grupo grande (6-8 jogadores) rende **mais drops** por abate.
+</Callout>
+
+<Section icon={Swords} title="Conquistando a Floresta Carmesim de Clover Retribution">
+A **Floresta Carmesim** em Clover Retribution é o lar da formidável Bruxa Carmesim, uma raid de chefe que exige trabalho em equipe e planejamento estratégico. Este guia irá te acompanhar em tudo o que você precisa saber para invocar, lutar e derrotar a Bruxa Carmesim com sucesso, maximizando suas recompensas. Não há requisitos de nível para iniciar a raid, mas jogar sozinho não é recomendado, pois você provavelmente precisará estar por volta do nível 300+ em um grupo para obter crédito de abate consistentemente.
+
+**Destaques do Vídeo:**
+- Sem requisito de nível para começar, mas nível 300+ em grupo é recomendado para crédito.
+- A Bruxa Carmesim tem 250.000 HP e um tempo de desaparecimento de 15 minutos.
+- Requer quatro itens específicos para invocar, colocados em quatro orbes de sangue.
+- A Bruxa usa magia, dano de sangramento, explosões de sangue, hidras e um ataque de crucificação.
+- Um usuário Espacial é crucial para um farm eficiente da raid.
+
+<YouTubeEmbed videoId="DDmd-UTysnE" title="Clover Retribution Para Leigos: Bruxa Carmesim" />
+
+A Bruxa Carmesim possui 250.000 HP e um tempo de desaparecimento de 15 minutos. Para receber crédito pelo abate, você precisa causar pelo menos 25.000 de dano. Este não é um empreendimento solo; um grupo de cinco a seis jogadores é essencial para uma raid tranquila e bem-sucedida.
+
+</Section>
+
+<Section icon={Target} title="Invocando a Bruxa Carmesim">
+Invocar a Bruxa Carmesim é um processo multi-etapas que envolve coletar quatro itens distintos de vários chefes espalhados pelo mapa. Uma vez coletados, esses itens devem ser inseridos em orbes de sangue flutuantes específicos para ativar o ritual de invocação.
+
+<Steps>
+  <Step num="1" title="Reúna os Itens de Invocação">
+    Você precisará derrotar chefes mundiais específicos para adquirir os quatro itens de invocação. Cada item tem uma taxa de drop única, então prepare-se para um pouco de farm.
+    <Callout type="tip">
+      Concentre-se em farmar esses chefes com um grupo para aumentar sua eficiência e chances de obter os drops rapidamente.
+    </Callout>
+  </Step>
+  <Step num="2" title="Localize os Orbes de Sangue">
+    Existem quatro orbes de sangue flutuantes estrategicamente posicionados ao redor do mapa. Você precisará saber a localização exata de cada orbe e qual item corresponde a ele. O portal para a Floresta Carmesim está localizado ao sul do Lobo Alfa.
+  </Step>
+  <Step num="3" title="Insira os Itens nos Orbes">
+    Assim que todos os quatro itens forem coletados, prossiga para seus respectivos orbes de sangue e insira-os. Uma mensagem aparecerá confirmando que a bruxa foi invocada.
+  </Step>
+  <Step num="4" title="Entre na Floresta Carmesim">
+    Atravesse o portal vermelho que aparece após a invocação. A Bruxa Carmesim estará esperando no centro da Floresta Carmesim.
+  </Step>
+</Steps>
+
+Aqui está um detalhamento de onde encontrar cada item de invocação:
+
+| Item              | Chefe               | Taxa de Drop |
+| :---------------- | :----------------- | :-------- |
+| **Sigilo de Hemlock** | Golem de Pedra Etérea  | 11.4%     |
+| **Espinho de Vainroot**| Kraken             | 11.4%     |
+| **Lágrima Carmesim**| Medusa            | 13.3%     |
+| **Brasa do Coração**  | Netherwing         | 30%       |
+
+</Section>
+
+<Section icon={Shield} title="Habilidades e Táticas da Bruxa Carmesim">
+A Bruxa Carmesim é uma oponente formidável, causando dano mágico e de sangramento. Entender seus padrões de ataque e saber como contra-atacá-los é crucial para a sobrevivência. Ela começa com um escudo de 15.000 HP que só precisa ser quebrado uma vez.
+
+<CardGrid cols={3}>
+  <Card title="Explosão de Sangue">
+    - **Efeito**: Invoca uma explosão de sangue em cada jogador na Floresta Carmesim.
+    - **Defesa**: Pode ser esquivada ou aparada. Reações rápidas são essenciais.
+  </Card>
+  <Card title="Hidras de Sangue">
+    - **Efeito**: Gera hidras que cospem orbes de sangue teleguiados.
+    - **Defesa**: Pode ser esquivada. Embora menos danosa, ignorá-las completamente pode levar a danos acumulados.
+  </Card>
+  <Card title="Crucificação">
+    - **Efeito**: Crucifica qualquer um dentro de seu raio.
+    - **Defesa**: Não pode ser aparada. O tempo de esquiva é muito tardio (cerca de 2 segundos depois que o círculo vermelho se enche).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fase Crítica">
+Assim que a vida da Bruxa Carmesim cair abaixo de 75%, o portal para a Floresta Carmesim se fechará. Isso significa que, se você morrer ou ficar sem mana, não poderá reentrar sem um usuário de magia Espacial para teletransportá-lo de volta.
+</Callout>
+
+**Composição Essencial do Grupo:**
+Ter um **usuário de magia Espacial** em seu grupo é quase uma necessidade. Eles podem teletransportar jogadores de volta para a área da raid, garantindo engajamento contínuo, mesmo que alguém caia. Alternativamente, ter uma conta alternativa com magia Espacial esperando no ponto de renascimento pode servir ao mesmo propósito. Mesmo que você seja poderoso o suficiente para derrotá-la sozinho, é ineficiente; um grupo rende significativamente mais drops.
+
+</Section>
+
+<Section icon={Trophy} title="Drops e Recompensas da Bruxa Carmesim">
+A Bruxa Carmesim oferece uma variedade de drops valiosos, tornando-a um alvo principal para farm. Quanto mais jogadores você tiver em seu grupo (até 6-8), mais drops você poderá receber por abate, com até 16 drops possíveis em um grupo grande. Isso é particularmente útil para obter os itens de invocação para continuar a raid indefinidamente.
+
+<Callout type="success" title="Maximize seu Saque">
+Procure um grupo de 6-8 jogadores para maximizar o rendimento de seus drops. Isso garante que você obtenha mais itens valiosos, incluindo aqueles necessários para re-invocar a bruxa, permitindo um farm contínuo.
+</Callout>
+
+Aqui está uma lista detalhada dos drops potenciais da Bruxa Carmesim:
+
+| Item / Tipo               | Chance de Drop | Propósito / Notas                                        |
+| :------------------------ | :---------- | :----------------------------------------------------- |
+| **Sigilo de Hemlock**         | 8.75%       | Item de invocação                                         |
+| **Espinho de Vainroot**        | 8.75%       | Item de invocação                                         |
+| **Lágrima Carmesim**     | 8.75%       | Item de invocação                                         |
+| **Brasa do Coração**          | 8.75%       | Item de invocação                                         |
+| **Perdição Sanguínea** (Título)  | -           | Atualmente não faz nada                                 |
+| **Brincos de Hex Scarlet**  | 6.25%       | Acessório                                              |
+| **Pergaminho de Torrente Carmesim** | -           | Uso futuro para desbloquear o feitiço de Magia de Sangue                 |
+| **Chapéu de Hex Scarlet**       | 1.85%       | Acessório                                              |
+| **Colar de Hex Scarlet**  | 1.3%        | Acessório                                              |
+| **Vestes Carmesins**          | 0.36%       | Melhor armadura para magos                                   |
+| **Traje Carmesim**          | 0.36%       | Melhor armadura para magos                                   |
+| **Partes Espirituais**          | -           | Usado para forçar o surgimento de uma Fenda Espiritual (fale com Elias)   |
+
+Se você está procurando um grupo para raidear a Bruxa Carmesim, o canal "boss raids" no Discord oficial de Clover Retribution é um excelente recurso, pois os jogadores frequentemente organizam grupos lá.
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificação da Raid da Floresta Carmesim">
+Prepare-se completamente antes de desafiar a Bruxa Carmesim. Uma equipe bem equipada e coordenada aumenta significativamente suas chances de sucesso e de farm eficiente.
+
+<Checklist
+  id="crimson-witch-prep"
+  title="Lista de Verificação de Preparação para a Raid:"
+  items={[
+    "Reúna um grupo de 5-8 jogadores (nível 300+ recomendado)",
+    "Confirme se há um usuário de magia Espacial no grupo ou de prontidão",
+    "Colete os quatro itens de invocação: Sigilo de Hemlock, Espinho de Vainroot, Lágrima Carmesim, Brasa do Coração",
+    "Memorize as localizações dos orbes de sangue e as colocações dos itens correspondentes",
+    "Entenda os padrões de ataque da Bruxa Carmesim e os tempos de esquiva/aparar",
+    "Estoque poções de cura e poções de mana",
+    "Coordene funções e estratégias com sua equipe antes de entrar"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes sobre a Floresta Carmesim">
+
+<FAQ items={[
+  {
+    question: "Qual é o nível recomendado para a raid da Floresta Carmesim em Clover Retribution?",
+    answer: "Embora não haja um requisito de nível estrito para começar, é altamente recomendado que os jogadores estejam por volta do nível 300 ou superior em um grupo de 5-6 para receber crédito consistentemente por derrotar a Bruxa Carmesim."
+  },
+  {
+    question: "Como invoco a Bruxa Carmesim?",
+    answer: "Para invocar a Bruxa Carmesim, você precisa coletar quatro itens específicos: Sigilo de Hemlock, Espinho de Vainroot, Lágrima Carmesim e Brasa do Coração. Esses itens caem de diferentes chefes mundiais. Uma vez coletados, insira-os nos quatro orbes de sangue flutuantes localizados ao redor do mapa."
+  },
+  {
+    question: "O que devo fazer se morrer durante a raid da Bruxa Carmesim?",
+    answer: "Se você morrer ou ficar sem mana depois que a vida da Bruxa Carmesim cair abaixo de 75%, o portal para a Floresta Carmesim se fechará. Você precisará de um usuário de magia Espacial em seu grupo para teletransportá-lo de volta para a área da raid para continuar lutando."
+  },
+  {
+    question: "É melhor jogar solo contra a Bruxa Carmesim ou em grupo?",
+    answer: "É muito mais eficiente raidear a Bruxa Carmesim em um grupo de 6-8 jogadores. Jogar solo rende apenas um ou dois drops, enquanto um grupo grande pode obter até 16 drops por abate, aumentando significativamente sua eficiência de farm para itens como os componentes de invocação."
+  }
+]} />
+
+</Section>
