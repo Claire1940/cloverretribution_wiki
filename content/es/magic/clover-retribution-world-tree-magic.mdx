@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia del Árbol del Mundo en Clover Retribution: Guía de Habilidades Míticas y Meta",
+  description: "Domina la magia del árbol del mundo en Clover Retribution con nuestra guía sobre la mecánica de drenaje de maná, el escalado de Inteligencia y las habilidades de Mistilteinn del Gran Árbol de 4 hojas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d5a27/fff?text=World+Tree+Magic+Guide",
+  date: "2026-06-01",
+  author: "Equipo de Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **magia del árbol del mundo de Clover Retribution** es una magia de rareza Mítica con una tasa de extracción base del **0.1%**.
+- El **escalado de Inteligencia** es fundamental; una INT más alta aumenta el número de raíces generadas mientras estrecha el enfoque para un mayor DPS.
+- El **drenaje de maná** es la mecánica pasiva única donde ataques específicos basados en raíces agotan el maná del oponente en cada golpe.
+- **Mistilteinn del Gran Árbol** es una habilidad de apoyo exclusiva de 4 hojas que proporciona una regeneración masiva de HP/Maná y reducción de daño.
+- El **Control de Masas** es la fuerza principal, utilizando los estados alterados Debilitado y Enraizado para inmovilizar a los enemigos.
+</Callout>
+
+<Section icon={Sparkles} title="Rareza Mítica y Resumen de Adquisición">
+
+En el competitivo panorama de 2026, la **magia del árbol del mundo de Clover Retribution** se erige como una de las extracciones más codiciadas del juego. Clasificada bajo la rareza Mítica, los jugadores se enfrentan a una desalentadora probabilidad del 0.1% de obtener este tipo de magia. A diferencia de las magias comunes o raras que se centran en el daño directo, el Árbol del Mundo integra un complejo control de masas (CC) y manipulación de recursos, lo que la convierte en una opción de primer nivel tanto para incursiones PvE de alto nivel como para encuentros PvP estratégicos.
+
+**Aspectos Destacados del Video:**
+- Demostración del efecto de aura específico que activa el estado alterado de Drenaje de Maná.
+- Muestra la diferencia entre Raíz del Mundo y Abrazo del Bosque en combate en vivo.
+- Confirmación de que Vórtice Verdant no contribuye al agotamiento de maná.
+
+<YouTubeEmbed videoId="p8_i6iqO2Pc" title="Demostración de Drenaje de Maná del Árbol del Mundo" />
+
+El sistema de rareza en Clover Retribution asegura que las magias Míticas como el Árbol del Mundo ofrezcan una utilidad mucho más allá de los hechizos elementales estándar. Mientras que las magias comunes de curación o viento son accesibles para todos, el Árbol del Mundo requiere una inversión significativa tanto en suerte como en estadísticas del personaje para alcanzar su máximo potencial.
+
+| Nivel de Rareza | Tasa de Caída | Enfoque de Utilidad Típico |
+| :--- | :--- | :--- |
+| **Común** | 80% | Curación básica y proyectiles de bajo CD |
+| **Poco Común** | 12% | Movilidad y escudo básico |
+| **Raro** | 6% | Efectos de estado como Quemadura o Ralentización |
+| **Épico** | 0.74% | Transformaciones elementales y mejoras de velocidad |
+| **Legendario** | 0.19% | Daño de alto nivel y habilidades de seguimiento |
+| **Mítico** | **0.1%** | **CC Avanzado, Drenaje de Maná y Resurrección** |
+
+<Callout type="success" title="Consejo de Tirada">
+Si estás buscando específicamente el Árbol del Mundo, asegúrate de tener suficientes tiradas guardadas. La tasa del 0.1% significa que es estadísticamente probable que necesites un gran volumen de intentos a menos que la suerte esté de tu lado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Magia del Árbol del Mundo de Clover Retribution: Desglose de Habilidades">
+
+El poder de la **magia del árbol del mundo de Clover Retribution** se distribuye en cinco habilidades principales, cada una escalando de manera única con la estadística de Inteligencia de tu personaje. Uno de los aspectos más interesantes de esta magia es que a medida que tu Inteligencia aumenta, el tamaño físico de las raíces puede parecer más pequeño, pero la cantidad y densidad de las raíces aumentan, lo que lleva a un potencial de daño de múltiples golpes significativamente mayor.
+
+<CardGrid cols={3}>
+  <Card title="Raíz del Mundo">
+    - **Maestría 10**
+    - Escalado de Inteligencia
+    - Aplica estado alterado **Debilitado**
+    - Herramienta principal de drenaje de maná
+  </Card>
+  <Card title="Ascendencia Arbórea">
+    - **Maestría 25**
+    - Mina terrestre colocada con el cursor
+    - Enraíza a los enemigos en su lugar
+    - Alta utilidad táctica
+  </Card>
+  <Card title="Vórtice Verdant">
+    - **Maestría 45**
+    - Torbellino de múltiples golpes
+    - Daño con el tiempo (DoT)
+    - Rompe escudos eficaz
+  </Card>
+</CardGrid>
+
+La sinergia entre estas habilidades permite a un jugador atrapar a un oponente con Ascendencia Arbórea, seguir con Raíz del Mundo para comenzar el drenaje de maná y terminar con Vórtice Verdant para un daño sostenido.
+
+| Nombre de la Habilidad | Maestría | Efecto Primario | Potencial de Estado Alterado |
+| :--- | :--- | :--- | :--- |
+| **Raíz del Mundo** | 10 | Invocación de raíz frontal | Debilitado |
+| **Ascendencia Arbórea** | 25 | Trampa/Mina terrestre | Enraizado |
+| **Vórtice Verdant** | 45 | Torbellino de madera | Daño con el tiempo |
+| **Abrazo del Bosque** | 60 | Enraizar AOE completo | Debilitado / Enraizado |
+| **Mistilteinn del Gran Árbol** | 75 | Invocación de apoyo | Curación / Mejora (4-Hojas) |
+
+<Callout type="tip" title="Escalado de Inteligencia">
+Concentra tus puntos de estadística en Inteligencia. A diferencia de otras magias donde la INT solo aumenta el daño bruto, para el Árbol del Mundo, aumenta el "Conteo de Raíces", lo cual es esencial para maximizar la pasiva de Drenaje de Maná.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La Mecánica de Drenaje de Maná y Estrategia PvP">
+
+Lo que realmente diferencia a la **magia del árbol del mundo de Clover Retribution** de otras Míticas como Sangre o Tiempo es la pasiva de Drenaje de Maná. Cuando un enemigo es golpeado por habilidades específicas de "Raíz", queda encerrado en un aura verdosa. Mientras esta aura está activa, cada golpe subsiguiente del usuario del Árbol del Mundo agota la reserva de maná del oponente.
+
+En PvP, esto es devastador. La mayoría de los jugadores de alto nivel dependen de combos que consumen mucho maná para mantener la presión. Al acertar consistentemente Raíz del Mundo o Abrazo del Bosque, puedes "silenciar" eficazmente a tu oponente dejándolo sin recursos para lanzar sus propios hechizos.
+
+| Habilidad | ¿Drenaje de Maná Activo? | Mejor Uso |
+| :--- | :--- | :--- |
+| **Raíz del Mundo** | **Sí** | Hostigamiento a medio alcance y debilitamiento |
+| **Abrazo del Bosque** | **Sí** | Escapar de combos o rematar |
+| **Vórtice Verdant** | No | Presión de escudo y DoT |
+| **Ascendencia Arbórea** | No | Control de zona y anclaje |
+
+<Callout type="warning" title="Precaución en PvP">
+El drenaje de maná solo se activa con los golpes mientras el aura de estado alterado está activa. Si fallas tu raíz inicial, pierdes la presión de drenaje. Practica la colocación de tu cursor para asegurarte de que las raíces aparecen directamente debajo del objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Exclusivo de Cuatro Hojas: Mistilteinn del Gran Árbol">
+
+Para los jugadores lo suficientemente afortunados como para poseer un Trébol de Cuatro Hojas, la **magia del árbol del mundo de Clover Retribution** desbloquea su forma final y más poderosa: **Mistilteinn del Gran Árbol**. Este no es un movimiento centrado en el daño, sino una habilidad de apoyo masiva que puede cambiar el rumbo de las batallas grupales y las incursiones.
+
+Cuando se lanza, un árbol gigantesco aparece en el campo de batalla. Cualquier aliado que se encuentre dentro de su enorme área de efecto (AoE) recibe mejoras sustanciales que escalan directamente con la Inteligencia del lanzador.
+
+<Steps>
+  <Step num="1" title="Posicionamiento Inicial">
+    Lanza el árbol en una ubicación central donde tanto tu primera línea como tu retaguardia puedan acceder al radio.
+  </Step>
+  <Step num="2" title="Fase de Regeneración">
+    Los aliados reciben un 2% de regeneración de HP y un 2% de maná cada 2 segundos mientras están dentro del AoE.
+  </Step>
+  <Step num="3" title="Mejora Defensiva">
+    El árbol proporciona una reducción de daño plana del 15% a todos los que están dentro, lo que hace casi imposible que los enemigos aniquilen a tu equipo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Rol de Apoyo">
+Si tienes la versión de 4 hojas, tu rol en las incursiones cambia a "Médico de Combate". Proporcionas el mejor sustento de maná del juego, permitiendo a tu equipo usar sus habilidades de mayor coste indefinidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión y Análisis Comparativo">
+
+Elegir la **magia del árbol del mundo de Clover Retribution** como principal requiere comprender cómo se compara con otras opciones Míticas. Mientras que la Magia de Sangre ofrece un daño bruto superior y la Magia de Tiempo proporciona la resurrección "Chrono Anastasis", el Árbol del Mundo ofrece la utilidad y el control de masas más consistentes.
+
+| Tipo de Magia | Dificultad | Fuerza Principal | Mejor Para |
+| :--- | :--- | :--- | :--- |
+| **Árbol del Mundo** | Media | Control de Masas / Drenaje de Maná | PvP en Grupo / Incursiones |
+| **Sangre** | Baja | Daño Bruto / Sangrado | Subida de Nivel en Solitario |
+| **Tiempo** | Alta | Resurrección / Esquiva | PvP Competitivo |
+| **Sol** | Alta | Daño AoE / Mejoras | Farmear Jefes |
+
+<Checklist
+  id="world-tree-goals"
+  title="Lista de Verificación de Maestría del Árbol del Mundo:"
+  items={[
+    "Alcanza el Nivel de Maestría 75 para desbloquear el kit completo",
+    "Equipa un bastón de alta Inteligencia para maximizar el conteo de raíces",
+    "Domina el tiempo de las trampas de Ascendencia Arbórea",
+    "Coordínate con tus compañeros de equipo para usar Mistilteinn del Gran Árbol en incursiones",
+    "Practica el combo 'Raíz en Vórtice' para un DPS máximo"
+  ]}
+/>
+
+<Callout type="tip" title="Farmear Maestría">
+Para subir de nivel rápidamente tu maestría del Árbol del Mundo, usa Vórtice Verdant en grandes grupos de NPC. La naturaleza de múltiples golpes del torbellino genera puntos de maestría significativamente más rápido que los hechizos de un solo golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+La **magia del árbol del mundo de Clover Retribution** es un conjunto de herramientas versátil y de alto nivel para cualquier jugador que busque dominar la meta de 2026. Ya sea que estés drenando el maná de un jugador rival en la arena o proporcionando curación esencial y reducción de daño en una incursión de jefe mundial, el Árbol del Mundo ofrece un estilo de juego único que recompensa la inteligencia y la colocación táctica.
+
+<FAQ items={[
+  {
+    question: "¿Aumenta la Inteligencia el daño de la magia del Árbol del Mundo?",
+    answer: "Sí, la Inteligencia aumenta tanto el daño bruto como el número de raíces generadas por habilidades como Raíz del Mundo y Abrazo del Bosque."
+  },
+  {
+    question: "¿Es permanente el efecto de Drenaje de Maná?",
+    answer: "No, el efecto de Drenaje de Maná solo ocurre mientras el oponente tiene el aura de estado alterado verde activa en su modelo de personaje."
+  },
+  {
+    question: "¿Puedo obtener la habilidad Mistilteinn del Gran Árbol con un trébol de 3 hojas?",
+    answer: "No, Mistilteinn del Gran Árbol es una habilidad exclusiva reservada para jugadores con la versión de Trébol de Cuatro Hojas de la magia del Árbol del Mundo."
+  },
+  {
+    question: "¿Qué habilidad es mejor para romper escudos enemigos?",
+    answer: "Vórtice Verdant es la habilidad más efectiva para romper escudos debido a sus golpes de daño con el tiempo (DoT) de alta frecuencia."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El Árbol del Mundo es posiblemente la mejor magia de apoyo y utilidad en Clover Retribution. Si la obtienes, consérvala, especialmente si tienes un trébol de 4 hojas, ya que sus capacidades de apoyo son inigualables.
+</Callout>
+
+</Section>

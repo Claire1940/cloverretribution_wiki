@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution World Tree Magic: Guia de Habilidades Míticas e Meta",
+  description: "Domine a magia da Árvore do Mundo de Clover Retribution com nosso guia sobre mecânicas de drenagem de mana, escalonamento de Inteligência e as habilidades 4-folhas da Grande Árvore Mistilteinn.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d5a27/fff?text=World+Tree+Magic+Guide",
+  date: "2026-06-01",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **magia da árvore do mundo de Clover Retribution** é uma magia de raridade Mítica com uma taxa de obtenção base de **0.1%**.
+- O **Escalonamento de Inteligência** é crítico; INT mais alta aumenta o número de raízes geradas enquanto estreita o foco para um DPS maior.
+- A **Drenagem de Mana** é a mecânica passiva única onde ataques específicos baseados em raízes sugam a mana do oponente a cada golpe.
+- **Great Tree Mistilteinn** é uma habilidade de suporte exclusiva de 4 folhas que fornece regeneração massiva de HP/Mana e redução de dano.
+- O **Controle de Multidão** é a principal força, utilizando os debuffs Enfrequecido e Enraizado para imobilizar inimigos.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral da Raridade Mítica e Aquisição">
+
+No cenário competitivo de 2026, a **magia da árvore do mundo de Clover Retribution** se destaca como uma das obtenções mais cobiçadas do jogo. Classificada como raridade Mítica, os jogadores enfrentam uma chance assustadora de 0.1% de conseguir este tipo de magia. Ao contrário das magias comuns ou raras que se concentram em dano direto, a Árvore do Mundo integra controle de multidão (CC) complexo e manipulação de recursos, tornando-a uma escolha de alto nível tanto para raides PvE de alto nível quanto para encontros estratégicos de PvP.
+
+**Destaques do Vídeo:**
+- Demonstração do efeito de aura específico que aciona o debuff de Drenagem de Mana.
+- Mostrando a diferença entre Raiz do Mundo e Abraço da Floresta em combate ao vivo.
+- Confirmando que o Vórtice Verdejante não contribui para a depleção de mana.
+
+<YouTubeEmbed videoId="p8_i6iqO2Pc" title="Demonstração de Drenagem de Mana da Árvore do Mundo" />
+
+O sistema de raridade em Clover Retribution garante que magias Míticas como a Árvore do Mundo ofereçam utilidade muito além dos feitiços elementais padrão. Enquanto magias de cura ou vento comuns são acessíveis a todos, a Árvore do Mundo requer um investimento significativo tanto em sorte quanto em atributos de personagem para atingir seu potencial máximo.
+
+| Nível de Raridade | Taxa de Queda | Foco Típico de Utilidade |
+| :--- | :--- | :--- |
+| **Comum** | 80% | Cura básica e projéteis de baixo CD |
+| **Incomum** | 12% | Mobilidade e escudo básico |
+| **Raro** | 6% | Efeitos de status como Queimadura ou Lentidão |
+| **Épico** | 0.74% | Transformações elementais e buffs de velocidade |
+| **Lendário** | 0.19% | Dano de alto nível e habilidades de rastreamento |
+| **Mítico** | **0.1%** | **CC Avançado, Drenagem de Mana e Ressurreição** |
+
+<Callout type="success" title="Dica para Rolagem">
+Se você está especificamente buscando a Árvore do Mundo, certifique-se de ter giros suficientes guardados. A taxa de 0.1% significa que você provavelmente precisará de um alto volume de tentativas, a menos que a sorte esteja ao seu lado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Magia da Árvore do Mundo de Clover Retribution: Análise de Habilidades">
+
+O poder da **magia da árvore do mundo de Clover Retribution** está distribuído em cinco habilidades primárias, cada uma escalando de forma única com o atributo de Inteligência do seu personagem. Um dos aspectos mais interessantes dessa magia é que, à medida que sua Inteligência aumenta, o tamanho físico das raízes pode parecer menor, mas a quantidade e a densidade das raízes aumentam, levando a um potencial de dano multi-hit significativamente maior.
+
+<CardGrid cols={3}>
+  <Card title="Raiz do Mundo">
+    - **Maestria 10**
+    - Escalonamento de Inteligência
+    - Aplica debuff **Enfraquecido**
+    - Principal ferramenta de drenagem de mana
+  </Card>
+  <Card title="Ascensão Arbórea">
+    - **Maestria 25**
+    - Mina terrestre posicionada por cursor
+    - Enraíza inimigos no lugar
+    - Alta utilidade tática
+  </Card>
+  <Card title="Vórtice Verdejante">
+    - **Maestria 45**
+    - Vendaval multi-hit
+    - Dano ao longo do tempo (DoT)
+    - Quebrador de escudo eficaz
+  </Card>
+</CardGrid>
+
+A sinergia entre essas habilidades permite que um jogador prenda um oponente com Ascensão Arbórea, siga com Raiz do Mundo para iniciar a drenagem de mana e finalize com Vórtice Verdejante para dano sustentado.
+
+| Nome da Habilidade | Maestria | Efeito Primário | Potencial de Debuff |
+| :--- | :--- | :--- | :--- |
+| **Raiz do Mundo** | 10 | Invocação frontal de raiz | Enfraquecido |
+| **Ascensão Arbórea** | 25 | Armadilha/Mina terrestre | Enraizado |
+| **Vórtice Verdejante** | 45 | Vendaval de Madeira | Dano DoT |
+| **Abraço da Floresta** | 60 | Raiz AOE Completa | Enfraquecido / Enraizado |
+| **Grande Árvore Mistilteinn** | 75 | Invocação de Suporte | Cura / Buff (4-Folhas) |
+
+<Callout type="tip" title="Escalonamento de Inteligência">
+Concentre seus pontos de atributo em Inteligência. Ao contrário de outras magias onde INT apenas aumenta o dano bruto, para a Árvore do Mundo, ele aumenta a "Contagem de Raízes", o que é essencial para maximizar a passiva de Drenagem de Mana.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="A Mecânica de Drenagem de Mana e Estratégia PvP">
+
+O que realmente separa a **magia da árvore do mundo de Clover Retribution** de outras Míticas como Sangue ou Tempo é a passiva de Drenagem de Mana. Quando um inimigo é atingido por habilidades específicas de "Raiz", ele é envolvido por uma aura esverdeada. Enquanto essa aura estiver ativa, cada golpe subsequente do usuário da Árvore do Mundo drena a reserva de mana do oponente.
+
+No PvP, isso é devastador. A maioria dos jogadores de alto nível depende de combos pesados de mana para manter a pressão. Ao acertar consistentemente Raiz do Mundo ou Abraço da Floresta, você pode efetivamente "silenciar" seu oponente, deixando-o sem recursos para lançar seus próprios feitiços.
+
+| Habilidade | Drenagem de Mana Ativa? | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| **Raiz do Mundo** | **Sim** | Ataque de médio alcance e debuff |
+| **Abraço da Floresta** | **Sim** | Escapar de combos ou finalizar |
+| **Vórtice Verdejante** | Não | Pressão de escudo e DoT |
+| **Ascensão Arbórea** | Não | Controle de zona e amarração |
+
+<Callout type="warning" title="Cuidado no PvP">
+A drenagem de mana só é acionada em acertos enquanto a aura de debuff estiver ativa. Se você errar sua raiz inicial, você perde a pressão de drenagem. Pratique o posicionamento do seu cursor para garantir que as raízes apareçam diretamente sob o alvo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Exclusivo de Quatro Folhas: Grande Árvore Mistilteinn">
+
+Para jogadores sortudos o suficiente para possuir um Trevo de Quatro Folhas, a **magia da árvore do mundo de Clover Retribution** desbloqueia sua forma final e mais poderosa: **Grande Árvore Mistilteinn**. Este não é um movimento focado em dano, mas uma habilidade de suporte massiva que pode mudar o rumo de batalhas em grupo e raides.
+
+Quando conjurada, uma árvore gigantesca surge no campo de batalha. Quaisquer aliados que estejam dentro de sua enorme área de efeito (AoE) recebem buffs substanciais que escalam diretamente com a Inteligência do conjurador.
+
+<Steps>
+  <Step num="1" title="Posicionamento Inicial">
+    Convoque a árvore em um local central onde sua linha de frente e linha de trás possam acessar o raio.
+  </Step>
+  <Step num="2" title="Fase de Regeneração">
+    Aliados recebem 2% de HP e 2% de regeneração de Mana a cada 2 segundos enquanto estiverem dentro da AoE.
+  </Step>
+  <Step num="3" title="Buff Defensivo">
+    A árvore fornece uma redução de dano plana de 15% para todos dentro, tornando quase impossível para os inimigos eliminarem sua equipe.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Função de Suporte">
+Se você tem a versão de 4 folhas, seu papel em raides muda para um "Médico de Combate". Você oferece a melhor sustentação de mana do jogo, permitindo que sua equipe use suas habilidades de maior custo indefinidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progressão e Análise Comparativa">
+
+Escolher a **magia da árvore do mundo de Clover Retribution** como sua principal requer entender como ela se compara a outras opções Míticas. Embora a Magia de Sangue ofereça dano bruto superior e a Magia do Tempo forneça a ressurreição "Anástase Crono", a Árvore do Mundo oferece a utilidade e o controle de multidão mais consistentes.
+
+| Tipo de Magia | Dificuldade | Principal Força | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Árvore do Mundo** | Médio | Controle de Multidão / Drenagem de Mana | PvP em Grupo / Raides |
+| **Sangue** | Baixo | Dano Bruto / Sangramento | Nivelamento Solo |
+| **Tempo** | Alto | Ressurreição / Esquiva | PvP Competitivo |
+| **Luz Solar** | Alto | Dano AoE / Buffs | Farm de Chefes |
+
+<Checklist
+  id="world-tree-goals"
+  title="Lista de Verificação de Maestria da Árvore do Mundo:"
+  items={[
+    "Alcance o Nível de Maestria 75 para desbloquear o kit completo",
+    "Equipe um cajado de alta Inteligência para maximizar a contagem de raízes",
+    "Domine o tempo das armadilhas de Ascensão Arbórea",
+    "Coordene com companheiros de equipe para usar a Grande Árvore Mistilteinn em raides",
+    "Pratique o combo 'Raiz no Vórtice' para DPS máximo"
+  ]}
+/>
+
+<Callout type="tip" title="Farm de Maestria">
+Para subir rapidamente o nível da sua maestria da Árvore do Mundo, use o Vórtice Verdejante em grandes grupos de NPCs. A natureza multi-hit do vendaval gera pontos de maestria significativamente mais rápido do que feitiços de um único golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e Perguntas Frequentes">
+
+A **magia da árvore do mundo de Clover Retribution** é um conjunto de ferramentas versátil e de alto nível para qualquer jogador que busca dominar o meta de 2026. Seja drenando a mana de um jogador rival na arena ou fornecendo cura essencial e redução de dano em um raide de chefe mundial, a Árvore do Mundo oferece um estilo de jogo único que recompensa a inteligência e o posicionamento tático.
+
+<FAQ items={[
+  {
+    question: "A Inteligência aumenta o dano da magia da Árvore do Mundo?",
+    answer: "Sim, a Inteligência aumenta tanto o dano bruto quanto o número de raízes geradas por habilidades como Raiz do Mundo e Abraço da Floresta."
+  },
+  {
+    question: "O efeito de Drenagem de Mana é permanente?",
+    answer: "Não, o efeito de Drenagem de Mana ocorre apenas enquanto o oponente tiver a aura de debuff verde ativa em seu modelo de personagem."
+  },
+  {
+    question: "Posso obter a habilidade Grande Árvore Mistilteinn com um trevo de 3 folhas?",
+    answer: "Não, a Grande Árvore Mistilteinn é uma habilidade exclusiva reservada para jogadores com a versão de Trevo de Quatro Folhas da magia da Árvore do Mundo."
+  },
+  {
+    question: "Qual habilidade é melhor para quebrar escudos inimigos?",
+    answer: "O Vórtice Verdejante é a habilidade mais eficaz para quebrar escudos devido aos seus acertos de dano ao longo do tempo (DoT) de alta frequência."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+A Árvore do Mundo é, sem dúvida, a melhor magia de suporte-utilidade em Clover Retribution. Se você a conseguir, mantenha-a — especialmente se tiver um trevo de 4 folhas, pois as capacidades de suporte são inigualáveis.
+</Callout>
+
+</Section>

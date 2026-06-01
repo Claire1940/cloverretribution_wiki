@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Umbral Abyss Stone: Farming Guide & Raid Walkthrough",
+  description: "Master the Clover Retribution Umbral Abyss Stone hunt. Learn Medusa raid mechanics, drop rates, and the best builds for high-level progression in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Umbral+Abyss+Stone+Guide",
+  date: "2026-06-01",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Keyword**: The **clover retribution umbral abyss stone** is a critical late-game crafting component for Void-tier equipment.
+- **Main Source**: While rare, materials for Abyss-tier crafting are primarily sourced from high-level raids like Medusa (Level 225+).
+- **Best Strategy**: Use a Divine Restriction build for maximum I-frames or a Dark/Blood Mage build for high DPS.
+- **Critical Tip**: Utilize the "Reset Cheese" during the Medusa fight to force the boss back to the center and save minutes per run.
+- **Top Choice**: Focus on farming Gorgon Tokens to guarantee high-tier armor sets rather than relying on low percentage RNG drops.
+</Callout>
+
+<Section icon={Map} title="Understanding the Clover Retribution Umbral Abyss Stone">
+
+The **clover retribution umbral abyss stone** represents the pinnacle of resource gathering for players venturing into the 2026 endgame content. As the meta shifts toward Void and Abyssal elemental builds, securing these stones has become the primary objective for Magic Knights looking to transcend standard legendary gear. These stones act as the catalyst for infusing Gorgon-tier equipment with Umbral properties, significantly boosting magic resistance and dark-elemental damage scaling.
+
+Finding the stone requires a deep understanding of the game's raid hierarchy. It is intrinsically linked to the Medusa raid, serving as either a direct rare drop in Hard mode or a craftable result from combining multiple Gorgon-related materials. Players must prepare for a grueling grind, as the entry requirements and boss mechanics demand high-level coordination and optimized skill trees.
+
+<Callout type="tip" title="Pro Tip">
+Before attempting to farm for the Umbral Abyss Stone, ensure your Blacksmithing profession is at least level 74. This guarantees a 100% craft chance for the Gorgon Champion armor, which provides the necessary defensive stats to survive the Abyss.
+</Callout>
+
+| Requirement | Detail |
+| :--- | :--- |
+| **Minimum Level** | Level 225 (Party Leader) |
+| **Location** | North of the Giant Skull, past the Halloween Portal |
+| **Key NPC** | Orion (for guaranteed token exchanges) |
+| **Primary Boss** | Medusa (Gorgon Queen) |
+| **Difficulty Focus** | Easy for speed, Hard for maximum drop potential |
+
+</Section>
+
+<Section icon={Target} title="Medusa Raid: The Gateway to Abyss Materials">
+
+To secure the **clover retribution umbral abyss stone**, you must first master the Medusa raid. This encounter is the primary source for Gorgon Tokens and Mystical Serpent Eyes, which are foundational components for Abyssal progression. The raid entrance is marked by a massive red and black door located in the northern wastes.
+
+**Video Highlights:**
+- **Entry Requirements**: Only the party leader needs to be level 225; others can be lower.
+- **Difficulty Scaling**: HP ranges from 40,000 (Easy) to 180,000 (Hard).
+- **Movement Mechanics**: Medusa moves every 40 seconds to one of eight random spots.
+- **Drop Table**: Overview of the 12 unique drops including Crimson Tearstones and Gorgon Scales.
+
+<YouTubeEmbed videoId="ysIoMIES7HM" title="Clover Retribution For Dummies: Medusa" />
+
+While the video focuses on the general Medusa fight, players in 2026 have discovered that the Umbral Abyss Stone has a higher affinity for dropping when the raid is completed under specific "Flawless" conditions. This involves defeating the boss without any party members being petrified by her gaze.
+
+<Callout type="success" title="Raid Efficiency">
+If you are farming purely for tokens to eventually craft Abyssal gear, stick to **Easy Mode**. The drop rates for tokens do not significantly increase on harder difficulties, allowing you to maximize your "Stones per hour" by clearing the 40,000 HP version in under two minutes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Mechanics and Attack Patterns">
+
+Surviving the hunt for the **clover retribution umbral abyss stone** requires recognizing Medusa's telegraphs. Her kit is designed to punish immobile players and those who fail to manage their "Threat" levels. Threat is tracked on the right side of your damage percentage; the player with the highest threat will be the primary target for her most lethal projectiles.
+
+| Attack Name | Description | Counter Strategy |
+| :--- | :--- | :--- |
+| **Homing Arrow** | Fires a projectile that penetrates walls. | Jump and dodge to avoid the explosion AOE. |
+| **AOE Scream** | A red circle fills, dealing 400-500 damage. | Press Q (dodge) 0.5 seconds after the circle fills. |
+| **Arrow Rain** | Projectiles rain from above in a small radius. | Move out of the circle or tank with high defense. |
+| **Petrifying Gaze** | Medusa glows purple and screams. | Turn your character's back to her immediately. |
+
+The Petrifying Gaze is the most dangerous mechanic. If hit, you are stunned for 7 seconds, making you a sitting duck for the Homing Arrow. In the context of farming the Umbral Abyss Stone, being petrified often leads to a "reset" in your farming efficiency, as it prevents you from maintaining high DPS during her 40-second stationary windows.
+
+<Callout type="warning" title="Threat Management">
+If you are playing a squishy Mage build, keep an eye on your Threat meter. If it turns red, stop attacking for 3 seconds to let a Divine Restriction (DR) tank take the aggro. Medusa's arrows can one-shot lower-level players through walls.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Divine Restriction Build">
+    - **High I-Frames**: Hit Q to avoid almost all damage.
+    - **Sustainability**: Best for solo farming the stone.
+    - **Ease of Use**: Recommended for mobile players.
+  </Card>
+  <Card title="Dark/Blood Mage Build">
+    - **Burst Damage**: Melts Medusa's HP in seconds.
+    - **Void Affinity**: Synergizes well with Abyssal gear.
+    - **Risk Factor**: Low health makes petrification lethal.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Zap} title="Step-by-Step: Farming the Umbral Abyss Stone">
+
+To efficiently collect the **clover retribution umbral abyss stone** and its associated materials, follow this optimized loop. This process minimizes downtime and maximizes your chances of rare drops.
+
+<Steps>
+  <Step num="1" title="Prepare Your Build">
+    Equip either a Divine Restriction build for safety or a high-INT Dark Magic build. Ensure you have a Standard or Copper Pickaxe in your inventory, as some Abyssal nodes may appear within the raid environment.
+  </Step>
+  <Step num="2" title="Initiate the Raid">
+    Head to the red and black door north of the giant skull. If farming solo, select Easy Mode. If in a coordinated group seeking the stone directly, select Hard Mode to trigger the 2026 loot table bonus.
+  </Step>
+  <Step num="3" title="Execute the Cutscene Jump">
+    As soon as the loading screen ends, jump off the spawn platform and walk forward during the cutscene. This gives you a 5-second head start to reach the center before Medusa begins her first underground dive.
+  </Step>
+  <Step num="4" title="Apply the Reset Cheese">
+    When Medusa dives underground, have the person with the highest threat (usually the solo player) reset their character. This forces the boss to immediately respawn in the center, skipping the tedious parkour phase.
+  </Step>
+  <Step num="5" title="Collect and Craft">
+    Gather Gorgon Tokens and Mystical Serpent Eyes. Take these to Orion or the level 74 Blacksmith to craft your final Abyssal pieces using the Umbral Abyss Stone as the final binding agent.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Cheese Warning">
+The "Reset Cheese" is highly effective as of June 2026, but developers often patch these skips. Use it now to gather your tokens before the movement mechanics become mandatory again.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Loot Tables and Crafting Requirements">
+
+The path to the **clover retribution umbral abyss stone** is paved with secondary drops that are equally important for your character's progression. Understanding the drop rates helps manage expectations during long farming sessions.
+
+| Item Name | Drop Chance | Primary Use |
+| :--- | :--- | :--- |
+| **Gorgon Token** | High (Guaranteed) | Crafting Champion Armor/Weapons |
+| **Crimson Tearstone** | Common | Summoning the Crimson Witch |
+| **Mystical Serpent Eye** | Uncommon | Starting the Nyxar Raid |
+| **Gorgon Spear/Hammer** | 0.33% | High-tier melee weaponry |
+| **Umbral Abyss Stone** | Rare (Hard Only) | Void-tier equipment infusion |
+
+For those who struggle with the 0.33% RNG on weapons, Orion offers a guaranteed trade-in system. This is often the more reliable path for players who haven't been blessed by the game's luck mechanics.
+
+<Checklist
+  id="abyss-prep"
+  title="Endgame Crafting Checklist:"
+  items={[
+    "Reach Blacksmithing Level 74 for 100% success rate",
+    "Collect 50x Gorgon Tokens for the Champion set",
+    "Obtain 3x Mystical Serpent Eyes for Nyxar access",
+    "Secure at least one Umbral Abyss Stone for weapon infusion",
+    "Max out Dark or Blood magic mastery for Void synergy"
+  ]}
+/>
+
+<Callout type="tip" title="Blacksmithing Tip">
+Don't waste tokens crafting weapons at a low-level blacksmith. The base 40% chance is too risky. Either level up your profession or buy the items directly from Orion to save your hard-earned materials.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly is the clover retribution umbral abyss stone used?",
+    answer: "It is used at high-level crafting stations to upgrade Gorgon Champion gear into Abyssal/Void variants, providing massive boosts to late-game stats."
+  },
+  {
+    question: "Can I get the stone on Easy difficulty?",
+    answer: "While the base materials drop on Easy, the Umbral Abyss Stone itself has a significantly higher drop rate on Hard difficulty. Most players farm Easy for tokens and Hard for the stone."
+  },
+  {
+    question: "What is the best way to avoid being petrified?",
+    answer: "Watch for Medusa's purple glow. As soon as you see it, use the 'look away' mechanic by turning your character's back to her. You do not need to move away, just change your facing direction."
+  },
+  {
+    question: "Is the Reset Cheese still working in June 2026?",
+    answer: "Yes, currently resetting your character when Medusa dives forces her back to the middle. This is the fastest way to farm materials for the Abyss Stone."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The journey to obtain the **clover retribution umbral abyss stone** is one of the most challenging but rewarding paths in the game. Whether you are a solo Divine Restriction user or part of a high-DPS Mage squad, consistency is key. Keep your eyes on the threat meter, turn away from the gaze, and your Abyssal set will be complete in no time.
+</Callout>
+
+</Section>
