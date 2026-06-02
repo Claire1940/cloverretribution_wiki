@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Báculo de Yeti de Retribución de Trébol: Tasas de Caída y Estadísticas Mágicas",
+  description: "Domina el báculo de Yeti de Retribución de Trébol con nuestra guía de 2026. Aprende las tasas de caída, planos de creación y las mejores estrategias de 'cheese' para el jefe Yeti para magos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Yeti+Staff+Guide",
+  date: "2026-06-02",
+  author: "Equipo de Wiki de Retribución de Trébol"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **báculo de Yeti de Retribución de Trébol** es un arma de mago de alto nivel que proporciona **10 de Daño Mágico Base** y escalado de Inteligencia.
+- **Tasa de Caída**: El báculo tiene una rara probabilidad de **0.7% de caída** directamente del jefe Yeti en la Tundra.
+- **Crafteo**: Los jugadores pueden obtener una probabilidad de **3.6% de caída** para el Plano del Báculo de Cuerno de Yeti para un crafteo garantizado.
+- **Estrategia del Jefe**: Usa el método "Wall Cheese" con un compañero para farmear al Yeti de forma segura sin recibir un daño AoE masivo.
+- **Mejor Build**: Concéntrate en **Inteligencia** y **Vaina de Maná** para aumentar el daño M1 del báculo a más de 36 por golpe.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Báculo de Cuerno de Yeti">
+
+El **báculo de Yeti de Retribución de Trébol** (conocido oficialmente como Báculo de Cuerno de Yeti) se erige como una de las armas más codiciadas para construcciones orientadas a la magia en la meta actual de 2026. Encontrado en lo profundo del bioma helado de la Tundra, este báculo está hecho de los resistentes cuernos del jefe Yeti, canalizando el poder elemental bruto del norte en devastadores ataques mágicos. A diferencia de las armas físicas que dependen de la Fuerza, este báculo escala principalmente con Inteligencia, lo que lo convierte en un pilar para configuraciones de Mago de alto DPS.
+
+**Puntos Destacados del Video:**
+- Exhibición visual del modelo del **báculo de Yeti de Retribución de Trébol** y animaciones M1.
+- Comparación entre el Báculo de Yeti y el Báculo de Hueso de Ogro.
+- Pruebas de daño que muestran más de 26 de daño por golpe en mobs estándar.
+- Demostración de la postura de sujeción única "similar a la de un Rey" del báculo.
+
+<YouTubeEmbed videoId="DLFjN5bDjkE" title="Every staff + hammer stat showcase in clover retribution" />
+
+<Callout type="tip" title="Prioridad de Estadísticas">
+Aunque el daño mágico base se indica en 10, el rendimiento real es significativamente mayor cuando se combina con una estadística de Inteligencia alta y la habilidad Vaina de Maná. En pruebas recientes, los Magos han alcanzado más de 36 de daño por golpe M1.
+</Callout>
+
+| Nombre del Arma | Tipo de Daño | Daño Base | Escalado Principal | Rareza |
+| :--- | :--- | :--- | :--- | :--- |
+| **Báculo de Cuerno de Yeti** | **Mágico** | **10** | **Inteligencia** | **Legendario** |
+| Báculo de Hueso de Ogro | Mágico | 5 | Inteligencia | Raro |
+| Martillo de Cuerno de Yeti | Contundente | 11 | Fuerza | Legendario |
+| Martillo de Lobo Alfa | Contundente | 7 | Fuerza | Raro |
+
+</Section>
+
+<Section icon={Swords} title="Jefe Yeti: Ubicación y Mecánicas de Combate">
+
+Para obtener el **báculo de Yeti de Retribución de Trébol**, debes aventurarte en la Tundra y enfrentarte al Yeti. Este mob es conocido por su gran cantidad de salud y habilidades de control de masas que pueden acabar fácilmente con un grupo desprevenido. El Yeti funciona en tres fases de ataque distintas, cada una de las cuales requiere patrones de movimiento específicos para evitar ser aturdido o aplastado.
+
+**Patrones de Ataque del Yeti:**
+- **Rugido de Yeti**: Un grito masivo de AoE que causa aturdimiento y daño. Este es el movimiento más peligroso para los Magos, ya que interrumpe el lanzamiento de hechizos.
+- **Patada de Yeti**: Un golpe físico semi-AoE que empuja a los jugadores.
+- **Golpe de Yeti**: Un movimiento de golpe al suelo que inflige un gran daño AoE en un círculo alrededor del jefe.
+
+<Callout type="warning" title="Peligro de la Tundra">
+El propio entorno de la Tundra inflige daño constante por "Frío" con el tiempo. Se recomienda encarecidamente llevar un Curandero o usar objetos de regeneración de salud mientras se farmea al Yeti para contrarrestar el desgaste ambiental.
+</Callout>
+
+| Nombre del Ataque | Efecto | Estrategia de Contraataque |
+| :--- | :--- | :--- |
+| **Rugido de Yeti** | **Aturdimiento + Daño** | **Mantener Bloqueo (F) inmediatamente** |
+| **Patada de Yeti** | **Retroceso** | **Mantener distancia (alcance de Mago)** |
+| **Golpe de Yeti** | **AoE Pesado** | **Alejarse de la zona roja** |
+
+</Section>
+
+<Section icon={Target} title="La Estrategia 'Cheese' del Jefe Yeti">
+
+Si tienes dificultades para derrotar al jefe de forma legítima, la comunidad ha descubierto un método "Cheese" que te permite farmear el **báculo de Yeti de Retribución de Trébol** con un riesgo mínimo. Esto requiere al menos dos jugadores: uno para actuar como "Leash" (Tanque) y otro para actuar como "DPS" (Mago).
+
+<Steps>
+  <Step num="1" title="Agro al Jefe">
+    Haz que un jugador (el Leash) ataque al Yeti para obtener el agro. El Leash debe guiar al Yeti hacia la pared frontal de la arena.
+  </Step>
+  <Step num="2" title="El Abrazo de la Pared">
+    El jugador Leash debe pararse contra la pared y mantener su bloqueo (F). Si se posiciona correctamente, el Yeti "abrazará" la pared mientras intenta alcanzar al jugador, bloqueando efectivamente su movimiento.
+  </Step>
+  <Step num="3" title="DPS por la Espalda">
+    El segundo jugador (el Mago) debe posicionarse directamente detrás del Yeti. Desde esta posición, puedes lanzar hechizos y ataques M1 con el báculo sin activar los ataques frontales del Yeti.
+  </Step>
+  <Step num="4" title="Gestionar el Rugido">
+    Incluso con el "cheese", el Yeti seguirá rugiendo. Ambos jugadores deben tener su bloqueo listo. Una vez que la salud del Yeti sea baja, el jugador Leash puede unirse para el golpe final y maximizar la eficiencia del botín.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Eficiencia">
+Usar este método "cheese" reduce el tiempo por muerte en aproximadamente un 40%, lo que hace que la tasa de caída del 0.7% para el báculo sea mucho más manejable en largas sesiones de farmeo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tasas de Caída y Requisitos de Crafteo">
+
+Obtener el **báculo de Yeti de Retribución de Trébol** es una prueba de paciencia. El jefe tiene una tabla de botín escalonada que va desde materiales de crafteo comunes hasta armas legendarias ultrararas. Puedes esperar un drop directo del arma o farmear el plano para craftearla tú mismo en una herrería.
+
+<CardGrid cols={2}>
+  <Card title="Drops Directos de Armas">
+    - **Báculo de Cuerno de Yeti**: 0.7%
+    - **Lanza de Cuerno de Yeti**: 0.7%
+    - **Espada de Cuerno de Yeti**: 0.7%
+    - **Martillo de Cuerno de Yeti**: 0.7%
+  </Card>
+  <Card title="Drops de Planos">
+    - **Plano de Báculo**: 3.6%
+    - **Plano de Lanza**: 3.6%
+    - **Plano de Espada**: 3.6%
+    - **Plano de Martillo**: 3.6%
+  </Card>
+</CardGrid>
+
+| Nombre del Objeto | Probabilidad de Caída | Caso de Uso |
+| :--- | :--- | :--- |
+| **Piel de Yeti** | **34%** | **Crafteo de Armadura** |
+| **Cuerno de Yeti** | **8%** | **Material de Crafteo de Armas** |
+| **Planos** | **3.6%** | **Crafteo Garantizado** |
+| **Armas Legendarias** | **0.7%** | **Pico de Poder Instantáneo** |
+
+<Checklist
+  id="yeti-farming-goals"
+  title="Lista de Verificación de Farmeo:"
+  items={[
+    "Obtener al menos 10 Piel de Yeti para conjuntos de armadura",
+    "Asegurar el Plano del Báculo de Cuerno de Yeti",
+    "Recolectar 5 Cuernos de Yeti para crafteo",
+    "Alcanzar el Nivel 40+ para una supervivencia óptima en la Tundra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Rendimiento y Escalado en Combate">
+
+El **báculo de Yeti de Retribución de Trébol** no es solo para exhibición; su rendimiento en combate es "impresionante" en comparación con los báculos de principios de juego. El conjunto de animaciones M1 es único, presentando un golpe pesado y autoritario que refleja su estatus legendario. Si bien la velocidad de ataque es ligeramente más lenta que la de una espada, el daño mágico por golpe compensa el retraso.
+
+**Métricas Clave de Rendimiento:**
+- **Daño M1**: Escala directamente con Inteligencia. En niveles base, espera 20-26 de daño. Con una build dedicada, esto alcanza más de 36.
+- **Sinergia con Vaina de Maná**: Activar Vaina de Maná mientras empuñas el báculo añade un bono masivo de daño plano a cada golpe.
+- **Alcance**: El báculo tiene un hitbox más largo que el báculo de Ogro, lo que permite a los Magos atacar a los enemigos desde una distancia más segura.
+
+<Callout type="info" title="Escalado de Inteligencia">
+Cada punto en Inteligencia añade un multiplicador al daño mágico base de 10 del báculo. Para la meta de 2026, se recomienda un mínimo de 50 de Inteligencia para ver el verdadero potencial del báculo en PvP y PvE de alto nivel.
+</Callout>
+
+| Nivel de Estadística | Daño M1 Estimado | Bonificación de Vaina de Maná |
+| :--- | :--- | :--- |
+| Inteligencia 10 | 12-15 | +5 |
+| Inteligencia 30 | 20-24 | +8 |
+| **Inteligencia 50** | **28-32** | **+12** |
+| Inteligencia 80 | 40+ | +18 |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra el jefe Yeti en Clover Retribution?",
+    answer: "El Yeti se encuentra en el bioma de la Tundra. Busca una gran arena nevada, generalmente cerca del área 'frontal' o de entrada de la región de la Tundra."
+  },
+  {
+    question: "¿Es el Báculo de Yeti mejor que el Báculo de Hueso de Ogro?",
+    answer: "Sí, el Báculo de Yeti es significativamente mejor. Tiene el doble de daño mágico base (10 vs 5) y mejor escalado, aunque es mucho más difícil de obtener debido a la tasa de caída del 0.7%."
+  },
+  {
+    question: "¿Puedo derrotar al Yeti solo para conseguir el báculo?",
+    answer: "Es posible, pero muy difícil debido al aturdimiento del Rugido. Se recomienda encarecidamente usar el método 'cheese' con un amigo o llevar un Sanador para lidiar con el daño pasivo de la Tundra."
+  },
+  {
+    question: "¿Tiene el Báculo de Yeti alguna habilidad especial?",
+    answer: "Aunque el báculo en sí se centra en mejorar tu magia y el daño M1, los desarrolladores han señalado que los encantamientos específicos de armas llegarán en futuras actualizaciones de 2026."
+  }
+]} />
+
+</Section>

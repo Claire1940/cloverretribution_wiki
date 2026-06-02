@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Pickaxe: Panduan Penambangan & Lokasi Cetak Biru",
+  description: "Kuasai sistem beliung Pembalasan Clover. Pelajari di mana menemukan Akumir Master Miner, membeli cetak biru, dan mengoptimalkan profesi penambangan Anda pada tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mining+and+Pickaxe+Guide",
+  date: "2026-06-02",
+  author: "Tim Wiki Pembalasan Clover"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Beliung pembalasan clover**: Alat penting untuk profesi Penambangan, membutuhkan cetak biru khusus dari Akumir Master Miner.
+- **Profesi Penambangan**: Harus dibuka dengan menyelesaikan misi "Mempelajari Profesi" di Danau Aestherstone.
+- **Biaya Cetak Biru**: Cetak biru beliung Tembaga dan Besi masing-masing berharga **1000 Emas** dari NPC Master Miner.
+- **Peringatan Pohon Skill**: Poin skill saat ini **permanen**; hindari membuangnya untuk buff kecil seperti peningkatan sapu.
+- **Sinergi Blacksmithing**: Anda memerlukan profesi Blacksmithing untuk membuat beliung setelah Anda memiliki cetak birunya.
+</Callout>
+
+<Section icon={Map} title="Profesi Penambangan dan Dasar-dasar Alat">
+
+Penambangan adalah salah satu profesi yang paling menguntungkan dan penting dalam Clover Retribution, menyediakan bahan mentah yang diperlukan untuk pembuatan perlengkapan dan senjata tingkat tinggi. Untuk memulai perjalanan Anda, Anda tidak bisa begitu saja mulai mengayunkan ke batu; Anda harus terlebih dahulu mengamankan **beliung pembalasan clover**. Alat-alat ini dikategorikan berdasarkan tingkat materialnya, yang menentukan jenis bijih apa yang dapat Anda panen secara efisien dan kecepatan Anda mengekstraknya.
+
+Sebelum Anda dapat menggunakan beliung, Anda harus secara resmi bergabung dengan sistem profesi. Ini ditangani oleh NPC Ogol Profession Master. Tanpa langkah awal ini, Anda tidak akan dapat memperoleh pengalaman atau menggunakan cetak biru yang diperlukan untuk pembuatan alat.
+
+| Persyaratan Profesi | Lokasi NPC | Hadiah |
+| :--- | :--- | :--- |
+| **Misi Mempelajari Profesi** | Danau Aestherstone | +1500 Exp, +1000 Emas |
+| **Spesialisasi Penambangan** | Akumir Master Miner | Akses ke Cetak Biru Ingot |
+| **Spesialisasi Blacksmithing** | Ogol Profession Master | Kemampuan untuk membuat Beliung |
+
+<Callout type="tip" title="Tips Pro">
+Selalu pastikan Anda memiliki setidaknya 2000 Emas sebelum menuju ke Danau Aestherstone. Ini mencakup hadiah misi awal dan biaya beberapa cetak biru pertama Anda.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Beliung Tembaga">
+    - **Tingkat**: Alat penambangan tingkat pemula.
+    - **Persyaratan**: Cetak Biru Beliung Tembaga.
+    - **Terbaik untuk**: Memanen endapan Tembaga dan Batubara dasar.
+  </Card>
+  <Card title="Beliung Besi">
+    - **Tingkat**: Alat penambangan tingkat menengah.
+    - **Persyaratan**: Cetak Biru Beliung Besi.
+    - **Terbaik untuk**: Menambang Besi dan urat mineral langka secara efisien.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cara Mendapatkan Cetak Biru Beliung">
+
+Memperoleh **beliung pembalasan clover** adalah proses dua langkah yang melibatkan akuisisi cetak biru dan pembuatan selanjutnya. Tidak seperti senjata standar yang mungkin jatuh dari bos, beliung adalah item berbasis profesi. Anda harus menemukan Akumir Master Miner, yang berfungsi sebagai penjual utama untuk semua skema terkait penambangan.
+
+<Steps>
+  <Step num="1" title="Temukan Danau Aestherstone">
+    Pergi ke Danau Aestherstone untuk menemukan Ogol Profession Master. Selesaikan misi "Mempelajari Profesi" untuk membuka sistem.
+  </Step>
+  <Step num="2" title="Temukan Akumir Master Miner">
+    Akumir biasanya terletak di dekat node penambangan atau di dalam hub profesi. Dia menjual cetak biru penting untuk alat dan bahan olahan.
+  </Step>
+  <Step num="3" title="Beli Cetak Biru">
+    Beli Cetak Biru Beliung Tembaga dan Cetak Biru Beliung Besi. Masing-masing akan dikenakan biaya 1000 Emas.
+  </Step>
+  <Step num="4" title="Kumpulkan Bahan">
+    Tambang bijih mentah (menggunakan alat dasar jika tersedia atau membeli bahan mentah) dan gunakan cetak biru Ingot Akumir untuk membuat batangan yang diperlukan.
+  </Step>
+  <Step num="5" title="Kerajinan di Tukang Besi">
+    Pergi ke pandai besi dan gunakan keterampilan Blacksmithing Anda untuk mengubah cetak biru dan ingot menjadi beliung fungsional.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Persyaratan Cetak Biru">
+Perhatikan bahwa Cetak Biru Beliung Tembaga secara khusus dibeli dari Akumir Master Miner, sedangkan banyak cetak biru senjata lainnya dibeli dari Ogol. Jangan salah mengira kedua NPC ini.
+</Callout>
+
+| Nama Cetak Biru | Vendor | Harga | Skill yang Dibutuhkan |
+| :--- | :--- | :--- | :--- |
+| **Cetak Biru Beliung Tembaga** | Akumir Master Miner | 1000 Emas | Blacksmithing |
+| **Cetak Biru Beliung Besi** | Akumir Master Miner | 1000 Emas | Blacksmithing |
+| **Cetak Biru Ingot Tembaga** | Akumir Master Miner | 1000 Emas | Penambangan |
+| **Cetak Biru Ingot Besi** | Akumir Master Miner | 1000 Emas | Penambangan |
+
+</Section>
+
+<Section icon={Swords} title="Optimasi Pohon Skill untuk Profesional">
+
+Meskipun **beliung pembalasan clover** menangani pekerjaan fisik, pohon skill karakter Anda menentukan efisiensi dan kekuatan keseluruhan Anda. Pada tahun 2026, poin skill sangat langka, dan tidak ada cara untuk mengatur ulang setelah digunakan. Hal ini membuat setiap poin yang diinvestasikan ke dalam build Anda sangat penting, terutama jika Anda berencana untuk menyeimbangkan pertempuran dengan profesi seperti menambang atau memasak.
+
+**Sorotan Video:**
+- **Kelangkaan Poin Skill**: Anda hanya mendapatkan 43 poin skill pada batas level saat ini.
+- **Tidak Ada Reset**: Saat ini tidak mungkin untuk mengatur ulang poin skill yang digunakan, jadi rencanakan build Anda dengan hati-hati.
+- **Sinergi Sihir**: Sihir seperti Cahaya dan Bayangan memiliki pohon khusus yang secara signifikan meningkatkan kinerja.
+- **Hindari Jebakan**: "Peningkatan Sapu" dianggap sebagai pemborosan poin bagi sebagian besar pemain.
+
+<YouTubeEmbed videoId="3qfRgeTZQc0" title="Panduan Pohon Skill Pembalasan Clover" />
+
+Untuk pemain yang berfokus pada profesi Penambangan, Anda mungkin ingin melihat node utilitas yang meningkatkan kemampuan bertahan hidup Anda saat bertani di zona berbahaya. Namun, fokus utama harus tetap pada sihir tempur Anda untuk memastikan Anda dapat mempertahankan node penambangan Anda dari monster agresif atau pemain lain.
+
+| Cabang | Rekomendasi | Alasan |
+| :--- | :--- | :--- |
+| **Kecerdasan (INT)** | Prioritas Tinggi | Penting untuk penyihir; ambil node kerusakan sihir. |
+| **Ketangkasan (DEX)** | Sedang | Berguna untuk pemain Pembatasan Ilahi dan kecepatan M1. |
+| **Kekuatan (STR)** | Prioritas Rendah | Umumnya kurang efektif daripada INT atau DEX dalam meta saat ini. |
+| **Peningkatan Sapu** | **Hindari** | Kecepatan 10% tidak sebanding dengan poin skill yang berharga. |
+
+<Callout type="success" title="Tips Meta">
+Jika Anda adalah pengguna Cahaya, prioritaskan cabang Light Spirit Dive. Pengurangan cooldown 20% adalah pengubah permainan untuk pertanian dan pertempuran tingkat tinggi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pandai Besi dan Pemurnian Material">
+
+Memiliki **beliung pembalasan clover** hanyalah setengah dari pertempuran. Untuk mempertahankan perlengkapan Anda dan maju ke tingkatan yang lebih tinggi, Anda harus menguasai proses pemurnian. Penambangan menyediakan bijih mentah, tetapi profesi Blacksmithing diperlukan untuk mengubah bijih tersebut menjadi barang yang berguna. Akumir Master Miner menyediakan cetak biru untuk ingot, yang merupakan blok bangunan fundamental untuk semua alat canggih.
+
+| Material | Sumber Mentah | Bentuk Halus | Biaya Cetak Biru |
+| :--- | :--- | :--- | :--- |
+| **Tembaga** | Node Bijih Tembaga | Ingot Tembaga | 1000 Emas |
+| **Besi** | Node Bijih Besi | Ingot Besi | 1000 Emas |
+| **Emas** | Urat Emas Langka | Ingot Emas | Bervariasi |
+
+Proses pemurnian mengharuskan Anda memiliki cetak biru di inventaris Anda dan berdiri di dekat tungku. Saat Anda menaikkan level Penambangan dan Blacksmithing Anda, Anda akan membuka kemampuan untuk membuat item yang lebih kompleks, termasuk Beliung Besi, yang secara signifikan mengurangi waktu yang dihabiskan di setiap node bijih.
+
+<Callout type="info" title="Lokasi Vendor">
+Ingatlah bahwa Ogol Profession Master di Danau Aestherstone menjual cetak biru senjata dasar (Pedang Rusak, Palu Tembaga), tetapi Akumir adalah satu-satunya yang menjual skema khusus beliung.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Progres Penambangan">
+
+Untuk memastikan Anda memaksimalkan efisiensi Anda dengan **beliung pembalasan clover**, ikuti daftar periksa progres ini. Menyelesaikan pencapaian ini akan menyiapkan Anda untuk sukses dalam ekonomi kerajinan akhir permainan.
+
+<Checklist
+  id="mining-progression"
+  title="Tujuan Penguasaan Penambangan:"
+  items={[
+    "Mencapai Danau Aestherstone dan menyelesaikan misi Mempelajari Profesi.",
+    "Membeli cetak biru Beliung Tembaga dan Ingot Tembaga dari Akumir.",
+    "Membuat Beliung Tembaga pertama Anda di stasiun Pandai Besi.",
+    "Mencapai level Penambangan yang diperlukan untuk menggunakan alat Besi.",
+    "Mengamankan cetak biru Beliung Besi dan meningkatkan peralatan Anda.",
+    "Menyimpan poin skill untuk node sihir berdampak tinggi daripada jebakan utilitas."
+  ]}
+/>
+
+<Callout type="tip" title="Strategi Bertani">
+Fokus pada node Besi segera setelah Anda mendapatkan Beliung Besi Anda. Ingot Besi sangat diminati untuk membuat senjata Baja dan set armor canggih, menjadikannya sumber pendapatan yang bagus.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan beliung pembalasan clover pertama?",
+    answer: "Anda harus terlebih dahulu menyelesaikan misi 'Mempelajari Profesi' di Danau Aestherstone. Kemudian, kunjungi Akumir Master Miner untuk membeli Cetak Biru Beliung Tembaga seharga 1000 Emas dan membuatnya menggunakan profesi Blacksmithing."
+  },
+  {
+    question: "Di mana lokasi Akumir Master Miner?",
+    answer: "Akumir Master Miner ditemukan di area hub profesi, biasanya di dekat Danau Aestherstone atau di dalam kamp penambangan besar. Dia adalah vendor eksklusif untuk cetak biru beliung dan ingot."
+  },
+  {
+    question: "Bisakah saya mengatur ulang poin skill saya jika saya melakukan kesalahan?",
+    answer: "Tidak, pada pembaruan 2026 saat ini, pengaturan ulang poin skill belum diterapkan. Anda harus menghabiskan 43 poin yang tersedia dengan sangat hati-hati untuk menghindari terkunci dari build yang optimal."
+  },
+  {
+    question: "Apa perbedaan antara beliung Tembaga dan Besi?",
+    answer: "Beliung Besi memiliki daya tahan yang lebih tinggi dan menambang node bijih jauh lebih cepat daripada versi Tembaga. Ini juga memungkinkan Anda untuk memanen mineral tingkat lebih tinggi yang terlalu keras untuk alat tembaga."
+  }
+]} />
+
+</Section>

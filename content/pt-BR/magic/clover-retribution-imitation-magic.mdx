@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Imitação de Clover Retribution: Guia da Melhor Build 2026",
+  description: "Domine a magia de imitação de Clover Retribution com nosso guia sobre Portas Arcanas, cópia de feitiços e as melhores builds meta de 2026 para jogabilidade de nível Divino.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Imitation+Magic+Guide",
+  date: "2026-06-02",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **magia de imitação de Clover Retribution** (também conhecida como Magia da Chave) é um grimório de raridade Divina focado em copiar feitiços de outros jogadores.
+- As **Portas Arcanas** servem como a mecânica principal, oferecendo quatro espaços distintos com modificadores únicos de mana e tempo de recarga.
+- Os **Trevo de Quatro Folhas** são essenciais para desbloquear o quarto espaço, que oferece os melhores buffs para feitiços de alto nível.
+- **Pesado em Investimento**: Esta magia requer uma atualização significativa de Trevos e Maestria (150+) para atingir seu potencial máximo.
+- **Versatilidade**: Atualmente, é considerada a melhor magia do jogo devido à sua capacidade de combinar feitiços de alto nível de diferentes elementos.
+</Callout>
+
+<Section icon={Map} title="Introdução à Mecânica da Magia da Chave">
+
+A **magia de imitação de Clover Retribution**, frequentemente referida pela comunidade como "Magia da Chave", representa o auge da versatilidade no meta atual. Ao contrário dos grimórios tradicionais que fornecem um conjunto fixo de feitiços, a Magia da Chave permite que os jogadores observem e repliquem as habilidades de outros. Essa mecânica de "Imitação" efetivamente transforma o usuário em um canivete suíço de destruição arcana, capaz de misturar cura, controle de multidão e DPS massivo em um único carregamento.
+
+**Destaques do Vídeo:**
+- Uma análise detalhada da estética e raridade do grimório Magia da Chave.
+- Demonstração passo a passo da interface de cópia e interação com o jogador.
+- Desmembramento dos quatro espaços da Porta Arcana e seus modificadores de estatísticas específicos.
+- Recomendações de especialistas para os feitiços "Melhores no Slot" a serem copiados para máxima eficiência.
+
+<YouTubeEmbed videoId="jz6qmKi88vE" title="ABRAM CAMINHO PARA A MAGIA SUPREMA! GUIA DE MAGIA DA CHAVE | Clover Retribution" />
+
+<Callout type="success" title="Vantagem da Raridade Divina">
+A Magia da Chave é oficialmente classificada como raridade Divina. Embora exija imensa sorte ou milhares de giros para ser obtida, seu limite de poder excede em muito as alternativas Lendárias e Míticas, pois pode adotar suas melhores características.
+</Callout>
+
+Para copiar um feitiço com sucesso, você deve mirar em outro jogador e usar a habilidade de imitação. No entanto, você só pode copiar feitiços para os quais você tem **Maestria**. Se um feitiço requer 150 de Maestria e sua Magia da Chave está apenas no nível 50, a cópia falhará. Além disso, você não herda as habilidades passivas da magia original, o que significa que um feitiço Sombrio imitado pode naturalmente causar menos dano do que um lançado por um usuário dedicado de Sombrio.
+
+| Mecânica | Descrição | Restrição |
+| :--- | :--- | :--- |
+| **Limite de Cópia** | Até 4 feitiços com 4-Folhas | Não pode copiar o mesmo movimento duas vezes |
+| **Requisito de Maestria** | Deve corresponder ao nível de desbloqueio do feitiço | Não pode copiar o que você não "conquistou" |
+| **Herança Passiva** | Apenas feitiços ativos são copiados | Sem passivas elementais (ex: Queimar, Choque) |
+| **Alvo** | Deve interagir com um jogador ativo | Não pode copiar de outros usuários de Chave/Imitação |
+
+</Section>
+
+<Section icon={Target} title="As Portas Arcanas: Modificadores de Slot">
+
+O núcleo da sua build gira em torno das **Portas Arcanas**. Cada slot no seu grimório aplica um multiplicador específico ao feitiço nele colocado. Entender essas trocas é a diferença entre uma build funcional e uma que fica sem mana em segundos.
+
+| Nome do Slot | Condição de Desbloqueio | Modificador de Mana | Modificador de Tempo de Recarga |
+| :--- | :--- | :--- | :--- |
+| **Porta Arcana 1** | Padrão | **-25% Custo** | Aumento de 3x |
+| **Porta Arcana 2** | Padrão | Aumento de 3x | **-25% Tempo de Recarga** |
+| **Porta Arcana 3** | 150 Maestria | Aumento de 2x | Aumento de 2x |
+| **Porta Arcana 4** | 4-Folhas + 150 Maestria | **-25% Custo** | **-25% Tempo de Recarga** |
+
+<Callout type="warning" title="A Armadilha do Slot 3">
+A Porta Arcana 3 é geralmente considerada o slot mais fraco porque enfraquece tanto o consumo de mana quanto o tempo de recarga. Use este slot para feitiços de utilidade ou curas que não são críticos para sua rotação principal de DPS.
+</Callout>
+
+Selecionar qual feitiço vai em qual porta é um quebra-cabeça estratégico. Por exemplo, um buff que dura muito tempo, mas tem um alto custo de mana, é perfeito para a **Porta Arcana 1**, pois o tempo de recarga triplicado não importará se a duração do buff for suficiente. Por outro lado, seu movimento de DPS principal "spamável" deve ser sempre reservado para a **Porta Arcana 4**.
+
+</Section>
+
+<Section icon={Sparkles} title="Seleção Ótima de Feitiços para 2026">
+
+Para maximizar a **magia de imitação de Clover Retribution**, você precisa escolher as habilidades mais fortes de todo o espectro mágico. Aqui está um detalhamento dos feitiços recomendados pelo meta atual para cada Porta Arcana específica.
+
+<CardGrid cols={2}>
+  <Card title="Utilidade e Buffs (Slot 1)">
+    - **Sol Abençoado (Luz Solar)**: Fornece buffs de estatísticas massivos; o longo tempo de recarga é compensado pela duração.
+    - **Traje do Deus do Trovão (Relâmpago)**: Aprimora o movimento e os ataques M1.
+    - **Hidra de Sangue (Sangue)**: Forte pressão contínua por mana mínima.
+  </Card>
+  <Card title="Utilidade Spamável (Slot 2)">
+    - **Bolha de Água (Água)**: Essencial para a sobrevivência; a redução do tempo de recarga o mantém seguro.
+    - **Movimentos da Árvore do Mundo**: Excelente para controle de multidão e negação de área.
+    - **Crono Anastasis (Tempo)**: Alto potencial de tempo de atividade se sua reserva de mana puder lidar com a penalidade de 3x.
+  </Card>
+  <Card title="Preenchimento e Curas (Slot 3)">
+    - **Auto Cura (Cura)**: Um recurso confiável para jogo solo.
+    - **Corte Sombrio (Sombrio)**: O baixo custo base torna a penalidade de 2x de mana gerenciável.
+    - **Explosão Melódica**: Ótimo para buffs de redução de dano baseados em equipe.
+  </Card>
+  <Card title="Nukes e Finalizadores (Slot 4)">
+    - **Buraco Negro (Sombrio)**: O padrão ouro para dano em área e agrupamento.
+    - **Chuva Sagrada (Luz)**: Alta produção de DPS com os melhores modificadores possíveis.
+    - **Ruptura Espacial**: Dano massivo de explosão para raids de chefes de fim de jogo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gerenciamento de Mana">
+Se você estiver usando uma build que consome muita mana (como copiar feitiços da Legião), você **deve** combiná-la com um traço de regeneração de mana ou buff familiar. A Porta Arcana 2 esgotará suas reservas instantaneamente sem o suporte adequado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds: Raças e Traços">
+
+Mesmo com os melhores feitiços, a base do seu personagem determina o seu sucesso em raids de alto nível como Netherwing. Para a **magia de imitação de Clover Retribution**, você quer um equilíbrio de Inteligência (INT) para dano e Constituição (CON) para sobrevivência.
+
+<Steps>
+  <Step num="1" title="Escolha uma Raça Meta">
+    **Paladino Híbrido (T4)** é atualmente a melhor raça devido ao buff "Abençoado". Alternativamente, **Alto Elfo** ou **Magikara** fornecem as reservas de mana necessárias para sustentar os custos de imitação.
+  </Step>
+  <Step num="2" title="Role por Traços Sinérgicos">
+    Busque **Reservas Monstruosas** se você tiver problemas com mana, ou **Viciado em Adrenalina** se você usar feitiços de múltiplos acertos como Bobina de Profundidade. **Estrategista** é excelente para aqueles que incorporam habilidades da Legião em seu carregamento.
+  </Step>
+  <Step num="3" title="Equipe Acessórios de Nível 1">
+    Priorize o conjunto **Hex Escarlate** e o equipamento **Éter**. A **Capa Azul Real** e os **Anéis de Veneno** são essenciais para maximizar os limites de estatísticas em diferentes elementos copiados.
+  </Step>
+</Steps>
+
+| Categoria | Melhor Escolha | Alternativa |
+| :--- | :--- | :--- |
+| **Raça** | Paladino Híbrido (T4) | Alto Elfo / Ancião |
+| **Traço** | Reservas Monstruosas | Viciado em Adrenalina |
+| **Família** | Manastrol | Etéreo / Filme de Gelo |
+| **Divisão de Atributos** | 60% INT / 40% CON | CON Total (para tanques) |
+
+<Callout type="info" title="Aviso sobre Limites de Atributos">
+Cada magia que você copia tem diferentes limites de atributos. É quase impossível atingir o limite para cada habilidade, então concentre seus atributos no feitiço em sua **Porta Arcana 4**, pois essa será sua principal fonte de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Lista de Verificação de Investimento">
+
+A Magia da Chave não é um grimório "plug and play". Ela requer mais investimento do que quase qualquer outra magia no jogo. Use esta lista de verificação para acompanhar seu progresso em direção à build definitiva.
+
+<Checklist
+  id="key-magic-progression"
+  title="Metas de Maestria de Imitação:"
+  items={[
+    "Alcance 150 de Maestria Mágica para desbloquear as Portas Arcanas 3 e 4",
+    "Obtenha uma versão de 4 folhas do grimório",
+    "Maximize os Trevos de feitiços individuais para habilidades copiadas",
+    "Adquira o conjunto de armadura Hex Escarlate para escalonamento de INT",
+    "Garanta um traço de regeneração de mana de alto nível",
+    "Desbloqueie a armadura Netherwing para resistência no final do jogo"
+  ]}
+/>
+
+<Callout type="warning" title="Grinding de Trevo">
+Atualizar seus Trevos para a Magia da Chave é tão difícil quanto atualizar a Magia da Legião. Gaste tempo na **Biblioteca Espacial** para garantir que sua potência de ataque seja maximizada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Veredito Final: É a Melhor Magia?">
+
+Em junho de 2026, a **magia de imitação de Clover Retribution** se destaca como o rei indiscutível do meta. Embora magias especializadas como Luz ou Escuridão possam oferecer maior dano bruto em cenários específicos, elas não conseguem igualar a versatilidade da Magia da Chave. Se você precisa atuar como um tanque, um curador ou um DPS de explosão, você pode trocar seus feitiços copiados para se adequar à ocasião.
+
+**Principais Vantagens:**
+- **Adaptabilidade**: Mude todo o seu estilo de jogo visitando diferentes jogadores no hub.
+- **Poder Combinado**: Use os melhores buffs (Luz Solar) com o melhor AOE (Escuridão) e a melhor utilidade (Água).
+- **À Prova de Futuro**: À medida que novas magias são adicionadas ao jogo, a Magia da Chave automaticamente fica mais forte porque pode copiá-las.
+
+<FAQ items={[
+  {
+    question: "Posso copiar feitiços de outro usuário de Magia da Chave?",
+    answer: "Não, você não pode copiar feitiços de outro jogador que também esteja usando magia de imitação. Você deve encontrar um usuário com um grimório elemental 'puro'."
+  },
+  {
+    question: "Mantenho meus feitiços copiados se sair do jogo?",
+    answer: "Sim, seus feitiços copiados são salvos em suas Portas Arcanas. Você só precisa copiar novamente se quiser mudar seu carregamento."
+  },
+  {
+    question: "É obrigatório ter 4-Folhas para a magia de imitação de Clover Retribution?",
+    answer: "Embora não seja estritamente obrigatório para o jogo casual, é necessário para builds meta de alto nível. O 4º slot fornece um buff único (-25% de Mana e -25% de Tempo de Recarga) que é essencial para movimentos de DPS de alto nível."
+  },
+  {
+    question: "Qual é o melhor atributo para focar na Magia da Chave?",
+    answer: "Inteligência (INT) é o atributo principal para escalonamento de dano. No entanto, devido aos altos custos de mana dos slots 2 e 3, ter uma quantidade decente de Constituição (CON) ou traços de regeneração de mana é altamente recomendado."
+  }
+]} />
+
+</Section>

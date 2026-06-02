@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, FlaskConical } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Vampire Lord: Step-by-Step Boss & Race Guide",
+  description: "Master the Clover Retribution Vampire Lord boss fight and learn how to unlock the Elder Vampire race with our 2026 comprehensive farming and evolution guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Vampire+Lord+Guide",
+  date: "2026-06-02",
+  author: "Clover Retribution Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Defeat the **clover retribution vampire lord** to obtain Pure Vampire Blood and rare Aetherstone runes.
+- **Race Evolution**: Use Pure Vampire Blood while under the **Scarlet Affliction** effect to transform into a Fletchling, Vampire, or Elder Vampire.
+- **Spawning Mechanic**: Kill 12 Vampire Soldiers to spawn 3 Elites, which then triggers the arrival of Vampire Lucius.
+- **Best Build**: Mages benefit most from the Elder Vampire race due to the **10% Magic Damage** and **15% Mana** buffs.
+- **Corrupted Variant**: Has a 30% chance to spawn, featuring a purple aura and dropping the rare Vampire Spear.
+</Callout>
+
+<Section icon={Target} title="How to Spawn the Clover Retribution Vampire Lord">
+
+Locating and summoning the **clover retribution vampire lord** (Lucius) requires a specific kill-count progression within the Vampire Castle area. This boss does not simply wander the world; you must provoke his appearance by thinning out his undead army.
+
+**Video Highlights:**
+- **Location**: Navigate to the red portal near the Medusa raid and follow the path left to the Vampire Castle.
+- **Mob Requirements**: Kill 12 Vampire Soldiers to trigger the "Stronger vampires can now be seen" message.
+- **Elite Phase**: Defeat the 3 Vampire Elites across the bridge to spawn Lucius.
+- **Corrupted Chance**: Every non-corrupted kill increases the chance for the next spawn to be Corrupted.
+
+<YouTubeEmbed videoId="svJP0ubhn08" title="Elder Vampire & Vampire Lord Guide" />
+
+| Phase | Requirement | Trigger Message |
+| :--- | :--- | :--- |
+| **Soldiers** | Kill 12-13 Soldiers | "Stronger vampires can now be seen around the castle." |
+| **Elites** | Kill 3 Vampire Elites | "A shadow deepens... Vampire Lucius awakens." |
+| **Boss** | Defeat Lucius | "Vampire Lucius has been defeated!" |
+
+<Callout type="warning" title="Spawn Alert">
+If you see the message "A shadow deepens across the land as vampire Lucius awakens," it is a standard boss. If a second message regarding a "Primal" presence appears, you are facing the Corrupted variant, which is significantly harder but offers better loot.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Strategy and Boss Mechanics">
+
+Fighting the **clover retribution vampire lord** requires high mobility or a dedicated tank. Lucius utilizes high-damage AOE attacks and a shield mechanic that makes him formidable for solo players under level 200.
+
+<CardGrid cols={2}>
+  <Card title="Normal Lucius">
+    - **Shield**: Regenerates shield until 50% HP.
+    - **AOE**: Telegraphs white circles on the ground.
+    - **Speed**: Moderate movement, easy to kite.
+  </Card>
+  <Card title="Corrupted Lucius">
+    - **No Shield**: Shield breaks permanently after 50% HP.
+    - **Purple Aura**: Massive damage boost to all skills.
+    - **Rare Drop**: Only variant that drops the **Vampire Spear**.
+  </Card>
+</CardGrid>
+
+**Boss Attack Patterns:**
+1. **Lunge Attack**: A quick dash toward the player with high physical damage.
+2. **Blood AOE**: Large circles appear on the floor; stay out of these or take massive tick damage.
+3. **Shield Burst**: Lucius emits a shockwave when his shield is hit, pushing back melee attackers.
+
+| Attack Type | Damage Range | Avoidance Strategy |
+| :--- | :--- | :--- |
+| **Ground Slam** | High (Physical) | Dash backward when he raises his arm. |
+| **Blood Spikes** | Moderate (Magic) | Move laterally to avoid the tracking spikes. |
+| **Lucius Ultimate** | Fatal | Hide behind pillars or use wall-jumping cheese. |
+
+<Callout type="tip" title="Pro Cheese Strategy">
+If you are struggling, use a Divine Restriction (DR) tank to draw aggro and jump onto the castle wall edges. Lucius often bugs out on the geometry, allowing mages to safely pelt him with spells from a distance.
+</Callout>
+
+</Section>
+
+<Section icon={FlaskConical} title="Unlocking the Elder Vampire Race">
+
+The Elder Vampire is arguably the best race for mages in Clover Retribution. While you can spin for it (2% chance), the most reliable method is through the "Infection" questline provided by the NPC Dorian.
+
+<Steps>
+  <Step num="1" title="The Scarlet Lily Quest">
+    Find Dorian inside the Vampire Castle. He will task you with finding 5 **Scarlet Lilies**. These spawn randomly in place of regular Mana Flowers or Fire Lilies in the overworld.
+  </Step>
+  <Step num="2" title="Daily Grind">
+    Complete Dorian's daily quests for 15 days. You will need to farm Vampire Soldiers, Elites, and eventually Lucius himself to gather materials like the **Phantom Flask** and **Cursed Sigil**.
+  </Step>
+  <Step num="3" title="The Infection">
+    Find an Awakened Elder Vampire player and have them bite you. You have a 5% chance to receive the **Scarlet Affliction** trait. If you die during the bite, the infection failed.
+  </Step>
+  <Step num="4" title="Consumption">
+    While you have the Scarlet Affliction trait, consume **Pure Vampire Blood** (dropped by the Vampire Lord). This will reset your race into one of the three vampire tiers.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Infection Rates">
+When consuming the blood under Scarlet Affliction, the rates are: **Fletchling (70%)**, **Vampire (29%)**, and **Elder Vampire (1%)**. If you get Fletchling, it is often better to reset and try the infection again rather than farming the massive amount of blood needed to evolve it.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Race Stats and Evolution Requirements">
+
+Once you have become a vampire, you can upgrade your tier using Pure Vampire Blood or by crafting the **Bloodbound Relic** at the Pot Maker NPC (requires Alchemy Level 70).
+
+| Race Tier | Key Stats | Evolution Cost |
+| :--- | :--- | :--- |
+| **Fletchling** | +5 Int, +5 Con, 1% HP Regen | 10 Pure Blood to Vampire |
+| **Vampire** | +10 Int, +10 Con, 1.5% HP Regen | 20 Pure Blood to Elder |
+| **Elder Vampire** | +20 Int, +20 Con, 2.5% HP Regen | 20 Pure Blood to Awakened |
+
+**Elder Vampire Passive Benefits:**
+- **Immunity**: Complete immunity to Poison.
+- **Mana Pool**: +15% Max Mana and +3 Flat Mana Regen.
+- **Damage**: +10% Magic Damage.
+- **Heightened Senses**: Ability to see which players have Devils equipped.
+
+<Checklist
+  id="vampire-essentials"
+  title="Vampire Progression Checklist:"
+  items={[
+    "Reach Alchemy Level 70 for relic crafting",
+    "Obtain Pure Vampire Blood from Lucius (Mythical Drop)",
+    "Find an Awakened player for the Scarlet Affliction bite",
+    "Gather 5 Cursed Sigils from Dorian's high-tier quests",
+    "Collect Nocturnal Thread for armor crafting"
+  ]}
+/>
+
+<Callout type="info">
+The **Awakened Elder Vampire** form is primarily a cosmetic and utility upgrade, allowing you to transform and infect others. The stat bonuses are identical to the standard Elder Vampire race.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Loot Table and Farming Efficiency">
+
+Farming the **clover retribution vampire lord** is the most efficient way to obtain Aetherstone runes, which are essential for high-level gear like the Aether Blade.
+
+| Item Name | Rarity | Drop Source | Use Case |
+| :--- | :--- | :--- | :--- |
+| **Pure Vampire Blood** | Mythical | Boss Chest | Race Evolution |
+| **Aetherstone Runes** | Rare | Elite/Boss Chest | Golem Crafting |
+| **Vampire Armor** | Uncommon | Soldiers/Elites | Early-game Defense |
+| **Vampire Spear** | Legendary | Corrupted Lucius | High-Dex Weapon |
+| **Nocturnal Thread** | Common | All Vampires | Crafting Material |
+
+<Callout type="tip" title="Farming Tip">
+Join the official Discord to find "Vampire Lord Grind" groups. Rotating servers with a 4-man party allows you to spawn Lucius every 5-7 minutes, maximizing your rune and blood income per hour.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Vampire Lord drop the race directly?",
+    answer: "No, the boss drops Pure Vampire Blood, which is a required ingredient. You must first get the Scarlet Affliction trait from another player's bite before using the blood to change your race."
+  },
+  {
+    question: "What is the difference between a normal and Corrupted Vampire Lord?",
+    answer: "The Corrupted version has a purple aura, higher health, and no shield regeneration below 50% HP. It is the only source for the Legendary Vampire Spear."
+  },
+  {
+    question: "Can I keep my current race if I use Pure Vampire Blood?",
+    answer: "No, using Pure Vampire Blood while infected will permanently replace your current race. Ensure you have Clover Storage if you want to save your previous race."
+  },
+  {
+    question: "How do I get the Bloodbound Relic blueprint?",
+    answer: "The blueprint is a guaranteed drop the first time you complete Dorian's final quest involving the defeat of three Vampire Lords."
+  }
+]} />
+
+</Section>

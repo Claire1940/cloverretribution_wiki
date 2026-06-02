@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, FlaskConical } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Vampire Lord: Panduan Bos & Ras Langkah demi Langkah",
+  description: "Kuasai pertarungan bos Vampire Lord di Clover Retribution dan pelajari cara membuka ras Elder Vampire dengan panduan farming dan evolusi komprehensif 2026 kami.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Vampire+Lord+Guide",
+  date: "2026-06-02",
+  author: "Tim Wiki Clover Retribution",
+  keywords: "clover retribution, vampire lord, elder vampire, panduan bos, evolusi ras, lucius"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan Utama**: Kalahkan **clover retribution vampire lord** untuk mendapatkan Pure Vampire Blood dan rune Aetherstone langka.
+- **Evolusi Ras**: Gunakan Pure Vampire Blood saat berada di bawah efek **Scarlet Affliction** untuk berubah menjadi Fletchling, Vampire, atau Elder Vampire.
+- **Mekanik Spawn**: Bunuh 12 Vampire Soldier untuk memunculkan 3 Elite, yang kemudian memicu kedatangan Vampire Lucius.
+- **Build Terbaik**: Mage mendapatkan keuntungan paling besar dari ras Elder Vampire karena buff **10% Magic Damage** dan **15% Mana**.
+- **Varian Corrupted**: Memiliki peluang 30% untuk muncul, menampilkan aura ungu dan menjatuhkan Vampire Spear yang langka.
+</Callout>
+
+<Section icon={Target} title="Cara Memunculkan Clover Retribution Vampire Lord">
+
+Menemukan dan memanggil **clover retribution vampire lord** (Lucius) memerlukan progresi jumlah pembunuhan tertentu di dalam area Vampire Castle. Bos ini tidak sekadar berkeliaran di dunia; Anda harus memicu kemunculannya dengan menipiskan pasukan mayat hidupnya.
+
+**Sorotan Video:**
+- **Lokasi**: Navigasi ke portal merah di dekat raid Medusa dan ikuti jalan ke kiri menuju Vampire Castle.
+- **Syarat Mob**: Bunuh 12 Vampire Soldier untuk memicu pesan "Stronger vampires can now be seen".
+- **Fase Elite**: Kalahkan 3 Vampire Elite di seberang jembatan untuk memunculkan Lucius.
+- **Peluang Corrupted**: Setiap pembunuhan non-corrupted meningkatkan peluang spawn berikutnya menjadi Corrupted.
+
+<YouTubeEmbed videoId="svJP0ubhn08" title="Panduan Elder Vampire & Vampire Lord" />
+
+| Fase | Syarat | Pesan Pemicu |
+| :--- | :--- | :--- |
+| **Soldier** | Bunuh 12-13 Soldier | "Stronger vampires can now be seen around the castle." |
+| **Elite** | Bunuh 3 Vampire Elite | "A shadow deepens... Vampire Lucius awakens." |
+| **Bos** | Kalahkan Lucius | "Vampire Lucius has been defeated!" |
+
+<Callout type="warning" title="Peringatan Spawn">
+Jika Anda melihat pesan "A shadow deepens across the land as vampire Lucius awakens," itu adalah bos standar. Jika pesan kedua mengenai kehadiran "Primal" muncul, Anda menghadapi varian Corrupted, yang jauh lebih sulit tetapi menawarkan loot yang lebih baik.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Strategi Pertempuran dan Mekanik Bos">
+
+Melawan **clover retribution vampire lord** membutuhkan mobilitas tinggi atau tank khusus. Lucius menggunakan serangan AOE berdamage tinggi dan mekanik perisai yang membuatnya tangguh bagi pemain solo di bawah level 200.
+
+<CardGrid cols={2}>
+  <Card title="Lucius Normal">
+    - **Perisai**: Meregenerasi perisai hingga 50% HP.
+    - **AOE**: Menandai lingkaran putih di tanah.
+    - **Kecepatan**: Pergerakan sedang, mudah untuk di-kite.
+  </Card>
+  <Card title="Lucius Corrupted">
+    - **Tanpa Perisai**: Perisai hancur permanen setelah 50% HP.
+    - **Aura Ungu**: Peningkatan damage besar pada semua skill.
+    - **Drop Langka**: Satu-satunya varian yang menjatuhkan **Vampire Spear**.
+  </Card>
+</CardGrid>
+
+**Pola Serangan Bos:**
+1. **Serangan Terjang**: Dash cepat ke arah pemain dengan damage fisik tinggi.
+2. **Blood AOE**: Lingkaran besar muncul di lantai; jauhi area ini atau terima damage tick yang besar.
+3. **Shield Burst**: Lucius memancarkan gelombang kejut saat perisainya terkena serangan, mendorong mundur penyerang jarak dekat.
+
+| Tipe Serangan | Rentang Damage | Strategi Menghindar |
+| :--- | :--- | :--- |
+| **Ground Slam** | Tinggi (Fisik) | Dash ke belakang saat dia mengangkat lengannya. |
+| **Blood Spikes** | Sedang (Sihir) | Bergerak ke samping untuk menghindari duri pelacak. |
+| **Ultimate Lucius** | Fatal | Bersembunyi di balik pilar atau gunakan trik melompat di dinding. |
+
+<Callout type="tip" title="Strategi Trik Pro">
+Jika Anda kesulitan, gunakan tank Divine Restriction (DR) untuk menarik aggro dan melompat ke tepi dinding kastil. Lucius sering kali mengalami bug pada geometri, memungkinkan mage untuk menyerangnya dengan aman menggunakan sihir dari kejauhan.
+</Callout>
+
+</Section>
+
+<Section icon={FlaskConical} title="Membuka Ras Elder Vampire">
+
+Elder Vampire bisa dibilang merupakan ras terbaik untuk mage di Clover Retribution. Meskipun Anda bisa melakukan spin untuk mendapatkannya (peluang 2%), metode yang paling andal adalah melalui rangkaian quest "Infection" yang diberikan oleh NPC Dorian.
+
+<Steps>
+  <Step num="1" title="Quest Scarlet Lily">
+    Temukan Dorian di dalam Vampire Castle. Dia akan menugaskan Anda untuk menemukan 5 **Scarlet Lily**. Bunga ini muncul secara acak menggantikan Mana Flower atau Fire Lily biasa di dunia luar.
+  </Step>
+  <Step num="2" title="Grinding Harian">
+    Selesaikan quest harian Dorian selama 15 hari. Anda perlu melakukan farming pada Vampire Soldier, Elite, dan akhirnya Lucius sendiri untuk mengumpulkan material seperti **Phantom Flask** dan **Cursed Sigil**.
+  </Step>
+  <Step num="3" title="Infeksi">
+    Temukan pemain Awakened Elder Vampire dan minta mereka menggigit Anda. Anda memiliki peluang 5% untuk menerima trait **Scarlet Affliction**. Jika Anda mati saat digigit, infeksi gagal.
+  </Step>
+  <Step num="4" title="Konsumsi">
+    Saat Anda memiliki trait Scarlet Affliction, konsumsi **Pure Vampire Blood** (dijatuhkan oleh Vampire Lord). Ini akan mereset ras Anda menjadi salah satu dari tiga tingkatan vampir.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tingkat Infeksi">
+Saat mengonsumsi darah di bawah Scarlet Affliction, peluangnya adalah: **Fletchling (70%)**, **Vampire (29%)**, dan **Elder Vampire (1%)**. Jika Anda mendapatkan Fletchling, seringkali lebih baik untuk mereset dan mencoba infeksi lagi daripada melakukan farming darah dalam jumlah besar untuk mengevolusikannya.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Statistik Ras dan Syarat Evolusi">
+
+Setelah Anda menjadi vampir, Anda dapat meningkatkan tingkatan Anda menggunakan Pure Vampire Blood atau dengan membuat **Bloodbound Relic** di NPC Pot Maker (membutuhkan Alchemy Level 70).
+
+| Tingkatan Ras | Statistik Utama | Biaya Evolusi |
+| :--- | :--- | :--- |
+| **Fletchling** | +5 Int, +5 Con, 1% HP Regen | 10 Pure Blood ke Vampire |
+| **Vampire** | +10 Int, +10 Con, 1.5% HP Regen | 20 Pure Blood ke Elder |
+| **Elder Vampire** | +20 Int, +20 Con, 2.5% HP Regen | 20 Pure Blood ke Awakened |
+
+**Manfaat Pasif Elder Vampire:**
+- **Kekebalan**: Kekebalan penuh terhadap Racun.
+- **Mana Pool**: +15% Max Mana dan +3 Flat Mana Regen.
+- **Damage**: +10% Magic Damage.
+- **Indra Tajam**: Kemampuan untuk melihat pemain mana yang menggunakan Devil.
+
+<Checklist
+  id="vampire-essentials"
+  title="Daftar Periksa Progresi Vampir:"
+  items={[
+    "Capai Alchemy Level 70 untuk pembuatan relic",
+    "Dapatkan Pure Vampire Blood dari Lucius (Mythical Drop)",
+    "Temukan pemain Awakened untuk gigitan Scarlet Affliction",
+    "Kumpulkan 5 Cursed Sigil dari quest tingkat tinggi Dorian",
+    "Koleksi Nocturnal Thread untuk pembuatan armor"
+  ]}
+/>
+
+<Callout type="info">
+Bentuk **Awakened Elder Vampire** utamanya adalah peningkatan kosmetik dan utilitas, memungkinkan Anda untuk berubah dan menginfeksi orang lain. Bonus statistiknya identik dengan ras Elder Vampire standar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabel Loot dan Efisiensi Farming">
+
+Farming **clover retribution vampire lord** adalah cara paling efisien untuk mendapatkan rune Aetherstone, yang sangat penting untuk peralatan tingkat tinggi seperti Aether Blade.
+
+| Nama Item | Kelangkaan | Sumber Drop | Kegunaan |
+| :--- | :--- | :--- | :--- |
+| **Pure Vampire Blood** | Mythical | Chest Bos | Evolusi Ras |
+| **Aetherstone Runes** | Rare | Chest Elite/Bos | Pembuatan Golem |
+| **Vampire Armor** | Uncommon | Soldier/Elite | Pertahanan Early-game |
+| **Vampire Spear** | Legendary | Lucius Corrupted | Senjata High-Dex |
+| **Nocturnal Thread** | Common | Semua Vampir | Material Crafting |
+
+<Callout type="tip" title="Tips Farming">
+Bergabunglah dengan Discord resmi untuk mencari grup "Vampire Lord Grind". Berganti server dengan party 4 orang memungkinkan Anda memunculkan Lucius setiap 5-7 menit, memaksimalkan pendapatan rune dan darah Anda per jam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apakah Vampire Lord menjatuhkan ras secara langsung?",
+    answer: "Tidak, bos menjatuhkan Pure Vampire Blood, yang merupakan bahan yang diperlukan. Anda harus terlebih dahulu mendapatkan trait Scarlet Affliction dari gigitan pemain lain sebelum menggunakan darah tersebut untuk mengubah ras Anda."
+  },
+  {
+    question: "Apa perbedaan antara Vampire Lord normal dan Corrupted?",
+    answer: "Versi Corrupted memiliki aura ungu, HP lebih tinggi, dan tidak ada regenerasi perisai di bawah 50% HP. Ini adalah satu-satunya sumber untuk Vampire Spear yang Legendaris."
+  },
+  {
+    question: "Bisakah saya mempertahankan ras saat ini jika saya menggunakan Pure Vampire Blood?",
+    answer: "Tidak, menggunakan Pure Vampire Blood saat terinfeksi akan menggantikan ras Anda saat ini secara permanen. Pastikan Anda memiliki Clover Storage jika ingin menyimpan ras Anda sebelumnya."
+  },
+  {
+    question: "Bagaimana cara mendapatkan blueprint Bloodbound Relic?",
+    answer: "Blueprint tersebut adalah drop yang dijamin saat pertama kali Anda menyelesaikan quest terakhir Dorian yang melibatkan pengalahan tiga Vampire Lord."
+  }
+]} />
+
+</Section>

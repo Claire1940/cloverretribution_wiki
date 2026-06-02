@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pico de Retribución del Trébol: Guía de Minería y Ubicaciones de Planos",
+  description: "Domina el sistema de pico de retribución del trébol. Aprende dónde encontrar al Maestro Minero Akumir, comprar planos y optimizar tu profesión de minería en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mining+and+Pickaxe+Guide",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Pico de Retribución del Trébol**: Herramientas esenciales para la profesión de Minería, que requieren planos específicos del Maestro Minero Akumir.
+- **Profesión de Minería**: Debe desbloquearse completando la misión "Aprendiendo Profesiones" en el Lago Aestherstone.
+- **Costo de los Planos**: Tanto los planos del pico de cobre como los del pico de hierro cuestan **1000 de oro** cada uno al NPC Maestro Minero.
+- **Advertencia del Árbol de Habilidades**: Los puntos de habilidad son actualmente **permanentes**; evita desperdiciarlos en mejoras menores como el impulso de escoba.
+- **Sinergia con la Herrería**: Necesitas la profesión de Herrería para fabricar picos una vez que poseas los planos.
+</Callout>
+
+<Section icon={Map} title="Profesión de Minería y Fundamentos de Herramientas">
+
+La minería es una de las profesiones más lucrativas y esenciales en Clover Retribution, proporcionando las materias primas necesarias para la fabricación de equipos y armas de alto nivel. Para comenzar tu viaje, no puedes simplemente empezar a golpear rocas; primero debes asegurar un **pico de retribución del trébol**. Estas herramientas se clasifican por su nivel de material, lo que dicta qué tipo de minerales puedes cosechar eficientemente y la velocidad a la que los extraes.
+
+Antes de que puedas usar un pico, debes unirte oficialmente al sistema de profesiones. Esto lo maneja el NPC Maestro de Profesiones Ogol. Sin este paso inicial, no podrás ganar experiencia ni utilizar los planos necesarios para la creación de herramientas.
+
+| Requisito de Profesión | Ubicación del NPC | Recompensa |
+| :--- | :--- | :--- |
+| **Misión de Aprendizaje de Profesiones** | Lago Aestherstone | +1500 Exp, +1000 Oro |
+| **Especialización en Minería** | Maestro Minero Akumir | Acceso a Planos de Lingotes |
+| **Especialización en Herrería** | Maestro de Profesiones Ogol | Habilidad para fabricar Picos |
+
+<Callout type="tip" title="Consejo Profesional">
+Asegúrate siempre de tener al menos 2000 de oro antes de dirigirte al Lago Aestherstone. Esto cubre las recompensas iniciales de la misión y el costo de tus primeros planos.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pico de Cobre">
+    - **Nivel**: Herramienta de minería de nivel básico.
+    - **Requisito**: Plano de Pico de Cobre.
+    - **Ideal para**: Cosechar depósitos básicos de cobre y carbón.
+  </Card>
+  <Card title="Pico de Hierro">
+    - **Nivel**: Herramienta de minería de nivel medio.
+    - **Requisito**: Plano de Pico de Hierro.
+    - **Ideal para**: Minar eficientemente hierro y vetas de minerales raros.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cómo Obtener Planos de Picos">
+
+Adquirir un **pico de retribución del trébol** es un proceso de dos pasos que implica la adquisición de planos y la posterior fabricación. A diferencia de las armas estándar que pueden caer de los jefes, los picos son estrictamente elementos basados en profesiones. Debes localizar al Maestro Minero Akumir, quien sirve como el vendedor principal de todos los esquemas relacionados con la minería.
+
+<Steps>
+  <Step num="1" title="Localiza el Lago Aestherstone">
+    Viaja al Lago Aestherstone para encontrar al Maestro de Profesiones Ogol. Completa la misión "Aprendiendo Profesiones" para desbloquear el sistema.
+  </Step>
+  <Step num="2" title="Encuentra al Maestro Minero Akumir">
+    Akumir suele estar ubicado cerca de los nodos de minería o dentro de los centros de profesiones. Vende los planos esenciales tanto para herramientas como para materiales refinados.
+  </Step>
+  <Step num="3" title="Compra Planos">
+    Compra el Plano de Pico de Cobre y el Plano de Pico de Hierro. Cada uno te costará 1000 de oro.
+  </Step>
+  <Step num="4" title="Reúne Materiales">
+    Mina mineral en bruto (usando una herramienta básica si está disponible o comprando materias primas) y usa los planos de lingotes de Akumir para crear las barras necesarias.
+  </Step>
+  <Step num="5" title="Fabrica en la Herrería">
+    Dirígete a una forja y usa tu habilidad de Herrería para convertir los planos y los lingotes en un pico funcional.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito de Planos">
+Ten en cuenta que el Plano de Pico de Cobre se compra específicamente al Maestro Minero Akumir, mientras que muchos otros planos de armas se compran a Ogol. No confundas a estos dos NPC.
+</Callout>
+
+| Nombre del Plano | Vendedor | Precio | Habilidad Requerida |
+| :--- | :--- | :--- | :--- |
+| **Plano de Pico de Cobre** | Maestro Minero Akumir | 1000 Oro | Herrería |
+| **Plano de Pico de Hierro** | Maestro Minero Akumir | 1000 Oro | Herrería |
+| **Plano de Lingote de Cobre** | Maestro Minero Akumir | 1000 Oro | Minería |
+| **Plano de Lingote de Hierro** | Maestro Minero Akumir | 1000 Oro | Minería |
+
+</Section>
+
+<Section icon={Swords} title="Optimización del Árbol de Habilidades para Profesionales">
+
+Mientras que el **pico de retribución del trébol** se encarga del trabajo físico, el árbol de habilidades de tu personaje dicta tu eficiencia y poder general. A partir de 2026, los puntos de habilidad son extremadamente escasos y no hay forma de reiniciarlos una vez que se gastan. Esto hace que cada punto invertido en tu construcción sea crítico, especialmente si planeas equilibrar el combate con profesiones como la minería o la cocina.
+
+**Puntos Clave del Video:**
+- **Escasez de Puntos de Habilidad**: Solo obtienes 43 puntos de habilidad en el límite de nivel actual.
+- **Sin Reseteos**: Actualmente es imposible reiniciar los puntos de habilidad usados, así que planifica tu construcción cuidadosamente.
+- **Sinergia Mágica**: Magias como Luz y Sombra tienen árboles dedicados que aumentan significativamente el rendimiento.
+- **Evita Trampas**: El "Broom Boost" (Impulso de Escoba) se considera un desperdicio de puntos para la mayoría de los jugadores.
+
+<YouTubeEmbed videoId="3qfRgeTZQc0" title="Guía del Árbol de Habilidades de Clover Retribution" />
+
+Para los jugadores que se centran en la profesión de Minería, es posible que deseen buscar nodos de utilidad que mejoren su capacidad de supervivencia mientras farmean en zonas peligrosas. Sin embargo, el enfoque principal debe seguir siendo tu magia de combate para asegurar que puedas defender tus nodos de minería de mobs agresivos u otros jugadores.
+
+| Rama | Recomendación | Razón |
+| :--- | :--- | :--- |
+| **Inteligencia (INT)** | Alta Prioridad | Esencial para magos; toma nodos de daño mágico. |
+| **Destreza (DEX)** | Moderada | Útil para jugadores de Restricción Divina y velocidad M1. |
+| **Fuerza (STR)** | Baja Prioridad | Generalmente menos efectiva que INT o DEX en el meta actual. |
+| **Impulso de Escoba** | **Evitar** | El 10% de velocidad no vale los valiosos puntos de habilidad. |
+
+<Callout type="success" title="Consejo Meta">
+Si eres un usuario de Luz, prioriza la rama de Inmersión del Espíritu de Luz. La reducción del 20% del tiempo de reutilización cambia el juego tanto para el farmeo como para el combate de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Herrería y Refinado de Materiales">
+
+Poseer un **pico de retribución del trébol** es solo la mitad de la batalla. Para mantener tu equipo y progresar a niveles superiores, debes dominar el proceso de refinado. La minería proporciona mineral en bruto, pero la profesión de Herrería es necesaria para convertir ese mineral en elementos útiles. El Maestro Minero Akumir proporciona los planos para los lingotes, que son los bloques de construcción fundamentales para todas las herramientas avanzadas.
+
+| Material | Fuente en Bruto | Forma Refinada | Costo del Plano |
+| :--- | :--- | :--- | :--- |
+| **Cobre** | Nodos de Mineral de Cobre | Lingote de Cobre | 1000 Oro |
+| **Hierro** | Nodos de Mineral de Hierro | Lingote de Hierro | 1000 Oro |
+| **Oro** | Vetas de Oro Raras | Lingote de Oro | Varía |
+
+El proceso de refinado requiere que tengas el plano en tu inventario y te pares cerca de un horno. A medida que subas de nivel en Minería y Herrería, desbloquearás la capacidad de fabricar objetos más complejos, incluido el Pico de Hierro, que reduce significativamente el tiempo dedicado a cada nodo de mineral.
+
+<Callout type="info" title="Ubicación del Vendedor">
+Recuerda que el Maestro de Profesiones Ogol en el Lago Aestherstone vende los planos básicos de armas (Espada Rota, Martillo de Cobre), pero Akumir es el único que vende los esquemas específicos de los picos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión de Minería">
+
+Para asegurarte de que estás maximizando tu eficiencia con el **pico de retribución del trébol**, sigue esta lista de verificación de progresión. Completar estos hitos te preparará para el éxito en la economía de fabricación de alto nivel.
+
+<Checklist
+  id="mining-progression"
+  title="Objetivos de Maestría en Minería:"
+  items={[
+    "Llega al Lago Aestherstone y completa la misión Aprendiendo Profesiones.",
+    "Compra los planos del Pico de Cobre y del Lingote de Cobre a Akumir.",
+    "Fabrica tu primer Pico de Cobre en una estación de Herrería.",
+    "Alcanza el nivel de Minería requerido para utilizar herramientas de Hierro.",
+    "Consigue el plano del Pico de Hierro y mejora tu equipo.",
+    "Guarda puntos de habilidad para nodos mágicos de alto impacto en lugar de trampas de utilidad."
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de Farmeo">
+Concéntrate en los nodos de Hierro tan pronto como consigas tu Pico de Hierro. Los Lingotes de Hierro tienen una gran demanda para fabricar armas de Acero y conjuntos de armaduras avanzados, lo que los convierte en una gran fuente de ingresos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo el primer pico de retribución del trébol?",
+    answer: "Primero debes completar la misión 'Aprendiendo Profesiones' en el Lago Aestherstone. Luego, visita al Maestro Minero Akumir para comprar el Plano de Pico de Cobre por 1000 de oro y fabricarlo usando la profesión de Herrería."
+  },
+  {
+    question: "¿Dónde se encuentra el Maestro Minero Akumir?",
+    answer: "El Maestro Minero Akumir se encuentra en las áreas centrales de profesiones, típicamente cerca del Lago Aestherstone o dentro de los principales campamentos mineros. Es el vendedor exclusivo de planos de picos y lingotes."
+  },
+  {
+    question: "¿Puedo reiniciar mis puntos de habilidad si cometo un error?",
+    answer: "No, a partir de la actualización actual de 2026, los reinicios de puntos de habilidad no están implementados. Debes gastar tus 43 puntos disponibles con mucho cuidado para evitar quedarte sin las construcciones óptimas."
+  },
+  {
+    question: "¿Cuál es la diferencia entre el pico de Cobre y el de Hierro?",
+    answer: "El Pico de Hierro tiene mayor durabilidad y mina los nodos de mineral mucho más rápido que la versión de Cobre. También te permite cosechar minerales de mayor nivel que son demasiado duros para las herramientas de cobre."
+  }
+]} />
+
+</Section>

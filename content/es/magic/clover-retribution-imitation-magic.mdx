@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Magia de Imitación de Clover Retribution: Guía de la Mejor Build 2026",
+  description: "Domina la magia de imitación de Clover Retribution con nuestra guía sobre Puertas Arcanas, copia de hechizos y las mejores builds meta de 2026 para el juego de nivel Divino.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Imitation+Magic+Guide",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **magia de imitación de Clover Retribution** (también conocida como Magia de Llave) es un grimorio de rareza Divina enfocado en copiar hechizos de otros jugadores.
+- Las **Puertas Arcanas** sirven como mecánica principal, ofreciendo cuatro ranuras distintas con modificadores únicos de maná y enfriamiento.
+- Los **Tréboles de Cuatro Hojas** son esenciales para desbloquear la cuarta ranura, que proporciona las mejores mejoras para hechizos de alto nivel.
+- **Requiere mucha inversión**: Esta magia requiere una mejora significativa de Tréboles y Maestría (más de 150) para alcanzar su máximo potencial.
+- **Versatilidad**: Actualmente se considera la mejor magia del juego debido a su capacidad para combinar hechizos de alto nivel de diferentes elementos.
+</Callout>
+
+<Section icon={Map} title="Introducción a las Mecánicas de la Magia de Llave">
+
+La **magia de imitación de Clover Retribution**, frecuentemente referida por la comunidad como "Magia de Llave", representa la cúspide de la versatilidad en el meta actual. A diferencia de los grimorios tradicionales que proporcionan un conjunto fijo de hechizos, la Magia de Llave permite a los jugadores observar y replicar las habilidades de otros. Esta mecánica de "Imitación" convierte efectivamente al usuario en una navaja suiza de destrucción arcana, capaz de mezclar curación, control de masas y DPS masivo en una sola configuración.
+
+**Puntos destacados del video:**
+- Un vistazo detallado a la estética y rareza del grimorio de Magia de Llave.
+- Demostración paso a paso de la interfaz de copia y la interacción con el jugador.
+- Desglose de las cuatro ranuras de Puerta Arcana y sus modificadores de estadísticas específicos.
+- Recomendaciones de expertos para los hechizos "Mejores en Ranura" para copiar y obtener la máxima eficiencia.
+
+<YouTubeEmbed videoId="jz6qmKi88vE" title="¡ABRID PASO A LA MAGIA DEFINITIVA! GUÍA DE MAGIA DE LLAVE | Clover Retribution" />
+
+<Callout type="success" title="Ventaja de Rareza Divina">
+La Magia de Llave está oficialmente clasificada como rareza Divina. Aunque requiere una suerte inmensa o miles de giros para obtenerla, su techo de poder supera con creces las alternativas Legendarias y Míticas porque puede adoptar sus mejores características.
+</Callout>
+
+Para copiar un hechizo con éxito, debes apuntar a otro jugador y usar la habilidad de imitación. Sin embargo, solo puedes copiar hechizos para los que tengas la **Maestría**. Si un hechizo requiere 150 de Maestría y tu Magia de Llave solo está en el nivel 50, la copia fallará. Además, no heredas las habilidades pasivas de la magia original, lo que significa que un hechizo Oscuro imitado puede infligir naturalmente menos daño que uno lanzado por un usuario Oscuro dedicado.
+
+| Mecánica | Descripción | Restricción |
+| :--- | :--- | :--- |
+| **Límite de Copia** | Hasta 4 hechizos con 4-Hojas | No se puede copiar el mismo movimiento dos veces |
+| **Requisito de Maestría** | Debe coincidir con el nivel de desbloqueo del hechizo | No se puede copiar lo que no se ha "ganado" |
+| **Herencia Pasiva** | Solo se copian los hechizos activos | Sin pasivas elementales (ej., Quemadura, Choque) |
+| **Objetivo** | Debe interactuar con un jugador vivo | No se puede copiar de otros usuarios de Llave/Imitación |
+
+</Section>
+
+<Section icon={Target} title="Las Puertas Arcanas: Modificadores de Ranura">
+
+El núcleo de tu build gira en torno a las **Puertas Arcanas**. Cada ranura de tu grimorio aplica un multiplicador específico al hechizo colocado dentro de ella. Comprender estas compensaciones es la diferencia entre una build funcional y una que se queda sin maná en segundos.
+
+| Nombre de la Ranura | Condición de Desbloqueo | Modificador de Maná | Modificador de Enfriamiento |
+| :--- | :--- | :--- | :--- |
+| **Puerta Arcana 1** | Predeterminado | **-25% Costo** | 3x Aumento |
+| **Puerta Arcana 2** | Predeterminado | 3x Aumento | **-25% Enfriamiento** |
+| **Puerta Arcana 3** | 150 Maestría | 2x Aumento | 2x Aumento |
+| **Puerta Arcana 4** | 4-Hojas + 150 Maestría | **-25% Costo** | **-25% Enfriamiento** |
+
+<Callout type="warning" title="La Trampa de la Ranura 3">
+La Puerta Arcana 3 se considera generalmente la ranura más débil porque penaliza tanto el consumo de maná como el enfriamiento. Usa esta ranura para hechizos de utilidad o curaciones que no sean críticos para tu rotación principal de DPS.
+</Callout>
+
+Seleccionar qué hechizo va en qué puerta es un rompecabezas estratégico. Por ejemplo, un buff que dura mucho tiempo pero tiene un alto costo de maná es perfecto para la **Puerta Arcana 1**, ya que el enfriamiento triplicado no importará si la duración del buff es suficiente. Por el contrario, tu movimiento principal de DPS "spammeable" siempre debe reservarse para la **Puerta Arcana 4**.
+
+</Section>
+
+<Section icon={Sparkles} title="Selección Óptima de Hechizos para 2026">
+
+Para maximizar la **magia de imitación de Clover Retribution**, necesitas seleccionar las habilidades más fuertes de todo el espectro mágico. Aquí tienes un desglose de los hechizos recomendados en el meta actual para cada Puerta Arcana específica.
+
+<CardGrid cols={2}>
+  <Card title="Utilidad y Buffs (Ranura 1)">
+    - **Sol Bendito (Luz del Sol)**: Proporciona mejoras masivas de estadísticas; el largo enfriamiento se compensa con la duración.
+    - **Atuendo del Dios del Trueno (Rayo)**: Mejora el movimiento y los ataques M1.
+    - **Hidra de Sangre (Sangre)**: Fuerte presión continua con un mínimo de maná.
+  </Card>
+  <Card title="Utilidad Spam (Ranura 2)">
+    - **Burbuja de Agua (Agua)**: Esencial para la supervivencia; la reducción de enfriamiento te mantiene a salvo.
+    - **Movimientos del Árbol del Mundo**: Excelente para el control de masas y la negación de área.
+    - **Anástasis Crono (Tiempo)**: Alto potencial de tiempo de actividad si tu reserva de maná puede soportar la penalización de 3x.
+  </Card>
+  <Card title="Relleno y Curaciones (Ranura 3)">
+    - **Autocuración (Curación)**: Un recurso fiable para el juego en solitario.
+    - **Corte Oscuro (Oscuridad)**: El bajo costo base hace que la penalización de maná de 2x sea manejable.
+    - **Explosión Melódica**: Ideal para buffs de reducción de daño basados en equipo.
+  </Card>
+  <Card title="Nukes y Rematadores (Ranura 4)">
+    - **Agujero Negro (Oscuridad)**: El estándar de oro para el daño de área y la agrupación.
+    - **Lluvia Sagrada (Luz)**: Alto rendimiento de DPS con los mejores modificadores posibles.
+    - **Ruptura Espacial**: Daño de ráfaga masivo para incursiones de jefes de final de juego.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gestión de Maná">
+Si estás usando una build que consume mucho maná (como copiar hechizos de Legión), **debes** combinarla con un rasgo de regeneración de maná o un buff familiar. La Puerta Arcana 2 agotará tus reservas instantáneamente sin el soporte adecuado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Builds: Razas y Rasgos">
+
+Incluso con los mejores hechizos, la base de tu personaje determina tu éxito en incursiones de alto nivel como Netherwing. Para la **magia de imitación de Clover Retribution**, querrás un equilibrio de Inteligencia (INT) para el daño y Constitución (CON) para la supervivencia.
+
+<Steps>
+  <Step num="1" title="Elige una Raza Meta">
+    El **Paladín Híbrido (T4)** es actualmente la mejor raza en su ranura debido al buff "Bendecido". Alternativamente, el **Alto Elfo** o **Magikara** proporcionan las reservas de maná necesarias para sostener los costos de imitación.
+  </Step>
+  <Step num="2" title="Busca Rasgos Sinérgicos">
+    Busca **Reservas Monstruosas** si tienes problemas con el maná, o **Adicto a la Adrenalina** si usas hechizos de múltiples golpes como Bobina de Profundidad. **Estratega** es excelente para aquellos que incorporan habilidades de Legión en su configuración.
+  </Step>
+  <Step num="3" title="Equipa Accesorios de Nivel 1">
+    Prioriza el conjunto **Hexágono Escarlata** y el equipo **Éter**. La **Capa Azul Real** y los **Anillos de Veneno** son esenciales para maximizar los límites de estadísticas en diferentes elementos copiados.
+  </Step>
+</Steps>
+
+| Categoría | Mejor Opción | Alternativa |
+| :--- | :--- | :--- |
+| **Raza** | Paladín Híbrido (T4) | Alto Elfo / Anciano |
+| **Rasgo** | Reservas Monstruosas | Adicto a la Adrenalina |
+| **Familia** | Manastrol | Ethereion / Frostfilm |
+| **División de Estadísticas** | 60% INT / 40% CON | CON Completa (para tanques) |
+
+<Callout type="info" title="Advertencia sobre los Límites de Estadísticas">
+Cada magia que copias tiene diferentes límites de estadísticas. Es casi imposible alcanzar el límite para cada habilidad, así que concentra tus estadísticas en el hechizo de tu **Puerta Arcana 4**, ya que será tu principal fuente de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión e Inversión">
+
+La Magia de Llave no es un grimorio "plug and play". Requiere más inversión que casi cualquier otra magia en el juego. Usa esta lista de verificación para seguir tu progreso hacia la build definitiva.
+
+<Checklist
+  id="key-magic-progression"
+  title="Objetivos de Maestría de Imitación:"
+  items={[
+    "Alcanza 150 de Maestría Mágica para desbloquear las Puertas Arcanas 3 y 4",
+    "Obtén una versión de Trébol de 4 Hojas del grimorio",
+    "Maximiza los Tréboles de hechizos individuales para habilidades copiadas",
+    "Adquiere el conjunto de armadura Hexágono Escarlata para la escala de INT",
+    "Consigue un rasgo de regeneración de maná de alto nivel",
+    "Desbloquea la armadura Netherwing para la resistencia de final de juego"
+  ]}
+/>
+
+<Callout type="warning" title="Farmear Tréboles">
+Mejorar tus Tréboles para la Magia de Llave es tan difícil como mejorar la Magia de Legión. Pasa tiempo en la **Biblioteca Espacial** para asegurarte de que tu potencia de ataque esté maximizada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Veredicto Final: ¿Es la Mejor Magia?">
+
+A partir de junio de 2026, la **magia de imitación de Clover Retribution** se erige como el rey indiscutible del meta. Si bien las magias especializadas como Luz u Oscuridad pueden ofrecer un daño bruto más alto en escenarios específicos, no pueden igualar la versatilidad de la Magia de Llave. Ya sea que necesites actuar como tanque, curandero o DPS de ráfaga, puedes intercambiar tus hechizos copiados para adaptarse a la ocasión.
+
+**Ventajas Clave:**
+- **Adaptabilidad**: Cambia todo tu estilo de juego visitando a diferentes jugadores en el centro.
+- **Poder Combinado**: Usa los mejores buffs (Luz del Sol) con el mejor AOE (Oscuridad) y la mejor utilidad (Agua).
+- **A Prueba de Futuro**: A medida que se añaden nuevas magias al juego, la Magia de Llave se vuelve automáticamente más fuerte porque puede copiarlas.
+
+<FAQ items={[
+  {
+    question: "¿Puedo copiar hechizos de otro usuario de Magia de Llave?",
+    answer: "No, no puedes copiar hechizos de otro jugador que también esté usando magia de imitación. Debes encontrar un usuario con un grimorio elemental 'puro'."
+  },
+  {
+    question: "¿Conservaré mis hechizos copiados si salgo del juego?",
+    answer: "Sí, tus hechizos copiados se guardan en tus Puertas Arcanas. Solo necesitas volver a copiar si quieres cambiar tu configuración."
+  },
+  {
+    question: "¿Es obligatorio el Trébol de 4 Hojas para la magia de imitación de Clover Retribution?",
+    answer: "Aunque no es estrictamente obligatorio para el juego casual, es necesario para las builds meta de alto nivel. La 4ª ranura proporciona un buff único (-25% de Maná y -25% de Enfriamiento) que es esencial para los movimientos de DPS de primer nivel."
+  },
+  {
+    question: "¿Cuál es la mejor estadística en la que centrarse para la Magia de Llave?",
+    answer: "La Inteligencia (INT) es la estadística principal para la escala de daño. Sin embargo, debido a los altos costos de maná de las ranuras 2 y 3, se recomienda encarecidamente tener una cantidad decente de Constitución (CON) o rasgos de regeneración de maná."
+  }
+]} />
+
+</Section>

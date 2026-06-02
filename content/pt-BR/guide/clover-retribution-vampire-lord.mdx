@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, FlaskConical } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clover Retribution Lord Vampiro: Guia Detalhado de Chefe e Raça",
+  description: "Domine a luta contra o Lorde Vampiro de Clover Retribution e aprenda como desbloquear a raça Vampiro Ancião com nosso guia completo de farm e evolução de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Vampire+Lord+Guide",
+  date: "2026-06-02",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Derrotar o **Lorde Vampiro de Clover Retribution** para obter Sangue Puro de Vampiro e runas raras de Aetherstone.
+- **Evolução de Raça**: Use Sangue Puro de Vampiro enquanto estiver sob o efeito de **Aflição Escarlate** para se transformar em um Fletchling, Vampiro ou Vampiro Ancião.
+- **Mecânica de Surgimento**: Mate 12 Soldados Vampiros para fazer aparecer 3 Elites, o que então aciona a chegada de Lucius, o Vampiro.
+- **Melhor Construção**: Magos se beneficiam mais da raça Vampiro Ancião devido aos bônus de **10% de Dano Mágico** e **15% de Mana**.
+- **Variante Corrompida**: Tem 30% de chance de surgir, apresentando uma aura roxa e dropando a rara Lança Vampírica.
+</Callout>
+
+<Section icon={Target} title="Como Invocar o Lorde Vampiro de Clover Retribution">
+
+Localizar e invocar o **Lorde Vampiro de Clover Retribution** (Lucius) requer uma progressão específica de contagem de abates dentro da área do Castelo Vampiro. Este chefe não vaga simplesmente pelo mundo; você deve provocar sua aparição diminuindo seu exército de mortos-vivos.
+
+**Destaques do Vídeo:**
+- **Localização**: Navegue até o portal vermelho perto do ataque da Medusa e siga o caminho à esquerda para o Castelo Vampiro.
+- **Requisitos de Mobs**: Mate 12 Soldados Vampiros para acionar a mensagem "Vampiros mais fortes agora podem ser vistos".
+- **Fase Elite**: Derrote os 3 Elites Vampiros do outro lado da ponte para invocar Lucius.
+- **Chance de Corrompido**: Cada abate não corrompido aumenta a chance de o próximo surgir Corrompido.
+
+<YouTubeEmbed videoId="svJP0ubhn08" title="Guia de Vampiro Ancião e Lorde Vampiro" />
+
+| Fase | Requisito | Mensagem de Acionamento |
+| :--- | :--- | :--- |
+| **Soldados** | Matar 12-13 Soldados | "Vampiros mais fortes agora podem ser vistos ao redor do castelo." |
+| **Elites** | Matar 3 Elites Vampiros | "Uma sombra se aprofunda... Lucius, o Vampiro, desperta." |
+| **Chefe** | Derrotar Lucius | "Lucius, o Vampiro, foi derrotado!" |
+
+<Callout type="warning" title="Alerta de Surgimento">
+Se você vir a mensagem "Uma sombra se aprofunda pela terra enquanto Lucius, o vampiro, desperta", é um chefe padrão. Se uma segunda mensagem sobre uma presença "Primitiva" aparecer, você está enfrentando a variante Corrompida, que é significativamente mais difícil, mas oferece um loot melhor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Combate e Mecânicas do Chefe">
+
+Lutar contra o **Lorde Vampiro de Clover Retribution** requer alta mobilidade ou um tanque dedicado. Lucius utiliza ataques em área de alto dano e uma mecânica de escudo que o torna formidável para jogadores solo abaixo do nível 200.
+
+<CardGrid cols={2}>
+  <Card title="Lucius Normal">
+    - **Escudo**: Regenera escudo até 50% de HP.
+    - **AOE**: Sinaliza círculos brancos no chão.
+    - **Velocidade**: Movimento moderado, fácil de enganar.
+  </Card>
+  <Card title="Lucius Corrompido">
+    - **Sem Escudo**: Escudo quebra permanentemente após 50% de HP.
+    - **Aura Roxa**: Aumento massivo de dano em todas as habilidades.
+    - **Drop Raro**: Única variante que dropa a **Lança Vampírica**.
+  </Card>
+</CardGrid>
+
+**Padrões de Ataque do Chefe:**
+1. **Ataque de Investida**: Um rápido avanço em direção ao jogador com alto dano físico.
+2. **AOE de Sangue**: Grandes círculos aparecem no chão; fique fora deles ou sofra dano massivo ao longo do tempo.
+3. **Explosão de Escudo**: Lucius emite uma onda de choque quando seu escudo é atingido, empurrando atacantes corpo a corpo.
+
+| Tipo de Ataque | Faixa de Dano | Estratégia de Evasão |
+| :--- | :--- | :--- |
+| **Pancada no Chão** | Alto (Físico) | Deslize para trás quando ele levantar o braço. |
+| **Espinhos de Sangue** | Moderado (Mágico) | Mova-se lateralmente para evitar os espinhos rastreadores. |
+| **Ultimate de Lucius** | Fatal | Esconda-se atrás de pilares ou use a tática de pular na parede. |
+
+<Callout type="tip" title="Estratégia Profissional de 'Cheese'">
+Se você estiver com dificuldades, use um tanque de Restrição Divina (DR) para atrair o aggro e pule nas bordas da parede do castelo. Lucius frequentemente buga na geometria, permitindo que magos o ataquem com feitiços de forma segura à distância.
+</Callout>
+
+</Section>
+
+<Section icon={FlaskConical} title="Desbloqueando a Raça Vampiro Ancião">
+
+O Vampiro Ancião é, sem dúvida, a melhor raça para magos em Clover Retribution. Embora você possa girar para obtê-lo (2% de chance), o método mais confiável é através da linha de missões "Infecção" fornecida pelo NPC Dorian.
+
+<Steps>
+  <Step num="1" title="A Missão do Lírio Escarlate">
+    Encontre Dorian dentro do Castelo Vampiro. Ele o encarregará de encontrar 5 **Lírios Escarlates**. Estes surgem aleatoriamente no lugar de Flores de Mana ou Lírios de Fogo regulares no mundo.
+  </Step>
+  <Step num="2" title="Grind Diário">
+    Complete as missões diárias de Dorian por 15 dias. Você precisará farmar Soldados Vampiros, Elites e, eventualmente, o próprio Lucius para coletar materiais como o **Frasco Fantasma** e o **Sigilo Amaldiçoado**.
+  </Step>
+  <Step num="3" title="A Infecção">
+    Encontre um jogador Vampiro Ancião Despertado e peça para ele morder você. Você tem 5% de chance de receber a característica **Aflição Escarlate**. Se você morrer durante a mordida, a infecção falhou.
+  </Step>
+  <Step num="4" title="Consumo">
+    Enquanto tiver a característica Aflição Escarlate, consuma **Sangue Puro de Vampiro** (dropado pelo Lorde Vampiro). Isso redefinirá sua raça para um dos três níveis de vampiro.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Taxas de Infecção">
+Ao consumir o sangue sob a Aflição Escarlate, as taxas são: **Fletchling (70%)**, **Vampiro (29%)** e **Vampiro Ancião (1%)**. Se você obtiver Fletchling, muitas vezes é melhor reiniciar e tentar a infecção novamente, em vez de farmar a enorme quantidade de sangue necessária para evoluí-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Estatísticas de Raça e Requisitos de Evolução">
+
+Depois de se tornar um vampiro, você pode aprimorar seu nível usando Sangue Puro de Vampiro ou criando o **Relíquia Ligada ao Sangue** no NPC Pot Maker (requer Nível de Alquimia 70).
+
+| Nível de Raça | Estatísticas Chave | Custo de Evolução |
+| :--- | :--- | :--- |
+| **Fletchling** | +5 Int, +5 Con, 1% Regeneração de HP | 10 Sangue Puro para Vampiro |
+| **Vampiro** | +10 Int, +10 Con, 1.5% Regeneração de HP | 20 Sangue Puro para Ancião |
+| **Vampiro Ancião** | +20 Int, +20 Con, 2.5% Regeneração de HP | 20 Sangue Puro para Despertado |
+
+**Benefícios Passivos do Vampiro Ancião:**
+- **Imunidade**: Imunidade completa a Veneno.
+- **Piscina de Mana**: +15% de Mana Máxima e +3 de Regeneração de Mana Plana.
+- **Dano**: +10% de Dano Mágico.
+- **Sentidos Aguçados**: Capacidade de ver quais jogadores têm Demônios equipados.
+
+<Checklist
+  id="vampire-essentials"
+  title="Lista de Verificação de Progressão Vampírica:"
+  items={[
+    "Alcance o Nível de Alquimia 70 para criação de relíquias",
+    "Obtenha Sangue Puro de Vampiro de Lucius (Drop Mítico)",
+    "Encontre um jogador Despertado para a mordida da Aflição Escarlate",
+    "Colete 5 Sigilos Amaldiçoados das missões de alto nível de Dorian",
+    "Colete Fio Noturno para criação de armaduras"
+  ]}
+/>
+
+<Callout type="info">
+A forma de **Vampiro Ancião Despertado** é principalmente uma atualização cosmética e de utilidade, permitindo que você se transforme e infecte outros. Os bônus de estatísticas são idênticos aos da raça Vampiro Ancião padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabela de Loot e Eficiência de Farm">
+
+Farmar o **Lorde Vampiro de Clover Retribution** é a maneira mais eficiente de obter runas de Aetherstone, que são essenciais para equipamentos de alto nível, como a Lâmina de Éter.
+
+| Nome do Item | Raridade | Fonte de Drop | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Sangue Puro de Vampiro** | Mítico | Baú do Chefe | Evolução de Raça |
+| **Runas de Aetherstone** | Raro | Baú de Elite/Chefe | Criação de Golem |
+| **Armadura Vampírica** | Incomum | Soldados/Elites | Defesa de Início de Jogo |
+| **Lança Vampírica** | Lendário | Lucius Corrompido | Arma de Alta Destreza |
+| **Fio Noturno** | Comum | Todos os Vampiros | Material de Criação |
+
+<Callout type="tip" title="Dica de Farm">
+Junte-se ao Discord oficial para encontrar grupos de "Lorde Vampiro Grind". Girar servidores com um grupo de 4 pessoas permite que você invoque Lucius a cada 5-7 minutos, maximizando sua renda de runas e sangue por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Lorde Vampiro dropa a raça diretamente?",
+    answer: "Não, o chefe dropa Sangue Puro de Vampiro, que é um ingrediente necessário. Você deve primeiro obter a característica Aflição Escarlate da mordida de outro jogador antes de usar o sangue para mudar sua raça."
+  },
+  {
+    question: "Qual é a diferença entre um Lorde Vampiro normal e um Corrompido?",
+    answer: "A versão Corrompida tem uma aura roxa, mais vida e não regenera o escudo abaixo de 50% de HP. É a única fonte da Lança Vampírica Lendária."
+  },
+  {
+    question: "Posso manter minha raça atual se usar Sangue Puro de Vampiro?",
+    answer: "Não, usar Sangue Puro de Vampiro enquanto infectado substituirá permanentemente sua raça atual. Certifique-se de ter o Clover Storage se quiser salvar sua raça anterior."
+  },
+  {
+    question: "Como consigo o projeto da Relíquia Ligada ao Sangue?",
+    answer: "O projeto é um drop garantido na primeira vez que você completa a missão final de Dorian envolvendo a derrota de três Lordes Vampiros."
+  }
+]} />
+
+</Section>

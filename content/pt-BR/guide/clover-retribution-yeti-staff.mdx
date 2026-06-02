@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cajado do Yeti em Clover Retribution: Taxas de Drop e Estatísticas Mágicas",
+  description: "Domine o cajado do Yeti em Clover Retribution com nosso guia de 2026. Aprenda as taxas de drop, projetos de criação e as melhores estratégias 'cheese' para Mages contra o chefe Yeti.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Yeti+Staff+Guide",
+  date: "2026-06-02",
+  author: "Equipe Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **cajado do Yeti em Clover Retribution** é uma arma de alto nível para Magos, fornecendo **10 de Dano Mágico Base** e escalando com Inteligência.
+- **Taxa de Drop**: O cajado tem uma rara chance de **0,7% de drop** diretamente do chefe Yeti na Tundra.
+- **Criação**: Os jogadores podem obter uma chance de **3,6% de drop** para o Projeto do Cajado de Chifre de Yeti para uma criação garantida.
+- **Estratégia do Chefe**: Use o método "Wall Cheese" com um companheiro de equipe para farmar o Yeti com segurança, sem sofrer dano massivo em área.
+- **Melhor Build**: Foque em **Inteligência** e **Mana Sheath** para aumentar o dano M1 do cajado para mais de 36 por acerto.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Cajado de Chifre de Yeti">
+
+O **cajado do Yeti em Clover Retribution** (oficialmente conhecido como Cajado de Chifre de Yeti) é uma das armas mais cobiçadas para builds focadas em magia na meta atual de 2026. Encontrado nas profundezas do bioma congelado da Tundra, este cajado é feito dos chifres resistentes do chefe Yeti, canalizando o poder elemental bruto do norte em ataques mágicos devastadores. Ao contrário das armas físicas que dependem da Força, este cajado escala principalmente com Inteligência, tornando-o um pilar para configurações de Mago com alto DPS.
+
+**Destaques do Vídeo:**
+- Apresentação visual do modelo do **cajado do Yeti em Clover Retribution** e animações M1.
+- Comparação entre o Cajado do Yeti e o Cajado de Osso de Ogro.
+- Teste de dano mostrando mais de 26 de dano por acerto em monstros padrão.
+- Demonstração da postura única de segurar o cajado, "tipo Rei".
+
+<YouTubeEmbed videoId="DLFjN5bDjkE" title="Every staff + hammer stat showcase in clover retribution" />
+
+<Callout type="tip" title="Prioridade de Atributos">
+Embora o dano mágico base seja listado como 10, a produção real é significativamente maior quando combinada com um atributo de Inteligência alto e a habilidade Mana Sheath. Em testes recentes, os Magos alcançaram mais de 36 de dano por acerto M1.
+</Callout>
+
+| Nome da Arma | Tipo de Dano | Dano Base | Escala Principal | Raridade |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cajado de Chifre de Yeti** | **Mágico** | **10** | **Inteligência** | **Lendário** |
+| Cajado de Osso de Ogro | Mágico | 5 | Inteligência | Raro |
+| Martelo de Chifre de Yeti | Contundente | 11 | Força | Lendário |
+| Martelo de Lobo Alfa | Contundente | 7 | Força | Raro |
+
+</Section>
+
+<Section icon={Swords} title="Chefe Yeti: Localização e Mecânicas de Combate">
+
+Para obter o **cajado do Yeti em Clover Retribution**, você deve se aventurar na Tundra e enfrentar o Yeti. Este monstro é conhecido por sua alta quantidade de vida e habilidades de controle de multidão que podem facilmente aniquilar um grupo despreparado. O Yeti funciona em três fases de ataque distintas, cada uma exigindo padrões de movimento específicos para evitar ser atordoado ou esmagado.
+
+**Padrões de Ataque do Yeti:**
+- **Rugido do Yeti**: Um grito massivo em área que causa atordoamento e dano. Este é o movimento mais perigoso para Magos, pois interrompe o lançamento de feitiços.
+- **Chute do Yeti**: Um ataque físico semi-em área que empurra os jogadores para trás.
+- **Pancada do Yeti**: Um movimento de pancada no chão que causa dano pesado em área em um círculo ao redor do chefe.
+
+<Callout type="warning" title="Perigo da Tundra">
+O próprio ambiente da Tundra causa dano constante de "Frio" ao longo do tempo. É altamente recomendável trazer um Curandeiro ou usar itens de regeneração de vida ao farmar o Yeti para neutralizar o desgaste ambiental.
+</Callout>
+
+| Nome do Ataque | Efeito | Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Rugido do Yeti** | **Atordoamento + Dano** | **Segure o Bloqueio (F) imediatamente** |
+| **Chute do Yeti** | **Empurrão** | **Mantenha distância (alcance do Mago)** |
+| **Pancada do Yeti** | **Dano Pesado em Área** | **Desvie da zona vermelha** |
+
+</Section>
+
+<Section icon={Target} title="A Estratégia 'Cheese' do Chefe Yeti">
+
+Se você está com dificuldades para derrotar o chefe legitimamente, a comunidade descobriu um método "Cheese" que permite farmar o **cajado do Yeti em Clover Retribution** com risco mínimo. Isso requer pelo menos dois jogadores: um para atuar como "Leash" (Tanque) e outro para atuar como "DPS" (Mago).
+
+<Steps>
+  <Step num="1" title="Aggro o Chefe">
+    Peça para um jogador (o Leash) atacar o Yeti para ganhar aggro. O Leash deve conduzir o Yeti em direção à parede frontal da arena.
+  </Step>
+  <Step num="2" title="O Abraço da Parede">
+    O jogador Leash deve ficar contra a parede e segurar seu bloqueio (F). Se posicionado corretamente, o Yeti irá "abraçar" a parede enquanto tenta alcançar o jogador, travando efetivamente seu movimento.
+  </Step>
+  <Step num="3" title="DPS por Trás">
+    O segundo jogador (o Mago) deve se posicionar diretamente atrás do Yeti. Dessa posição, você pode spammar feitiços e ataques M1 com o cajado sem acionar os ataques frontais do Yeti.
+  </Step>
+  <Step num="4" title="Gerencie o Rugido">
+    Mesmo quando "cheesed", o Yeti ainda vai Rugir. Ambos os jogadores devem manter o bloqueio pronto. Quando a vida do Yeti estiver baixa, o jogador Leash pode se juntar para o abate final, maximizando a eficiência do loot.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Eficiência">
+Usar este método "cheese" reduz o tempo por abate em aproximadamente 40%, tornando a taxa de drop de 0,7% para o cajado muito mais gerenciável em longas sessões de farming.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Taxas de Drop e Requisitos de Criação">
+
+Obter o **cajado do Yeti em Clover Retribution** é um teste de paciência. O chefe possui uma tabela de loot em camadas, variando de materiais de criação comuns a armas lendárias ultra-raras. Você pode esperar por um drop direto da arma ou farmar o projeto para criá-lo você mesmo em um ferreiro.
+
+<CardGrid cols={2}>
+  <Card title="Drops Diretos de Armas">
+    - **Cajado de Chifre de Yeti**: 0,7%
+    - **Lança de Chifre de Yeti**: 0,7%
+    - **Espada de Chifre de Yeti**: 0,7%
+    - **Martelo de Chifre de Yeti**: 0,7%
+  </Card>
+  <Card title="Drops de Projetos">
+    - **Projeto de Cajado**: 3,6%
+    - **Projeto de Lança**: 3,6%
+    - **Projeto de Espada**: 3,6%
+    - **Projeto de Martelo**: 3,6%
+  </Card>
+</CardGrid>
+
+| Nome do Item | Chance de Drop | Caso de Uso |
+| :--- | :--- | :--- |
+| **Pelo de Yeti** | **34%** | **Criação de Armadura** |
+| **Chifre de Yeti** | **8%** | **Material de Criação de Arma** |
+| **Projetos** | **3,6%** | **Criação Garantida** |
+| **Armas Lendárias** | **0,7%** | **Aumento Instantâneo de Poder** |
+
+<Checklist
+  id="yeti-farming-goals"
+  title="Lista de Verificação de Farming:"
+  items={[
+    "Obtenha pelo menos 10 Peles de Yeti para conjuntos de armadura",
+    "Garanta o Projeto do Cajado de Chifre de Yeti",
+    "Colete 5 Chifres de Yeti para criação",
+    "Alcance o Nível 40+ para uma sobrevivência ideal na Tundra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Desempenho em Combate e Escala">
+
+O **cajado do Yeti em Clover Retribution** não é apenas para exibição; seu desempenho em combate é "brutal" em comparação com os cajados de início de jogo. O conjunto de animações M1 é único, apresentando um golpe pesado e autoritário que reflete seu status lendário. Embora a velocidade de ataque seja ligeiramente mais lenta que a de uma espada, o dano mágico por acerto compensa o atraso.
+
+**Métricas Chave de Desempenho:**
+- **Dano M1**: Escala diretamente com Inteligência. Em níveis básicos, espere 20-26 de dano. Com uma build dedicada, isso atinge mais de 36.
+- **Sinergia com Mana Sheath**: Ativar Mana Sheath enquanto empunha o cajado adiciona um bônus de dano fixo massivo a cada golpe.
+- **Alcance**: O cajado tem uma hitbox mais longa do que o cajado de Ogro, permitindo que os Magos ataquem os inimigos de uma distância mais segura.
+
+<Callout type="info" title="Escala de Inteligência">
+Cada ponto em Inteligência adiciona um multiplicador ao dano mágico base de 10 do cajado. Para a meta de 2026, um mínimo de 50 de Inteligência é recomendado para ver o verdadeiro potencial do cajado em PvP e PvE de alto nível.
+</Callout>
+
+| Nível de Atributo | Dano M1 Estimado | Bônus de Mana Sheath |
+| :--- | :--- | :--- |
+| Inteligência 10 | 12-15 | +5 |
+| Inteligência 30 | 20-24 | +8 |
+| **Inteligência 50** | **28-32** | **+12** |
+| Inteligência 80 | 40+ | +18 |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde o chefe Yeti está localizado em Clover Retribution?",
+    answer: "O Yeti está localizado no bioma Tundra. Procure por uma grande arena nevada, geralmente encontrada perto da 'frente' ou área de entrada da região da Tundra."
+  },
+  {
+    question: "O Cajado do Yeti é melhor que o Cajado de Osso de Ogro?",
+    answer: "Sim, o Cajado do Yeti é significativamente melhor. Ele tem o dobro do dano mágico base (10 vs 5) e melhor escala, embora seja muito mais difícil de obter devido à taxa de drop de 0,7%."
+  },
+  {
+    question: "Posso solar o Yeti para conseguir o cajado?",
+    answer: "É possível, mas muito difícil devido ao atordoamento do Rugido. É altamente recomendável usar o método 'cheese' com um amigo ou trazer um Curandeiro para lidar com o dano passivo da Tundra."
+  },
+  {
+    question: "O Cajado do Yeti tem alguma habilidade especial?",
+    answer: "Embora o próprio cajado se concentre em aprimorar sua magia e dano M1, os desenvolvedores notaram que encantamentos específicos de armas estão por vir em futuras atualizações de 2026."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, FlaskConical } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vampire Lord de Clover Retribution: Guía paso a paso de Jefe y Raza",
+  description: "Domina la batalla contra el jefe Vampire Lord en Clover Retribution y aprende cómo desbloquear la raza Elder Vampire con nuestra guía completa de farmeo y evolución de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Vampire+Lord+Guide",
+  date: "2026-06-02",
+  author: "Equipo de la Wiki de Clover Retribution"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Derrotar al **clover retribution vampire lord** para obtener Pure Vampire Blood y runas Aetherstone raras.
+- **Evolución de Raza**: Usa Pure Vampire Blood mientras estás bajo el efecto de **Scarlet Affliction** para transformarte en Fletchling, Vampire o Elder Vampire.
+- **Mecánica de Aparición**: Mata a 12 Vampire Soldiers para que aparezcan 3 Elites, lo que activará la llegada de Vampire Lucius.
+- **Mejor Build**: Los magos son los más beneficiados por la raza Elder Vampire debido a los bufos de **10% de Daño Mágico** y **15% de Maná**.
+- **Variante Corrupta**: Tiene un 30% de probabilidad de aparecer, presenta un aura púrpura y suelta la rara Vampire Spear.
+</Callout>
+
+<Section icon={Target} title="Cómo invocar al Vampire Lord de Clover Retribution">
+
+Localizar e invocar al **clover retribution vampire lord** (Lucius) requiere una progresión específica de muertes dentro del área del Castillo Vampiro. Este jefe no deambula simplemente por el mundo; debes provocar su aparición diezmando su ejército de no muertos.
+
+**Puntos clave del vídeo:**
+- **Ubicación**: Navega hacia el portal rojo cerca de la raid de Medusa y sigue el camino a la izquierda hacia el Castillo Vampiro.
+- **Requisitos de Mobs**: Mata a 12 Vampire Soldiers para activar el mensaje "Stronger vampires can now be seen around the castle" (Ahora se pueden ver vampiros más fuertes alrededor del castillo).
+- **Fase de Elites**: Derrota a los 3 Vampire Elites al otro lado del puente para que aparezca Lucius.
+- **Probabilidad de Corrupto**: Cada muerte de un jefe no corrupto aumenta la probabilidad de que la siguiente aparición sea Corrupta.
+
+<YouTubeEmbed videoId="svJP0ubhn08" title="Guía de Elder Vampire y Vampire Lord" />
+
+| Fase | Requisito | Mensaje de Activación |
+| :--- | :--- | :--- |
+| **Soldados** | Matar 12-13 Soldados | "Stronger vampires can now be seen around the castle." |
+| **Elites** | Matar 3 Vampire Elites | "A shadow deepens... Vampire Lucius awakens." |
+| **Jefe** | Derrotar a Lucius | "Vampire Lucius has been defeated!" |
+
+<Callout type="warning" title="Alerta de Aparición">
+Si ves el mensaje "A shadow deepens across the land as vampire Lucius awakens", se trata de un jefe estándar. Si aparece un segundo mensaje sobre una presencia "Primal", te enfrentas a la variante Corrupta, que es significativamente más difícil pero ofrece mejor botín.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate y Mecánicas del Jefe">
+
+Luchar contra el **clover retribution vampire lord** requiere alta movilidad o un tanque dedicado. Lucius utiliza ataques AOE de gran daño y una mecánica de escudo que lo hace formidable para jugadores en solitario por debajo del nivel 200.
+
+<CardGrid cols={2}>
+  <Card title="Lucius Normal">
+    - **Escudo**: Regenera el escudo hasta el 50% de HP.
+    - **AOE**: Telegrafía círculos blancos en el suelo.
+    - **Velocidad**: Movimiento moderado, fácil de kitear.
+  </Card>
+  <Card title="Lucius Corrupto">
+    - **Sin Escudo**: El escudo se rompe permanentemente después del 50% de HP.
+    - **Aura Púrpura**: Aumento masivo de daño en todas las habilidades.
+    - **Drop Raro**: Única variante que suelta la **Vampire Spear**.
+  </Card>
+</CardGrid>
+
+**Patrones de Ataque del Jefe:**
+1. **Ataque de Estocada**: Un desplazamiento rápido hacia el jugador con alto daño físico.
+2. **AOE de Sangre**: Aparecen círculos grandes en el suelo; mantente fuera de ellos o recibirás un daño por tic masivo.
+3. **Explosión de Escudo**: Lucius emite una onda de choque cuando golpean su escudo, empujando a los atacantes cuerpo a cuerpo.
+
+| Tipo de Ataque | Rango de Daño | Estrategia de Evasión |
+| :--- | :--- | :--- |
+| **Ground Slam** | Alto (Físico) | Deslízate hacia atrás cuando levante el brazo. |
+| **Blood Spikes** | Moderado (Mágico) | Muévete lateralmente para evitar las púas de rastreo. |
+| **Lucius Ultimate** | Fatal | Escóndete detrás de los pilares o usa el truco de saltar paredes. |
+
+<Callout type="tip" title="Estrategia Pro Cheese">
+Si tienes dificultades, usa un tanque con Divine Restriction (DR) para atraer el agro y salta a los bordes de la muralla del castillo. Lucius a menudo se queda bloqueado en la geometría, permitiendo que los magos lo ataquen de forma segura con hechizos desde la distancia.
+</Callout>
+
+</Section>
+
+<Section icon={FlaskConical} title="Desbloqueando la Raza Elder Vampire">
+
+El Elder Vampire es posiblemente la mejor raza para magos en Clover Retribution. Aunque puedes intentar obtenerla mediante giros (2% de probabilidad), el método más fiable es a través de la cadena de misiones de "Infección" proporcionada por el NPC Dorian.
+
+<Steps>
+  <Step num="1" title="La Misión de Scarlet Lily">
+    Busca a Dorian dentro del Castillo Vampiro. Te encargará encontrar 5 **Scarlet Lilies**. Estas aparecen aleatoriamente en lugar de las Mana Flowers o Fire Lilies normales en el mundo exterior.
+  </Step>
+  <Step num="2" title="El Farmeo Diario">
+    Completa las misiones diarias de Dorian durante 15 días. Necesitarás farmear Vampire Soldiers, Elites y, finalmente, al propio Lucius para reunir materiales como el **Phantom Flask** y el **Cursed Sigil**.
+  </Step>
+  <Step num="3" title="La Infección">
+    Busca a un jugador que sea Awakened Elder Vampire y haz que te muerda. Tienes un 5% de probabilidad de recibir el rasgo **Scarlet Affliction**. Si mueres durante la mordedura, la infección habrá fallado.
+  </Step>
+  <Step num="4" title="Consumo">
+    Mientras tengas el rasgo Scarlet Affliction, consume **Pure Vampire Blood** (soltada por el Vampire Lord). Esto reiniciará tu raza a uno de los tres niveles de vampiro.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tasas de Infección">
+Al consumir la sangre bajo el efecto de Scarlet Affliction, las probabilidades son: **Fletchling (70%)**, **Vampire (29%)** y **Elder Vampire (1%)**. Si obtienes Fletchling, a menudo es mejor reiniciar e intentar la infección de nuevo en lugar de farmear la enorme cantidad de sangre necesaria para evolucionarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Estadísticas de Raza y Requisitos de Evolución">
+
+Una vez que te hayas convertido en vampiro, puedes mejorar tu nivel usando Pure Vampire Blood o fabricando el **Bloodbound Relic** en el NPC Pot Maker (requiere Nivel 70 de Alquimia).
+
+| Nivel de Raza | Estadísticas Clave | Coste de Evolución |
+| :--- | :--- | :--- |
+| **Fletchling** | +5 Int, +5 Con, 1% Regeneración HP | 10 Pure Blood a Vampire |
+| **Vampire** | +10 Int, +10 Con, 1.5% Regeneración HP | 20 Pure Blood a Elder |
+| **Elder Vampire** | +20 Int, +20 Con, 2.5% Regeneración HP | 20 Pure Blood a Awakened |
+
+**Beneficios Pasivos del Elder Vampire:**
+- **Inmunidad**: Inmunidad completa al Veneno.
+- **Reserva de Maná**: +15% de Maná Máximo y +3 de Regeneración de Maná plana.
+- **Daño**: +10% de Daño Mágico.
+- **Sentidos Agudizados**: Capacidad de ver qué jugadores tienen Devils equipados.
+
+<Checklist
+  id="vampire-essentials"
+  title="Lista de Verificación de Progresión Vampírica:"
+  items={[
+    "Alcanzar el Nivel 70 de Alquimia para fabricar reliquias",
+    "Obtener Pure Vampire Blood de Lucius (Drop Mítico)",
+    "Encontrar a un jugador Awakened para la mordedura de Scarlet Affliction",
+    "Reunir 5 Cursed Sigils de las misiones de alto nivel de Dorian",
+    "Recolectar Nocturnal Thread para la fabricación de armaduras"
+  ]}
+/>
+
+<Callout type="info">
+La forma **Awakened Elder Vampire** es principalmente una mejora estética y de utilidad, permitiéndote transformarte e infectar a otros. Las bonificaciones de estadísticas son idénticas a las de la raza Elder Vampire estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín y Eficiencia de Farmeo">
+
+Farmear al **clover retribution vampire lord** es la forma más eficiente de obtener runas Aetherstone, que son esenciales para equipo de alto nivel como la Aether Blade.
+
+| Nombre del Objeto | Rareza | Fuente de Caída | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Pure Vampire Blood** | Mítico | Cofre del Jefe | Evolución de Raza |
+| **Aetherstone Runes** | Raro | Cofre de Elite/Jefe | Fabricación de Golem |
+| **Vampire Armor** | Poco Común | Soldados/Elites | Defensa de juego temprano |
+| **Vampire Spear** | Legendario | Lucius Corrupto | Arma de alta Destreza |
+| **Nocturnal Thread** | Común | Todos los Vampiros | Material de Fabricación |
+
+<Callout type="tip" title="Consejo de Farmeo">
+Únete al Discord oficial para encontrar grupos de "Vampire Lord Grind". Rotar servidores con un grupo de 4 personas permite invocar a Lucius cada 5-7 minutos, maximizando tus ingresos de runas y sangre por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El Vampire Lord suelta la raza directamente?",
+    answer: "No, el jefe suelta Pure Vampire Blood, que es un ingrediente necesario. Primero debes obtener el rasgo Scarlet Affliction de la mordedura de otro jugador antes de usar la sangre para cambiar tu raza."
+  },
+  {
+    question: "¿Cuál es la diferencia entre un Vampire Lord normal y uno Corrupto?",
+    answer: "La versión Corrupta tiene un aura púrpura, más salud y no tiene regeneración de escudo por debajo del 50% de HP. Es la única fuente de la Vampire Spear Legendaria."
+  },
+  {
+    question: "¿Puedo mantener mi raza actual si uso Pure Vampire Blood?",
+    answer: "No, usar Pure Vampire Blood mientras estás infectado reemplazará permanentemente tu raza actual. Asegúrate de tener Clover Storage si quieres guardar tu raza anterior."
+  },
+  {
+    question: "¿Cómo obtengo el plano del Bloodbound Relic?",
+    answer: "El plano es un drop garantizado la primera vez que completas la misión final de Dorian que consiste en derrotar a tres Vampire Lords."
+  }
+]} />
+
+</Section>

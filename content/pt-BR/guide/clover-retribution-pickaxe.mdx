@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Picareta de Retribuição Clover: Guia de Mineração e Localização de Projetos",
+  description: "Domine o sistema de picaretas de Retribuição Clover. Saiba onde encontrar o Mestre Mineiro Akumir, comprar projetos e otimizar sua profissão de mineração em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mining+and+Pickaxe+Guide",
+  date: "2026-06-02",
+  author: "Equipe Wiki de Retribuição Clover"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Picareta de Retribuição Clover**: Ferramentas essenciais para a profissão de Mineração, exigindo projetos específicos do Mestre Mineiro Akumir.
+- **Profissão de Mineração**: Deve ser desbloqueada completando a missão "Aprendendo Profissões" no Lago Aestherstone.
+- **Custo do Projeto**: Os projetos de Picareta de Cobre e Ferro custam **1000 Ouro** cada, do NPC Mestre Mineiro.
+- **Aviso sobre Árvore de Habilidades**: Os pontos de habilidade são atualmente **permanentes**; evite desperdiçá-los em pequenos bônus como o impulso de vassoura.
+- **Sinergia com Ferraria**: Você precisa da profissão de Ferraria para fabricar picaretas depois de possuir os projetos.
+</Callout>
+
+<Section icon={Map} title="Profissão de Mineração e Fundamentos da Ferramenta">
+
+A mineração é uma das profissões mais lucrativas e essenciais em Retribuição Clover, fornecendo as matérias-primas necessárias para a criação de equipamentos e armas de alto nível. Para começar sua jornada, você não pode simplesmente começar a bater nas rochas; você deve primeiro garantir uma **picareta de retribuição clover**. Essas ferramentas são categorizadas por seu nível de material, que dita que tipo de minérios você pode colher eficientemente e a velocidade com que os extrai.
+
+Antes de usar uma picareta, você deve aderir oficialmente ao sistema de profissões. Isso é feito pelo NPC Mestre de Profissões Ogol. Sem essa etapa inicial, você não conseguirá ganhar experiência ou utilizar os projetos necessários para a criação de ferramentas.
+
+| Requisito da Profissão | Localização do NPC | Recompensa |
+| :--- | :--- | :--- |
+| **Missão Aprendendo Profissões** | Lago Aestherstone | +1500 Exp, +1000 Ouro |
+| **Especialização em Mineração** | Mestre Mineiro Akumir | Acesso a Projetos de Lingotes |
+| **Especialização em Ferraria** | Mestre de Profissões Ogol | Capacidade de fabricar Picaretas |
+
+<Callout type="tip" title="Dica Profissional">
+Certifique-se sempre de ter pelo menos 2000 Ouro antes de ir para o Lago Aestherstone. Isso cobre as recompensas da missão inicial e o custo dos seus primeiros projetos.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Picareta de Cobre">
+    - **Nível**: Ferramenta de mineração de nível de entrada.
+    - **Requisito**: Projeto de Picareta de Cobre.
+    - **Melhor para**: Colheita de depósitos básicos de Cobre e Carvão.
+  </Card>
+  <Card title="Picareta de Ferro">
+    - **Nível**: Ferramenta de mineração de nível médio.
+    - **Requisito**: Projeto de Picareta de Ferro.
+    - **Melhor para**: Mineração eficiente de Ferro e veias minerais raras.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Como Obter Projetos de Picareta">
+
+Adquirir uma **picareta de retribuição clover** é um processo de duas etapas que envolve a aquisição do projeto e a subsequente fabricação. Ao contrário das armas padrão que podem cair de chefes, as picaretas são itens estritamente baseados em profissão. Você deve localizar o Mestre Mineiro Akumir, que serve como o principal fornecedor de todos os esquemas relacionados à mineração.
+
+<Steps>
+  <Step num="1" title="Localize o Lago Aestherstone">
+    Viaje para o Lago Aestherstone para encontrar o Mestre de Profissões Ogol. Complete a missão "Aprendendo Profissões" para desbloquear o sistema.
+  </Step>
+  <Step num="2" title="Encontre o Mestre Mineiro Akumir">
+    Akumir geralmente está localizado perto de nós de mineração ou dentro dos centros de profissão. Ele vende os projetos essenciais para ferramentas e materiais refinados.
+  </Step>
+  <Step num="3" title="Compre os Projetos">
+    Compre o Projeto de Picareta de Cobre e o Projeto de Picareta de Ferro. Cada um custará 1000 Ouro.
+  </Step>
+  <Step num="4" title="Reúna Materiais">
+    Minere minério bruto (usando uma ferramenta básica, se disponível, ou comprando matérias-primas) e use os projetos de lingotes de Akumir para criar as barras necessárias.
+  </Step>
+  <Step num="5" title="Fabrique na Ferraria">
+    Vá para uma forja e use sua habilidade de Ferraria para transformar os projetos e lingotes em uma picareta funcional.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito de Projeto">
+Note que o Projeto de Picareta de Cobre é especificamente comprado do Mestre Mineiro Akumir, enquanto muitos outros projetos de armas são comprados de Ogol. Não confunda os dois NPCs.
+</Callout>
+
+| Nome do Projeto | Vendedor | Preço | Habilidade Necessária |
+| :--- | :--- | :--- | :--- |
+| **Projeto de Picareta de Cobre** | Mestre Mineiro Akumir | 1000 Ouro | Ferraria |
+| **Projeto de Picareta de Ferro** | Mestre Mineiro Akumir | 1000 Ouro | Ferraria |
+| **Projeto de Lingote de Cobre** | Mestre Mineiro Akumir | 1000 Ouro | Mineração |
+| **Projeto de Lingote de Ferro** | Mestre Mineiro Akumir | 1000 Ouro | Mineração |
+
+</Section>
+
+<Section icon={Swords} title="Otimização da Árvore de Habilidades para Profissionais">
+
+Embora a **picareta de retribuição clover** cuide do trabalho físico, a árvore de habilidades do seu personagem dita sua eficiência e poder geral. A partir de 2026, os pontos de habilidade são extremamente escassos e não há como redefini-los depois de gastos. Isso torna cada ponto investido em sua construção crítico, especialmente se você planeja equilibrar o combate com profissões como mineração ou culinária.
+
+**Destaques do Vídeo:**
+- **Escassez de Pontos de Habilidade**: Você só recebe 43 pontos de habilidade no nível máximo atual.
+- **Sem Redefinições**: Atualmente é impossível redefinir pontos de habilidade usados, então planeje sua construção com cuidado.
+- **Sinergia Mágica**: Magias como Luz e Sombra possuem árvores dedicadas que aumentam significativamente o desempenho.
+- **Evite Armadilhas**: O "Impulso de Vassoura" é considerado um desperdício de pontos para a maioria dos jogadores.
+
+<YouTubeEmbed videoId="3qfRgeTZQc0" title="Guia da Árvore de Habilidades de Retribuição Clover" />
+
+Para jogadores focados na profissão de Mineração, você pode querer procurar nós de utilidade que melhorem sua capacidade de sobrevivência ao farmar em zonas perigosas. No entanto, o foco principal deve permanecer em sua magia de combate para garantir que você possa defender seus nós de mineração de mobs agressivos ou outros jogadores.
+
+| Ramo | Recomendação | Razão |
+| :--- | :--- | :--- |
+| **Inteligência (INT)** | Alta Prioridade | Essencial para magos; pegue nós de dano mágico. |
+| **Destreza (DEX)** | Moderada | Útil para jogadores de Restrição Divina e velocidade M1. |
+| **Força (STR)** | Baixa Prioridade | Geralmente menos eficaz que INT ou DEX no meta atual. |
+| **Impulso de Vassoura** | **Evite** | 10% de velocidade não vale os preciosos pontos de habilidade. |
+
+<Callout type="success" title="Dica Meta">
+Se você é um usuário de Luz, priorize o ramo Mergulho do Espírito de Luz. A redução de 20% no tempo de recarga é uma virada de jogo tanto para farmar quanto para combate de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ferraria e Refino de Materiais">
+
+Possuir uma **picareta de retribuição clover** é apenas metade da batalha. Para manter seu equipamento e progredir para níveis mais altos, você deve dominar o processo de refino. A mineração fornece minério bruto, mas a profissão de Ferraria é necessária para transformar esse minério em itens úteis. O Mestre Mineiro Akumir fornece os projetos para lingotes, que são os blocos de construção fundamentais para todas as ferramentas avançadas.
+
+| Material | Fonte Bruta | Forma Refinada | Custo do Projeto |
+| :--- | :--- | :--- | :--- |
+| **Cobre** | Nós de Minério de Cobre | Lingote de Cobre | 1000 Ouro |
+| **Ferro** | Nós de Minério de Ferro | Lingote de Ferro | 1000 Ouro |
+| **Ouro** | Veias Raras de Ouro | Lingote de Ouro | Varia |
+
+O processo de refino exige que você tenha o projeto em seu inventário e esteja perto de uma fornalha. À medida que você sobe de nível em Mineração e Ferraria, você desbloqueará a capacidade de criar itens mais complexos, incluindo a Picareta de Ferro, que reduz significativamente o tempo gasto em cada nó de minério.
+
+<Callout type="info" title="Localização do Vendedor">
+Lembre-se que o Mestre de Profissões Ogol no Lago Aestherstone vende os projetos básicos de armas (Espada Quebrada, Martelo de Cobre), mas Akumir é o único que vende os esquemas específicos de picareta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão de Mineração">
+
+Para garantir que você está maximizando sua eficiência com a **picareta de retribuição clover**, siga esta lista de verificação de progressão. Completar esses marcos o preparará para o sucesso na economia de criação de itens do final do jogo.
+
+<Checklist
+  id="mining-progression"
+  title="Metas de Maestria em Mineração:"
+  items={[
+    "Chegue ao Lago Aestherstone e complete a missão Aprendendo Profissões.",
+    "Compre os projetos de Picareta de Cobre e Lingote de Cobre de Akumir.",
+    "Fabrique sua primeira Picareta de Cobre em uma estação de Ferraria.",
+    "Alcance o nível de Mineração necessário para utilizar ferramentas de Ferro.",
+    "Obtenha o projeto de Picareta de Ferro e atualize seu equipamento.",
+    "Economize pontos de habilidade para nós mágicos de alto impacto em vez de armadilhas de utilidade."
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia de Farm">
+Concentre-se nos nós de Ferro assim que conseguir sua Picareta de Ferro. Lingotes de Ferro são muito procurados para a criação de armas de Aço e conjuntos de armadura avançados, tornando-os uma ótima fonte de renda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como consigo a primeira picareta de retribuição clover?",
+    answer: "Você deve primeiro completar a missão 'Aprendendo Profissões' no Lago Aestherstone. Em seguida, visite o Mestre Mineiro Akumir para comprar o Projeto de Picareta de Cobre por 1000 Ouro e fabricá-la usando a profissão de Ferraria."
+  },
+  {
+    question: "Onde o Mestre Mineiro Akumir está localizado?",
+    answer: "O Mestre Mineiro Akumir é encontrado nas áreas de centro de profissões, tipicamente perto do Lago Aestherstone ou dentro de grandes acampamentos de mineração. Ele é o vendedor exclusivo de projetos de picaretas e lingotes."
+  },
+  {
+    question: "Posso redefinir meus pontos de habilidade se eu cometer um erro?",
+    answer: "Não, a partir da atualização atual de 2026, as redefinições de pontos de habilidade não foram implementadas. Você deve gastar seus 43 pontos disponíveis com muito cuidado para evitar se prender a construções não ótimas."
+  },
+  {
+    question: "Qual é a diferença entre a picareta de Cobre e a de Ferro?",
+    answer: "A Picareta de Ferro tem maior durabilidade e mina nós de minério muito mais rápido do que a versão de Cobre. Ela também permite colher minerais de nível superior que são muito difíceis para ferramentas de cobre."
+  }
+]} />
+
+</Section>
