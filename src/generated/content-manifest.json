@@ -1,0 +1,1850 @@
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "Clover-Retribution-anti-magic-build",
+        "file": "Clover-Retribution-anti-magic-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-build",
+        "file": "Clover-Retribution-best-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-magic",
+        "file": "Clover-Retribution-best-magic"
+      },
+      {
+        "slug": "Clover-Retribution-best-race",
+        "file": "Clover-Retribution-best-race"
+      },
+      {
+        "slug": "Clover-Retribution-best-trait",
+        "file": "Clover-Retribution-best-trait"
+      },
+      {
+        "slug": "Clover-Retribution-builds",
+        "file": "Clover-Retribution-builds"
+      },
+      {
+        "slug": "Clover-Retribution-heavenly-restricted",
+        "file": "Clover-Retribution-heavenly-restricted"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-devil",
+        "file": "Clover-Retribution-hybrid-devil"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-paladin",
+        "file": "Clover-Retribution-hybrid-paladin"
+      },
+      {
+        "slug": "Clover-Retribution-legion-build",
+        "file": "Clover-Retribution-legion-build"
+      },
+      {
+        "slug": "clover-retribution-adrenaline-fiend",
+        "file": "clover-retribution-adrenaline-fiend"
+      },
+      {
+        "slug": "clover-retribution-arcane-zenith",
+        "file": "clover-retribution-arcane-zenith"
+      },
+      {
+        "slug": "clover-retribution-bond-of-blessings",
+        "file": "clover-retribution-bond-of-blessings"
+      },
+      {
+        "slug": "clover-retribution-demon-union",
+        "file": "clover-retribution-demon-union"
+      },
+      {
+        "slug": "clover-retribution-divine-restriction",
+        "file": "clover-retribution-divine-restriction"
+      },
+      {
+        "slug": "clover-retribution-frenzied-flame",
+        "file": "clover-retribution-frenzied-flame"
+      },
+      {
+        "slug": "clover-retribution-gaia-s-blessing",
+        "file": "clover-retribution-gaia's-blessing"
+      },
+      {
+        "slug": "clover-retribution-ice-elf",
+        "file": "clover-retribution-ice-elf"
+      },
+      {
+        "slug": "clover-retribution-kitsune",
+        "file": "clover-retribution-kitsune"
+      },
+      {
+        "slug": "clover-retribution-nogitsune",
+        "file": "clover-retribution-nogitsune"
+      },
+      {
+        "slug": "clover-retribution-starborn",
+        "file": "clover-retribution-starborn"
+      },
+      {
+        "slug": "clover-retribution-unyielding-sentinel",
+        "file": "clover-retribution-unyielding-sentinel"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Clover-Retribution-codes",
+        "file": "Clover-Retribution-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Clover-Retribution-beginner-guide",
+        "file": "Clover-Retribution-beginner-guide"
+      },
+      {
+        "slug": "Clover-Retribution-controls",
+        "file": "Clover-Retribution-controls"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-more-spins",
+        "file": "Clover-Retribution-how-to-get-more-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spells",
+        "file": "Clover-Retribution-how-to-get-spells"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spins",
+        "file": "Clover-Retribution-how-to-get-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-join-party",
+        "file": "Clover-Retribution-how-to-join-party"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-open-map",
+        "file": "Clover-Retribution-how-to-open-map"
+      },
+      {
+        "slug": "Clover-Retribution-leveling-guide",
+        "file": "Clover-Retribution-leveling-guide"
+      },
+      {
+        "slug": "Clover-Retribution-main-quest-guide",
+        "file": "Clover-Retribution-main-quest-guide"
+      },
+      {
+        "slug": "Clover-Retribution-progression-guide",
+        "file": "Clover-Retribution-progression-guide"
+      },
+      {
+        "slug": "clover-retribution-aetherstone-golem",
+        "file": "clover-retribution-aetherstone-golem"
+      },
+      {
+        "slug": "clover-retribution-armor",
+        "file": "clover-retribution-armor"
+      },
+      {
+        "slug": "clover-retribution-artemis-tower",
+        "file": "clover-retribution-artemis-tower"
+      },
+      {
+        "slug": "clover-retribution-broom",
+        "file": "clover-retribution-broom"
+      },
+      {
+        "slug": "clover-retribution-copper",
+        "file": "clover-retribution-copper"
+      },
+      {
+        "slug": "clover-retribution-corrupted-mana-from-yetis",
+        "file": "clover-retribution-corrupted-mana-from-yetis"
+      },
+      {
+        "slug": "clover-retribution-crimson-forest",
+        "file": "clover-retribution-crimson-forest"
+      },
+      {
+        "slug": "clover-retribution-daily-quest",
+        "file": "clover-retribution-daily-quest"
+      },
+      {
+        "slug": "clover-retribution-devil-portal-spawns",
+        "file": "clover-retribution-devil-portal-spawns"
+      },
+      {
+        "slug": "clover-retribution-devil-portal",
+        "file": "clover-retribution-devil-portal"
+      },
+      {
+        "slug": "clover-retribution-devil-quest",
+        "file": "clover-retribution-devil-quest"
+      },
+      {
+        "slug": "clover-retribution-devils",
+        "file": "clover-retribution-devils"
+      },
+      {
+        "slug": "clover-retribution-dragon-ball-locations",
+        "file": "clover-retribution-dragon-ball-locations"
+      },
+      {
+        "slug": "clover-retribution-elder-vampire",
+        "file": "clover-retribution-elder-vampire"
+      },
+      {
+        "slug": "clover-retribution-enemies",
+        "file": "clover-retribution-enemies"
+      },
+      {
+        "slug": "clover-retribution-excalibur",
+        "file": "clover-retribution-excalibur"
+      },
+      {
+        "slug": "clover-retribution-first-kingdom",
+        "file": "clover-retribution-first-kingdom"
+      },
+      {
+        "slug": "clover-retribution-gorgon",
+        "file": "clover-retribution-gorgon"
+      },
+      {
+        "slug": "clover-retribution-kraken-drops",
+        "file": "clover-retribution-kraken-drops"
+      },
+      {
+        "slug": "clover-retribution-kraken",
+        "file": "clover-retribution-kraken"
+      },
+      {
+        "slug": "clover-retribution-lesser-devil-location",
+        "file": "clover-retribution-lesser-devil-location"
+      },
+      {
+        "slug": "clover-retribution-map",
+        "file": "clover-retribution-map"
+      },
+      {
+        "slug": "clover-retribution-ogre",
+        "file": "clover-retribution-ogre"
+      },
+      {
+        "slug": "clover-retribution-pickaxe",
+        "file": "clover-retribution-pickaxe"
+      },
+      {
+        "slug": "clover-retribution-prestige",
+        "file": "clover-retribution-prestige"
+      },
+      {
+        "slug": "clover-retribution-pure-vampire-blood",
+        "file": "clover-retribution-pure-vampire-blood"
+      },
+      {
+        "slug": "clover-retribution-races",
+        "file": "clover-retribution-races"
+      },
+      {
+        "slug": "clover-retribution-runes",
+        "file": "clover-retribution-runes"
+      },
+      {
+        "slug": "clover-retribution-siphonite-race",
+        "file": "clover-retribution-siphonite-race"
+      },
+      {
+        "slug": "clover-retribution-skill-tree",
+        "file": "clover-retribution-skill-tree"
+      },
+      {
+        "slug": "clover-retribution-stats",
+        "file": "clover-retribution-stats"
+      },
+      {
+        "slug": "clover-retribution-umbral-abyss-stone",
+        "file": "clover-retribution-umbral-abyss-stone"
+      },
+      {
+        "slug": "clover-retribution-vampire-castle-location",
+        "file": "clover-retribution-vampire-castle-location"
+      },
+      {
+        "slug": "clover-retribution-vampire-lord",
+        "file": "clover-retribution-vampire-lord"
+      },
+      {
+        "slug": "clover-retribution-wishing-well-sword",
+        "file": "clover-retribution-wishing-well-sword"
+      },
+      {
+        "slug": "clover-retribution-wolf-iron-jacket",
+        "file": "clover-retribution-wolf-iron-jacket"
+      },
+      {
+        "slug": "clover-retribution-xp-farm",
+        "file": "clover-retribution-xp-farm"
+      },
+      {
+        "slug": "clover-retribution-yeti-staff",
+        "file": "clover-retribution-yeti-staff"
+      }
+    ],
+    "links": [
+      {
+        "slug": "Clover-Retribution-discord",
+        "file": "Clover-Retribution-discord"
+      },
+      {
+        "slug": "Clover-Retribution-group",
+        "file": "Clover-Retribution-group"
+      },
+      {
+        "slug": "Clover-Retribution-private-server",
+        "file": "Clover-Retribution-private-server"
+      },
+      {
+        "slug": "Clover-Retribution-trello",
+        "file": "Clover-Retribution-trello"
+      },
+      {
+        "slug": "Clover-Retribution-update",
+        "file": "Clover-Retribution-update"
+      }
+    ],
+    "magic": [
+      {
+        "slug": "Clover-Retribution-key-magic",
+        "file": "Clover-Retribution-key-magic"
+      },
+      {
+        "slug": "Clover-Retribution-light-magic",
+        "file": "Clover-Retribution-light-magic"
+      },
+      {
+        "slug": "Clover-Retribution-magic",
+        "file": "Clover-Retribution-magic"
+      },
+      {
+        "slug": "Clover-Retribution-sand-magic",
+        "file": "Clover-Retribution-sand-magic"
+      },
+      {
+        "slug": "Clover-Retribution-shadow-magic",
+        "file": "Clover-Retribution-shadow-magic"
+      },
+      {
+        "slug": "Clover-Retribution-slash-magic",
+        "file": "Clover-Retribution-slash-magic"
+      },
+      {
+        "slug": "Clover-Retribution-spatial-magic",
+        "file": "Clover-Retribution-spatial-magic"
+      },
+      {
+        "slug": "Clover-Retribution-void-magic",
+        "file": "Clover-Retribution-void-magic"
+      },
+      {
+        "slug": "clover-retribution-anti-magic",
+        "file": "clover-retribution-anti-magic"
+      },
+      {
+        "slug": "clover-retribution-balance-magic",
+        "file": "clover-retribution-balance-magic"
+      },
+      {
+        "slug": "clover-retribution-blood-magic",
+        "file": "clover-retribution-blood-magic"
+      },
+      {
+        "slug": "clover-retribution-bronze-magic",
+        "file": "clover-retribution-bronze-magic"
+      },
+      {
+        "slug": "clover-retribution-dark-magic",
+        "file": "clover-retribution-dark-magic"
+      },
+      {
+        "slug": "clover-retribution-dice-magic",
+        "file": "clover-retribution-dice-magic"
+      },
+      {
+        "slug": "clover-retribution-divine-magic",
+        "file": "clover-retribution-divine-magic"
+      },
+      {
+        "slug": "clover-retribution-earth-4-leaf",
+        "file": "clover-retribution-earth-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-earth-magic",
+        "file": "clover-retribution-earth-magic"
+      },
+      {
+        "slug": "clover-retribution-eternal-thirst",
+        "file": "clover-retribution-eternal-thirst"
+      },
+      {
+        "slug": "clover-retribution-grimoires",
+        "file": "clover-retribution-grimoires"
+      },
+      {
+        "slug": "clover-retribution-ice-magic",
+        "file": "clover-retribution-ice-magic"
+      },
+      {
+        "slug": "clover-retribution-imitation-magic",
+        "file": "clover-retribution-imitation-magic"
+      },
+      {
+        "slug": "clover-retribution-legion-magic",
+        "file": "clover-retribution-legion-magic"
+      },
+      {
+        "slug": "clover-retribution-lightning-magic",
+        "file": "clover-retribution-lightning-magic"
+      },
+      {
+        "slug": "clover-retribution-poison-magic",
+        "file": "clover-retribution-poison-magic"
+      },
+      {
+        "slug": "clover-retribution-sunshine-magic",
+        "file": "clover-retribution-sunshine-magic"
+      },
+      {
+        "slug": "clover-retribution-time-magic",
+        "file": "clover-retribution-time-magic"
+      },
+      {
+        "slug": "clover-retribution-void-4-leaf",
+        "file": "clover-retribution-void-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-water-magic",
+        "file": "clover-retribution-water-magic"
+      },
+      {
+        "slug": "clover-retribution-wind-4-leaf",
+        "file": "clover-retribution-wind-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-world-tree-magic",
+        "file": "clover-retribution-world-tree-magic"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "Clover-Retribution-grimoire-tier-list",
+        "file": "Clover-Retribution-grimoire-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-magic-tier-list",
+        "file": "Clover-Retribution-magic-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-race-tier-list",
+        "file": "Clover-Retribution-race-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-tier-list",
+        "file": "Clover-Retribution-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-trait-tier-list",
+        "file": "Clover-Retribution-trait-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-weapons-tier-list",
+        "file": "Clover-Retribution-weapons-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "Clover-Retribution-anti-magic-build",
+        "file": "Clover-Retribution-anti-magic-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-build",
+        "file": "Clover-Retribution-best-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-magic",
+        "file": "Clover-Retribution-best-magic"
+      },
+      {
+        "slug": "Clover-Retribution-best-race",
+        "file": "Clover-Retribution-best-race"
+      },
+      {
+        "slug": "Clover-Retribution-best-trait",
+        "file": "Clover-Retribution-best-trait"
+      },
+      {
+        "slug": "Clover-Retribution-builds",
+        "file": "Clover-Retribution-builds"
+      },
+      {
+        "slug": "Clover-Retribution-heavenly-restricted",
+        "file": "Clover-Retribution-heavenly-restricted"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-devil",
+        "file": "Clover-Retribution-hybrid-devil"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-paladin",
+        "file": "Clover-Retribution-hybrid-paladin"
+      },
+      {
+        "slug": "Clover-Retribution-legion-build",
+        "file": "Clover-Retribution-legion-build"
+      },
+      {
+        "slug": "clover-retribution-adrenaline-fiend",
+        "file": "clover-retribution-adrenaline-fiend"
+      },
+      {
+        "slug": "clover-retribution-arcane-zenith",
+        "file": "clover-retribution-arcane-zenith"
+      },
+      {
+        "slug": "clover-retribution-bond-of-blessings",
+        "file": "clover-retribution-bond-of-blessings"
+      },
+      {
+        "slug": "clover-retribution-demon-union",
+        "file": "clover-retribution-demon-union"
+      },
+      {
+        "slug": "clover-retribution-divine-restriction",
+        "file": "clover-retribution-divine-restriction"
+      },
+      {
+        "slug": "clover-retribution-frenzied-flame",
+        "file": "clover-retribution-frenzied-flame"
+      },
+      {
+        "slug": "clover-retribution-gaia-s-blessing",
+        "file": "clover-retribution-gaia's-blessing"
+      },
+      {
+        "slug": "clover-retribution-ice-elf",
+        "file": "clover-retribution-ice-elf"
+      },
+      {
+        "slug": "clover-retribution-kitsune",
+        "file": "clover-retribution-kitsune"
+      },
+      {
+        "slug": "clover-retribution-nogitsune",
+        "file": "clover-retribution-nogitsune"
+      },
+      {
+        "slug": "clover-retribution-starborn",
+        "file": "clover-retribution-starborn"
+      },
+      {
+        "slug": "clover-retribution-unyielding-sentinel",
+        "file": "clover-retribution-unyielding-sentinel"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Clover-Retribution-codes",
+        "file": "Clover-Retribution-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Clover-Retribution-beginner-guide",
+        "file": "Clover-Retribution-beginner-guide"
+      },
+      {
+        "slug": "Clover-Retribution-controls",
+        "file": "Clover-Retribution-controls"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-more-spins",
+        "file": "Clover-Retribution-how-to-get-more-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spells",
+        "file": "Clover-Retribution-how-to-get-spells"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spins",
+        "file": "Clover-Retribution-how-to-get-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-join-party",
+        "file": "Clover-Retribution-how-to-join-party"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-open-map",
+        "file": "Clover-Retribution-how-to-open-map"
+      },
+      {
+        "slug": "Clover-Retribution-leveling-guide",
+        "file": "Clover-Retribution-leveling-guide"
+      },
+      {
+        "slug": "Clover-Retribution-main-quest-guide",
+        "file": "Clover-Retribution-main-quest-guide"
+      },
+      {
+        "slug": "Clover-Retribution-progression-guide",
+        "file": "Clover-Retribution-progression-guide"
+      },
+      {
+        "slug": "clover-retribution-aetherstone-golem",
+        "file": "clover-retribution-aetherstone-golem"
+      },
+      {
+        "slug": "clover-retribution-armor",
+        "file": "clover-retribution-armor"
+      },
+      {
+        "slug": "clover-retribution-artemis-tower",
+        "file": "clover-retribution-artemis-tower"
+      },
+      {
+        "slug": "clover-retribution-broom",
+        "file": "clover-retribution-broom"
+      },
+      {
+        "slug": "clover-retribution-copper",
+        "file": "clover-retribution-copper"
+      },
+      {
+        "slug": "clover-retribution-corrupted-mana-from-yetis",
+        "file": "clover-retribution-corrupted-mana-from-yetis"
+      },
+      {
+        "slug": "clover-retribution-crimson-forest",
+        "file": "clover-retribution-crimson-forest"
+      },
+      {
+        "slug": "clover-retribution-daily-quest",
+        "file": "clover-retribution-daily-quest"
+      },
+      {
+        "slug": "clover-retribution-devil-portal-spawns",
+        "file": "clover-retribution-devil-portal-spawns"
+      },
+      {
+        "slug": "clover-retribution-devil-portal",
+        "file": "clover-retribution-devil-portal"
+      },
+      {
+        "slug": "clover-retribution-devil-quest",
+        "file": "clover-retribution-devil-quest"
+      },
+      {
+        "slug": "clover-retribution-devils",
+        "file": "clover-retribution-devils"
+      },
+      {
+        "slug": "clover-retribution-dragon-ball-locations",
+        "file": "clover-retribution-dragon-ball-locations"
+      },
+      {
+        "slug": "clover-retribution-elder-vampire",
+        "file": "clover-retribution-elder-vampire"
+      },
+      {
+        "slug": "clover-retribution-enemies",
+        "file": "clover-retribution-enemies"
+      },
+      {
+        "slug": "clover-retribution-excalibur",
+        "file": "clover-retribution-excalibur"
+      },
+      {
+        "slug": "clover-retribution-first-kingdom",
+        "file": "clover-retribution-first-kingdom"
+      },
+      {
+        "slug": "clover-retribution-gorgon",
+        "file": "clover-retribution-gorgon"
+      },
+      {
+        "slug": "clover-retribution-kraken-drops",
+        "file": "clover-retribution-kraken-drops"
+      },
+      {
+        "slug": "clover-retribution-kraken",
+        "file": "clover-retribution-kraken"
+      },
+      {
+        "slug": "clover-retribution-lesser-devil-location",
+        "file": "clover-retribution-lesser-devil-location"
+      },
+      {
+        "slug": "clover-retribution-map",
+        "file": "clover-retribution-map"
+      },
+      {
+        "slug": "clover-retribution-ogre",
+        "file": "clover-retribution-ogre"
+      },
+      {
+        "slug": "clover-retribution-pickaxe",
+        "file": "clover-retribution-pickaxe"
+      },
+      {
+        "slug": "clover-retribution-prestige",
+        "file": "clover-retribution-prestige"
+      },
+      {
+        "slug": "clover-retribution-pure-vampire-blood",
+        "file": "clover-retribution-pure-vampire-blood"
+      },
+      {
+        "slug": "clover-retribution-races",
+        "file": "clover-retribution-races"
+      },
+      {
+        "slug": "clover-retribution-runes",
+        "file": "clover-retribution-runes"
+      },
+      {
+        "slug": "clover-retribution-siphonite-race",
+        "file": "clover-retribution-siphonite-race"
+      },
+      {
+        "slug": "clover-retribution-skill-tree",
+        "file": "clover-retribution-skill-tree"
+      },
+      {
+        "slug": "clover-retribution-stats",
+        "file": "clover-retribution-stats"
+      },
+      {
+        "slug": "clover-retribution-umbral-abyss-stone",
+        "file": "clover-retribution-umbral-abyss-stone"
+      },
+      {
+        "slug": "clover-retribution-vampire-castle-location",
+        "file": "clover-retribution-vampire-castle-location"
+      },
+      {
+        "slug": "clover-retribution-vampire-lord",
+        "file": "clover-retribution-vampire-lord"
+      },
+      {
+        "slug": "clover-retribution-wishing-well-sword",
+        "file": "clover-retribution-wishing-well-sword"
+      },
+      {
+        "slug": "clover-retribution-wolf-iron-jacket",
+        "file": "clover-retribution-wolf-iron-jacket"
+      },
+      {
+        "slug": "clover-retribution-xp-farm",
+        "file": "clover-retribution-xp-farm"
+      },
+      {
+        "slug": "clover-retribution-yeti-staff",
+        "file": "clover-retribution-yeti-staff"
+      }
+    ],
+    "links": [
+      {
+        "slug": "Clover-Retribution-discord",
+        "file": "Clover-Retribution-discord"
+      },
+      {
+        "slug": "Clover-Retribution-group",
+        "file": "Clover-Retribution-group"
+      },
+      {
+        "slug": "Clover-Retribution-private-server",
+        "file": "Clover-Retribution-private-server"
+      },
+      {
+        "slug": "Clover-Retribution-trello",
+        "file": "Clover-Retribution-trello"
+      },
+      {
+        "slug": "Clover-Retribution-update",
+        "file": "Clover-Retribution-update"
+      }
+    ],
+    "magic": [
+      {
+        "slug": "Clover-Retribution-key-magic",
+        "file": "Clover-Retribution-key-magic"
+      },
+      {
+        "slug": "Clover-Retribution-light-magic",
+        "file": "Clover-Retribution-light-magic"
+      },
+      {
+        "slug": "Clover-Retribution-magic",
+        "file": "Clover-Retribution-magic"
+      },
+      {
+        "slug": "Clover-Retribution-sand-magic",
+        "file": "Clover-Retribution-sand-magic"
+      },
+      {
+        "slug": "Clover-Retribution-shadow-magic",
+        "file": "Clover-Retribution-shadow-magic"
+      },
+      {
+        "slug": "Clover-Retribution-slash-magic",
+        "file": "Clover-Retribution-slash-magic"
+      },
+      {
+        "slug": "Clover-Retribution-spatial-magic",
+        "file": "Clover-Retribution-spatial-magic"
+      },
+      {
+        "slug": "Clover-Retribution-void-magic",
+        "file": "Clover-Retribution-void-magic"
+      },
+      {
+        "slug": "clover-retribution-anti-magic",
+        "file": "clover-retribution-anti-magic"
+      },
+      {
+        "slug": "clover-retribution-balance-magic",
+        "file": "clover-retribution-balance-magic"
+      },
+      {
+        "slug": "clover-retribution-blood-magic",
+        "file": "clover-retribution-blood-magic"
+      },
+      {
+        "slug": "clover-retribution-bronze-magic",
+        "file": "clover-retribution-bronze-magic"
+      },
+      {
+        "slug": "clover-retribution-dark-magic",
+        "file": "clover-retribution-dark-magic"
+      },
+      {
+        "slug": "clover-retribution-dice-magic",
+        "file": "clover-retribution-dice-magic"
+      },
+      {
+        "slug": "clover-retribution-divine-magic",
+        "file": "clover-retribution-divine-magic"
+      },
+      {
+        "slug": "clover-retribution-earth-4-leaf",
+        "file": "clover-retribution-earth-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-earth-magic",
+        "file": "clover-retribution-earth-magic"
+      },
+      {
+        "slug": "clover-retribution-eternal-thirst",
+        "file": "clover-retribution-eternal-thirst"
+      },
+      {
+        "slug": "clover-retribution-grimoires",
+        "file": "clover-retribution-grimoires"
+      },
+      {
+        "slug": "clover-retribution-ice-magic",
+        "file": "clover-retribution-ice-magic"
+      },
+      {
+        "slug": "clover-retribution-imitation-magic",
+        "file": "clover-retribution-imitation-magic"
+      },
+      {
+        "slug": "clover-retribution-legion-magic",
+        "file": "clover-retribution-legion-magic"
+      },
+      {
+        "slug": "clover-retribution-lightning-magic",
+        "file": "clover-retribution-lightning-magic"
+      },
+      {
+        "slug": "clover-retribution-poison-magic",
+        "file": "clover-retribution-poison-magic"
+      },
+      {
+        "slug": "clover-retribution-sunshine-magic",
+        "file": "clover-retribution-sunshine-magic"
+      },
+      {
+        "slug": "clover-retribution-time-magic",
+        "file": "clover-retribution-time-magic"
+      },
+      {
+        "slug": "clover-retribution-void-4-leaf",
+        "file": "clover-retribution-void-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-water-magic",
+        "file": "clover-retribution-water-magic"
+      },
+      {
+        "slug": "clover-retribution-wind-4-leaf",
+        "file": "clover-retribution-wind-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-world-tree-magic",
+        "file": "clover-retribution-world-tree-magic"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "Clover-Retribution-grimoire-tier-list",
+        "file": "Clover-Retribution-grimoire-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-magic-tier-list",
+        "file": "Clover-Retribution-magic-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-race-tier-list",
+        "file": "Clover-Retribution-race-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-tier-list",
+        "file": "Clover-Retribution-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-trait-tier-list",
+        "file": "Clover-Retribution-trait-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-weapons-tier-list",
+        "file": "Clover-Retribution-weapons-tier-list"
+      }
+    ]
+  },
+  "id": {
+    "builds": [
+      {
+        "slug": "Clover-Retribution-anti-magic-build",
+        "file": "Clover-Retribution-anti-magic-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-build",
+        "file": "Clover-Retribution-best-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-magic",
+        "file": "Clover-Retribution-best-magic"
+      },
+      {
+        "slug": "Clover-Retribution-best-race",
+        "file": "Clover-Retribution-best-race"
+      },
+      {
+        "slug": "Clover-Retribution-best-trait",
+        "file": "Clover-Retribution-best-trait"
+      },
+      {
+        "slug": "Clover-Retribution-builds",
+        "file": "Clover-Retribution-builds"
+      },
+      {
+        "slug": "Clover-Retribution-heavenly-restricted",
+        "file": "Clover-Retribution-heavenly-restricted"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-devil",
+        "file": "Clover-Retribution-hybrid-devil"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-paladin",
+        "file": "Clover-Retribution-hybrid-paladin"
+      },
+      {
+        "slug": "Clover-Retribution-legion-build",
+        "file": "Clover-Retribution-legion-build"
+      },
+      {
+        "slug": "clover-retribution-adrenaline-fiend",
+        "file": "clover-retribution-adrenaline-fiend"
+      },
+      {
+        "slug": "clover-retribution-arcane-zenith",
+        "file": "clover-retribution-arcane-zenith"
+      },
+      {
+        "slug": "clover-retribution-bond-of-blessings",
+        "file": "clover-retribution-bond-of-blessings"
+      },
+      {
+        "slug": "clover-retribution-demon-union",
+        "file": "clover-retribution-demon-union"
+      },
+      {
+        "slug": "clover-retribution-divine-restriction",
+        "file": "clover-retribution-divine-restriction"
+      },
+      {
+        "slug": "clover-retribution-frenzied-flame",
+        "file": "clover-retribution-frenzied-flame"
+      },
+      {
+        "slug": "clover-retribution-gaia-s-blessing",
+        "file": "clover-retribution-gaia's-blessing"
+      },
+      {
+        "slug": "clover-retribution-ice-elf",
+        "file": "clover-retribution-ice-elf"
+      },
+      {
+        "slug": "clover-retribution-kitsune",
+        "file": "clover-retribution-kitsune"
+      },
+      {
+        "slug": "clover-retribution-nogitsune",
+        "file": "clover-retribution-nogitsune"
+      },
+      {
+        "slug": "clover-retribution-starborn",
+        "file": "clover-retribution-starborn"
+      },
+      {
+        "slug": "clover-retribution-unyielding-sentinel",
+        "file": "clover-retribution-unyielding-sentinel"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Clover-Retribution-codes",
+        "file": "Clover-Retribution-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Clover-Retribution-beginner-guide",
+        "file": "Clover-Retribution-beginner-guide"
+      },
+      {
+        "slug": "Clover-Retribution-controls",
+        "file": "Clover-Retribution-controls"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-more-spins",
+        "file": "Clover-Retribution-how-to-get-more-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spells",
+        "file": "Clover-Retribution-how-to-get-spells"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spins",
+        "file": "Clover-Retribution-how-to-get-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-join-party",
+        "file": "Clover-Retribution-how-to-join-party"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-open-map",
+        "file": "Clover-Retribution-how-to-open-map"
+      },
+      {
+        "slug": "Clover-Retribution-leveling-guide",
+        "file": "Clover-Retribution-leveling-guide"
+      },
+      {
+        "slug": "Clover-Retribution-main-quest-guide",
+        "file": "Clover-Retribution-main-quest-guide"
+      },
+      {
+        "slug": "Clover-Retribution-progression-guide",
+        "file": "Clover-Retribution-progression-guide"
+      },
+      {
+        "slug": "clover-retribution-aetherstone-golem",
+        "file": "clover-retribution-aetherstone-golem"
+      },
+      {
+        "slug": "clover-retribution-armor",
+        "file": "clover-retribution-armor"
+      },
+      {
+        "slug": "clover-retribution-artemis-tower",
+        "file": "clover-retribution-artemis-tower"
+      },
+      {
+        "slug": "clover-retribution-broom",
+        "file": "clover-retribution-broom"
+      },
+      {
+        "slug": "clover-retribution-copper",
+        "file": "clover-retribution-copper"
+      },
+      {
+        "slug": "clover-retribution-corrupted-mana-from-yetis",
+        "file": "clover-retribution-corrupted-mana-from-yetis"
+      },
+      {
+        "slug": "clover-retribution-crimson-forest",
+        "file": "clover-retribution-crimson-forest"
+      },
+      {
+        "slug": "clover-retribution-daily-quest",
+        "file": "clover-retribution-daily-quest"
+      },
+      {
+        "slug": "clover-retribution-devil-portal-spawns",
+        "file": "clover-retribution-devil-portal-spawns"
+      },
+      {
+        "slug": "clover-retribution-devil-portal",
+        "file": "clover-retribution-devil-portal"
+      },
+      {
+        "slug": "clover-retribution-devil-quest",
+        "file": "clover-retribution-devil-quest"
+      },
+      {
+        "slug": "clover-retribution-devils",
+        "file": "clover-retribution-devils"
+      },
+      {
+        "slug": "clover-retribution-dragon-ball-locations",
+        "file": "clover-retribution-dragon-ball-locations"
+      },
+      {
+        "slug": "clover-retribution-elder-vampire",
+        "file": "clover-retribution-elder-vampire"
+      },
+      {
+        "slug": "clover-retribution-enemies",
+        "file": "clover-retribution-enemies"
+      },
+      {
+        "slug": "clover-retribution-excalibur",
+        "file": "clover-retribution-excalibur"
+      },
+      {
+        "slug": "clover-retribution-first-kingdom",
+        "file": "clover-retribution-first-kingdom"
+      },
+      {
+        "slug": "clover-retribution-gorgon",
+        "file": "clover-retribution-gorgon"
+      },
+      {
+        "slug": "clover-retribution-kraken-drops",
+        "file": "clover-retribution-kraken-drops"
+      },
+      {
+        "slug": "clover-retribution-kraken",
+        "file": "clover-retribution-kraken"
+      },
+      {
+        "slug": "clover-retribution-lesser-devil-location",
+        "file": "clover-retribution-lesser-devil-location"
+      },
+      {
+        "slug": "clover-retribution-map",
+        "file": "clover-retribution-map"
+      },
+      {
+        "slug": "clover-retribution-ogre",
+        "file": "clover-retribution-ogre"
+      },
+      {
+        "slug": "clover-retribution-pickaxe",
+        "file": "clover-retribution-pickaxe"
+      },
+      {
+        "slug": "clover-retribution-prestige",
+        "file": "clover-retribution-prestige"
+      },
+      {
+        "slug": "clover-retribution-pure-vampire-blood",
+        "file": "clover-retribution-pure-vampire-blood"
+      },
+      {
+        "slug": "clover-retribution-races",
+        "file": "clover-retribution-races"
+      },
+      {
+        "slug": "clover-retribution-runes",
+        "file": "clover-retribution-runes"
+      },
+      {
+        "slug": "clover-retribution-siphonite-race",
+        "file": "clover-retribution-siphonite-race"
+      },
+      {
+        "slug": "clover-retribution-skill-tree",
+        "file": "clover-retribution-skill-tree"
+      },
+      {
+        "slug": "clover-retribution-stats",
+        "file": "clover-retribution-stats"
+      },
+      {
+        "slug": "clover-retribution-umbral-abyss-stone",
+        "file": "clover-retribution-umbral-abyss-stone"
+      },
+      {
+        "slug": "clover-retribution-vampire-castle-location",
+        "file": "clover-retribution-vampire-castle-location"
+      },
+      {
+        "slug": "clover-retribution-vampire-lord",
+        "file": "clover-retribution-vampire-lord"
+      },
+      {
+        "slug": "clover-retribution-wishing-well-sword",
+        "file": "clover-retribution-wishing-well-sword"
+      },
+      {
+        "slug": "clover-retribution-wolf-iron-jacket",
+        "file": "clover-retribution-wolf-iron-jacket"
+      },
+      {
+        "slug": "clover-retribution-xp-farm",
+        "file": "clover-retribution-xp-farm"
+      },
+      {
+        "slug": "clover-retribution-yeti-staff",
+        "file": "clover-retribution-yeti-staff"
+      }
+    ],
+    "links": [
+      {
+        "slug": "Clover-Retribution-discord",
+        "file": "Clover-Retribution-discord"
+      },
+      {
+        "slug": "Clover-Retribution-group",
+        "file": "Clover-Retribution-group"
+      },
+      {
+        "slug": "Clover-Retribution-private-server",
+        "file": "Clover-Retribution-private-server"
+      },
+      {
+        "slug": "Clover-Retribution-trello",
+        "file": "Clover-Retribution-trello"
+      },
+      {
+        "slug": "Clover-Retribution-update",
+        "file": "Clover-Retribution-update"
+      }
+    ],
+    "magic": [
+      {
+        "slug": "Clover-Retribution-key-magic",
+        "file": "Clover-Retribution-key-magic"
+      },
+      {
+        "slug": "Clover-Retribution-light-magic",
+        "file": "Clover-Retribution-light-magic"
+      },
+      {
+        "slug": "Clover-Retribution-magic",
+        "file": "Clover-Retribution-magic"
+      },
+      {
+        "slug": "Clover-Retribution-sand-magic",
+        "file": "Clover-Retribution-sand-magic"
+      },
+      {
+        "slug": "Clover-Retribution-shadow-magic",
+        "file": "Clover-Retribution-shadow-magic"
+      },
+      {
+        "slug": "Clover-Retribution-slash-magic",
+        "file": "Clover-Retribution-slash-magic"
+      },
+      {
+        "slug": "Clover-Retribution-spatial-magic",
+        "file": "Clover-Retribution-spatial-magic"
+      },
+      {
+        "slug": "Clover-Retribution-void-magic",
+        "file": "Clover-Retribution-void-magic"
+      },
+      {
+        "slug": "clover-retribution-anti-magic",
+        "file": "clover-retribution-anti-magic"
+      },
+      {
+        "slug": "clover-retribution-balance-magic",
+        "file": "clover-retribution-balance-magic"
+      },
+      {
+        "slug": "clover-retribution-blood-magic",
+        "file": "clover-retribution-blood-magic"
+      },
+      {
+        "slug": "clover-retribution-bronze-magic",
+        "file": "clover-retribution-bronze-magic"
+      },
+      {
+        "slug": "clover-retribution-dark-magic",
+        "file": "clover-retribution-dark-magic"
+      },
+      {
+        "slug": "clover-retribution-dice-magic",
+        "file": "clover-retribution-dice-magic"
+      },
+      {
+        "slug": "clover-retribution-divine-magic",
+        "file": "clover-retribution-divine-magic"
+      },
+      {
+        "slug": "clover-retribution-earth-4-leaf",
+        "file": "clover-retribution-earth-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-earth-magic",
+        "file": "clover-retribution-earth-magic"
+      },
+      {
+        "slug": "clover-retribution-eternal-thirst",
+        "file": "clover-retribution-eternal-thirst"
+      },
+      {
+        "slug": "clover-retribution-grimoires",
+        "file": "clover-retribution-grimoires"
+      },
+      {
+        "slug": "clover-retribution-ice-magic",
+        "file": "clover-retribution-ice-magic"
+      },
+      {
+        "slug": "clover-retribution-imitation-magic",
+        "file": "clover-retribution-imitation-magic"
+      },
+      {
+        "slug": "clover-retribution-legion-magic",
+        "file": "clover-retribution-legion-magic"
+      },
+      {
+        "slug": "clover-retribution-lightning-magic",
+        "file": "clover-retribution-lightning-magic"
+      },
+      {
+        "slug": "clover-retribution-poison-magic",
+        "file": "clover-retribution-poison-magic"
+      },
+      {
+        "slug": "clover-retribution-sunshine-magic",
+        "file": "clover-retribution-sunshine-magic"
+      },
+      {
+        "slug": "clover-retribution-time-magic",
+        "file": "clover-retribution-time-magic"
+      },
+      {
+        "slug": "clover-retribution-void-4-leaf",
+        "file": "clover-retribution-void-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-water-magic",
+        "file": "clover-retribution-water-magic"
+      },
+      {
+        "slug": "clover-retribution-wind-4-leaf",
+        "file": "clover-retribution-wind-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-world-tree-magic",
+        "file": "clover-retribution-world-tree-magic"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "Clover-Retribution-grimoire-tier-list",
+        "file": "Clover-Retribution-grimoire-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-magic-tier-list",
+        "file": "Clover-Retribution-magic-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-race-tier-list",
+        "file": "Clover-Retribution-race-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-tier-list",
+        "file": "Clover-Retribution-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-trait-tier-list",
+        "file": "Clover-Retribution-trait-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-weapons-tier-list",
+        "file": "Clover-Retribution-weapons-tier-list"
+      }
+    ]
+  },
+  "pt-BR": {
+    "builds": [
+      {
+        "slug": "Clover-Retribution-anti-magic-build",
+        "file": "Clover-Retribution-anti-magic-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-build",
+        "file": "Clover-Retribution-best-build"
+      },
+      {
+        "slug": "Clover-Retribution-best-magic",
+        "file": "Clover-Retribution-best-magic"
+      },
+      {
+        "slug": "Clover-Retribution-best-race",
+        "file": "Clover-Retribution-best-race"
+      },
+      {
+        "slug": "Clover-Retribution-best-trait",
+        "file": "Clover-Retribution-best-trait"
+      },
+      {
+        "slug": "Clover-Retribution-builds",
+        "file": "Clover-Retribution-builds"
+      },
+      {
+        "slug": "Clover-Retribution-heavenly-restricted",
+        "file": "Clover-Retribution-heavenly-restricted"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-devil",
+        "file": "Clover-Retribution-hybrid-devil"
+      },
+      {
+        "slug": "Clover-Retribution-hybrid-paladin",
+        "file": "Clover-Retribution-hybrid-paladin"
+      },
+      {
+        "slug": "Clover-Retribution-legion-build",
+        "file": "Clover-Retribution-legion-build"
+      },
+      {
+        "slug": "clover-retribution-adrenaline-fiend",
+        "file": "clover-retribution-adrenaline-fiend"
+      },
+      {
+        "slug": "clover-retribution-arcane-zenith",
+        "file": "clover-retribution-arcane-zenith"
+      },
+      {
+        "slug": "clover-retribution-bond-of-blessings",
+        "file": "clover-retribution-bond-of-blessings"
+      },
+      {
+        "slug": "clover-retribution-demon-union",
+        "file": "clover-retribution-demon-union"
+      },
+      {
+        "slug": "clover-retribution-divine-restriction",
+        "file": "clover-retribution-divine-restriction"
+      },
+      {
+        "slug": "clover-retribution-frenzied-flame",
+        "file": "clover-retribution-frenzied-flame"
+      },
+      {
+        "slug": "clover-retribution-gaia-s-blessing",
+        "file": "clover-retribution-gaia's-blessing"
+      },
+      {
+        "slug": "clover-retribution-ice-elf",
+        "file": "clover-retribution-ice-elf"
+      },
+      {
+        "slug": "clover-retribution-kitsune",
+        "file": "clover-retribution-kitsune"
+      },
+      {
+        "slug": "clover-retribution-nogitsune",
+        "file": "clover-retribution-nogitsune"
+      },
+      {
+        "slug": "clover-retribution-starborn",
+        "file": "clover-retribution-starborn"
+      },
+      {
+        "slug": "clover-retribution-unyielding-sentinel",
+        "file": "clover-retribution-unyielding-sentinel"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "Clover-Retribution-codes",
+        "file": "Clover-Retribution-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Clover-Retribution-beginner-guide",
+        "file": "Clover-Retribution-beginner-guide"
+      },
+      {
+        "slug": "Clover-Retribution-controls",
+        "file": "Clover-Retribution-controls"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-more-spins",
+        "file": "Clover-Retribution-how-to-get-more-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spells",
+        "file": "Clover-Retribution-how-to-get-spells"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-get-spins",
+        "file": "Clover-Retribution-how-to-get-spins"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-join-party",
+        "file": "Clover-Retribution-how-to-join-party"
+      },
+      {
+        "slug": "Clover-Retribution-how-to-open-map",
+        "file": "Clover-Retribution-how-to-open-map"
+      },
+      {
+        "slug": "Clover-Retribution-leveling-guide",
+        "file": "Clover-Retribution-leveling-guide"
+      },
+      {
+        "slug": "Clover-Retribution-main-quest-guide",
+        "file": "Clover-Retribution-main-quest-guide"
+      },
+      {
+        "slug": "Clover-Retribution-progression-guide",
+        "file": "Clover-Retribution-progression-guide"
+      },
+      {
+        "slug": "clover-retribution-aetherstone-golem",
+        "file": "clover-retribution-aetherstone-golem"
+      },
+      {
+        "slug": "clover-retribution-armor",
+        "file": "clover-retribution-armor"
+      },
+      {
+        "slug": "clover-retribution-artemis-tower",
+        "file": "clover-retribution-artemis-tower"
+      },
+      {
+        "slug": "clover-retribution-broom",
+        "file": "clover-retribution-broom"
+      },
+      {
+        "slug": "clover-retribution-copper",
+        "file": "clover-retribution-copper"
+      },
+      {
+        "slug": "clover-retribution-corrupted-mana-from-yetis",
+        "file": "clover-retribution-corrupted-mana-from-yetis"
+      },
+      {
+        "slug": "clover-retribution-crimson-forest",
+        "file": "clover-retribution-crimson-forest"
+      },
+      {
+        "slug": "clover-retribution-daily-quest",
+        "file": "clover-retribution-daily-quest"
+      },
+      {
+        "slug": "clover-retribution-devil-portal-spawns",
+        "file": "clover-retribution-devil-portal-spawns"
+      },
+      {
+        "slug": "clover-retribution-devil-portal",
+        "file": "clover-retribution-devil-portal"
+      },
+      {
+        "slug": "clover-retribution-devil-quest",
+        "file": "clover-retribution-devil-quest"
+      },
+      {
+        "slug": "clover-retribution-devils",
+        "file": "clover-retribution-devils"
+      },
+      {
+        "slug": "clover-retribution-dragon-ball-locations",
+        "file": "clover-retribution-dragon-ball-locations"
+      },
+      {
+        "slug": "clover-retribution-elder-vampire",
+        "file": "clover-retribution-elder-vampire"
+      },
+      {
+        "slug": "clover-retribution-enemies",
+        "file": "clover-retribution-enemies"
+      },
+      {
+        "slug": "clover-retribution-excalibur",
+        "file": "clover-retribution-excalibur"
+      },
+      {
+        "slug": "clover-retribution-first-kingdom",
+        "file": "clover-retribution-first-kingdom"
+      },
+      {
+        "slug": "clover-retribution-gorgon",
+        "file": "clover-retribution-gorgon"
+      },
+      {
+        "slug": "clover-retribution-kraken-drops",
+        "file": "clover-retribution-kraken-drops"
+      },
+      {
+        "slug": "clover-retribution-kraken",
+        "file": "clover-retribution-kraken"
+      },
+      {
+        "slug": "clover-retribution-lesser-devil-location",
+        "file": "clover-retribution-lesser-devil-location"
+      },
+      {
+        "slug": "clover-retribution-map",
+        "file": "clover-retribution-map"
+      },
+      {
+        "slug": "clover-retribution-ogre",
+        "file": "clover-retribution-ogre"
+      },
+      {
+        "slug": "clover-retribution-pickaxe",
+        "file": "clover-retribution-pickaxe"
+      },
+      {
+        "slug": "clover-retribution-prestige",
+        "file": "clover-retribution-prestige"
+      },
+      {
+        "slug": "clover-retribution-pure-vampire-blood",
+        "file": "clover-retribution-pure-vampire-blood"
+      },
+      {
+        "slug": "clover-retribution-races",
+        "file": "clover-retribution-races"
+      },
+      {
+        "slug": "clover-retribution-runes",
+        "file": "clover-retribution-runes"
+      },
+      {
+        "slug": "clover-retribution-siphonite-race",
+        "file": "clover-retribution-siphonite-race"
+      },
+      {
+        "slug": "clover-retribution-skill-tree",
+        "file": "clover-retribution-skill-tree"
+      },
+      {
+        "slug": "clover-retribution-stats",
+        "file": "clover-retribution-stats"
+      },
+      {
+        "slug": "clover-retribution-umbral-abyss-stone",
+        "file": "clover-retribution-umbral-abyss-stone"
+      },
+      {
+        "slug": "clover-retribution-vampire-castle-location",
+        "file": "clover-retribution-vampire-castle-location"
+      },
+      {
+        "slug": "clover-retribution-vampire-lord",
+        "file": "clover-retribution-vampire-lord"
+      },
+      {
+        "slug": "clover-retribution-wishing-well-sword",
+        "file": "clover-retribution-wishing-well-sword"
+      },
+      {
+        "slug": "clover-retribution-wolf-iron-jacket",
+        "file": "clover-retribution-wolf-iron-jacket"
+      },
+      {
+        "slug": "clover-retribution-xp-farm",
+        "file": "clover-retribution-xp-farm"
+      },
+      {
+        "slug": "clover-retribution-yeti-staff",
+        "file": "clover-retribution-yeti-staff"
+      }
+    ],
+    "links": [
+      {
+        "slug": "Clover-Retribution-discord",
+        "file": "Clover-Retribution-discord"
+      },
+      {
+        "slug": "Clover-Retribution-group",
+        "file": "Clover-Retribution-group"
+      },
+      {
+        "slug": "Clover-Retribution-private-server",
+        "file": "Clover-Retribution-private-server"
+      },
+      {
+        "slug": "Clover-Retribution-trello",
+        "file": "Clover-Retribution-trello"
+      },
+      {
+        "slug": "Clover-Retribution-update",
+        "file": "Clover-Retribution-update"
+      }
+    ],
+    "magic": [
+      {
+        "slug": "Clover-Retribution-key-magic",
+        "file": "Clover-Retribution-key-magic"
+      },
+      {
+        "slug": "Clover-Retribution-light-magic",
+        "file": "Clover-Retribution-light-magic"
+      },
+      {
+        "slug": "Clover-Retribution-magic",
+        "file": "Clover-Retribution-magic"
+      },
+      {
+        "slug": "Clover-Retribution-sand-magic",
+        "file": "Clover-Retribution-sand-magic"
+      },
+      {
+        "slug": "Clover-Retribution-shadow-magic",
+        "file": "Clover-Retribution-shadow-magic"
+      },
+      {
+        "slug": "Clover-Retribution-slash-magic",
+        "file": "Clover-Retribution-slash-magic"
+      },
+      {
+        "slug": "Clover-Retribution-spatial-magic",
+        "file": "Clover-Retribution-spatial-magic"
+      },
+      {
+        "slug": "Clover-Retribution-void-magic",
+        "file": "Clover-Retribution-void-magic"
+      },
+      {
+        "slug": "clover-retribution-anti-magic",
+        "file": "clover-retribution-anti-magic"
+      },
+      {
+        "slug": "clover-retribution-balance-magic",
+        "file": "clover-retribution-balance-magic"
+      },
+      {
+        "slug": "clover-retribution-blood-magic",
+        "file": "clover-retribution-blood-magic"
+      },
+      {
+        "slug": "clover-retribution-bronze-magic",
+        "file": "clover-retribution-bronze-magic"
+      },
+      {
+        "slug": "clover-retribution-dark-magic",
+        "file": "clover-retribution-dark-magic"
+      },
+      {
+        "slug": "clover-retribution-dice-magic",
+        "file": "clover-retribution-dice-magic"
+      },
+      {
+        "slug": "clover-retribution-divine-magic",
+        "file": "clover-retribution-divine-magic"
+      },
+      {
+        "slug": "clover-retribution-earth-4-leaf",
+        "file": "clover-retribution-earth-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-earth-magic",
+        "file": "clover-retribution-earth-magic"
+      },
+      {
+        "slug": "clover-retribution-eternal-thirst",
+        "file": "clover-retribution-eternal-thirst"
+      },
+      {
+        "slug": "clover-retribution-grimoires",
+        "file": "clover-retribution-grimoires"
+      },
+      {
+        "slug": "clover-retribution-ice-magic",
+        "file": "clover-retribution-ice-magic"
+      },
+      {
+        "slug": "clover-retribution-imitation-magic",
+        "file": "clover-retribution-imitation-magic"
+      },
+      {
+        "slug": "clover-retribution-legion-magic",
+        "file": "clover-retribution-legion-magic"
+      },
+      {
+        "slug": "clover-retribution-lightning-magic",
+        "file": "clover-retribution-lightning-magic"
+      },
+      {
+        "slug": "clover-retribution-poison-magic",
+        "file": "clover-retribution-poison-magic"
+      },
+      {
+        "slug": "clover-retribution-sunshine-magic",
+        "file": "clover-retribution-sunshine-magic"
+      },
+      {
+        "slug": "clover-retribution-time-magic",
+        "file": "clover-retribution-time-magic"
+      },
+      {
+        "slug": "clover-retribution-void-4-leaf",
+        "file": "clover-retribution-void-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-water-magic",
+        "file": "clover-retribution-water-magic"
+      },
+      {
+        "slug": "clover-retribution-wind-4-leaf",
+        "file": "clover-retribution-wind-4-leaf"
+      },
+      {
+        "slug": "clover-retribution-world-tree-magic",
+        "file": "clover-retribution-world-tree-magic"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "Clover-Retribution-grimoire-tier-list",
+        "file": "Clover-Retribution-grimoire-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-magic-tier-list",
+        "file": "Clover-Retribution-magic-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-race-tier-list",
+        "file": "Clover-Retribution-race-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-tier-list",
+        "file": "Clover-Retribution-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-trait-tier-list",
+        "file": "Clover-Retribution-trait-tier-list"
+      },
+      {
+        "slug": "Clover-Retribution-weapons-tier-list",
+        "file": "Clover-Retribution-weapons-tier-list"
+      }
+    ]
+  }
+}
